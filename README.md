@@ -1,2 +1,2 @@
-# uofm-inter-with-javascript
+# UofM-Inter-with-JavaScript
 University of Michigan - Interactivity with JavaScript
