@@ -5,10 +5,10 @@ title: |
   taught by Colleen van Lent , PhD
 ---
 
-![](images/image001.png){width="4.0in" height="2.241453412073491in"}
+![](images/image001.webp){width="4.0in" height="2.241453412073491in"}
 
 ![Advanced Styling with Responsive Design offered by University of
-Michigan.](images/image0002.png){width="2.0in"
+Michigan.](images/image0002.webp){width="2.0in"
 height="0.8481014873140857in"}
 
 # Table of Contents {#table-of-contents .TOC-Heading}
@@ -388,7 +388,7 @@ in the time we have. We will focus on the following:
 
 # Week 1-01. Introduction
 
-![](images/image003.png){width="4.0in"
+![](images/image003.webp){width="4.0in"
 height="2.2512817147856516in"}
 
 Hi everybody. Today I\'m going to introduce you to the JavaScript
@@ -400,7 +400,7 @@ you\'re really going to want to go back and review those two areas
 because everything we with JavaScript in this class is based on web
 programming.
 
-![](images/image004.png){width="4.0in" height="2.241453412073491in"}
+![](images/image004.webp){width="4.0in" height="2.241453412073491in"}
 
 Let\'s get started. If you\'ve done HTML, if you\'ve done CSS, you
 haven\'t necessarily done what we call real programming, at least not
@@ -417,7 +417,7 @@ back the title of the page, the URL of your page, a lot of different
 information that you know is there, but you can\'t always see at first
 glance?
 
-![](images/image005.png){width="4.0in" height="2.241453412073491in"}
+![](images/image005.webp){width="4.0in" height="2.241453412073491in"}
 
 The other thing we can do, which is really where it gets a little bit
 more exciting, is that we can manipulate the DOM that the browsers use
@@ -425,7 +425,7 @@ to create webpages. The DOM is the Document Object Model, it\'s what
 builds up a webpage. If you\'re a little fuzzy, it\'s been a little
 while, don\'t worry. We\'re going to review the DOM in a future lecture.
 
-![](images/image006.png){width="4.0in" height="2.241453412073491in"}
+![](images/image006.webp){width="4.0in" height="2.241453412073491in"}
 
 Let\'s start with variables. In computer science, we use variables in
 order to store information. Your program isn\'t going to be very
@@ -433,7 +433,7 @@ exciting if you ask somebody their name and then you can\'t actually use
 that name later on. You\'re going to find out how to get information
 from the user, and then store it so you can use it later.
 
-![](images/image007.png){width="4.0in" height="2.241453412073491in"}
+![](images/image007.webp){width="4.0in" height="2.241453412073491in"}
 
 We\'re also going to add decision points. Things are much more
 interesting when they don\'t do the same thing every single time. We\'re
@@ -441,7 +441,7 @@ going to write a little bit of code that can help the program decide in
 some cases I want to do this and in other cases, I want to do that. We
 call this decision points.
 
-![](images/image008.png){width="4.0in" height="2.241453412073491in"}
+![](images/image008.webp){width="4.0in" height="2.241453412073491in"}
 
 We can also do looping. Looping is really powerful. As your programs get
 bigger, there\'s certain things you\'ll want to do over and over again,
@@ -451,14 +451,14 @@ program and say, see that little bit of code over there? We want to do
 that five times, or ten times, or we want to keep doing it until the
 human does what we want them to do.
 
-![](images/image009.png){width="4.0in" height="2.241453412073491in"}
+![](images/image009.webp){width="4.0in" height="2.241453412073491in"}
 
 Otherwise, you sometimes have to decide at run time how many times you
 want to run some code. If you know that you want someone to do something
 five times, you can be very specific about it. Programming gives you so
 much flexibility in how you want your code to run.
 
-![](images/image010.png){width="4.0in"
+![](images/image010.webp){width="4.0in"
 height="2.241453412073491in"}
 
 Next in this course we\'re going to talk about functions. Functions are
@@ -468,7 +468,7 @@ that other people can write code and you can use it, and you don\'t even
 need to know how it works all you need to know is, what did you call
 your function? Great. I want to use that.
 
-![](images/image011.png){width="4.0in"
+![](images/image011.webp){width="4.0in"
 height="2.241453412073491in"}
 
 Finally, we\'re going to talk about manipulating the dominant class.
@@ -484,7 +484,7 @@ the user might have. This is where it really gets fun. We\'re going to
 start with the basics, the variables, the loopings, and then we\'re
 going to have fun manipulating the DOM.
 
-![](images/image012.png){width="4.0in"
+![](images/image012.webp){width="4.0in"
 height="2.241453412073491in"}
 
 A major component of learning any new programming language, or I guess,
@@ -535,13 +535,13 @@ the DOM.
 
 # Week 1-02. DOM Review with Object Oriented Programming
 
-![](images/image013.png){width="4.0in"
+![](images/image013.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 Today we\'re going to be talking about the DOM, or the document object
 model.
 
-![](images/image014.png){width="4.0in"
+![](images/image014.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 As you may or may not remember, every webpage is built upon this DOM.
@@ -550,7 +550,7 @@ one parent and possibly a few children. And the page as you add more and
 more things it just gets deeper and deeper. Nodes have different
 properties, methods, and events.
 
-![](images/image015.png){width="4.0in"
+![](images/image015.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 Let me draw you a quick example and then we\'ll talk about how we can
@@ -565,7 +565,7 @@ We\'ll say, well this div has three paragraphs and one of those
 paragraphs has the id equals 3. What does this mean? Why do we care that
 the pages built like a tree?
 
-![](images/image016.png){width="4.0in"
+![](images/image016.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 This means that JavaScript can actually go in and it can look and say,
@@ -580,14 +580,14 @@ of font, the paragraph also has text in it. How can we go in there and
 how can we change that text? This is what we\'re going to be using
 JavaScript to do in this course.
 
-![](images/image017.png){width="4.0in"
+![](images/image017.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 Again, we\'ve got that the page content is represented by the DOM. The
 scripting language JavaScript uses the DOM to interact with the
 document. How does it do that, though? How does it know how to interact?
 
-![](images/image018.png){width="4.0in"
+![](images/image018.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 Well, the JavaScript has something called an API, or an application
@@ -598,7 +598,7 @@ intimidating if you\'ve never used one before. An API is just a way for
 someone else to write code, and then you to use it, to interact with
 their programs.
 
-![](images/image019.png){width="4.0in"
+![](images/image019.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 No matter which browser you\'re using, Firefox, Chrome, different things
@@ -608,7 +608,7 @@ you interact is always going to be the same. And this is really
 important, because it\'s nice to know that if you learn this you won\'t
 have to learn something different later on.
 
-![](images/image020.png){width="4.0in"
+![](images/image020.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 Let\'s talk about some of these DOM objects or element as we call them.
@@ -646,7 +646,7 @@ width, and a style, different things like that.
 Attributes are the kind of cool things that we want you to be able to
 change to make your page look different.
 
-![](images/image021.png){width="4.0in"
+![](images/image021.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 Okay, so if you understand that the page is made up of documents, and
@@ -668,7 +668,7 @@ Finally, an interesting one that you may or may not use, is you can even
 remove attributes. If something has a certain color, you can get rid of
 that if you want.
 
-![](images/image022.png){width="4.0in"
+![](images/image022.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 I know that there was a lot I went over in this slide that maybe didn\'t
@@ -689,7 +689,7 @@ bit until your confidence is really up there. Good luck.
 
 # Week 1-03. Output
 
-![](images/image023.png){width="4.0in"
+![](images/image023.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 Hi everybody. Today, let\'s start coding a little bit to see some of
@@ -699,14 +699,14 @@ the details tag if you\'re using HTML. There\'s the hover property or
 pseudo class if you\'re using CSS 3 and you were able to make little
 things change in your page by reacting to what the user was doing.
 
-![](images/image024.png){width="4.0in"
+![](images/image024.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 But typically, that\'s not really what we call interactivity when we\'re
 talking about true web design because these new elements and the pseudo
 classes can only go so far. They tend to be temporary changes.
 
-![](images/image025.png){width="4.0in"
+![](images/image025.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 So, what can JavaScript do that HTML and CSS can\'t do? Well, the one
@@ -720,7 +720,7 @@ Whenever you learn a new programming language, one of the first things
 you want to do is find out how can I make things happen. How can I have
 things print out to the screen or generate some sort of output.
 
-![](images/image026.png){width="4.0in"
+![](images/image026.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 Well, JavaScript doesn\'t have a built-in print function. Instead, you
@@ -729,7 +729,7 @@ things. Data is typically displayed via alerts, prompts, document.write,
 innertHTML or reading information directly to the console. Let\'s talk
 about each one of these.
 
-![](images/image027.png){width="4.0in"
+![](images/image027.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 You\'ve all seen alert JavaScript alert boxes. Because many times,
@@ -747,7 +747,7 @@ single quotes or double quotes. And then, the last thing is, to end in a
 semicolon. If you were to put this code right here inside your HTML, you
 can generate some output.
 
-![](images/image028.png){width="4.0in"
+![](images/image028.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 Let me show you an example. What I\'ve done over here is I\'ve created
@@ -757,7 +757,7 @@ tells the browser, oh wait, don\'t just print this out, I\'m actually
 going to give you some JavaScript that I want you to run. And in this
 case, I have my code alert(\"Hello World\").
 
-![](images/image029.png){width="4.0in"
+![](images/image029.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 If I were to run this, and I\'m going to refresh it. You can see I get
@@ -766,7 +766,7 @@ home, and you\'re not using Chrome, the box is going to look different.
 For some of you it\'s going to have the little Safari symbol, or the
 Edge, or Firefox.
 
-![](images/image030.png){width="4.0in"
+![](images/image030.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 That\'s okay, the important thing is that somewhere in here it says
@@ -776,7 +776,7 @@ class we\'re going to be playing with alert a lot because it\'s a nice
 way for you to know if your code\'s working or not. Again, this is just
 a quick and simple way for you to generate output using the alert.
 
-![](images/image031.png){width="4.0in"
+![](images/image031.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 The next way we can generate output is using prompt. Prompt is very
@@ -786,8 +786,8 @@ of input to put in there. As you can see, the alert and the prompt look
 very similar. They\'ve both got the key word, the parentheses, the
 semicolon and the string, but the way they act is very different.
 
-![](images/image032.png){width="3.5in"
-height="1.9635148731408574in"}![](images/image033.png){width="3.5in"
+![](images/image032.webp){width="3.5in"
+height="1.9635148731408574in"}![](images/image033.webp){width="3.5in"
 height="1.9635148731408574in"}
 
 In this case when you run it, it\'s actually waiting for you to type
@@ -799,7 +799,7 @@ can display information, but nothing is actually showing up on the page.
 Let\'s switch to the general ways in which you can generate output to
 the screen.
 
-![](images/image034.png){width="4.0in"
+![](images/image034.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 One way, if you want something to be what we call permanent, to not just
@@ -814,14 +814,14 @@ itself, prompt worked by itself, but here you need to have
 **document.write()**. Same thing, hopefully you\'re seeing the pattern.
 Let\'s see when we add this.
 
-![](images/image035.png){width="4.0in"
+![](images/image035.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 Here you can see that inside the script tag, again, I have the
 **document.write()**. But instead of things popping up or asking us for
 input, it writes it directly into the screen.
 
-![](images/image036.png){width="4.0in"
+![](images/image036.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 Now I\'m going to change something right here. Because I put h1 inside
@@ -830,7 +830,7 @@ instead of being an h1 heading, it's just regular old text. So,
 **document.write** is a way for you to generate output. But we need to
 realize that it is probably not the best way to do it.
 
-![](images/image037.png){width="4.0in"
+![](images/image037.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 Because sometimes if you\'re misusing it, you can overwrite other things
@@ -838,7 +838,7 @@ that exist. So, **document.write** is something you just want to use
 when you\'re beginning and you don\'t know some of the more complex
 methods.
 
-![](images/image038.png){width="4.0in"
+![](images/image038.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 One of the more complex methods you can use is called innerHTML. And
@@ -849,7 +849,7 @@ Oh, I want to change that particular paragraph, all right. But how do I
 grab that particular paragraph? Or remember we have these different APIs
 that can go and get things for us.
 
-![](images/image039.png){width="4.0in"
+![](images/image039.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 In this case, I have element which is hopefully we\'ll find something
@@ -866,7 +866,7 @@ When I talk about this kind of generic element, I didn\'t make it a
 color that\'s something that you need to grab using the API. Let me give
 you an example of something we can do using innerHTML.
 
-![](images/image040.png){width="4.0in"
+![](images/image040.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 Let\'s look at this, what I\'ve done is I made an **h1** heading and
@@ -874,7 +874,7 @@ I\'ve given it the id of test. I also have a paragraph element a little
 bit further down that just says, hey what happens if I\'d messed with
 this code?
 
-![](images/image041.png){width="4.0in"
+![](images/image041.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 All right, so I want you to look as closely as you can. You might be on
@@ -889,7 +889,7 @@ used to be in there and replace it with the words, Hello World. This is
 kind of what happens when this is a weird example, but all early
 examples are weird examples. Because you just want to get your feet wet.
 
-![](images/image042.png){width="4.0in"
+![](images/image042.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 But I did want you to look at what happens if I do this. Back from your
@@ -901,13 +901,13 @@ JavaScript is expecting you to keep that rule. When you do something get
 element by ID, JavaScript thinks there\'s only one out there. I\'m going
 to stop as soon as I find that one.
 
-![](images/image043.png){width="4.0in"
+![](images/image043.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 As you can see down here, it changed the first one it found. It didn\'t
 change the second one it found, okay? All right.
 
-![](images/image044.png){width="4.0in"
+![](images/image044.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 Let\'s go play with the last output method I have for you today.
@@ -923,13 +923,13 @@ execution. If you haven\'t used the console before, you might not
 realize that it\'s even there. But I\'m hoping you have when you were
 doing your CSS.
 
-![](images/image045.png){width="4.0in"
+![](images/image045.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 Let\'s take a look at this example. In my HTML up here, you can see that
 I have **console.log** Hello World. Nothing too exciting going on here.
 
-![](images/image046.png){width="4.0in"
+![](images/image046.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 But if you look at the actual browser, hm, it\'s not there. It doesn\'t
@@ -938,7 +938,7 @@ actually in the Console of your browser. I\'m going to go down here. I
 did inspect element, and I checked the Console. Oh, you can see Hello
 World showed up here.
 
-![](images/image047.png){width="4.0in"
+![](images/image047.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 What happens if I change the code to Hello World Too.
@@ -952,7 +952,7 @@ are doing. We\'re going to come back to this example in just a second,
 but first I want to talk to you about why you should be utilizing the
 console by now, if you haven\'t.
 
-![](images/image048.png){width="4.0in"
+![](images/image048.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 The console does more than just take these print statements. It also
@@ -960,7 +960,7 @@ provides debugging information for JavaScript, HTML, and CSS. By going
 in and looking at it, you\'re going to be able to help yourself become a
 much better programmer.
 
-![](images/image049.png){width="4.0in"
+![](images/image049.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 Let\'s take a look at just doing some debugging with the JavaScript.
@@ -968,7 +968,7 @@ I\'m going to go in here and I\'m going to accidentally forget to put in
 my first quotes, all right. But if we didn\'t know that there\'s
 anything going on or that anything is supposed to show up.
 
-![](images/image050.png){width="4.0in"
+![](images/image050.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 You might not realize that there\'s a typo but inside the console,
@@ -985,7 +985,7 @@ what\'s going wrong, but you're saying somewhere in this line of code
 I\'m getting an error. This kind of ability to help yourself debug is
 going to be critical to going on and advancing in this course.
 
-![](images/image051.png){width="4.0in"
+![](images/image051.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 If I\'m going to ask you debug, I should probably tell you how you can
@@ -1003,7 +1003,7 @@ Explorer, typically hitting F12 will bring up the different JavaScript
 and development tools that you can use to improve your page. All right,
 so let\'s review.
 
-![](images/image052.png){width="4.0in"
+![](images/image052.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 Right now, we\'re doing really simple things, and I understand that.
@@ -1039,7 +1039,7 @@ a problem. In this case, I didn\'t include the quotes to end the message
 for the alert.
 
 ![Code, an empty browser, and an error message in the Chrome
-console.](images/image053.png){width="4.0in"
+console.](images/image053.webp){width="4.0in"
 height="1.5970089676290464in"}
 
 # 
@@ -1060,7 +1060,7 @@ height="1.5970089676290464in"}
 
 <https://codepen.io/ColleenEMc/pen/jbYEEW>
 
-![](images/image054.png){width="4.0in"
+![](images/image054.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 Hi, everybody. Today we\'re going to learn about JavaScript variables.
@@ -1068,7 +1068,7 @@ An important part of programming is learning how you can save data.
 Because by saving data, you can reuse it and give you program that\'s
 impression that\'s kind of intelligent and knows the user very well.
 
-![](images/image055.png){width="4.0in"
+![](images/image055.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 In JavaScript, data is stored in what we call variables, and it\'s very
@@ -1082,7 +1082,7 @@ I chose the name "name" here, but you can imagine it being age, first
 name, last name, dob for date of birth. The important thing is that it
 should be special to you, but not special to the computer.
 
-![](images/image056.png){width="4.0in"
+![](images/image056.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 How does this work? When you declare a variable, you\'re basically
@@ -1099,7 +1099,7 @@ The important thing to know is that computers aren\'t smart. Computers
 are just trying to give you a way to avoid remembering big long numbers
 and instead using English words.
 
-![](images/image057.png){width="4.0in"
+![](images/image057.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 When you come up with your variable name, there\'s a few rules that you
@@ -1128,7 +1128,7 @@ could get away with calling it \'yyy\' or \'bbb\', just don\'t do it.
 Okay? Taking a little bit of time to give meaningful names will save you
 a lot of heart ache later.
 
-![](images/image058.png){width="4.0in"
+![](images/image058.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 If you\'re going to go to the trouble of declaring a variable and
@@ -1145,7 +1145,7 @@ into the variable.
 So here I have **var** name, and instead of just leaving it at that, I
 say, hey, I want you to store the name Colleen in there, all right.
 
-![](images/image059.png){width="4.0in"
+![](images/image059.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 This is where when we start talking about assignment statements, I refer
@@ -1160,7 +1160,7 @@ Right here would be an example where I\'m just having, I declare my
 variable, and then later I want to update it. I say, name equals
 Colleen. This works really well.
 
-![](images/image060.png){width="4.0in"
+![](images/image060.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 What I need people to avoid is doing something along this line, where
@@ -1174,7 +1174,7 @@ a variable. If you remember when we talked about output, one way that we
 were able to produce output also was a way to generate input, and that
 was the prompt.
 
-![](images/image061.png){width="4.0in"
+![](images/image061.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 When you use the prompt, it\'s waiting for you to type something in and
@@ -1188,13 +1188,13 @@ You can even use more from the API saying, you know what? I want to know
 where this window is. What\'s the location of this window? And you can
 write that out as well.
 
-![](images/image062.png){width="4.0in"
+![](images/image062.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 Let\'s look at a quick example of how we can use that. Let\'s start with
 the simple code we used before when we were learning about prompts.
 
-![](images/image063.png){width="4.0in"
+![](images/image063.webp){width="4.0in"
 height="2.2440168416447945in"}
 
 Only now, I want to combine it with a variable, so I am going to go in
@@ -1204,7 +1204,7 @@ realize that the name you give your variable. Doesn\'t really matter, it
 can be anything you want. Just because I call it name, doesn\'t mean you
 have to.
 
-![](images/image064.png){width="4.0in"
+![](images/image064.webp){width="4.0in"
 height="2.261111111111111in"}
 
 And as soon as I did this, the prompt statement showed up, and I put in
@@ -1213,7 +1213,7 @@ add a bit more code. Now I am going to comment out this line. You can
 see why, because otherwise it\'ll keep asking us to prompt things.
 We\'ll comment that out when we\'re done. All right.
 
-![](images/image065.png){width="4.0in"
+![](images/image065.webp){width="4.0in"
 height="2.261111111111111in"}
 
 I have this variable called **name**, now I can do something like
@@ -1221,21 +1221,21 @@ I have this variable called **name**, now I can do something like
 to you could even put in **alert(nm)**. Let\'s put this back in. Might
 want to edit all my typing out. What is your name? Well, it is Colleen.
 
-![](images/image066.png){width="4.0in"
+![](images/image066.webp){width="4.0in"
 height="2.261111111111111in"}
 
 All right, so the alert popped up, but why didn\'t the
 **document.write** work? This is a good question, and this is actually
 an example where I can go in, that\'s what was going on.
 
-![](images/image067.png){width="4.0in"
+![](images/image067.webp){width="4.0in"
 height="2.261111111111111in"}
 
 It was actually waiting for me to hit okay. When it was all done, it
 went in and it printed out my name. This is a really simple, quick
 example.
 
-![](images/image068.png){width="4.0in"
+![](images/image068.webp){width="4.0in"
 height="2.261111111111111in"}
 
 Let\'s do one that has a little bit more going on with it. All right, in
@@ -1248,7 +1248,7 @@ heading. And then I just wanted to show you that you could also grab
 other information from the document, itself, such as the URL and the
 title.
 
-![](images/image069.png){width="4.0in"
+![](images/image069.webp){width="4.0in"
 height="2.261111111111111in"}
 
 First thing I\'m going to show you is, it says null and null. And
@@ -1258,7 +1258,7 @@ anything in the prompt. When the JavaScript doesn\'t know what to do,
 when it doesn\'t know what value should have been in there, it\'s going
 to assign it a value of null.
 
-![](images/image070.png){width="4.0in"
+![](images/image070.webp){width="4.0in"
 height="2.261111111111111in"}
 
 Let\'s run this one more time. I\'m going to put in the name Christopher
@@ -1266,7 +1266,7 @@ just in case someone else named Christopher is reading this and they can
 feel special. But now you can see it printed out Christopher, the URL,
 and the title of my page.
 
-![](images/image071.png){width="4.0in"
+![](images/image071.webp){width="4.0in"
 height="2.261111111111111in"}
 
 Variables are a key component of really doing any type of programming
@@ -1281,14 +1281,14 @@ course. Good luck.
 
 # Week 1-05. Data Types
 
-![](images/image072.png){width="4.0in"
+![](images/image072.webp){width="4.0in"
 height="2.2316240157480314in"}
 
 Once you realize that computers store all of the information using
 variables, the next step is to start to learn about the different data
 types used in the JavaScript programming language.
 
-![](images/image073.png){width="4.0in"
+![](images/image073.webp){width="4.0in"
 height="2.251709317585302in"}
 
 If you look here in this example, you can see that I\'ve got variable
@@ -1305,7 +1305,7 @@ doing it. In each of these examples, name would have what we call a
 different type. Things that are stored in the computer are completely
 different.
 
-![](images/image074.png){width="4.0in"
+![](images/image074.webp){width="4.0in"
 height="2.251709317585302in"}
 
 In computer programming languages, computers tend to have a single type.
@@ -1315,7 +1315,7 @@ to characters, back to a number to something else that\'s completely
 complex. Let\'s talk about what these types are in JavaScript and how we
 can represent them.
 
-![](images/image075.png){width="4.0in"
+![](images/image075.webp){width="4.0in"
 height="2.251709317585302in"}
 
 The first type we\'re going to talk about is number, and it\'s pretty
@@ -1335,7 +1335,7 @@ number, but in the different cases or one, it\'s going to be, normally
 would be an integer or a whole number, and the next time it has
 decimals.
 
-![](images/image076.png){width="4.0in"
+![](images/image076.webp){width="4.0in"
 height="2.251709317585302in"}
 
 The next type is called String. String is simply a collection of
@@ -1351,7 +1351,7 @@ I\'ve done var location = **window.location**. Because it happens to be
 that that attribute is a string or in my second example once again,
 I\'ve just hardcoded it to something you might expect.
 
-![](images/image077.png){width="4.0in"
+![](images/image077.webp){width="4.0in"
 height="2.251709317585302in"}
 
 The third data type is Boolean. In programing, a boolean value is
@@ -1367,7 +1367,7 @@ Later, we\'re going to learn how to write our own boolean expressions to
 check to see if things are true or false. And that can add really a lot
 of power to your page.
 
-![](images/image078.png){width="4.0in"
+![](images/image078.webp){width="4.0in"
 height="2.251709317585302in"}
 
 The next data type is called object. Because sometimes the variables or
@@ -1385,7 +1385,7 @@ something along the lines of write out **topic.style, topic.innerHTML.**
 Different things like that can show us really the attributes or the
 string\'s numbers that make up objects.
 
-![](images/image079.png){width="4.0in"
+![](images/image079.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Finally, the last type we\'re going to talk about is array, because in
@@ -1401,7 +1401,7 @@ Well, that\'s certainly not going to return just a single number, or a
 bunch of strings, or even a single object. Instead, it needs to return a
 whole collection.
 
-![](images/image080.png){width="4.0in"
+![](images/image080.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Arrays store these multiple values using a variable name, just like the
@@ -1417,7 +1417,7 @@ going to have an entire lecture or more on arrays later in this course.
 But for now, I just want you to realize that it\'s one of the data types
 that can be returned.
 
-![](images/image081.png){width="4.0in"
+![](images/image081.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Let\'s look at a quick example that uses some of the different types.
@@ -1437,7 +1437,7 @@ array, and I just want to show you this because there\'s a really good
 chance this message might pop up for you and I don\'t want you to get
 freaked out about it.
 
-![](images/image082.png){width="4.0in"
+![](images/image082.webp){width="4.0in"
 height="2.251709317585302in"}
 
 After I grab all the paragraph elements, if I try to print them out, it
@@ -1446,14 +1446,14 @@ actually have any paragraphs in this page. If I go back, and I add a
 few, they can even be empty. Gotta love when it keeps popping up on you.
 I don\'t know how many I added but we\'re going to do it.
 
-![](images/image083.png){width="3.5in"
-height="1.970246062992126in"}![](images/image084.png){width="3.5in"
+![](images/image083.webp){width="3.5in"
+height="1.970246062992126in"}![](images/image084.webp){width="3.5in"
 height="1.9702449693788275in"}
 
 I can try running this again. And when I type in Colleen, you can see
 that now it knows that I have five paragraph elements in there.
 
-![](images/image085.png){width="4.0in"
+![](images/image085.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Luckily in JavaScript, there\'s a ton of flexibility with the different
@@ -1472,7 +1472,7 @@ So good luck.
 
 # Week 1-06. Operators & Expressions
 
-![](images/image086.png){width="4.0in"
+![](images/image086.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Today we\'re going to be talking about expressions and mainly operators,
@@ -1480,7 +1480,7 @@ the different ways that you can manipulate your code. We\'ve been using
 statements to execute our JavaScript code. Every time you saw a line
 that ended with a semicolon, we were writing a statement.
 
-![](images/image087.png){width="4.0in"
+![](images/image087.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Statements often have what we call expressions, or things that can be
@@ -1489,7 +1489,7 @@ string, but many times they produce what we call Boolean values. I want
 to show you all the different types of operators that we can use in
 JavaScript to produce these types of expression values.
 
-![](images/image088.png){width="4.0in"
+![](images/image088.webp){width="4.0in"
 height="2.251709317585302in"}
 
 If you think back, I tend to talked about that left hand side equals
@@ -1500,7 +1500,7 @@ What are our tools for generating different values on that right hand
 side? We\'ve seen direct assignments or calls to different functions but
 there\'s more to it that we can do than just that.
 
-![](images/image089.png){width="4.0in"
+![](images/image089.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Here\'s a very simple assignment expression. I just had x=5 or in
@@ -1509,7 +1509,7 @@ thing if two things are the same. In this expression I\'m saying, go
 find the value that is story in y. After I grab that, go and store it in
 x as well.
 
-![](images/image090.png){width="4.0in"
+![](images/image090.webp){width="4.0in"
 height="2.251709317585302in"}
 
 We also have arithmetic operators. Most of these are very straight
@@ -1530,7 +1530,7 @@ figure out how many times does 5 go into 13? That\'s 2, and what\'s left
 over? 13%5 is going to be 3. Go ahead and play with that if you\'d like,
 and type a few numbers in and see what kind of response you get.
 
-![](images/image091.png){width="4.0in"
+![](images/image091.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Some additional operators we have are the plus plus and minus minus.
@@ -1543,7 +1543,7 @@ thing as saying x + = 2. It\'s just short hand you don\'t need to use
 it. But I wanted to show you just in case you see it in somebody else's
 code.
 
-![](images/image092.png){width="4.0in"
+![](images/image092.webp){width="4.0in"
 height="2.251709317585302in"}
 
 We talked about how plus will add two numbers together. That\'s only
@@ -1559,7 +1559,7 @@ that your output is what you\'re expecting. The plus equals has the same
 effect as the plus equals from before. It just means take whatever I
 used to have and concatenate this new part on to it.
 
-![](images/image093.png){width="4.0in"
+![](images/image093.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Those first few operators, we use usually to assign values to a
@@ -1574,7 +1574,7 @@ true. There\'s also another short hand, which is the exclamation point
 equals. This is a negation or the opposite, it says, hey, make sure the
 value stored in x doesn\'t equal 5.
 
-![](images/image094.png){width="4.0in"
+![](images/image094.webp){width="4.0in"
 height="2.251709317585302in"}
 
 We also have more of the traditional greater than, greater than or equal
@@ -1586,7 +1586,7 @@ JavaScript we don\'t really care about types too much. What happens if
 you want to see if a number is equal to something else, but you don\'t
 want it to say yes if it\'s a string?
 
-![](images/image095.png){width="4.0in"
+![](images/image095.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Here I\'ve got the equality statement that we used before, which is
@@ -1606,7 +1606,7 @@ type in some examples, play with the numbers, and try to fool yourself
 and give yourself tricky situations. If you can do that, then you\'ll
 feel comfortable moving on with these operators.
 
-![](images/image096.png){width="4.0in"
+![](images/image096.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Let\'s do one last little group or two groups before we finish up. In
@@ -1625,7 +1625,7 @@ use the example that in America, you can\'t get into certain movies
 unless you\'re 18 or you\'re with your parents. So that would be a case
 where you only need one thing to be true.
 
-![](images/image097.png){width="4.0in"
+![](images/image097.webp){width="4.0in"
 height="2.251709317585302in"}
 
 When it comes to programming, it\'s not enough for you to just know the
@@ -1679,14 +1679,14 @@ it to happen).
 
 # Week 2-01. Functions
 
-![](images/image098.png){width="4.0in"
+![](images/image098.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Today we\'re going to talk about functions. Functions are these bits of
 code that you can reuse over and over again by just coding what we call
 the function name.
 
-![](images/image099.png){width="4.0in"
+![](images/image099.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Functions of course, like everything else in programming, have special
@@ -1714,7 +1714,7 @@ always write with your semicolons, your expression, your statements.
 It\'s just a really nice way to save it. You don\'t have to keep typing
 it over and over again.
 
-![](images/image100.png){width="4.0in"
+![](images/image100.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Let me show you an example. In this case, I declared a function called
@@ -1725,7 +1725,7 @@ Welcome to JavaScript. And this will work numerous times. I don\'t have
 to keep writing things over and over again. It\'s a small function, but
 it\'s something that will work.
 
-![](images/image101.png){width="4.0in"
+![](images/image101.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Here\'s another very similar function. The only difference is that, this
@@ -1739,7 +1739,7 @@ where you use the keywords, the curly brackets, and the parenthesis.
 Declaring a function doesn\'t actually do anything for you though. You
 need to tell the computer when you want that function to run.
 
-![](images/image102.png){width="4.0in"
+![](images/image102.webp){width="4.0in"
 height="2.251709317585302in"}
 
 We do this by saying or we call the function. Every time you write the
@@ -1750,7 +1750,7 @@ by line. Now with functions, the computer is actually jumping around in
 memory and executing different parts of code, not necessarily in the
 order that you write them.
 
-![](images/image103.png){width="4.0in"
+![](images/image103.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Here\'s an example. I have my **welcomeMsg** function, the one with the
@@ -1769,7 +1769,7 @@ code. Hopefully if you type this in and run it, you should get a hello
 and then a goodbye message. You could type putting in numbers or
 anything you\'d like instead if you prefer.
 
-![](images/image104.png){width="4.0in"
+![](images/image104.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Let\'s talk a little bit more about those parameters that I talked
@@ -1783,7 +1783,7 @@ thing to know is the names of the parameters for your functions,
 they\'re not important, they\'re like variable names. You can call them
 anything you want, as long as you\'re consistent.
 
-![](images/image105.png){width="4.0in"
+![](images/image105.webp){width="4.0in"
 height="2.251709317585302in"}
 
 The next thing to talk about, when we talk about functions, are return
@@ -1794,7 +1794,7 @@ functions that will say, hey, I need you to halt execution right now,
 because I don\'t want you to hit submit. I don\'t want you to be able to
 hit yes on that form.
 
-![](images/image106.png){width="4.0in"
+![](images/image106.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Let\'s look an example of a function that returns a value. In this case,
@@ -1810,7 +1810,7 @@ in order to assign values to valuables or to check conditional
 statements, and we\'re going to be using these a lot. I just need you to
 be aware of the term.
 
-![](images/image107.png){width="4.0in"
+![](images/image107.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Let\'s review what we\'ve talked about with functions so far. Whenever
@@ -1841,14 +1841,14 @@ understand some of the power of JavaScript. Good luck.
 
 # Week 2-02. Code Placement
 
-![](images/image108.png){width="4.0in"
+![](images/image108.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Today, we\'re going to talk not about new concepts, but really, putting
 our code in the best place to make it easier for you to follow what\'s
 going on.
 
-![](images/image109.png){width="4.0in"
+![](images/image109.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Up to this point, we\'ve been putting our JavaScript into the HTML body
@@ -1861,7 +1861,7 @@ JavaScript code. And where you can put it, is you can leave it in the
 body, as we\'ve been doing, you can put your functions into the head
 section of your HTML code, or you can use an external file.
 
-![](images/image110.png){width="4.0in"
+![](images/image110.webp){width="4.0in"
 height="2.251709317585302in"}
 
 If you decide to put your JavaScript functions in the head section,
@@ -1879,7 +1879,7 @@ If you do this. If you put your code into the head section, don\'t
 worry, all of your function will still have access to all the document
 information, the ID\'s, the classes, etc.
 
-![](images/image111.png){width="4.0in"
+![](images/image111.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Let\'s take a quick look at an example. As you can see, I have my head
@@ -1894,7 +1894,7 @@ having the entire function written down here. Plus, for code reuse, you
 can now call the function multiple times, but only write it once up
 here.
 
-![](images/image112.png){width="4.0in"
+![](images/image112.webp){width="4.0in"
 height="2.251709317585302in"}
 
 If instead, you decide to put your JavaScript functions in an external
@@ -1903,7 +1903,7 @@ one thing that\'s important to remember right from the start is again,
 when you\'re using external file, don\'t use the script tag. It\'s just
 the JavaScript, without any script tag.
 
-![](images/image113.png){width="4.0in"
+![](images/image113.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Let\'s look at an example here. Here you can see, that inside the head
@@ -1924,7 +1924,7 @@ wrong, because the colors aren\'t the way you wanted or your text just
 isn\'t there. But with JavaScript, sometimes the changes you're making
 are so slight, you don\'t even realize that you have a problem.
 
-![](images/image114.png){width="4.0in"
+![](images/image114.webp){width="4.0in"
 height="2.251709317585302in"}
 
 It\'s very important, as your code becomes more and more complex, that
@@ -1933,7 +1933,7 @@ friend. I can\'t stress enough how much you always want to have it on
 while you\'re coding. Myself, sometimes I forget to turn it on and I\'m
 annoyed later, when I could have found my errors so much more easily.
 
-![](images/image115.png){width="4.0in"
+![](images/image115.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Another way that we can talk about separating your code into this
@@ -1950,7 +1950,7 @@ If you\'re going to use CodePen, I always recommend that once you\'re
 done, take that code and put it into three separate files, so that
 you\'re sure you know how to link them together.
 
-![](images/image116.png){width="4.0in"
+![](images/image116.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Let\'s take a look. As you can see here, I have one window for my HTML
@@ -1959,14 +1959,14 @@ care of all the work of making sure that they\'re all together. If this
 is your first time ever using CodePen, I did want to point out, that
 there\'s this handy little function, that you can re-size the windows.
 
-![](images/image117.png){width="4.0in"
+![](images/image117.webp){width="4.0in"
 height="2.251709317585302in"}
 
 If you\'re not too concerned with your CSS right now, you can make that
 smaller. And really kind of focus, on what you\'re working on, in the
 HTML and the JS.
 
-![](images/image118.png){width="4.0in"
+![](images/image118.webp){width="4.0in"
 height="2.251709317585302in"}
 
 All right, let\'s review what we talked about today. The first thing, is
@@ -2002,7 +2002,7 @@ files in it. There are also three subfolders (folders inside the main
 folder) for your CSS, image, and JavaScript files.
 
 ![Folder with subfolders nested
-within.](images/image119.png){width="4.0in"
+within.](images/image119.webp){width="4.0in"
 height="1.304757217847769in"}
 
 When we use CodePen we use that idea of separating our code. However, be
@@ -2015,7 +2015,7 @@ JavaScript files.
 
 # Week 2-03. Folder Structure / Organizing Your Code
 
-![](images/image120.png){width="4.0in"
+![](images/image120.webp){width="4.0in"
 height="2.251709317585302in"}
 
 I know that one of the most frustrating things that can happen when
@@ -2025,7 +2025,7 @@ you\'re trying to link it to your style sheet, and they just don\'t seem
 to recognize each other. Today, we\'re going to talk about how web
 designers tend to organize and separate their code into different parts.
 
-![](images/image121.png){width="4.0in"
+![](images/image121.webp){width="4.0in"
 height="2.251709317585302in"}
 
 First, we always start off with a main folder that\'s going to hold your
@@ -2038,7 +2038,7 @@ design, your fellow designers are going to expect that you have similar
 conventions to their own. you want to get used to doing things the right
 way, right from the beginning.
 
-![](images/image122.png){width="4.0in"
+![](images/image122.webp){width="4.0in"
 height="2.251709317585302in"}
 
 Here I\'ve got a quick picture of how I could organize the code using
@@ -2051,7 +2051,7 @@ different files can talk to one another. And so, we\'re going to use the
 convention here, and I\'m going to show you how to make sure they can
 link together in the right way.
 
-![](images/image123.png){width="4.0in"
+![](images/image123.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 2^nd^ line should be: **\<script
@@ -2076,7 +2076,7 @@ img. When you\'re linking your code with other people\'s code, make sure
 you do a quick check. And make sure that your folder names CSS,
 JavaScript, and images match what other people are expecting.
 
-![](images/image124.png){width="4.0in"
+![](images/image124.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 When it comes to linking from your style sheet, it can be a little bit
@@ -2087,7 +2087,7 @@ folder. But the problem is, how do you tell the browser that the images
 folder is someplace different? In this example we go up 2 directories,
 find 'images' folder and pull from there. Done & done.
 
-![](images/image125.png){width="4.0in"
+![](images/image125.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 If things aren\'t working for you in your folder structure, here\'s a
@@ -2108,7 +2108,7 @@ CSS, JavaScript, and images functions out there. Thanks.
 
 # Week 2-04. Events
 
-![](images/image126.png){width="4.0in"
+![](images/image126.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 Hi everybody. One of the things we promise you in this course was that
@@ -2116,7 +2116,7 @@ we\'d teach you how to do interactivity with JavaScript. Well, we
 finally reached that point where we can start having some fun and
 reacting to events that happened to your web page.
 
-![](images/image127.png){width="4.0in"
+![](images/image127.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 Up to now it has been up to us to decide when the functions should
@@ -2128,7 +2128,7 @@ can start doing things based on clicking, mouse movement, all these
 different types of dynamic function calls. Let\'s take a look at how we
 can do this.
 
-![](images/image128.png){width="4.0in"
+![](images/image128.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 First, let\'s talk about just some of the events that we normally react
@@ -2147,7 +2147,7 @@ to load that the JavaScript is done before the user can even see the
 page. This last one onload we are going to use quite a bit to make sure
 we are all seeing the exact same events.
 
-![](images/image129.png){width="4.0in"
+![](images/image129.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 All right, so how does this work? We know that any element can react to
@@ -2162,7 +2162,7 @@ on this then I am going to call the JavaScript function message. All
 right, this isn\'t going to happen just once, this is going to happen
 for the duration that this site is loaded onto the browser.
 
-![](images/image130.png){width="4.0in"
+![](images/image130.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 One of the things that we need to talk about is the use of quotes. When
@@ -2191,7 +2191,7 @@ that same kind of slant that Word, PowerPoint, and other programs put
 into your quotes. Whenever you copy and paste, go back and make sure
 that they\'re matching up correctly.
 
-![](images/image131.png){width="4.0in"
+![](images/image131.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 Let\'s take a look at what I do with this code right here. I have my
@@ -2210,20 +2210,20 @@ one is **onclick**. All three of these events, **onload, onresize,
 onclick**, they\'re all going to call the message function, but they\'re
 going to call it with three different frame runners.
 
-![](images/image132.png){width="4.0in"
+![](images/image132.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 Let\'s take a look at what\'s going on. As you can see, when I loaded
 the page, it automatically had LOAD event show up.
 
-![](images/image133.png){width="4.0in"
+![](images/image133.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 What happens if I click on this paragraph right here? Oh, it changes to
 click event. It\'s actually happening over and over again; you just
 can\'t tell because it\'s so quick.
 
-![](images/image134.png){width="4.0in"
+![](images/image134.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 Now, the last thing I\'m going to do is I\'m going to resize the page
@@ -2231,7 +2231,7 @@ and you can see, that it recognizes that there is a resize event. So,
 it\'s pretty simple to go through, and I\'ll go back here, and had your
 HTML actually change based on the different events.
 
-![](images/image135.png){width="4.0in"
+![](images/image135.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 The second example is, again, a very straightforward way of showing you
@@ -2242,7 +2242,7 @@ conveys this idea of click me and I\'m going to do something, and since
 we didn\'t have the power to do that yet, I really didn\'t want to use
 that element, but now we can.
 
-![](images/image136.png){width="4.0in"
+![](images/image136.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 What I have here is a simple JavaScript function that says, hey I want
@@ -2250,14 +2250,14 @@ you to call the JavaScript **date** function, this is something that I
 didn\'t write. You know that it was written by JavaScript partly because
 well, it\'s yellow.
 
-![](images/image137.png){width="4.0in"
+![](images/image137.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 All right, so I\'m going to use this function and connect it with the
 **button**. So, I have **button** type equals **button** and I have
 **onclick** equals **displayDate()**.
 
-![](images/image138.png){width="4.0in"
+![](images/image138.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 As soon as I click on that, we want to keep our eye on where it says
@@ -2271,7 +2271,7 @@ As we start adding JavaScript events and reacting to events to our code,
 I just want you to be aware of something that\'s going on, that\'s
 really quite complex.
 
-![](images/image139.png){width="4.0in"
+![](images/image139.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 Before JavaScript, for the most part, our programs ran in a linear
@@ -2284,7 +2284,7 @@ right I need to wait on click, onclick, onclick. If you add too many
 events to your page, you could conceivably slow down the execution of
 your page.
 
-![](images/image140.png){width="4.0in"
+![](images/image140.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 Clearly there are a lot more events than just the four I told you about.
@@ -2309,7 +2309,7 @@ these events JavaScript can be limited in its ability to interact with
 the DOM. We didn\'t have onclick, onload and be really hard to actually
 work with our webpages.
 
-![](images/image141.png){width="4.0in"
+![](images/image141.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 Another thing I\'d like you to take away from this is while events are
@@ -2353,7 +2353,7 @@ outnumber the times that you are stuck.
 
 # Week 2-05. Code With Me -- Events
 
-![](images/image142.png){width="4.0in"
+![](images/image142.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 Hi everybody, welcome back. It\'s time for us to take some of the things
@@ -2369,7 +2369,7 @@ if you can break the code. Because it\'s always better to make your
 errors now. We have the whole community around you. You can ask
 questions.
 
-![](images/image143.png){width="4.0in"
+![](images/image143.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 We\'re going to look at two different examples today. One, in which
@@ -2380,7 +2380,7 @@ different then we\'ve done before. When I first introduced the idea of
 events, I said that events are matched with functions. Well, you can
 also match events just with JavaScript code, not a function itself.
 
-![](images/image144.png){width="4.0in"
+![](images/image144.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 Here I\'ve created two buttons, and I named them First and Second. You
@@ -2390,19 +2390,19 @@ onClick, grab that element, change the innerHTML, and I want you to
 change it to Clicked First Button. The other one is very similar. The
 only difference is that I want to change the content of that paragraph.
 
-![](images/image145.png){width="4.0in"
+![](images/image145.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 When I click on these buttons this, right here, is the element I want
 you to look at.
 
-![](images/image146.png){width="4.0in"
+![](images/image146.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 Let\'s click on the First button. You can see that I clicked, it said,
 hey I know that I just clicked the First button.
 
-![](images/image147.png){width="4.0in"
+![](images/image147.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 When I click on the second one, you know that I\'ve clicked on the
@@ -2410,7 +2410,7 @@ Second button. This seems like a really small program to write, but
 there\'s a lot going on in here, and a lot of places where people tend
 to make mistakes. Let\'s just look at them quickly.
 
-![](images/image148.png){width="4.0in"
+![](images/image148.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 The first thing I want you to look at is this idea of using
@@ -2431,32 +2431,32 @@ to change. Is it the event that\'s going to change? Is it the button
 that\'s going to change? Is it the whole page? So luckily, with CodePin
 you\'ll be able to see it immediately. All right, wow, now I really.
 
-![](images/image149.png){width="4.0in"
+![](images/image149.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 That\'s how I can change the button itself. If I want to change what\'s
 going to happen, that where I put in here, Clicked Another Button.
 
-![](images/image150.png){width="4.0in"
+![](images/image150.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 Let\'s save. I\'m going to click on First, Second.
 
-![](images/image151.png){width="4.0in"
+![](images/image151.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 Play with this. Try putting it in yourself. And realize, again, that you
 can put your JavaScript anywhere you want, it doesn\'t always have to be
 in an external file.
 
-![](images/image152.png){width="4.0in"
+![](images/image152.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 Let\'s look at the next example. Okay, get ready. This example is going
 to be a big one, because we do have a lot of things going on. We have
 our HTML. We have our CSS. And we have our JavaScript.
 
-![](images/image153.png){width="4.0in"
+![](images/image153.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 Let\'s start with the CSS, because it\'s the simplest and it\'s not
@@ -2471,14 +2471,14 @@ now it\'s going to reappear again. That\'s all we really need to
 realize, is that .closed will make it go away, .open is going to make it
 come back.
 
-![](images/image154.png){width="4.0in"
+![](images/image154.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 Over here, in my HTML, I have a paragraph called demo. And that\'s right
 down here, it\'s all this entire thing we can see right here. This is
 the one we want to change in our code.
 
-![](images/image155.png){width="4.0in"
+![](images/image155.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 And finally in the HTML, we have two events. We have **onClick,
@@ -2490,22 +2490,22 @@ simply need to grab the demo element by doing document.getElementById.
 But now instead of trying to change the inner HTML, I\'m going to change
 the style.
 
-![](images/image156.png){width="4.0in"
+![](images/image156.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 I go in and I say x, which is my element, **.style.display=\"none\".**
 I\'m not using my CSS, I\'m actually hardcoding it in here that I want
 it to go from none.
 
-![](images/image157.png){width="4.0in"
+![](images/image157.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 And in open, similarly, it says, hey grab that element, and I want it to
 go from whatever it used to be, and now it should be block.
 
-![](images/image158.png){width="3.5in"
+![](images/image158.webp){width="3.5in"
 height="1.9837073490813648in"}
-![](images/image159.png){width="3.5in"
+![](images/image159.webp){width="3.5in"
 height="1.9837073490813648in"}
 
 Let\'s look and see if this works. Close, Open. Close, Open. Great, it
@@ -2513,9 +2513,9 @@ works, but we\'ve hardcoded those elements in. We\'ve hardcoded block.
 What if we also wanted to change the color, or the width, or many other
 elements? This is where the idea of our classes can come in.
 
-![](images/image160.png){width="3.5in"
+![](images/image160.webp){width="3.5in"
 height="1.9837073490813648in"}
-![](images/image161.png){width="3.5in"
+![](images/image161.webp){width="3.5in"
 height="1.9837073490813648in"}
 
 Let\'s change it over here really quickly. I\'m going to comment out
@@ -2525,15 +2525,15 @@ actually go in and we could say, you know what? For that element I want
 you to change the class name. I don\'t know what it used to be, but now
 I want it to be closed. And down here, I want it to be open.
 
-![](images/image162.png){width="3.5in"
+![](images/image162.webp){width="3.5in"
 height="1.9837073490813648in"}
-![](images/image163.png){width="3.5in"
+![](images/image163.webp){width="3.5in"
 height="1.9837073490813648in"}
 
 So, I can talk a lot. But it\'s important that even I stop and check
 that code and make sure I didn\'t break it. Close, Open, Close, Open.
 
-![](images/image164.png){width="4.0in"
+![](images/image164.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 Now I don\'t really have time to do this right now, but I think what
@@ -2552,7 +2552,7 @@ we get into these more complex ideas. So, good luck.
 
 # Week 2-06. "this"
 
-![](images/image165.png){width="4.0in"
+![](images/image165.webp){width="4.0in"
 height="2.2670942694663165in"}
 
 Hi everybody, welcome to my personal least favorite lecture of all time.
@@ -2567,14 +2567,14 @@ smart programming is using different functions. You don\'t want to write
 your own code. You want to use somebody else\'s code. But a common road
 block, especially for new programmers, is trying to figure out.
 
-![](images/image166.png){width="4.0in" height="2.25in"}
+![](images/image166.webp){width="4.0in" height="2.25in"}
 
 How can I write a function so that I can reuse it over and over again?
 How can I write this function so that different elements can use it? But
 the function knows basically, how do I know what information to use.
 That\'s where "this" keyword comes in.
 
-![](images/image167.png){width="4.0in" height="2.25in"}
+![](images/image167.webp){width="4.0in" height="2.25in"}
 
 This allows an element to refer to itself. Every object in the DOM, has
 an automatically generated this. This "this" attribute allows you to
@@ -2593,7 +2593,7 @@ going to do is it\'s just going to backtrack and go back, back, back,
 back, back, back, back, back until it\'s, oops, here\'s an open tag.
 They must be referring to this DOM element right here.
 
-![](images/image168.png){width="4.0in" height="2.25in"}
+![](images/image168.webp){width="4.0in" height="2.25in"}
 
 Let\'s look at what I hope are a few simple examples of using the word
 this. Right here I have four different elements on my page. I have two
@@ -2611,20 +2611,20 @@ up, until it gets to the image. And then we\'ll say. They want the alt
 text for this image. Let's see what happens when I actually click on
 this image.
 
-![](images/image169.png){width="4.0in" height="2.25in"}
+![](images/image169.webp){width="4.0in" height="2.25in"}
 
 As you can see, as soon as I clicked on it. The message Awesome 80\'s
 haircut shows up, all right? If I were to click on this multiple times.
 It doesn\'t actually show up in the console multiple times.
 
-![](images/image170.png){width="4.0in" height="2.25in"}
+![](images/image170.webp){width="4.0in" height="2.25in"}
 
 You can see that there\'s a little number over here that says. Oh, this
 has happened four times in a row. But the important thing is that, I
 click on an image and the event knew that this was the image I was
 clicking on.
 
-![](images/image171.png){width="4.0in" height="2.25in"}
+![](images/image171.webp){width="4.0in" height="2.25in"}
 
 Let\'s look at the next example down here. I\'ve got my div that just
 says, hi there. Checking out a div. I\'m looking at the second example
@@ -2633,13 +2633,13 @@ don\'t have alt text. Instead, what I said to do is, log the inner html.
 When I click on this div, I\'m expecting to see, hi there, checking out
 the div to show up in the console.
 
-![](images/image172.png){width="4.0in" height="2.25in"}
+![](images/image172.webp){width="4.0in" height="2.25in"}
 
 As you can see, it\'s working. These first two examples are very
 similar. And that all I\'m doing is basically kind of manipulating
 what\'s going on in the console.
 
-![](images/image173.png){width="4.0in" height="2.25in"}
+![](images/image173.webp){width="4.0in" height="2.25in"}
 
 In these last two, I did something very similar. But instead of just
 using on-click do something. I\'m going to use this function on the
@@ -2652,7 +2652,7 @@ both use the same exact function called displayID. And even though
 they\'re using the same function, it\'s actually going to show different
 results.
 
-![](images/image174.png){width="4.0in" height="2.25in"}
+![](images/image174.webp){width="4.0in" height="2.25in"}
 
 Let\'s see what happens when I start to click. ID-1, ID-1, ID-2, ID-2.
 Here\'s a simple example of us using onClick along with a function and
@@ -2660,7 +2660,7 @@ the keyword, this, to provide different data. I want to show you though,
 a slightly more colorful example. That I think also makes this point
 really well.
 
-![](images/image175.png){width="4.0in" height="2.25in"}
+![](images/image175.webp){width="4.0in" height="2.25in"}
 
 In this example let\'s start right off with the JavaScript. I have a
 function called showProperties. And it is expecting to be sent some sort
@@ -2682,7 +2682,7 @@ going to show you the cool part of this. On each one of these elements,
 I have shown property and the keyword this which says send this image
 that I am hovering over with my mouse and call that property.
 
-![](images/image176.png){width="4.0in" height="2.25in"}
+![](images/image176.webp){width="4.0in" height="2.25in"}
 
 Let\'s take a look and see how this works. I\'m going to hover over the
 first picture of my dog. And I am really hoping that the alt text
@@ -2702,7 +2702,7 @@ change the border? Different things like this that are, you all know how
 to do. But just because you know how to do it, doesn\'t mean you don\'t
 have to stop and think and really process it in your mind first.
 
-![](images/image177.png){width="4.0in" height="2.25in"}
+![](images/image177.webp){width="4.0in" height="2.25in"}
 
 The key word this, the concept of the word this, can be really tricky to
 grasp. It took me quite a while myself. And I don\'t think I really
@@ -2733,13 +2733,13 @@ to get you started is here: <http://codepen.io/ColleenEMc/pen/wKYxZa>
 
 # Week 2-07. Photo Gallery
 
-![](images/image178.png){width="4.0in" height="2.25in"}
+![](images/image178.webp){width="4.0in" height="2.25in"}
 
 In this module, I want to walk you through how we\'re going to be
 putting some of the things we\'ve learned into practice. And the main
 things I\'m looking for, from you, are your abilities to do two things.
 
-![](images/image179.png){width="4.0in" height="2.25in"}
+![](images/image179.webp){width="4.0in" height="2.25in"}
 
 First is, if I give you some HTML code and some CSS code, can you change
 the background image of an element? The second thing I want you to try
@@ -2750,14 +2750,14 @@ specific planner to put into place.
 
 So, let\'s take a look at the gallery homework.
 
-![](images/image180.png){width="4.0in" height="2.25in"}
+![](images/image180.webp){width="4.0in" height="2.25in"}
 
 In order to begin this assignment, I\'m going to give you the HTML code
 and the CSS code that will create this page here. I\'ve got one div and
 three images underneath it. Each one of those images has a link to this
 source file and it has alt text.
 
-![](images/image181.png){width="4.0in" height="2.25in"}
+![](images/image181.webp){width="4.0in" height="2.25in"}
 
 So right here, its alt text is Styling with a Bandana. And did you
 notice that as soon as I put my mouse over this image, it changes the
@@ -2765,25 +2765,25 @@ source image and the text for the main div.
 
 We\'re creating a photo gallery here.
 
-![](images/image182.png){width="4.0in" height="2.25in"}
+![](images/image182.webp){width="4.0in" height="2.25in"}
 
 As I leave the picture and I go off to this side, we go back to the
 original image in color.
 
-![](images/image183.png){width="4.0in" height="2.25in"}
+![](images/image183.webp){width="4.0in" height="2.25in"}
 
 When I go over the next picture, you can see boom it went in and found
 out what the source file was for this image. It located the alt text and
 use both of those things to update that upper dish. Again, I\'m going to
 leave.
 
-![](images/image184.png){width="4.0in" height="2.25in"}
+![](images/image184.webp){width="4.0in" height="2.25in"}
 
 And I\'m going to go over this last one. I\'ve actually put in the
 JavaScript function codes for you and the events. The one thing that I
 need you to do is write those functions.
 
-![](images/image185.png){width="4.0in" height="2.25in"}
+![](images/image185.webp){width="4.0in" height="2.25in"}
 
 Let\'s look at the functions I want you to write. The first one is
 called, **upDate**, and we\'re going to send it to **previewPic**. And I
@@ -2793,13 +2793,13 @@ over, that **previewPic**. The next thing I want you to do is I change
 the text of the div so that\'s going to show the alt text of the preview
 image. This is what we call **upDate**.
 
-![](images/image186.png){width="4.0in" height="2.25in"}
+![](images/image186.webp){width="4.0in" height="2.25in"}
 
 When we leave the picture, I want you to undo what we just did, I want
 you to go in and I want you to change the text and the background image
 again.
 
-![](images/image187.png){width="4.0in" height="2.25in"}
+![](images/image187.webp){width="4.0in" height="2.25in"}
 
 Just as a little refresher in case you haven\'t used background images
 before, the background image is an option for including graphics without
@@ -2818,7 +2818,7 @@ Instead of giving a name, you are going to want to use some sort of
 variable. Okay? After you do that, you\'re going to want to hard code
 the background color because we\'re hoping it won\'t be there at all.
 
-![](images/image188.png){width="4.0in" height="2.25in"}
+![](images/image188.webp){width="4.0in" height="2.25in"}
 
 For the element text, I\'m going to leave that a little bit more for you
 to figure out how you\'re going to do that. We\'ve discussed two
@@ -2836,7 +2836,7 @@ you should have something is going to equal some sort of element, all
 right? Avoid using quotes on the right-hand side for this assignment.
 Really try to use something that can change as the document changes.
 
-![](images/image189.png){width="4.0in" height="2.25in"}
+![](images/image189.webp){width="4.0in" height="2.25in"}
 
 Okay, so a couple tips to get you started. The code you need to write
 should actually be really short. If you are writing more than five or
@@ -2907,7 +2907,7 @@ one thing at a time. This is where Arrays come in. Let\'s get started.
 
 # Week 3-01. JavaScript Arrays
 
-![](images/image190.png){width="4.0in" height="2.25in"}
+![](images/image190.webp){width="4.0in" height="2.25in"}
 
 Today we\'re going to be starting something that\'s really quite
 different than what we\'ve been doing in the past. In the first few
@@ -2916,14 +2916,14 @@ talked about numbers, strings, true or false booleans, or objects. And
 while objects can be quite complex where you can have entire DOM
 elements, the fact is they were just dealing with one element at a time.
 
-![](images/image191.png){width="4.0in" height="2.25in"}
+![](images/image191.webp){width="4.0in" height="2.25in"}
 
 But what do you do if you want to use multiple related pieces of
 information? That\'s where the idea of arrays comes in. Arrays give us a
 chance to declare multiple values that are all linked to a single
 variable.
 
-![](images/image192.png){width="4.0in" height="2.25in"}
+![](images/image192.webp){width="4.0in" height="2.25in"}
 
 In this case I\'ve declared an array called grades, but instead of
 giving it one value, I\'ve given it ten. In this next example, I said I
@@ -2934,7 +2934,7 @@ APIs **getElementsByClassName**. In this case, I have no idea how many
 elements will be in this images array because I don\'t know how many
 images were in the document.
 
-![](images/image193.png){width="4.0in" height="2.25in"}
+![](images/image193.webp){width="4.0in" height="2.25in"}
 
 And in the same way, I could declare array by saying, you know what, I
 want to make a variable, I\'m going to call it listItems. And how I\'m
@@ -2943,7 +2943,7 @@ going to assign it or declare and initialize it, is by doing
 it\'ll travel through the DOM and grab every element that has that li
 tag.
 
-![](images/image194.png){width="4.0in" height="2.25in"}
+![](images/image194.webp){width="4.0in" height="2.25in"}
 
 Hopefully you\'ve seen this idea that an array is not a single value,
 but a collection of values. You start off by giving your array a name,
@@ -2956,7 +2956,7 @@ science ideas, we don\'t start at 1, we start at 0. If I have an array
 of 10 elements, The index goes from 0 to 9. If I have an array of 5
 elements, I know that it\'ll go from 0 to 4.
 
-![](images/image195.png){width="4.0in" height="2.25in"}
+![](images/image195.webp){width="4.0in" height="2.25in"}
 
 Okay, so we have our array, and we know, in this case, that we have an
 array with 10 values in it. Each of those values is called an element.
@@ -2968,7 +2968,7 @@ each element is referenced by an index. If I were to say
 array up here. I need to go find the one that\'s in the 0 place, so
 **grades\[0\]** refers to 80.
 
-![](images/image196.png){width="4.0in" height="2.25in"}
+![](images/image196.webp){width="4.0in" height="2.25in"}
 
 If I want to talk about **grades\[4\],** well this refers to value 62.
 **grades\[0\]** is the first value, **grades\[4\]** is actually the
@@ -2976,7 +2976,7 @@ fifth value. If this is the first time you\'ve really experienced
 starting your counting at 0, it can be a little bit confusing at first,
 but you\'ll get the hang of it in really no time.
 
-![](images/image197.png){width="4.0in" height="2.25in"}
+![](images/image197.webp){width="4.0in" height="2.25in"}
 
 One thing I wanted to mention because it\'s different than in other
 program and languages, is that elements in array don\'t have to be all
@@ -2985,7 +2985,7 @@ a string and a number, and then a string and a number, and that works
 just fine. However, it\'s very uncommon and I wouldn\'t necessarily
 encourage you to do your arrays in this manner.
 
-![](images/image198.png){width="4.0in" height="2.25in"}
+![](images/image198.webp){width="4.0in" height="2.25in"}
 
 Instead, we want to focus on this idea that arrays tend to have the same
 values in them and that they have attributes and methods. Because
@@ -3002,7 +3002,7 @@ how big that array was because we had initialized it. But sometimes you
 won\'t know how long the array is, especially if you used
 **getElementsByTagName** or something like that.
 
-![](images/image199.png){width="4.0in" height="2.25in"}
+![](images/image199.webp){width="4.0in" height="2.25in"}
 
 It is possible to combine the idea of length and the idea of push to
 come up with our own way of adding things to our array. Grades, here\'s
@@ -3017,7 +3017,7 @@ same thing in different ways. It\'s a really great learning opportunity
 for you to try to figure out which things match as you go out and see
 new code.
 
-![](images/image200.png){width="4.0in" height="2.25in"}
+![](images/image200.webp){width="4.0in" height="2.25in"}
 
 Let\'s review. As you learn to declare and manipulate arrays, your code
 is going to become much more powerful. You just need to take the time to
@@ -3036,14 +3036,14 @@ thanks.
 
 # Week 3-02. Code With Me -- Arrays
 
-![](images/image201.png){width="4.0in" height="2.25in"}
+![](images/image201.webp){width="4.0in" height="2.25in"}
 
 Today, we\'re going to do what I call a Code with Me. Well, it\'s
 perfectly okay if you just sit here and read the modules. I really
 encourage people to take this as an opportunity to find out, can you do
 the things that you\'ve been reading about all along?
 
-![](images/image202.png){width="4.0in" height="2.25in"}
+![](images/image202.webp){width="4.0in" height="2.25in"}
 
 Specifically, I\'m wondering, can you declare an array? We\'ve been
 talking about them, we\'ve been using them, but I\'ve been doing all the
@@ -3061,14 +3061,14 @@ for you. But I really encourage you to start from scratch and try coding
 on your own. And using my code as a reference just in case things go
 wrong.
 
-![](images/image203.png){width="4.0in" height="2.25in"}
+![](images/image203.webp){width="4.0in" height="2.25in"}
 
 Let\'s take a look at this code. I really want you to understand each
 and every line. Sometimes I do things the long way, but that\'s okay.
 Because I really think it\'s a great learning experience for you to
 understand what\'s going on with JavaScript.
 
-![](images/image204.png){width="4.0in" height="2.25in"}
+![](images/image204.webp){width="4.0in" height="2.25in"}
 
 Let\'s start off with the fact that I declared an array with four
 different elements in here. I have Banana, Orange, Apple and Mango, I\'m
@@ -3088,14 +3088,14 @@ want to add additional things to the end of our array. All right, let\'s
 get started. In this function, it\'s going to ask us what our favorite
 food is. Once they ask, we need to know where should we put it?
 
-![](images/image205.png){width="4.0in" height="2.25in"}
+![](images/image205.webp){width="4.0in" height="2.25in"}
 
 Right now, I\'m going to draw up on the screen to get an idea of what
 the index of each one of these elements is. It starts at 0, 1, 2 and 3.
 So this means we want to put the next fruit in position 4.
 
-![](images/image206.png){width="3.5in"
-height="1.96875in"}![](images/image207.png){width="3.5in"
+![](images/image206.webp){width="3.5in"
+height="1.96875in"}![](images/image207.webp){width="3.5in"
 height="1.96875in"}
 
 Let\'s take a look. I click Add Your Favorite. I\'ll say Strawberry. And
@@ -3113,7 +3113,7 @@ variable here, instead of hard coding a number. My program will work no
 matter how many different elements I add. Length is the count of fruits
 in the array.
 
-![](images/image208.png){width="4.0in" height="2.25in"}
+![](images/image208.webp){width="4.0in" height="2.25in"}
 
 Let\'s add two more. And I can add Peach. And I can add another one.
 I\'ll just add Banana again because I have no imagination this morning.
@@ -3143,12 +3143,12 @@ situations.
 
 # Week 3-03. JavaScript Iteration
 
-![](images/image209.png){width="4.0in" height="2.25in"}
+![](images/image209.webp){width="4.0in" height="2.25in"}
 
 Hi everybody. Now that we know that arrays are an option for storing
 data, we need to think of the upsides and downsides of using them.
 
-![](images/image210.png){width="4.0in" height="2.25in"}
+![](images/image210.webp){width="4.0in" height="2.25in"}
 
 The upside, of course, is that arrays can store a lot of things in a
 single variable, instead of declaring variable grade\[1\], var
@@ -3159,12 +3159,12 @@ number, but we don\'t want to write the same code 10 times, or 20 times,
 or 40 times? What we want to do is we want to use iteration, or what we
 typically call looping.
 
-![](images/image211.png){width="4.0in" height="2.25in"}
+![](images/image211.webp){width="4.0in" height="2.25in"}
 
 When you loop through an array, you look at each element, usually
 starting at the first one and ending at the last one.
 
-![](images/image212.png){width="4.0in" height="2.25in"}
+![](images/image212.webp){width="4.0in" height="2.25in"}
 
 In our example here, we have an array of ten elements. How could we find
 the average of those ten elements? Well, we would start off by saying we
@@ -3177,7 +3177,7 @@ for loop is simply a construct where we can run the same code multiple
 times. But between each execution, we\'re going to check some sort of
 Boolean condition to see if we\'re done or not.
 
-![](images/image213.png){width="4.0in" height="2.25in"}
+![](images/image213.webp){width="4.0in" height="2.25in"}
 
 Here\'s a syntax. You need to have the keyword for. It lets JavaScript
 know, oh, change things here. I\'m going to change the flow of control.
@@ -3187,7 +3187,7 @@ move. We\'re going to have a boolean condition that\'s either going to
 be true or false. And then, typically, you need to have some sort of
 update or increment variable that lets us keep going.
 
-![](images/image214.png){width="4.0in" height="2.25in"}
+![](images/image214.webp){width="4.0in" height="2.25in"}
 
 We want to start with the keyword for. Then, you set that variable to
 the initial value. Usually, we tend to call that variable index, or
@@ -3200,7 +3200,7 @@ what code you want to run when the boolean is true, and then fourth, you
 update your variable and you head back to two. Here\'s a little diagram
 of how that all works together.
 
-![](images/image215.png){width="4.0in" height="2.25in"}
+![](images/image215.webp){width="4.0in" height="2.25in"}
 
 Here we have kind of a narrated explanation of what\'s going on. We
 start with our initialization. This only happens once. After you\'ve
@@ -3217,7 +3217,7 @@ The important thing to know for a for loop is that the initialization is
 always going to happen once, but you have no idea how many times these
 steps are going to happen.
 
-![](images/image216.png){width="4.0in" height="2.25in"}
+![](images/image216.webp){width="4.0in" height="2.25in"}
 
 Here\'s a quick for loop that\'s going to go through and write each
 element of the array. We start at zero, we loop until we get to the
@@ -3228,7 +3228,7 @@ the array. If the array happens to have six elements, it will run six
 times. If it has two elements, it will run two times. We\'re very
 flexible here by using that **array.length**.
 
-![](images/image217.png){width="4.0in" height="2.25in"}
+![](images/image217.webp){width="4.0in" height="2.25in"}
 
 Let\'s get back to that example where we want to find the average of all
 the grades that are stored in our array. What I\'ve done, is I start off
@@ -3248,7 +3248,7 @@ inaccurate answers. Okay so if you followed that code and you understand
 how it works that\'s great. What we want to think about instead is how
 what would happen to make that code not work?
 
-![](images/image218.png){width="4.0in" height="2.25in"}
+![](images/image218.webp){width="4.0in" height="2.25in"}
 
 The first question I would ask you is why did I use **grades.length**
 instead of \"10\"? We could\'ve said, keep looping as long as the index
@@ -3257,7 +3257,7 @@ problem is, what if later we decide to add some numbers to our array? Or
 take some numbers away from our array? Well then, that 10 is no longer
 correct, and you would need to remember to go in and change it.
 
-![](images/image219.png){width="4.0in" height="2.25in"}
+![](images/image219.webp){width="4.0in" height="2.25in"}
 
 What would happen if instead of adding one to our counter we subtracted
 one? This happens a little bit more often than anyone wants to admit.
@@ -3266,7 +3266,7 @@ You can end up never leaving that line of code, and it will stall your
 entire browser. You want to make sure that you\'re incrementing or
 decrementing the way you mean to.
 
-![](images/image220.png){width="4.0in" height="2.25in"}
+![](images/image220.webp){width="4.0in" height="2.25in"}
 
 Along the same lines, what would happen if I set the condition to check
 if index was less than or equal to **grades.length**? I had initially
@@ -3276,7 +3276,7 @@ of people would never even realize it did, because JavaScript does such
 a great job of hiding its errors. You need to go into the console and
 see what\'s going on.
 
-![](images/image221.png){width="4.0in" height="2.25in"}
+![](images/image221.webp){width="4.0in" height="2.25in"}
 
 Just to review, if you\'re learning to program in any programming
 language, looping is used for much more than arrays. It\'s a very
@@ -3292,7 +3292,7 @@ Thanks for reading.
 
 # Week 3-04. Flow of Control
 
-![](images/image222.png){width="4.0in" height="2.25in"}
+![](images/image222.webp){width="4.0in" height="2.25in"}
 
 Hi, everybody. Today, we\'re going to be talking about Flow of Control.
 Flow of control is just a fancy term for the fact that sometimes we want
@@ -3300,7 +3300,7 @@ to be able to control which code our computer actually executes, instead
 of doing everything we\'re going to be putting decision points into our
 code.
 
-![](images/image223.png){width="4.0in" height="2.25in"}
+![](images/image223.webp){width="4.0in" height="2.25in"}
 
 When your computer comes across them, it can kind of decide at the fly
 whether or not you should run it. This is a great way to add a little
@@ -3310,7 +3310,7 @@ you some examples today, in the lecture. Finally, it also helps us avoid
 potential errors that the user might be putting in. This isn\'t even
 something always that they do but that we\'ve coded ourselves.
 
-![](images/image224.png){width="4.0in" height="2.25in"}
+![](images/image224.webp){width="4.0in" height="2.25in"}
 
 Let\'s talk about flow-of-control in a little bit more of a technical
 term. When you design your code, it\'s very important that you break
@@ -3321,7 +3321,7 @@ another word for the steps your programs take, can execute only those
 blocks that they need to execute. And again, the execution of these
 blocks is where we come up with the term flow-of-control.
 
-![](images/image225.png){width="4.0in" height="2.25in"}
+![](images/image225.webp){width="4.0in" height="2.25in"}
 
 We\'ve actually had decision points before in our program where we might
 not have realized it. We\'ve actually written decision points in before
@@ -3336,7 +3336,7 @@ were kind of hidden and we didn\'t even know they were happening. And
 some are very explicit, and these are the ones we\'re going to talk
 about now.
 
-![](images/image226.png){width="4.0in" height="2.25in"}
+![](images/image226.webp){width="4.0in" height="2.25in"}
 
 One of the most common control structures in any programming language is
 the if statement. With an if statement, it evaluates a boolean
@@ -3350,7 +3350,7 @@ expressions that are always going to return true or false. Is A greater
 than B? Does C equal D? After the computer checks that expression, we
 give it a list of steps to perform.
 
-![](images/image227.png){width="4.0in" height="2.25in"}
+![](images/image227.webp){width="4.0in" height="2.25in"}
 
 Let\'s talk about the syntax and logic of the if statement. One of the
 things I said, is that you need to realize, that the word if is a
@@ -3367,7 +3367,7 @@ different things we\'ve talked about earlier. Finally, after the if
 statement, we\'re going to see the actual statement that we want to
 perform all by itself.
 
-![](images/image228.png){width="4.0in" height="2.25in"}
+![](images/image228.webp){width="4.0in" height="2.25in"}
 
 Now in this example I didn\'t include those curly brackets that you
 might often see. Something along the lines of here. These curly brackets
@@ -3386,7 +3386,7 @@ it makes your code a lot easier to read. It\'s a lot easier to see that
 there are six or seven lines of code that are all along the same line,
 then to necessarily always be looking for these curly blocks.
 
-![](images/image229.png){width="4.0in" height="2.25in"}
+![](images/image229.webp){width="4.0in" height="2.25in"}
 
 Let\'s look at this with a little bit of action and animation added to
 it. The first thing we\'re going to do, is evaluate that condition. If
@@ -3398,7 +3398,7 @@ you, that an if statement doesn\'t make you skip everything that comes
 afterwards, it only skips certain blocks if it\'s true. Now, let\'s do
 two examples with real code.
 
-![](images/image230.png){width="4.0in" height="2.25in"}
+![](images/image230.webp){width="4.0in" height="2.25in"}
 
 Let\'s look at this example, over here. In the code that I have, I\'ve
 declared a variable called name, right here. And I\'ve decided that if
@@ -3406,7 +3406,7 @@ somebody enters their name, I\'m going to say hello to them. But if they
 don\'t enter anything, I don\'t want to say hello at all. Let\'s see
 what happens when I enter in Colleen.
 
-![](images/image231.png){width="4.0in" height="2.25in"}
+![](images/image231.webp){width="4.0in" height="2.25in"}
 
 Look down here. I have, Hello Colleen shows up, all right. How that
 happened is that I went in here and I added my if statement, I said if
@@ -3414,14 +3414,14 @@ that name, if the length of that name doesn\'t equal zero which means
 someone actually types something in, write my name and that worked
 great.
 
-![](images/image232.png){width="4.0in" height="2.25in"}
+![](images/image232.webp){width="4.0in" height="2.25in"}
 
 But let\'s see what happens if I put in nothing. We have the same prompt
 but I\'m going to just hit OK. In this case the program didn\'t crash or
 anything along that line, it just doesn\'t have any output at all. That
 was a very simple example.
 
-![](images/image233.png){width="4.0in" height="2.25in"}
+![](images/image233.webp){width="4.0in" height="2.25in"}
 
 Let\'s move on to another that we\'ve seen before. In the example where
 we figured out the average in an array of numbers, we were very straight
@@ -3432,8 +3432,8 @@ average by adding up all the numbers and then dividing by the numbers
 there were. However, in computer science, it\'s very important that you
 check and make sure that you never divide by zero.
 
-![](images/image234.png){width="3.5in"
-height="1.96875in"}![](images/image235.png){width="3.5in"
+![](images/image234.webp){width="3.5in"
+height="1.96875in"}![](images/image235.webp){width="3.5in"
 height="1.96875in"}
 
 If I were to change my code right here and get rid of all the numbers so
@@ -3446,8 +3446,8 @@ not going to do the average. At the very least, we should get rid of
 this kind of weird not a number. How are we going to do that? We need to
 write an if statement.
 
-![](images/image236.png){width="3.5in"
-height="1.96875in"}![](images/image237.png){width="3.5in"
+![](images/image236.webp){width="3.5in"
+height="1.96875in"}![](images/image237.webp){width="3.5in"
 height="1.96875in"}
 
 In the code I have here, called array average with zero, I took the same
@@ -3462,7 +3462,7 @@ might be, you might be thinking, I'm not sure blank screen is such a
 great idea. Don\'t worry, we\'re going to handle that as well when we
 talk about the else that can go along with the if.
 
-![](images/image238.png){width="4.0in" height="2.25in"}
+![](images/image238.webp){width="4.0in" height="2.25in"}
 
 How do we do that? How do we add a second option to your code? Well, an
 else can be added to an if statement to make we calling, an if-else
@@ -3474,18 +3474,18 @@ condition is true then statement one is executed. If the condition is
 false then statement two is executed. One or the other will be executed,
 but not both.
 
-![](images/image239.png){width="4.0in" height="2.25in"}
+![](images/image239.webp){width="4.0in" height="2.25in"}
 
 Using flow of control, we're going to evaluate the condition first. If
 it's true go to statement one, if its false do statement or statements
 two and then you know what keeps going.
 
-![](images/image240.png){width="4.0in" height="2.25in"}
+![](images/image240.webp){width="4.0in" height="2.25in"}
 
 Let's look back at our examples with an added else.
 
-![](images/image241.png){width="3.5in"
-height="1.96875in"}![](images/image242.png){width="3.5in"
+![](images/image241.webp){width="3.5in"
+height="1.96875in"}![](images/image242.webp){width="3.5in"
 height="1.96875in"}
 
 I\'ve gone back to our JavaScript if statement with the name and I\'ve
@@ -3494,8 +3494,8 @@ their name. Let\'s send them a little message. Now, if I put in my name,
 it still works as we expected. Hello Colleen. But, if I leave it blank,
 instead of doing nothing, it sends out a message called, feeling shy?
 
-![](images/image243.png){width="3.0in"
-height="1.6875in"}![](images/image244.png){width="3.0in"
+![](images/image243.webp){width="3.0in"
+height="1.6875in"}![](images/image244.webp){width="3.0in"
 height="1.6875in"}
 
 We can do the same thing with our average. Where here instead of just
@@ -3509,7 +3509,7 @@ it is for you to play with this code. Make sure that you use the if to
 specify that single line of code, or that block of code, that you want
 to be executed.
 
-![](images/image245.png){width="4.0in" height="2.25in"}
+![](images/image245.webp){width="4.0in" height="2.25in"}
 
 Run this over and over again, find out where you tend to make your
 different little errors, either forgetting the parentheses, forgetting
@@ -3526,7 +3526,7 @@ learning. So good luck.
 
 # Week 3-05. Code With Me -- Combining Loops & Conditionals
 
-![](images/image246.png){width="4.0in" height="2.25in"}
+![](images/image246.webp){width="4.0in" height="2.25in"}
 
 Hi everybody, welcome back. It\'s time for another code with me. This is
 one of those situations where I really hope that you put down whatever
@@ -3535,7 +3535,7 @@ scratch. I know it\'s easier when I provide the code for you and you
 follow along, but the real learning happens, when you make the mistakes
 that come along with coding by yourself.
 
-![](images/image247.png){width="4.0in" height="2.25in"}
+![](images/image247.webp){width="4.0in" height="2.25in"}
 
 Let\'s think about some of the things we\'ve been learning, and how you
 can incorporate them into a more complex situation. For instance, can
@@ -3548,7 +3548,7 @@ In today\'s example, we\'re going to build on the previous code where we
 took the average of an array. But now, we want to make our code a little
 bit better and a little bit smarter. Let\'s get started.
 
-![](images/image248.png){width="4.0in" height="2.25in"}
+![](images/image248.webp){width="4.0in" height="2.25in"}
 
 Here\'s the code we had earlier in this course. But I\'ve made one very
 important change, it\'s right up here in the array. Instead of
@@ -3557,7 +3557,7 @@ empty, or what we in JavaScript call undefined. The problem is now, when
 our code goes through and it adds every single element together to come
 up with the sum We get an error.
 
-![](images/image249.png){width="4.0in" height="2.25in"}
+![](images/image249.webp){width="4.0in" height="2.25in"}
 
 If you check right down here. Your screen is going to say NaN. That
 stands for not a number, and it\'s something that may happen to you
@@ -3566,7 +3566,7 @@ about the logic very much. And it almost always happens when you\'re
 doing some math. Let\'s think about how we can fix this, and what kind
 of logic we need behind it.
 
-![](images/image250.png){width="4.0in" height="2.25in"}
+![](images/image250.webp){width="4.0in" height="2.25in"}
 
 The first place I\'m going to look is right here. And my reason is, we
 want to make sure that we\'re not adding everything into the sum, just
@@ -3598,7 +3598,7 @@ to do that, because there are a lot of empty elements up there. Let\'s
 change this, so that we\'re actually keeping track of how many elements
 are good, and only divide by them. Let\'s get started.
 
-![](images/image251.png){width="4.0in" height="2.25in"}
+![](images/image251.webp){width="4.0in" height="2.25in"}
 
 The first thing I\'m going to do is I\'m going to add a new variable
 called count. What is this variable going to do? It\'s going to keep
@@ -3617,7 +3617,7 @@ If you want two things to happen as part of your if statement, you have
 to remember to put in that extra curly bracket, because that says, oh, I
 want you to do both of these things.
 
-![](images/image252.png){width="4.0in" height="2.25in"}
+![](images/image252.webp){width="4.0in" height="2.25in"}
 
 Now we\'ve done this, we\'re adding one to our count. We have one last
 place we need to change our code, and that\'s right down here. Instead
@@ -3635,12 +3635,12 @@ practice, practice. Good luck.
 
 # Week 3-06. Advanced Conditionals
 
-![](images/image253.png){width="4.0in" height="2.25in"}
+![](images/image253.webp){width="4.0in" height="2.25in"}
 
 Earlier, we talked about how you can add if statements in order to
 affect the flow of control of your program.
 
-![](images/image254.png){width="4.0in" height="2.25in"}
+![](images/image254.webp){width="4.0in" height="2.25in"}
 
 What you need to do is you go through, and you kind of circle those
 little decision points in your code where the computer needs to make a
@@ -3653,7 +3653,7 @@ where, when you make decision, it depends on more that one thing. Even
 if you\'re going to go to a movie, you need to decide. Is the rating
 okay? And it is as much as I want to pay.
 
-![](images/image255.png){width="4.0in" height="2.25in"}
+![](images/image255.webp){width="4.0in" height="2.25in"}
 
 Let\'s talk about what we call nested If statements. It\'s possible to
 put one If statement inside of another. In this situation I have an If
@@ -3665,7 +3665,7 @@ but we also have this kind of small inner block as well. Now, here\'s
 where the logic comes in, it\'s important for you to understand I will
 never get here. Ever, ever, unless both boolean expressions are true.
 
-![](images/image256.png){width="4.0in" height="2.25in"}
+![](images/image256.webp){width="4.0in" height="2.25in"}
 
 The first thing I\'m going to say before we even go on with this, is
 that it\'s so important that you think about your code, and you plan
@@ -3673,7 +3673,7 @@ ahead. Because, as we start to make these more complicated or more
 complex decisions points, you want to make sure that your logic is
 correct.
 
-![](images/image257.png){width="4.0in" height="2.25in"}
+![](images/image257.webp){width="4.0in" height="2.25in"}
 
 What about else statements. I talked before about how you can nest If
 statements inside of each other. Well, if you want to have an else
@@ -3683,7 +3683,7 @@ recent open if statement. Indentation, where you put your code, whether
 you put an else directly below an if, has nothing to do with it as far
 as the computer is concerned. It\'s all about the curly brackets.
 
-![](images/image258.png){width="4.0in" height="2.25in"}
+![](images/image258.webp){width="4.0in" height="2.25in"}
 
 Let's build on to that nested if we were doing before or that If
 statements we were doing with that name before. The difference is, well,
@@ -3704,11 +3704,11 @@ a name. And so I have my if, name, and again it\'s ==, not =, but ==.
 That\'s how you check for equivalence. If name == Colleen do one thing,
 else, do another.
 
-![](images/image259.png){width="4.0in"
-height="2.25in"}![](images/image260.png){width="4.0in"
+![](images/image259.webp){width="4.0in"
+height="2.25in"}![](images/image260.webp){width="4.0in"
 height="2.25in"}
 
-![](images/image261.png){width="4.0in" height="2.25in"}
+![](images/image261.webp){width="4.0in" height="2.25in"}
 
 Now the reason why this else statement right here matches this one is
 that it\'s the last one that\'s open. Because what we don\'t want to
@@ -3723,7 +3723,7 @@ feeling shy? You can see that by adding these different if statements
 I\'ve created different levels and different outputs depending on what
 the person put in.
 
-![](images/image262.png){width="4.0in" height="2.25in"}
+![](images/image262.webp){width="4.0in" height="2.25in"}
 
 Now, I want you to look closely again at this code one more time. As you
 can see, when I get to this statement. Let\'s say, right here. I\'m
@@ -3733,7 +3733,7 @@ thing as if name.length doesn\'t equal zero and the name doesn\'t equal
 Colleen. Each one of these bits of code could actually be written with
 more complex boolean expressions.
 
-![](images/image263.png){width="4.0in" height="2.25in"}
+![](images/image263.webp){width="4.0in" height="2.25in"}
 
 Let me show you what I mean. Right here, I\'ve replaced my nested if
 statements and replaced them with much longer conditional statements.
@@ -3741,14 +3741,14 @@ Much more specific. We might also say conditional statements. This code
 works and it\'s absolutely fine but it\'s much less efficient than
 nesting the different if statements. And here\'s the reason why.
 
-![](images/image264.png){width="4.0in" height="2.25in"}
+![](images/image264.webp){width="4.0in" height="2.25in"}
 
 When the computer runs to this code, it does this if statement. If it\'s
 true, it executes the code, but then it still goes down and it checks
 this one and that one as well. We\'re not really doing flow of control
 as much as just checking one line at a time.
 
-![](images/image265.png){width="4.0in" height="2.25in"}
+![](images/image265.webp){width="4.0in" height="2.25in"}
 
 In our previous example, if the computer sees that the name is empty, it
 skipped all this and it jumped all the way down here. In a similar
@@ -3758,7 +3758,7 @@ it may not seem like much, that we\'re skipping two or three lines of
 code. But you can imagine how in the long run it could really make a
 difference.
 
-![](images/image266.png){width="4.0in" height="2.25in"}
+![](images/image266.webp){width="4.0in" height="2.25in"}
 
 What do I want you to do in this class? I want you to do whatever you
 are comfortable with. It is possible to create complex flow-of-control
@@ -3776,7 +3776,7 @@ provide more so you can keep practicing. Good luck.
 
 # Week 3-07. Common Errors
 
-![](images/image267.png){width="4.0in" height="2.25in"}
+![](images/image267.webp){width="4.0in" height="2.25in"}
 
 Hi everybody, welcome back. One of the things I like to say is that if
 you\'re not messing up, you\'re not really programming. It\'s really
@@ -3788,7 +3788,7 @@ the font size, and it\'s just not happening. And while it\'s
 frustrating, the nice part is that you can visually see your mistakes.
 You know something isn\'t working.
 
-![](images/image268.png){width="4.0in" height="2.25in"}
+![](images/image268.webp){width="4.0in" height="2.25in"}
 
 However, when you are using JavaScript most of the time the browsers are
 just going to hide your errors. So, you don\'t even know that your code
@@ -3798,7 +3798,7 @@ to find the errors on your own.
 There are two classic types of errors in programming. They are called
 syntactic errors and logic errors.
 
-![](images/image269.png){width="4.0in" height="2.25in"}
+![](images/image269.webp){width="4.0in" height="2.25in"}
 
 With syntactic errors, what you\'ve done is you\'ve broken some sort of
 rule of JavaScript. So, perhaps you typed something wrong. This might
@@ -3826,7 +3826,7 @@ know. Let me update the course information. Because you\'re really at a
 disadvantage if you don\'t have that ability to look and seek out your
 errors.
 
-![](images/image270.png){width="4.0in" height="2.25in"}
+![](images/image270.webp){width="4.0in" height="2.25in"}
 
 Now logical errors are a little bit different. Your code is valid, you
 followed all the rules, but maybe there\'s something wrong with the
@@ -3839,7 +3839,7 @@ Some logic errors really are just typos. They\'re just typos that run.
 So, let\'s look at some of the most common errors so I can try to help
 you kind of debug your code before you even do it.
 
-![](images/image271.png){width="4.0in" height="2.25in"}
+![](images/image271.webp){width="4.0in" height="2.25in"}
 
 A few things I don\'t want you to forget. First, you need to realize
 that the number 5 is actually equal to the letter 5 as far as JavaScript
@@ -3870,7 +3870,7 @@ much guaranteed that you\'re also over 18. This is why, when you\'re
 writing your code, you want to just stop every once in a while, and make
 sure you\'re double checking each line as to what it\'s actually doing.
 
-![](images/image272.png){width="4.0in" height="2.25in"}
+![](images/image272.webp){width="4.0in" height="2.25in"}
 
 Another very common source of frustration and sometimes outright anger
 with people is the + operator. You need to remember that the + works
@@ -3898,7 +3898,7 @@ important that your else statements match the appropriate if. You also
 want to make sure that you never include semicolons inside the if
 itself.
 
-![](images/image273.png){width="4.0in" height="2.25in"}
+![](images/image273.webp){width="4.0in" height="2.25in"}
 
 Let me show you an example. Right here, I have if (age \< 18);
 alert(\"Too young!\");. This isn\'t going to do what you expect. If you
@@ -3909,7 +3909,7 @@ counts as a statement. What you\'re really saying right here is, if age
 is less than 18, nothing. And then it will immediately go down to the
 next line. It\'s always going to say too young.
 
-![](images/image274.png){width="4.0in" height="2.25in"}
+![](images/image274.webp){width="4.0in" height="2.25in"}
 
 In a very similar manner, I have a for loop over here, where I included
 a semi-colon. We\'re going to have that same exact error. What\'s going
@@ -3920,7 +3920,7 @@ code and write out the number 5. I\'ve put this code online, and I\'d
 really love for you to take a look at it and kind of play with it, and
 help you recognize how these semi-colons can affect the flow of control.
 
-![](images/image275.png){width="4.0in" height="2.25in"}
+![](images/image275.webp){width="4.0in" height="2.25in"}
 
 Whenever possible, I really encourage you to use that console. There
 have been so many times when I have wasted a lot of effort trying to fix
@@ -3977,16 +3977,16 @@ not.
 
 # Week 4-01. Simple Forms
 
-![](images/image276.png){width="4.0in" height="2.25in"}
+![](images/image276.webp){width="4.0in" height="2.25in"}
 
-![](images/image277.png){width="4.0in"
+![](images/image277.webp){width="4.0in"
 height="2.247863079615048in"}
 
 Hi, everybody. One place where you tend to see a lot of JavaScript used
 is when people are creating forms. Forms are a great way to let you give
 people the opportunity to send you feedback.
 
-![](images/image279.png){width="4.0in" height="2.25in"}
+![](images/image279.webp){width="4.0in" height="2.25in"}
 
 Forms also add a new layer to what we call the Request-Response Cycle.
 So previously, we\'ve had our phone, yeah, no one has an antenna anymore
@@ -4010,7 +4010,7 @@ developing locally on your laptops. We can create the forms, but we
 can\'t really process them yet. The reason for this is that we\'re doing
 what\'s called front end web development.
 
-![](images/image280.png){width="4.0in" height="2.25in"}
+![](images/image280.webp){width="4.0in" height="2.25in"}
 
 With front end development, you tend to think about what happens on that
 browser or client side. How we want things to look on your laptop, on
@@ -4024,7 +4024,7 @@ in this lecture, we\'re only going to talk about the front end. We\'re
 going to talk about that HTML, CSS, and JavaScript that we use to put
 together a form.
 
-![](images/image281.png){width="4.0in" height="2.25in"}
+![](images/image281.webp){width="4.0in" height="2.25in"}
 
 Okay, so how do we make a form? Typically, you want to use at least
 three different HTML elements, the **form**, the **label**, and the
@@ -4033,7 +4033,7 @@ and we\'re going to probably be processing some data, get ready. The
 **label** is what matches different text on the screen with the actual
 input that you can put in.
 
-![](images/image282.png){width="4.0in" height="2.25in"}
+![](images/image282.webp){width="4.0in" height="2.25in"}
 
 Let\'s start off by putting in the name. Here, I have **\<label
 for=\'name\'\>, type=\'text\', id=\'name\'.** And then I do actually
@@ -4049,7 +4049,7 @@ phone. By letting it set up, so that you can hit small pieces of text
 instead of just necessarily the buttons or check boxes, it\'s going to
 make their life much easier.
 
-![](images/image283.png){width="4.0in" height="2.25in"}
+![](images/image283.webp){width="4.0in" height="2.25in"}
 
 By putting in label for=\'name\', it lets the computer know that these
 two things are linked together. But we can actually link forms and
@@ -4057,7 +4057,7 @@ labels in another way. In my second example, I skipped the whole for
 part and instead, how I made it work, because I said, hey, I\'ve got a
 label tag, everything inside of here is all grouped together.
 
-![](images/image284.png){width="4.0in" height="2.25in"}
+![](images/image284.webp){width="4.0in" height="2.25in"}
 
 Now, I\'m going to have one field for the name, one field for the email,
 and add one for the birthdate. It\'s easy to go through and be very
@@ -4072,7 +4072,7 @@ type=\'submit\'. If you don\'t have this part right here, there\'s no
 way for anybody to actually send the form. So don\'t forget to include
 that.
 
-![](images/image285.png){width="4.0in" height="2.25in"}
+![](images/image285.webp){width="4.0in" height="2.25in"}
 
 Now that we have this code, let\'s see what it looks like on the
 browser. Here\'s how it would look on Chrome. I have my name, I have my
@@ -4082,19 +4082,19 @@ function. If I look at the exact same page, the exact same code, but I
 look on it on Firefox, it\'s going to look a little bit different, that
 month, day, and year are gone. So let me show you this in real time.
 
-![](images/image286.png){width="4.0in" height="2.25in"}
+![](images/image286.webp){width="4.0in" height="2.25in"}
 
 Here\'s my form when I\'m looking at it on Chrome. And you can see down
 here in the corner, I\'ve got my name, and my email, and the birthdate.
 
-![](images/image287.png){width="4.0in" height="2.25in"}
+![](images/image287.webp){width="4.0in" height="2.25in"}
 
 And when I click here inside birth, or inside here, I can have an entire
 calendar function pop up for me where I can say, oh, I want to pick
 February 13th, 2015, all right. And this is a really handy way for
 someone to be able to input data.
 
-![](images/image288.png){width="4.0in" height="2.25in"}
+![](images/image288.webp){width="4.0in" height="2.25in"}
 
 But now, let\'s look at the same code but on Safari. You might notice
 that this isn\'t here anymore. There\'s no way for me to generate that
@@ -4102,18 +4102,18 @@ calendar to pop up. All right, oops, I shouldn\'t have done that, but
 that\'s fine. And so, these are the little things that you need to
 consider when you\'re coding for multiple different types of browsers.
 
-![](images/image289.png){width="4.0in" height="2.25in"}
+![](images/image289.webp){width="4.0in" height="2.25in"}
 
 You\'ve seen a very simple form.
 
-![](images/image290.png){width="4.0in" height="2.25in"}
+![](images/image290.webp){width="4.0in" height="2.25in"}
 
 Let\'s talk about the different attributes these form elements can have.
 The first one is type. The next one is name. And the next one is id.
 These are the three attributes we\'re going to see the most so I want to
 cover them in a little bit more depth.
 
-![](images/image291.png){width="4.0in" height="2.25in"}
+![](images/image291.webp){width="4.0in" height="2.25in"}
 
 For our input types, there\'s a long list of different things you might
 see in your field. You might see textfield, email, password, or
@@ -4124,7 +4124,7 @@ And finally, you\'re used to seeing the submit button. These are kind of
 the key input types that everyone would expect you to know how to use if
 you\'re a web developer.
 
-![](images/image292.png){width="4.0in" height="2.25in"}
+![](images/image292.webp){width="4.0in" height="2.25in"}
 
 A few additional input types are number, range, color, date, and URL.
 Each one of these are very restrictive in what they let the user type
@@ -4143,13 +4143,13 @@ All of these different input types can help make your site act a little
 bit better to the user. Let\'s take a look at these just briefly on the
 website.
 
-![](images/image293.png){width="4.0in" height="2.25in"}
+![](images/image293.webp){width="4.0in" height="2.25in"}
 
 Here are each of those input types on a form and this going to go in and
 type in a few of them so you can see. If I type in my name, it\'s as you
 expect.
 
-![](images/image294.png){width="4.0in" height="2.25in"}
+![](images/image294.webp){width="4.0in" height="2.25in"}
 
 But look what happen when I start typing in to the password. I\'m going
 to write in Colleen. And instead, you\'re getting kind of masked or
@@ -4163,7 +4163,7 @@ actually give me a color wheel, the whole list of different things I can
 pick, all right? And finally, URL was the one where I said it\'s going
 to expect you to type HTTP.
 
-![](images/image295.png){width="4.0in" height="2.25in"}
+![](images/image295.webp){width="4.0in" height="2.25in"}
 
 In addition to the input type, I mentioned there are two other attribute
 you want to make sure you understand. The first one is name. Almost
@@ -4181,7 +4181,7 @@ value is kind of highlighted. The second reason of course is that we\'ve
 been using id\'s with JavaScript all along and we want to make sure that
 we can continue to do that.
 
-![](images/image296.png){width="4.0in" height="2.25in"}
+![](images/image296.webp){width="4.0in" height="2.25in"}
 
 Two additional attributes because they\'re going to make our life
 easier, is one is value. When you have a value attribute, it\'s going to
@@ -4204,7 +4204,7 @@ usually I could gray out color. Something along the line of (123)
 input you\'re expecting. Now, as soon as somebody clicks in there, it\'s
 gone, so it\'s not permanent.
 
-![](images/image297.png){width="4.0in" height="2.25in"}
+![](images/image297.webp){width="4.0in" height="2.25in"}
 
 Let\'s review all the things we\'ve learned about forms in this one
 short module. First, you need to know the HTML tags for creating forms.
@@ -4218,7 +4218,7 @@ about JavaScript. Thanks.
 
 # Week 4-02. Simple Validation
 
-![](images/image298.png){width="4.0in" height="2.25in"}
+![](images/image298.webp){width="4.0in" height="2.25in"}
 
 Okay, everybody. Let\'s talk validation. Before we can validate input,
 we need to think ahead. We need to think what is it we want to validate
@@ -4226,7 +4226,7 @@ on our form or on our page. And after you decide what you want to
 evaluate, you have to decide how are we going to do it? Because we
 always have a few different options.
 
-![](images/image299.png){width="4.0in" height="2.25in"}
+![](images/image299.webp){width="4.0in" height="2.25in"}
 
 Let\'s talk about what we might want to validate. One option is the type
 of input. Is it important to you that you get a number instead of a
@@ -4243,7 +4243,7 @@ want the person to have to put it in? Do you want to check to make sure
 that two email value match? These are the type of things I\'m talking
 about when I say what to validate.
 
-![](images/image300.png){width="4.0in" height="2.25in"}
+![](images/image300.webp){width="4.0in" height="2.25in"}
 
 When we talk about how we want to validate, here\'s where it can get a
 little bit more interesting. One option is to just use the new HTML5
@@ -4257,7 +4257,7 @@ The third option is to use custom JavaScript functions, code that
 you\'re going to write to make sure that they\'re entering only the
 information you\'re expecting.
 
-![](images/image301.png){width="4.0in" height="2.25in"}
+![](images/image301.webp){width="4.0in" height="2.25in"}
 
 Let\'s start with those new HTML5 input types. The input types require
 that the browser validate the input. Not you. You\'re putting it all on
@@ -4269,7 +4269,7 @@ highlights that one it says, nope, you can\'t go any further. If it\'s
 not supported, then the input type just falls back to a plain text
 field.
 
-![](images/image302.png){width="4.0in" height="2.25in"}
+![](images/image302.webp){width="4.0in" height="2.25in"}
 
 Let\'s look at our early example of all the different input types, and
 I\'ll show you what I\'m talking about. I\'ve gone back to the form we
@@ -4277,7 +4277,7 @@ used before. And I\'ve put in some values for each of the different
 input types. I have Colleen, me, passwords, all those little things like
 that.
 
-![](images/image303.png){width="4.0in" height="2.25in"}
+![](images/image303.webp){width="4.0in" height="2.25in"}
 
 Now, because I used the email input type, this should fail as soon as I
 hit click here. Great. There you go. The browser, this is Chrome, said
@@ -4285,12 +4285,12 @@ nope, you need to have that ampersand and a dot to make this work. No
 problem. I\'ll put it in. And once I\'ve done that, I\'m going to go
 down here to click here again.
 
-![](images/image304.png){width="4.0in" height="2.25in"}
+![](images/image304.webp){width="4.0in" height="2.25in"}
 
 And the next thing it found that didn\'t fulfill that input type is now
 highlighted, or in focus as we call it. So, I can make this 3.
 
-![](images/image305.png){width="4.0in" height="2.25in"}
+![](images/image305.webp){width="4.0in" height="2.25in"}
 
 The last one I\'m going to click on is, it says sorry, this is not a
 valid URL. It\'s requiring me to put in http before we do that. Now when
@@ -4301,7 +4301,7 @@ some browsers using the email tag, or the number tag, or the URL tag, it
 doesn\'t guarantee valid input because maybe the browser just doesn\'t
 support it.
 
-![](images/image306.png){width="4.0in" height="2.25in"}
+![](images/image306.webp){width="4.0in" height="2.25in"}
 
 Another step we can take instead of just using input types is to use
 input attributes. These are just additional attributes that tell the
@@ -4324,7 +4324,7 @@ will ignore all of the required attributes. It seems a little silly, but
 as you start programming, you\'re going to be really glad you know about
 this. Because it lets you test sometimes, and not test other times.
 
-![](images/image307.png){width="4.0in" height="2.25in"}
+![](images/image307.webp){width="4.0in" height="2.25in"}
 
 Another attribute you can use is called **pattern**. **Pattern** only
 works with the input type equals text. And what it does is it forces the
