@@ -18,7 +18,15 @@ output:
   <img src="./images/image001.webp" 
   alt="Introduction - Interactivity with JavaScript."
   style="border: 2px solid #000000;" 
-  width="400px;" />
+  width="40%;" />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. university of michigan logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image002.webp" 
+  alt="University of Michigan logo."
+  style="border: 2px solid #000000;" 
+  width="20%;" />
 </p>
 
 
@@ -399,6 +407,14 @@ in the time we have. We will focus on the following:
 
 # Week 1-01. Introduction
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 03. introduction - interactivity with js (01) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image003.webp" 
+  alt="Introduction - Interactivity with JavaScript."
+  style="border: 2px solid #000000;" 
+  width="400px;" />
+</p>
 ![](images/image003.webp){width="4.0in"
 height="2.2512817147856516in"}
 
