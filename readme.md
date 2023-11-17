@@ -1,13 +1,13 @@
 ---
 title: |
-  **Interactivity with JavaScript**
+  Interactivity with JavaScript
 
   taught by Colleen van Lent , PhD
 ---
 
 ![](images/image001.webp){width="4.0in" height="2.241453412073491in"}
 
-![Advanced Styling with Responsive Design offered by University of
+![Interactivity with JavaScript offered by University of
 Michigan.](images/image0002.webp){width="2.0in"
 height="0.8481014873140857in"}
 
