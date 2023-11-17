@@ -4641,8 +4641,7 @@ about when I say what to validate.
 <p align="center">
   <img src="./images/image300.webp" 
   alt="How do you want to validate?" 
-  style="border: 2px solid #000000;"
-  width:40%" />
+  style="border: 2px solid #000000; width:40%" />
 
 When we talk about how we want to validate, here&#39;s where it can get a
 little bit more interesting. One option is to just use the new HTML5
@@ -4661,8 +4660,7 @@ information you&#39;re expecting.
 <p align="center">
   <img src="./images/image301.webp" 
   alt="Input Types." 
-  style="border: 2px solid #000000;"
-  width:40%" />
+  style="border: 2px solid #000000; width:40%" />
 
 Let&#39;s start with those new HTML5 input types. The input types require
 that the browser validate the input. Not you. You&#39;re putting it all on
@@ -4678,8 +4676,7 @@ field.
 <p align="center">
   <img src="./images/image302.webp" 
   alt="Example form, validation #1." 
-  style="border: 2px solid #000000;"
-  width:40%" />
+  style="border: 2px solid #000000; width:40%" />
 
 Let&#39;s look at our early example of all the different input types, and
 I&#39;ll show you what I&#39;m talking about. I&#39;ve gone back to the form we
@@ -4691,8 +4688,7 @@ that.
 <p align="center">
   <img src="./images/image303.webp" 
   alt="Example form, validation #2." 
-  style="border: 2px solid #000000;"
-  width:40%" />
+  style="border: 2px solid #000000; width:40%" />
 
 Now, because I used the email input type, this should fail as soon as I
 hit click here. Great. There you go. The browser, this is Chrome, said
@@ -4704,8 +4700,7 @@ down here to click here again.
 <p align="center">
   <img src="./images/image304.webp" 
   alt="Example form, validation #3." 
-  style="border: 2px solid #000000;"
-  width:40%" />
+  style="border: 2px solid #000000; width:40%" />
 
 And the next thing it found that didn&#39;t fulfill that input type is now
 highlighted, or in focus as we call it. So, I can make this 3.
@@ -4714,8 +4709,7 @@ highlighted, or in focus as we call it. So, I can make this 3.
 <p align="center">
   <img src="./images/image305.webp" 
   alt="Example form, validation #4." 
-  style="border: 2px solid #000000;"
-  width:40%" />
+  style="border: 2px solid #000000; width:40%" />
 
 The last one I&#39;m going to click on is, it says sorry, this is not a
 valid URL. It&#39;s requiring me to put in http before we do that. Now when
@@ -4731,8 +4725,7 @@ support it.
 <p align="center">
   <img src="./images/image306.webp" 
   alt="Input Attributes." 
-  style="border: 2px solid #000000;"
-  width:40%" />
+  style="border: 2px solid #000000; width:40%" />
 
 Another step we can take instead of just using input types is to use
 input attributes. These are just additional attributes that tell the
@@ -4759,8 +4752,7 @@ this. Because it lets you test sometimes, and not test other times.
 <p align="center">
   <img src="./images/image307.webp" 
   alt="Pattern of Simple Validation (4.02)." 
-  style="border: 2px solid #000000;"
-  width:40%" />
+  style="border: 2px solid #000000; width:40%" />
 
 Another attribute you can use is called **pattern**. **Pattern** only
 works with the input type equals text. And what it does is it forces the
@@ -5182,3 +5174,4 @@ review the DOM and talk about how it is related to JavaScript. There is
 no code associated with this lecture, but if you check under the
 resources, I do include a link to site where you can find specifics on
 the DOM.
+
