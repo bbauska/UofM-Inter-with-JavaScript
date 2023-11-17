@@ -4654,7 +4654,6 @@ the things we&#39;ll cover in just a few minutes.
 The third option is to use custom JavaScript functions, code that
 you&#39;re going to write to make sure that they&#39;re entering only the
 information you&#39;re expecting.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 301. input types (###) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
