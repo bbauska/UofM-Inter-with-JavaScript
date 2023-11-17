@@ -1,6 +1,6 @@
 ---
 title:  |
-  **Interactivity with JavaScript**
+  Interactivity with JavaScript
 author: "bbauska"
 date last editted: "11/15/2023 6+pm"
 output: 
@@ -21,16 +21,16 @@ output:
   width="40%;" />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. university of michigan logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. uc davis logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image002.webp" 
-  alt="University of Michigan logo."
+  alt="University of California at Davis logo."
   style="border: 2px solid #000000;" 
   width="20%;" />
 </p>
 
 
-# Table of Contents
+## Table of Contents
 
 [About this Course [1](#about-this-course)](#about-this-course)
 
@@ -194,7 +194,7 @@ A basic understanding of HTML and CSS is expected when you enroll in
 this class. Additional courses focus on enhancing the styling with
 responsive design and completing a capstone project.
 
-# Syllabus
+## Syllabus
 
 ## Week One: Introduction to JavaScript
 
@@ -393,17 +393,7 @@ in the time we have. We will focus on the following:
 
 -   How to create and validate HTML forms.
 
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# Week 1-01. Introduction
+## Week 1-01. Introduction
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 03. introduction - interactivity with js (01) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -572,7 +562,7 @@ of fun stuff. But I promise, I&#39;m going to go slow, explain what I&#39;m
 doing step by step, so that you can come along with me and start adding
 some interactivity to your pages with JavaScript.
 
-# Link to All of the Code for Week One
+## Link to All of the Code for Week One
 
 <http://codepen.io/collection/nLPkgP/>
 
@@ -587,7 +577,7 @@ your own. For now, I put complete examples in CodePen, but as time goes
 on, I will remove some of the commands to link the code together. You
 will need to work on that part on your own..
 
-# The Document Object Model (DOM)
+## The Document Object Model (DOM)
 
 ### Examples:
 
@@ -607,7 +597,7 @@ no code associated with this lecture, but if you check under the
 resources, I do include a link to site where you can find specifics on
 the DOM.
 
-# Week 1-02. DOM Review with Object Oriented Programming
+## Week 1-02. DOM Review with Object Oriented Programming
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 13.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -812,7 +802,7 @@ API&#39;s and different things like that. But I want you to code with me
 and then make sure you go off and you try to change things just a little
 bit until your confidence is really up there. Good luck.
 
-# Week 1-03. Output
+## Week 1-03. Output
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. output (1.03) (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1320,7 +1310,7 @@ for the alert.
   width="40%;" />
 </p>
 
-# Week 1-04. Variables
+## Week 1-04. Variables
 
 <https://codepen.io/ColleenEMc/pen/jbYEEW>
 
@@ -1638,7 +1628,7 @@ consult that log. The most important thing is I want you to understand
 how variables work, so that you can use them throughout the rest of the
 course. Good luck.
 
-# Week 1-05. Data Types
+## Week 1-05. Data Types
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 72. data types (1.05) (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1874,7 +1864,7 @@ knowing what the types are, even if you don&#39;t know how they work,
 you&#39;re really going to be on your way to doing some cool programming.
 So good luck.
 
-# Week 1-06. Operators & Expressions
+## Week 1-06. Operators & Expressions
 
 ![](images/image086.webp){width="4.0in"
 height="2.251709317585302in"}
@@ -2081,7 +2071,7 @@ distinction between ***defining*** a function (writing the code) and
 ***calling*** a function (running the code at the precise time you want
 it to happen).
 
-# Week 2-01. Functions
+## Week 2-01. Functions
 
 ![](images/image098.webp){width="4.0in"
 height="2.251709317585302in"}
@@ -2243,7 +2233,7 @@ be writing your own functions in the homework, and I&#39;m hoping that
 you&#39;ll be able to do this and feel like you&#39;re really starting to
 understand some of the power of JavaScript. Good luck.
 
-# Week 2-02. Code Placement
+## Week 2-02. Code Placement
 
 ![](images/image108.webp){width="4.0in"
 height="2.251709317585302in"}
@@ -2417,7 +2407,7 @@ sure to test your code later using the proper folder/file structure. You
 will need to include links to the style sheets, images, and any external
 JavaScript files.
 
-# Week 2-03. Folder Structure / Organizing Your Code
+## Week 2-03. Folder Structure / Organizing Your Code
 
 ![](images/image120.webp){width="4.0in"
 height="2.251709317585302in"}
@@ -2510,7 +2500,7 @@ I&#39;m hoping that this is going to help you understand a little bit more
 how you can organize your code to make the best use of the different
 CSS, JavaScript, and images functions out there. Thanks.
 
-# Week 2-04. Events
+## Week 2-04. Events
 
 ![](images/image126.webp){width="4.0in"
 height="2.2670942694663165in"}
@@ -2755,7 +2745,7 @@ details. That happens a lot. Programming is something that comes with
 time and practice. And then suddenly the moments of &#34;Hooray&#34; start to
 outnumber the times that you are stuck.
 
-# Week 2-05. Code With Me -- Events
+## Week 2-05. Code With Me -- Events
 
 ![](images/image142.webp){width="4.0in"
 height="2.2670942694663165in"}
@@ -2954,7 +2944,7 @@ module and bring up some sort of editor code bin, and go in there and
 start coding. If you don&#39;t do it now, you might start falling behind as
 we get into these more complex ideas. So, good luck.
 
-# Week 2-06. "this"
+## Week 2-06. "this"
 
 ![](images/image165.webp){width="4.0in"
 height="2.2670942694663165in"}
@@ -3135,7 +3125,7 @@ makes more sense to you. While you are welcome to seek out help on the
 forums, please remember that you are not allowed to post code. The code
 to get you started is here: <http://codepen.io/ColleenEMc/pen/wKYxZa>
 
-# Week 2-07. Photo Gallery
+## Week 2-07. Photo Gallery
 
 ![](images/image178.webp){width="4.0in" height="2.25in"}
 
@@ -3309,7 +3299,7 @@ These commands may return zero, one or more Nodes. So now we need to
 find a way to handle dealing with collections of data, rather than just
 one thing at a time. This is where Arrays come in. Let&#39;s get started.
 
-# Week 3-01. JavaScript Arrays
+## Week 3-01. JavaScript Arrays
 
 ![](images/image190.webp){width="4.0in" height="2.25in"}
 
@@ -3438,7 +3428,7 @@ make sure things are going the way you want them to, and keep coming
 along with me as you learn new ways to use arrays to improve your page,
 thanks.
 
-# Week 3-02. Code With Me -- Arrays
+## Week 3-02. Code With Me -- Arrays
 
 ![](images/image201.webp){width="4.0in" height="2.25in"}
 
@@ -3545,7 +3535,7 @@ we provide here aren&#39;t enough, you will want to change your code to
 come up with new decisions and different criteria to test different
 situations.
 
-# Week 3-03. JavaScript Iteration
+## Week 3-03. JavaScript Iteration
 
 ![](images/image209.webp){width="4.0in" height="2.25in"}
 
@@ -3694,7 +3684,7 @@ zero. You need to understand that you can use **array.length** or other
 methods. The more you play with these things, the easier it will become.
 Thanks for reading.
 
-# Week 3-04. Flow of Control
+## Week 3-04. Flow of Control
 
 ![](images/image222.webp){width="4.0in" height="2.25in"}
 
@@ -3928,7 +3918,7 @@ bad if as you start adding these more dynamic and advanced things to
 your code, if you run into a few problems. That just means you&#39;re
 learning. So good luck.
 
-# Week 3-05. Code With Me -- Combining Loops & Conditionals
+## Week 3-05. Code With Me -- Combining Loops & Conditionals
 
 ![](images/image246.webp){width="4.0in" height="2.25in"}
 
@@ -4037,7 +4027,7 @@ things that&#39;s going to help you solidify your knowledge. So go in
 there, change the array, try to think up other situations, and practice,
 practice, practice. Good luck.
 
-# Week 3-06. Advanced Conditionals
+## Week 3-06. Advanced Conditionals
 
 ![](images/image253.webp){width="4.0in" height="2.25in"}
 
@@ -4178,7 +4168,7 @@ you to write it so that you understand what you&#39;re doing. Go out there,
 code as much as you can, play with the examples. I promise that I&#39;ll
 provide more so you can keep practicing. Good luck.
 
-# Week 3-07. Common Errors
+## Week 3-07. Common Errors
 
 ![](images/image267.webp){width="4.0in" height="2.25in"}
 
@@ -4379,7 +4369,7 @@ your own site you will not want to create your own form&period;&period;&period;&
 people will think that they are sending you information when they are
 not.
 
-# Week 4-01. Simple Forms
+## Week 4-01. Simple Forms
 
 ![](images/image276.webp){width="4.0in" height="2.25in"}
 
@@ -4620,7 +4610,7 @@ verse a textfield. And see if you can make something that you&#39;ll be
 able to play with throughout the rest of this week as we learn more
 about JavaScript. Thanks.
 
-# Week 4-02. Simple Validation
+## Week 4-02. Simple Validation
 
 ![](images/image298.webp){width="4.0in" height="2.25in"}
 
@@ -4646,8 +4636,13 @@ may be what you&#39;re trying to validate. Should it be required? Do you
 want the person to have to put it in? Do you want to check to make sure
 that two email value match? These are the type of things I&#39;m talking
 about when I say what to validate.
-
-![](images/image300.webp){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 300. how do you want to validate? (###) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image300.webp" 
+  alt="How do you want to validate?" 
+  style="border: 2px solid #000000;"
+  width:40%" />
 
 When we talk about how we want to validate, here&#39;s where it can get a
 little bit more interesting. One option is to just use the new HTML5
@@ -4661,7 +4656,13 @@ The third option is to use custom JavaScript functions, code that
 you&#39;re going to write to make sure that they&#39;re entering only the
 information you&#39;re expecting.
 
-![](images/image301.webp){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 301. input types (###) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image301.webp" 
+  alt="Input Types." 
+  style="border: 2px solid #000000;"
+  width:40%" />
 
 Let&#39;s start with those new HTML5 input types. The input types require
 that the browser validate the input. Not you. You&#39;re putting it all on
@@ -4672,29 +4673,49 @@ thing that doesn&#39;t meet the rules and it puts it into focus. When it
 highlights that one it says, nope, you can&#39;t go any further. If it&#39;s
 not supported, then the input type just falls back to a plain text
 field.
-
-![](images/image302.webp){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 302. example form, validation, #1 (###) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image302.webp" 
+  alt="Example form, validation #1." 
+  style="border: 2px solid #000000;"
+  width:40%" />
 
 Let&#39;s look at our early example of all the different input types, and
 I&#39;ll show you what I&#39;m talking about. I&#39;ve gone back to the form we
 used before. And I&#39;ve put in some values for each of the different
 input types. I have Colleen, me, passwords, all those little things like
 that.
-
-![](images/image303.webp){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 303. example form, validation, #2 (###) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image303.webp" 
+  alt="Example form, validation #2." 
+  style="border: 2px solid #000000;"
+  width:40%" />
 
 Now, because I used the email input type, this should fail as soon as I
 hit click here. Great. There you go. The browser, this is Chrome, said
 nope, you need to have that ampersand and a dot to make this work. No
 problem. I&#39;ll put it in. And once I&#39;ve done that, I&#39;m going to go
 down here to click here again.
-
-![](images/image304.webp){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 304. example form, validation, #3 (###) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image304.webp" 
+  alt="Example form, validation #3." 
+  style="border: 2px solid #000000;"
+  width:40%" />
 
 And the next thing it found that didn&#39;t fulfill that input type is now
 highlighted, or in focus as we call it. So, I can make this 3.
-
-![](images/image305.webp){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 305. example form, validation, #4 (###) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image305.webp" 
+  alt="Example form, validation #4." 
+  style="border: 2px solid #000000;"
+  width:40%" />
 
 The last one I&#39;m going to click on is, it says sorry, this is not a
 valid URL. It&#39;s requiring me to put in http before we do that. Now when
@@ -4705,7 +4726,13 @@ some browsers using the email tag, or the number tag, or the URL tag, it
 doesn&#39;t guarantee valid input because maybe the browser just doesn&#39;t
 support it.
 
-![](images/image306.webp){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 306. input attributes (###) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image306.webp" 
+  alt="Input Attributes." 
+  style="border: 2px solid #000000;"
+  width:40%" />
 
 Another step we can take instead of just using input types is to use
 input attributes. These are just additional attributes that tell the
@@ -4727,12 +4754,13 @@ If I were to include in my code form, my form tag, **novalidate** it
 will ignore all of the required attributes. It seems a little silly, but
 as you start programming, you&#39;re going to be really glad you know about
 this. Because it lets you test sometimes, and not test other times.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 307.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~-->
-
-![](images/image307.webp){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 307. pattern of simple validation (###) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image307.webp" 
+  alt="Pattern of Simple Validation (4.02)." 
+  style="border: 2px solid #000000;"
+  width:40%" />
 
 Another attribute you can use is called **pattern**. **Pattern** only
 works with the input type equals text. And what it does is it forces the
@@ -4811,7 +4839,7 @@ depend on the browsers. Don&#39;t get lazy. It&#39;s time for us to start
 looking at how you can start writing code to make everything more
 secure. Thanks.
 
-# Week 4-03. Comparing Two Inputs
+## Week 4-03. Comparing Two Inputs
 
 Hi everybody. We&#39;ve seen how to use HTML five, attributes, and input
 types to really try to validate the inputs people can put into their
@@ -4941,7 +4969,7 @@ creating the most basic forms before you go in and try to add this
 JavaScript interactivity. It&#39;s going to make your life much easier and
 it&#39;s always going to create better, cleaner code. Thanks.
 
-# Week 4-04. Checkboxes & Radio Buttons
+## Week 4-04. Checkboxes & Radio Buttons
 
 Hi, everybody, welcome back. Today, we&#39;re going to talk about some new
 form fields that you can add to your page. When we were doing name and
@@ -5113,11 +5141,9 @@ can really focus on just learning the JavaScript, I think you can have a
 really good time adding these cool little tricks and tips to your page.
 Good luck.
 
-# 
+## Optional Material
 
-# Optional Material
-
-# The History of &#34;Debugging&#34;
+## The History of &#34;Debugging&#34;
 
 If you want to learn more about the history of debugging, here is an
 article that talks about the fact that two different people are credited
@@ -5125,7 +5151,7 @@ with the term, Grace Hopper and Thomas Edison
 
 <http://theinstitute.ieee.org/tech-history/technology-history/did-you-know-edison-coined-the-term-bug>
 
-# Link to All of the Code for Week One
+## Link to All of the Code for Week One
 
 <http://codepen.io/collection/nLPkgP/>
 
@@ -5141,7 +5167,7 @@ your own. For now, I put complete examples in CodePen, but as time goes
 on, I will remove some of the commands to link the code together. You
 will need to work on that part on your own..
 
-# The Document Object Model (DOM)
+## The Document Object Model (DOM)
 
 One of the reasons you want to learn about JavaScript is that it works
 so well with the structure used to create HTML documents. Every webpage
