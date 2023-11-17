@@ -11,7 +11,7 @@ title: |
 Michigan.](images/image0002.webp){width="2.0in"
 height="0.8481014873140857in"}
 
-# Table of Contents {#table-of-contents .TOC-Heading}
+## Table of Contents {#table-of-contents .TOC-Heading}
 
 [About this Course [1](#about-this-course)](#about-this-course)
 
@@ -149,8 +149,6 @@ height="0.8481014873140857in"}
 [The Document Object Model (DOM)
 [143](#the-document-object-model-dom-1)](#the-document-object-model-dom-1)
 
-# 
-
 ## About this Course
 
 If you want to take your website to the next level, the ability to
@@ -177,7 +175,7 @@ A basic understanding of HTML and CSS is expected when you enroll in
 this class. Additional courses focus on enhancing the styling with
 responsive design and completing a capstone project.
 
-# Syllabus
+## Syllabus
 
 ## Week One: Introduction to JavaScript
 
@@ -376,17 +374,7 @@ in the time we have. We will focus on the following:
 
 -   How to create and validate HTML forms.
 
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# Week 1-01. Introduction
+## Week 1-01. Introduction
 
 ![](images/image003.webp){width="4.0in"
 height="2.2512817147856516in"}
@@ -498,7 +486,7 @@ of fun stuff. But I promise, I\'m going to go slow, explain what I\'m
 doing step by step, so that you can come along with me and start adding
 some interactivity to your pages with JavaScript.
 
-# Link to All of the Code for Week One
+## Link to All of the Code for Week One
 
 <http://codepen.io/collection/nLPkgP/>
 
@@ -513,7 +501,7 @@ your own. For now, I put complete examples in CodePen, but as time goes
 on, I will remove some of the commands to link the code together. You
 will need to work on that part on your own..
 
-# The Document Object Model (DOM)
+## The Document Object Model (DOM)
 
 ### Examples:
 
@@ -533,7 +521,7 @@ no code associated with this lecture, but if you check under the
 resources, I do include a link to site where you can find specifics on
 the DOM.
 
-# Week 1-02. DOM Review with Object Oriented Programming
+## Week 1-02. DOM Review with Object Oriented Programming
 
 ![](images/image013.webp){width="4.0in"
 height="2.2440168416447945in"}
@@ -687,7 +675,7 @@ API\'s and different things like that. But I want you to code with me
 and then make sure you go off and you try to change things just a little
 bit until your confidence is really up there. Good luck.
 
-# Week 1-03. Output
+## Week 1-03. Output
 
 ![](images/image023.webp){width="4.0in"
 height="2.2440168416447945in"}
@@ -1017,7 +1005,7 @@ the dom is really going to get quite impressive. But for now, just make
 the small mistakes, learn how to debug the small mistakes, and then that
 way you\'ll be able to build your confidence slowly. Good luck.
 
-# Trying to Create and Debug Your Own Output
+### Trying to Create and Debug Your Own Output
 
 In the previous lecture I showed you how you can create output using
 JavaScript. My code examples are all on CodePen and I have included a
@@ -1042,21 +1030,7 @@ for the alert.
 console.](images/image053.webp){width="4.0in"
 height="1.5970089676290464in"}
 
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# Week 1-04. Variables
+## Week 1-04. Variables
 
 <https://codepen.io/ColleenEMc/pen/jbYEEW>
 
@@ -1279,7 +1253,7 @@ consult that log. The most important thing is I want you to understand
 how variables work, so that you can use them throughout the rest of the
 course. Good luck.
 
-# Week 1-05. Data Types
+## Week 1-05. Data Types
 
 ![](images/image072.webp){width="4.0in"
 height="2.2316240157480314in"}
@@ -1470,7 +1444,7 @@ knowing what the types are, even if you don\'t know how they work,
 you\'re really going to be on your way to doing some cool programming.
 So good luck.
 
-# Week 1-06. Operators & Expressions
+## Week 1-06. Operators & Expressions
 
 ![](images/image086.webp){width="4.0in"
 height="2.251709317585302in"}
@@ -1641,7 +1615,7 @@ you go in and test them a lot, your code is going to be a lot cleaner
 and the whole experience will be one that you really enjoy much more. So
 good luck.
 
-## The History of \"Debugging\"
+### The History of \"Debugging\"
 
 If you want to learn more about the history of debugging, here is an
 article that talks about the fact that two different people are credited
@@ -1649,7 +1623,7 @@ with the term, Grace Hopper and Thomas Edison
 
 <http://theinstitute.ieee.org/tech-history/technology-history/did-you-know-edison-coined-the-term-bug>
 
-## Link to All of the Code for Week Two
+### Link to All of the Code for Week Two
 
 The following is a link to all of the code for Week Two. The individual
 files are linked within the modules but the weekly collections may
@@ -1662,7 +1636,7 @@ your own. For now, I put complete examples in CodePen, but as time goes
 on, I will remove some of the commands to link the code together. You
 will need to work on that part on your own..
 
-## Functions
+### Functions
 
 The next module on functions is crucial to any type of programming that
 you may do in the future. The reason that programming languages work so
@@ -1677,7 +1651,7 @@ distinction between ***defining*** a function (writing the code) and
 ***calling*** a function (running the code at the precise time you want
 it to happen).
 
-# Week 2-01. Functions
+## Week 2-01. Functions
 
 ![](images/image098.webp){width="4.0in"
 height="2.251709317585302in"}
@@ -1839,7 +1813,7 @@ be writing your own functions in the homework, and I\'m hoping that
 you\'ll be able to do this and feel like you\'re really starting to
 understand some of the power of JavaScript. Good luck.
 
-# Week 2-02. Code Placement
+## Week 2-02. Code Placement
 
 ![](images/image108.webp){width="4.0in"
 height="2.251709317585302in"}
@@ -1987,9 +1961,9 @@ most important thing for you right now, is to develop the confidence
 that you can get your JavaScript working, in whatever way, it best suits
 you. Good luck.
 
-## Organizing Your Code
+### Organizing Your Code
 
-## Code Placement
+### Code Placement
 
 When you write code, it is important to get into the good habits of
 organizing your code. While there are no specific rules about how and
@@ -2013,7 +1987,7 @@ sure to test your code later using the proper folder/file structure. You
 will need to include links to the style sheets, images, and any external
 JavaScript files.
 
-# Week 2-03. Folder Structure / Organizing Your Code
+## Week 2-03. Folder Structure / Organizing Your Code
 
 ![](images/image120.webp){width="4.0in"
 height="2.251709317585302in"}
@@ -2106,7 +2080,7 @@ I\'m hoping that this is going to help you understand a little bit more
 how you can organize your code to make the best use of the different
 CSS, JavaScript, and images functions out there. Thanks.
 
-# Week 2-04. Events
+## Week 2-04. Events
 
 ![](images/image126.webp){width="4.0in"
 height="2.2670942694663165in"}
@@ -2338,7 +2312,7 @@ your answer to an example I have here:
 
 ## Mastering Events and Functions
 
-## Events
+### Events
 
 The rest of the material is more and more examples of using Events and
 functions in JavaScript. If you are a little worried that you don\'t
@@ -2351,7 +2325,7 @@ details. That happens a lot. Programming is something that comes with
 time and practice. And then suddenly the moments of \"Hooray\" start to
 outnumber the times that you are stuck.
 
-# Week 2-05. Code With Me -- Events
+## Week 2-05. Code With Me -- Events
 
 ![](images/image142.webp){width="4.0in"
 height="2.2670942694663165in"}
@@ -2550,7 +2524,7 @@ module and bring up some sort of editor code bin, and go in there and
 start coding. If you don\'t do it now, you might start falling behind as
 we get into these more complex ideas. So, good luck.
 
-# Week 2-06. "this"
+## Week 2-06. "this"
 
 ![](images/image165.webp){width="4.0in"
 height="2.2670942694663165in"}
@@ -2717,7 +2691,7 @@ there. I hope this is something you\'re able to grasp much more quickly
 than I did. And I\'m going to do my best to give you the examples that
 you can use to really master this. Good luck.
 
-## Homework Time!!
+### Homework Time!!
 
 I am going to provide an optional quiz for people who want to double
 check how well they have retained some of the general concepts from Week
@@ -2731,7 +2705,7 @@ makes more sense to you. While you are welcome to seek out help on the
 forums, please remember that you are not allowed to post code. The code
 to get you started is here: <http://codepen.io/ColleenEMc/pen/wKYxZa>
 
-# Week 2-07. Photo Gallery
+## Week 2-07. Photo Gallery
 
 ![](images/image178.webp){width="4.0in" height="2.25in"}
 
@@ -2857,7 +2831,7 @@ to make sure you\'re on the right track. But really, I\'m hoping that
 this something that you can do, that you can later use if you want to
 incorporate it into your own portfolio. So good luck.
 
-## Link to All of the Code for Week Three
+### Link to All of the Code for Week Three
 
 The following is a link to all of the code for Week Three. The
 individual files are linked within the modules but the weekly
@@ -2870,7 +2844,7 @@ your own. For now, I put complete examples in CodePen, but as time goes
 on, I will remove some of the commands to link the code together. You
 will need to work and learn that part on your own..
 
-## A JavaScript Cheat Sheet
+### A JavaScript Cheat Sheet
 
 I thought about putting this next link in the optional resources
 section, but it is something I really want people to know about. This
@@ -2886,7 +2860,7 @@ learned AND what you still have left to learn. It helps a lot of people
 to look ahead and start to see that they need to master the small stuff
 before they can tackle the larger concepts.
 
-## Arrays
+### Arrays
 
 Finally!! Now is when I start to explain some of the concepts I said you
 had to wait for. Hopefully by now you are comfortable with the code
@@ -2905,7 +2879,7 @@ These commands may return zero, one or more Nodes. So now we need to
 find a way to handle dealing with collections of data, rather than just
 one thing at a time. This is where Arrays come in. Let\'s get started.
 
-# Week 3-01. JavaScript Arrays
+## Week 3-01. JavaScript Arrays
 
 ![](images/image190.webp){width="4.0in" height="2.25in"}
 
@@ -3034,7 +3008,7 @@ make sure things are going the way you want them to, and keep coming
 along with me as you learn new ways to use arrays to improve your page,
 thanks.
 
-# Week 3-02. Code With Me -- Arrays
+## Week 3-02. Code With Me -- Arrays
 
 ![](images/image201.webp){width="4.0in" height="2.25in"}
 
@@ -3126,7 +3100,7 @@ this, you should feel confident going on in this class reading
 additional modules. And knowing that you do understand what\'s going on,
 even if you make a mistake now and then. So good luck.
 
-## Advanced Coding Techniques
+### Advanced Coding Techniques
 
 In the next few lectures, we will talk about more advanced coding
 techniques. Any programming language has the general ability to loop
@@ -3141,7 +3115,7 @@ we provide here aren\'t enough, you will want to change your code to
 come up with new decisions and different criteria to test different
 situations.
 
-# Week 3-03. JavaScript Iteration
+## Week 3-03. JavaScript Iteration
 
 ![](images/image209.webp){width="4.0in" height="2.25in"}
 
@@ -3290,7 +3264,7 @@ zero. You need to understand that you can use **array.length** or other
 methods. The more you play with these things, the easier it will become.
 Thanks for reading.
 
-# Week 3-04. Flow of Control
+## Week 3-04. Flow of Control
 
 ![](images/image222.webp){width="4.0in" height="2.25in"}
 
@@ -3524,7 +3498,7 @@ bad if as you start adding these more dynamic and advanced things to
 your code, if you run into a few problems. That just means you\'re
 learning. So good luck.
 
-# Week 3-05. Code With Me -- Combining Loops & Conditionals
+## Week 3-05. Code With Me -- Combining Loops & Conditionals
 
 ![](images/image246.webp){width="4.0in" height="2.25in"}
 
@@ -3633,7 +3607,7 @@ things that\'s going to help you solidify your knowledge. So go in
 there, change the array, try to think up other situations, and practice,
 practice, practice. Good luck.
 
-# Week 3-06. Advanced Conditionals
+## Week 3-06. Advanced Conditionals
 
 ![](images/image253.webp){width="4.0in" height="2.25in"}
 
@@ -3774,7 +3748,7 @@ you to write it so that you understand what you\'re doing. Go out there,
 code as much as you can, play with the examples. I promise that I\'ll
 provide more so you can keep practicing. Good luck.
 
-# Week 3-07. Common Errors
+## Week 3-07. Common Errors
 
 ![](images/image267.webp){width="4.0in" height="2.25in"}
 
@@ -3947,7 +3921,7 @@ you go out there and help someone else with their code. Not only are you
 doing a great thing, but it\'s a great way for you to learn even more.
 Thanks.
 
-## Link to All of the Code for Week Four
+### Link to All of the Code for Week Four
 
 The following is a link to all of the code for Week Four. The individual
 files are linked within the modules but the weekly collections may
@@ -3960,7 +3934,7 @@ your own. For now, I put complete examples in CodePen, but as time goes
 on, I will remove some of the commands to link the code together. You
 will need to work on that part on your own..
 
-## Introduction to Forms
+### Introduction to Forms
 
 This week we will cover forms. You have all seen forms (we use them for
 the peer assessment) and I want you to know how to style forms and
@@ -3975,7 +3949,7 @@ your own site you will not want to create your own form\....otherwise
 people will think that they are sending you information when they are
 not.
 
-# Week 4-01. Simple Forms
+## Week 4-01. Simple Forms
 
 ![](images/image276.webp){width="4.0in" height="2.25in"}
 
@@ -4216,7 +4190,7 @@ verse a textfield. And see if you can make something that you\'ll be
 able to play with throughout the rest of this week as we learn more
 about JavaScript. Thanks.
 
-# Week 4-02. Simple Validation
+## Week 4-02. Simple Validation
 
 ![](images/image298.webp){width="4.0in" height="2.25in"}
 
@@ -4403,7 +4377,7 @@ depend on the browsers. Don\'t get lazy. It\'s time for us to start
 looking at how you can start writing code to make everything more
 secure. Thanks.
 
-# Week 4-03. Comparing Two Inputs
+## Week 4-03. Comparing Two Inputs
 
 Hi everybody. We\'ve seen how to use HTML five, attributes, and input
 types to really try to validate the inputs people can put into their
@@ -4533,7 +4507,7 @@ creating the most basic forms before you go in and try to add this
 JavaScript interactivity. It\'s going to make your life much easier and
 it\'s always going to create better, cleaner code. Thanks.
 
-# Week 4-04. Checkboxes & Radio Buttons
+## Week 4-04. Checkboxes & Radio Buttons
 
 Hi, everybody, welcome back. Today, we\'re going to talk about some new
 form fields that you can add to your page. When we were doing name and
@@ -4705,11 +4679,9 @@ can really focus on just learning the JavaScript, I think you can have a
 really good time adding these cool little tricks and tips to your page.
 Good luck.
 
-# 
+## Optional Material
 
-# Optional Material
-
-# The History of \"Debugging\"
+### The History of \"Debugging\"
 
 If you want to learn more about the history of debugging, here is an
 article that talks about the fact that two different people are credited
@@ -4717,7 +4689,7 @@ with the term, Grace Hopper and Thomas Edison
 
 <http://theinstitute.ieee.org/tech-history/technology-history/did-you-know-edison-coined-the-term-bug>
 
-# Link to All of the Code for Week One
+### Link to All of the Code for Week One
 
 <http://codepen.io/collection/nLPkgP/>
 
@@ -4733,7 +4705,7 @@ your own. For now, I put complete examples in CodePen, but as time goes
 on, I will remove some of the commands to link the code together. You
 will need to work on that part on your own..
 
-# The Document Object Model (DOM)
+## The Document Object Model (DOM)
 
 One of the reasons you want to learn about JavaScript is that it works
 so well with the structure used to create HTML documents. Every webpage
