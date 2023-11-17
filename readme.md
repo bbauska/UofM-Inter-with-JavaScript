@@ -1,7 +1,5 @@
 ---
-title: UofM-Inter-with-JavaScript
-  Interactivity with JavaScript
-
+UofM-Inter-with-JavaScript: "Interactivity with JavaScript"
   taught by Colleen van Lent , PhD
 ---
 
