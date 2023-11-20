@@ -15,7 +15,7 @@ output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01.  - interactivity with js (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image001.webp" 
+  <img src="./images/image001.jpg" 
   alt="Interactivity with JavaScript."
   style="border: 2px solid #000000;" 
   width="40%;" />
