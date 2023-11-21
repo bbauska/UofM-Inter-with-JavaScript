@@ -91,11 +91,11 @@ data. We begin with variables, expressions, and operators.
 
 10. **Operators and Expressions&ast; (6)**
 
-11. **Discussion - CodePen**
+11. <b>Discussion - CodePen</b>
 
-12. **Materials**
+12. <b>Materials</b>
 
-13. **The History of &#34;Debugging&#34;**
+13. <b>The History of &#34;Debugging&#34;</b>
 
 <b>Summary:</b> Introduction to JavaScript
 
@@ -113,32 +113,32 @@ particular you will learn about the JavaScript Mouse Events and Touch
 Events. This week&#39;s materials will end with a photo gallery example
 that you can create along with me.
 
-1.  **Reading: **Link to All of the Code for Week Two
+1.  <b>Reading: </b>Link to All of the Code for Week Two
 
-2.  **Reading: **Functions
+2.  <b>Reading: </b>Functions
 
-3.  [**Video: **Functions](https://www.coursera.org/lecture/javascript/functions-Ltkbl)&ast;
+3.  [<b>Video:</b> Functions](https://www.coursera.org/lecture/javascript/functions-Ltkbl)&ast;
     (1)
 
-4.  **Video: **Code Placement&ast; (2)
+4.  <b>Video: </b>Code Placement&ast; (2)
 
-5.  **Reading: **Organizing Your Code
+5.  <b>Reading: </b>Organizing Your Code
 
-6.  **Video: **Folder Structure / Organizing Your Code&ast; (3)
+6.  <b>Video: </b>Folder Structure / Organizing Your Code&ast; (3)
 
-7.  **Video: **Events&ast; (4)
+7.  <b>Video: </b>Events&ast; (4)
 
-8.  **Reading: **Mastering Events and Functions
+8.  <b>Reading: </b>Mastering Events and Functions
 
-9.  **Video: **Code With Me -- Events&ast; (5)
+9.  <b>Video: </b>Code With Me -- Events&ast; (5)
 
-10. **Reading: **Just a little note before the next video
+10. <b>Reading: </b>Just a little note before the next video
 
-11. **Video: **&#34;this&#34;&ast; (6)
+11. <b>Video: </b>&#34;this&#34;&ast; (6)
 
-12. **Reading: **Homework Time!!
+12. <b>Reading: </b>Homework Time!!
 
-13. **Video: **Photo Gallery&ast; (7)
+13. <b>Video: </b>Photo Gallery&ast; (7)
 
 <b>Summary:</b> JavaScript Interactive Photo Gallery
 
