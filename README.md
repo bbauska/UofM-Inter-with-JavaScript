@@ -2,7 +2,7 @@
 title:  |
   Interactivity with JavaScript
 author: "bbauska"
-date last editted: "11/15/2023 6+pm"
+date last editted: "11/21/2023 11+am"
 output: 
   markdown:
     with_style
@@ -13,7 +13,7 @@ output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ readme.md of uofm-inter-with-js.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01.  - interactivity with js (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. interactivity with js (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image001.jpg" 
   alt="Interactivity with JavaScript."
@@ -21,154 +21,15 @@ output:
   width="40%;" />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. uc davis logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. university of michigan logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image002.webp" 
-  alt="University of California at Davis logo."
+  alt="University of Michigan logo."
   style="border: 2px solid #000000;" 
   width="20%;" />
 </p>
 
-
-## Table of Contents
-
-[About this Course [1](#about-this-course)](#about-this-course)
-
-[Syllabus [1](#syllabus)](#syllabus)
-
-[Week One: Introduction to JavaScript
-[1](#week-one-introduction-to-javascript)](#week-one-introduction-to-javascript)
-
-[Week Two: Reacting to Your Audience
-[2](#week-two-reacting-to-your-audience)](#week-two-reacting-to-your-audience)
-
-[Week Three: Arrays and Looping
-[2](#week-three-arrays-and-looping)](#week-three-arrays-and-looping)
-
-[Week Four: Validating Form Data
-[3](#week-four-validating-form-data)](#week-four-validating-form-data)
-
-[Week 1-01. Introduction [4](#section-1)](#section-1)
-
-[Link to All of the Code for Week One
-[10](#link-to-all-of-the-code-for-week-one)](#link-to-all-of-the-code-for-week-one)
-
-[The Document Object Model (DOM)
-[10](#the-document-object-model-dom)](#the-document-object-model-dom)
-
-[Examples: [10](#examples)](#examples)
-
-[Week 1-02. DOM Review with Object Oriented Programming
-[10](#week-1-02.-dom-review-with-object-oriented-programming)](#week-1-02.-dom-review-with-object-oriented-programming)
-
-[Week 1-03. Output [16](#week-1-03.-output)](#week-1-03.-output)
-
-[Trying to Create and Debug Your Own Output
-[31](#trying-to-create-and-debug-your-own-output)](#trying-to-create-and-debug-your-own-output)
-
-[Week 1-04. Variables [31](#section-6)](#section-6)
-
-[Week 1-05. Data Types
-[41](#week-1-05.-data-types)](#week-1-05.-data-types)
-
-[Week 1-06. Operators & Expressions
-[48](#week-1-06.-operators-expressions)](#week-1-06.-operators-expressions)
-
-[The History of &#34;Debugging&#34;
-[54](#the-history-of-debugging)](#the-history-of-debugging)
-
-[Link to All of the Code for Week Two
-[55](#link-to-all-of-the-code-for-week-two)](#link-to-all-of-the-code-for-week-two)
-
-[Functions [55](#functions)](#functions)
-
-[Week 2-01. Functions
-[55](#week-2-01.-functions)](#week-2-01.-functions)
-
-[Week 2-02. Code Placement
-[61](#week-2-02.-code-placement)](#week-2-02.-code-placement)
-
-[Organizing Your Code
-[67](#organizing-your-code)](#organizing-your-code)
-
-[Code Placement [67](#code-placement)](#code-placement)
-
-[Week 2-03. Folder Structure / Organizing Your Code
-[68](#week-2-03.-folder-structure-organizing-your-code)](#week-2-03.-folder-structure-organizing-your-code)
-
-[Week 2-04. Events [71](#week-2-04.-events)](#week-2-04.-events)
-
-[Mastering Events and Functions
-[80](#mastering-events-and-functions)](#mastering-events-and-functions)
-
-[Events [80](#events)](#events)
-
-[Week 2-05. Code With Me -- Events
-[81](#week-2-05.-code-with-me-events)](#week-2-05.-code-with-me-events)
-
-[Week 2-06. "this" [90](#week-2-06.-this)](#week-2-06.-this)
-
-[Homework Time!! [97](#homework-time)](#homework-time)
-
-[Week 2-07. Photo Gallery
-[97](#week-2-07.-photo-gallery)](#week-2-07.-photo-gallery)
-
-[Link to All of the Code for Week Three
-[103](#link-to-all-of-the-code-for-week-three)](#link-to-all-of-the-code-for-week-three)
-
-[A JavaScript Cheat Sheet
-[104](#a-javascript-cheat-sheet)](#a-javascript-cheat-sheet)
-
-[Arrays [104](#arrays)](#arrays)
-
-[Week 3-01. JavaScript Arrays
-[104](#week-3-01.-javascript-arrays)](#week-3-01.-javascript-arrays)
-
-[Week 3-02. Code With Me -- Arrays
-[110](#week-3-02.-code-with-me-arrays)](#week-3-02.-code-with-me-arrays)
-
-[Advanced Coding Techniques
-[114](#advanced-coding-techniques)](#advanced-coding-techniques)
-
-[Week 3-03. JavaScript Iteration
-[114](#week-3-03.-javascript-iteration)](#week-3-03.-javascript-iteration)
-
-[Week 3-04. Flow of Control
-[120](#week-3-04.-flow-of-control)](#week-3-04.-flow-of-control)
-
-[Week 3-05. Code With Me -- Combining Loops & Conditionals
-[124](#week-3-05.-code-with-me-combining-loops-conditionals)](#week-3-05.-code-with-me-combining-loops-conditionals)
-
-[Week 3-06. Advanced Conditionals
-[126](#week-3-06.-advanced-conditionals)](#week-3-06.-advanced-conditionals)
-
-[Week 3-07. Common Errors
-[128](#week-3-07.-common-errors)](#week-3-07.-common-errors)
-
-[Week 4-01. Simple Forms
-[131](#week-4-01.-simple-forms)](#week-4-01.-simple-forms)
-
-[Week 4-02. Simple Validation
-[134](#week-4-02.-simple-validation)](#week-4-02.-simple-validation)
-
-[Week 4-03. Comparing Two Inputs
-[137](#week-4-03.-comparing-two-inputs)](#week-4-03.-comparing-two-inputs)
-
-[Week 4-04. Checkboxes & Radio Buttons
-[140](#week-4-04.-checkboxes-radio-buttons)](#week-4-04.-checkboxes-radio-buttons)
-
-[Optional Material [143](#optional-material)](#optional-material)
-
-[The History of &#34;Debugging&#34;
-[143](#the-history-of-debugging-1)](#the-history-of-debugging-1)
-
-[Link to All of the Code for Week One
-[143](#link-to-all-of-the-code-for-week-one-1)](#link-to-all-of-the-code-for-week-one-1)
-
-[The Document Object Model (DOM)
-[143](#the-document-object-model-dom-1)](#the-document-object-model-dom-1)
-
-## About this Course
+<h2>About this Course</h2>
 
 If you want to take your website to the next level, the ability to
 incorporate interactivity is a must. But adding some of these types of
@@ -194,9 +55,9 @@ A basic understanding of HTML and CSS is expected when you enroll in
 this class. Additional courses focus on enhancing the styling with
 responsive design and completing a capstone project.
 
-## Syllabus
+<h2>Syllabus</h2>
 
-## Week One: Introduction to JavaScript
+<h3>Week One: Introduction to JavaScript</h3>
 
 If you haven&#39;t used a traditional programming language before, this
 first week is key. Before we begin with the how, we will talk about the
@@ -236,9 +97,7 @@ data. We begin with variables, expressions, and operators.
 
 13. **The History of &#34;Debugging&#34;**
 
-**Summary: **Week One
-
-## Week Two: Reacting to Your Audience
+<h3>Week Two: Reacting to Your Audience</h3>
 
 If you have written HTML code in the past, hopefully you have fallen
 into the great habit of validating your code &#45;&#45; making sure that you
@@ -279,7 +138,7 @@ that you can create along with me.
 
 13. **Video: **Photo Gallery&ast; (7)
 
-**Summary: **JavaScript Interactive Photo Gallery
+<b>Summary:</b> JavaScript Interactive Photo Gallery
 
 ## Week Three: Arrays and Looping
 
@@ -312,9 +171,9 @@ programs. Using both we will expand upon the photo gallery example.
 
 11. **Video: **Common Errors&ast; (7)
 
-**Summary: **JavaScript Review
+<b>Summary:</b> JavaScript Review
 
-## Week Four: Validating Form Data
+<h3>Week Four: Validating Form Data</h3>
 
 This week we will put a number of the concepts from this course together
 to tackle a new project - creating and validating input entered into an
@@ -351,9 +210,9 @@ even to check that passwords match.
 
 13. **Reading: **Keep Learning with Michigan Online
 
-**Summary: **Autocomplete with JavaScript
+<b>Summary:</b> Autocomplete with JavaScript
 
-**Welcome to Introduction to JavaScript**, taught by Colleen van Lent!
+<h3>Welcome to Introduction to JavaScript, taught by Colleen van Lent!</h3>
 
 This course is an introduction to the use of the JavaScript programming
 language to add some interactivity to your website. This course is meant
@@ -393,10 +252,9 @@ in the time we have. We will focus on the following:
 
 -   How to create and validate HTML forms.
 
-## Week 1-01. Introduction
-
+<h3>Week 1-01. Introduction</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 03. introduction - interactivity with js (01) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 03. introduction - interactivity with js (05) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image003.webp" 
   alt="Introduction - Interactivity with JavaScript."
@@ -413,10 +271,10 @@ you&#39;re really going to want to go back and review those two areas
 because everything we with JavaScript in this class is based on web
 programming.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 04.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 04. what you can do with javascript (05) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image004.webp" 
-  alt="."
+  alt="What you can do with JavaScript."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -436,10 +294,10 @@ back the title of the page, the URL of your page, a lot of different
 information that you know is there, but you can&#39;t always see at first
 glance?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 05.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 05. what you can do with javascript, #2 (06) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image005.webp" 
-  alt="."
+  alt="What you can do with JavaScript, #2."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -450,10 +308,10 @@ to create webpages. The DOM is the Document Object Model, it&#39;s what
 builds up a webpage. If you&#39;re a little fuzzy, it&#39;s been a little
 while, don&#39;t worry. We&#39;re going to review the DOM in a future lecture.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 06.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. variables (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image006.webp" 
-  alt="."
+  alt="Variables."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -464,7 +322,7 @@ exciting if you ask somebody their name and then you can&#39;t actually use
 that name later on. You&#39;re going to find out how to get information
 from the user, and then store it so you can use it later.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 07.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. decision points (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image007.webp" 
   alt="."
@@ -478,7 +336,7 @@ going to write a little bit of code that can help the program decide in
 some cases I want to do this and in other cases, I want to do that. We
 call this decision points.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 08.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. looping, #1 (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image008.webp" 
   alt="."
@@ -494,7 +352,7 @@ program and say, see that little bit of code over there? We want to do
 that five times, or ten times, or we want to keep doing it until the
 human does what we want them to do.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 09.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. looping, #2 (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image009.webp" 
   alt="."
@@ -507,7 +365,7 @@ want to run some code. If you know that you want someone to do something
 five times, you can be very specific about it. Programming gives you so
 much flexibility in how you want your code to run.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 10.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. functions (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image010.webp" 
   alt="."
@@ -522,7 +380,7 @@ that other people can write code and you can use it, and you don&#39;t even
 need to know how it works all you need to know is, what did you call
 your function? Great. I want to use that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 11.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. manipulating the dom (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image011.webp" 
   alt="."
@@ -543,10 +401,10 @@ the user might have. This is where it really gets fun. We&#39;re going to
 start with the basics, the variables, the loopings, and then we&#39;re
 going to have fun manipulating the DOM.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 12.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. review (1-01) (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image012.webp" 
-  alt="."
+  alt="1-01. Review: Introduction to JavaScript."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -562,7 +420,7 @@ of fun stuff. But I promise, I&#39;m going to go slow, explain what I&#39;m
 doing step by step, so that you can come along with me and start adding
 some interactivity to your pages with JavaScript.
 
-## Link to All of the Code for Week One
+<h3>Link to All of the Code for Week One</h3>
 
 <http://codepen.io/collection/nLPkgP/>
 
@@ -577,9 +435,9 @@ your own. For now, I put complete examples in CodePen, but as time goes
 on, I will remove some of the commands to link the code together. You
 will need to work on that part on your own..
 
-## The Document Object Model (DOM)
+<h3>The Document Object Model (DOM)</h3>
 
-### Examples:
+<h3>Examples:</h3>
 
 <https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Examples>
 
@@ -597,23 +455,22 @@ no code associated with this lecture, but if you check under the
 resources, I do include a link to site where you can find specifics on
 the DOM.
 
-## Week 1-02. DOM Review with Object Oriented Programming
+<h3 id="Week1-02">Week 1-02. DOM Review with Object Oriented Programming</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 13.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 13. dom review with object oriented programming (11) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image013.webp" 
-  alt="."
+  alt="1-02. DOM Review with Object Oriented Programming."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
 
-Today we&#39;re going to be talking about the DOM, or the document object
-model.
+<p>Today we&#39;re going to be talking about the DOM, or the document object model.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 14.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 14. web pages are built upon the dom (11) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image014.webp" 
-  alt="."
+  alt="Web Pages are built upon the DOM."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -624,10 +481,10 @@ one parent and possibly a few children. And the page as you add more and
 more things it just gets deeper and deeper. Nodes have different
 properties, methods, and events.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 15.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. sample document tree, #1 (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image015.webp" 
-  alt="."
+  alt="Sample document tree, #1."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -644,10 +501,10 @@ We&#39;ll say, well this div has three paragraphs and one of those
 paragraphs has the id equals 3. What does this mean? Why do we care that
 the pages built like a tree?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 16.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. sample document tree, #2 (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image016.webp" 
-  alt="."
+  alt="Sample document tree, #2."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -664,10 +521,10 @@ of font, the paragraph also has text in it. How can we go in there and
 how can we change that text? This is what we&#39;re going to be using
 JavaScript to do in this course.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 17.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. the dom and javascript (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image017.webp" 
-  alt="."
+  alt="The DOM and JavaScript."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -677,10 +534,10 @@ scripting language JavaScript uses the DOM to interact with the
 document. How does it do that, though? How does it know how to interact?
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 18.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. how does it work, #1? (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image018.webp" 
-  alt="."
+  alt="How does it work, #1?"
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -693,10 +550,10 @@ intimidating if you&#39;ve never used one before. An API is just a way for
 someone else to write code, and then you to use it, to interact with
 their programs.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 19.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19. how does it work, #2? (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image019.webp" 
-  alt="."
+  alt="How does it work, #2?"
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -708,10 +565,10 @@ you interact is always going to be the same. And this is really
 important, because it&#39;s nice to know that if you learn this you won&#39;t
 have to learn something different later on.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 20.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 20. the dom objects/elements (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image020.webp" 
-  alt="."
+  alt="The DOM objects/elements."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -751,10 +608,10 @@ width, and a style, different things like that.
 Attributes are the kind of cool things that we want you to be able to
 change to make your page look different.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 21.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. specific api's (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image021.webp" 
-  alt="."
+  alt="Specific APIs."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -778,10 +635,10 @@ Finally, an interesting one that you may or may not use, is you can even
 remove attributes. If something has a certain color, you can get rid of
 that if you want.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 22.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. review (1-02) (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image022.webp" 
-  alt="."
+  alt="1-02. Review: DOM Review."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -802,7 +659,7 @@ API&#39;s and different things like that. But I want you to code with me
 and then make sure you go off and you try to change things just a little
 bit until your confidence is really up there. Good luck.
 
-## Week 1-03. Output
+<h3 id="Week1-03">Week 1-03. Output</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. output (1.03) (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -918,10 +775,10 @@ home, and you&#39;re not using Chrome, the box is going to look different.
 For some of you it&#39;s going to have the little Safari symbol, or the
 Edge, or Firefox.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 30.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 30. hello world example (20) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image030.webp" 
-  alt="."
+  alt="Hello World example."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -933,7 +790,7 @@ class we&#39;re going to be playing with alert a lot because it&#39;s a nice
 way for you to know if your code&#39;s working or not. Again, this is just
 a quick and simple way for you to generate output using the alert.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 31.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. prompt() (20) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image031.webp" 
   alt="."
@@ -949,14 +806,14 @@ very similar. They&#39;ve both got the key word, the parentheses, the
 semicolon and the string, but the way they act is very different.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 32/33.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 32/33. example prompt, side-by-side (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image032.png"
   style="width:35%;"
-  alt="." />
+  alt="Example prompt, #1." />
 <img src="./images/image033.png"
   style="width:35%;"
-  alt="." />
+  alt="Example prompt, #2." />
 </p>
 
 In this case when you run it, it&#39;s actually waiting for you to type
@@ -968,30 +825,30 @@ can display information, but nothing is actually showing up on the page.
 Let&#39;s switch to the general ways in which you can generate output to
 the screen.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 34.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 34. document.write() (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image034.webp" 
-  alt="."
+  alt="document.write()."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
 
 One way, if you want something to be what we call permanent, to not just
-disappear once you hit okay, is to use what we call **document.write**.
+disappear once you hit okay, is to use what we call <em>document.write</em>.
 So again, I&#39;m hoping that you&#39;re picking up on these ideas that we&#39;re
 using terms like document, and element, and different things like that.
-The way that **document.write** works is it goes through and it says, we
+The way that <em>document.write</em> works is it goes through and it says, we
 want you to write something directly to the page. We want it to become
 part of the dom, we want it to become part of the page permanently. In
 this case I can&#39;t just use write. That won&#39;t work. Alert worked by
 itself, prompt worked by itself, but here you need to have
-**document.write()**. Same thing, hopefully you&#39;re seeing the pattern.
+<em>document.write()</em>. Same thing, hopefully you&#39;re seeing the pattern.
 Let&#39;s see when we add this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 35.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 35. example document.write() (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image035.webp" 
-  alt="."
+  alt="Example document.write(), #1."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -1000,10 +857,10 @@ Here you can see that inside the script tag, again, I have the
 **document.write()**. But instead of things popping up or asking us for
 input, it writes it directly into the screen.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 36.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. example document.write(), #2 (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image036.webp" 
-  alt="."
+  alt="Example document.write(), #2."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -1014,10 +871,10 @@ instead of being an h1 heading, it's just regular old text. So,
 **document.write** is a way for you to generate output. But we need to
 realize that it is probably not the best way to do it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 37.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 37. document.write not recommended (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image037.webp" 
-  alt="."
+  alt="document.write is not usually recommended."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -1027,10 +884,10 @@ that exist. So, **document.write** is something you just want to use
 when you&#39;re beginning and you don&#39;t know some of the more complex
 methods.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 38.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 38. innerhtml (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image038.webp" 
-  alt="."
+  alt="innerHTML."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -1043,10 +900,10 @@ Oh, I want to change that particular paragraph, all right. But how do I
 grab that particular paragraph? Or remember we have these different APIs
 that can go and get things for us.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 39.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. innerhtml, #2 (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image039.webp" 
-  alt="."
+  alt="innerHTML, #2."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -1065,10 +922,10 @@ When I talk about this kind of generic element, I didn&#39;t make it a
 color that&#39;s something that you need to grab using the API. Let me give
 you an example of something we can do using innerHTML.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 40.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 40. document.getelementbyid().innerhtml (24) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image040.webp" 
-  alt="."
+  alt="document.getElementById('test').innerHTML."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -5174,3 +5031,6 @@ no code associated with this lecture, but if you check under the
 resources, I do include a link to site where you can find specifics on
 the DOM.
 
+<h5>Last Updated 11/21/23 11:39am</h5>
+
+<h6>the end...</h6>
