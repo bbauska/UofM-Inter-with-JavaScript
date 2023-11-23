@@ -1,12 +1,5 @@
 /* styles.css in uofm-inter-with-javascript - inter-js.bauska.org */
 
-<!-- 
-* {
-  font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;
-  box-sizing: border-box;
-}
--->
-
 body {
   background-color: #eee;  /* very light gray */
   font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;
