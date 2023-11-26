@@ -55,7 +55,7 @@ A basic understanding of HTML and CSS is expected when you enroll in
 this class. Additional courses focus on enhancing the styling with
 responsive design and completing a capstone project.
 
-<h2 id="syllabus">Syllabus</h2>
+<h2 id="#syllabus">Syllabus</h2>
 
 <h3>Week One: Introduction to JavaScript</h3>
 
