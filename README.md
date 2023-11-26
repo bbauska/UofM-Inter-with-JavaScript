@@ -55,7 +55,7 @@ A basic understanding of HTML and CSS is expected when you enroll in
 this class. Additional courses focus on enhancing the styling with
 responsive design and completing a capstone project.
 
-<h2>Syllabus</h2>
+<h2 id="syllabus">Syllabus</h2>
 
 <h3>Week One: Introduction to JavaScript</h3>
 
@@ -71,19 +71,19 @@ programming. After that we go back to the basics of how a computer uses
 data. We begin with variables, expressions, and operators.
 
 <ol type="1">
-  <li><p>Syllabus</p></li>
-  <li><p><a href="https://www.coursera.org/lecture/javascript/introduction-EYX66)&ast;">Introduction&ast; (1)</a></p></li>
-  <li><p>Link to ALL of the Code for Week One</p></li>
-  <li><p>The Document Object Model (DOM)</p></li>
-  <li><p>DOM Review with Object-Oriented Programming&ast (2);</p></li>
-  <li><p>Output&ast; (3)</p></li>
-  <li><p>Trying to Create and Debug Your Own Output</p></li>
-  <li><p>Varibles&ast; (4)</p></li>
-  <li><p>Data Types&ast; (5)</p></li>
-  <li><p>Operators and Expressions&ast; (6)</p></li>
-  <li><p>Discussion - CodePen</p></li>
-  <li><p>Materials</p></li>
-  <li><p>The History of &#34;Debugging&#34;</p></li>
+  <li><p><a href="syllabus">Syllabus</a></p></li>
+  <li><p><a href="https://www.coursera.org/lecture/javascript/introduction-EYX66">Introduction&ast; (1)</a></p></li>
+  <li><p><a href="code-week1">Link to ALL of the Code for Week One</a></p></li>
+  <li><p><a href="the-dom">The Document Object Model (DOM)</a></p></li>
+  <li><p><a href="Week1-02">DOM Review with Object-Oriented Programming&ast; (2)</a></p></li>
+  <li><p><a href="Week1-03">Output&ast; (3)</a></p></li>
+  <li><p><a href="debug">Trying to Create and Debug Your Own Output</a></p></li>
+  <li><p><a href="Week1-04">Varibles&ast; (4)</a></p></li>
+  <li><p><a href="Week1-05">Data Types&ast; (5)</a></p></li>
+  <li><p><a href="Week1-06">Operators and Expressions&ast; (6)</a></p></li>
+  <li><p><a href="discussion-codepen">Discussion - CodePen</a></p></li>
+  <li><p><a href="materials">Materials</a></p></li>
+  <li><p><a href="history-of-debugging">The History of &#34;Debugging&#34;</a></p></li>
 </ol>
 
 <h3>Week Two: Reacting to Your Audience</h3>
@@ -100,11 +100,22 @@ particular you will learn about the JavaScript Mouse Events and Touch
 Events. This week&#39;s materials will end with a photo gallery example
 that you can create along with me.
 
-1.  **Reading: **Link to All of the Code for Week Two
+<ol type="1">
+  <li><p>Link to ALL of the Code for Week Two</p></li>
+  <li><p>Reading: Functions</p></li>
+  <li><p><a href="https://www.coursera.org/lecture/javascript/functions-Ltkbl">Functions&ast; (1)</a></p></li>
+  <li><p>Code Placement&ast; (2)</p></li>
+  <li><p>Reading: Organizing Your Code</p></li>
+  <li><p>Varibles&ast; (4)</p></li>
+  <li><p>Data Types&ast; (5)</p></li>
+  <li><p>Operators and Expressions&ast; (6)</p></li>
+  <li><p>Discussion - CodePen</p></li>
+  <li><p>Materials</p></li>
+1.  **Reading:** Link to All of the Code for Week Two
 
-2.  **Reading: **Functions
+2.  **Reading:** Functions
 
-3.  [**Video: **Functions](https://www.coursera.org/lecture/javascript/functions-Ltkbl)&ast;
+3.  [Video: Functions](https://www.coursera.org/lecture/javascript/functions-Ltkbl)&ast;
     (1)
 
 4.  **Video: **Code Placement&ast; (2)
