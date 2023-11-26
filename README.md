@@ -77,21 +77,14 @@ data. We begin with variables, expressions, and operators.
   <li><p>The Document Object Model (DOM)&ast;</p></li>
   <li><p>DOM Review with Object-Oriented Programming&ast;</p></li>
   <li><p>Output&ast;</p></li>
+  <li><p>Trying to Create and Debug Your Own Output</p></li>
+  <li><p>Varibles&ast;</p></li>
+  <li><p>Data Types&ast;</p></li>
+  <li><p>Operators and Expressions&ast;</p></li>
+  <li><p>Discussion - CodePen</p></li>
+  <li><p>Materials</p></li>
+  <li><p>The History of &#34;Debugging&#34;</p></li>
 </ol>
-
-7.  **Trying to Create and Debug Your Own Output**
-
-8.  **Variables&ast; (4)**
-
-9.  **Data Types&ast; (5)**
-
-10. **Operators and Expressions&ast; (6)**
-
-11. **Discussion - CodePen**
-
-12. **Materials**
-
-13. **The History of &#34;Debugging&#34;**
 
 <h3>Week Two: Reacting to Your Audience</h3>
 
