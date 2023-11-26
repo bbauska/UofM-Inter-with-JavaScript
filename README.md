@@ -70,18 +70,14 @@ yet, but it will be a great way to get your feet wet with traditional
 programming. After that we go back to the basics of how a computer uses
 data. We begin with variables, expressions, and operators.
 
-1.  **Syllabus**
-
-2.  **[Introduction](https://www.coursera.org/lecture/javascript/introduction-EYX66)&ast;
-    (1)**
-
-3.  **Link to All of the Code for Week One**
-
-4.  **The Document Object Model (DOM)**
-
-5.  **DOM Review with Object Oriented Programming&ast; (2)**
-
-6.  **Output&ast; (3)**
+<ol type="1">
+  <li><p>Syllabus</p></li>
+  <li><p><a href="https://www.coursera.org/lecture/javascript/introduction-EYX66)&ast;">Introduction]</a></p></li>
+  <li><p>Link to ALL of the Code for Week One</p></li>
+  <li><p>The Document Object Model (DOM)&ast;</p></li>
+  <li><p>DOM Review with Object-Oriented Programming&ast;</p></li>
+  <li><p>Output&ast;</p></li>
+</ol>
 
 7.  **Trying to Create and Debug Your Own Output**
 
@@ -4999,7 +4995,7 @@ with the term, Grace Hopper and Thomas Edison
 
 <http://theinstitute.ieee.org/tech-history/technology-history/did-you-know-edison-coined-the-term-bug>
 
-## Link to All of the Code for Week One
+## <a href="http://codepen.io/collection/nLPkgP/">Link to All of the Code for Week One</a>
 
 <http://codepen.io/collection/nLPkgP/>
 
@@ -5031,6 +5027,6 @@ no code associated with this lecture, but if you check under the
 resources, I do include a link to site where you can find specifics on
 the DOM.
 
-<h5>Last Updated 11/21/23 11:39am</h5>
+<h5>Last Updated 11/25/23 4:26pm</h5>
 
 <h6>the end...</h6>
