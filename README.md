@@ -72,18 +72,19 @@ data. We begin with variables, expressions, and operators.
 
 <ol type="1">
   <li><p><a href="syllabus">Syllabus</a></p></li>
-  <li><p><a href="https://www.coursera.org/lecture/javascript/introduction-EYX66">Introduction&ast; (1)</a></p></li>
-  <li><p><a href="code-week1">Link to ALL of the Code for Week One</a></p></li>
-  <li><p><a href="the-dom">The Document Object Model (DOM)</a></p></li>
-  <li><p><a href="Week1-02">DOM Review with Object-Oriented Programming&ast; (2)</a></p></li>
-  <li><p><a href="Week1-03">Output&ast; (3)</a></p></li>
-  <li><p><a href="debug">Trying to Create and Debug Your Own Output</a></p></li>
-  <li><p><a href="Week1-04">Varibles&ast; (4)</a></p></li>
-  <li><p><a href="Week1-05">Data Types&ast; (5)</a></p></li>
-  <li><p><a href="Week1-06">Operators and Expressions&ast; (6)</a></p></li>
-  <li><p><a href="discussion-codepen">Discussion - CodePen</a></p></li>
-  <li><p><a href="materials">Materials</a></p></li>
-  <li><p><a href="history-of-debugging">The History of &#34;Debugging&#34;</a></p></li>
+  <li><p><a href="w1-01">Introduction&ast; (1)</a></p></li>
+<!--  "https://www.coursera.org/lecture/javascript/introduction-EYX66"> -->
+  <li><p><a href="w1-code">Link to ALL of the Code for Week One</a></p></li>
+  <li><p><a href="w1-the-dom">The Document Object Model (DOM)</a></p></li>
+  <li><p><a href="w1-02">DOM Review with Object-Oriented Programming&ast; (2)</a></p></li>
+  <li><p><a href="w1-03">Output&ast; (3)</a></p></li>
+  <li><p><a href="w1-debug">Trying to Create and Debug Your Own Output</a></p></li>
+  <li><p><a href="w1-04">Variables&ast; (4)</a></p></li>
+  <li><p><a href="w1-05">Data Types&ast; (5)</a></p></li>
+  <li><p><a href="w1-06">Operators and Expressions&ast; (6)</a></p></li>
+  <li><p><a href="w1-discussion-codepen">Discussion - CodePen</a></p></li>
+  <li><p><a href="w1-materials">Materials</a></p></li>
+  <li><p><a href="w1-history-of-debugging">The History of &#34;Debugging&#34;</a></p></li>
 </ol>
 
 <h3>Week Two: Reacting to Your Audience</h3>
@@ -101,66 +102,45 @@ Events. This week&#39;s materials will end with a photo gallery example
 that you can create along with me.
 
 <ol type="1">
-  <li><p>Link to ALL of the Code for Week Two</p></li>
-  <li><p>Reading: Functions</p></li>
-  <li><p><a href="https://www.coursera.org/lecture/javascript/functions-Ltkbl">Functions&ast; (1)</a></p></li>
-  <li><p>Code Placement&ast; (2)</p></li>
-  <li><p>Reading: Organizing Your Code</p></li>
-  <li><p>Varibles&ast; (4)</p></li>
-  <li><p>Data Types&ast; (5)</p></li>
-  <li><p>Operators and Expressions&ast; (6)</p></li>
-  <li><p>Discussion - CodePen</p></li>
-  <li><p>Materials</p></li>
-1.  **Reading:** Link to All of the Code for Week Two
-
-2.  **Reading:** Functions
-
-3.  [Video: Functions](https://www.coursera.org/lecture/javascript/functions-Ltkbl)&ast;
-    (1)
-
-4.  **Video: **Code Placement&ast; (2)
-
-5.  **Reading: **Organizing Your Code
-
-6.  **Video: **Folder Structure / Organizing Your Code&ast; (3)
-
-7.  **Video: **Events&ast; (4)
-
-8.  **Reading: **Mastering Events and Functions
-
-9.  **Video: **Code With Me -- Events&ast; (5)
-
-10. **Reading: **Just a little note before the next video
-
-11. **Video: **&#34;this&#34;&ast; (6)
-
-12. **Reading: **Homework Time!!
-
-13. **Video: **Photo Gallery&ast; (7)
+  <li><p><a href="w2-code">Link to ALL of the Code for Week Two</a></p></li>
+  <li><p><a href="w2-functions">Reading: Functions</a></p></li>
+  <li><p><a href="w2-01">Functions&ast; (1)</a></p></li>
+<!--  https://www.coursera.org/lecture/javascript/functions-Ltkbl" -->
+  <li><p><a href="w2-02">Code Placement&ast; (2)</a></p></li>
+  <li><p><a href="w2-org-your-code">Organizing Your Code</a></p></li>
+  <li><p><a href="w2-03">Folder Structure/Organizing Your Code&ast; (03)</a></p></li>
+  <li><p><a href="w2-04">Events&ast; (4)</p></li>
+  <li><p><a href="w2-mastering-events">Mastering Events and Functions</a></p></li>
+  <li><p><a href="w2-05">Code With Me -- Events&ast; (5)</p></li>
+  <li><p><a href="w2-before-this">Just a little note before 'this'</a></p></li>
+  <li><p><a href="w2-06">&#34;this&#34;&ast; (60</a></p></li>
+  <li><p><a href="w2-homework">Homework Time!!</a></p></li>
+  <li><p><a href="w2-07">Photo Gallery&ast; (7)</a></p></li>
+</ol>
 
 <b>Summary:</b> JavaScript Interactive Photo Gallery
 
-## Week Three: Arrays and Looping
+<h3>Week Three: Arrays and Looping</h3>
 
-This week we will delve into more complex programming concepts: arrays
+<p>This week we will delve into more complex programming concepts: arrays
 and looping. Arrays allow you to represent groups of related
 information. Looping provides efficiency and flexibility to your
-programs. Using both we will expand upon the photo gallery example.
+programs. Using both we will expand upon the photo gallery example.</p>
 
 1.  **Reading: **Link to All of the Code for Week Three
-
-2.  **Reading: **A JavaScript Cheat Sheet
-
-3.  **Reading: **Arrays
-
+<ol type="1">
+  <li><p><a href="code-week3">Link to ALL of the Code for Week Three</a></p></li>
+  <li><p><a href="js-cheat-sheet">Reading: A JavaScript Cheat Sheet</a></p></li>
+  <li><p><a href="arrays">Reading: Arrays</a></p></li>
+  <li><p><a href="week2-01">JavaScript&ast; (1)</a></p></li>
+<!--
 4.  [**Video: **JavaScript
     Arrays](https://www.coursera.org/lecture/javascript/javascript-arrays-g8N8v)&ast;
     (1)
-
-5.  **Video: **Code With Me -- Arrays&ast; (2)
-
-6.  **Reading: **Advanced Coding Techniques
-
+-->
+  <li><p><a href=week2-02">Code With Me -- Arrays&ast; (2)</a></p></li>
+  <li><p><a href="adv-coding-techniqus">Reading: Advanced Coding Techniques</a></p></li>
+  <li><p><a href=week2-03"
 7.  **Video: **JavaScript Iteration&ast; (3)
 
 8.  **Video: **Flow Of Control&ast; (4)
