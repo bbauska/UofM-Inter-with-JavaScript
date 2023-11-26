@@ -72,15 +72,15 @@ data. We begin with variables, expressions, and operators.
 
 <ol type="1">
   <li><p>Syllabus</p></li>
-  <li><p><a href="https://www.coursera.org/lecture/javascript/introduction-EYX66)&ast;">Introduction</a></p></li>
+  <li><p><a href="https://www.coursera.org/lecture/javascript/introduction-EYX66)&ast;">Introduction&ast; (1)</a></p></li>
   <li><p>Link to ALL of the Code for Week One</p></li>
-  <li><p>The Document Object Model (DOM)&ast;</p></li>
-  <li><p>DOM Review with Object-Oriented Programming&ast;</p></li>
-  <li><p>Output&ast;</p></li>
+  <li><p>The Document Object Model (DOM)</p></li>
+  <li><p>DOM Review with Object-Oriented Programming&ast (2);</p></li>
+  <li><p>Output&ast; (3)</p></li>
   <li><p>Trying to Create and Debug Your Own Output</p></li>
-  <li><p>Varibles&ast;</p></li>
-  <li><p>Data Types&ast;</p></li>
-  <li><p>Operators and Expressions&ast;</p></li>
+  <li><p>Varibles&ast; (4)</p></li>
+  <li><p>Data Types&ast; (5)</p></li>
+  <li><p>Operators and Expressions&ast; (6)</p></li>
   <li><p>Discussion - CodePen</p></li>
   <li><p>Materials</p></li>
   <li><p>The History of &#34;Debugging&#34;</p></li>
