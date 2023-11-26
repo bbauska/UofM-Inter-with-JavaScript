@@ -110,7 +110,7 @@ that you can create along with me.
 <!--  https://www.coursera.org/lecture/javascript/functions-Ltkbl" -->
   <li><p><a href="w2-02">Code Placement&ast; (2)</a></p></li>
   <li><p><a href="w2-org-your-code">Organizing Your Code</a></p></li>
-  <li><p><a href="w2-03">Folder Structure/Organizing Your Code&ast; (03)</a></p></li>
+  <li><p><a href="w2-03">Folder Structure/Organizing Your Code&ast; (3)</a></p></li>
   <li><p><a href="w2-04">Events&ast; (4)</p></li>
   <li><p><a href="w2-mastering-events">Mastering Events and Functions</a></p></li>
   <li><p><a href="w2-05">Code With Me -- Events&ast; (5)</p></li>
@@ -141,6 +141,7 @@ programs. Using both we will expand upon the photo gallery example.</p>
   <li><p><a href="w3-05">Code With Me - Combining Loops and Conditionals&ast (5)</a></p></li>
   <li><p><a href="w3-06">Advanced Conditionals&ast; (6)</a></p></li>
   <li><p><a href="w3-07">Common Errors&ast; (7)</a></p></li>
+</ol>
 
 <h4><b>Summary:</b> JavaScript Review</h4>
 
