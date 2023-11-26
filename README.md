@@ -2,7 +2,7 @@
 title:  |
   Interactivity with JavaScript
 author: "bbauska"
-date last editted: "11/21/2023 11+am"
+date last editted: "11/25/2023 6+pm"
 output: 
   markdown:
     with_style
@@ -72,7 +72,7 @@ data. We begin with variables, expressions, and operators.
 
 <ol type="1">
   <li><p>Syllabus</p></li>
-  <li><p><a href="https://www.coursera.org/lecture/javascript/introduction-EYX66)&ast;">Introduction]</a></p></li>
+  <li><p><a href="https://www.coursera.org/lecture/javascript/introduction-EYX66)&ast;">Introduction</a></p></li>
   <li><p>Link to ALL of the Code for Week One</p></li>
   <li><p>The Document Object Model (DOM)&ast;</p></li>
   <li><p>DOM Review with Object-Oriented Programming&ast;</p></li>
@@ -416,7 +416,7 @@ of fun stuff. But I promise, I&#39;m going to go slow, explain what I&#39;m
 doing step by step, so that you can come along with me and start adding
 some interactivity to your pages with JavaScript.
 
-<h3>Link to All of the Code for Week One</h3>
+<h3><a href="http://codepen.io/collection/nLPkgP/">Link to All of the Code for Week One</a></h3>
 
 <http://codepen.io/collection/nLPkgP/>
 
@@ -433,7 +433,7 @@ will need to work on that part on your own..
 
 <h3>The Document Object Model (DOM)</h3>
 
-<h3>Examples:</h3>
+<h3><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Examples">Examples:</a></h3>
 
 <https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Examples>
 
@@ -835,7 +835,7 @@ So again, I&#39;m hoping that you&#39;re picking up on these ideas that we&#39;r
 using terms like document, and element, and different things like that.
 The way that <em>document.write</em> works is it goes through and it says, we
 want you to write something directly to the page. We want it to become
-part of the dom, we want it to become part of the page permanently. In
+part of the DOM, we want it to become part of the page permanently. In
 this case I can&#39;t just use write. That won&#39;t work. Alert worked by
 itself, prompt worked by itself, but here you need to have
 <em>document.write()</em>. Same thing, hopefully you&#39;re seeing the pattern.
@@ -968,10 +968,10 @@ JavaScript is expecting you to keep that rule. When you do something get
 element by ID, JavaScript thinks there&#39;s only one out there. I&#39;m going
 to stop as soon as I find that one.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 43.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 43. changed first id='test', not second (26) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image043.webp" 
-  alt="."
+  alt="Two elements with same id.  Changed only the first instance."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -979,120 +979,119 @@ to stop as soon as I find that one.
 As you can see down here, it changed the first one it found. It didn&#39;t
 change the second one it found, okay? All right.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 44.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 44. console.log() writes to browser console (26) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image044.webp" 
-  alt="."
+  alt="Console.log() writes to browser console."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
 
-Let&#39;s go play with the last output method I have for you today.
-**document.write** and enter HTML. Write directly into the browser
+<p>Let&#39;s go play with the last output method I have for you today.
+<b>document.write</b> and enter HTML. Write directly into the browser
 screen. What we have in this last option is something that doesn&#39;t
-write to the browser screen, but it does write to the browser console.
-Console dot log takes a message and says you know what, I want to store
-this information some place. But I want it to be something that not
-necessarily pops up and everyone can see.
+write to the browser screen, but it does write to the browser console.</p>
 
-The console&#39;s a place to see what&#39;s going on in your program during
+<p>Console dot log takes a message and says you know what, I want to store
+this information some place. But I want it to be something that not
+necessarily pops up and everyone can see.</p>
+
+<p>The console&#39;s a place to see what&#39;s going on in your program during
 execution. If you haven&#39;t used the console before, you might not
 realize that it&#39;s even there. But I&#39;m hoping you have when you were
-doing your CSS.
+doing your CSS.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 45.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45. console-log.html (27) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image045.webp" 
-  alt="."
+  alt="console-log.html."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
 
-Let&#39;s take a look at this example. In my HTML up here, you can see that
-I have **console.log** Hello World. Nothing too exciting going on here.
+<p>Let&#39;s take a look at this example. In my HTML up here, you can see that
+I have **console.log** Hello World. Nothing too exciting going on here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 46.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. inspect console-log (27) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image046.webp" 
-  alt="."
+  alt="Inspect console-log."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
 
-But if you look at the actual browser, hm, it&#39;s not there. It doesn&#39;t
+<p>But if you look at the actual browser, hm, it&#39;s not there. It doesn&#39;t
 show up like it did with document.ray. Where did it go? Well, it&#39;s
 actually in the Console of your browser. I&#39;m going to go down here. I
 did inspect element, and I checked the Console. Oh, you can see Hello
-World showed up here.
+World showed up here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 47.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. inspect 'hello world' (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image047.webp" 
-  alt="."
+  alt="Inspect 'Hello World'."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
 
-What happens if I change the code to Hello World Too.
-
-You're sending yourself these little secret messages that can help you
+<p>What happens if I change the code to Hello World Too?</p>
+<p>You're sending yourself these little secret messages that can help you
 debug your code. You can log things, you can leave little notes for
 yourself, you can do debugging tests. You can even log the things that
 other people have been writing in. And so, this is a really handy tool
 if you want to do development but not let everyone see exactly what you
 are doing. We&#39;re going to come back to this example in just a second,
 but first I want to talk to you about why you should be utilizing the
-console by now, if you haven&#39;t.
+console by now, if you haven&#39;t.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 48.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. the console (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image048.webp" 
-  alt="."
+  alt="The console."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
 
-The console does more than just take these print statements. It also
+<p>The console does more than just take these print statements. It also
 provides debugging information for JavaScript, HTML, and CSS. By going
 in and looking at it, you&#39;re going to be able to help yourself become a
-much better programmer.
+much better programmer.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 49.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. debugging console-log.html (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image049.webp" 
-  alt="."
+  alt="Debugging console-log.html."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
 
-Let&#39;s take a look at just doing some debugging with the JavaScript.
+<p>Let&#39;s take a look at just doing some debugging with the JavaScript.
 I&#39;m going to go in here and I&#39;m going to accidentally forget to put in
 my first quotes, all right. But if we didn&#39;t know that there&#39;s
-anything going on or that anything is supposed to show up.
+anything going on or that anything is supposed to show up.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 50.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. console inspect (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image050.webp" 
-  alt="."
+  alt="Console Inspect."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
 
-You might not realize that there&#39;s a typo but inside the console,
+<p>You might not realize that there&#39;s a typo but inside the console,
 it&#39;ll show you pretty much along the way add, hey, anything in red
 means we found an error. So red lines usually means either you have a
 JavaScript error or you linked to a file that didn&#39;t exist. When I put
-it back in, no more red syntax error.
-
-I really want to stress this to you right now. I need you to stop and
+it back in, no more red syntax error.</p>
+<p>I really want to stress this to you right now. I need you to stop and
 make sure that you know how to access the console on your machine. One
 of the things that really helps other people help you is when you can
 pinpoint where exactly your code is going wrong. You might not know
 what&#39;s going wrong, but you're saying somewhere in this line of code
 I&#39;m getting an error. This kind of ability to help yourself debug is
-going to be critical to going on and advancing in this course.
+going to be critical to going on and advancing in this course.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 51.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 51. debugging (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image051.webp" 
   alt="."
@@ -1100,62 +1099,58 @@ going to be critical to going on and advancing in this course.
   width="40%;" />
 </p>
 
-If I&#39;m going to ask you debug, I should probably tell you how you can
+<p>If I&#39;m going to ask you to debug, I should probably tell you how you can
 debug. If you&#39;re using Safari, you&#39;re going to need to go to
 Preferences &gt; Advanced. Once you go there, you should be able to check
 the Show development menu in menu box. And that will show you some of
 the different JavaScript errors and tools that you have available. In
-Google Chrome, you go to Developer, and then JavaScript Console. If
-you&#39;ve been coding with me in the past, you know that my shortcut is
+Google Chrome, you go to Developer, and then JavaScript Console.</p>
+<p>If you&#39;ve been coding with me in the past, you know that my shortcut is
 always to right click, inspect element, and boom, there it is for you.
 If you&#39;re using Firefox, you want to go to Tools and then Console.
 Firefox is, believed by many to be the best browser to use when you&#39;re
 doing debugging for JavaScript. If you&#39;re using Edge or Internet
 Explorer, typically hitting F12 will bring up the different JavaScript
 and development tools that you can use to improve your page. All right,
-so let&#39;s review.
+so let&#39;s review.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 52.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. review (1-03) output (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image052.webp" 
-  alt="."
+  alt="1.03 Output Review."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
 
-Right now, we&#39;re doing really simple things, and I understand that.
-It&#39;s not that exciting to just print things out to the screen or have
-little pop-up boxes coming up. But we need to do these small steps to
-help you gain the confidence to go on and write more complex bits of
-code.
-
-As you learn more, the power that you&#39;re going to have to manipulate
-the dom is really going to get quite impressive. But for now, just make
+<p>Right now, we&#39;re doing really simple things, and I understand that. It&#39;s 
+not that exciting to just print things out to the screen or have little pop-up 
+boxes coming up. But we need to do these small steps to help you gain the confidence 
+to go on and write more complex bits of code.</p>
+<p>As you learn more, the power that you&#39;re going to have to manipulate
+the DOM is really going to get quite impressive. But for now, just make
 the small mistakes, learn how to debug the small mistakes, and then that
-way you&#39;ll be able to build your confidence slowly. Good luck.
+way you&#39;ll be able to build your confidence slowly. Good luck.</p>
 
-### Trying to Create and Debug Your Own Output
+<h3>Trying to Create and Debug Your Own Output</h3>
 
-In the previous lecture I showed you how you can create output using
-JavaScript. My code examples are all on CodePen and I have included a
-link to each of the examples in the Resources section of that module.
-With CodePen you get your own copy of my code that you can change. I
-encourage you to experiment with that code, or even better try
-recreating it yourself using an editor such as TextEdit, Sublime, or
-Notepad++.
-
-If you are using a laptop or desktop to do your coding, make sure to use
+<p>In the previous lecture (1.03) I showed you how you can create output using 
+JavaScript. My code examples are all on CodePen and I have included a link to each 
+of the examples in the Resources section of that module. With CodePen you get your 
+own copy of my code that you can change. I encourage you to experiment with that 
+code, or even better try recreating it yourself using an editor such as TextEdit, 
+Sublime, or Notepad++.</p>
+<p>If you are using a laptop or desktop to do your coding, make sure to use
 the console window of your browser to look for errors in your code. In
 programming, looking for and correcting errors is called &#34;debugging.&#34;
 Below I have a screen shot of my code, the (empty) browser, and the
-error message I get from the Chrome console. Don&#39;t worry if error
+error message I get from the Chrome console. Don&#39;t worry if the error
 message itself doesn&#39;t make sense, that is something that comes with
 time, the important part is to look for the line number, in this case
 line 9. The console will always try to tell you about where it ran into
 a problem. In this case, I didn&#39;t include the quotes to end the message
-for the alert.
+for the alert.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~ 53. code, an empty browser, and an error message in chrome console (xxx) ~~~~~~~~~-->
+<!--~~~~~~~~~ 53. code, an empty browser, and an error message in chrome console (31) ~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image053.webp" 
   alt="Code, an empty browser, and an error message in the Chrome console."
@@ -1163,44 +1158,40 @@ for the alert.
   width="40%;" />
 </p>
 
-## Week 1-04. Variables
+<h2 id="Week1-04">Week 1-04. Variables</h2>
 
-<https://codepen.io/ColleenEMc/pen/jbYEEW>
-
+<a href="https://codepen.io/ColleenEMc/pen/jbYEEW">Codepen Week 1-04 Variables</a>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 54.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. variables in javascript (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image054.webp" 
-  alt="."
+  alt="1.04. Variables in JavaScript."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
 
-Hi, everybody. Today we&#39;re going to learn about JavaScript variables.
+<p>Hi, everybody. Today we&#39;re going to learn about JavaScript variables.
 An important part of programming is learning how you can save data.
 Because by saving data, you can reuse it and give you program that&#39;s
-impression that&#39;s kind of intelligent and knows the user very well.
-
+impression that&#39;s kind of intelligent and knows the user very well.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 55.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 55. storing data in variables example (32) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image055.webp" 
-  alt="."
+  alt="Example of storing data in variables within JavaScript."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
 
-In JavaScript, data is stored in what we call variables, and it&#39;s very
-easy to use variables in your programming. The only important part is
-that you need to tell the computer very specifically, hey, I need you to
-save something for me. And this is how we do it. We start by using the
-keyword var, V-A-R. When we&#39;re using the editor, hopefully this will
-show up in some special color that indicates, ooh, this is a special
-word to the computer. Next, you need to give your variable a name. Now,
-I chose the name "name" here, but you can imagine it being age, first
-name, last name, dob for date of birth. The important thing is that it
-should be special to you, but not special to the computer.
-
+<p>In JavaScript, data is stored in what we call variables, and it&#39;s very easy 
+to use variables in your programming. The only important part is that you need 
+to tell the computer very specifically, hey, I need you to save something for me. 
+And this is how we do it. We start by using the keyword var, V-A-R. When we&#39;re 
+using the editor, hopefully this will show up in some special color that indicates, 
+ooh, this is a special word to the computer. Next, you need to give your variable 
+a name. Now, I chose the name "name" here, but you can imagine it being age, first
+name, last name, dob for date of birth. The important thing is that it should be 
+special to you, but not special to the computer.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 56.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -3138,15 +3129,18 @@ before they can tackle the larger concepts.
 Finally!! Now is when I start to explain some of the concepts I said you
 had to wait for. Hopefully by now you are comfortable with the code
 
-> **document.getElementById(&#39;idName&#39;);**
+```
+**document.getElementById(&#39;idName&#39;);**
+```
 
 This code will cause the API to search the DOM until it finds a node
 with the id of &#39;idName&#39;). The key is that it is returning a single
 Node. But what about these other functions?
 
-> **document.getElementsByTagName(&#39;p&#39;);**
->
-> **document.getElementsByClassName(&#39;thumbnail&#39;);**
+```
+**document.getElementsByTagName(&#39;p&#39;);**
+**document.getElementsByClassName(&#39;thumbnail&#39;);**
+```
 
 These commands may return zero, one or more Nodes. So now we need to
 find a way to handle dealing with collections of data, rather than just
@@ -4822,7 +4816,7 @@ email and different things like that.
 The set up was fairly straightforward. You give it an input type of
 text, email, password, etc. But as far as a page was concerned, these
 were all very separate part of the page. Each one was its own part of
-the dom. However, there are some additional form fields that we&#39;re
+the DOM. However, there are some additional form fields that we&#39;re
 going to want to look at. And these include checkboxes and radio
 buttons. And how they differ from the earlier input field we were doing
 is that they need to be related within the code. Because we want to make
@@ -4989,7 +4983,7 @@ Good luck.
 
 ## The History of &#34;Debugging&#34;
 
-If you want to learn more about the history of debugging, here is an
+If you want to learn more about the history of debugging, <a href="http://theinstitute.ieee.org/tech-history/technology-history/did-you-know-edison-coined-the-term-bug>here</a> is an
 article that talks about the fact that two different people are credited
 with the term, Grace Hopper and Thomas Edison
 
@@ -5011,21 +5005,20 @@ your own. For now, I put complete examples in CodePen, but as time goes
 on, I will remove some of the commands to link the code together. You
 will need to work on that part on your own..
 
-## The Document Object Model (DOM)
+<h2 id="The-DOM">The Document Object Model (DOM)</h2>
 
-One of the reasons you want to learn about JavaScript is that it works
+<p>One of the reasons you want to learn about JavaScript is that it works
 so well with the structure used to create HTML documents. Every webpage
 can be broken down into a mathematical tree structure called the
 Document Object Model (DOM). Each HTML tag is a node in the tree and
 these nodes have all types of different attributes, such as text,
-background color, width, etc.
-
-With JavaScript it is easy to write code that basically says &#34;I want to
+background color, width, etc.</p>
+<p>With JavaScript it is easy to write code that basically says &#34;I want to
 grab *that* part of the webpage and change it.&#34; In this lecture I
 review the DOM and talk about how it is related to JavaScript. There is
+resources, I do include a link to sites where you can find specifics on
 no code associated with this lecture, but if you check under the
-resources, I do include a link to site where you can find specifics on
-the DOM.
+the DOM.</p>
 
 <h5>Last Updated 11/25/23 4:26pm</h5>
 
