@@ -87,6 +87,8 @@ data. We begin with variables, expressions, and operators.
   <li><p><a href="w1-history-of-debugging">The History of &#34;Debugging&#34;</a></p></li>
 </ol>
 
+<h4><b>Summary:</b> Week One</h4>
+
 <h3>Week Two: Reacting to Your Audience</h3>
 
 If you have written HTML code in the past, hopefully you have fallen
@@ -113,12 +115,12 @@ that you can create along with me.
   <li><p><a href="w2-mastering-events">Mastering Events and Functions</a></p></li>
   <li><p><a href="w2-05">Code With Me -- Events&ast; (5)</p></li>
   <li><p><a href="w2-before-this">Just a little note before 'this'</a></p></li>
-  <li><p><a href="w2-06">&#34;this&#34;&ast; (60</a></p></li>
+  <li><p><a href="w2-06">&#34;this&#34;&ast; (6)</a></p></li>
   <li><p><a href="w2-homework">Homework Time!!</a></p></li>
   <li><p><a href="w2-07">Photo Gallery&ast; (7)</a></p></li>
 </ol>
 
-<b>Summary:</b> JavaScript Interactive Photo Gallery
+<h4><b>Summary:</b> JavaScript Interactive Photo Gallery</h4>
 
 <h3>Week Three: Arrays and Looping</h3>
 
@@ -127,31 +129,20 @@ and looping. Arrays allow you to represent groups of related
 information. Looping provides efficiency and flexibility to your
 programs. Using both we will expand upon the photo gallery example.</p>
 
-1.  **Reading: **Link to All of the Code for Week Three
 <ol type="1">
-  <li><p><a href="code-week3">Link to ALL of the Code for Week Three</a></p></li>
-  <li><p><a href="js-cheat-sheet">Reading: A JavaScript Cheat Sheet</a></p></li>
-  <li><p><a href="arrays">Reading: Arrays</a></p></li>
-  <li><p><a href="week2-01">JavaScript&ast; (1)</a></p></li>
-<!--
-4.  [**Video: **JavaScript
-    Arrays](https://www.coursera.org/lecture/javascript/javascript-arrays-g8N8v)&ast;
-    (1)
--->
-  <li><p><a href=week2-02">Code With Me -- Arrays&ast; (2)</a></p></li>
-  <li><p><a href="adv-coding-techniqus">Reading: Advanced Coding Techniques</a></p></li>
-  <li><p><a href=week2-03"
-7.  **Video: **JavaScript Iteration&ast; (3)
+  <li><p><a href="w3-code">Link to ALL of the Code for Week Three</a></p></li>
+  <li><p><a href="w3-js-cheat-sheet">A JavaScript Cheat Sheet</a></p></li>
+  <li><p><a href="w3-arrays">Reading: Arrays</a></p></li>
+  <li><p><a href="w3-01">JavaScript Arrays&ast; (1)</a></p></li>
+  <li><p><a href="w3-02">Code With Me -- Arrays&ast; (2)</a></p></li>
+  <li><p><a href="w3-adv-coding-techniques">Reading: Advanced Coding Techniques</a></p></li>
+  <li><p><a href="w3-03">JavaScript Iteration&ast; (3)</a></p></li>
+  <li><p><a href="w3-04">Flow of Control&ast; (4)</a></p></li>
+  <li><p><a href="w3-05">Code With Me - Combining Loops and Conditionals&ast (5)</a></p></li>
+  <li><p><a href="w3-06">Advanced Conditionals&ast; (6)</a></p></li>
+  <li><p><a href="w3-07">Common Errors&ast; (7)</a></p></li>
 
-8.  **Video: **Flow Of Control&ast; (4)
-
-9.  **Video: **Code With Me - Combining Loops and Conditionals&ast; (5)
-
-10. **Video: **Advanced Conditionals&ast; (6)
-
-11. **Video: **Common Errors&ast; (7)
-
-<b>Summary:</b> JavaScript Review
+<h4><b>Summary:</b> JavaScript Review</h4>
 
 <h3>Week Four: Validating Form Data</h3>
 
