@@ -107,11 +107,6 @@ a:visited {
   background-color: transparent;
   text-decoration: none;
 }
-a:hover {
-  color: #000000;
-  background-color: #ffff00;  /* yellow */
-  text-decoration: underline;
-}
   
 div {
   float: left; 
