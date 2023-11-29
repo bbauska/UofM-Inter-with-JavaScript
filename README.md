@@ -1,8 +1,8 @@
 ---
 title:  |
-  Interactivity with JavaScript
+  Version 1: Interactivity with JavaScript
 author: "bbauska"
-date last editted: "11/25/2023 6+pm"
+date last editted: "11/28/2023 9+pm"
 output: 
   markdown:
     with_style
@@ -11,7 +11,7 @@ output:
 <h1 align="center">Interactivity with JavaScript</h1>
 <h6 align="center">(by Colleen van Lent, Ph.D. University of Michigan)</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ readme.md of uofm-inter-with-js.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ readme.md of *uofm-inter-with-js.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. interactivity with js (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -224,7 +224,7 @@ in the time we have. We will focus on the following:
 
 -   How to create and validate HTML forms.
 
-<h3>Week 1-01. Introduction</h3>
+<h2 id="week1-01">Week 1-01. Introduction</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 03. introduction - interactivity with js (05) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -427,7 +427,7 @@ no code associated with this lecture, but if you check under the
 resources, I do include a link to site where you can find specifics on
 the DOM.
 
-<h3 id="Week1-02">Week 1-02. DOM Review with Object Oriented Programming</h3>
+<h2 id="week1-02">Week 1-02. DOM Review with Object Oriented Programming</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 13. dom review with object oriented programming (11) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -631,7 +631,7 @@ API&#39;s and different things like that. But I want you to code with me
 and then make sure you go off and you try to change things just a little
 bit until your confidence is really up there. Good luck.
 
-<h3 id="Week1-03">Week 1-03. Output</h3>
+<h2 id="week1-03">Week 1-03. Output</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. output (1.03) (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -657,10 +657,9 @@ things change in your page by reacting to what the user was doing.
   width="40%;" />
 </p>
 
-But typically, that&#39;s not really what we call interactivity when we&#39;re
+<p>But typically, that&#39;s not really what we call interactivity when we&#39;re
 talking about true web design because these new elements and the pseudo
-classes can only go so far. They tend to be temporary changes.
-
+classes can only go so far. They tend to be temporary changes.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. what can javascript do? (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -670,7 +669,7 @@ classes can only go so far. They tend to be temporary changes.
   width="40%;" />
 </p>
 
-So, what can JavaScript do that HTML and CSS can&#39;t do? Well, the one
+What can JavaScript do that HTML and CSS can&#39;t do? Well, the one
 that I&#39;m going to talk about today is that they can read and write HTML
 elements. Now that&#39;s not the only thing they can do. We&#39;re going to be
 talking about different things like reacting to events and validating
@@ -902,10 +901,10 @@ you an example of something we can do using innerHTML.
   width="40%;" />
 </p>
 
-Let&#39;s look at this, what I&#39;ve done is I made an **h1** heading and
+<p>Let&#39;s look at this, what I&#39;ve done is I made an **h1** heading and
 I&#39;ve given it the id of test. I also have a paragraph element a little
 bit further down that just says, hey what happens if I&#39;d messed with
-this code?
+this code?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 41.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -915,7 +914,7 @@ this code?
   width="40%;" />
 </p>
 
-All right, so I want you to look as closely as you can. You might be on
+<p>All right, so I want you to look as closely as you can. You might be on
 a small screen. You might not be able to see it. Is that in my h1
 heading, I actually have the words tester, but if you look at the web
 page, it says Hello World. Well, how did I do that? It&#39;s pretty simple,
@@ -925,7 +924,7 @@ look through the page and go where, where can I find something that says
 ID equals test. There it is. All right, now I want to change whatever
 used to be in there and replace it with the words, Hello World. This is
 kind of what happens when this is a weird example, but all early
-examples are weird examples. Because you just want to get your feet wet.
+examples are weird examples. Because you just want to get your feet wet.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 42.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1134,7 +1133,7 @@ for the alert.</p>
   width="40%;" />
 </p>
 
-<h2 id="Week1-04">Week 1-04. Variables</h2>
+<h2 id="week1-04">Week 1-04. Variables</h2>
 
 <a href="https://codepen.io/ColleenEMc/pen/jbYEEW">Codepen Week 1-04 Variables</a>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1448,7 +1447,7 @@ consult that log. The most important thing is I want you to understand
 how variables work, so that you can use them throughout the rest of the
 course. Good luck.
 
-## Week 1-05. Data Types
+<h2 id="week1-05">Week 1-05. Data Types</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 72. data types (1.05) (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1684,7 +1683,7 @@ knowing what the types are, even if you don&#39;t know how they work,
 you&#39;re really going to be on your way to doing some cool programming.
 So good luck.
 
-## Week 1-06. Operators & Expressions
+<h2 id="week1-06">Week 1-06. Operators & Expressions</h2>
 
 ![](images/image086.webp){width="4.0in"
 height="2.251709317585302in"}
@@ -1891,7 +1890,7 @@ distinction between ***defining*** a function (writing the code) and
 ***calling*** a function (running the code at the precise time you want
 it to happen).
 
-## Week 2-01. Functions
+<h2 id="week2-01">Week 2-01. Functions</h2>
 
 ![](images/image098.webp){width="4.0in"
 height="2.251709317585302in"}
@@ -2053,7 +2052,7 @@ be writing your own functions in the homework, and I&#39;m hoping that
 you&#39;ll be able to do this and feel like you&#39;re really starting to
 understand some of the power of JavaScript. Good luck.
 
-## Week 2-02. Code Placement
+<h2 id="week2-02">Week 2-02. Code Placement</h2>
 
 ![](images/image108.webp){width="4.0in"
 height="2.251709317585302in"}
@@ -2227,7 +2226,7 @@ sure to test your code later using the proper folder/file structure. You
 will need to include links to the style sheets, images, and any external
 JavaScript files.
 
-## Week 2-03. Folder Structure / Organizing Your Code
+<h2 id="week2-03">Week 2-03. Folder Structure / Organizing Your Code</h2>
 
 ![](images/image120.webp){width="4.0in"
 height="2.251709317585302in"}
@@ -2320,7 +2319,7 @@ I&#39;m hoping that this is going to help you understand a little bit more
 how you can organize your code to make the best use of the different
 CSS, JavaScript, and images functions out there. Thanks.
 
-## Week 2-04. Events
+<h2 id="week2-04">Week 2-04. Events</h2>
 
 ![](images/image126.webp){width="4.0in"
 height="2.2670942694663165in"}
@@ -2565,7 +2564,7 @@ details. That happens a lot. Programming is something that comes with
 time and practice. And then suddenly the moments of &#34;Hooray&#34; start to
 outnumber the times that you are stuck.
 
-## Week 2-05. Code With Me -- Events
+<h2 id="week2-05">Week 2-05. Code With Me -- Events</h2>
 
 ![](images/image142.webp){width="4.0in"
 height="2.2670942694663165in"}
@@ -2764,7 +2763,7 @@ module and bring up some sort of editor code bin, and go in there and
 start coding. If you don&#39;t do it now, you might start falling behind as
 we get into these more complex ideas. So, good luck.
 
-## Week 2-06. "this"
+<h2 id="week2-06">Week 2-06. "this"</h2>
 
 ![](images/image165.webp){width="4.0in"
 height="2.2670942694663165in"}
@@ -2945,7 +2944,7 @@ makes more sense to you. While you are welcome to seek out help on the
 forums, please remember that you are not allowed to post code. The code
 to get you started is here: <http://codepen.io/ColleenEMc/pen/wKYxZa>
 
-## Week 2-07. Photo Gallery
+<h2 id="week2-07">Week 2-07. Photo Gallery</h2>
 
 ![](images/image178.webp){width="4.0in" height="2.25in"}
 
@@ -3122,7 +3121,7 @@ These commands may return zero, one or more Nodes. So now we need to
 find a way to handle dealing with collections of data, rather than just
 one thing at a time. This is where Arrays come in. Let&#39;s get started.
 
-## Week 3-01. JavaScript Arrays
+<h2 id="week3-01">Week 3-01. JavaScript Arrays</h2>
 
 ![](images/image190.webp){width="4.0in" height="2.25in"}
 
@@ -3251,7 +3250,7 @@ make sure things are going the way you want them to, and keep coming
 along with me as you learn new ways to use arrays to improve your page,
 thanks.
 
-## Week 3-02. Code With Me -- Arrays
+<h2 id="week3-02">Week 3-02. Code With Me -- Arrays</h2>
 
 ![](images/image201.webp){width="4.0in" height="2.25in"}
 
@@ -3358,7 +3357,7 @@ we provide here aren&#39;t enough, you will want to change your code to
 come up with new decisions and different criteria to test different
 situations.
 
-## Week 3-03. JavaScript Iteration
+<h2 id="week3-03">Week 3-03. JavaScript Iteration</h2>
 
 ![](images/image209.webp){width="4.0in" height="2.25in"}
 
@@ -3507,7 +3506,7 @@ zero. You need to understand that you can use **array.length** or other
 methods. The more you play with these things, the easier it will become.
 Thanks for reading.
 
-## Week 3-04. Flow of Control
+<h2 id="week3-04">Week 3-04. Flow of Control</h2>
 
 ![](images/image222.webp){width="4.0in" height="2.25in"}
 
@@ -3741,7 +3740,7 @@ bad if as you start adding these more dynamic and advanced things to
 your code, if you run into a few problems. That just means you&#39;re
 learning. So good luck.
 
-## Week 3-05. Code With Me -- Combining Loops & Conditionals
+<h2 id="week3-05">Week 3-05. Code With Me -- Combining Loops & Conditionals</h2>
 
 ![](images/image246.webp){width="4.0in" height="2.25in"}
 
@@ -3850,7 +3849,7 @@ things that&#39;s going to help you solidify your knowledge. So go in
 there, change the array, try to think up other situations, and practice,
 practice, practice. Good luck.
 
-## Week 3-06. Advanced Conditionals
+<h2 id="week3-06">Week 3-06. Advanced Conditionals</h2>
 
 ![](images/image253.webp){width="4.0in" height="2.25in"}
 
@@ -3991,7 +3990,7 @@ you to write it so that you understand what you&#39;re doing. Go out there,
 code as much as you can, play with the examples. I promise that I&#39;ll
 provide more so you can keep practicing. Good luck.
 
-## Week 3-07. Common Errors
+<h2 id="week3-07">Week 3-07. Common Errors</h2>
 
 ![](images/image267.webp){width="4.0in" height="2.25in"}
 
@@ -4192,7 +4191,7 @@ your own site you will not want to create your own form&period;&period;&period;&
 people will think that they are sending you information when they are
 not.
 
-## Week 4-01. Simple Forms
+<h2 id="week4-01">Week 4-01. Simple Forms</h2>
 
 ![](images/image276.webp){width="4.0in" height="2.25in"}
 
@@ -4433,7 +4432,7 @@ verse a textfield. And see if you can make something that you&#39;ll be
 able to play with throughout the rest of this week as we learn more
 about JavaScript. Thanks.
 
-## Week 4-02. Simple Validation
+<h2 id="week4-02">Week 4-02. Simple Validation</h2>
 
 ![](images/image298.webp){width="4.0in" height="2.25in"}
 
@@ -4541,7 +4540,6 @@ if it's not supported, and the input type is just text, that means in
 some browsers using the email tag, or the number tag, or the URL tag, it
 doesn&#39;t guarantee valid input because maybe the browser just doesn&#39;t
 support it.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 306. input attributes (###) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -4653,7 +4651,7 @@ depend on the browsers. Don&#39;t get lazy. It&#39;s time for us to start
 looking at how you can start writing code to make everything more
 secure. Thanks.
 
-## Week 4-03. Comparing Two Inputs
+<h2 id="week4-03">Week 4-03. Comparing Two Inputs</h2>
 
 Hi everybody. We&#39;ve seen how to use HTML five, attributes, and input
 types to really try to validate the inputs people can put into their
@@ -4783,7 +4781,7 @@ creating the most basic forms before you go in and try to add this
 JavaScript interactivity. It&#39;s going to make your life much easier and
 it&#39;s always going to create better, cleaner code. Thanks.
 
-## Week 4-04. Checkboxes & Radio Buttons
+<h2 id="week4-04">Week 4-04. Checkboxes & Radio Buttons</h2>
 
 Hi, everybody, welcome back. Today, we&#39;re going to talk about some new
 form fields that you can add to your page. When we were doing name and
@@ -4955,9 +4953,9 @@ can really focus on just learning the JavaScript, I think you can have a
 really good time adding these cool little tricks and tips to your page.
 Good luck.
 
-## Optional Material
+<h2>Optional Material</h2>
 
-## The History of &#34;Debugging&#34;
+<h2>The History of &#34;Debugging&#34;</h2>
 
 If you want to learn more about the history of debugging, <a href="http://theinstitute.ieee.org/tech-history/technology-history/did-you-know-edison-coined-the-term-bug>here</a> is an
 article that talks about the fact that two different people are credited
@@ -4965,21 +4963,20 @@ with the term, Grace Hopper and Thomas Edison
 
 <http://theinstitute.ieee.org/tech-history/technology-history/did-you-know-edison-coined-the-term-bug>
 
-## <a href="http://codepen.io/collection/nLPkgP/">Link to All of the Code for Week One</a>
+<h2><a href="http://codepen.io/collection/nLPkgP/">Link to All of the Code for Week One</a></h2>
 
 <http://codepen.io/collection/nLPkgP/>
 
-Here is a link to a collection of all of the Code for Week One. (There
+<p>Here is a link to a collection of all of the Code for Week One. (There
 may be a few extra files in there as I play with new examples.) Each
 individual file is also linked within the modules to help you match the
 code with the lecture. I find that it can be annoying to use CodePen for
 the first few lectures since it causes a lot of pop-up boxes. Don&#39;t
-worry, we move away from that by Week Two.
-
-Even if you use CodePen, I encourage you to practice writing the code on
+worry, we move away from that by Week Two.</p>
+<p>Even if you use CodePen, I encourage you to practice writing the code on
 your own. For now, I put complete examples in CodePen, but as time goes
 on, I will remove some of the commands to link the code together. You
-will need to work on that part on your own..
+will need to work on that part on your own..</p>
 
 <h2 id="The-DOM">The Document Object Model (DOM)</h2>
 
@@ -4996,6 +4993,6 @@ resources, I do include a link to sites where you can find specifics on
 no code associated with this lecture, but if you check under the
 the DOM.</p>
 
-<h5>Last Updated 11/25/23 4:26pm</h5>
+<h5>Last Updated 11/28/23 9:02pm</h5>
 
 <h6>the end...</h6>
