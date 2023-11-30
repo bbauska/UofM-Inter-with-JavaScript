@@ -224,7 +224,7 @@ in the time we have. We will focus on the following:
 
 -   How to create and validate HTML forms.
 
-<h2 id="week1-01">Week 1-01. Introduction</h2>
+<h2 id="w1-01">Week 1-01. Introduction</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 03. introduction - interactivity with js (05) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -427,7 +427,7 @@ no code associated with this lecture, but if you check under the
 resources, I do include a link to site where you can find specifics on
 the DOM.
 
-<h2 id="week1-02">Week 1-02. DOM Review with Object Oriented Programming</h2>
+<h2 id="w1-02">Week 1-02. DOM Review with Object Oriented Programming</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 13. dom review with object oriented programming (11) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -631,7 +631,7 @@ API&#39;s and different things like that. But I want you to code with me
 and then make sure you go off and you try to change things just a little
 bit until your confidence is really up there. Good luck.
 
-<h2 id="week1-03">Week 1-03. Output</h2>
+<h2 id="w1-03">Week 1-03. Output</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. output (1.03) (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1133,7 +1133,7 @@ for the alert.</p>
   width="40%;" />
 </p>
 
-<h2 id="week1-04">Week 1-04. Variables</h2>
+<h2 id="w1-04">Week 1-04. Variables</h2>
 
 <a href="https://codepen.io/ColleenEMc/pen/jbYEEW">Codepen Week 1-04 Variables</a>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1447,7 +1447,7 @@ consult that log. The most important thing is I want you to understand
 how variables work, so that you can use them throughout the rest of the
 course. Good luck.
 
-<h2 id="week1-05">Week 1-05. Data Types</h2>
+<h2 id="w1-05">Week 1-05. Data Types</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 72. data types (1.05) (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -1683,7 +1683,7 @@ knowing what the types are, even if you don&#39;t know how they work,
 you&#39;re really going to be on your way to doing some cool programming.
 So good luck.
 
-<h2 id="week1-06">Week 1-06. Operators & Expressions</h2>
+<h2 id="w1-06">Week 1-06. Operators & Expressions</h2>
 
 ![](images/image086.webp){width="4.0in"
 height="2.251709317585302in"}
@@ -1890,7 +1890,7 @@ distinction between ***defining*** a function (writing the code) and
 ***calling*** a function (running the code at the precise time you want
 it to happen).
 
-<h2 id="week2-01">Week 2-01. Functions</h2>
+<h2 id="w2-01">Week 2-01. Functions</h2>
 
 ![](images/image098.webp){width="4.0in"
 height="2.251709317585302in"}
@@ -2052,7 +2052,7 @@ be writing your own functions in the homework, and I&#39;m hoping that
 you&#39;ll be able to do this and feel like you&#39;re really starting to
 understand some of the power of JavaScript. Good luck.
 
-<h2 id="week2-02">Week 2-02. Code Placement</h2>
+<h2 id="w2-02">Week 2-02. Code Placement</h2>
 
 ![](images/image108.webp){width="4.0in"
 height="2.251709317585302in"}
@@ -2226,7 +2226,7 @@ sure to test your code later using the proper folder/file structure. You
 will need to include links to the style sheets, images, and any external
 JavaScript files.
 
-<h2 id="week2-03">Week 2-03. Folder Structure / Organizing Your Code</h2>
+<h2 id="w2-03">Week 2-03. Folder Structure / Organizing Your Code</h2>
 
 ![](images/image120.webp){width="4.0in"
 height="2.251709317585302in"}
@@ -2319,7 +2319,7 @@ I&#39;m hoping that this is going to help you understand a little bit more
 how you can organize your code to make the best use of the different
 CSS, JavaScript, and images functions out there. Thanks.
 
-<h2 id="week2-04">Week 2-04. Events</h2>
+<h2 id="w2-04">Week 2-04. Events</h2>
 
 ![](images/image126.webp){width="4.0in"
 height="2.2670942694663165in"}
@@ -2564,7 +2564,7 @@ details. That happens a lot. Programming is something that comes with
 time and practice. And then suddenly the moments of &#34;Hooray&#34; start to
 outnumber the times that you are stuck.
 
-<h2 id="week2-05">Week 2-05. Code With Me -- Events</h2>
+<h2 id="w2-05">Week 2-05. Code With Me -- Events</h2>
 
 ![](images/image142.webp){width="4.0in"
 height="2.2670942694663165in"}
@@ -2763,7 +2763,7 @@ module and bring up some sort of editor code bin, and go in there and
 start coding. If you don&#39;t do it now, you might start falling behind as
 we get into these more complex ideas. So, good luck.
 
-<h2 id="week2-06">Week 2-06. "this"</h2>
+<h2 id="w2-06">Week 2-06. "this"</h2>
 
 ![](images/image165.webp){width="4.0in"
 height="2.2670942694663165in"}
@@ -2944,7 +2944,7 @@ makes more sense to you. While you are welcome to seek out help on the
 forums, please remember that you are not allowed to post code. The code
 to get you started is here: <http://codepen.io/ColleenEMc/pen/wKYxZa>
 
-<h2 id="week2-07">Week 2-07. Photo Gallery</h2>
+<h2 id="w2-07">Week 2-07. Photo Gallery</h2>
 
 ![](images/image178.webp){width="4.0in" height="2.25in"}
 
@@ -3121,7 +3121,7 @@ These commands may return zero, one or more Nodes. So now we need to
 find a way to handle dealing with collections of data, rather than just
 one thing at a time. This is where Arrays come in. Let&#39;s get started.
 
-<h2 id="week3-01">Week 3-01. JavaScript Arrays</h2>
+<h2 id="w3-01">Week 3-01. JavaScript Arrays</h2>
 
 ![](images/image190.webp){width="4.0in" height="2.25in"}
 
@@ -3250,7 +3250,7 @@ make sure things are going the way you want them to, and keep coming
 along with me as you learn new ways to use arrays to improve your page,
 thanks.
 
-<h2 id="week3-02">Week 3-02. Code With Me -- Arrays</h2>
+<h2 id="w3-02">Week 3-02. Code With Me -- Arrays</h2>
 
 ![](images/image201.webp){width="4.0in" height="2.25in"}
 
@@ -3328,8 +3328,14 @@ length of my array is one, two, three, four, five. Because I&#39;m using a
 variable here, instead of hard coding a number. My program will work no
 matter how many different elements I add. Length is the count of fruits
 in the array.
-
-![](images/image208.webp){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 208. array of fruit (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image208.webp" 
+  alt="Array of fruit."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
 
 Let&#39;s add two more. And I can add Peach. And I can add another one.
 I&#39;ll just add Banana again because I have no imagination this morning.
@@ -3357,30 +3363,54 @@ we provide here aren&#39;t enough, you will want to change your code to
 come up with new decisions and different criteria to test different
 situations.
 
-<h2 id="week3-03">Week 3-03. JavaScript Iteration</h2>
+<h2 id="w3-03">Week 3-03. JavaScript Iteration</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 209. javascript iteration (3.03.) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image209.webp" 
+  alt="3.03. JavaScript Iteration."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
 
-![](images/image209.webp){width="4.0in" height="2.25in"}
+<p>Hi everybody. Now that we know that arrays are an option for storing data, we need 
+to think of the upsides and downsides of using them.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 210. upside: more data in variable (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image210.webp" 
+  alt="Upside: store alot in a single variable, but may be difficult to extract."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
 
-Hi everybody. Now that we know that arrays are an option for storing
-data, we need to think of the upsides and downsides of using them.
+<p>The upside, of course, is that arrays can store a lot of things in a single 
+variable, instead of declaring variable grade&lbrack;1&rbrack;, var 
+grade&lbrack;2&rbrack;, var grade&lbrack;3&rbrack;. The downside is, is when a 
+single variable stores a lot of data, sometimes it can be a little bit harder 
+at first to access that data. What you want to do is go through every single
+number, but we don&#39;t want to write the same code 10 times, or 20 times, or 
+40 times? What we want to do is we want to use iteration, or what we typically 
+call looping.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ 211. iteration/looping through every element in an array (xxx) ~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image211.webp" 
+  alt="Iteration/Looping through every element in an array."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
 
-![](images/image210.webp){width="4.0in" height="2.25in"}
-
-The upside, of course, is that arrays can store a lot of things in a
-single variable, instead of declaring variable grade&lbrack;1&rbrack;, var
-grade&lbrack;2&rbrack;, var grade&lbrack;3&rbrack;. The downside is, is when a single variable
-stores a lot of data, sometimes it can be a little bit harder at first
-to access that data. What you want to do is go through every single
-number, but we don&#39;t want to write the same code 10 times, or 20 times,
-or 40 times? What we want to do is we want to use iteration, or what we
-typically call looping.
-
-![](images/image211.webp){width="4.0in" height="2.25in"}
-
-When you loop through an array, you look at each element, usually
-starting at the first one and ending at the last one.
-
-![](images/image212.webp){width="4.0in" height="2.25in"}
+<p>When you loop through an array, you look at each element, usually starting at the 
+first one and ending at the last.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 212. finding average in an array (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image212.webp" 
+  alt="Finding average in an array."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
 
 In our example here, we have an array of ten elements. How could we find
 the average of those ten elements? Well, we would start off by saying we
@@ -3392,18 +3422,30 @@ In order to do this, we are going to use what is called a for loop. A
 for loop is simply a construct where we can run the same code multiple
 times. But between each execution, we&#39;re going to check some sort of
 Boolean condition to see if we&#39;re done or not.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 213. 'for' loop (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image213.webp" 
+  alt="'for' loop."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
 
-![](images/image213.webp){width="4.0in" height="2.25in"}
-
-Here&#39;s a syntax. You need to have the keyword for. It lets JavaScript
+<p>Here&#39;s a syntax. You need to have the keyword for. It lets JavaScript
 know, oh, change things here. I&#39;m going to change the flow of control.
 The next thing you set up is the initializer. You need to have some sort
 of variable that&#39;s going to be used for counting how many times we
 move. We&#39;re going to have a boolean condition that&#39;s either going to
 be true or false. And then, typically, you need to have some sort of
-update or increment variable that lets us keep going.
-
-![](images/image214.webp){width="4.0in" height="2.25in"}
+update or increment variable that lets us keep going.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 214. breaking down the 'for' loop (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image214.webp" 
+  alt="Breaking down the 'for' loop."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
 
 We want to start with the keyword for. Then, you set that variable to
 the initial value. Usually, we tend to call that variable index, or
@@ -3416,7 +3458,14 @@ what code you want to run when the boolean is true, and then fourth, you
 update your variable and you head back to two. Here&#39;s a little diagram
 of how that all works together.
 
-![](images/image215.webp){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 215. logic diagram/chart (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image215.webp" 
+  alt="Logic diagram/chart."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
 
 Here we have kind of a narrated explanation of what&#39;s going on. We
 start with our initialization. This only happens once. After you&#39;ve
@@ -3432,8 +3481,14 @@ I&#39;m not going to run this code anymore. And you hop out to the end.
 The important thing to know for a for loop is that the initialization is
 always going to happen once, but you have no idea how many times these
 steps are going to happen.
-
-![](images/image216.webp){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 216. 'for' loop of indexed array (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image216.webp" 
+  alt="For loop of indexed array."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
 
 Here&#39;s a quick for loop that&#39;s going to go through and write each
 element of the array. We start at zero, we loop until we get to the
@@ -3443,8 +3498,14 @@ soon as, because we know that ten needs to be less than the length of
 the array. If the array happens to have six elements, it will run six
 times. If it has two elements, it will run two times. We&#39;re very
 flexible here by using that **array.length**.
-
-![](images/image217.webp){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 217. finding the average with 'for' loop (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image217.webp" 
+  alt="Finding the average with 'for' loop."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
 
 Let&#39;s get back to that example where we want to find the average of all
 the grades that are stored in our array. What I&#39;ve done, is I start off
@@ -3464,7 +3525,14 @@ inaccurate answers. Okay so if you followed that code and you understand
 how it works that&#39;s great. What we want to think about instead is how
 what would happen to make that code not work?
 
-![](images/image218.webp){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 218. loop breakdown, #1 (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image218.webp" 
+  alt="Loop Breakdown, #1."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
 
 The first question I would ask you is why did I use **grades.length**
 instead of &#34;10&#34;? We could&#39;ve said, keep looping as long as the index
@@ -3473,7 +3541,14 @@ problem is, what if later we decide to add some numbers to our array? Or
 take some numbers away from our array? Well then, that 10 is no longer
 correct, and you would need to remember to go in and change it.
 
-![](images/image219.webp){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 219. loop breakdown, #2 (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image219.webp" 
+  alt="Loop Breakdown, #2."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
 
 What would happen if instead of adding one to our counter we subtracted
 one? This happens a little bit more often than anyone wants to admit.
@@ -3482,7 +3557,14 @@ You can end up never leaving that line of code, and it will stall your
 entire browser. You want to make sure that you&#39;re incrementing or
 decrementing the way you mean to.
 
-![](images/image220.webp){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 220. loop breakdown, #3 (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image220.webp" 
+  alt="Loop Breakdown, #3."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
 
 Along the same lines, what would happen if I set the condition to check
 if index was less than or equal to **grades.length**? I had initially
@@ -3492,7 +3574,14 @@ of people would never even realize it did, because JavaScript does such
 a great job of hiding its errors. You need to go into the console and
 see what&#39;s going on.
 
-![](images/image221.webp){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 221. review: javascript iteration (3.03.) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image221.webp" 
+  alt="3.03. Review: JavaScript Iteration."
+  style="border: 2px solid #000000;" 
+  width="40%;" />
+</p>
 
 Just to review, if you&#39;re learning to program in any programming
 language, looping is used for much more than arrays. It&#39;s a very
@@ -3506,7 +3595,7 @@ zero. You need to understand that you can use **array.length** or other
 methods. The more you play with these things, the easier it will become.
 Thanks for reading.
 
-<h2 id="week3-04">Week 3-04. Flow of Control</h2>
+<h2 id="w3-04">Week 3-04. Flow of Control</h2>
 
 ![](images/image222.webp){width="4.0in" height="2.25in"}
 
@@ -3740,7 +3829,7 @@ bad if as you start adding these more dynamic and advanced things to
 your code, if you run into a few problems. That just means you&#39;re
 learning. So good luck.
 
-<h2 id="week3-05">Week 3-05. Code With Me -- Combining Loops & Conditionals</h2>
+<h2 id="w3-05">Week 3-05. Code With Me -- Combining Loops & Conditionals</h2>
 
 ![](images/image246.webp){width="4.0in" height="2.25in"}
 
@@ -3849,7 +3938,7 @@ things that&#39;s going to help you solidify your knowledge. So go in
 there, change the array, try to think up other situations, and practice,
 practice, practice. Good luck.
 
-<h2 id="week3-06">Week 3-06. Advanced Conditionals</h2>
+<h2 id="w3-06">Week 3-06. Advanced Conditionals</h2>
 
 ![](images/image253.webp){width="4.0in" height="2.25in"}
 
@@ -3990,7 +4079,7 @@ you to write it so that you understand what you&#39;re doing. Go out there,
 code as much as you can, play with the examples. I promise that I&#39;ll
 provide more so you can keep practicing. Good luck.
 
-<h2 id="week3-07">Week 3-07. Common Errors</h2>
+<h2 id="w3-07">Week 3-07. Common Errors</h2>
 
 ![](images/image267.webp){width="4.0in" height="2.25in"}
 
@@ -4191,7 +4280,7 @@ your own site you will not want to create your own form&period;&period;&period;&
 people will think that they are sending you information when they are
 not.
 
-<h2 id="week4-01">Week 4-01. Simple Forms</h2>
+<h2 id="w4-01">Week 4-01. Simple Forms</h2>
 
 ![](images/image276.webp){width="4.0in" height="2.25in"}
 
@@ -4432,7 +4521,7 @@ verse a textfield. And see if you can make something that you&#39;ll be
 able to play with throughout the rest of this week as we learn more
 about JavaScript. Thanks.
 
-<h2 id="week4-02">Week 4-02. Simple Validation</h2>
+<h2 id="w4-02">Week 4-02. Simple Validation</h2>
 
 ![](images/image298.webp){width="4.0in" height="2.25in"}
 
@@ -4651,7 +4740,7 @@ depend on the browsers. Don&#39;t get lazy. It&#39;s time for us to start
 looking at how you can start writing code to make everything more
 secure. Thanks.
 
-<h2 id="week4-03">Week 4-03. Comparing Two Inputs</h2>
+<h2 id="w4-03">Week 4-03. Comparing Two Inputs</h2>
 
 Hi everybody. We&#39;ve seen how to use HTML five, attributes, and input
 types to really try to validate the inputs people can put into their
@@ -4781,7 +4870,7 @@ creating the most basic forms before you go in and try to add this
 JavaScript interactivity. It&#39;s going to make your life much easier and
 it&#39;s always going to create better, cleaner code. Thanks.
 
-<h2 id="week4-04">Week 4-04. Checkboxes & Radio Buttons</h2>
+<h2 id="w4-04">Week 4-04. Checkboxes & Radio Buttons</h2>
 
 Hi, everybody, welcome back. Today, we&#39;re going to talk about some new
 form fields that you can add to your page. When we were doing name and
@@ -4993,6 +5082,6 @@ resources, I do include a link to sites where you can find specifics on
 no code associated with this lecture, but if you check under the
 the DOM.</p>
 
-<h5>Last Updated 11/28/23 9:02pm</h5>
+<h5>Last Updated 11/29/23 1:05am</h5>
 
 <h6>the end...</h6>
