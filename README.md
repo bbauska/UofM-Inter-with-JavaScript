@@ -280,7 +280,7 @@ to create webpages. The DOM is the Document Object Model, it&#39;s what
 builds up a webpage. If you&#39;re a little fuzzy, it&#39;s been a little
 while, don&#39;t worry. We&#39;re going to review the DOM in a future lecture.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. variables (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. variables (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image006.webp" 
   alt="Variables."
@@ -294,10 +294,10 @@ exciting if you ask somebody their name and then you can&#39;t actually use
 that name later on. You&#39;re going to find out how to get information
 from the user, and then store it so you can use it later.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. decision points (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. decision points (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image007.webp" 
-  alt="."
+  alt="Decision Points."
   style="border: 2px solid #000000;" 
   width="40%;" />
 </p>
@@ -308,7 +308,7 @@ going to write a little bit of code that can help the program decide in
 some cases I want to do this and in other cases, I want to do that. We
 call this decision points.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. looping, #1 (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. looping, #1 (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image008.webp" 
   alt="."
@@ -337,7 +337,7 @@ want to run some code. If you know that you want someone to do something
 five times, you can be very specific about it. Programming gives you so
 much flexibility in how you want your code to run.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. functions (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. functions (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image010.webp" 
   alt="."
@@ -373,7 +373,7 @@ the user might have. This is where it really gets fun. We&#39;re going to
 start with the basics, the variables, the loopings, and then we&#39;re
 going to have fun manipulating the DOM.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. review (1-01) (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. review (1-01) (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image012.webp" 
   alt="1-01. Review: Introduction to JavaScript."
