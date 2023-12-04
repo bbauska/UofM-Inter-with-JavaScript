@@ -57,7 +57,7 @@ responsive design and completing a capstone project.
 
 <h2 id="#syllabus">Syllabus</h2>
 
-<h3>Week One: Introduction to JavaScript</h3>
+<h3>Week One: Data Types</h3>
 
 If you haven&#39;t used a traditional programming language before, this
 first week is key. Before we begin with the how, we will talk about the
