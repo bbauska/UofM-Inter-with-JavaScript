@@ -1,8 +1,8 @@
 ---
 title:  |
-  Version 1: Interactivity with JavaScript
+  Interactivity with JavaScript
 author: "bbauska"
-date last editted: "11/28/2023 9+pm"
+date last editted: "12/03/2023 6+pm"
 output: 
   markdown:
     with_style
