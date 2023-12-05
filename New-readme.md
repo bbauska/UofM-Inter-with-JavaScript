@@ -1,5 +1,35 @@
-![Interactivity with JavaScript - Reviews & Coupon - Java Code
-Geeks](./myMediaFolder/media/image1.jpeg){width="1.5in" height="1.5in"}
+---
+title: "U of Michigan's Interactivity with JavaScript"
+author: "bbauska"
+date last editted: "12/04/2023 6+pm"
+output: 
+  markdown:
+    with_style
+---
+
+<!-- [University of Michigan's Interactivity with JavaScript] (https://www.coursera.org/learn/javascript/lecture/fOl37/homework-javascript-interactive-photo-gallery) -->
+
+<!-- https://www.coursera.org/learn/javascript/lecture/fOl37/homework-javascript-interactive-photo-gallery -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of inter-with-js.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./assets/images/image001.webp"
+  alt="Interactivity with JavaScript." 
+  style="border: 2px solid #000000;" 
+  width="500" />
+</p>
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of inter-with-js.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./assets/images/image001.webp"
+  alt="Interactivity with JavaScript." 
+  style="border: 2px solid #000000;" 
+  width="500" />
+</p>
+
+
+![Interactivity with JavaScript - Reviews & Coupon - Java Code Geeks](./myMediaFolder/media/image001.jpeg){width="1.5in" height="1.5in"}
 
 ![Advanced Styling with Responsive Design offered by University of
 Michigan.](./myMediaFolder/media/image2.png){width="2.0in"
