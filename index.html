@@ -184,7 +184,94 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
 </head>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <body>
+ <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: scrollFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<script>
+  <!-- get the button -->
+  var mybutton = document.getElementById("myBtn");
+
+  <!-- when the user scrolls down 10px from the top of the document, show the button -->
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  <!-- when the user clicks on the button, scroll to the top of the document. 0,0 or -->
+  <!-- to table of contents (approx ###), if applicable was; 315 -->
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+
+<h1 style="text-align:center;">Interactivity with JavaScript</h1>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~ 01. course introduction: interactivity with javascript (01) ~~~~~~~~~~-->
+<img class="border displayed"
+  src="./assets/images/image001.webp"
+  alt="."
+  style="width:40%" />
+  
+<h2 style="text-align:left" id="table-of-contents"><a href="#table-of-contents">Table of Contents</a></h2>
+
+<h2><a href="#ch1"><strong>Week 1: Data Types</strong></a></h2>
+
+<blockquote>
+<h3>1.01 <a href="#ch1-01"><strong>Introduction</strong></a></h3>
+<h3>1.02 <a href="#ch1-02"><strong>DOM Review with Object Oriented Programming</strong></a></h3>
+<h3>1.03 <a href="#ch1-03"><strong>Output</strong></a></h3>
+<h3>1.04 <a href="#ch1-04"><strong>Variables</strong></a></h3>
+<h3>1.05 <a href="#ch1-05"><strong>Data Types</strong></a></h3>
+<h3>1.06 <a href="#ch1-06"><strong>Operators and Expressions</strong></a></h3>
+</blockquote>
+
+<h2><a href="#ch2"><strong>Week 2: Reacting to Your Audience</strong></a></h2>
+
+<blockquote>
+<h3>2.01 <a href="#ch2-01"><strong>Functions</strong></a></h3>
+<h3>2.02 <a href="#ch2-02"><strong>Code Placement</strong></a></h3>
+<h3>2.03 <a href="#ch2-03"><strong>Folder Structure / Organizing Your Code</strong></a></h3>
+<h3>2.04 <a href="#ch2-04"><strong>Events</strong></a></h3>
+<h3>2.05 <a href="#ch2-05"><strong>Code With Me - Events</strong></a></h3>
+<h3>2.06 <a href="#ch2-06"><strong>"this"</strong></a></h3>
+<h3>2.07 <a href="#ch2-07"><strong>Photo Gallery</strong></a></h3>
+</blockquote>
+
+
+<h2><a href="#ch3"><strong>Week 3: Arrays and Looping</strong></a></h2>
+
+<blockquote>
+<h3>3.01 <a href="#ch3-01"><strong>JavaScript Arrays</strong></a></h3>
+<h3>3.02 <a href="#ch3-02"><strong>Code With Me - Arrays</strong></a></h3>
+<h3>3.03 <a href="#ch3-03"><strong>lesson 3</strong></a></h3>
+</blockquote>
+
+<h2><a href="#ch4"><strong>Week 4: Using JS for Interactive Images</strong></a></h2>
+
+<blockquote>
+<h3>4.01 <a href="#ch4-01"><strong>Code With Me - Randomizing Your Images Using Arrays</strong></a></h3>
+<h3>4.02 <a href="#ch4-02"><strong>Code With Me - Using LightBox</strong></a></h3>
+<h3>4.03 <a href="#ch4-03"><strong>Code With Me - Looping Through Images</strong></a></h3>
+<h3>4.04 <a href="#ch4-04"><strong>Final Project Description</strong></a></h3>
+<h3>4.05 <a href="#ch4-05"><strong>Conclusion</strong></a></h3>
+</blockquote>
+
+
+<h1 id="ch1">WEEK 1</h1>
+
+<p><a href="https://www.coursera.org/learn/intermediate-web-and-front-end-development/lecture/k0fxN/course-introduction" 
+target="_blank" rel="noopener noreferrer">Coursera: IBM Intermediate Web &amp; Front-end Development</a></p>.
+
 <header id="title-block-header">
   <h1 class="title">Interactivity with JavaScript</h1>
   <h6 style="text-align:center">taught by Colleen van Lent , PhD</h6>
@@ -206,133 +293,66 @@
 
 <h2 id="table-of-contents">Table of Contents</h2>
 
-<p><a href="#about-this-course">About this Course <span>1</span></a></p>
-<p><a href="#syllabus">Syllabus <span>1</span></a></p>
-<p><a href="#week-one-introduction-to-javascript">Week One: Introduction
-to JavaScript <span>1</span></a></p>
-<p><a href="#week-two-reacting-to-your-audience">Week Two: Reacting to
-Your Audience <span>2</span></a></p>
-<p><a href="#week-three-arrays-and-looping">Week Three: Arrays and
-Looping <span>2</span></a></p>
-<p><a href="#week-four-validating-form-data">Week Four: Validating Form
-Data <span>3</span></a></p>
-<p><a href="#week-1-01.-introduction">Week 1-01. Introduction
-<span>4</span></a></p>
-<p><a href="#link-to-all-of-the-code-for-week-one">Link to All of the
-Code for Week One <span>10</span></a></p>
-<p><a href="#the-document-object-model-dom">The Document Object Model
-(DOM) <span>10</span></a></p>
-<p><a href="#examples">Examples: <span>10</span></a></p>
-<p><a
-href="#week-1-02.-dom-review-with-object-oriented-programming">Week
-1-02. DOM Review with Object Oriented Programming
-<span>10</span></a></p>
-<p><a href="#week-1-03.-output">Week 1-03. Output
-<span>16</span></a></p>
-<p><a href="#trying-to-create-and-debug-your-own-output">Trying to
-Create and Debug Your Own Output <span>31</span></a></p>
-<p><a href="#week-1-04.-variables">Week 1-04. Variables
-<span>32</span></a></p>
-<p><a href="#week-1-05.-data-types">Week 1-05. Data Types
-<span>41</span></a></p>
-<p><a href="#week-1-06.-operators-expressions">Week 1-06. Operators
-&amp; Expressions <span>48</span></a></p>
-<p><a href="#the-history-of-debugging">The History of "Debugging"
-<span>54</span></a></p>
-<p><a href="#link-to-all-of-the-code-for-week-two">Link to All of the
-Code for Week Two <span>54</span></a></p>
-<p><a href="#functions">Functions <span>55</span></a></p>
-<p><a href="#week-2-01.-functions">Week 2-01. Functions
-<span>55</span></a></p>
-<p><a href="#week-2-02.-code-placement">Week 2-02. Code Placement
-<span>60</span></a></p>
-<p><a href="#organizing-your-code">Organizing Your Code
-<span>66</span></a></p>
-<p><a href="#code-placement">Code Placement <span>66</span></a></p>
-<p><a href="#week-2-03.-folder-structure-organizing-your-code">Week
-2-03. Folder Structure / Organizing Your Code <span>67</span></a></p>
-<p><a href="#week-2-04.-events">Week 2-04. Events
-<span>70</span></a></p>
-<p><a href="#mastering-events-and-functions">Mastering Events and
-Functions <span>79</span></a></p>
-<p><a href="#events">Events <span>79</span></a></p>
-<p><a href="#week-2-05.-code-with-me-events">Week 2-05. Code With Me –
-Events <span>80</span></a></p>
-<p><a href="#week-2-06.-this">Week 2-06. “this” <span>89</span></a></p>
-<p><a href="#homework-time">Homework Time!! <span>96</span></a></p>
-<p><a href="#week-2-07.-photo-gallery">Week 2-07. Photo Gallery
-<span>96</span></a></p>
-<p><a href="#link-to-all-of-the-code-for-week-three">Link to All of the
-Code for Week Three <span>102</span></a></p>
-<p><a href="#arrays">Arrays <span>103</span></a></p>
-<p><a href="#resources">Resources <span>103</span></a></p>
-<p><a href="#readings">Readings <span>103</span></a></p>
-<p><a href="#code">Code <span>103</span></a></p>
-<p><a href="#a-javascript-cheat-sheet">A JavaScript Cheat Sheet
-<span>103</span></a></p>
-<p><a href="#tabindex-and-accessibility">Tabindex and Accessibility
-<span>104</span></a></p>
-<p><a href="#using-javascript-with-attributes">Using JavaScript with
-Attributes <span>104</span></a></p>
+<h3><a href="#about">About this Course</a></h3>
+
+<h3><a href="#syllabus">Syllabus <span>1</span></a></h3>
+
+<h3><a href="#wk1">Week One: Introduction to JavaScript</a></h3>
+<h3><a href="#wk2">Week Two: Reacting to Your Audience</a></h3>
+<h3><a href="#wk3">Week Three: Arrays and Looping</a></h3>
+<h3><a href="#wk4">Week Four: Validating Form Data</a></h3>
+
+<p><a href="#wk1-01">Week 1-01. Introduction</a></p>
+<p><a href="#wk1-code">Link to All of the Code for Week One</a></p>
+<p><a href="#wk1-dom">The Document Object Model (DOM)</a></p>
+<p><a href="#wk1-examples">Examples:</a></p>
+<p><a href="#wk1-02">Week 1-02. DOM Review with Object Oriented Programming</a></p>
+<p><a href="#wk1-03">Week 1-03. Output</a></p>
+<p><a href="#wk1-debug">Trying to Create and Debug Your Own Output</a></p>
+<p><a href="#wk1-04">Week 1-04. Variables</a></p>
+<p><a href="#wk1-05">Week 1-05. Data Types</a></p>
+<p><a href="#wk1-06">Week 1-06. Operators &amp; Expressions</a></p>
+<p><a href="#wk1-history">The History of "Debugging"</a></p>
+
+<p><a href="#wk2-code">Link to All of the Code for Week Two</a></p>
+<p><a href="#wk2-functions">Functions</a></p>
+<p><a href="#wk2-01">Week 2-01. Functions</a></p>
+<p><a href="#wk2-02">Week 2-02. Code Placement</a></p>
+<p><a href="#wk2-03">Week 2-03. Folder Structure / Organizing Your Code</a></p>
+<p><a href="#wk2-04">Week 2-04. Events</a></p>
+<p><a href="#wk2-mastering-events-and-functions">Mastering Events and Functions</a></p>
+<p><a href="#wk2-events">Events</a></p>
+<p><a href="#wk2-05">Week 2-05. Code With Me – Events</a></p>
+<p><a href="#wk2-06">Week 2-06. "this"</a></p>
+<p><a href="#wk2-homework">Homework Time!!</a></p>
+<p><a href="#wk2-07">Week 2-07. Photo Gallery</a></p>
+
+<p><a href="#wk3-code">Link to All of the Code for Week Three</a></p>
+<p><a href="#arrays">Arrays</a></p>
+<p><a href="#resources">Resources</a></p>
+<p><a href="#readings">Readings</a></p>
+<p><a href="#code">Code</a></p>
+<p><a href="#a-javascript-cheat-sheet">A JavaScript Cheat Sheet</a></p>
+<p><a href="#tabindex-and-accessibility">Tabindex and Accessibility</a></p>
+<p><a href="#using-javascript-with-attributes">Using JavaScript with Attributes</a></p>
 <p><a href="#getattribute">getAttribute <span>104</span></a></p>
 <p><a href="#setattribute">setAttribute <span>105</span></a></p>
 <p><a href="#arrays-1">Arrays <span>105</span></a></p>
-<p><a href="#week-3-01.-javascript-arrays">Week 3-01. JavaScript Arrays
-<span>106</span></a></p>
-<p><a href="#week-3-02.-code-with-me-arrays">Week 3-02. Code With Me –
-Arrays <span>112</span></a></p>
-<p><a href="#advanced-coding-techniques">Advanced Coding Techniques
-<span>115</span></a></p>
-<p><a href="#week-3-03.-javascript-iteration">Week 3-03. JavaScript
-Iteration <span>115</span></a></p>
-<p><a href="#week-3-04.-flow-of-control">Week 3-04. Flow of Control
-<span>122</span></a></p>
-<p><a href="#week-3-05.-code-with-me-combining-loops-conditionals">Week
-3-05. Code With Me – Combining Loops &amp; Conditionals
-<span>132</span></a></p>
-<p><a href="#week-3-06.-advanced-conditionals">Week 3-06. Advanced
-Conditionals <span>136</span></a></p>
-<p><a href="#week-3-07.-common-errors">Week 3-07. Common Errors
-<span>143</span></a></p>
-<p><a href="#using-js-for-interactive-images">Using JS for Interactive
-Images <span>148</span></a></p>
-<p><a href="#link-to-all-of-the-code-for-week-four">Link to All of the
-Code for Week Four <span>149</span></a></p>
-<p><a href="#introduction-to-forms">Introduction to Forms
-<span>149</span></a></p>
-<p><a href="#week-4-01.-simple-forms">Week 4-01. Simple Forms
-<span>149</span></a></p>
-<p><a href="#week-4-02.-simple-validation">Week 4-02. Simple Validation
-<span>160</span></a></p>
-<p><a href="#week-4-03.-comparing-two-inputs">Week 4-03. Comparing Two
-Inputs <span>166</span></a></p>
-<p><a href="#week-4-04.-checkboxes-radio-buttons">Week 4-04. Checkboxes
-&amp; Radio Buttons <span>169</span></a></p>
-<p><a href="#optional-material">Optional Material
-<span>172</span></a></p>
-<p><a href="#the-history-of-debugging-1">The History of "Debugging"
-<span>172</span></a></p>
-<p><a href="#link-to-all-of-the-code-for-week-one-1">Link to All of the
-Code for Week One <span>172</span></a></p>
-<p><a href="#the-document-object-model-dom-1">The Document Object Model
-(DOM) <span>173</span></a></p>
-<p><a href="#cool-stuff---friend-or-foe">"Cool Stuff" - Friend or Foe?
-<span>182</span></a></p>
-<p><a href="#final-project-description">Final Project Description
-<span>182</span></a></p>
-<p><a href="#overview">Overview <span>182</span></a></p>
-<p><a href="#instructions">Instructions <span>183</span></a></p>
-<p><a href="#grading">Grading <span>183</span></a></p>
-<p><a href="#final-project-optional-submission-gallery">Final Project:
-Optional Submission Gallery <span>185</span></a></p>
-<p><a href="#optional-ungraded-submission">Optional ungraded submission
-<span>185</span></a></p>
-<p><a href="#submitting-your-file-to-the-gallery">Submitting your file
-to the Gallery <span>185</span></a></p>
-<p><a href="#navigating-the-gallery">Navigating the Gallery
-<span>186</span></a></p>
+<p><a href="#wk3-01">Week 3-01. JavaScript Arrays <span>106</span></a></p>
+<p><a href="#wk3-02">Week 3-02. Code With Me – Arrays</a></p>
+
+<p><a href="#advanced-coding-techniques">Advanced Coding Techniques</a></p>
+<p><a href="#wk4-01">Week 4-01. Code With Me: Randomizing Your Images Using Arrays</a></p>
+<p><a href="#wk4-02">Week 4-02. Code With Me: Using LightBox</a></p>
+<p><a href="#wk4-03">Week 4-03. Code With Me: Looping Through Images</a></p>
+<p><a href="#wk4-cool">"Cool Stuff" - Friend or Foe?</a></p>
+<p><a href="#wk4-04">Week 4-04. Final Project Description</a></p>
+<p><a href="#wk4-05">Week 4-05. Conclusion</a></p>
+
 <h1 id="section"></h1>
-<h2 id="about-this-course">About this Course</h2>
+
+<h2 id="about">About this Course</h2>
+
 <p>If you want to take your website to the next level, the ability to
 incorporate interactivity is a must. But adding some of these types of
 capabilities requires a stronger programming language than HTML5 or
@@ -353,9 +373,12 @@ and verifies input.</p>
 specialization. A basic understanding of HTML and CSS is expected when
 you enroll in this class. Additional courses focus on enhancing the
 styling with responsive design and completing a capstone project.</p>
+
 <h1 id="syllabus">Syllabus</h1>
+
 <h2 id="week-one-introduction-to-javascript">Week One: Introduction to
 JavaScript</h2>
+
 <p>If you haven't used a traditional programming language before, this
 first week is key. Before we begin with the how, we will talk about the
 why, mainly why we want to use JavaScript. The main reason is that it is
@@ -396,7 +419,7 @@ href="https://www.coursera.org/lecture/javascript/introduction-EYX66">Introducti
 <p><strong>Materials</strong></p>
 <p><strong>The History of "Debugging"</strong></p>
 </blockquote>
-<p><strong>Summary: </strong>Week One</p>
+<p><strong>Summary: </strong>Week One</p>
 <h2 id="week-two-reacting-to-your-audience">Week Two: Reacting to Your
 Audience</h2>
 <p>If you have written HTML code in the past, hopefully you have fallen
@@ -411,8 +434,8 @@ particular you will learn about the JavaScript Mouse Events and Touch
 Events. This week's materials will end with a photo gallery example that
 you can create along with me.</p>
 <blockquote>
-<p><strong>Reading: Link to All of the Code for Week Two</strong></p>
-<p><strong>Reading: Functions</strong></p>
+<p><strong>Reading: Link to All of the Code for Week Two</strong></p>
+<p><strong>Reading: Functions</strong></p>
 </blockquote>
 <ol type="1">
 <li><p><strong><a
@@ -421,7 +444,7 @@ href="https://www.coursera.org/lecture/javascript/functions-Ltkbl">Functions</a>
 <li><p><strong>Code Placement* (2)</strong></p></li>
 </ol>
 <blockquote>
-<p><strong>Reading: Organizing Your Code</strong></p>
+<p><strong>Reading: Organizing Your Code</strong></p>
 </blockquote>
 <ol start="3" type="1">
 <li><p><strong>Folder Structure / Organizing Your Code*
@@ -429,25 +452,25 @@ href="https://www.coursera.org/lecture/javascript/functions-Ltkbl">Functions</a>
 <li><p><strong>Events* (4)</strong></p></li>
 </ol>
 <blockquote>
-<p><strong>Reading: Mastering Events and Functions</strong></p>
+<p><strong>Reading: Mastering Events and Functions</strong></p>
 </blockquote>
 <ol start="5" type="1">
 <li><p><strong>Code With Me – Events* (5)</strong></p></li>
 </ol>
 <blockquote>
-<p><strong>Reading: Just a little note before the next
+<p><strong>Reading: Just a little note before the next
 video</strong></p>
 </blockquote>
 <ol start="6" type="1">
 <li><p><strong>"this"* (6)</strong></p></li>
 </ol>
 <blockquote>
-<p><strong>Reading: Homework Time!!</strong></p>
+<p><strong>Reading: Homework Time!!</strong></p>
 </blockquote>
 <ol start="7" type="1">
 <li><p><strong>Photo Gallery* (7)</strong></p></li>
 </ol>
-<p><strong>Summary: </strong>JavaScript Interactive Photo Gallery</p>
+<p><strong>Summary: </strong>JavaScript Interactive Photo Gallery</p>
 <h2 id="week-three-arrays-and-looping">Week Three: Arrays and
 Looping</h2>
 <p>This week we will delve into more complex programming concepts:
@@ -455,28 +478,28 @@ arrays and looping. Arrays allow you to represent groups of related
 information. Looping provides efficiency and flexibility to your
 programs. Using both we will expand upon the photo gallery example.</p>
 <blockquote>
-<p><strong>Reading: Link to All of the Code for Week Three</strong></p>
-<p><strong>Reading: A JavaScript Cheat Sheet</strong></p>
-<p><strong>Reading: Arrays</strong></p>
+<p><strong>Reading: Link to All of the Code for Week Three</strong></p>
+<p><strong>Reading: A JavaScript Cheat Sheet</strong></p>
+<p><strong>Reading: Arrays</strong></p>
 </blockquote>
 <ol type="1">
 <li><p><strong><a
-href="https://www.coursera.org/lecture/javascript/javascript-arrays-g8N8v">Video: JavaScript
+href="https://www.coursera.org/lecture/javascript/javascript-arrays-g8N8v">Video: JavaScript
 Arrays</a>* (1)</strong></p></li>
-<li><p><strong>Video: Code With Me – Arrays* (2)</strong></p></li>
+<li><p><strong>Video: Code With Me – Arrays* (2)</strong></p></li>
 </ol>
 <blockquote>
-<p><strong>Reading: Advanced Coding Techniques</strong></p>
+<p><strong>Reading: Advanced Coding Techniques</strong></p>
 </blockquote>
 <ol start="3" type="1">
-<li><p><strong>Video: JavaScript Iteration* (3)</strong></p></li>
-<li><p><strong>Video: Flow Of Control* (4)</strong></p></li>
-<li><p><strong>Video: Code With Me - Combining Loops and Conditionals*
+<li><p><strong>Video: JavaScript Iteration* (3)</strong></p></li>
+<li><p><strong>Video: Flow Of Control* (4)</strong></p></li>
+<li><p><strong>Video: Code With Me - Combining Loops and Conditionals*
 (5)</strong></p></li>
-<li><p><strong>Video: Advanced Conditionals* (6)</strong></p></li>
-<li><p><strong>Video: Common Errors* (7)</strong></p></li>
+<li><p><strong>Video: Advanced Conditionals* (6)</strong></p></li>
+<li><p><strong>Video: Common Errors* (7)</strong></p></li>
 </ol>
-<p><strong>Summary: </strong>JavaScript Review</p>
+<p><strong>Summary: </strong>JavaScript Review</p>
 <h2 id="week-four-validating-form-data">Week Four: Validating Form
 Data</h2>
 <p>This week we will put a number of the concepts from this course
@@ -486,36 +509,36 @@ and send data to via a webpage. We will look at how you can use
 JavaScript to add options to your forms, to pre-fill data based on
 previous input, and even to check that passwords match.</p>
 <blockquote>
-<p><strong>Reading: </strong>Link to All of the Code for Week Four</p>
-<p><strong>Reading: </strong>Introduction to Forms</p>
+<p><strong>Reading: </strong>Link to All of the Code for Week Four</p>
+<p><strong>Reading: </strong>Introduction to Forms</p>
 </blockquote>
 <ol type="1">
 <li><p><a
-href="https://www.coursera.org/lecture/javascript/simple-forms-2VjBX"><strong>Video: </strong>Simple
+href="https://www.coursera.org/lecture/javascript/simple-forms-2VjBX"><strong>Video: </strong>Simple
 Forms</a>* (1)</p></li>
-<li><p><strong>Video: </strong>Simple Validation* (2)</p></li>
+<li><p><strong>Video: </strong>Simple Validation* (2)</p></li>
 </ol>
 <blockquote>
-<p><strong>Reading: </strong>"Cool Stuff" - Friend or Foe?</p>
+<p><strong>Reading: </strong>"Cool Stuff" - Friend or Foe?</p>
 </blockquote>
 <ol start="3" type="1">
-<li><p><strong>Video: </strong>Comparing Two Inputs* (3)</p></li>
-<li><p><strong>Video: </strong>Checkboxes and Radio Buttons*
+<li><p><strong>Video: </strong>Comparing Two Inputs* (3)</p></li>
+<li><p><strong>Video: </strong>Checkboxes and Radio Buttons*
 (4)</p></li>
 </ol>
 <blockquote>
-<p><strong>Reading: </strong>Using Forms on Your Site</p>
-<p><strong>Reading: </strong>More Code Examples</p>
+<p><strong>Reading: </strong>Using Forms on Your Site</p>
+<p><strong>Reading: </strong>More Code Examples</p>
 </blockquote>
 <ol start="5" type="1">
-<li><p><strong>Video: </strong>Conclusion* (5)</p></li>
+<li><p><strong>Video: </strong>Conclusion* (5)</p></li>
 </ol>
 <blockquote>
-<p><strong>Reading: </strong>Intro to JQuery</p>
-<p><strong>Reading: </strong>Post-course Survey</p>
-<p><strong>Reading: </strong>Keep Learning with Michigan Online</p>
+<p><strong>Reading: </strong>Intro to JQuery</p>
+<p><strong>Reading: </strong>Post-course Survey</p>
+<p><strong>Reading: </strong>Keep Learning with Michigan Online</p>
 </blockquote>
-<p><strong>Summary: </strong>Autocomplete with JavaScript</p>
+<p><strong>Summary: </strong>Autocomplete with JavaScript</p>
 <p><strong>Welcome to Introduction to JavaScript</strong>, taught by
 Colleen van Lent!</p>
 <p>This course is an introduction to the use of the JavaScript
@@ -2745,33 +2768,33 @@ to look ahead and start to see that they need to master the small stuff
 before they can tackle the larger concepts.</p>
 <h2 id="tabindex-and-accessibility">Tabindex and Accessibility</h2>
 <p>Some elements on a page can take on the <strong>focus</strong> state
-by default.  When you go to a page and use the tab key you can navigate
+by default.  When you go to a page and use the tab key you can navigate
 from link to link and through forms – all without having to touch your
 mouse.</p>
 <p>It is possible to add the focus state to other elements too by adding
-the tabindex attribute to a tag.  While (below)</p>
+the tabindex attribute to a tag.  While (below)</p>
 <blockquote>
-<p><strong>&lt;div&gt; My first div.&lt;/div&gt;</strong></p>
+<p><strong>&lt;div&gt; My first div.&lt;/div&gt;</strong></p>
 </blockquote>
-<p><strong> is</strong> <strong>not</strong> accessible from the
+<p><strong> is</strong> <strong>not</strong> accessible from the
 keyboard, this (below)</p>
 <blockquote>
-<p><strong>&lt;div tabindex="0"&gt;  My second div.&lt;/div&gt;</strong></p>
+<p><strong>&lt;div tabindex="0"&gt;  My second div.&lt;/div&gt;</strong></p>
 </blockquote>
 <p><strong>is</strong> accessible from the keyboard.</p>
-<p>The number associated with the tabindex attribute is the tab order. 
+<p>The number associated with the tabindex attribute is the tab order. 
 By default, everything has an order of 0 which means that they will be
-visited in the order of the HTML code.  It is possible to give the
+visited in the order of the HTML code.  It is possible to give the
 attribute a higher number, but this can be confusing if it forces the
 site visitor to jump randomly around the page.</p>
 <p>You can see an example of tabindex in use at <a
 href="https://www.w3schools.com/tags/att_tabindex.asp">HTML tabindex
 Attribute</a><u>.</u></p>
 <p>To an eager coder this may sound great – "Let's add focus to
-everything!"  But this would slow down a person's ability to navigate
-quickly through your page.    Instead, use it only in places where
-keyboard access would be important.  For instance, in last week's
-homework you created a photo gallery that used the mouse.  By next week
+everything!"  But this would slow down a person's ability to navigate
+quickly through your page.    Instead, use it only in places where
+keyboard access would be important.  For instance, in last week's
+homework you created a photo gallery that used the mouse.  By next week
 I will want you to update that code to also react to the keyboard.</p>
 <h2 id="using-javascript-with-attributes">Using JavaScript with
 Attributes</h2>
@@ -2782,11 +2805,11 @@ a bigger leap than you expected, so I want to give you a short reference
 on two different methods I use.</p>
 <h3 id="getattribute">getAttribute</h3>
 <p>If you want to access a part of the DOM you can often access it
-directly.  For instance, if you used
+directly.  For instance, if you used
 <strong>document.querySelector()</strong> to access an image element,
 you can then access its src, alt text, etc.</p>
 <blockquote>
-<p><strong>my_img = document.querySelector("img")</strong></p>
+<p><strong>my_img = document.querySelector("img")</strong></p>
 <p><strong>console.log(my_img.src)</strong></p>
 <p><strong>console.log(my_img.alt)</strong></p>
 </blockquote>
@@ -2795,7 +2818,7 @@ you will want to use the <a
 href="https://www.w3schools.com/jsref/met_element_getattribute.asp">HTML
 DOM Element <strong>getAttribute()</strong></a> method.</p>
 <blockquote>
-<p><strong>my_img = document.querySelector("img")</strong></p>
+<p><strong>my_img = document.querySelector("img")</strong></p>
 <p><strong>console.log(my_img.getAttribute("src"))</strong></p>
 <p><strong>console.log(my_img.getAttribute("alt"))</strong></p>
 </blockquote>
@@ -2803,18 +2826,18 @@ DOM Element <strong>getAttribute()</strong></a> method.</p>
 <p>Similarly, you can often change the value of a DOM element by
 accessing the attribute directly:</p>
 <blockquote>
-<p><strong>my_img = document.querySelector("img")</strong></p>
-<p><strong>my_img.src = "mydog.jpg"</strong></p>
-<p><strong>my_img.alt = "Brown labradoodle"</strong></p>
+<p><strong>my_img = document.querySelector("img")</strong></p>
+<p><strong>my_img.src = "mydog.jpg"</strong></p>
+<p><strong>my_img.alt = "Brown labradoodle"</strong></p>
 </blockquote>
 <p>Sometimes though you can't change the data directly and that is when
 you will want to use the <a
 href="https://www.w3schools.com/jsref/met_element_setattribute.asp">HTML
 DOM Element <strong>setAttribute()</strong></a> method.</p>
 <blockquote>
-<p><strong>my_img = document.querySelector("img")</strong></p>
+<p><strong>my_img = document.querySelector("img")</strong></p>
 <p><strong>my_img.setAttribute("src","mydog.jpg")</strong></p>
-<p><strong>my_img.setAttribute("alt","Brown labradoodle")</strong></p>
+<p><strong>my_img.setAttribute("alt","Brown labradoodle")</strong></p>
 </blockquote>
 <p>It is nice to know how to change things with JavaScript because it
 will allow you to leave the HTML alone, but still add attributes such as
@@ -4834,16 +4857,16 @@ Initiative</a> has some great resources for learning about this.</p>
 <p>The goal of the final project is to create your own accessible,
 interactive photo gallery. Building on concepts you have been learning
 in the course you will create your own HTML file with images and
-alternative text and then add the code to call functions to react  to
-common events such page loads, mouse movement, and keyboard access.  In
+alternative text and then add the code to call functions to react  to
+common events such page loads, mouse movement, and keyboard access.  In
 addition to reusing the functions from the earlier homework you will
 want to write code to automatically add the tabindex attribute to your
 figures.</p>
 <p>Throughout the process make sure to validate your code on W3, Wave,
 and aXe.</p>
 <p>Once you have completed your assignment you will complete peer
-reviews.  Because there are two or three challenging components to this
-assignment I hope  you will learn from seeing the different
+reviews.  Because there are two or three challenging components to this
+assignment I hope  you will learn from seeing the different
 approaches.</p>
 <h2 id="instructions">Instructions</h2>
 <ol type="1">
@@ -4861,13 +4884,13 @@ href="https://www.deque.com/axe/?branded=&amp;utm_term=axe%20tool&amp;utm_campai
 browser extension.</p></li>
 <li><p>Add the listeners for <a
 href="https://www.w3schools.com/jsref/event_onfocus.asp">onfocus
-Event</a>  and <a
+Event</a>  and <a
 href="https://www.w3schools.com/jsref/event_onblur.asp">onblur Event</a>
 using the same pattern I gave you for the <a
 href="https://www.w3schools.com/jsref/event_onmouseover.asp">onmouseover
 Event</a> and <a
 href="https://www.w3schools.com/jsref/event_onmouseleave.asp">onmouseleave
-Event</a>.  (Don't delete those events though!)</p></li>
+Event</a>.  (Don't delete those events though!)</p></li>
 <li><p>Test your site's functionality for mouse movement.</p></li>
 <li><p>Add the listener for onload – deciding what you want to call the
 new function</p></li>
@@ -4882,9 +4905,9 @@ triggers</p></li>
 </ol>
 <h2 id="grading">Grading</h2>
 <p>Your project will be graded by the careful examination of your code
-by a peer as well as the  The W3C Markup Validation Service Tool and the
+by a peer as well as the  The W3C Markup Validation Service Tool and the
 <a href="https://wave.webaim.org/">WAVE Web Accessibility Evaluation
-Tool</a>.  Your peers will look for the required functionality using
+Tool</a>.  Your peers will look for the required functionality using
 both the mouse and a keyboard.</p>
 <ul>
 <li><p>There are at least six images</p></li>
@@ -4898,16 +4921,16 @@ with the proper background image.</p></li>
 <li><p>When the smaller image is in focus the large image is updated
 with the proper background image.</p></li>
 <li><p>When the mouse is removed from a smaller image the large image is
-updated with the original text.  (Hardcoding is expected here.)</p></li>
-<li><p>When the focus is removed from the  smaller image (when it is in
-the blur state) the large image is updated with the original text. 
+updated with the original text.  (Hardcoding is expected here.)</p></li>
+<li><p>When the focus is removed from the  smaller image (when it is in
+the blur state) the large image is updated with the original text. 
 (Hardcoding is expected here.)</p></li>
 <li><p>When the mouse is removed from a smaller image the background for
-the large image is updated to an empty URL.  (Hardcoding is expected
+the large image is updated to an empty URL.  (Hardcoding is expected
 here.)</p></li>
-<li><p>When the focus is removed from the  smaller image (when it is in
+<li><p>When the focus is removed from the  smaller image (when it is in
 the blur state) the background for the large image is updated to an
-empty URL.  (Hardcoding is expected here.)</p></li>
+empty URL.  (Hardcoding is expected here.)</p></li>
 <li><p>The tabindex property was added using JavaScript, not hardcoded
 into the HTML.</p></li>
 <li><p>The site returns no errors from the <a
@@ -4989,7 +5012,7 @@ filters near the top right-hand corner of the Gallery. As you explore
 the submissions, we encourage you to leave comments and feedback on the
 submissions you view.</p>
 <p>This course uses a third-party app, Final Project: Optional
-Submission Gallery, to enhance your learning experience. The app will
+Submission Gallery, to enhance your learning experience. The app will
 reference basic information like your name, email, and Coursera ID.</p>
 <p><img src="images/image323.webp"
 style="width:4in;height:2.26923in" /></p>
