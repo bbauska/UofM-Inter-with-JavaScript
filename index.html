@@ -1235,26 +1235,47 @@ this case I can't just use write. That won't work. Alert worked by
 itself, prompt worked by itself, but here you need to have
 <strong>document.write()</strong>. Same thing, hopefully you're seeing
 the pattern. Let's see when we add this.</p>
-<p><img src="images/image035.webp"
-style="width:4in;height:2.24402in" /></p>
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 35. document.write() example (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image035.webp"
+  alt="document.write() example output."
+  style="width:40%" />
+
 <p>Here you can see that inside the script tag, again, I have the
 <strong>document.write()</strong>. But instead of things popping up or
 asking us for input, it writes it directly into the screen.</p>
-<p><img src="images/image036.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 36. generate output with document.write (26) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image036.webp"
+  alt="Generate output with document.write()."
+  style="width:40%" />
+
 <p>Now I'm going to change something right here. Because I put h1 inside
 the quotes. If I get rid of that you can see this still works, but
 instead of being an h1 heading, it’s just regular old text. So,
 <strong>document.write</strong> is a way for you to generate output. But
 we need to realize that it is probably not the best way to do it.</p>
-<p><img src="images/image037.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 37. document.write() (27) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image037.webp"
+  alt="document.write()."
+  style="width:40%" />
+
 <p>Because sometimes if you're misusing it, you can overwrite other
 things that exist. So, <strong>document.write</strong> is something you
 just want to use when you're beginning and you don't know some of the
 more complex methods.</p>
-<p><img src="images/image038.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 38. innerhtml (27) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image038.webp"
+  alt="innerHTML."
+  style="width:40%" />
+
 <p>One of the more complex methods you can use is called innerHTML. And
 with innerHTML, you combine this with other functions that return
 elements. So, you can't just say innerHTML or
@@ -1263,8 +1284,13 @@ part of the page do I want to change? Oh, I want to change that
 particular paragraph, all right. But how do I grab that particular
 paragraph? Or remember we have these different APIs that can go and get
 things for us.</p>
-<p><img src="images/image039.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. innerhtml example (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image039.webp"
+  alt="element.innerHTML example."
+  style="width:40%" />
+
 <p>In this case, I have element which is hopefully we'll find something
 using the API that in your HTML equals time to learn JavaScript. I
 wanted you to recognize something right away. When we use document dot
@@ -1277,14 +1303,24 @@ while, it becomes second nature to you, all right?</p>
 <p>When I talk about this kind of generic element, I didn't make it a
 color that's something that you need to grab using the API. Let me give
 you an example of something we can do using innerHTML.</p>
-<p><img src="images/image040.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. change contents of dom (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image040.webp"
+  alt="Change contents of the DOM."
+  style="width:40%" />
+
 <p>Let's look at this, what I've done is I made an <strong>h1</strong>
 heading and I've given it the id of test. I also have a paragraph
 element a little bit further down that just says, hey what happens if
 I'd messed with this code?</p>
-<p><img src="images/image041.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41. getelementbyid tester (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image041.webp"
+  alt="Using getElementById test example."
+  style="width:40%" />
+
 <p>All right, so I want you to look as closely as you can. You might be
 on a small screen. You might not be able to see it. Is that in my h1
 heading, I actually have the words tester, but if you look at the web
@@ -1297,8 +1333,13 @@ whatever used to be in there and replace it with the words, Hello World.
 This is kind of what happens when this is a weird example, but all early
 examples are weird examples. Because you just want to get your feet
 wet.</p>
-<p><img src="images/image042.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 42. should be only one id (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image042.webp"
+  alt="Should only be one id.  Can have multiple classes however."
+  style="width:40%" />
+
 <p>But I did want you to look at what happens if I do this. Back from
 your days of learning CSS, you might remember that in general, you can
 expect to see multiple classes. But you're making this contract or rule
@@ -1306,12 +1347,22 @@ that says, you really should see each ID only once.</p>
 <p>JavaScript is expecting you to keep that rule. When you do something
 get element by ID, JavaScript thinks there's only one out there. I'm
 going to stop as soon as I find that one.</p>
-<p><img src="images/image043.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 43. change first id, not second (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image043.webp"
+  alt="It will change the first id and no other."
+  style="width:40%" />
+
 <p>As you can see down here, it changed the first one it found. It
 didn't change the second one it found, okay? All right.</p>
-<p><img src="images/image044.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44. console.log() example (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image044.webp"
+  alt="console.log() example."
+  style="width:40%" />
+
 <p>Let's go play with the last output method I have for you today.
 <strong>document.write</strong> and enter HTML. Write directly into the
 browser screen. What we have in this last option is something that
@@ -1323,21 +1374,37 @@ not necessarily pops up and everyone can see.</p>
 execution. If you haven't used the console before, you might not realize
 that it's even there. But I'm hoping you have when you were doing your
 CSS.</p>
-<p><img src="images/image045.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45. console.log hello world (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image045.webp"
+  alt="console.log hello world."
+  style="width:40%" />
+
 <p>Let's take a look at this example. In my HTML up here, you can see
 that I have <strong>console.log</strong> Hello World. Nothing too
 exciting going on here.</p>
-<p><img src="images/image046.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. debug inspect and console (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image046.webp"
+  alt="Debug, inspect and console."
+  style="width:40%" />
+
 <p>But if you look at the actual browser, hm, it's not there. It doesn't
 show up like it did with document.ray. Where did it go? Well, it's
 actually in the Console of your browser. I'm going to go down here. I
 did inspect element, and I checked the Console. Oh, you can see Hello
 World showed up here.</p>
-<p><img src="images/image047.webp"
-style="width:4in;height:2.24402in" /></p>
-<p>What happens if I change the code to Hello World Too.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. debug using inspect (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image047.webp"
+  alt="Debug using inspect."
+  style="width:40%" />
+
+<h4>What happens if I change the code to Hello World Too.</h4>
+
 <p>You’re sending yourself these little secret messages that can help
 you debug your code. You can log things, you can leave little notes for
 yourself, you can do debugging tests. You can even log the things that
@@ -1346,20 +1413,35 @@ if you want to do development but not let everyone see exactly what you
 are doing. We're going to come back to this example in just a second,
 but first I want to talk to you about why you should be utilizing the
 console by now, if you haven't.</p>
-<p><img src="images/image048.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. the console (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image048.webp"
+  alt="The console."
+  style="width:40%" />
+
 <p>The console does more than just take these print statements. It also
 provides debugging information for JavaScript, HTML, and CSS. By going
 in and looking at it, you're going to be able to help yourself become a
 much better programmer.</p>
-<p><img src="images/image049.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. console.log debugging (33) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image049.webp"
+  alt="Debugging console.log."
+  style="width:40%" />
+
 <p>Let's take a look at just doing some debugging with the JavaScript.
 I'm going to go in here and I'm going to accidentally forget to put in
 my first quotes, all right. But if we didn't know that there's anything
 going on or that anything is supposed to show up.</p>
-<p><img src="images/image050.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. console error in red (33) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image050.webp"
+  alt="Console error in red."
+  style="width:40%" />
+
 <p>You might not realize that there's a typo but inside the console,
 it'll show you pretty much along the way add, hey, anything in red means
 we found an error. So red lines usually means either you have a
@@ -1372,8 +1454,13 @@ pinpoint where exactly your code is going wrong. You might not know
 what's going wrong, but you’re saying somewhere in this line of code I'm
 getting an error. This kind of ability to help yourself debug is going
 to be critical to going on and advancing in this course.</p>
-<p><img src="images/image051.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51. debugging (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image051.webp"
+  alt="Debugging."
+  style="width:40%" />
+
 <p>If I'm going to ask you debug, I should probably tell you how you can
 debug. If you're using Safari, you're going to need to go to Preferences
 &gt; Advanced. Once you go there, you should be able to check the Show
@@ -1387,8 +1474,13 @@ by many to be the best browser to use when you're doing debugging for
 JavaScript. If you're using Edge or Internet Explorer, typically hitting
 F12 will bring up the different JavaScript and development tools that
 you can use to improve your page. All right, so let's review.</p>
-<p><img src="images/image052.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. review (1.03 output) (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image052.webp"
+  alt="1.03. Review: Output."
+  style="width:40%" />
+
 <p>Right now, we're doing really simple things, and I understand that.
 It's not that exciting to just print things out to the screen or have
 little pop-up boxes coming up. But we need to do these small steps to
@@ -1764,7 +1856,6 @@ things.</p>
 storing a number, but in the different cases or one, it's going to be,
 normally would be an integer or a whole number, and the next time it has
 decimals.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -1783,7 +1874,6 @@ directly from your keyboard because the slant does matter. In this case,
 I've done var location = <strong>window.location</strong>. Because it
 happens to be that that attribute is a string or in my second example
 once again, I've just hardcoded it to something you might expect.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 77.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -1861,7 +1951,6 @@ the fourth one because computers love to talk starting from zero and up.
 Now we're going to have an entire lecture or more on arrays later in
 this course. But for now, I just want you to realize that it's one of
 the data types that can be returned.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 81.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -1897,18 +1986,17 @@ it prints out object <strong>HTMLCollection 0.</strong> It says, oh, you
 didn't actually have any paragraphs in this page. If I go back, and I
 add a few, they can even be empty. Gotta love when it keeps popping up
 on you. I don't know how many I added but we're going to do it.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 83/84.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="border displayed"
+<img class="border"
   src="./images/image083.webp"
-  alt="." 
-  style="width:35%" />
-
-<p><img src="images/image083.webp"
-style="width:3.5in;height:1.97025in" /><img
-src="images/image084.webp"
-style="width:3.5in;height:1.97024in" /></p>
+  style="width:35%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<img class="border"
+  src="./images/image084.webp"
+  style="width:35%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<p style="clear: both;"></p>
 
 <p>I can try running this again. And when I type in Colleen, you can see
 that now it knows that I have five paragraph elements in there.</p>
@@ -1946,7 +2034,6 @@ programming. So good luck.</p>
 operators, the different ways that you can manipulate your code. We've
 been using statements to execute our JavaScript code. Every time you saw
 a line that ended with a semicolon, we were writing a statement.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 87.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -1959,7 +2046,6 @@ evaluated. Expressions produce values. They might produce a number, or a
 string, but many times they produce what we call Boolean values. I want
 to show you all the different types of operators that we can use in
 JavaScript to produce these types of expression values.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 88.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -1973,7 +2059,6 @@ right-hand side is that new value we want to be stored.</p>
 <p>What are our tools for generating different values on that right hand
 side? We've seen direct assignments or calls to different functions but
 there's more to it that we can do than just that.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 89.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2009,7 +2094,6 @@ you figure out how many times does 5 go into 13? That's 2, and what's
 left over? 13%5 is going to be 3. Go ahead and play with that if you'd
 like, and type a few numbers in and see what kind of response you
 get.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2026,7 +2110,6 @@ writing out long something along the lines of x = x + 2. It's the same
 thing as saying x + = 2. It's just short hand you don't need to use it.
 But I wanted to show you just in case you see it in somebody else’s
 code.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 92.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2046,7 +2129,6 @@ read in from a prompt is a string. You're going to need to make sure
 that your output is what you're expecting. The plus equals has the same
 effect as the plus equals from before. It just means take whatever I
 used to have and concatenate this new part on to it.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2065,7 +2147,6 @@ yep, those two things are equivalent, so I'm going to return true.
 There's also another short hand, which is the exclamation point equals.
 This is a negation or the opposite, it says, hey, make sure the value
 stored in x doesn't equal 5.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 94.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2081,7 +2162,6 @@ false.</p>
 JavaScript we don't really care about types too much. What happens if
 you want to see if a number is equal to something else, but you don't
 want it to say yes if it's a string?</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 95.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2105,7 +2185,6 @@ It's really hard to understand how these things work unless you type in
 some examples, play with the numbers, and try to fool yourself and give
 yourself tricky situations. If you can do that, then you'll feel
 comfortable moving on with these operators.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 96.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2127,7 +2206,6 @@ It doesn't work if it's only one or the other. For the “or”, you might
 use the example that in America, you can't get into certain movies
 unless you're 18 or you're with your parents. So that would be a case
 where you only need one thing to be true.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 97.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2187,7 +2265,6 @@ distinction between <em><strong>defining</strong></em> a function
 <p>Today we're going to talk about functions. Functions are these bits
 of code that you can reuse over and over again by just coding what we
 call the function name.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 99.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2231,7 +2308,6 @@ time I run this function, all I want to happen is to have an alert that
 says, Welcome to JavaScript. And this will work numerous times. I don't
 have to keep writing things over and over again. It's a small function,
 but it's something that will work.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 101.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2248,7 +2324,6 @@ tell it to do in what we call it real time.</p>
 where you use the keywords, the curly brackets, and the parenthesis.
 Declaring a function doesn't actually do anything for you though. You
 need to tell the computer when you want that function to run.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 102.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2263,7 +2338,6 @@ our programs start at the top and just work their way down line by line
 by line. Now with functions, the computer is actually jumping around in
 memory and executing different parts of code, not necessarily in the
 order that you write them.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 103.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2286,7 +2360,6 @@ going on as the computer jumps from different bits of code back to other
 bits of code. Hopefully if you type this in and run it, you should get a
 hello and then a goodbye message. You could type putting in numbers or
 anything you'd like instead if you prefer.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 104.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2303,7 +2376,6 @@ extra piece of information or a parameter that you need to provide. The
 important thing to know is the names of the parameters for your
 functions, they're not important, they're like variable names. You can
 call them anything you want, as long as you're consistent.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 105.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2318,7 +2390,6 @@ expressions. Later when we talk about forms, we're going to want to put
 in special functions that will say, hey, I need you to halt execution
 right now, because I don't want you to hit submit. I don't want you to
 be able to hit yes on that form.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 106.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2338,7 +2409,6 @@ that's empty. Using return statements are just typically used in order
 to assign values to valuables or to check conditional statements, and
 we're going to be using these a lot. I just need you to be aware of the
 term.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 107.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2368,7 +2438,6 @@ names, to see how the inner workings are going.</p>
 to be writing your own functions in the homework, and I'm hoping that
 you'll be able to do this and feel like you're really starting to
 understand some of the power of JavaScript. Good luck.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="wk2-02">2-02. Code Placement</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2396,7 +2465,6 @@ content from our other style in JavaScript functions.</p>
 JavaScript code. And where you can put it, is you can leave it in the
 body, as we've been doing, you can put your functions into the head
 section of your HTML code, or you can use an external file.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 110.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2416,7 +2484,6 @@ this isn't content, this is going to be some JavaScript code.</p>
 <p>If you do this. If you put your code into the head section, don't
 worry, all of your function will still have access to all the document
 information, the ID's, the classes, etc.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 111.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2435,7 +2502,6 @@ your code to call the functions. But still, it's a lot cleaner than
 having the entire function written down here. Plus, for code reuse, you
 can now call the function multiple times, but only write it once up
 here.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 112.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2472,7 +2538,6 @@ usually pretty easy to figure out that you did something wrong, because
 the colors aren't the way you wanted or your text just isn't there. But
 with JavaScript, sometimes the changes you’re making are so slight, you
 don't even realize that you have a problem.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 114.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2486,7 +2551,6 @@ friend. I can't stress enough how much you always want to have it on
 while you're coding. Myself, sometimes I forget to turn it on and I'm
 annoyed later, when I could have found my errors so much more
 easily.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 115.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2506,7 +2570,6 @@ to link their code, out there in the real world.</p>
 <p>If you're going to use CodePen, I always recommend that once you're
 done, take that code and put it into three separate files, so that
 you're sure you know how to link them together.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 116.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2520,7 +2583,6 @@ care of all the work of making sure that they're all together. If this
 is your first time ever using CodePen, I did want to point out, that
 there's this handy little function, that you can re-size the
 windows.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 117.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2531,7 +2593,6 @@ windows.</p>
 <p>If you're not too concerned with your CSS right now, you can make
 that smaller. And really kind of focus, on what you're working on, in
 the HTML and the JS.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 118.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2674,7 +2735,6 @@ images folder. But the problem is, how do you tell the browser that the
 images folder is someplace different? In this example we go up 2
 directories, find ‘images’ folder and pull from there. Done &amp;
 done.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 125.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2709,7 +2769,6 @@ JavaScript, and images functions out there. Thanks.</p>
 that we'd teach you how to do interactivity with JavaScript. Well, we
 finally reached that point where we can start having some fun and
 reacting to events that happened to your web page.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 127.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2725,7 +2784,6 @@ do these events come from, well, they come from the JavaScript API. We
 can start doing things based on clicking, mouse movement, all these
 different types of dynamic function calls. Let's take a look at how we
 can do this.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 128.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -3184,14 +3242,15 @@ actually hardcoding it in here that I want it to go from none.</p>
 to go from whatever it used to be, and now it should be block.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 158/159.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="border displayed"
+<img class="border"
   src="./images/image158.webp"
-  alt="." 
-  style="width:35%" />
-<img class="border displayed"
+  style="width:35%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<img class="border"
   src="./images/image159.webp"
-  alt="." 
-  style="width:35%" />
+  style="width:35%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<p style="clear: both;"></p>
 
 <p>Let's look and see if this works. Close, Open. Close, Open. Great, it
 works, but we've hardcoded those elements in. We've hardcoded block.
@@ -3199,14 +3258,15 @@ What if we also wanted to change the color, or the width, or many other
 elements? This is where the idea of our classes can come in.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160/161.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="border displayed"
+<img class="border"
   src="./images/image160.webp"
-  alt="." 
-  style="width:35%" />
-<img class="border displayed"
+  style="width:35%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<img class="border"
   src="./images/image161.webp"
-  alt="." 
-  style="width:35%" />
+  style="width:35%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<p style="clear: both;"></p>
 
 <p>Let's change it over here really quickly. I'm going to comment out
 this line of code. And same right here. All I've done here, is we're
@@ -3214,17 +3274,17 @@ going to have the same element, but the difference is now, we can
 actually go in and we could say, you know what? For that element I want
 you to change the class name. I don't know what it used to be, but now I
 want it to be closed. And down here, I want it to be open.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 162/163.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<img class="border displayed"
+<img class="border"
   src="./images/image162.webp"
-  alt="." 
-  style="width:35%" />
-<img class="border displayed"
+  style="width:35%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<img class="border"
   src="./images/image163.webp"
-  alt="." 
-  style="width:35%" />
+  style="width:35%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<p style="clear: both;"></p>
 
 <p>So, I can talk a lot. But it's important that even I stop and check
 that code and make sure I didn't break it. Close, Open, Close, Open.</p>
@@ -3843,16 +3903,24 @@ talked about numbers, strings, true or false booleans, or objects. And
 while objects can be quite complex where you can have entire DOM
 elements, the fact is they were just dealing with one element at a
 time.</p>
-
-<p><img src="images/image191.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 191.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image191.webp"
+  alt="." 
+  style="width:40%" />
 
 <p>But what do you do if you want to use multiple related pieces of
 information? That's where the idea of arrays comes in. Arrays give us a
 chance to declare multiple values that are all linked to a single
 variable.</p>
-<p><img src="images/image192.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 192.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image192.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>In this case I've declared an array called grades, but instead of
 giving it one value, I've given it ten. In this next example, I said I
 wanted an array called foods, and I gave it three values. In the first
@@ -3861,16 +3929,26 @@ example, I'm finally going to get to where we can start using those APIs
 <strong>getElementsByClassName</strong>. In this case, I have no idea
 how many elements will be in this images array because I don't know how
 many images were in the document.</p>
-<p><img src="images/image193.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 193.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image193.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>And in the same way, I could declare array by saying, you know what,
 I want to make a variable, I'm going to call it listItems. And how I'm
 going to assign it or declare and initialize it, is by doing
 <strong>document.getElementsByTagName</strong> and giving it
 <strong>['li']</strong>. Now it'll travel through the DOM and grab every
 element that has that li tag.</p>
-<p><img src="images/image194.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 194.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image194.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>Hopefully you've seen this idea that an array is not a single value,
 but a collection of values. You start off by giving your array a name,
 and then you can assign as many values as you'd like. Each one of these
@@ -3881,8 +3959,13 @@ a number that goes with it. And in arrays, with almost all computer
 science ideas, we don't start at 1, we start at 0. If I have an array of
 10 elements, The index goes from 0 to 9. If I have an array of 5
 elements, I know that it'll go from 0 to 4.</p>
-<p><img src="images/image195.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 195.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image195.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>Okay, so we have our array, and we know, in this case, that we have
 an array with 10 values in it. Each of those values is called an
 element. In computer science, when you're talking to other people, this
@@ -3892,24 +3975,39 @@ Well, each element is referenced by an index. If I were to say
 <strong>grades[0],</strong> right here, well, the computer knows, oh, I
 have this array up here. I need to go find the one that's in the 0
 place, so <strong>grades[0]</strong> refers to 80.</p>
-<p><img src="images/image196.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 196.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image196.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>If I want to talk about <strong>grades[4],</strong> well this refers
 to value 62. <strong>grades[0]</strong> is the first value,
 <strong>grades[4]</strong> is actually the fifth value. If this is the
 first time you've really experienced starting your counting at 0, it can
 be a little bit confusing at first, but you'll get the hang of it in
 really no time.</p>
-<p><img src="images/image197.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 197.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image197.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>One thing I wanted to mention because it's different than in other
 program and languages, is that elements in array don't have to be all
 the same type. I could have an array, in this case called info, that has
 a string and a number, and then a string and a number, and that works
 just fine. However, it's very uncommon and I wouldn't necessarily
 encourage you to do your arrays in this manner.</p>
-<p><img src="images/image198.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 198.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image198.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>Instead, we want to focus on this idea that arrays tend to have the
 same values in them and that they have attributes and methods. Because
 JavaScript arrays are objects and that gives them some special power.
@@ -3924,8 +4022,13 @@ talked earlier about <strong>grades[9]</strong> or
 because we had initialized it. But sometimes you won't know how long the
 array is, especially if you used <strong>getElementsByTagName</strong>
 or something like that.</p>
-<p><img src="images/image199.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 199.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image199.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>It is possible to combine the idea of length and the idea of push to
 come up with our own way of adding things to our array. Grades, here's
 the element I need. I need <strong>[grades.length]</strong>, because I
@@ -3938,8 +4041,13 @@ hang of JavaScript. But when you first get started, it can sometimes be
 confusing when you see people doing the same thing in different ways.
 It's a really great learning opportunity for you to try to figure out
 which things match as you go out and see new code.</p>
-<p><img src="images/image200.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 200.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image200.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>Let's review. As you learn to declare and manipulate arrays, your
 code is going to become much more powerful. You just need to take the
 time to switch your mindset from single values to collections of values.
@@ -3953,19 +4061,25 @@ might run into problems. Go ahead, start typing in some code, use the
 console to make sure things are going the way you want them to, and keep
 coming along with me as you learn new ways to use arrays to improve your
 page, thanks.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="wk3-02">3-02. Code With Me – Arrays</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p><img src="images/image201.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 201.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image201.webp"
+  alt="." 
+  style="width:40%" />
 
 <p>Today, we're going to do what I call a Code with Me. Well, it's
 perfectly okay if you just sit here and read the modules. I really
 encourage people to take this as an opportunity to find out, can you do
 the things that you've been reading about all along?</p>
-<p><img src="images/image202.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 202.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image202.webp"
+  alt="." 
+  style="width:40%" />
 
 <p>Specifically, I'm wondering, can you declare an array? We've been
 talking about them, we've been using them, but I've been doing all the
@@ -3981,14 +4095,24 @@ your code work? Let's jump right in. As I said, I have this code online
 for you. But I really encourage you to start from scratch and try coding
 on your own. And using my code as a reference just in case things go
 wrong.</p>
-<p><img src="images/image203.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 203.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image203.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>Let's take a look at this code. I really want you to understand each
 and every line. Sometimes I do things the long way, but that's okay.
 Because I really think it's a great learning experience for you to
 understand what's going on with JavaScript.</p>
-<p><img src="images/image204.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 204.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image204.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>Let's start off with the fact that I declared an array with four
 different elements in here. I have Banana, Orange, Apple and Mango, I'm
 going to use those inside my HTML code. In fact, where I use them, is I
@@ -4004,15 +4128,28 @@ elements to our array.</p>
 want to add additional things to the end of our array. All right, let's
 get started. In this function, it's going to ask us what our favorite
 food is. Once they ask, we need to know where should we put it?</p>
-<p><img src="images/image205.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 205.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image205.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>Right now, I'm going to draw up on the screen to get an idea of what
 the index of each one of these elements is. It starts at 0, 1, 2 and 3.
 So this means we want to put the next fruit in position 4.</p>
-<p><img src="images/image206.webp"
-style="width:3.5in;height:1.96875in" /><img
-src="images/image207.webp"
-style="width:3.5in;height:1.96875in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 206/207.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border"
+  src="./images/image206.webp"
+  style="width:35%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<img class="border"
+  src="./images/image207.webp"
+  style="width:35%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<p style="clear: both;"></p>
+
 <p>Let's take a look. I click Add Your Favorite. I'll say Strawberry.
 And when I hit OK, right away the JavaScript has gone in and said, oh, I
 need to add this fruit to my whole array. The kind of cool thing is
@@ -4027,8 +4164,13 @@ my array is one, two, three, four, five. Because I'm using a variable
 here, instead of hard coding a number. My program will work no matter
 how many different elements I add. Length is the count of fruits in the
 array.</p>
-<p><img src="images/image208.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 208.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image208.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>Let's add two more. And I can add Peach. And I can add another one.
 I'll just add Banana again because I have no imagination this morning.
 There we go. This is a very simple example, but one that I want you to
@@ -4054,12 +4196,20 @@ different situations.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="wk3-03">Week 3-03. JavaScript Iteration</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p><img src="images/image209.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 209.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image209.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>Hi everybody. Now that we know that arrays are an option for storing
 data, we need to think of the upsides and downsides of using them.</p>
-<p><img src="images/image210.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 210.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image210.webp"
+  alt="." 
+  style="width:40%" />
 
 <p>The upside, of course, is that arrays can store a lot of things in a
 single variable, instead of declaring variable grade[1], var grade[2],
@@ -4069,12 +4219,22 @@ data. What you want to do is go through every single number, but we
 don't want to write the same code 10 times, or 20 times, or 40 times?
 What we want to do is we want to use iteration, or what we typically
 call looping.</p>
-<p><img src="images/image211.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 211.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image211.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>When you loop through an array, you look at each element, usually
 starting at the first one and ending at the last one.</p>
-<p><img src="images/image212.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 212.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image212.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>In our example here, we have an array of ten elements. How could we
 find the average of those ten elements? Well, we would start off by
 saying we need to go through and add 80 plus 87 plus 94 plus 82. We need
@@ -4085,8 +4245,13 @@ there are.</p>
 for loop is simply a construct where we can run the same code multiple
 times. But between each execution, we're going to check some sort of
 Boolean condition to see if we're done or not.</p>
-<p><img src="images/image213.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 213.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image213.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>Here's a syntax. You need to have the keyword for. It lets JavaScript
 know, oh, change things here. I'm going to change the flow of control.
 The next thing you set up is the initializer. You need to have some sort
@@ -4094,8 +4259,13 @@ of variable that's going to be used for counting how many times we move.
 We're going to have a boolean condition that's either going to be true
 or false. And then, typically, you need to have some sort of update or
 increment variable that lets us keep going.</p>
-<p><img src="images/image214.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 214.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image214.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>We want to start with the keyword for. Then, you set that variable to
 the initial value. Usually, we tend to call that variable index, or
 counter, or even i or j, something small. It's a variable we don't want
@@ -4106,8 +4276,13 @@ or false. Once you've written that, you need to think about what code
 you want to run when the boolean is true, and then fourth, you update
 your variable and you head back to two. Here's a little diagram of how
 that all works together.</p>
-<p><img src="images/image215.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 215.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image215.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>Here we have kind of a narrated explanation of what's going on. We
 start with our initialization. This only happens once. After you've
 initialized your variable, you head down and you check, and you say,
@@ -4121,8 +4296,13 @@ going to run this code anymore. And you hop out to the end.</p>
 <p>The important thing to know for a for loop is that the initialization
 is always going to happen once, but you have no idea how many times
 these steps are going to happen.</p>
-<p><img src="images/image216.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 216.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image216.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>Here's a quick for loop that's going to go through and write each
 element of the array. We start at zero, we loop until we get to the
 length of the array and each time, we add one to it. if the array has
@@ -4131,8 +4311,13 @@ soon as, because we know that ten needs to be less than the length of
 the array. If the array happens to have six elements, it will run six
 times. If it has two elements, it will run two times. We're very
 flexible here by using that <strong>array.length</strong>.</p>
-<p><img src="images/image217.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 217.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image217.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>Let's get back to that example where we want to find the average of
 all the grades that are stored in our array. What I've done, is I start
 off by declaring a variable that's going to keep track of everything
@@ -4149,8 +4334,13 @@ what you want to be outside the loop. You can get some really inaccurate
 answers. Okay so if you followed that code and you understand how it
 works that's great. What we want to think about instead is how what
 would happen to make that code not work?</p>
-<p><img src="images/image218.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 218.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image218.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>The first question I would ask you is why did I use
 <strong>grades.length</strong> instead of "10"? We could've said, keep
 looping as long as the index is less than 10. And that would've been
@@ -4158,16 +4348,26 @@ perfectly correct. But the problem is, what if later we decide to add
 some numbers to our array? Or take some numbers away from our array?
 Well then, that 10 is no longer correct, and you would need to remember
 to go in and change it.</p>
-<p><img src="images/image219.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 219.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image219.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>What would happen if instead of adding one to our counter we
 subtracted one? This happens a little bit more often than anyone wants
 to admit. And what's going to happen is you're going to have an infinite
 loop. You can end up never leaving that line of code, and it will stall
 your entire browser. You want to make sure that you're incrementing or
 decrementing the way you mean to.</p>
-<p><img src="images/image220.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 220.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image220.webp"
+  alt="." 
+  style="width:40%" />
+
 <p>Along the same lines, what would happen if I set the condition to
 check if index was less than or equal to <strong>grades.length</strong>?
 I had initially used less than, and that was the correct way. If I use
@@ -4175,8 +4375,13 @@ less than or equal to, the JavaScript will actually crash. The thing is,
 I bet a lot of people would never even realize it did, because
 JavaScript does such a great job of hiding its errors. You need to go
 into the console and see what's going on.</p>
-<p><img src="images/image221.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 221.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image221.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Just to review, if you're learning to program in any programming
 language, looping is used for much more than arrays. It's a very
 powerful construct, and it's something you really want to understand
@@ -4188,18 +4393,27 @@ You need to feel comfortable with the idea that array elements start at
 zero. You need to understand that you can use
 <strong>array.length</strong> or other methods. The more you play with
 these things, the easier it will become. Thanks for reading.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="wk3-04">3-04. Flow of Control</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 222.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image222.webp"
+  alt="."
+  style="width:40%" />
 
-<p><img src="images/image222.webp"
-style="width:4in;height:2.25in" /></p>
 <p>Hi, everybody. Today, we're going to be talking about Flow of
 Control. Flow of control is just a fancy term for the fact that
 sometimes we want to be able to control which code our computer actually
 executes, instead of doing everything we're going to be putting decision
 points into our code.</p>
-<p><img src="images/image223.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 223.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image223.webp"
+  alt="."
+  style="width:40%" />
+
 <p>When your computer comes across them, it can kind of decide at the
 fly whether or not you should run it. This is a great way to add a
 little bit of variety and interactivity to your program. It's also a way
@@ -4207,8 +4421,13 @@ that you can respond to what we call good or bad user input. And I'll
 show you some examples today, in the lecture. Finally, it also helps us
 avoid potential errors that the user might be putting in. This isn't
 even something always that they do but that we've coded ourselves.</p>
-<p><img src="images/image224.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 224.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image224.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Let's talk about flow-of-control in a little bit more of a technical
 term. When you design your code, it's very important that you break your
 program down into blocks. Blocks are just another fancy word of saying,
@@ -4217,8 +4436,13 @@ your program runs, really efficient algorithms, which is another word
 for the steps your programs take, can execute only those blocks that
 they need to execute. And again, the execution of these blocks is where
 we come up with the term flow-of-control.</p>
-<p><img src="images/image225.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 225.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image225.webp"
+  alt="."
+  style="width:40%" />
+
 <p>We've actually had decision points before in our program where we
 might not have realized it. We've actually written decision points in
 before when we wrote for loops. You might not have realized it because
@@ -4230,8 +4454,13 @@ array, then the computer should keep going and add that next number.</p>
 were kind of hidden and we didn't even know they were happening. And
 some are very explicit, and these are the ones we're going to talk about
 now.</p>
-<p><img src="images/image226.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 226.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image226.webp"
+  alt="."
+  style="width:40%" />
+
 <p>One of the most common control structures in any programming language
 is the if statement. With an if statement, it evaluates a boolean
 expression and then says, hm, is it true? Or is it false? If it's true,
@@ -4242,8 +4471,13 @@ parenthesis we would put in a boolean-expression. And again, those are
 the expressions that are always going to return true or false. Is A
 greater than B? Does C equal D? After the computer checks that
 expression, we give it a list of steps to perform.</p>
-<p><img src="images/image227.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 227.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image227.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Let's talk about the syntax and logic of the if statement. One of the
 things I said, is that you need to realize, that the word if is a
 reserved word. And reserved words and programming have a very specific
@@ -4257,8 +4491,13 @@ We're going to see a lot of greater than or equal to or equal equal,
 different things we've talked about earlier. Finally, after the if
 statement, we're going to see the actual statement that we want to
 perform all by itself.</p>
-<p><img src="images/image228.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 228.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image228.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Now in this example I didn't include those curly brackets that you
 might often see. Something along the lines of here. These curly brackets
 say, don't execute just one statement, execute a whole bunch of them.
@@ -4275,8 +4514,13 @@ but you're going to see most people do it, because it makes your code a
 lot easier to read. It's a lot easier to see that there are six or seven
 lines of code that are all along the same line, then to necessarily
 always be looking for these curly blocks.</p>
-<p><img src="images/image229.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 229.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image229.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Let's look at this with a little bit of action and animation added to
 it. The first thing we're going to do, is evaluate that condition. If
 it's true, execute either a single statement, or an entire block of
@@ -4286,28 +4530,48 @@ continue on with the rest of the program. Make sure that makes sense to
 you, that an if statement doesn't make you skip everything that comes
 afterwards, it only skips certain blocks if it's true. Now, let's do two
 examples with real code.</p>
-<p><img src="images/image230.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 230.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image230.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Let's look at this example, over here. In the code that I have, I've
 declared a variable called name, right here. And I've decided that if
 somebody enters their name, I'm going to say hello to them. But if they
 don't enter anything, I don't want to say hello at all. Let's see what
 happens when I enter in Colleen.</p>
-<p><img src="images/image231.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 231.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image231.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Look down here. I have, Hello Colleen shows up, all right. How that
 happened is that I went in here and I added my if statement, I said if
 that name, if the length of that name doesn't equal zero which means
 someone actually types something in, write my name and that worked
 great.</p>
-<p><img src="images/image232.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 232.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image232.webp"
+  alt="."
+  style="width:40%" />
+
 <p>But let's see what happens if I put in nothing. We have the same
 prompt but I'm going to just hit OK. In this case the program didn't
 crash or anything along that line, it just doesn't have any output at
 all. That was a very simple example.</p>
-<p><img src="images/image233.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 233.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image233.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Let's move on to another that we've seen before. In the example where
 we figured out the average in an array of numbers, we were very straight
 forward. We went in and we said here's all of our numbers. Find out the
@@ -4316,10 +4580,18 @@ situation, right here. At the very end we say find out the average by
 adding up all the numbers and then dividing by the numbers there were.
 However, in computer science, it's very important that you check and
 make sure that you never divide by zero.</p>
-<p><img src="images/image234.webp"
-style="width:3.5in;height:1.96875in" /><img
-src="images/image235.webp"
-style="width:3.5in;height:1.96875in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 234/235.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border"
+  src="./images/image234.webp"
+  style="width:35%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<img class="border"
+  src="./images/image235.webp"
+  style="width:35%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<p style="clear: both;"></p>
+
 <p>If I were to change my code right here and get rid of all the numbers
 so that we have an empty array, let's see what happens. Down here, I've
 got instead of 83 or something like that, I have something called NaN,
@@ -4329,10 +4601,18 @@ instead we gave them some sort of idea that oh, it's okay, we're just
 not going to do the average. At the very least, we should get rid of
 this kind of weird not a number. How are we going to do that? We need to
 write an if statement.</p>
-<p><img src="images/image236.webp"
-style="width:3.5in;height:1.96875in" /><img
-src="images/image237.webp"
-style="width:3.5in;height:1.96875in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 236/237.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border"
+  src="./images/image236.webp"
+  style="width:35%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<img class="border"
+  src="./images/image237.webp"
+  style="width:35%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<p style="clear: both;"></p>
+
 <p>In the code I have here, called array average with zero, I took the
 same code we had before, but I added an if statement. And that if
 statement says, oh, you know what, before you bother finding the
@@ -4345,8 +4625,13 @@ blank screen. Now, it might be, you might be thinking, I’m not sure
 blank screen is such a great idea. Don't worry, we're going to handle
 that as well when we talk about the else that can go along with the
 if.</p>
-<p><img src="images/image238.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 238.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image238.webp"
+  alt="."
+  style="width:40%" />
+
 <p>How do we do that? How do we add a second option to your code? Well,
 an else can be added to an if statement to make we calling, an if-else
 statement. And in this case, it looks very similar, the only difference
@@ -4356,28 +4641,55 @@ statement. When you have this if else statement how it works is, if the
 condition is true then statement one is executed. If the condition is
 false then statement two is executed. One or the other will be executed,
 but not both.</p>
-<p><img src="images/image239.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 239.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image239.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Using flow of control, we’re going to evaluate the condition first.
 If it’s true go to statement one, if its false do statement or
 statements two and then you know what keeps going.</p>
-<p><img src="images/image240.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 240.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image240.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Let’s look back at our examples with an added else.</p>
-<p><img src="images/image241.webp"
-style="width:3.5in;height:1.96875in" /><img
-src="images/image242.webp"
-style="width:3.5in;height:1.96875in" /></p>
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 241/242.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border"
+  src="./images/image241.webp"
+  style="width:35%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<img class="border"
+  src="./images/image242.webp"
+  style="width:35%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<p style="clear: both;"></p>
+
 <p>I've gone back to our JavaScript if statement with the name and I've
 added an else. And all it does is say, hey. That person didn't enter
 their name. Let's send them a little message. Now, if I put in my name,
 it still works as we expected. Hello Colleen. But, if I leave it blank,
 instead of doing nothing, it sends out a message called, feeling
 shy?</p>
-<p><img src="images/image243.webp"
-style="width:3in;height:1.6875in" /><img
-src="images/image244.webp"
-style="width:3in;height:1.6875in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 243/244.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border"
+  src="./images/image243.webp"
+  style="width:35%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<img class="border"
+  src="./images/image244.webp"
+  style="width:35%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<p style="clear: both;"></p>
+
 <p>We can do the same thing with our average. Where here instead of just
 doing nothing, instead of reading in those numbers and acting like
 nothing happened, if it's an empty array. We're going to add a little
@@ -4388,8 +4700,13 @@ nothing, we get the message Empty Array. I can't stress how important it
 is for you to play with this code. Make sure that you use the if to
 specify that single line of code, or that block of code, that you want
 to be executed.</p>
-<p><img src="images/image245.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 245.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image245.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Run this over and over again, find out where you tend to make your
 different little errors, either forgetting the parentheses, forgetting
 the curling blocks, doing things like that. Next, then add your else
@@ -4401,11 +4718,14 @@ rarely write code correctly the first time, so I don't want you to feel
 bad if as you start adding these more dynamic and advanced things to
 your code, if you run into a few problems. That just means you're
 learning. So good luck.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="wk3-05">3-05. Code With Me – Combining Loops &amp; Conditionals</h2>
-
-<p><img src="images/image246.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 246.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image246.webp"
+  alt="."
+  style="width:40%" />
 
 <p>Hi everybody, welcome back. It's time for another code with me. This
 is one of those situations where I really hope that you put down
@@ -4413,9 +4733,12 @@ whatever else you're doing, and really focus on writing your own code
 from scratch. I know it's easier when I provide the code for you and you
 follow along, but the real learning happens, when you make the mistakes
 that come along with coding by yourself.</p>
-
-<p><img src="images/image247.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 247.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image247.webp"
+  alt="."
+  style="width:40%" />
 
 <p>Let's think about some of the things we've been learning, and how you
 can incorporate them into a more complex situation. For instance, can
@@ -4426,24 +4749,39 @@ the very best answer for as many situations as possible?</p>
 <p>In today's example, we're going to build on the previous code where
 we took the average of an array. But now, we want to make our code a
 little bit better and a little bit smarter. Let's get started.</p>
-<p><img src="images/image248.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 248.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image248.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Here's the code we had earlier in this course. But I've made one very
 important change, it's right up here in the array. Instead of specifying
 a value for every single element, I've left some of them empty, or what
 we in JavaScript call undefined. The problem is now, when our code goes
 through and it adds every single element together to come up with the
 sum We get an error.</p>
-<p><img src="images/image249.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 249.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image249.webp"
+  alt="."
+  style="width:40%" />
+
 <p>If you check right down here. Your screen is going to say NaN. That
 stands for not a number, and it's something that may happen to you quite
 frequently when you're first coding, if you haven't thought about the
 logic very much. And it almost always happens when you're doing some
 math. Let's think about how we can fix this, and what kind of logic we
 need behind it.</p>
-<p><img src="images/image250.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 250.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image250.webp"
+  alt="."
+  style="width:40%" />
+
 <p>The first place I'm going to look is right here. And my reason is, we
 want to make sure that we're not adding everything into the sum, just
 the things that truly belong there. Only the things that are numbers. If
@@ -4471,8 +4809,13 @@ and then divide by the length of the array. But we don't actually want
 to do that, because there are a lot of empty elements up there. Let's
 change this, so that we're actually keeping track of how many elements
 are good, and only divide by them. Let's get started.</p>
-<p><img src="images/image251.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 251.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image251.webp"
+  alt="."
+  style="width:40%" />
+
 <p>The first thing I'm going to do is I'm going to add a new variable
 called count. What is this variable going to do? It's going to keep
 track of all the good values. So, when I go down here, every time I add
@@ -4488,8 +4831,13 @@ one, two, three oh good, now it lines up. That's not good enough. If you
 want two things to happen as part of your if statement, you have to
 remember to put in that extra curly bracket, because that says, oh, I
 want you to do both of these things.</p>
-<p><img src="images/image252.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 252.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image252.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Now we've done this, we're adding one to our count. We have one last
 place we need to change our code, and that's right down here. Instead of
 dividing by the length. We're going to divide by count. And there you
@@ -4505,12 +4853,20 @@ practice. Good luck.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="wk3-06">3-06. Advanced Conditionals</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p><img src="images/image253.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 253.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image253.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Earlier, we talked about how you can add if statements in order to
 affect the flow of control of your program.</p>
-<p><img src="images/image254.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 254.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image254.webp"
+  alt="."
+  style="width:40%" />
 
 <p>What you need to do is you go through, and you kind of circle those
 little decision points in your code where the computer needs to make a
@@ -4522,8 +4878,13 @@ value of another. I'm sure you can think of lots of everyday situations
 where, when you make decision, it depends on more that one thing. Even
 if you're going to go to a movie, you need to decide. Is the rating
 okay? And it is as much as I want to pay.</p>
-<p><img src="images/image255.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 255.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image255.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Let's talk about what we call nested If statements. It's possible to
 put one If statement inside of another. In this situation I have an If
 statement right up here and then I have my boolean expression in
@@ -4533,15 +4894,25 @@ case we have two blocks to our program. We have a big outer block, but
 we also have this kind of small inner block as well. Now, here's where
 the logic comes in, it's important for you to understand I will never
 get here. Ever, ever, unless both boolean expressions are true.</p>
-<p><img src="images/image256.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 256.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image256.webp"
+  alt="."
+  style="width:40%" />
+
 <p>The first thing I'm going to say before we even go on with this, is
 that it's so important that you think about your code, and you plan
 ahead. Because, as we start to make these more complicated or more
 complex decisions points, you want to make sure that your logic is
 correct.</p>
-<p><img src="images/image257.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 257.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image257.webp"
+  alt="."
+  style="width:40%" />
+
 <p>What about else statements. I talked before about how you can nest If
 statements inside of each other. Well, if you want to have an else
 statement along with those If statements its important again to think
@@ -4549,8 +4920,13 @@ about the logic. Because an else statement always matches the most
 recent open if statement. Indentation, where you put your code, whether
 you put an else directly below an if, has nothing to do with it as far
 as the computer is concerned. It's all about the curly brackets.</p>
-<p><img src="images/image258.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 258.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image258.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Let’s build on to that nested if we were doing before or that If
 statements we were doing with that name before. The difference is, well,
 earlier we were simply respond and say, Hi to whatever name they put on.
@@ -4568,12 +4944,22 @@ think about each of the different cases that might happen when we enter
 a name. And so I have my if, name, and again it's ==, not =, but ==.
 That's how you check for equivalence. If name == Colleen do one thing,
 else, do another.</p>
-<p><img src="images/image259.webp"
-style="width:4in;height:2.25in" /><img
-src="images/image260.webp"
-style="width:4in;height:2.25in" /></p>
-<p><img src="images/image261.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 259-261.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border"
+  src="./images/image259.webp"
+  style="width:20%; float: left; margin-left: 5%; margin-bottom: 1em;"
+  alt="." />
+<img class="border"
+  src="./images/image260.webp"
+  style="width:20%; float: left; margin-left: 5%; margin-bottom: 1em;"
+  alt="." />
+<img class="border"
+  src="./images/image261.webp"
+  style="width:20%; float: left; margin-left: 5%; margin-bottom: 1em;"
+  alt="." />
+<p style="clear: both;"></p>
+
 <p>Now the reason why this else statement right here matches this one is
 that it's the last one that's open. Because what we don't want to
 happen, is if someone enter in an empty name, we don't want this else to
@@ -4586,8 +4972,13 @@ time and I don't put anything in at all we get that last message of
 feeling shy? You can see that by adding these different if statements
 I've created different levels and different outputs depending on what
 the person put in.</p>
-<p><img src="images/image262.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 262.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image262.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Now, I want you to look closely again at this code one more time. As
 you can see, when I get to this statement. Let's say, right here. I'm
 basically saying that name.length isn't equal to zero and the name
@@ -4595,21 +4986,36 @@ equals Colleen. This statement down here, I'm basically saying the same
 thing as if name.length doesn't equal zero and the name doesn't equal
 Colleen. Each one of these bits of code could actually be written with
 more complex boolean expressions.</p>
-<p><img src="images/image263.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 263.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image263.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Let me show you what I mean. Right here, I've replaced my nested if
 statements and replaced them with much longer conditional statements.
 Much more specific. We might also say conditional statements. This code
 works and it's absolutely fine but it's much less efficient than nesting
 the different if statements. And here's the reason why.</p>
-<p><img src="images/image264.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 264.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image264.webp"
+  alt="."
+  style="width:40%" />
+
 <p>When the computer runs to this code, it does this if statement. If
 it's true, it executes the code, but then it still goes down and it
 checks this one and that one as well. We're not really doing flow of
 control as much as just checking one line at a time.</p>
-<p><img src="images/image265.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 265.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image265.webp"
+  alt="."
+  style="width:40%" />
+
 <p>In our previous example, if the computer sees that the name is empty,
 it skipped all this and it jumped all the way down here. In a similar
 manner, if the computer see's that this is true, it skips all the way
@@ -4617,8 +5023,13 @@ down here. When we write this flow of controls, in these small programs
 it may not seem like much, that we're skipping two or three lines of
 code. But you can imagine how in the long run it could really make a
 difference.</p>
-<p><img src="images/image266.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 266.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image266.webp"
+  alt="."
+  style="width:40%" />
+
 <p>What do I want you to do in this class? I want you to do whatever you
 are comfortable with. It is possible to create complex flow-of-control
 in a program using if, else, and different nested statements. It's also
@@ -4635,8 +5046,12 @@ I'll provide more so you can keep practicing. Good luck.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="wk3-07">3-07. Common Errors</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p><img src="images/image267.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 267.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image267.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Hi everybody, welcome back. One of the things I like to say is that
 if you're not messing up, you're not really programming. It's really
 important that you learn that trial and error is a crucial part to
@@ -4646,9 +5061,12 @@ make something green, and it's just not changing. You want to change the
 font size, and it's just not happening. And while it's frustrating, the
 nice part is that you can visually see your mistakes. You know something
 isn't working.</p>
-
-<p><img src="images/image268.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 268.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image268.webp"
+  alt="."
+  style="width:40%" />
 
 <p>However, when you are using JavaScript most of the time the browsers
 are just going to hide your errors. So, you don't even know that your
@@ -4656,9 +5074,12 @@ code isn't working unless you actually go in there and you look and you
 try to find the errors on your own.</p>
 <p>There are two classic types of errors in programming. They are called
 syntactic errors and logic errors.</p>
-
-<p><img src="images/image269.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 269.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image269.webp"
+  alt="."
+  style="width:40%" />
 
 <p>With syntactic errors, what you've done is you've broken some sort of
 rule of JavaScript. So, perhaps you typed something wrong. This might
@@ -4684,9 +5105,12 @@ of tools, they'll share them in the discussion board. Let me know. Let
 me update the course information. Because you're really at a
 disadvantage if you don't have that ability to look and seek out your
 errors.</p>
-
-<p><img src="images/image270.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 270.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image270.webp"
+  alt="."
+  style="width:40%" />
 
 <p>Now logical errors are a little bit different. Your code is valid,
 you followed all the rules, but maybe there's something wrong with the
@@ -4697,9 +5121,12 @@ the array was zero and so we had to put it in.</p>
 <p>Some logic errors really are just typos. They're just typos that run.
 So, let's look at some of the most common errors so I can try to help
 you kind of debug your code before you even do it.</p>
-
-<p><img src="images/image271.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 271.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image271.webp"
+  alt="."
+  style="width:40%" />
 
 <p>A few things I don't want you to forget. First, you need to realize
 that the number 5 is actually equal to the letter 5 as far as JavaScript
@@ -4727,9 +5154,12 @@ much guaranteed that you're also over 18. This is why, when you're
 writing your code, you want to just stop every once in a while, and make
 sure you're double checking each line as to what it's actually
 doing.</p>
-
-<p><img src="images/image272.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 272.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image272.webp"
+  alt="."
+  style="width:40%" />
 
 <p>Another very common source of frustration and sometimes outright
 anger with people is the + operator. You need to remember that the +
@@ -4754,9 +5184,12 @@ variables, plus strings to create a new string.</p>
 important that your else statements match the appropriate if. You also
 want to make sure that you never include semicolons inside the if
 itself.</p>
-
-<p><img src="images/image273.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 273.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image273.webp"
+  alt="."
+  style="width:40%" />
 
 <p>Let me show you an example. Right here, I have if (age &lt; 18);
 alert("Too young!");. This isn't going to do what you expect. If you
@@ -4766,9 +5199,12 @@ going to work. This semi-colon right here, eh, it's really bad. It
 counts as a statement. What you're really saying right here is, if age
 is less than 18, nothing. And then it will immediately go down to the
 next line. It's always going to say too young.</p>
-
-<p><img src="images/image274.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 274.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image274.webp"
+  alt="."
+  style="width:40%" />
 
 <p>In a very similar manner, I have a for loop over here, where I
 included a semi-colon. We're going to have that same exact error. What's
@@ -4779,9 +5215,12 @@ code and write out the number 5. I've put this code online, and I'd
 really love for you to take a look at it and kind of play with it, and
 help you recognize how these semi-colons can affect the flow of
 control.</p>
-
-<p><img src="images/image275.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 275.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image275.webp"
+  alt="."
+  style="width:40%" />
 
 <p>Whenever possible, I really encourage you to use that console. There
 have been so many times when I have wasted a lot of effort trying to fix
@@ -4835,17 +5274,26 @@ information when they are not.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="wk4-01">4-01. Simple Forms</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p><img src="images/image276.webp"
-style="width:4in;height:2.25in" /></p>
-<p><img src="images/image277.webp"
-style="width:4in;height:2.24786in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 276/277.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border"
+  src="./images/image276.webp"
+  style="width:35%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<img class="border"
+  src="./images/image277.webp"
+  style="width:35%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<p style="clear: both;"></p>
 
 <p>Hi, everybody. One place where you tend to see a lot of JavaScript
 used is when people are creating forms. Forms are a great way to let you
 give people the opportunity to send you feedback.</p>
-
-<p><img src="images/image279.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 279.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image279.webp"
+  alt="."
+  style="width:40%" />
 
 <p>Forms also add a new layer to what we call the Request-Response
 Cycle. So previously, we've had our phone, yeah, no one has an antenna
@@ -4867,8 +5315,13 @@ server. We aren't hooked up to servers in this class. You're just
 developing locally on your laptops. We can create the forms, but we
 can't really process them yet. The reason for this is that we're doing
 what's called front end web development.</p>
-<p><img src="images/image280.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 280.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image280.webp"
+  alt="."
+  style="width:40%" />
+
 <p>With front end development, you tend to think about what happens on
 that browser or client side. How we want things to look on your laptop,
 on your phone, on your tablet. We do this using our HTML and CSS in
@@ -4880,8 +5333,13 @@ of different things we can do at the back end. But in this class and in
 this lecture, we're only going to talk about the front end. We're going
 to talk about that HTML, CSS, and JavaScript that we use to put together
 a form.</p>
-<p><img src="images/image281.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 281.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image281.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Okay, so how do we make a form? Typically, you want to use at least
 three different HTML elements, the <strong>form</strong>, the
 <strong>label</strong>, and the <strong>input</strong>. The form tells a
@@ -4889,8 +5347,13 @@ browser, hey we're about to do a <strong>form</strong> and we're going
 to probably be processing some data, get ready. The
 <strong>label</strong> is what matches different text on the screen with
 the actual input that you can put in.</p>
-<p><img src="images/image282.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 282.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image282.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Let's start off by putting in the name. Here, I have
 <strong>&lt;label for='name'&gt;, type='text', id='name'.</strong> And
 then I do actually happen to have name='name'. It can get a little
@@ -4904,15 +5367,25 @@ important? Well, some people have a hard time navigating through forms,
 especially on their phone. By letting it set up, so that you can hit
 small pieces of text instead of just necessarily the buttons or check
 boxes, it's going to make their life much easier.</p>
-<p><img src="images/image283.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 283.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image283.webp"
+  alt="."
+  style="width:40%" />
+
 <p>By putting in label for='name', it lets the computer know that these
 two things are linked together. But we can actually link forms and
 labels in another way. In my second example, I skipped the whole for
 part and instead, how I made it work, because I said, hey, I've got a
 label tag, everything inside of here is all grouped together.</p>
-<p><img src="images/image284.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 284.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image284.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Now, I'm going to have one field for the name, one field for the
 email, and add one for the birthdate. It's easy to go through and be
 very consistent and add new inputs one at a time.</p>
@@ -4923,8 +5396,13 @@ input experience for the user. And, speaking of form attributes, the
 last thing we want to make sure we always have is input type='submit'.
 If you don't have this part right here, there's no way for anybody to
 actually send the form. So don't forget to include that.</p>
-<p><img src="images/image285.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 285.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image285.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Now that we have this code, let's see what it looks like on the
 browser. Here's how it would look on Chrome. I have my name, I have my
 three input fields. And if you notice, I have right here some sort of,
@@ -4932,36 +5410,62 @@ month, month, day, day, year, year, year. That's a nice little calendar
 function. If I look at the exact same page, the exact same code, but I
 look on it on Firefox, it's going to look a little bit different, that
 month, day, and year are gone. So let me show you this in real time.</p>
-<p><img src="images/image286.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 286.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image286.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Here's my form when I'm looking at it on Chrome. And you can see down
 here in the corner, I've got my name, and my email, and the
 birthdate.</p>
-<p><img src="images/image287.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 287.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image287.webp"
+  alt="."
+  style="width:40%" />
 <p>And when I click here inside birth, or inside here, I can have an
 entire calendar function pop up for me where I can say, oh, I want to
 pick February 13th, 2015, all right. And this is a really handy way for
 someone to be able to input data.</p>
-<p><img src="images/image288.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 288.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image288.webp"
+  alt="."
+  style="width:40%" />
+
 <p>But now, let's look at the same code but on Safari. You might notice
 that this isn't here anymore. There's no way for me to generate that
 calendar to pop up. All right, oops, I shouldn't have done that, but
 that's fine. And so, these are the little things that you need to
 consider when you're coding for multiple different types of
 browsers.</p>
-<p><img src="images/image289.webp"
-style="width:4in;height:2.25in" /></p>
-<p>You've seen a very simple form.</p>
-<p><img src="images/image290.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 289/290.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border"
+  src="./images/image289.webp"
+  style="width:35%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<img class="border"
+  src="./images/image290.webp"
+  style="width:35%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<p style="clear: both;"></p>
+
 <p>Let's talk about the different attributes these form elements can
 have. The first one is type. The next one is name. And the next one is
 id. These are the three attributes we're going to see the most so I want
 to cover them in a little bit more depth.</p>
-<p><img src="images/image291.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 291.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image291.webp"
+  alt="."
+  style="width:40%" />
+
 <p>For our input types, there's a long list of different things you
 might see in your field. You might see textfield, email, password, or
 radiobutton. Those are those circular things where you can only pick one
@@ -4970,8 +5474,13 @@ With a checkbox, you can click yes or no on multiple different elements.
 And finally, you're used to seeing the submit button. These are kind of
 the key input types that everyone would expect you to know how to use if
 you're a web developer.</p>
-<p><img src="images/image292.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 292.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image292.webp"
+  alt="."
+  style="width:40%" />
+
 <p>A few additional input types are number, range, color, date, and URL.
 Each one of these are very restrictive in what they let the user type
 in. If you have that something is a number, the form isn't going to
@@ -4987,13 +5496,23 @@ number, you'll get the number keypad instead of the character keypad.
 All of these different input types can help make your site act a little
 bit better to the user. Let's take a look at these just briefly on the
 website.</p>
-<p><img src="images/image293.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 293.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image293.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Here are each of those input types on a form and this going to go in
 and type in a few of them so you can see. If I type in my name, it's as
 you expect.</p>
-<p><img src="images/image294.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 294.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image294.webp"
+  alt="."
+  style="width:40%" />
+
 <p>But look what happen when I start typing in to the password. I'm
 going to write in Colleen. And instead, you're getting kind of masked or
 covered up. With radio buttons, I can only check one of the options, not
@@ -5005,8 +5524,13 @@ Color, if it's supported by the browser, when I click on it will
 actually give me a color wheel, the whole list of different things I can
 pick, all right? And finally, URL was the one where I said it's going to
 expect you to type HTTP.</p>
-<p><img src="images/image295.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 295.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image295.webp"
+  alt="."
+  style="width:40%" />
+
 <p>In addition to the input type, I mentioned there are two other
 attribute you want to make sure you understand. The first one is name.
 Almost every input type should have a name attribute associated with it.
@@ -5022,8 +5546,13 @@ you can make sure that when you click on the label, the right input
 value is kind of highlighted. The second reason of course is that we've
 been using id's with JavaScript all along and we want to make sure that
 we can continue to do that.</p>
-<p><img src="images/image296.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 296.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image296.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Two additional attributes because they're going to make our life
 easier, is one is value. When you have a value attribute, it's going to
 do different things depending upon which input type it's matched with.
@@ -5043,8 +5572,13 @@ usually I could gray out color. Something along the line of (123)
 456-7890. It's a suggestion, it's letting the person know what kind of
 input you're expecting. Now, as soon as somebody clicks in there, it's
 gone, so it's not permanent.</p>
-<p><img src="images/image297.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 297.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image297.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Let's review all the things we've learned about forms in this one
 short module. First, you need to know the HTML tags for creating forms.
 Once you create that basic form, then you'll be able to add the extra
@@ -5057,15 +5591,24 @@ Thanks.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="wk4-02">4-02. Simple Validation</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p><img src="images/image298.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 298.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image298.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Okay, everybody. Let's talk validation. Before we can validate input,
 we need to think ahead. We need to think what is it we want to validate
 on our form or on our page. And after you decide what you want to
 evaluate, you have to decide how are we going to do it? Because we
 always have a few different options.</p>
-<p><img src="images/image299.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 299.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image299.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Let's talk about what we might want to validate. One option is the
 type of input. Is it important to you that you get a number instead of a
 string? Or the format of the input. If you're asking of an email
@@ -5079,8 +5622,13 @@ may be what you're trying to validate. Should it be required? Do you
 want the person to have to put it in? Do you want to check to make sure
 that two email value match? These are the type of things I'm talking
 about when I say what to validate.</p>
-<p><img src="images/image300.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 300.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image300.webp"
+  alt="."
+  style="width:40%" />
+
 <p>When we talk about how we want to validate, here's where it can get a
 little bit more interesting. One option is to just use the new HTML5
 input types. So, email, number, url. They can actually force the person
@@ -5090,8 +5638,13 @@ are the things we'll cover in just a few minutes.</p>
 <p>The third option is to use custom JavaScript functions, code that
 you're going to write to make sure that they're entering only the
 information you're expecting.</p>
-<p><img src="images/image301.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 301.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image301.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Let's start with those new HTML5 input types. The input types require
 that the browser validate the input. Not you. You're putting it all on
 Chrome, Firefox, Edge, whatever it is you're using. When they're
@@ -5101,26 +5654,46 @@ that doesn't meet the rules and it puts it into focus. When it
 highlights that one it says, nope, you can't go any further. If it's not
 supported, then the input type just falls back to a plain text
 field.</p>
-<p><img src="images/image302.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 302.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image302.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Let's look at our early example of all the different input types, and
 I'll show you what I'm talking about. I've gone back to the form we used
 before. And I've put in some values for each of the different input
 types. I have Colleen, me, passwords, all those little things like
 that.</p>
-<p><img src="images/image303.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 303.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image303.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Now, because I used the email input type, this should fail as soon as
 I hit click here. Great. There you go. The browser, this is Chrome, said
 nope, you need to have that ampersand and a dot to make this work. No
 problem. I'll put it in. And once I've done that, I'm going to go down
 here to click here again.</p>
-<p><img src="images/image304.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 304.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image304.webp"
+  alt="."
+  style="width:40%" />
+
 <p>And the next thing it found that didn't fulfill that input type is
 now highlighted, or in focus as we call it. So, I can make this 3.</p>
-<p><img src="images/image305.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 305.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image305.webp"
+  alt="."
+  style="width:40%" />
+
 <p>The last one I'm going to click on is, it says sorry, this is not a
 valid URL. It's requiring me to put in http before we do that. Now when
 I click here, it's going to hopefully just refresh and we've submitted
@@ -5129,8 +5702,13 @@ if it’s not supported, and the input type is just text, that means in
 some browsers using the email tag, or the number tag, or the URL tag, it
 doesn't guarantee valid input because maybe the browser just doesn't
 support it.</p>
-<p><img src="images/image306.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 306.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image306.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Another step we can take instead of just using input types is to use
 input attributes. These are just additional attributes that tell the
 browser additional information. The required attribute essentially says,
@@ -5150,8 +5728,13 @@ field with a special attribute called <strong>novalidate</strong>.</p>
 attributes. It seems a little silly, but as you start programming,
 you're going to be really glad you know about this. Because it lets you
 test sometimes, and not test other times.</p>
-<p><img src="images/image307.webp"
-style="width:4in;height:2.25in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 307.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image307.webp"
+  alt="."
+  style="width:40%" />
+
 <p>Another attribute you can use is called <strong>pattern</strong>.
 <strong>Pattern</strong> only works with the input type equals text. And
 what it does is it forces the user to use a specific format when
@@ -5221,7 +5804,6 @@ add JavaScript if you want to ensure that the input is correct. Don't
 depend on the browsers. Don't get lazy. It's time for us to start
 looking at how you can start writing code to make everything more
 secure. Thanks.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="wk4-03">4-03. Comparing Two Inputs</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5535,9 +6117,12 @@ lecture I review the DOM and talk about how it is related to JavaScript.
 There is no code associated with this lecture, but if you check under
 the resources, I do include a link to site where you can find specifics
 on the DOM.</p>
-
-<p><img src="images/image308.webp"
-style="width:4in;height:2.26923in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 308.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image308.webp"
+  alt="."
+  style="width:40%" />
 
 <p>Hi everyone, let's do a couple Code With Me’s in a row just so you
 can start using your JavaScript to do things that are a little bit more
@@ -5545,22 +6130,40 @@ practical. I know that earlier I did a demo with you where we used
 arrays and we kind of picked out one or two elements from the arrays,
 but it wasn't really anything that had to do with web design so
 much.</p>
-<p><img src="images/image309.webp"
-style="width:4in;height:2.26923in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 309.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image309.webp"
+  alt="."
+  style="width:40%" />
+
 <p>In this example, what I'm going to show you how to do is how to
 randomize your pictures using JavaScript, so let's take a look. I'm
 going to refresh the page here to give you an idea of what I'm talking
 about. A</p>
-
-<p><img src="images/image310.webp"
-style="width:1in;height:1.2875in" /><img
-src="images/image311.webp"
-style="width:1in;height:1.2875in" /><img
-src="images/image312.webp" style="width:1in;height:1.2875in" />
-<img src="images/image313.webp"
-style="width:1in;height:1.2875in" /> <img
-src="images/image314.webp"
-style="width:1in;height:1.2875in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 310-314.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border"
+  src="./images/image310.webp"
+  style="width:10%; float: left; margin-left: 5%; margin-bottom: 1em;"
+  alt="." />
+<img class="border"
+  src="./images/image311.webp"
+  style="width:10%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<img class="border"
+  src="./images/image312.webp"
+  style="width:10%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<img class="border"
+  src="./images/image313.webp"
+  style="width:10%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<img class="border"
+  src="./images/image314.webp"
+  style="width:10%; float: left; margin-left: 10%; margin-bottom: 1em;"
+  alt="." />
+<p style="clear: both;"></p>
 
 <p>And what I'd like you to do is keep an eye on this one image up here
 in the corner each time I load the page. This time I've got a picture
@@ -5571,33 +6174,46 @@ that, I didn't get any image at all. Do it one more time and I've got
 that kind of pink tree again. What I've done is I've written code in
 JavaScript that will pick an image randomly from an array of image
 names.</p>
-
-<p><img src="images/image315.webp"
-style="width:4in;height:2.28846in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 315.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image315.webp"
+  alt="."
+  style="width:40%" />
 
 <p>Let's code this together. Let's start with the HTML code. Right here
 on line 11 I want you to notice that I've put in an event and a
 function. And I've said when the body of the page loads, I want you to
 run the function <strong>pickImage()</strong>, all right?</p>
-
-<p><img src="images/image316.webp"
-style="width:4in;height:2.28846in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 316.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image316.webp"
+  alt="."
+  style="width:40%" />
 
 <p>And just to double check, I'm going to scroll all the way to the
 bottom of the screen and you can see that I've remembered to include a
 link to my JavaScript file that has that function. Let's pop back up to
 the top. What is pickImage going to do? Well, pickImage.</p>
-
-<p><img src="images/image317.webp"
-style="width:4in;height:2.28846in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 317.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image317.webp"
+  alt="."
+  style="width:40%" />
 
 <p>PickImage is going to go to this image element right here, the one
 with the <strong>id = header_img</strong> and it is going to update the
 source to basically a somewhat random image. Let's see how we do this in
 the JavaScript file.</p>
 
-<p><img src="images/image318.webp"
-style="width:4in;height:2.28846in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 318.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image318.webp"
+  alt="."
+  style="width:40%" />
 
 <p>The function <strong>pickImage</strong> starts off with an array that
 I have called <strong>options</strong>. And what I did is I went through
@@ -5605,9 +6221,12 @@ many of the images in my folder, but not all of them and just put them
 in as strings, so I have “bacon_in_the_woods.webp”, “munising”,
 “bend_in_the_road.webp”. And I have 1, 2, 3, 4, 5 different images to
 choose from.</p>
-
-<p><img src="images/image319.webp"
-style="width:4in;height:2.28846in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 319.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image319.webp"
+  alt="."
+  style="width:40%" />
 
 <p>Again, where did I get those images from? Well, I just peeked over
 here in my Images folder and I picked some randomly.</p>
@@ -5655,7 +6274,7 @@ refresh. Did you notice something, did you notice that the image is
 missing? This happened earlier too, when I was doing my demo, there's no
 picture there, so let's head over to the console. And in the console,
 you will see that I get the error that “Munising” actually just isn't
-found. “images/Munising” isn't found, it's a 404 error. Okay, well, I
+found. "images/Munising" isn't found, it's a 404 error. Okay, well, I
 must have had a typo somewhere, so let's go back into my code and we'll
 investigate the script, that JS file.</p>
 <p>Here we are in line 2, and we can see that yep, I forgot to include
@@ -5670,9 +6289,12 @@ applications to you applying JavaScript to your page. And it only takes
 few lines of code to do something that will make your page a little bit
 more unique. Have some fun with this and get your hands dirty, use that
 Inspect Element, and good luck.</p>
-
-<p><img src="images/image320.webp"
-style="width:4in;height:2.26923in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 320.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image320.webp"
+  alt="."
+  style="width:40%" />
 
 <p>Something I say often about my Web Design for Everybody classes is
 that it's unlikelythat you're going to go off and become a professional
@@ -5792,9 +6414,12 @@ connected. But mostly realize how little code it took for me to take
 something that I've created and kind of bump it up a notch by using code
 that somebody else created. That's really what the web is about. All of
 us working together to create things that we can all enjoy.</p>
-
-<p><img src="images/image321.webp"
-style="width:4in;height:2.26923in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 321.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image321.webp"
+  alt="."
+  style="width:40%" />
 
 <p>Hi everyone. Earlier we did a Code With Me where we wanted to make
 one image, a random image. Now, let's talk about what we would do if we
@@ -5948,39 +6573,39 @@ approaches.</p>
 </ol>
 
 <ul>
-<li><p>There are at least six images</p></li>
-<li><p>Each image has unique alternative text</p></li>
-<li><p>When the mouse is over a smaller image the large image is updated
-with the alt text.</p></li>
-<li><p>When the smaller image is in focus the large image is updated
-with the alt text.</p></li>
-<li><p>When the mouse is over a smaller image the large image is updated
-with the proper background image.</p></li>
-<li><p>When the smaller image is in focus the large image is updated
-with the proper background image.</p></li>
-<li><p>When the mouse is removed from a smaller image the large image is
-updated with the original text.  (Hardcoding is expected here.)</p></li>
-<li><p>When the focus is removed from the  smaller image (when it is in
-the blur state) the large image is updated with the original text. 
-(Hardcoding is expected here.)</p></li>
-<li><p>When the mouse is removed from a smaller image the background for
-the large image is updated to an empty URL.  (Hardcoding is expected
-here.)</p></li>
-<li><p>When the focus is removed from the  smaller image (when it is in
-the blur state) the background for the large image is updated to an
-empty URL.  (Hardcoding is expected here.)</p></li>
-<li><p>The tabindex property was added using JavaScript, not hardcoded
-into the HTML.</p></li>
-<li><p>The site returns no errors from the <a
-href="https://validator.w3.org/">The W3C Markup Validation Service
-Tool</a></p></li>
-<li><p>The site returns no errors from the <a
-href="https://wave.webaim.org/">WAVE Web Accessibility Evaluation
-Tool</a></p></li>
+  <li><p>There are at least six images</p></li>
+  <li><p>Each image has unique alternative text</p></li>
+  <li><p>When the mouse is over a smaller image the large image is updated with 
+    the alt text.</p></li>
+  <li><p>When the smaller image is in focus the large image is updated with the 
+    alt text.</p></li>
+  <li><p>When the mouse is over a smaller image the large image is updated with 
+    the proper background image.</p></li>
+  <li><p>When the smaller image is in focus the large image is updated with the 
+    proper background image.</p></li>
+  <li><p>When the mouse is removed from a smaller image the large image is updated 
+    with the original text.  (Hardcoding is expected here.)</p></li>
+  <li><p>When the focus is removed from the  smaller image (when it is in the blur 
+    state) the large image is updated with the original text. (Hardcoding is expected 
+	here.)</p></li>
+  <li><p>When the mouse is removed from a smaller image the background for the large 
+    image is updated to an empty URL.  (Hardcoding is expected here.)</p></li>
+  <li><p>When the focus is removed from the  smaller image (when it is in the blur 
+    state) the background for the large image is updated to an empty URL. (Hardcoding 
+	is expected here.)</p></li>
+  <li><p>The tabindex property was added using JavaScript, not hardcoded into the 
+    HTML.</p></li>
+  <li><p>The site returns no errors from the <a href="https://validator.w3.org/">
+    The W3C Markup Validation Service Tool</a></p></li>
+  <li><p>The site returns no errors from the <a href="https://wave.webaim.org/">
+    WAVE Web Accessibility Evaluation Tool</a></p></li>
 </ul>
-
-<p><img src="images/image322.webp"
-style="width:4in;height:2.26923in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 322.  (1xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image322.webp"
+  alt="."
+  style="width:40%" />
 
 <p>Hi everyone. Let's talk about the final project. In an earlier
 assignment, you added the ability to hover over images and display their
