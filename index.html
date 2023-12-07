@@ -6,7 +6,6 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
   <meta charset="utf-8" />
   <link rel="shortcut icon" type="image/jpg" href="./images/favicon.ico"/>
-  <meta name="generator" content="pandoc" />
   <meta name="title" content="University of Michigan: Interactivity of JavaScript"/>
   <meta name="description" content="University of Michigan: Interactivity of JavaScript. 
     JavaScript has a lot of uses, but we're really going to focus on how we can use 
@@ -215,11 +214,18 @@
 </script>
 
 <h1 style="text-align:center;">Interactivity with JavaScript</h1>
+<h6 style="text-align:center;">taught by Colleen van Lent, PhD."</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~ 01. course introduction: interactivity with javascript (01) ~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 01. javascript at u of michigan logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
   src="./assets/images/image001.webp"
-  alt="."
+  alt="JavaScript at U of Michigan logo."
+  style="width:20%" />
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. u of michigan logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./assets/images/image001.webp"
+  alt="U of Michigan logo."
   style="width:40%" />
   
 <h2 style="text-align:left" id="table-of-contents"><a href="#table-of-contents">Table of Contents</a></h2>
@@ -227,6 +233,7 @@
 <h2><a href="#ch1"><strong>Week 1: Data Types</strong></a></h2>
 
 <blockquote>
+<h3><a href="#about">About this Course</a></h3>
 <h3>1.01 <a href="#ch1-01"><strong>Introduction</strong></a></h3>
 <h3>1.02 <a href="#ch1-02"><strong>DOM Review with Object Oriented Programming</strong></a></h3>
 <h3>1.03 <a href="#ch1-03"><strong>Output</strong></a></h3>
@@ -253,7 +260,6 @@
 <blockquote>
 <h3>3.01 <a href="#ch3-01"><strong>JavaScript Arrays</strong></a></h3>
 <h3>3.02 <a href="#ch3-02"><strong>Code With Me - Arrays</strong></a></h3>
-<h3>3.03 <a href="#ch3-03"><strong>lesson 3</strong></a></h3>
 </blockquote>
 
 <h2><a href="#ch4"><strong>Week 4: Using JS for Interactive Images</strong></a></h2>
@@ -278,14 +284,12 @@ target="_blank" rel="noopener noreferrer">Coursera: IBM Intermediate Web &amp; F
 </header>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. javascript logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
   src="./images/image001a.webp"
   alt="JavaScript logo." 
   style="width:15%" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. university of michigan logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
   src="./images/image002.webp"
   alt="University of Michigan logo." 
@@ -302,52 +306,52 @@ target="_blank" rel="noopener noreferrer">Coursera: IBM Intermediate Web &amp; F
 <h3><a href="#wk3">Week Three: Arrays and Looping</a></h3>
 <h3><a href="#wk4">Week Four: Validating Form Data</a></h3>
 
-<p><a href="#wk1-01">Week 1-01. Introduction</a></p>
-<p><a href="#wk1-code">Link to All of the Code for Week One</a></p>
-<p><a href="#wk1-dom">The Document Object Model (DOM)</a></p>
-<p><a href="#wk1-examples">Examples:</a></p>
-<p><a href="#wk1-02">Week 1-02. DOM Review with Object Oriented Programming</a></p>
-<p><a href="#wk1-03">Week 1-03. Output</a></p>
-<p><a href="#wk1-debug">Trying to Create and Debug Your Own Output</a></p>
-<p><a href="#wk1-04">Week 1-04. Variables</a></p>
-<p><a href="#wk1-05">Week 1-05. Data Types</a></p>
-<p><a href="#wk1-06">Week 1-06. Operators &amp; Expressions</a></p>
-<p><a href="#wk1-history">The History of "Debugging"</a></p>
+<h3><a href="#wk1-01">Week 1-01. Introduction</a></h3>
+<h3><a href="#wk1-code">Link to All of the Code for Week One</a></h3>
+<h3><a href="#wk1-dom">The Document Object Model (DOM)</a></h3>
+<h3><a href="#wk1-examples">Examples:</a></h3>
+<h3><a href="#wk1-02">Week 1-02. DOM Review with Object Oriented Programming</a></h3>
+<h3><a href="#wk1-03">Week 1-03. Output</a></h3>
+<h3><a href="#wk1-debug">Trying to Create and Debug Your Own Output</a></h3>
+<h3><a href="#wk1-04">Week 1-04. Variables</a></h3>
+<h3><a href="#wk1-05">Week 1-05. Data Types</a></h3>
+<h3><a href="#wk1-06">Week 1-06. Operators &amp; Expressions</a></h3>
+<h3><a href="#wk1-history">The History of "Debugging"</a></h3>
 
-<p><a href="#wk2-code">Link to All of the Code for Week Two</a></p>
-<p><a href="#wk2-functions">Functions</a></p>
-<p><a href="#wk2-01">Week 2-01. Functions</a></p>
-<p><a href="#wk2-02">Week 2-02. Code Placement</a></p>
-<p><a href="#wk2-03">Week 2-03. Folder Structure / Organizing Your Code</a></p>
-<p><a href="#wk2-04">Week 2-04. Events</a></p>
-<p><a href="#wk2-mastering-events-and-functions">Mastering Events and Functions</a></p>
-<p><a href="#wk2-events">Events</a></p>
-<p><a href="#wk2-05">Week 2-05. Code With Me – Events</a></p>
-<p><a href="#wk2-06">Week 2-06. "this"</a></p>
-<p><a href="#wk2-homework">Homework Time!!</a></p>
-<p><a href="#wk2-07">Week 2-07. Photo Gallery</a></p>
+<h3><a href="#wk2-code">Link to All of the Code for Week Two</a></h3>
+<h3><a href="#wk2-functions">Functions</a></h3>
+<h3><a href="#wk2-01">Week 2-01. Functions</a></h3>
+<h3><a href="#wk2-02">Week 2-02. Code Placement</a></h3>
+<h3><a href="#wk2-03">Week 2-03. Folder Structure / Organizing Your Code</a></h3>
+<h3><a href="#wk2-04">Week 2-04. Events</a></h3>
+<h3><a href="#wk2-mastering-events-and-functions">Mastering Events and Functions</a></h3>
+<h3><a href="#wk2-events">Events</a></h3>
+<h3><a href="#wk2-05">Week 2-05. Code With Me – Events</a></h3>
+<h3><a href="#wk2-06">Week 2-06. "this"</a></h3>
+<h3><a href="#wk2-homework">Homework Time!!</a></h3>
+<h3><a href="#wk2-07">Week 2-07. Photo Gallery</a></h3>
 
-<p><a href="#wk3-code">Link to All of the Code for Week Three</a></p>
-<p><a href="#arrays">Arrays</a></p>
-<p><a href="#resources">Resources</a></p>
-<p><a href="#readings">Readings</a></p>
-<p><a href="#code">Code</a></p>
-<p><a href="#a-javascript-cheat-sheet">A JavaScript Cheat Sheet</a></p>
-<p><a href="#tabindex-and-accessibility">Tabindex and Accessibility</a></p>
-<p><a href="#using-javascript-with-attributes">Using JavaScript with Attributes</a></p>
-<p><a href="#getattribute">getAttribute <span>104</span></a></p>
-<p><a href="#setattribute">setAttribute <span>105</span></a></p>
-<p><a href="#arrays-1">Arrays <span>105</span></a></p>
-<p><a href="#wk3-01">Week 3-01. JavaScript Arrays <span>106</span></a></p>
-<p><a href="#wk3-02">Week 3-02. Code With Me – Arrays</a></p>
+<h3><a href="#wk3-code">Link to All of the Code for Week Three</a></h3>
+<h3><a href="#arrays">Arrays</a></h3>
+<h3><a href="#resources">Resources</a></h3>
+<h3><a href="#readings">Readings</a></h3>
+<h3><a href="#code">Code</a></h3>
+<h3><a href="#a-javascript-cheat-sheet">A JavaScript Cheat Sheet</a></h3>
+<h3><a href="#tabindex-and-accessibility">Tabindex and Accessibility</a></h3>
+<h3><a href="#using-javascript-with-attributes">Using JavaScript with Attributes</a></h3>
+<h3><a href="#getattribute">getAttribute <span>104</span></a></h3>
+<h3><a href="#setattribute">setAttribute <span>105</span></a></h3>
+<h3><a href="#arrays-1">Arrays <span>105</span></a></h3>
+<h3><a href="#wk3-01">Week 3-01. JavaScript Arrays <span>106</span></a></h3>
+<h3><a href="#wk3-02">Week 3-02. Code With Me – Arrays</a></h3>
 
-<p><a href="#advanced-coding-techniques">Advanced Coding Techniques</a></p>
-<p><a href="#wk4-01">Week 4-01. Code With Me: Randomizing Your Images Using Arrays</a></p>
-<p><a href="#wk4-02">Week 4-02. Code With Me: Using LightBox</a></p>
-<p><a href="#wk4-03">Week 4-03. Code With Me: Looping Through Images</a></p>
-<p><a href="#wk4-cool">"Cool Stuff" - Friend or Foe?</a></p>
-<p><a href="#wk4-04">Week 4-04. Final Project Description</a></p>
-<p><a href="#wk4-05">Week 4-05. Conclusion</a></p>
+<h3><a href="#advanced-coding-techniques">Advanced Coding Techniques</a></h3>
+<h3><a href="#wk4-01">Week 4-01. Code With Me: Randomizing Your Images Using Arrays</a></h3>
+<h3><a href="#wk4-02">Week 4-02. Code With Me: Using LightBox</a></h3>
+<h3><a href="#wk4-03">Week 4-03. Code With Me: Looping Through Images</a></h3>
+<h3><a href="#wk4-cool">"Cool Stuff" - Friend or Foe?</a></h3>
+<h3><a href="#wk4-04">Week 4-04. Final Project Description</a></h3>
+<h3><a href="#wk4-05">Week 4-05. Conclusion</a></h3>
 
 <h1 id="section"></h1>
 
@@ -376,8 +380,7 @@ styling with responsive design and completing a capstone project.</p>
 
 <h1 id="syllabus">Syllabus</h1>
 
-<h2 id="week-one-introduction-to-javascript">Week One: Introduction to
-JavaScript</h2>
+<h2 id="wk1-01">Week One: Introduction to JavaScript</h2>
 
 <p>If you haven't used a traditional programming language before, this
 first week is key. Before we begin with the how, we will talk about the
@@ -389,39 +392,46 @@ quickly into different ways we can generate output. It won't be flashy
 yet, but it will be a great way to get your feet wet with traditional
 programming. After that we go back to the basics of how a computer uses
 data. We begin with variables, expressions, and operators.</p>
+
 <blockquote>
-<p><strong>Syllabus</strong></p>
+<h3><strong>Syllabus</strong></h3>
 </blockquote>
+
 <ol type="1">
-<li><p><strong><a
-href="https://www.coursera.org/lecture/javascript/introduction-EYX66">Introduction</a>*
-(1)</strong></p></li>
+  <li><h3><strong><a href="https://www.coursera.org/lecture/javascript/introduction-EYX66">
+    Introduction</a>*(1)</strong></h3></li>
 </ol>
+
 <blockquote>
-<p><strong>Link to All of the Code for Week One</strong></p>
-<p><strong>The Document Object Model (DOM)</strong></p>
+<h3><strong>Link to All of the Code for Week One</strong></h3>
+<h3><strong>The Document Object Model (DOM)</strong></h3>
 </blockquote>
+
 <ol start="2" type="1">
-<li><p><strong>DOM Review with Object Oriented Programming*
-(2)</strong></p></li>
-<li><p><strong>Output* (3)</strong></p></li>
+  <li><h3><strong>DOM Review with Object Oriented Programming* (2)</strong></h3></li>
+  <li><h3><strong>Output* (3)</strong></h3></li>
 </ol>
+
 <blockquote>
-<p><strong>Trying to Create and Debug Your Own Output</strong></p>
+<h3><strong>Trying to Create and Debug Your Own Output</strong></h3>
 </blockquote>
+
 <ol start="4" type="1">
-<li><p><strong>Variables* (4)</strong></p></li>
-<li><p><strong>Data Types* (5)</strong></p></li>
-<li><p><strong>Operators and Expressions* (6)</strong></p></li>
+  <li><h3><strong>Variables* (4)</strong></h3></li>
+  <li><h3><strong>Data Types* (5)</strong></h3></li>
+  <li><h3><strong>Operators and Expressions* (6)</strong></h3></li>
 </ol>
+
 <blockquote>
-<p><strong>Discussion - CodePen</strong></p>
-<p><strong>Materials</strong></p>
-<p><strong>The History of "Debugging"</strong></p>
+<h3><strong>Discussion - CodePen</strong></h3>
+<h3><strong>Materials</strong></h3>
+<h3><strong>The History of "Debugging"</strong></h3>
 </blockquote>
-<p><strong>Summary: </strong>Week One</p>
-<h2 id="week-two-reacting-to-your-audience">Week Two: Reacting to Your
-Audience</h2>
+
+<h3><strong>Summary: </strong>Week One</h3>
+
+<h2 id="wk2">Week Two: Reacting to Your Audience</h2>
+
 <p>If you have written HTML code in the past, hopefully you have fallen
 into the great habit of validating your code -- making sure that you
 close all of your open tags. There are other rules that you may or may
@@ -433,111 +443,124 @@ based on the actions of the person interacting with your page. In
 particular you will learn about the JavaScript Mouse Events and Touch
 Events. This week's materials will end with a photo gallery example that
 you can create along with me.</p>
+
 <blockquote>
-<p><strong>Reading: Link to All of the Code for Week Two</strong></p>
-<p><strong>Reading: Functions</strong></p>
+<h3><strong>Reading: Link to All of the Code for Week Two</strong></h3>
+<h3><strong>Reading: Functions</strong></h3>
 </blockquote>
+
 <ol type="1">
-<li><p><strong><a
-href="https://www.coursera.org/lecture/javascript/functions-Ltkbl">Functions</a>*
-(1)</strong></p></li>
-<li><p><strong>Code Placement* (2)</strong></p></li>
+  <li><h3><strong><a href="https://www.coursera.org/lecture/javascript/functions-Ltkbl">
+    Functions</a>* (1)</strong></h3></li>
+  <li><h3><strong>Code Placement* (2)</strong></h3></li>
 </ol>
+
 <blockquote>
-<p><strong>Reading: Organizing Your Code</strong></p>
+<h3><strong>Reading: Organizing Your Code</strong></h3>
 </blockquote>
+
 <ol start="3" type="1">
-<li><p><strong>Folder Structure / Organizing Your Code*
-(3)</strong></p></li>
-<li><p><strong>Events* (4)</strong></p></li>
+  <li><h3><strong>Folder Structure / Organizing Your Code* (3)</strong></h3></li>
+  <li><h3><strong>Events* (4)</strong></h3></li>
 </ol>
+
 <blockquote>
-<p><strong>Reading: Mastering Events and Functions</strong></p>
+<h3><strong>Reading: Mastering Events and Functions</strong></h3>
 </blockquote>
+
 <ol start="5" type="1">
-<li><p><strong>Code With Me – Events* (5)</strong></p></li>
+  <li><h3><strong>Code With Me – Events* (5)</strong></h3></li>
 </ol>
+
 <blockquote>
-<p><strong>Reading: Just a little note before the next
-video</strong></p>
+<h3><strong>Reading: Just a little note before the next
+video</strong></h3>
 </blockquote>
+
 <ol start="6" type="1">
-<li><p><strong>"this"* (6)</strong></p></li>
+  <li><h3><strong>"this"* (6)</strong></h3></li>
 </ol>
+
 <blockquote>
-<p><strong>Reading: Homework Time!!</strong></p>
+<h3><strong>Reading: Homework Time!!</strong></h3>
 </blockquote>
+
 <ol start="7" type="1">
-<li><p><strong>Photo Gallery* (7)</strong></p></li>
+  <li><h3><strong>Photo Gallery* (7)</strong></h3></li>
 </ol>
-<p><strong>Summary: </strong>JavaScript Interactive Photo Gallery</p>
-<h2 id="week-three-arrays-and-looping">Week Three: Arrays and
-Looping</h2>
+
+<h3><strong>Summary: </strong>JavaScript Interactive Photo Gallery</h3>
+
+<h2 id="wk3">Week Three: Arrays and Looping</h2>
+
 <p>This week we will delve into more complex programming concepts:
 arrays and looping. Arrays allow you to represent groups of related
 information. Looping provides efficiency and flexibility to your
 programs. Using both we will expand upon the photo gallery example.</p>
+
 <blockquote>
 <p><strong>Reading: Link to All of the Code for Week Three</strong></p>
 <p><strong>Reading: A JavaScript Cheat Sheet</strong></p>
 <p><strong>Reading: Arrays</strong></p>
 </blockquote>
+
 <ol type="1">
-<li><p><strong><a
-href="https://www.coursera.org/lecture/javascript/javascript-arrays-g8N8v">Video: JavaScript
-Arrays</a>* (1)</strong></p></li>
-<li><p><strong>Video: Code With Me – Arrays* (2)</strong></p></li>
+  <li><p><strong><a href="https://www.coursera.org/lecture/javascript/javascript-arrays-g8N8v">
+    Video: JavaScript Arrays</a>* (1)</strong></p></li>
+  <li><p><strong>Video: Code With Me – Arrays* (2)</strong></p></li>
 </ol>
+
 <blockquote>
 <p><strong>Reading: Advanced Coding Techniques</strong></p>
 </blockquote>
-<ol start="3" type="1">
-<li><p><strong>Video: JavaScript Iteration* (3)</strong></p></li>
-<li><p><strong>Video: Flow Of Control* (4)</strong></p></li>
-<li><p><strong>Video: Code With Me - Combining Loops and Conditionals*
-(5)</strong></p></li>
-<li><p><strong>Video: Advanced Conditionals* (6)</strong></p></li>
-<li><p><strong>Video: Common Errors* (7)</strong></p></li>
-</ol>
+
 <p><strong>Summary: </strong>JavaScript Review</p>
-<h2 id="week-four-validating-form-data">Week Four: Validating Form
-Data</h2>
+
+<h2>Week Four: Validating Form Data</h2>
+
 <p>This week we will put a number of the concepts from this course
 together to tackle a new project - creating and validating input entered
 into an HTML5 form. Forms are extremely common elements used to input
 and send data to via a webpage. We will look at how you can use
 JavaScript to add options to your forms, to pre-fill data based on
 previous input, and even to check that passwords match.</p>
+
 <blockquote>
 <p><strong>Reading: </strong>Link to All of the Code for Week Four</p>
 <p><strong>Reading: </strong>Introduction to Forms</p>
 </blockquote>
+
 <ol type="1">
-<li><p><a
-href="https://www.coursera.org/lecture/javascript/simple-forms-2VjBX"><strong>Video: </strong>Simple
-Forms</a>* (1)</p></li>
-<li><p><strong>Video: </strong>Simple Validation* (2)</p></li>
+  <li><p><a href="https://www.coursera.org/lecture/javascript/simple-forms-2VjBX">
+    <strong>Video: </strong>Simple Forms</a>* (1)</p></li>
+  <li><p><strong>Video: </strong>Simple Validation* (2)</p></li>
 </ol>
+
 <blockquote>
 <p><strong>Reading: </strong>"Cool Stuff" - Friend or Foe?</p>
 </blockquote>
+
 <ol start="3" type="1">
 <li><p><strong>Video: </strong>Comparing Two Inputs* (3)</p></li>
 <li><p><strong>Video: </strong>Checkboxes and Radio Buttons*
 (4)</p></li>
 </ol>
+
 <blockquote>
 <p><strong>Reading: </strong>Using Forms on Your Site</p>
 <p><strong>Reading: </strong>More Code Examples</p>
 </blockquote>
+
 <ol start="5" type="1">
-<li><p><strong>Video: </strong>Conclusion* (5)</p></li>
+  <li><p><strong>Video: </strong>Conclusion* (5)</p></li>
 </ol>
+
 <blockquote>
 <p><strong>Reading: </strong>Intro to JQuery</p>
 <p><strong>Reading: </strong>Post-course Survey</p>
 <p><strong>Reading: </strong>Keep Learning with Michigan Online</p>
 </blockquote>
+
 <p><strong>Summary: </strong>Autocomplete with JavaScript</p>
 <p><strong>Welcome to Introduction to JavaScript</strong>, taught by
 Colleen van Lent!</p>
@@ -558,30 +581,30 @@ page when special events happen (sometimes a good idea), and validate
 form data (always a good idea). To be completely honest, there are so
 many things that we can do with JavaScript we can't possibly cover them
 all in the time we have. We will focus on the following:</p>
+
 <ul>
-<li><p>How to create output with JavaScript. This could be with pop up
-boxes, adding content to your page, or sending information to the
-browser console to help you fix ("debug") your code.</p></li>
-<li><p>How JavaScript uses variables and data types to save your data.
-This is a powerful and important concept because it lets you save
-information to use over and over again.</p></li>
-<li><p>How to write functions to react to events. You will be able to
-write code that only runs when special events occur. Because we want to
-add interactivity, we will make sure to use special DOM events that
-react to mouse clicks and movement.</p></li>
-<li><p>Why arrays are an important part of any programming language and
-how to use them to store multiple pieces of information in one
-variable.</p></li>
-<li><p>How to create and validate HTML forms.</p></li>
+  <li><p>How to create output with JavaScript. This could be with pop up boxes, 
+    adding content to your page, or sending information to the browser console 
+	to help you fix ("debug") your code.</p></li>
+  <li><p>How JavaScript uses variables and data types to save your data. This is 
+    a powerful and important concept because it lets you save information to use 
+	over and over again.</p></li>
+  <li><p>How to write functions to react to events. You will be able to write code 
+    that only runs when special events occur. Because we want to add interactivity, 
+	we will make sure to use special DOM events that react to mouse clicks and movement.</p></li>
+  <li><p>Why arrays are an important part of any programming language and how to 
+    use them to store multiple pieces of information in one variable.</p></li>
+  <li><p>How to create and validate HTML forms.</p></li>
 </ul>
+
 <h1 id="section-1"></h1>
-<h2 id="week1-01">1-01. Introduction</h2>
+
+<h2 id="wk1-01">1-01. Introduction</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. introduction (1-01) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. introduction (1-01) (05) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
   src="./images/image003.webp"
-  alt="University of Michigan logo." 
+  alt="." 
   style="width:40%" />
 
 <p>Hi everybody. Today I'm going to introduce you to the JavaScript
@@ -593,29 +616,24 @@ you're really going to want to go back and review those two areas
 because everything we with JavaScript in this class is based on web
 programming.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. what you can do (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. what you can do with it (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
   src="./images/image004.webp" 
-  alt="What You Can Do." 
+  alt="What You Can Do With It." 
   style="width:40%" />
 
-<p>Let's get started. If you've done HTML, if you've done CSS, you
-haven't necessarily done what we call real programming, at least not
-what us computer scientists call real programming. Instead, we're going
-to be talking in JavaScript about really definite data manipulation, and
-in order to do that, there are a few things you need to learn how to do.
-The first is, you want to learn how to store variables. You're going to
-want to learn how to set decision points, you're going to be looping and
-writing functions, you're also going to be really getting in-depth with
-how you can get data from the browser.</p>
-<p>Did you know that every time you load a web page, you can actually
-get back the title of the page, the URL of your page, a lot of different
-information that you know is there, but you can't always see at first
-glance?</p>
+<p>If you've done HTML, if you've done CSS, you haven't necessarily done what we 
+call real programming, at least not what us computer scientists call real programming. 
+Instead, we're going to be talking in JavaScript about really definite data manipulation, 
+and in order to do that, there are a few things you need to learn how to do. The 
+first is, you want to learn how to store variables. You're going to want to learn 
+how to set decision points, you're going to be looping and writing functions, you're 
+also going to be really getting in-depth with how you can get data from the browser.</p>
+<p>Did you know that every time you load a web page, you can actually get back 
+the title of the page, the URL of your page, a lot of different information that 
+you know is there, but you can't always see at first glance?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. what you can do, #2 (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. what you can do with it, #2 (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
   src="./images/image005.webp" 
   alt="What You Can Do, #2." 
@@ -627,11 +645,10 @@ to create webpages. The DOM is the Document Object Model, it's what
 builds up a webpage. If you're a little fuzzy, it's been a little while,
 don't worry. We're going to review the DOM in a future lecture.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. variables (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. variables (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
   src="./images/image006.webp" 
-  alt="Variables." 
+  alt="Variables: Store data and refer back to it later." 
   style="width:40%" />
 
 <p>Let's start with variables. In computer science, we use variables in
@@ -640,28 +657,23 @@ if you ask somebody their name and then you can't actually use that name
 later on. You're going to find out how to get information from the user,
 and then store it so you can use it later.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. decision points (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. decision points (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
   src="./images/image007.webp" 
-  alt="Decision Points." 
+  alt="Decision Points: use control statements."
   style="width:40%" />
 
-<p>We're also going to add decision points. Things are much more
-interesting when they don't do the same thing every single time. We're
-going to write a little bit of code that can help the program decide in
-some cases I want to do this and in other cases, I want to do that. We
-call this decision points.</p>
-
+<p>We're also going to add decision points. Things are much more interesting when 
+they don't do the same thing every single time. We're going to write a little bit 
+of code that can help the program decide in some cases I want to do this and in 
+other cases, I want to do that. We call this decision points.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. decision points (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. looping, #1 (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
-  src="./images/image007.webp" 
-  alt="Decision Points." 
+  src="./images/image008.webp" 
+  alt="Looping, #1." 
   style="width:40%" />
-<p><img src="images/image008.webp"
-style="width:4in;height:2.24145in" /></p>
+
 <p>We can also do looping. Looping is really powerful. As your programs
 get bigger, there's certain things you'll want to do over and over
 again, but you really don't want to write code over and over and over
@@ -670,11 +682,10 @@ the program and say, see that little bit of code over there? We want to
 do that five times, or ten times, or we want to keep doing it until the
 human does what we want them to do.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. looping (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. looping, #2 (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
   src="./images/image009.webp" 
-  alt="Looping." 
+  alt="Looping, #2." 
   style="width:40%" />
 
 <p>Otherwise, you sometimes have to decide at run time how many times
@@ -682,8 +693,7 @@ you want to run some code. If you know that you want someone to do
 something five times, you can be very specific about it. Programming
 gives you so much flexibility in how you want your code to run.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. functions (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. functions (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
   src="./images/image010.webp" 
   alt="Functions." 
@@ -696,8 +706,7 @@ functions is that other people can write code and you can use it, and
 you don't even need to know how it works all you need to know is, what
 did you call your function? Great. I want to use that.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. manipulating the dom (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. manipulating the dom (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
   src="./images/image011.webp" 
   alt="Manipulating the DOM." 
@@ -714,10 +723,8 @@ shipping. Things like this can make your page much more usable.</p>
 that the user might have. This is where it really gets fun. We're going
 to start with the basics, the variables, the loopings, and then we're
 going to have fun manipulating the DOM.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. review (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. review (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
   src="./images/image012.webp" 
   alt="Review." 
@@ -766,10 +773,9 @@ There is no code associated with this lecture, but if you check under
 the resources, I do include a link to site where you can find specifics
 on the DOM.</p>
 
-<h1 id="week-1-02">Week 1-02. DOM Review with Object Oriented Programming</h1>
+<h2 id="wk1-02">Week 1-02. DOM Review with Object Oriented Programming</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 13. dom review with object oriented programming (xx) ~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 13. dom review with object oriented programming (1.02) (11) ~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
   src="./images/image013.webp" 
   alt="1.02. DOM Review with Object Oriented Programming." 
@@ -778,8 +784,7 @@ on the DOM.</p>
 <p>Today we're going to be talking about the DOM, or the document object
 model.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 14. web pages are built upon the dom (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 14. web pages are built upon the dom (11) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
   src="./images/image014.webp" 
   alt="Web pages are built upon the DOM." 
@@ -791,8 +796,7 @@ one parent and possibly a few children. And the page as you add more and
 more things it just gets deeper and deeper. Nodes have different
 properties, methods, and events.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. sample document, #1 (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. sample document, #1 (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
   src="./images/image015.webp" 
   alt="Sample Document, #1." 
@@ -807,8 +811,13 @@ and another div. And then the third div we're going to give more
 specific. We'll say, well this div has three paragraphs and one of those
 paragraphs has the id equals 3. What does this mean? Why do we care that
 the pages built like a tree?</p>
-<p><img src="images/image016.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. sample document, #2 (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image016.webp"
+  alt="Sample Document, #2." 
+  style="width:40%" />
+
 <p>This means that JavaScript can actually go in and it can look and
 say, you know what, I want to find the second div. I found this thing
 right here. I want to find the specific paragraph that had the id equals
@@ -819,14 +828,24 @@ instance, that paragraph might have a background color or a special kind
 of font, the paragraph also has text in it. How can we go in there and
 how can we change that text? This is what we're going to be using
 JavaScript to do in this course.</p>
-<p><img src="images/image017.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. the dom and javascript (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image017.webp"
+  alt="The DOM and JavaScript."
+  style="width:40%" />
+
 <p>Again, we've got that the page content is represented by the DOM. The
 scripting language JavaScript uses the DOM to interact with the
 document. How does it do that, though? How does it know how to
 interact?</p>
-<p><img src="images/image018.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. how does it work? (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image018.webp"
+  alt="How does it work?"
+  style="width:40%" />
+
 <p>Well, the JavaScript has something called an API, or an application
 programming interface. You may have heard people talking about APIs in
 the past. Programmers tend to do that. They're like, oh, what API are
@@ -834,16 +853,26 @@ you using? Or what API are you using? And it can sound kind of
 intimidating if you've never used one before. An API is just a way for
 someone else to write code, and then you to use it, to interact with
 their programs.</p>
-<p><img src="images/image019.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19. how does it work, #2? (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image019.webp"
+  alt="How does it work, #2?"
+  style="width:40%" />
+
 <p>No matter which browser you're using, Firefox, Chrome, different
 things like that. And no matter which scripting language you're using,
 in our case we're going to use JavaScript. The API is always the same.
 The way you interact is always going to be the same. And this is really
 important, because it's nice to know that if you learn this you won't
 have to learn something different later on.</p>
-<p><img src="images/image020.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 20. the dom objects/elements (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image020.webp"
+  alt="The DOM objects/elements."
+  style="width:40%" />
+
 <p>Let's talk about some of these DOM objects or element as we call
 them. The first one, kind of the root of your entire page, is the
 document. If you wanted to, you could find out what the document URL is,
@@ -874,8 +903,13 @@ image element, it would have a source, it would have alt text, it would
 have width, and a style, different things like that.</p>
 <p>Attributes are the kind of cool things that we want you to be able to
 change to make your page look different.</p>
-<p><img src="images/image021.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. specific apis (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image021.webp"
+  alt="Specific APIs."
+  style="width:40%" />
+
 <p>Okay, so if you understand that the page is made up of documents, and
 elements, and attributes, I'm hoping this side will make a little bit
 more sense. For a view of a document, you can say you know that I want
@@ -892,8 +926,13 @@ any element that the DOM can grab.</p>
 <p>Finally, an interesting one that you may or may not use, is you can
 even remove attributes. If something has a certain color, you can get
 rid of that if you want.</p>
-<p><img src="images/image022.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. review (1.02.) (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image022.webp"
+  alt="1.02. Review: DOM Review with Object Oriented Programming."
+  style="width:40%" />
+
 <p>I know that there was a lot I went over in this slide that maybe
 didn't make a lot of sense to you yet. That's okay. That's the point of
 this class. It's so that the end of this course, you can go back to this
@@ -908,23 +947,165 @@ able to teach you a little bit, I can show you some of the main methods
 and API's and different things like that. But I want you to code with me
 and then make sure you go off and you try to change things just a little
 bit until your confidence is really up there. Good luck.</p>
-<h1 id="week-1-03.-output">Week 1-03. Output</h1>
-<p><img src="images/image023.webp"
-style="width:4in;height:2.24402in" /></p>
+
+<h3>Accessing the DOM Methods</h3>
+<p>In the earlier video I showed some ways to access the DOM. Here is a review of those methods, along with some additional information about the use of the newer methods document.querySelector() and document.querySelectorAll().</p>
+
+<h3>Methods that return a single value</h3>
+
+<ol>
+  <li><p>The getElementById() method is one of the most common methods in the HTML 
+    DOM. It is used almost every time you want to read or edit an HTML element. This 
+	method returns an element with a specified ID value. If the page has two elements 
+	with the same id (which it shouldn't!) only the first element in the DOM is returned. 
+	There is no need to include the hashtag in the selector. Sample Code for getElementById 
+	Note, JavaScript is case sensitive so make sure you have Id with an uppercase 
+	"I" and a lowercase "d."</p></li>
+  <li><p>While getElementById is only used for elements with a specific id, you 
+    can also return a single element if you use querySelector. The querySelector() 
+	method returns the first child element that matches a specified CSS selector(s) 
+	of an element. You can use it to return the first h1 element (h1), the first 
+	paragraph (p), the first link (a). If you want to search for an id, you must 
+	include the hashtag (#) in the selector. If you want to search for a class you 
+	must include a period (.)</p></li>
+</ol>
+
+<h3>Methods that return a collection of elements</h3>
+
+<p>It is possible to return a collection of elements rather than just one, for 
+instance if you want to return all of the paragraph elements and not just the 
+first one. Or all of the elements that share the same class. In that case you 
+will want to use getElements (notice the s at the end) or querySelectorAll.</p>
+
+<ol>
+  <li><p>The getElementsByTagName()  method returns all of the elements with a given 
+    tag name. Sample Code for getElementsByTagName</p></li>
+  <li><p>The getElementsByClassName() method returns all of the elements with a 
+    specified class name(s). There is no need to include the period.  Sample Code 
+	for getElementsByClassName (using one class) and Sample Code for getElementsByClassName 
+	(using multiple classes)</p></li>
+  <li><p>The querySelectorAll() method returns a collection of an element's child 
+    elements that match a specified CSS selector(s). When using querySelectorAll 
+	you must include the # if the selector is an id and a period if the selector 
+	is a class. Sample Code for querySelectorAll.</p></li>
+</ol>
+
+<p>Important!  Even if there is just one element that matches the selector, that 
+element is returned as part of an array so you will need to use an index to access it.</p>
+
+<h3>Using getElement vs querySelector</h3>
+
+<p>There are a few technical differences between your options. The getElement and 
+getElements methods if the specific value doesn't exist, the method will return null. 
+Both querySelector() and querySelectorAll() throw a SYNTAX_ERR exception if the 
+selector(s) is invalid. The querySelector options are also faster. But there are 
+less technical differences too. Do you often forget to use Id instead of ID? Then 
+maybe you will prefer querySelector. If you are prone to forgetting the pound ‘#’ 
+or the period ‘.’ in your selectors then maybe you would prefer the methods that 
+describe the selectors, e.g getElementsByClassName. Here is an additional (optional) 
+reading if you would like to learn more about the differences between the two groups 
+of methods: querySelector vs getElementById</p>
+
+<h2 id="wk1-02b">1.02b Newer DOM Methods</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22b. newer dom methods (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image022b.webp"
+  alt="New DOM Methods."
+  style="width:40%" />
+Hi everyone. Part of being a coder is realizing that you've been using the same code for a long time and that there's probably some newer things out there. This is just a quick video to throw out there some new methods that you might be seeing, or that you might want to use yourself. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 22c. selecting the first element (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image022c.webp"
+  alt="New DOM Methods."
+  style="width:40%" />
+
+<p>We've been using getElementById(). How it works is that it takes a single parameter, and that parameter must be an Id selector. If you say getElementById(h1), it won't know that you're actually looking for an h1 tag, is looking for something with the ID=h1.</p>
+<p>If you're interested in selecting the first element of a certain type, another option for you is the querySelector() method. Similar to getElementById, it's going to return the first result. But that selector can be anything. Well, anything except for pseudo-elements. The selector can be a tag name. It can be an ID. It can be a class. It can be a very complicated selector with tags, classes, and IDs all put together.</p>
+<p>The thing to remember though, is if you decide to use querySelector, and you are looking for an ID or a class, you have to remember to include that hashtag # or the period. We'll do some examples later in the course to show you, but it's something that students often forget. I wanted to mention it right off the bat. If you're looking to select a single element, you can continue to use getElementById, or you can start to play around and use querySelector as well.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 22d. selecting multiple elements (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image022d.webp"
+  alt="Selecting Multiple Elements."
+  style="width:40%" />
+
+<p>If you want to select multiple elements, well, there's something called querySelectorAll(). 
+It's pretty much identical to querySelector, but instead of returning a single element, it 
+will return all the found values. The technical term for it is it'll return a node list, 
+but let's just consider it an array because that's what we call it in this class. Again, 
+while getElementsByClassName doesn't need to include that dot period in your selector, 
+querySelectorAll does. You need to be very specific about exactly what selector you're 
+looking for. But it's not really that complicated. Think back to all the code you've 
+been writing in your CSS. If you can write a selector to style something, then you 
+can definitely write a selector for JavaScript to grab it to manipulate the DOM.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22e. deciding on a method (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image022e.webp"
+  alt="Deciding on a method."
+  style="width:40%" />
+
+<p>Which one should you use? Should you be using querySelector and querySelectorAll? 
+Should you be using getElementById or getElementsByClassName? Well, the important 
+thing is for you and the type of codding that you're doing, speed won't be an issue. 
+People get online and they debate as to one's faster than another, and to be honest, 
+you could have done a lot more with that time in your life, than compare the two of 
+them. Don't worry about that. querySelector is nice in that it does allow you to 
+use any CSS selector that you'd like. To be honest, I'm less prone to typos when 
+I use the method name. When I use querySelector, sometimes I forget to include that 
+hashtag or the period. But to be honest, sometimes when I do getElementById, I love 
+how it's mnemonic. I know exactly what I'm looking for, but sometimes I accidentally 
+capitalize the "d" in ById and then it doesn't work. Or if I'm using getElementsByClassName, 
+you'll even notice sometimes when I'm doing demos in this class, I forget the ‘s’. 
+I write "getElementByClassName". I liked that some of them have more descriptive 
+names. I like how others are a little less prone to typos. My suggestion is you do 
+you, you do it whichever way you prefer. But don't be scared off if you see code 
+online that uses the other approach. Good luck.</p>
+
+<h3>Semicolons</h3>
+
+<p>Adding a semicolon (;) indicates that you have completed a statement. However, 
+unless you are writing multiple statements on the same line, you don't need to add 
+a semicolon.</p>
+<p>During this course you will definitely notice that I am in the habit of adding a 
+semicolon to the end of every line. This is a habit I have because I write in a lot 
+of different programming languages at the same time and the semicolon is required 
+in some and not others.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="wk1-03">Week 1-03. Output</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. output (1.03) (20) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image023.webp"
+  alt="1.03. Output."
+  style="width:40%" />
+
 <p>Hi everybody. Today, let's start coding a little bit to see some of
 things we can do with JavaScript. Maybe, using HTML 5 or CSS 3, you've
 added what we call a little bit of interactivity to your page. There's
 the details tag if you're using HTML. There's the hover property or
 pseudo class if you're using CSS 3 and you were able to make little
 things change in your page by reacting to what the user was doing.</p>
-<p><img src="images/image024.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. interactivity (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image024.webp"
+  alt="Interactivity."
+  style="width:40%" />
+
 <p>But typically, that's not really what we call interactivity when
 we're talking about true web design because these new elements and the
 pseudo classes can only go so far. They tend to be temporary
 changes.</p>
-<p><img src="images/image025.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. what can javascript do? (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image025.webp"
+  alt="What can JavaScript do?"
+  style="width:40%" />
+
 <p>So, what can JavaScript do that HTML and CSS can't do? Well, the one
 that I'm going to talk about today is that they can read and write HTML
 elements. Now that's not the only thing they can do. We're going to be
@@ -935,15 +1116,25 @@ focus on output.</p>
 things you want to do is find out how can I make things happen. How can
 I have things print out to the screen or generate some sort of
 output.</p>
-<p><img src="images/image026.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. javascript output (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image026.webp"
+  alt="JavaScript output."
+  style="width:40%" />
+
 <p>Well, JavaScript doesn't have a built-in print function. Instead, you
 have four or five different ways where you can generate different
 things. Data is typically displayed via alerts, prompts,
 <strong>document.write, innertHTML</strong> or reading information
 directly to the console. Let's talk about each one of these.</p>
-<p><img src="images/image027.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. alert() example (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image027.webp"
+  alt="alert() example."
+  style="width:40%" />
+
 <p>You've all seen alert JavaScript alert boxes. Because many times,
 especially back maybe 10, 15 years ago, when you went to a page, people
 loved to have these little boxes pop up and say hey, welcome. Doing
@@ -957,41 +1148,67 @@ have some sort of string and it should be inside quotes. It can be
 inside single quotes or double quotes. And then, the last thing is, to
 end in a semicolon. If you were to put this code right here inside your
 HTML, you can generate some output.</p>
-<p><img src="images/image028.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 28. html, script, noscript (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image028.webp"
+  alt="HTML alert example in script and noscript."
+  style="width:40%" />
+
 <p>Let me show you an example. What I've done over here is I've created
 the HTML that I would need to generate an alert box. I've got my body
 tag, now this is new I have what we call is a script tag. The script tag
 tells the browser, oh wait, don't just print this out, I'm actually
 going to give you some JavaScript that I want you to run. And in this
 case, I have my code alert("Hello World").</p>
-<p><img src="images/image029.webp"
-style="width:4in;height:2.24402in" /></p>
-<p>If I were to run this, and I'm going to refresh it. You can see I get
-my little pop-up box. Now, if you're running this along with me at home,
-and you're not using Chrome, the box is going to look different. For
-some of you it's going to have the little Safari symbol, or the Edge, or
-Firefox.</p>
-<p><img src="images/image030.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 29. pop-up alert box (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image029.webp"
+  alt="What can JavaScript do?"
+  style="width:40%" />
+
+<p>If I were to run this, and I'm going to refresh it. You can see I get my little 
+pop-up box. Now, if you're running this along with me at home, and you're not using 
+Chrome, the box is going to look different. For some of you it's going to have the 
+little Safari symbol, or the Edge, or Firefox.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 30. generate output using alert (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image030.webp"
+  alt="Generate output using alert."
+  style="width:40%" />
+
 <p>That's okay, the important thing is that somewhere in here it says
 hello world. Now you might be click on the prevent this page from
 creating additional dialogues button. Don't do it. Because in this class
 we're going to be playing with alert a lot because it's a nice way for
 you to know if your code's working or not. Again, this is just a quick
 and simple way for you to generate output using the alert.</p>
-<p><img src="images/image031.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. prompt() example (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image031.webp"
+  alt="prompt() example."
+  style="width:40%" />
+
 <p>The next way we can generate output is using prompt. Prompt is very
 similar to alert, but it's slightly different in that it wants you to do
 more than just click OK or Cancel. It wants you to generate some sort of
 input to put in there. As you can see, the alert and the prompt look
 very similar. They've both got the key word, the parentheses, the
 semicolon and the string, but the way they act is very different.</p>
-<p><img src="images/image032.webp"
-style="width:3.5in;height:1.96351in" /><img
-src="images/image033.webp"
-style="width:3.5in;height:1.96351in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 32/33. example test prompt alert (25) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image032.webp"
+  alt="Test with prompt, #1."
+  style="width:35%" />
+<img class="border displayed"
+  src="./images/image033.webp"
+  alt="Test with prompt, #2."
+  style="width:35%" />
+
 <p>In this case when you run it, it's actually waiting for you to type
 something in. I can put in Colleen van Lent and hit OK. Now, don't get
 too excited. We didn't do anything with the stuff I put in. But, again,
@@ -1000,8 +1217,13 @@ and you have prompt and both of them generate some sort of box where you
 can display information, but nothing is actually showing up on the page.
 Let's switch to the general ways in which you can generate output to the
 screen.</p>
-<p><img src="images/image034.webp"
-style="width:4in;height:2.24402in" /></p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 34. document.write() example (25) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<img class="border displayed"
+  src="./images/image034.webp"
+  alt="prompt() example."
+  style="width:40%" />
+
 <p>One way, if you want something to be what we call permanent, to not
 just disappear once you hit okay, is to use what we call
 <strong>document.write</strong>. So again, I'm hoping that you're
