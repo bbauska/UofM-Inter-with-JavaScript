@@ -221,7 +221,7 @@ A basic understanding of HTML and CSS is expected when you enroll in
 this class. Additional courses focus on enhancing the styling with
 responsive design and completing a capstone project.
 
-# Syllabus
+## Syllabus
 
 ## Week One: Data Types
 
