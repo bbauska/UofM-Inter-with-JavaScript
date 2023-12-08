@@ -1,9 +1,6 @@
-![Interactivity with JavaScript - Reviews & Coupon - Java Code
-Geeks](./myMediaFolder/media/image1.jpeg){width="1.5in" height="1.5in"}
+![Interactivity with JavaScript - Java Code Geeks](./image/images001.jpeg){style="width:300px;"}
 
-![Advanced Styling with Responsive Design offered by University of
-Michigan.](./myMediaFolder/media/image2.png){width="2.0in"
-height="0.8481014873140857in"}
+![Advanced Styling with Responsive Design offered by University of Michigan.](./images/image002.png){width="200px;"}
 
 # Table of Contents {#table-of-contents .TOC-Heading}
 
@@ -251,22 +248,20 @@ data. We begin with variables, expressions, and operators.
 2.  **DOM Review with Object Oriented Programming\* (6:32) (2)**
 
 > **Accessing the DOM Methods**
-
-3.  **Newer DOM Methods**
+>
+> **Newer DOM Methods**
 
 > **Semicolons**
->
-> **Accessing the DOM Methods**
 
-4.  **Output\* (3)**
+3.  **Output\* (3)**
 
 > **Trying to Create and Debug Your Own Output**
 
-5.  **Variables\* (4)**
+4.  **Variables\* (4)**
 
-6.  **Data Types\* (5)**
+5.  **Data Types\* (5)**
 
-7.  **Operators and Expressions\* (6)**
+6.  **Operators and Expressions\* (6)**
 
 > **Discussion - CodePen**
 >
