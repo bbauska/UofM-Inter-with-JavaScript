@@ -1,4 +1,4 @@
-![Interactivity with JavaScript - Java Code Geeks](./image/images001.jpeg){style="width:300px;"}
+![Interactivity with JavaScript - Java Code Geeks](./image/images001.jpeg)
 
 ![Advanced Styling with Responsive Design offered by University of Michigan.](./images/image002.webp)
 
