@@ -1,6 +1,6 @@
-![Interactivity with JavaScript - Java Code Geeks](./image/images001.jpg){style="width:300px;"}
+![Interactivity with JavaScript - Java Code Geeks](./image/images001.jpeg){style="width:300px;"}
 
-![Advanced Styling with Responsive Design offered by University of Michigan.](./images/image002.webp){width="200px;"}
+![Advanced Styling with Responsive Design offered by University of Michigan.](./images/image002.webp)
 
 # Table of Contents {#table-of-contents .TOC-Heading}
 
