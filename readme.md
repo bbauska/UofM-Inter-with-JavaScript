@@ -1,8 +1,8 @@
 ---
-UofMichigan-AdvStyling: University of Michigan - Advanced Styling with Responsive Design
+UofM-Inter-with-JS: University of Michigan - Interactivity with JavaScript
 ---
 
-<h2 align="center">Advanced Styling with Responsive Design</h2>
+<h2 align="center">Interactivity with JavaScript</h2>
 <br/>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of uofm-inter-with-js ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -23,208 +23,62 @@ UofMichigan-AdvStyling: University of Michigan - Advanced Styling with Responsiv
   style="width:25%;"
   alt="University of Michigan logo." />
 </p>
-
 <h2><a href="#table-of-contents">Table of Contents</a></h2>
 
-
-![Interactivity with JavaScript - Java Code Geeks](./images/images001.jpeg)
-
-![Advanced Styling with Responsive Design offered by University of Michigan.](./images/image002.webp)
-
-# Table of Contents {#table-of-contents .TOC-Heading}
-
-[About this Course [1](#about-this-course)](#about-this-course)
-
-[Syllabus [1](#syllabus)](#syllabus)
-
-[Week One: Data Types [1](#week-one-data-types)](#week-one-data-types)
-
-[Week Two: Reacting to Your Audience
-[2](#week-two-reacting-to-your-audience)](#week-two-reacting-to-your-audience)
-
-[Week Three: Arrays and Looping
-[2](#week-three-arrays-and-looping)](#week-three-arrays-and-looping)
-
-[Week Four: Using JS for Interactive Images
-[3](#week-four-using-js-for-interactive-images)](#week-four-using-js-for-interactive-images)
-
-[Week 1-01. Introduction
-[5](#week-1-01.-introduction)](#week-1-01.-introduction)
-
-[Link to All of the Code for Week One
-[10](#link-to-all-of-the-code-for-week-one)](#link-to-all-of-the-code-for-week-one)
-
-[The Document Object Model (DOM)
-[10](#the-document-object-model-dom)](#the-document-object-model-dom)
-
-[Examples: [10](#examples)](#examples)
-
-[Week 1-02. DOM Review with Object Oriented Programming
-[10](#week-1-02.-dom-review-with-object-oriented-programming)](#week-1-02.-dom-review-with-object-oriented-programming)
-
-[Accessing the DOM Methods
-[16](#accessing-the-dom-methods)](#accessing-the-dom-methods)
-
-[Methods that return a single value
-[16](#methods-that-return-a-single-value)](#methods-that-return-a-single-value)
-
-[Methods that return a collection of elements
-[17](#methods-that-return-a-collection-of-elements)](#methods-that-return-a-collection-of-elements)
-
-[Using getElement vs querySelector
-[17](#using-getelement-vs-queryselector)](#using-getelement-vs-queryselector)
-
-[Newer DOM Methods [17](#_Toc152447110)](#_Toc152447110)
-
-[Semicolons [19](#semicolons)](#semicolons)
-
-[Week 1-03. Output (13:03)
-[19](#week-1-03.-output-1303)](#week-1-03.-output-1303)
-
-[Trying to Create and Debug Your Own Output
-[34](#trying-to-create-and-debug-your-own-output)](#trying-to-create-and-debug-your-own-output)
-
-[Week 1-04. Variables
-[35](#week-1-04.-variables)](#week-1-04.-variables)
-
-[Week 1-05. Data Types
-[44](#week-1-05.-data-types)](#week-1-05.-data-types)
-
-[Week 1-06. Operators & Expressions (8:26)
-[51](#week-1-06.-operators-expressions-826)](#week-1-06.-operators-expressions-826)
-
-[The History of \"Debugging\"
-[57](#the-history-of-debugging)](#the-history-of-debugging)
-
-[Link to All of the Code for Week Two
-[57](#link-to-all-of-the-code-for-week-two)](#link-to-all-of-the-code-for-week-two)
-
-[Functions [58](#functions)](#functions)
-
-[Week 2-01. Functions (7:18)
-[58](#week-2-01.-functions-718)](#week-2-01.-functions-718)
-
-[Week 2-02. Code Placement (6:32)
-[63](#week-2-02.-code-placement-632)](#week-2-02.-code-placement-632)
-
-[Organizing Your Code
-[69](#organizing-your-code)](#organizing-your-code)
-
-[Code Placement [69](#code-placement)](#code-placement)
-
-[Week 2-03. Folder Structure / Organizing Your Code (5:33)
-[70](#week-2-03.-folder-structure-organizing-your-code-533)](#week-2-03.-folder-structure-organizing-your-code-533)
-
-[Week 2-04. Events (10:05)
-[73](#week-2-04.-events-1005)](#week-2-04.-events-1005)
-
-[Mastering Events and Functions
-[82](#mastering-events-and-functions)](#mastering-events-and-functions)
-
-[Events [82](#events)](#events)
-
-[Week 2-05. Code With Me -- Events (7:46)
-[83](#week-2-05.-code-with-me-events-746)](#week-2-05.-code-with-me-events-746)
-
-[Week 2-06. "this" (9:30)
-[92](#week-2-06.-this-930)](#week-2-06.-this-930)
-
-[Homework Time!! [99](#homework-time)](#homework-time)
-
-[Week 2-07. Photo Gallery (5:53)
-[99](#week-2-07.-photo-gallery-553)](#week-2-07.-photo-gallery-553)
-
-[Link to All of the Code for Week Three
-[105](#link-to-all-of-the-code-for-week-three)](#link-to-all-of-the-code-for-week-three)
-
-[Arrays [106](#arrays)](#arrays)
-
-[Resources [106](#resources)](#resources)
-
-[Readings [106](#readings)](#readings)
-
-[Code [106](#code)](#code)
-
-[A JavaScript Cheat Sheet
-[106](#a-javascript-cheat-sheet)](#a-javascript-cheat-sheet)
-
-[Tabindex and Accessibility
-[107](#tabindex-and-accessibility)](#tabindex-and-accessibility)
-
-[Using JavaScript with Attributes
-[107](#using-javascript-with-attributes)](#using-javascript-with-attributes)
-
-[getAttribute [107](#getattribute)](#getattribute)
-
-[setAttribute [108](#setattribute)](#setattribute)
-
-[Arrays [108](#arrays-1)](#arrays-1)
-
-[Week 3-01. JavaScript Arrays (7:12)
-[109](#week-3-01.-javascript-arrays-712)](#week-3-01.-javascript-arrays-712)
-
-[Week 3-02. Code With Me -- Arrays (5:18)
-[115](#week-3-02.-code-with-me-arrays-518)](#week-3-02.-code-with-me-arrays-518)
-
-[Week 4 [118](#week-4)](#week-4)
-
-[Week 4 Resources [118](#week-4-resources)](#week-4-resources)
-
-[Accessibility Testing Options
-[118](#accessibility-testing-options)](#accessibility-testing-options)
-
-[Code [119](#code-1)](#code-1)
-
-[Lecture Slides [119](#lecture-slides)](#lecture-slides)
-
-[Writing loops in JavaScript
-[119](#writing-loops-in-javascript)](#writing-loops-in-javascript)
-
-[Advanced Coding Techniques
-[120](#advanced-coding-techniques)](#advanced-coding-techniques)
-
-[Week 4-01. Code With Me: Randomizing Your s Using Arrays (8:10)
-[120](#week-4-01.-code-with-me-randomizing-your-images-using-arrays-810)](#week-4-01.-code-with-me-randomizing-your-images-using-arrays-810)
-
-[Week 4-02. Code With Me: Using LightBox (9:48)
-[122](#week-4-02.-code-with-me-using-lightbox-948)](#week-4-02.-code-with-me-using-lightbox-948)
-
-[Week 4-03. Code With Me: Looping Through Images (8:07)
-[125](#week-4-03.-code-with-me-looping-through-images-807)](#week-4-03.-code-with-me-looping-through-images-807)
-
-[\"Cool Stuff\" - Friend or Foe?
-[127](#cool-stuff---friend-or-foe)](#cool-stuff---friend-or-foe)
-
-[Final Project Description
-[127](#final-project-description)](#final-project-description)
-
-[Overview [127](#overview)](#overview)
-
-[Instructions [127](#instructions)](#instructions)
-
-[Grading [128](#grading)](#grading)
-
-[4-04. Final Project Description
-[129](#final-project-description-1)](#final-project-description-1)
-
-[Final Project: Optional Submission Gallery
-[130](#final-project-optional-submission-gallery)](#final-project-optional-submission-gallery)
-
-[Optional ungraded submission
-[130](#optional-ungraded-submission)](#optional-ungraded-submission)
-
-[Submitting your file to the Gallery
-[130](#submitting-your-file-to-the-gallery)](#submitting-your-file-to-the-gallery)
-
-[Navigating the Gallery
-[130](#navigating-the-gallery)](#navigating-the-gallery)
-
-[Week 4-05. Conclusion
-[130](#week-4-05.-conclusion)](#week-4-05.-conclusion)
-
-# 
-
-## About this Course
+## [**About**](#cha)
+>### - [**About**](#cha-1)
+>### - [**Source Code for Each Week**](#cha-2)
+>### - [**Course Slides**](#cha-3)
+
+## [**Course Information**](#chb)
+>### * [**Syllabus**](#chb-1)
+>### * [**Resources**](#chb-2)
+>### * [**Fluid Measurements background readings**](#chb-3)
+>### * [**Pixel to Em conversion tool**](#chb-4)
+>### * [**Dynamically change size of font with sliders**](#chb-5)
+>### * [**Good Examples of Responsive Design**](#chb-6)
+>### * [**Media Queries and Breakpoints**](#chb-7)
+>### * [**Demystifying Bootstrap**](#chb-8)
+>### * [**Grid System Check**](#chb-9)
+>### * [**The Evolution of the Airbnb front-end development**](#chb-10)
+>### * [**Debugging Your Style**](#chb-11)
+>### * [**More Resources for Learning to Debug/Develop**](#chb-12)
+
+## [**Week 1: Data Types**](#ch1)
+>### 1.1 [**Introduction to Interactivity with JavaScript**](#ch1-1)
+>### 1.2 [**What is Responsive Design?**](#ch1-2)
+>### 1.3 [**Testing Existing Sites**](#ch1-3)
+>### 1.4 [**Benefits of Responsive Design**](#ch1-4)
+>### 1.5 [**Fluid Measurements**](#ch1-5)
+>### 1.6 [**Code With Me: Fluid Measurements**](#ch1-6)
+
+## [**Week 2: Reacting to Your Audience**](#ch2)
+>### 2.1 [**Media Queries**](#ch2-1)
+>### 2.2 [**Code With Me: Fluid Measurements and Media Queries**](#ch2-2)
+>### 2.3 [**Wire Frames**](#ch2-3)
+>### 2.4 [**Breakpoints**](#ch2-4)
+>### 2.5 [**Media Queries Part Two**](#ch2-5)
+>### 2.6 [**Code With Me: Responsive Navigation**](#ch2-6)
+
+## [**Week 3: Arrays &amp; Looping**](#ch3)
+>### 3.1 [**Frameworks**](#ch3-1)
+>### 3.2 [**Introduction to Twitter Bootstrap 3**](#ch3-2)
+>### 3.3 [**Bootstrap Breakpoints**](#ch3-3)
+>### 3.4 [**Bootstrap Grid System**](#ch3-4)
+>### 3.5 [**Code With Me: Grid Example**](#ch3-5)
+>### 3.6 [**Bootstrap Navigation**](#ch3-6)
+
+## [**Week 4: Using JS for Interactive Images**](#ch4)
+>### 4.1 [**Responsive Images**](#ch4-1)
+>### 4.2 [**Bootstrap Tables**](#ch4-2)
+>### 4.3 [**Code With Me: Advanced Navigation**](#ch4-3)
+>### 4.4 [**What Are Templates?**](#ch4-4)
+>### 4.5 [**Bootstrap 4/5**](#ch4-5)
+>### 4.9 [**Conclusion**](#ch4-9)
+
+<a href="https://github.com/bbauska/UofM-Inter-with-JS.git" target="_blank">UofM - InterActivity with JS - git</a>
+
+<h3>About this Course:</h3>
 
 If you want to take your website to the next level, the ability to
 incorporate interactivity is a must. But adding some of these types of
@@ -250,7 +104,7 @@ A basic understanding of HTML and CSS is expected when you enroll in
 this class. Additional courses focus on enhancing the styling with
 responsive design and completing a capstone project.
 
-## Syllabus
+<h3>Syllabus:</h3>
 
 ## Week One: Data Types
 
