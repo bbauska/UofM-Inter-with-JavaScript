@@ -17,9 +17,9 @@ UofM-Inter-with-JS: University of Michigan - Interactivity with JavaScript
 
 <h3 align="center"> </h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 01a. university of michigan logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. university of michigan logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image001a.webp?raw=true"
+<img src="./images/image002.webp?raw=true"
   style="width:25%;"
   alt="University of Michigan logo." />
 </p>
@@ -214,8 +214,7 @@ programs. Using both we will expand upon the photo gallery example.
 >
 > **Reading: Arrays**
 
-1.  **[JavaScript
-    Arrays](https://www.coursera.org/lecture/javascript/javascript-arrays-g8N8v)\*
+1.  **[JavaScript Arrays](https://www.coursera.org/lecture/javascript/javascript-arrays-g8N8v)\*
     (1)**
 
 2.  **Code With Me -- Arrays\* (2)**
@@ -332,8 +331,13 @@ in the time we have. We will focus on the following:
 
 # Week 1-01. Introduction
 
-![](./images/image003.png){width="4.0in"
-height="2.2512817147856516in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image003.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Hi everybody. Today I\'m going to introduce you to the JavaScript
 programming language. JavaScript has a lot of uses, but we\'re really
@@ -343,8 +347,13 @@ there is an expectation that you know HTML 5 and CSS 3. If you don\'t,
 you\'re going to want to go back and review those two areas because
 everything we with JavaScript in this class is based on web programming.
 
-![](./images/image004.png){width="4.0in"
-height="2.241453412073491in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image004.webp?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 If you\'ve done HTML, if you\'ve done CSS, you haven\'t necessarily done
 what we call real programming, at least not what us computer scientists
@@ -360,8 +369,13 @@ back the title of the page, the URL of your page, a lot of different
 information that you know is there, but you can\'t always see at first
 glance?
 
-![](./images/image005.png){width="4.0in"
-height="2.241453412073491in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image005.webp?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 The other thing we can do, which is really where it gets a little bit
 more exciting, is that we can manipulate the DOM that the browsers use
