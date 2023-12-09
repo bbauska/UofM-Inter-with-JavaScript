@@ -383,8 +383,13 @@ to create webpages. The DOM is the Document Object Model, it\'s what
 builds up a webpage. If you\'re a little fuzzy, it\'s been a little
 while, don\'t worry. We\'re going to review the DOM in a future lecture.
 
-![](./images/image006.png){width="4.0in"
-height="2.241453412073491in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image006.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Let\'s start with variables. In computer science, we use variables in
 order to store information. Your program isn\'t going to be very
@@ -392,8 +397,13 @@ exciting if you ask somebody their name and then you can\'t actually use
 that name later on. You\'re going to find out how to get information
 from the user, and then store it so you can use it later.
 
-![](./images/image007.png){width="4.0in"
-height="2.241453412073491in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image007.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 We\'re also going to add decision points. Things are much more
 interesting when they don\'t do the same thing every single time. We\'re
@@ -401,8 +411,13 @@ going to write a little bit of code that can help the program decide in
 some cases I want to do this and in other cases, I want to do that. We
 call this decision points.
 
-![](./images/image008.png){width="4.0in"
-height="2.241453412073491in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image008.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 We can also do looping. Looping is really powerful. As your programs get
 bigger, there\'s certain things you\'ll want to do over and over again,
@@ -412,16 +427,26 @@ program and say, see that little bit of code over there? We want to do
 that five times, or ten times, or we want to keep doing it until the
 human does what we want them to do.
 
-![](./images/image009.png){width="4.0in"
-height="2.241453412073491in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image009.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Otherwise, you sometimes have to decide at run time how many times you
 want to run some code. If you know that you want someone to do something
 five times, you can be very specific about it. Programming gives you so
 much flexibility in how you want your code to run.
 
-![](./images/image010.png){width="4.0in"
-height="2.241453412073491in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image010.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Next in this course we\'re going to talk about functions. Functions are
 a way for you to reuse your code multiple times, but you only have to
@@ -430,8 +455,13 @@ people can write code and you can use it, and you don\'t even need to
 know how it works. All you need to know is, what did you call your
 function? Great. I want to use that.
 
-![](./images/image011.png){width="4.0in"
-height="2.241453412073491in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image011.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Finally, we\'re going to talk about manipulating the dominant class.
 JavaScript can actually go through your web page and search and find
@@ -446,8 +476,13 @@ the user might have. This is where it really gets fun. We\'re going to
 start with the basics, the variables, the loopings, and then we\'re
 going to have fun manipulating the DOM.
 
-![](./images/image012.png){width="4.0in"
-height="2.241453412073491in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image012.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 A major component of learning any new programming language, or I guess,
 really any language at all, is that the key is practice and repetition.
@@ -497,14 +532,24 @@ the DOM.
 
 # Week 1-02. DOM Review with Object Oriented Programming
 
-![](./images/image013.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image013.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Today we\'re going to be talking about the DOM, or the document object
 model.
 
-![](./images/image014.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 14.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image014.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 As you may or may not remember, every webpage is built upon this DOM.
 And what it means is that our pages are structured like a tree. We have
@@ -512,8 +557,13 @@ one parent and possibly a few children. And the page as you add more and
 more things it just gets deeper and deeper. Nodes have different
 properties, methods, and events.
 
-![](./images/image015.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image015.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Let me draw you a quick example and then we\'ll talk about how we can
 use JavaScript to manipulate this DOM. Every web page is built like a
@@ -527,8 +577,13 @@ We\'ll say, well this div has three paragraphs and one of those
 paragraphs has the id equals 3. What does this mean? Why do we care that
 the pages built like a tree?
 
-![](./images/image016.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image016.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 This means that JavaScript can actually go in and it can look and say,
 you know what, I want to find the second div. I found this thing right
@@ -542,15 +597,25 @@ of font, the paragraph also has text in it. How can we go in there and
 how can we change that text? This is what we\'re going to be using
 JavaScript to do in this course.
 
-![](./images/image017.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image017.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Again, we\'ve got that the page content is represented by the DOM. The
 scripting language JavaScript uses the DOM to interact with the
 document. How does it do that, though? How does it know how to interact?
 
-![](./images/image018.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image018.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Well, the JavaScript has something called an API, or an application
 programming interface. You may have heard people talking about APIs in
@@ -560,8 +625,13 @@ intimidating if you\'ve never used one before. An API is just a way for
 someone else to write code, and then you to use it, to interact with
 their programs.
 
-![](./images/image019.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image019.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 No matter which browser you\'re using, Firefox, Chrome, different things
 like that. And no matter which scripting language you\'re using, in our
@@ -570,8 +640,13 @@ you interact is always going to be the same. And this is really
 important, because it\'s nice to know that if you learn this you won\'t
 have to learn something different later on.
 
-![](./images/image020.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 20.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image020.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Let\'s talk about some of these DOM objects or element as we call them.
 The first one, kind of the root of your entire page, is the document. If
