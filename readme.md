@@ -65,7 +65,8 @@ UofM-Inter-with-JS: University of Michigan - Interactivity with JavaScript
 
 <a href="https://github.com/bbauska/UofM-Inter-with-JS.git" target="_blank">UofM - InterActivity with JS - git</a>
 
-<h3>About this Course:</h3>
+<h2 id="cha"></h2>
+<h3 id="cha-1">About this Course:</h3>
 
 If you want to take your website to the next level, the ability to
 incorporate interactivity is a must. But adding some of these types of
@@ -91,9 +92,9 @@ A basic understanding of HTML and CSS is expected when you enroll in
 this class. Additional courses focus on enhancing the styling with
 responsive design and completing a capstone project.
 
-<h3>Syllabus:</h3>
+<h3 id="chb-1">Syllabus:</h3>
 
-## Week One: Data Types
+### Week One: Data Types
 
 If you haven\'t used a traditional programming language before, this
 first week is key. Before we begin with the how, we will talk about the
@@ -141,7 +142,7 @@ data. We begin with variables, expressions, and operators.
 
 **Summary: **Week One
 
-## Week Two: Reacting to Your Audience
+### Week Two: Reacting to Your Audience
 
 If you have written HTML code in the past, hopefully you have fallen
 into the great habit of validating your code \-- making sure that you
@@ -184,7 +185,7 @@ that you can create along with me.
 
 **Summary: **JavaScript Interactive Photo Gallery
 
-## Week Three: Arrays and Looping
+### Week Three: Arrays and Looping
 
 This week we will delve into more complex programming concepts: arrays
 and looping. Arrays allow you to represent groups of related
@@ -226,7 +227,7 @@ programs. Using both we will expand upon the photo gallery example.
 
 **Summary: **JavaScript Review
 
-## Week Four: Using JS for Interactive Images
+### Week Four: Using JS for Interactive Images
 
 This week is all about putting concepts together to do \"cool\" things.
 And we even stop for a second to talk about the trade-off between cool
@@ -314,10 +315,9 @@ in the time we have. We will focus on the following:
 
 -   How to create and validate HTML forms.
 
-# 
+<h1 id="wk1"></h1>
 
-# Week 1-01. Introduction
-
+<h2 id="wk1-01">Week 1-01. Introduction</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
