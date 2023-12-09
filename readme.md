@@ -683,8 +683,13 @@ width, and a style, different things like that.
 Attributes are the kind of cool things that we want you to be able to
 change to make your page look different.
 
-![](./images/image021.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image021.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Okay, so if you understand that the page is made up of documents, and
 elements, and attributes, I\'m hoping this side will make a little bit
@@ -705,8 +710,13 @@ Finally, an interesting one that you may or may not use, is you can even
 remove attributes. If something has a certain color, you can get rid of
 that if you want.
 
-![](./images/image022.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image022.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 I know that there was a lot I went over in this slide that maybe didn\'t
 make a lot of sense to you yet. That\'s okay. That\'s the point of this
@@ -809,7 +819,13 @@ getElementById](https://dev.to/eidorianavi/queryselector-vs-getelementbyid-gm1)
 
 ## New DOM Methods (4:32)
 
-## ![](./images/image023.png){width="4.0in" height="2.2051279527559053in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image023.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Hi everyone. Part of being a coder is realizing that you\'ve been using
 the same code for a long time and that there\'s probably some newer
@@ -817,8 +833,13 @@ things out there. This is just a quick video to throw out there some new
 methods that you might be seeing, or that you might want to use
 yourself.
 
-![](./images/image024.png){width="4.0in"
-height="2.121367016622922in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image024.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 We\'ve been using **getElementById()**. How it works is that it takes a
 single parameter, and that parameter must be an Id selector. If you say
@@ -841,8 +862,13 @@ I wanted to mention it right off the bat. If you\'re looking to select a
 single element, you can continue to use **getElementById,** or you can
 start to play around and use **querySelector** as well.
 
-![](./images/image025.png){width="4.0in"
-height="2.1183759842519687in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image025.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 If you want to select multiple elements, well, there\'s something called
 **querySelectorAll()**. It\'s pretty much identical to
@@ -858,8 +884,13 @@ CSS. If you can write a selector to style something, then you can
 definitely write a selector for JavaScript to grab it to manipulate the
 DOM.
 
-![](./images/image026.png){width="4.0in"
-height="2.1183759842519687in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image026.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Which one should you use? Should you be using **querySelector** and
 **querySelectorAll**? Should you be using **getElementById** or
@@ -895,8 +926,13 @@ same time and the semicolon is required in some and not others.
 
 # Week 1-03. Output (13:03)
 
-![](./images/image027.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image027.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Hi everybody. Today, let\'s start coding a little bit to see some of
 things we can do with JavaScript. Maybe, using HTML 5 or CSS 3, you\'ve
@@ -905,15 +941,25 @@ the details tag if you\'re using HTML. There\'s the hover property or
 pseudo class if you\'re using CSS 3 and you were able to make little
 things change in your page by reacting to what the user was doing.
 
-![](./images/image028.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 28.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image028.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 But typically, that\'s not really what we call interactivity when we\'re
 talking about true web design because these new elements and the pseudo
 classes can only go so far. They tend to be temporary changes.
 
-![](./images/image029.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 29.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image029.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 What can JavaScript do that HTML and CSS can\'t do? Well, the one that
 I\'m going to talk about today is that they can read and write HTML
@@ -926,8 +972,13 @@ Whenever you learn a new programming language, one of the first things
 you want to do is find out how can I make things happen. How can I have
 things print out to the screen or generate some sort of output.
 
-![](./images/image030.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 30.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image030.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Well, JavaScript doesn\'t have a built-in print function. Instead, you
 have four or five different ways where you can generate different
@@ -935,8 +986,13 @@ things. Data is typically displayed via alerts, prompts**,
 document.write, innertHTML** or reading information directly to the
 console. Let\'s talk about each one of these.
 
-![](./images/image031.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image031.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 You\'ve all seen alert JavaScript alert boxes. Because many times,
 especially back maybe 10, 15 years ago, when you went to a page, people
@@ -953,8 +1009,13 @@ single quotes or double quotes. And then, the last thing is, to end in a
 semicolon. If you were to put this code right here inside your HTML, you
 can generate some output.
 
-![](./images/image032.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 32.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image032.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Let me show you an example. What I\'ve done over here is I\'ve created
 the HTML that I would need to generate an alert box. I\'ve got my body
@@ -963,8 +1024,13 @@ tag tells the browser, oh wait, don\'t just print this out, I\'m
 actually going to give you some JavaScript that I want you to run. And
 in this case, I have my code **alert**(\"Hello World\").
 
-![](./images/image033.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 33.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image033.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 If I were to run this, and I\'m going to refresh it. You can see I get
 my little pop-up box. Now, if you\'re running this along with me at
@@ -972,8 +1038,13 @@ home, and you\'re not using Chrome, the box is going to look different.
 For some of you it\'s going to have the little Safari symbol, or the
 Edge, or Firefox.
 
-![](./images/image034.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 34.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image034.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 That\'s okay, the important thing is that somewhere in here it says
 hello world. Now you might be click on the prevent this page from
@@ -982,8 +1053,13 @@ class we\'re going to be playing with alert a lot because it\'s a nice
 way for you to know if your code\'s working or not. Again, this is just
 a quick and simple way for you to generate output using the alert.
 
-![](./images/image035.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 35.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image035.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 The next way we can generate output is using **prompt**. **Prompt** is
 very similar to **alert**, but it\'s slightly different in that it wants
@@ -993,8 +1069,13 @@ prompt look very similar. They\'ve both got the key word, the
 parentheses, the semicolon and the string, but the way they act is very
 different.
 
-![](./images/image036.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image036.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 In this case when you run it, it\'s actually waiting for you to type
 something in. I can put in Colleen van Lent and hit OK. Now, don\'t get
@@ -1005,8 +1086,13 @@ box where you can display information, but nothing is actually showing
 up on the page. Let\'s switch to the general ways in which you can
 generate output to the screen.
 
-![](./images/image037.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 37.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image037.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 One way, if you want something to be what we call permanent, to not just
 disappear once you hit okay, is to use what we call **document.write**.
@@ -1020,15 +1106,25 @@ worked by itself, but here you need to have **document.write()**. Same
 thing, hopefully you\'re seeing the pattern. Let\'s see when we add
 this.
 
-![](./images/image038.png){width="5.0in"
-height="2.8050207786526684in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 38.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image038.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Here you can see that inside the script tag, again, I have the
 **document.write()**. But instead of things popping up or asking us for
 input, it writes it directly into the screen.
 
-![](./images/image039.png){width="5.0in"
-height="2.8050207786526684in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image039.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Now I\'m going to change something right here. Because I put h1 inside
 the quotes. If I get rid of that you can see this still works, but
@@ -1036,16 +1132,26 @@ instead of being an h1 heading, it's just regular old text. So,
 **document.write** is a way for you to generate output. But we need to
 realize that it is probably not the best way to do it.
 
-![](./images/image040.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image040.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Because sometimes if you\'re misusing it, you can overwrite other things
 that exist. So, **document.write** is something you just want to use
 when you\'re beginning and you don\'t know some of the more complex
 methods.
 
-![](./images/image041.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image041.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 One of the more complex methods you can use is called **innerHTML**. And
 with **innerHTML**, you combine this with other functions that return
@@ -1055,8 +1161,13 @@ do I want to change? Oh, I want to change that particular paragraph, all
 right. But how do I grab that particular paragraph? Or remember we have
 these different APIs that can go and get things for us.
 
-![](./images/image042.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 42.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image042.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 In this case, I have element which is hopefully we\'ll find something
 using the API that in your HTML equals time to learn JavaScript. I
@@ -1072,16 +1183,26 @@ When I talk about this kind of generic element, I didn\'t make it a
 color that\'s something that you need to grab using the API. Let me give
 you an example of something we can do using innerHTML.
 
-![](./images/image043.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image043.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Let\'s look at this, what I\'ve done is I made an **h1** heading and
 I\'ve given it the **id** of test. I also have a paragraph element a
 little bit further down that just says, hey what happens if I\'d messed
 with this code?
 
-![](./images/image044.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image044.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 In my **h1** heading, I actually have the words tester, but if you look
 at the web page, it says Hello World. Well, how did I do that? Because
@@ -1092,8 +1213,13 @@ whatever used to be in there and replace it with the words, Hello World.
 This is kind of what happens when this is a weird example, but all early
 examples are weird examples. Because you just want to get your feet wet.
 
-![](./images/image045.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image045.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 But I did want you to look at what happens if I do this. Back from your
 days of learning CSS, you might remember that in general, you can expect
@@ -1104,14 +1230,24 @@ JavaScript is expecting you to keep that rule. When you do something get
 element by ID, JavaScript thinks there\'s only one out there. I\'m going
 to stop as soon as I find that one.
 
-![](./images/image046.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image046.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 As you can see down here, it changed the first one it found. It didn\'t
 change the second one it found, okay? All right.
 
-![](./images/image047.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image047.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Let\'s go play with the last output method I have for you today.
 **document.write** and enter HTML. Write directly into the browser
@@ -1127,14 +1263,24 @@ execution. If you haven\'t used the console before, you might not
 realize that it\'s even there. But I\'m hoping you have when you were
 doing your CSS.
 
-![](./images/image048.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image048.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Let\'s take a look at this example. In my HTML up here, you can see that
 I have **console.log** Hello World. Nothing too exciting going on here.
 
-![](./images/image049.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image049.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 But if you look at the actual browser, hm, it\'s not there. It doesn\'t
 show up like it did with document.ray. Where did it go? Well, it\'s
@@ -1142,8 +1288,13 @@ actually in the Console of your browser. I\'m going to go down here. I
 did inspect element, and I checked the Console. Oh, you can see Hello
 World showed up here.
 
-![](./images/image050.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image050.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 What happens if I change the code to Hello World Too?
 
@@ -1156,24 +1307,39 @@ are doing. We\'re going to come back to this example in just a second,
 but first I want to talk to you about why you should be utilizing the
 console by now, if you haven\'t.
 
-![](./images/image051.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image051.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 The console does more than just take these print statements. It also
 provides debugging information for JavaScript, HTML, and CSS. By going
 in and looking at it, you\'re going to be able to help yourself become a
 much better programmer.
 
-![](./images/image052.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 52.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image052.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Let\'s take a look at just doing some debugging with the JavaScript.
 I\'m going to go in here and I\'m going to accidentally forget to put in
 my first quotes, all right. But if we didn\'t know that there\'s
 anything going on or that anything is supposed to show up.
 
-![](./images/image053.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 53.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image053.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 You might not realize that there\'s a typo but inside the console,
 it\'ll show you pretty much along the way add, hey, anything in red
@@ -1189,8 +1355,13 @@ what\'s going wrong, but you're saying somewhere in this line of code
 I\'m getting an error. This kind of ability to help yourself debug is
 going to be critical to going on and advancing in this course.
 
-![](./images/image054.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image054.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 If I\'m going to ask you to debug, I should probably tell you how you
 can debug. If you\'re using Safari, you\'re going to need to go to
@@ -1208,8 +1379,13 @@ Explorer, typically hitting F12 will bring up the different JavaScript
 and development tools that you can use to improve your page. All right,
 so let\'s review.
 
-![](./images/image055.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 55.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image055.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Right now, we\'re doing really simple things, and I understand that.
 It\'s not that exciting to just print things out to the screen or have
@@ -1247,38 +1423,38 @@ for the alert.
 W3Schools has a page with debugging tips for JavaScript: [JavaScript
 Debugging](https://www.w3schools.com/js/js_debugging.asp).
 
-![Code, an empty browser, and an error message in the Chrome
-console.](./images/image056.png){width="4.0in"
-height="1.5970089676290464in"}
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 56.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image056.webp?raw=true"
+  style="width:45%;"
+  alt="Code, an empty browser, and an error message in the Chrome console." />
+</p>
 
 # Week 1-04. Variables
 
 <https://codepen.io/ColleenEMc/pen/jbYEEW>
 
-![](./images/image057.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 57.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image057.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Hi, everybody. Today we\'re going to learn about JavaScript variables.
 An important part of programming is learning how you can save data.
 Because by saving data, you can reuse it and give you program that\'s
 impression that\'s kind of intelligent and knows the user very well.
 
-![](./images/image058.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 58.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image058.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 In JavaScript, data is stored in what we call variables, and it\'s very
 easy to use variables in your programming. The only important part is
@@ -1291,8 +1467,13 @@ I chose the name "name" here, but you can imagine it being age, first
 name, last name, dob for date of birth. The important thing is that it
 should be special to you, but not special to the computer.
 
-![](./images/image059.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 59.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image059.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 How does this work? When you declare a variable, you\'re basically
 telling the computer, let\'s stop talking in human talk and let\'s talk
@@ -1308,8 +1489,13 @@ The important thing to know is that computers aren\'t smart. Computers
 are just trying to give you a way to avoid remembering big long numbers
 and instead using English words.
 
-![](./images/image060.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 60.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image060.webp?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 When you come up with your variable name, there\'s a few rules that you
 need to follow. Every variable name can have letters, digits,
