@@ -107,8 +107,6 @@ yet, but it will be a great way to get your feet wet with traditional
 programming. After that we go back to the basics of how a computer uses
 data. We begin with variables, expressions, and operators.
 
-> **Syllabus**
-
 1.  **[Introduction](https://www.coursera.org/lecture/javascript/introduction-EYX66)\*
     (4:28) (1)**
 
@@ -315,9 +313,9 @@ in the time we have. We will focus on the following:
 
 -   How to create and validate HTML forms.
 
-<h1 id="wk1"></h1>
+<h1 id="ch1"></h1>
 
-<h2 id="wk1-01">Week 1-01. Introduction</h2>
+<h2 id="ch1-1">1-1. Introduction</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
