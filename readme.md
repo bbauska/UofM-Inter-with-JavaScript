@@ -385,11 +385,9 @@ previous input, and even to check that passwords match.
 
 4.  Final Project Description (4)
 
-5.  Conclusion (5)
-
 > **Reading: **\"Cool Stuff\" - Friend or Foe? (old but still valid?)
 
-6.  **Conclusion\* (5)**
+5.  **Conclusion\* (5)**
 
 > **Reading: **Intro to JQuery
 >
