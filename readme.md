@@ -9,7 +9,7 @@ UofMichigan-AdvStyling: University of Michigan - Advanced Styling with Responsiv
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. interactivity with js (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image001.jpeg?raw=true"
+<img src="./images/image001.jpg?raw=true"
   style="width:45%;"
   alt="Interactivity with JavaScript by Colleen van Lent, 
     Ph.D. (lecturer, school of information)." />
@@ -17,9 +17,9 @@ UofMichigan-AdvStyling: University of Michigan - Advanced Styling with Responsiv
 
 <h3 align="center"> </h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. university of michigan logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 01a. university of michigan logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image002.webp?raw=true"
+<img src="./images/image001a.webp?raw=true"
   style="width:25%;"
   alt="University of Michigan logo." />
 </p>
