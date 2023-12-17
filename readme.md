@@ -315,7 +315,7 @@ in the time we have. We will focus on the following:
 
 <h1 id="ch1"></h1>
 
-<h2 id="ch1-1">1-1. Introduction</h2>
+<h2 id="ch1-01">Week 1-01. Introduction</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -353,7 +353,6 @@ Did you know that every time you load a web page, you can actually get
 back the title of the page, the URL of your page, a lot of different
 information that you know is there, but you can\'t always see at first
 glance?
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -367,7 +366,6 @@ more exciting, is that we can manipulate the DOM that the browsers use
 to create webpages. The DOM is the Document Object Model, it\'s what
 builds up a webpage. If you\'re a little fuzzy, it\'s been a little
 while, don\'t worry. We\'re going to review the DOM in a future lecture.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -381,7 +379,6 @@ order to store information. Your program isn\'t going to be very
 exciting if you ask somebody their name and then you can\'t actually use
 that name later on. You\'re going to find out how to get information
 from the user, and then store it so you can use it later.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -395,7 +392,6 @@ interesting when they don\'t do the same thing every single time. We\'re
 going to write a little bit of code that can help the program decide in
 some cases I want to do this and in other cases, I want to do that. We
 call this decision points.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -411,7 +407,6 @@ In computer science, we use something called looping to control the
 program and say, see that little bit of code over there? We want to do
 that five times, or ten times, or we want to keep doing it until the
 human does what we want them to do.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -424,7 +419,6 @@ Otherwise, you sometimes have to decide at run time how many times you
 want to run some code. If you know that you want someone to do something
 five times, you can be very specific about it. Programming gives you so
 much flexibility in how you want your code to run.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -439,7 +433,6 @@ write it once. The other great thing about functions is that other
 people can write code and you can use it, and you don\'t even need to
 know how it works. All you need to know is, what did you call your
 function? Great. I want to use that.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -460,7 +453,6 @@ You can also react to mouse clicks, page reloads, and other actions that
 the user might have. This is where it really gets fun. We\'re going to
 start with the basics, the variables, the loopings, and then we\'re
 going to have fun manipulating the DOM.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -516,7 +508,6 @@ resources, I do include a link to site where you can find specifics on
 the DOM.
 
 <h2 id="ch1-02">Week 1-02. DOM Review with Object Oriented Programming</h2>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -527,7 +518,6 @@ the DOM.
 
 Today we\'re going to be talking about the DOM, or the document object
 model.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 14.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2239,7 +2229,6 @@ distinction between ***defining*** a function (writing the code) and
 it to happen).
 
 <h2 id="ch2-01">Week 2-01. Functions (7:18)</h2>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 101.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2978,16 +2967,24 @@ What I have here is a simple JavaScript function that says, hey I want
 you to call the JavaScript **date** function, this is something that I
 didn\'t write. You know that it was written by JavaScript partly because
 well, it\'s yellow.
-
-![](./images/image140.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 140.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image140.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 All right, so I\'m going to use this function and connect it with the
 **button**. So, I have **button** type equals **button** and I have
 **onclick** equals **displayDate()**.
-
-![](./images/image141.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 141.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image141.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 As soon as I click on that, we want to keep our eye on where it says
 this is a paragraph, because when I click on it that should be updated
@@ -2999,9 +2996,13 @@ they\'re going to give much longer answers than we\'re usually used to.
 As we start adding JavaScript events and reacting to events to our code,
 I just want you to be aware of something that\'s going on, that\'s
 really quite complex.
-
-![](./images/image142.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 142.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image142.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Before JavaScript, for the most part, our programs ran in a linear
 order, it would start at the top and execute each statement step by
@@ -3012,9 +3013,13 @@ always going to be listening for those events. The API is saying, all
 right I need to wait on click, onclick, onclick. If you add too many
 events to your page, you could conceivably slow down the execution of
 your page.
-
-![](./images/image143.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 143.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image143.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Clearly there are a lot more events than just the four I told you about.
 We tend to categorize these events into groups. We have mouse events
@@ -3037,9 +3042,13 @@ using them to add a little bit of interaction with your page. Without
 these events JavaScript can be limited in its ability to interact with
 the DOM. We didn\'t have onclick, onload and be really hard to actually
 work with our webpages.
-
-![](./images/image144.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 144.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image144.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Another thing I\'d like you to take away from this is while events are
 really cool, they are also very annoying. It\'s possible to put a
@@ -3080,10 +3089,14 @@ details. That happens a lot. Programming is something that comes with
 time and practice. And then suddenly the moments of \"Hooray\" start to
 outnumber the times that you are stuck.
 
-# Week 2-05. Code With Me -- Events (7:46)
-
-![](./images/image145.png){width="4.0in"
-height="2.2670942694663165in"}
+<h2 id="ch2-05">Week 2-05. Code With Me -- Events (7:46)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 145.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image145.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Hi everybody, welcome back. It\'s time for us to take some of the things
 we\'ve been learning and put them into practice. One of the most
@@ -3097,9 +3110,13 @@ code. I want you to modify the code. And whenever possible, it\'s great
 if you can break the code. Because it\'s always better to make your
 errors now. We have the whole community around you. You can ask
 questions.
-
-![](./images/image146.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 146.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image146.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 We\'re going to look at two different examples today. One, in which
 we\'re going to modify the DOM. And the second, we\'re actually going to
@@ -3108,9 +3125,13 @@ get started. In this example, I\'m going to do something a little bit
 different then we\'ve done before. When I first introduced the idea of
 events, I said that events are matched with functions. Well, you can
 also match events just with JavaScript code, not a function itself.
-
-![](./images/image147.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 147.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image147.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Here I\'ve created two buttons, and I named them First and Second. You
 are going to use those buttons to change the content of this third
@@ -3118,29 +3139,45 @@ paragraph right down here. When I click on this First button I have
 onClick, grab that element, change the innerHTML, and I want you to
 change it to Clicked First Button. The other one is very similar. The
 only difference is that I want to change the content of that paragraph.
-
-![](./images/image148.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 148.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image148.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 When I click on these buttons this, right here, is the element I want
 you to look at.
-
-![](./images/image149.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 149.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image149.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let\'s click on the First button. You can see that I clicked, it said,
 hey I know that I just clicked the First button.
-
-![](./images/image150.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 150.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image150.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 When I click on the second one, you know that I\'ve clicked on the
 Second button. This seems like a really small program to write, but
 there\'s a lot going on in here, and a lot of places where people tend
 to make mistakes. Let\'s just look at them quickly.
-
-![](./images/image151.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 151.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image151.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 The first thing I want you to look at is this idea of using
 document.getElementById. Whether or not you have these as upper- or
@@ -3159,34 +3196,54 @@ you to intuitively know before I do it what part of this page is going
 to change. Is it the event that\'s going to change? Is it the button
 that\'s going to change? Is it the whole page? So luckily, with CodePin
 you\'ll be able to see it immediately. All right, wow, now I really.
-
-![](./images/image152.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 152.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image152.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 That\'s how I can change the button itself. If I want to change what\'s
 going to happen, that where I put in here, Clicked Another Button.
-
-![](./images/image153.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 153.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image153.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let\'s save. I\'m going to click on First, Second.
-
-![](./images/image154.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 154.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image154.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Play with this. Try putting it in yourself. And realize, again, that you
 can put your JavaScript anywhere you want, it doesn\'t always have to be
 in an external file.
-
-![](./images/image155.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 155.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image155.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let\'s look at the next example. Okay, get ready. This example is going
 to be a big one, because we do have a lot of things going on. We have
 our HTML. We have our CSS. And we have our JavaScript.
-
-![](./images/image156.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 156.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image156.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let\'s start with the CSS, because it\'s the simplest and it\'s not
 going to change as this program runs.
@@ -3199,16 +3256,24 @@ disappear. However, if I were to set the class to **.open**, well, then
 now it\'s going to reappear again. That\'s all we really need to
 realize, is that .closed will make it go away, .open is going to make it
 come back.
-
-![](./images/image157.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 157.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image157.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Over here, in my HTML, I have a paragraph called demo. And that\'s right
 down here, it\'s all this entire thing we can see right here. This is
 the one we want to change in our code.
-
-![](./images/image158.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 158.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image158.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 And finally in the HTML, we have two events. We have **onClick,
 openMe**, and **onClick**, **closeMe**. Let\'s see how we can write the
@@ -3218,9 +3283,13 @@ looks a little bit longer than you might expect. What I need to do, is I
 simply need to grab the demo element by doing document.getElementById.
 But now instead of trying to change the inner HTML, I\'m going to change
 the style.
-
-![](./images/image159.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 159.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image159.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 I go in and I say x, which is my element, **.style.display=\"none\".**
 I\'m not using my CSS, I\'m actually hardcoding it in here that I want
@@ -3278,7 +3347,7 @@ module and bring up some sort of editor code bin, and go in there and
 start coding. If you don\'t do it now, you might start falling behind as
 we get into these more complex ideas. So, good luck.
 
-# Week 2-06. "this" (9:30)
+<h2 id="ch2-06">Week 2-06. "this" (9:30)</h2>
 
 ![](./images/image168.png){width="4.0in"
 height="2.2670942694663165in"}
