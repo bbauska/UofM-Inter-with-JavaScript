@@ -515,7 +515,7 @@ no code associated with this lecture, but if you check under the
 resources, I do include a link to site where you can find specifics on
 the DOM.
 
-# Week 1-02. DOM Review with Object Oriented Programming
+<h2 id="ch1-02">Week 1-02. DOM Review with Object Oriented Programming</h2>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -909,7 +909,7 @@ habit of adding a semicolon to the end of every line. This is a habit I
 have because I write in a lot of different programming languages at the
 same time and the semicolon is required in some and not others.
 
-# Week 1-03. Output (13:03)
+<h2 id="ch1-03">Week 1-03. Output (13:03)</h2>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1416,7 +1416,7 @@ Debugging](https://www.w3schools.com/js/js_debugging.asp).
   alt="Code, an empty browser, and an error message in the Chrome console." />
 </p>
 
-# Week 1-04. Variables
+<h2 id="ch1-04">Week 1-04. Variables</h2>
 
 <https://codepen.io/ColleenEMc/pen/jbYEEW>
 
@@ -1473,7 +1473,6 @@ as age, that you haven\'t put anything in there yet.
 The important thing to know is that computers aren\'t smart. Computers
 are just trying to give you a way to avoid remembering big long numbers
 and instead using English words.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 60.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1508,8 +1507,13 @@ could get away with calling it \'yyy\' or \'bbb\', just don\'t do it.
 Okay? Taking a little bit of time to give meaningful names will save you
 a lot of heart ache later.
 
-![](./images/image061.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 61.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image061.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 If you\'re going to go to the trouble of declaring a variable and
 telling the computer to save a spot in memory for it, it\'s pretty silly
@@ -1521,9 +1525,13 @@ equal, or assignment operator. So, it looks like an equal sign, but we
 call it assignment, because what we\'re doing is we\'re not saying hey,
 are these two things the same, we\'re saying take the value and store it
 into the variable.
-
-![](./images/image062.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 62.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image062.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Here I have **var** name, and instead of just leaving it at that, I say,
 hey, I want you to store the name Colleen in there, all right. This is
@@ -1539,8 +1547,13 @@ Right here would be an example where I\'m just having, I declare my
 variable, and then later I want to update it. I say, name equals
 Colleen. This works really well.
 
-![](./images/image063.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 63.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image063.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 What I need people to avoid is doing something along this line, where
 they switch the left-hand side and the right-hand side. Mathematically,
@@ -1552,9 +1565,13 @@ All right, so I\'m going to show you a few examples of how you might use
 a variable. If you remember when we talked about output, one way that we
 were able to produce output also was a way to generate input, and that
 was the prompt.
-
-![](./images/image064.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 64.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image064.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 When you use the prompt, it\'s waiting for you to type something in and
 when you type it in, it\'s going to store that in the name. Now can we
@@ -1566,15 +1583,24 @@ you\'re looking at the page. Then you can write that information out.
 You can even use more from the API saying, you know what? I want to know
 where this window is. What\'s the location of this window? And you can
 write that out as well.
-
-![](./images/image065.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 65.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image065.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let\'s look at a quick example of how we can use that. Let\'s start with
 the simple code we used before when we were learning about prompts.
 
-![](./images/image066.png){width="4.0in"
-height="2.2440168416447945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 66.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image066.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Only now, I want to combine it with a variable, so I am going to go in
 here and do var, and I\'m actually just going to call it nm. The reason
@@ -1583,8 +1609,13 @@ realize that the name you give your variable. Doesn\'t really matter, it
 can be anything you want. Just because I call it name, doesn\'t mean you
 have to.
 
-![](./images/image067.png){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 67.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image067.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 And as soon as I did this, the prompt statement showed up, and I put in
 Colleen. Great, it worked, but we didn\'t do anything with it. Let\'s
@@ -1592,30 +1623,48 @@ add a bit more code. Now I am going to comment out this line. You can
 see why, because otherwise it\'ll keep asking us to prompt things.
 We\'ll comment that out when we\'re done. All right.
 
-![](./images/image068.png){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 68.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image068.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 I have this variable called **name**, now I can do something like
 **document.write nm.** I can also do **Console.log(nm).** If you wanted
 to you could even put in **alert(nm)**. Let\'s put this back in. Might
 want to edit all my typing out. What is your name? Well, it is Colleen.
 
-![](./images/image069.png){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 69.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image069.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 All right, so the alert popped up, but why didn\'t the
 **document.write** work? This is a good question, and this is actually
 an example where I can go in, that\'s what was going on.
-
-![](./images/image070.png){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 70.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image070.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 It was actually waiting for me to hit okay. When it was all done, it
 went in and it printed out my name. This is a really simple, quick
 example.
-
-![](./images/image071.png){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 71.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image071.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let\'s do one that has a little bit more going on with it. All right, in
 this case we\'re going to talk a little bit more about how you can add
@@ -1626,9 +1675,13 @@ twice actually. Once with my name and then another time with an H1
 heading. And then I just wanted to show you that you could also grab
 other information from the document, itself, such as the URL and the
 title.
-
-![](./images/image072.png){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 72.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image072.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 First thing I\'m going to show you is, it says null and null. And
 that\'s kind of weird, and it might happen to you and it might not. The
@@ -1637,16 +1690,26 @@ anything in the prompt. When the JavaScript doesn\'t know what to do,
 when it doesn\'t know what value should have been in there, it\'s going
 to assign it a value of null.
 
-![](./images/image073.png){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 73.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image073.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let\'s run this one more time. I\'m going to put in the name Christopher
 just in case someone else named Christopher is reading this and they can
 feel special. But now you can see it printed out Christopher, the URL,
 and the title of my page.
 
-![](./images/image074.png){width="4.0in"
-height="2.261111111111111in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 74.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image074.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Variables are a key component of really doing any type of programming
 language at all. We\'re going to be using them throughout this entire
@@ -1658,17 +1721,25 @@ consult that log. The most important thing is I want you to understand
 how variables work, so that you can use them throughout the rest of the
 course. Good luck.
 
-# Week 1-05. Data Types
-
-![](./images/image075.png){width="4.0in"
-height="2.2316240157480314in"}
+<h2 id="ch1-05">Week 1-05. Data Types</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 75.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Once you realize that computers store all of the information using
 variables, the next step is to start to learn about the different data
 types used in the JavaScript programming language.
-
-![](./images/image076.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 76.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image076.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 If you look here in this example, you can see that I\'ve got variable
 name equals prompt, what is your name. It\'s expecting me to type in
@@ -1683,9 +1754,13 @@ equals 12. Doesn\'t make any sense but there\'s nothing stopping me from
 doing it. In each of these examples, name would have what we call a
 different type. Things that are stored in the computer are completely
 different.
-
-![](./images/image077.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 77.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image077.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 In computer programming languages, computers tend to have a single type.
 In JavaScript, that\'s fine, a variable can only be one type, but
@@ -1693,9 +1768,13 @@ throughout the course of the program, it can switch from being a program
 to characters, back to a number to something else that\'s completely
 complex. Let\'s talk about what these types are in JavaScript and how we
 can represent them.
-
-![](./images/image078.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 78.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image078.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 The first type we\'re going to talk about is number, and it\'s pretty
 straightforward, it\'s simply any type of numerical value that you want
@@ -1713,9 +1792,13 @@ case, I hard coded it to something. In both cases, it\'s storing a
 number, but in the different cases or one, it\'s going to be, normally
 would be an integer or a whole number, and the next time it has
 decimals.
-
-![](./images/image079.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 79.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image079.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 The next type is called String. String is simply a collection of
 characters such as letters, numbers, punctuation, spaces, basically
@@ -1730,8 +1813,13 @@ I\'ve done var location = **window.location**. Because it happens to be
 that that attribute is a string or in my second example once again,
 I\'ve just hardcoded it to something you might expect.
 
-![](./images/image080.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 80.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image080.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 The third data type is Boolean. In programing, a boolean value is
 something that is either true or false. It doesn\'t have numbers to it
@@ -1746,8 +1834,13 @@ Later, we\'re going to learn how to write our own boolean expressions to
 check to see if things are true or false. And that can add really a lot
 of power to your page.
 
-![](./images/image081.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 81.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image081.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 The next data type is called object. Because sometimes the variables or
 the nodes are more complex than just a number or couple characters. A
@@ -1763,9 +1856,13 @@ Using those attributes, we can go in and we might be able to say
 something along the lines of write out **topic.style, topic.innerHTML.**
 Different things like that can show us really the attributes or the
 string\'s numbers that make up objects.
-
-![](./images/image082.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 82.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image082.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Finally, the last type we\'re going to talk about is array, because in
 some cases a function might want to return more than one value. We\'ve
@@ -1780,8 +1877,13 @@ Well, that\'s certainly not going to return just a single number, or a
 bunch of strings, or even a single object. Instead, it needs to return a
 whole collection.
 
-![](./images/image083.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 83.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image083.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Arrays store these multiple values using a variable name, just like the
 ones we\'ve done, but it also includes what we call an index for each
@@ -1796,8 +1898,13 @@ going to have an entire lecture or more on arrays later in this course.
 But for now, I just want you to realize that it\'s one of the data types
 that can be returned.
 
-![](./images/image084.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 84.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image084.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let\'s look at a quick example that uses some of the different types.
 Let\'s see what happens when I type in a string to this sample code.
@@ -1815,9 +1922,14 @@ here **document.getElementsByTagName(\'p\')**. This is where we\'re
 using an array, and I just want to show you this because there\'s a
 really good chance this message might pop up for you and I don\'t want
 you to get freaked out about it.
-
-![](./images/image085.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 85.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image085.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
+<!-- {width="4.0in" height="2.251709317585302in"} -->
 
 After I grab all the paragraph elements, if I try to print them out, it
 prints out object **HTMLCollection 0.** It says, oh, you didn\'t
@@ -1825,6 +1937,13 @@ actually have any paragraphs in this page. If I go back, and I add a
 few, they can even be empty. Gotta love when it keeps popping up on you.
 I don\'t know how many I added but we\'re going to do it.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 86.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image086.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 ![](./images/image086.png){width="3.5in"
 height="1.970246062992126in"}![](./images/image087.png){width="3.5in"
 height="1.9702449693788275in"}
@@ -1832,8 +1951,13 @@ height="1.9702449693788275in"}
 I can try running this again. And when I type in Colleen, you can see
 that now it knows that I have five paragraph elements in there.
 
-![](./images/image088.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 88.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image088.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Luckily in JavaScript, there\'s a ton of flexibility with the different
 types of data you can use. In other programming languages they\'re very
@@ -1849,18 +1973,26 @@ knowing what the types are, even if you don\'t know how they work,
 you\'re really going to be on your way to doing some cool programming.
 So good luck.
 
-# Week 1-06. Operators & Expressions (8:26)
-
-![](./images/image089.png){width="4.0in"
-height="2.251709317585302in"}
+<h2 id="ch1-06">Week 1-06. Operators & Expressions (8:26)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 89.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image089.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Today we\'re going to be talking about expressions and mainly operators,
 the different ways that you can manipulate your code. We\'ve been using
 statements to execute our JavaScript code. Every time you saw a line
 that ended with a semicolon, we were writing a statement.
-
-![](./images/image090.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 90.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image090.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Statements often have what we call expressions, or things that can be
 evaluated. Expressions produce values. They might produce a number, or a
@@ -1868,8 +2000,13 @@ string, but many times they produce what we call Boolean values. I want
 to show you all the different types of operators that we can use in
 JavaScript to produce these types of expression values.
 
-![](./images/image091.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 91.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image091.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 If you think back, I tend to talked about that left hand side equals
 right hand side. With the left-hand side is a variable and the
@@ -1879,17 +2016,26 @@ What are our tools for generating different values on that right hand
 side? We\'ve seen direct assignments or calls to different functions but
 there\'s more to it that we can do than just that.
 
-![](./images/image092.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 92.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image092.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Here\'s a very simple assignment expression. I just had x=5 or in
 another example I said y=12. What\'s going on here is not an equal or a
 thing if two things are the same. In this expression I\'m saying, go
 find the value that is story in y. After I grab that, go and store it in
 x as well.
-
-![](./images/image093.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 93.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image093.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 We also have arithmetic operators. Most of these are very straight
 forward. You\'ve probably seen plus, minus, this is multiplied, and then
@@ -1909,8 +2055,13 @@ figure out how many times does 5 go into 13? That\'s 2, and what\'s left
 over? 13%5 is going to be 3. Go ahead and play with that if you\'d like,
 and type a few numbers in and see what kind of response you get.
 
-![](./images/image094.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 94.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image094.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Some additional operators we have are the **plus plus** and **minus
 minus**. This is the increment and the decrement. It\'s the same thing
@@ -1922,8 +2073,13 @@ It\'s the same thing as saying x + = 2. It\'s just short hand you don\'t
 need to use it. But I wanted to show you just in case you see it in
 somebody else's code.
 
-![](./images/image095.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 95.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image095.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 We talked about how plus will add two numbers together. That\'s only
 true if the operators on both sides are numbers. In some cases, we have
@@ -1937,9 +2093,13 @@ read in from a prompt is a string. You\'re going to need to make sure
 that your output is what you\'re expecting. The plus equals has the same
 effect as the plus equals from before. It just means take whatever I
 used to have and concatenate this new part on to it.
-
-![](./images/image096.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 96.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image096.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Those first few operators, we use usually to assign values to a
 variable. Sometimes we use what we call Boolean operators to compare
@@ -1952,9 +2112,13 @@ x==12, oh okay, yep, those two things are equivalent, so I\'m going to
 return true. There\'s also another short hand, which is the exclamation
 point equals. This is a negation or the opposite, it says, hey, make
 sure the value stored in x doesn\'t equal 5.
-
-![](./images/image097.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 97.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image097.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 We also have more of the traditional greater than, greater than or equal
 to, less than, or less than or equal to, where they just compare the
@@ -1964,9 +2128,13 @@ With JavaScript we have a special case, though. And that\'s because in
 JavaScript we don\'t really care about types too much. What happens if
 you want to see if a number is equal to something else, but you don\'t
 want it to say yes if it\'s a string?
-
-![](./images/image098.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 98.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image098.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Here I\'ve got the equality statement that we used before, which is
 **equal equal**. If I were to say x == \"12\" the string, JavaScript
@@ -1986,9 +2154,13 @@ talking about. It\'s really hard to understand how these things work
 unless you type in some examples, play with the numbers, and try to fool
 yourself and give yourself tricky situations. If you can do that, then
 you\'ll feel comfortable moving on with these operators.
-
-![](./images/image099.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 99.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image099.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let\'s do one last little group or two groups before we finish up. In
 this case, I have what we call the **and and (&&).** This stands for
@@ -2005,9 +2177,13 @@ It doesn\'t work if it\'s only one or the other. For the "or", you might
 use the example that in America, you can\'t get into certain movies
 unless you\'re 18 or you\'re with your parents. So that would be a case
 where you only need one thing to be true.
-
-![](./images/image100.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 100.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image100.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 When it comes to programming, it\'s not enough for you to just know the
 syntax of the language or the different rules, or even for you to listen
@@ -2062,17 +2238,27 @@ distinction between ***defining*** a function (writing the code) and
 ***calling*** a function (running the code at the precise time you want
 it to happen).
 
-# Week 2-01. Functions (7:18)
+<h2 id="ch2-01">Week 2-01. Functions (7:18)</h2>
 
-![](./images/image101.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 101.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image101.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Today we\'re going to talk about functions. Functions are these bits of
 code that you can reuse over and over again by just coding what we call
 the function name.
 
-![](./images/image102.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 102.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image102.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Functions of course, like everything else in programming, have special
 syntax that you need to follow. In order to declare a function so that
@@ -2098,9 +2284,13 @@ in {code you want to run}. And this code is just general code you would
 always write with your semicolons, your expression, your statements.
 It\'s just a really nice way to save it. You don\'t have to keep typing
 it over and over again.
-
-![](./images/image103.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 103.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image103.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let me show you an example. In this case, I declared a function called
 **welcomeMsg**. And I didn\'t put anything inside the parenthesis.
@@ -2109,9 +2299,13 @@ I want to happen is to have an alert that says, Welcome to JavaScript.
 And this will work numerous times. I don\'t have to keep writing things
 over and over again. It\'s a small function, but it\'s something that
 will work.
-
-![](./images/image104.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 104.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image104.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Here\'s another very similar function. The only difference is that, this
 time, I went ahead and I included a parameter list, which says, hey, now
@@ -2123,9 +2317,13 @@ The first step in using functions is to do this function declaration,
 where you use the keywords, the curly brackets, and the parenthesis.
 Declaring a function doesn\'t actually do anything for you though. You
 need to tell the computer when you want that function to run.
-
-![](./images/image105.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 105.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image105.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 We do this by saying or we call the function. Every time you write the
 function name, you\'re telling the computer that you want to run that
@@ -2135,8 +2333,13 @@ by line. Now with functions, the computer is actually jumping around in
 memory and executing different parts of code, not necessarily in the
 order that you write them.
 
-![](./images/image106.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 106.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image106.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Here\'s an example. I have my **welcomeMsg** function, the one with the
 parameters. Over here, in my HTML file, or JavaScript file, the file
@@ -2153,9 +2356,13 @@ as the computer jumps from different bits of code back to other bits of
 code. Hopefully if you type this in and run it, you should get a hello
 and then a goodbye message. You could type putting in numbers or
 anything you\'d like instead if you prefer.
-
-![](./images/image107.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 107.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image107.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let\'s talk a little bit more about those parameters that I talked
 about. Because sometimes some functions need a little bit of extra
@@ -2167,9 +2374,13 @@ of information or a parameter that you need to provide. The important
 thing to know is the names of the parameters for your functions,
 they\'re not important, they\'re like variable names. You can call them
 anything you want, as long as you\'re consistent.
-
-![](./images/image108.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 108.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image108.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 The next thing to talk about, when we talk about functions, are return
 values. Some functions return values, others don\'t. But these values
@@ -2178,9 +2389,13 @@ Later when we talk about forms, we\'re going to want to put in special
 functions that will say, hey, I need you to halt execution right now,
 because I don\'t want you to hit submit. I don\'t want you to be able to
 hit yes on that form.
-
-![](./images/image109.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 109.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image109.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let\'s look an example of a function that returns a value. In this case,
 I\'ve written a simple function that takes your message that you want to
@@ -2194,9 +2409,13 @@ something that\'s empty. Using return statements are just typically used
 in order to assign values to valuables or to check conditional
 statements, and we\'re going to be using these a lot. I just need you to
 be aware of the term.
-
-![](./images/image110.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 110.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image110.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let\'s review what we\'ve talked about with functions so far. Whenever
 possible, use built in functions. Sometimes when people are first
@@ -2224,17 +2443,26 @@ be writing your own functions in the homework, and I\'m hoping that
 you\'ll be able to do this and feel like you\'re really starting to
 understand some of the power of JavaScript. Good luck.
 
-# Week 2-02. Code Placement (6:32)
-
-![](./images/image111.png){width="4.0in"
-height="2.251709317585302in"}
+<h2 id="ch2-02">Week 2-02. Code Placement (6:32)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 111.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image111.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Today, we\'re going to talk not about new concepts, but really, putting
 our code in the best place to make it easier for you to follow what\'s
 going on.
 
-![](./images/image112.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 112.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image112.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Up to this point, we\'ve been putting our JavaScript into the HTML body
 tag. Now, it\'s fine to start off that way, but as we get more and more
@@ -2246,8 +2474,13 @@ JavaScript code. And where you can put it, is you can leave it in the
 body, as we\'ve been doing, you can put your functions into the head
 section of your HTML code, or you can use an external file.
 
-![](./images/image113.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 113.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image113.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 If you decide to put your JavaScript functions in the head section,
 that\'s a really great idea, because they\'re separated from the content
@@ -2264,8 +2497,13 @@ If you do this. If you put your code into the head section, don\'t
 worry, all of your function will still have access to all the document
 information, the ID\'s, the classes, etc.
 
-![](./images/image114.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 114.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image114.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let\'s take a quick look at an example. As you can see, I have my head
 section and inside there, I have this script ending, script in ending
@@ -2279,8 +2517,13 @@ having the entire function written down here. Plus, for code reuse, you
 can now call the function multiple times, but only write it once up
 here.
 
-![](./images/image115.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 115.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image115.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 If instead, you decide to put your JavaScript functions in an external
 file, then you can use that code multiple times in multiple files. The
@@ -2288,8 +2531,13 @@ one thing that\'s important to remember right from the start is again,
 when you\'re using external file, don\'t use the script tag. It\'s just
 the JavaScript, without any script tag.
 
-![](./images/image116.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 116.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image116.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let\'s look at an example here. Here you can see, that inside the head
 section, I\'ve gone in and I\'m done with my script. But instead of
@@ -2308,18 +2556,26 @@ code, it\'s usually pretty easy to figure out that you did something
 wrong, because the colors aren\'t the way you wanted or your text just
 isn\'t there. But with JavaScript, sometimes the changes you're making
 are so slight, you don\'t even realize that you have a problem.
-
-![](./images/image117.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 117.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image117.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 It\'s very important, as your code becomes more and more complex, that
 you\'re using the console to debug your code. The console really is your
 friend. I can\'t stress enough how much you always want to have it on
 while you\'re coding. Myself, sometimes I forget to turn it on and I\'m
 annoyed later, when I could have found my errors so much more easily.
-
-![](./images/image118.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 118.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image118.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Another way that we can talk about separating your code into this
 external file from your HTML, is to use these different types of
@@ -2334,25 +2590,37 @@ understand how to link their code, out there in the real world.
 If you\'re going to use CodePen, I always recommend that once you\'re
 done, take that code and put it into three separate files, so that
 you\'re sure you know how to link them together.
-
-![](./images/image119.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 119.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image119.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let\'s take a look. As you can see here, I have one window for my HTML
 code. One, for my CSS and one for my JavaScript. And code pen, takes
 care of all the work of making sure that they\'re all together. If this
 is your first time ever using CodePen, I did want to point out, that
 there\'s this handy little function, that you can re-size the windows.
-
-![](./images/image120.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 120.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image120.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 If you\'re not too concerned with your CSS right now, you can make that
 smaller. And really kind of focus, on what you\'re working on, in the
 HTML and the JS.
-
-![](./images/image121.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 121.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image121.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 All right, let\'s review what we talked about today. The first thing, is
 that you need to feel comfortable with the idea that your JavaScript
@@ -2385,10 +2653,13 @@ can quickly and easily understand their code.)
 The most common organization is to have one main folder with your HTML
 files in it. There are also three subfolders (folders inside the main
 folder) for your CSS, image, and JavaScript files.
-
-![Folder with subfolders nested
-within.](./images/image122.png){width="4.0in"
-height="1.304757217847769in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 122. folder with subfolders nested within (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image122.png?raw=true"
+  style="width:40%;"
+  alt="Folder with subfolders nested within." />
+</p>
 
 When we use CodePen we use that idea of separating our code. However, be
 aware that CodePen doesn\'t require many of the things you should have
@@ -2398,10 +2669,14 @@ sure to test your code later using the proper folder/file structure. You
 will need to include links to the style sheets, images, and any external
 JavaScript files.
 
-# Week 2-03. Folder Structure / Organizing Your Code (5:33)
-
-![](./images/image123.png){width="4.0in"
-height="2.251709317585302in"}
+<h2 id="ch2-03">Week 2-03. Folder Structure / Organizing Your Code (5:33)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 123.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image123.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 I know that one of the most frustrating things that can happen when
 you\'re designing and developing your webpage is when you just can\'t
@@ -2410,8 +2685,13 @@ you\'re trying to link it to your style sheet, and they just don\'t seem
 to recognize each other. Today, we\'re going to talk about how web
 designers tend to organize and separate their code into different parts.
 
-![](./images/image124.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 124.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image124.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 First, we always start off with a main folder that\'s going to hold your
 HTML code. In addition to your code, you\'re going to have a folder for
@@ -2423,8 +2703,13 @@ design, your fellow designers are going to expect that you have similar
 conventions to their own. you want to get used to doing things the right
 way, right from the beginning.
 
-![](./images/image125.png){width="4.0in"
-height="2.251709317585302in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 125.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image125.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Here I\'ve got a quick picture of how I could organize the code using
 these different folders. I have ProjectOne, ProjectTwo, and
@@ -2436,8 +2721,13 @@ different files can talk to one another. And so, we\'re going to use the
 convention here, and I\'m going to show you how to make sure they can
 link together in the right way.
 
-![](./images/image126.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 126.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image126.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 2^nd^ line should be: **\<script
 src="js/javaFunctions.js"\>\</script\>**
@@ -2461,8 +2751,13 @@ img. When you\'re linking your code with other people\'s code, make sure
 you do a quick check. And make sure that your folder names CSS,
 JavaScript, and images match what other people are expecting.
 
-![](./images/image127.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 127.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image127.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 When it comes to linking from your style sheet, it can be a little bit
 trickier. In the example I have here, we want to link to this holiday
@@ -2472,8 +2767,13 @@ folder. But the problem is, how do you tell the browser that the images
 folder is someplace different? In this example we go up 2 directories,
 find 'images' folder and pull from there. Done & done.
 
-![](./images/image128.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 128.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image128.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 If things aren\'t working for you in your folder structure, here\'s a
 few tips you can do just to see if we can find out where the issue is.
@@ -2491,18 +2791,26 @@ I\'m hoping that this is going to help you understand a little bit more
 how you can organize your code to make the best use of the different
 CSS, JavaScript, and images functions out there. Thanks.
 
-# Week 2-04. Events (10:05)
-
-![](./images/image129.png){width="4.0in"
-height="2.2670942694663165in"}
+<h2 id="ch2-04">Week 2-04. Events (10:05)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 129.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image129.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Hi everybody. One of the things we promise you in this course was that
 we\'d teach you how to do interactivity with JavaScript. Well, we
 finally reached that point where we can start having some fun and
 reacting to events that happened to your web page.
-
-![](./images/image130.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 130.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image130.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Up to now it has been up to us to decide when the functions should
 execute. In our code, we put the script tags and we call those
@@ -2512,9 +2820,13 @@ do these events come from, well, they come from the JavaScript API. We
 can start doing things based on clicking, mouse movement, all these
 different types of dynamic function calls. Let\'s take a look at how we
 can do this.
-
-![](./images/image131.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 131.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image131.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 First, let\'s talk about just some of the events that we normally react
 to on a web page. The first one is **onclick**, it's very
@@ -2531,9 +2843,13 @@ are trying to apply the JavaScript to, is so complex and takes so long
 to load that the JavaScript is done before the user can even see the
 page. This last one onload we are going to use quite a bit to make sure
 we are all seeing the exact same events.
-
-![](./images/image132.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 132.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image132.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 All right, so how does this work? We know that any element can react to
 an event. Well, we need to add code to our HTML that links the events
@@ -2546,9 +2862,13 @@ listening, listening to this one div and saying okay, if anybody clicks
 on this then I am going to call the JavaScript function message. All
 right, this isn\'t going to happen just once, this is going to happen
 for the duration that this site is loaded onto the browser.
-
-![](./images/image133.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 133.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image133.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 One of the things that we need to talk about is the use of quotes. When
 we have our event such as **onclick** equals message function or
@@ -2575,9 +2895,13 @@ your editor gets mixed up. Because when you\'re coding, you don\'t have
 that same kind of slant that Word, PowerPoint, and other programs put
 into your quotes. Whenever you copy and paste, go back and make sure
 that they\'re matching up correctly.
-
-![](./images/image134.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 134.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image134.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let\'s take a look at what I do with this code right here. I have my
 HTML on one side and my JavaScript function on the other. The JavaScript
@@ -2594,30 +2918,46 @@ browser, I want to send a different message and then finally the last
 one is **onclick**. All three of these events, **onload, onresize,
 onclick**, they\'re all going to call the message function, but they\'re
 going to call it with three different frame runners.
-
-![](./images/image135.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 135.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image135.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let\'s take a look at what\'s going on. As you can see, when I loaded
 the page, it automatically had LOAD event show up.
-
-![](./images/image136.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 136.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image136.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 What happens if I click on this paragraph right here? Oh, it changes to
 click event. It\'s actually happening over and over again; you just
 can\'t tell because it\'s so quick.
-
-![](./images/image137.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 137.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image137.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Now, the last thing I\'m going to do is I\'m going to resize the page
 and you can see, that it recognizes that there is a resize event. So,
 it\'s pretty simple to go through, and I\'ll go back here, and had your
 HTML actually change based on the different events.
-
-![](./images/image138.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 138.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image138.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 The second example is, again, a very straightforward way of showing you
 how the events can be linked to different element types. One HTML
@@ -2626,9 +2966,13 @@ using it because I think that the semantics of a **button** tag really
 conveys this idea of click me and I\'m going to do something, and since
 we didn\'t have the power to do that yet, I really didn\'t want to use
 that element, but now we can.
-
-![](./images/image139.png){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 139.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image139.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 What I have here is a simple JavaScript function that says, hey I want
 you to call the JavaScript **date** function, this is something that I
