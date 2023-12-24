@@ -138,7 +138,7 @@ data. We begin with variables, expressions, and operators.
 >
 > **The History of \"Debugging\"**
 
-**Summary: **Week One
+**Summary:** Week One
 
 ### Week Two: Reacting to Your Audience
 
@@ -181,7 +181,7 @@ that you can create along with me.
 
 7.  **Photo Gallery\* (7)**
 
-**Summary: **JavaScript Interactive Photo Gallery
+**Summary:** JavaScript Interactive Photo Gallery
 
 ### Week Three: Arrays and Looping
 
@@ -223,7 +223,7 @@ programs. Using both we will expand upon the photo gallery example.
 
 7.  **Common Errors\* (7)**
 
-**Summary: **JavaScript Review
+**Summary:** JavaScript Review
 
 ### Week Four: Using JS for Interactive Images
 
@@ -241,9 +241,9 @@ input and send data to via a webpage. We will look at how you can use
 JavaScript to add options to your forms, to pre-fill data based on
 previous input, and even to check that passwords match.
 
-> **Reading: **Link to All of the Code for Week Four
+> **Reading:** Link to All of the Code for Week Four
 >
-> **Reading: **Introduction to Forms
+> **Reading:** Introduction to Forms
 
 1.  **Code With Me:** Randomizing Your Images Using Arrays (1)
 
@@ -253,17 +253,17 @@ previous input, and even to check that passwords match.
 
 4.  Final Project Description (4)
 
-> **Reading: **\"Cool Stuff\" - Friend or Foe? (old but still valid?)
+> **Reading:** \"Cool Stuff\" - Friend or Foe? (old but still valid?)
 
 5.  **Conclusion\* (5)**
 
-> **Reading: **Intro to JQuery
+> **Reading:** Intro to JQuery
 >
-> **Reading: **Post-course Survey
+> **Reading:** Post-course Survey
 >
-> **Reading: **Keep Learning with Michigan Online
+> **Reading:** Keep Learning with Michigan Online
 >
-> **New Reading: **Resources
+> **New Reading:** Resources
 >
 > **Reading:** Advanced Coding Techniques
 >
@@ -271,7 +271,7 @@ previous input, and even to check that passwords match.
 >
 > **Final Project Description**
 
-**Summary: **Autocomplete with JavaScript
+**Summary:** Autocomplete with JavaScript
 
 **Welcome to Introduction to JavaScript**, taught by Colleen van Lent!
 
@@ -317,11 +317,11 @@ in the time we have. We will focus on the following:
 
 <h2 id="ch1-01">Week 1-01. Introduction</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. introduction (1-01.) (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image003.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="1.01. Introduction: Interactivity with JavaScript." />
 </p>
 
 Hi everybody. Today I\'m going to introduce you to the JavaScript
@@ -333,11 +333,11 @@ you\'re going to want to go back and review those two areas because
 everything we with JavaScript in this class is based on web programming.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. what you can do with js (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image004.webp?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="What you can do with it; JavaScript." />
 </p>
 
 If you\'ve done HTML, if you\'ve done CSS, you haven\'t necessarily done
@@ -354,7 +354,7 @@ back the title of the page, the URL of your page, a lot of different
 information that you know is there, but you can\'t always see at first
 glance?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. what you can do with js, #2 (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image005.webp?raw=true"
   style="width:40%;"
@@ -367,11 +367,11 @@ to create webpages. The DOM is the Document Object Model, it\'s what
 builds up a webpage. If you\'re a little fuzzy, it\'s been a little
 while, don\'t worry. We\'re going to review the DOM in a future lecture.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 06. variables to store data and refer back to it later (0#) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image006.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Variables: Store data and refer back to it later." />
 </p>
 
 Let\'s start with variables. In computer science, we use variables in
@@ -380,11 +380,12 @@ exciting if you ask somebody their name and then you can\'t actually use
 that name later on. You\'re going to find out how to get information
 from the user, and then store it so you can use it later.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. decision points (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image007.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Decision Points: Use control statements to decide which code to run 
+    under different circumstances." />
 </p>
 
 We\'re also going to add decision points. Things are much more
@@ -393,11 +394,11 @@ going to write a little bit of code that can help the program decide in
 some cases I want to do this and in other cases, I want to do that. We
 call this decision points.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. looping (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image008.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Looping: Avoid writing the same (or similar) code over and over again." />
 </p>
 
 We can also do looping. Looping is really powerful. As your programs get
@@ -408,11 +409,11 @@ program and say, see that little bit of code over there? We want to do
 that five times, or ten times, or we want to keep doing it until the
 human does what we want them to do.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. looping, #2 (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image009.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Looping: Determine at runtime how many times you want to run some code." />
 </p>
 
 Otherwise, you sometimes have to decide at run time how many times you
@@ -420,11 +421,11 @@ want to run some code. If you know that you want someone to do something
 five times, you can be very specific about it. Programming gives you so
 much flexibility in how you want your code to run.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. functions (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image010.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Functions: Reuse code multiple times, but only write once.  Use code from others." />
 </p>
 
 Next in this course we\'re going to talk about functions. Functions are
@@ -434,11 +435,11 @@ people can write code and you can use it, and you don\'t even need to
 know how it works. All you need to know is, what did you call your
 function? Great. I want to use that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. manipulating the dom (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image011.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Manipulating the DOM." />
 </p>
 
 Finally, we\'re going to talk about manipulating the dominant class.
@@ -454,11 +455,11 @@ the user might have. This is where it really gets fun. We\'re going to
 start with the basics, the variables, the loopings, and then we\'re
 going to have fun manipulating the DOM.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. review (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image012.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Review." />
 </p>
 
 A major component of learning any new programming language, or I guess,
@@ -487,7 +488,7 @@ your own. For now, I put complete examples in CodePen, but as time goes
 on, I will remove some of the commands to link the code together. You
 will need to work on that part on your own..
 
-## The Document Object Model (DOM)
+<h2 id="ch-1b">The Document Object Model (DOM)</h2>
 
 ### Examples:
 
