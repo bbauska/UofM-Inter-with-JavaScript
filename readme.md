@@ -38,6 +38,7 @@ UofM-Inter-with-JS: University of Michigan - Interactivity with JavaScript
 ## [**Week 1: Data Types**](#ch1)
 >### 1.1 [**Introduction to Interactivity with JavaScript**](#ch1-01)
 >### 1.2 [**DOM Review with Object Oriented Programming**](#ch1-02)
+>### 1.2b [**Newer DOM**](#new-dom)
 >### 1.3 [**Output**](#ch1-03)
 >### 1.4 [**Variables**](#ch1-04)
 >### 1.5 [**Data Types**](#ch1-05)
@@ -510,21 +511,20 @@ the DOM.
 
 <h2 id="ch1-02">Week 1-02. DOM Review with Object Oriented Programming</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 13. dom review with object-oriented programming (11) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image013.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="DOM Review with Object-Oriented Programming." />
 </p>
 
-Today we\'re going to be talking about the DOM, or the document object
-model.
+Today we\'re going to be talking about the DOM, or the document object model.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 14.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 14. web pages are built upon the dom (11) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image014.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Web pages are built upon the DOM." />
 </p>
 
 As you may or may not remember, every webpage is built upon this DOM.
@@ -532,13 +532,12 @@ And what it means is that our pages are structured like a tree. We have
 one parent and possibly a few children. And the page as you add more and
 more things it just gets deeper and deeper. Nodes have different
 properties, methods, and events.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. sample document (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image015.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Sample Document." />
 </p>
 
 Let me draw you a quick example and then we\'ll talk about how we can
@@ -552,13 +551,12 @@ another div. And then the third div we\'re going to give more specific.
 We\'ll say, well this div has three paragraphs and one of those
 paragraphs has the id equals 3. What does this mean? Why do we care that
 the pages built like a tree?
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. sample document, #2 (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image016.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Sample Document, #2." />
 </p>
 
 This means that JavaScript can actually go in and it can look and say,
@@ -572,25 +570,23 @@ instance, that paragraph might have a background color or a special kind
 of font, the paragraph also has text in it. How can we go in there and
 how can we change that text? This is what we\'re going to be using
 JavaScript to do in this course.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. the dom and javascript (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image017.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="The DOM and JavaScript." />
 </p>
 
 Again, we\'ve got that the page content is represented by the DOM. The
 scripting language JavaScript uses the DOM to interact with the
 document. How does it do that, though? How does it know how to interact?
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. how does it work? (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image018.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="How does it work?" />
 </p>
 
 Well, the JavaScript has something called an API, or an application
@@ -600,13 +596,12 @@ you using? Or what API are you using? And it can sound kind of
 intimidating if you\'ve never used one before. An API is just a way for
 someone else to write code, and then you to use it, to interact with
 their programs.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19. how does it work, #2? (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image019.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="How does it work, #2?" />
 </p>
 
 No matter which browser you\'re using, Firefox, Chrome, different things
@@ -615,13 +610,12 @@ case we\'re going to use JavaScript. The API is always the same. The way
 you interact is always going to be the same. And this is really
 important, because it\'s nice to know that if you learn this you won\'t
 have to learn something different later on.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 20.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 20. the dom objects/elements (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image020.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="The DOM objects/elements." />
 </p>
 
 Let\'s talk about some of these DOM objects or element as we call them.
@@ -658,13 +652,12 @@ width, and a style, different things like that.
 
 Attributes are the kind of cool things that we want you to be able to
 change to make your page look different.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. specific apis (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image021.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Specific APIs." />
 </p>
 
 Okay, so if you understand that the page is made up of documents, and
@@ -685,13 +678,12 @@ any element that the DOM can grab.
 Finally, an interesting one that you may or may not use, is you can even
 remove attributes. If something has a certain color, you can get rid of
 that if you want.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. review (1.02) (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image022.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="1.02. Review." />
 </p>
 
 I know that there was a lot I went over in this slide that maybe didn\'t
@@ -793,14 +785,13 @@ you would like to learn more about the differences between the two
 groups of methods: [querySelector vs
 getElementById](https://dev.to/eidorianavi/queryselector-vs-getelementbyid-gm1)
 
-## New DOM Methods (4:32)
-
+<h2 id="new-dom">Newer DOM Methods (4:32)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22b. newer dom methods (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image023.webp?raw=true"
+<img src="./images/image022b.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Newer DOM Methods." />
 </p>
 
 Hi everyone. Part of being a coder is realizing that you\'ve been using
@@ -808,13 +799,12 @@ the same code for a long time and that there\'s probably some newer
 things out there. This is just a quick video to throw out there some new
 methods that you might be seeing, or that you might want to use
 yourself.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 22c. selecting the first element (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image024.webp?raw=true"
+<img src="./images/image022c.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Selecting the First Element." />
 </p>
 
 We\'ve been using **getElementById()**. How it works is that it takes a
@@ -837,13 +827,12 @@ the course to show you, but it\'s something that students often forget.
 I wanted to mention it right off the bat. If you\'re looking to select a
 single element, you can continue to use **getElementById,** or you can
 start to play around and use **querySelector** as well.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 22d. selecting multiple elements (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image025.webp?raw=true"
+<img src="./images/image022d.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Selecting Multiple Elements." />
 </p>
 
 If you want to select multiple elements, well, there\'s something called
@@ -859,13 +848,12 @@ complicated. Think back to all the code you\'ve been writing in your
 CSS. If you can write a selector to style something, then you can
 definitely write a selector for JavaScript to grab it to manipulate the
 DOM.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22e. deciding on a method (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image026.webp?raw=true"
+<img src="./images/image022e.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Deciding on a Method." />
 </p>
 
 Which one should you use? Should you be using **querySelector** and
@@ -889,7 +877,7 @@ My suggestion is you do you, you do it whichever way you prefer. But
 don\'t be scared off if you see code online that uses the other
 approach. Good luck.
 
-## Semicolons
+<h3>Semicolons</h3>
 
 Adding a semicolon () (;) indicates that you have completed a statement.
 However, unless you are writing multiple statements on the same line,
@@ -901,13 +889,12 @@ have because I write in a lot of different programming languages at the
 same time and the semicolon is required in some and not others.
 
 <h2 id="ch1-03">Week 1-03. Output (13:03)</h2>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. output (1.03) (20) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image027.webp?raw=true"
+<img src="./images/image023.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="1.03. Output." />
 </p>
 
 Hi everybody. Today, let\'s start coding a little bit to see some of
@@ -916,25 +903,23 @@ added what we call a little bit of interactivity to your page. There\'s
 the details tag if you\'re using HTML. There\'s the hover property or
 pseudo class if you\'re using CSS 3 and you were able to make little
 things change in your page by reacting to what the user was doing.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 28.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. interactivity (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image028.webp?raw=true"
+<img src="./images/image024.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Interactivity." />
 </p>
 
 But typically, that\'s not really what we call interactivity when we\'re
 talking about true web design because these new elements and the pseudo
 classes can only go so far. They tend to be temporary changes.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 29.  (0#) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. what can javascript do? (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image029.webp?raw=true"
+<img src="./images/image025.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="What can JavaScript do?" />
 </p>
 
 What can JavaScript do that HTML and CSS can\'t do? Well, the one that
@@ -947,13 +932,12 @@ focus on output.
 Whenever you learn a new programming language, one of the first things
 you want to do is find out how can I make things happen. How can I have
 things print out to the screen or generate some sort of output.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 30.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. javascript output (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image030.webp?raw=true"
+<img src="./images/image026.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="JavaScript Output." />
 </p>
 
 Well, JavaScript doesn\'t have a built-in print function. Instead, you
@@ -961,13 +945,12 @@ have four or five different ways where you can generate different
 things. Data is typically displayed via alerts, prompts**,
 document.write, innertHTML** or reading information directly to the
 console. Let\'s talk about each one of these.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. alert() (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image031.webp?raw=true"
+<img src="./images/image027.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="alert()." />
 </p>
 
 You\'ve all seen alert JavaScript alert boxes. Because many times,
@@ -984,13 +967,12 @@ some sort of string and it should be inside quotes. It can be inside
 single quotes or double quotes. And then, the last thing is, to end in a
 semicolon. If you were to put this code right here inside your HTML, you
 can generate some output.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 32.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 28. codepen: sample alert() (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image032.webp?raw=true"
+<img src="./images/image028.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Codepen: Sample alert()." />
 </p>
 
 Let me show you an example. What I\'ve done over here is I\'ve created
@@ -999,13 +981,12 @@ tag, now this is new I have what we call is a **script** tag. The script
 tag tells the browser, oh wait, don\'t just print this out, I\'m
 actually going to give you some JavaScript that I want you to run. And
 in this case, I have my code **alert**(\"Hello World\").
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 33.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 29. sample alert popup (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image033.webp?raw=true"
+<img src="./images/image029.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Sample alert() popup." />
 </p>
 
 If I were to run this, and I\'m going to refresh it. You can see I get
@@ -1013,13 +994,12 @@ my little pop-up box. Now, if you\'re running this along with me at
 home, and you\'re not using Chrome, the box is going to look different.
 For some of you it\'s going to have the little Safari symbol, or the
 Edge, or Firefox.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 34.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 30. codepen: sample alert (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image034.webp?raw=true"
+<img src="./images/image030.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Codepen: sample alert()." />
 </p>
 
 That\'s okay, the important thing is that somewhere in here it says
@@ -1028,13 +1008,12 @@ creating additional dialogues button. Don\'t do it. Because in this
 class we\'re going to be playing with alert a lot because it\'s a nice
 way for you to know if your code\'s working or not. Again, this is just
 a quick and simple way for you to generate output using the alert.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 35.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. prompt() output (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image035.webp?raw=true"
+<img src="./images/image031.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Codepen: prompt()." />
 </p>
 
 The next way we can generate output is using **prompt**. **Prompt** is
@@ -1044,13 +1023,12 @@ some sort of input to put in there. As you can see, the alert and the
 prompt look very similar. They\'ve both got the key word, the
 parentheses, the semicolon and the string, but the way they act is very
 different.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 32. codepen: with alert and prompt (25) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image036.webp?raw=true"
+<img src="./images/image032.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Codepen: with alert and prompt." />
 </p>
 
 In this case when you run it, it\'s actually waiting for you to type
@@ -1061,13 +1039,12 @@ I\'m just giving you some of the different options. So, you have
 box where you can display information, but nothing is actually showing
 up on the page. Let\'s switch to the general ways in which you can
 generate output to the screen.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 37.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 34. document.write (25) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image037.webp?raw=true"
+<img src="./images/image034.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="document.write." />
 </p>
 
 One way, if you want something to be what we call permanent, to not just
@@ -1081,25 +1058,23 @@ can\'t just use write. That won\'t work. Alert worked by itself, prompt
 worked by itself, but here you need to have **document.write()**. Same
 thing, hopefully you\'re seeing the pattern. Let\'s see when we add
 this.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 38.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 35. codepen: document.write (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image038.webp?raw=true"
+<img src="./images/image035.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Codepen: document.write." />
 </p>
 
 Here you can see that inside the script tag, again, I have the
 **document.write()**. But instead of things popping up or asking us for
 input, it writes it directly into the screen.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. codepen: document.write, #2 (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image039.webp?raw=true"
+<img src="./images/image036.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Codepen: document.write, #2." />
 </p>
 
 Now I\'m going to change something right here. Because I put h1 inside
@@ -1107,42 +1082,38 @@ the quotes. If I get rid of that you can see this still works, but
 instead of being an h1 heading, it's just regular old text. So,
 **document.write** is a way for you to generate output. But we need to
 realize that it is probably not the best way to do it.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 37. document.write (27) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image040.webp?raw=true"
+<img src="./images/image037.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="document.write()." />
 </p>
 
 Because sometimes if you\'re misusing it, you can overwrite other things
 that exist. So, **document.write** is something you just want to use
 when you\'re beginning and you don\'t know some of the more complex
 methods.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 38. innerhtml() (27) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image041.webp?raw=true"
+<img src="./images/image038.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="innerHTML." />
 </p>
 
-One of the more complex methods you can use is called **innerHTML**. And
-with **innerHTML**, you combine this with other functions that return
-elements. So, you can\'t just say **innerHTML** or
-**element.innerHTML**. You have to say, all right, what part of the page
-do I want to change? Oh, I want to change that particular paragraph, all
-right. But how do I grab that particular paragraph? Or remember we have
-these different APIs that can go and get things for us.
-
+One of the more complex methods you can use is called **innerHTML**. And with **innerHTML**, 
+you combine this with other functions that return elements. So, you can\'t just say 
+**innerHTML** or **element.innerHTML**. You have to say, all right, what part of the 
+page do I want to change? Oh, I want to change that particular paragraph, all right. 
+But how do I grab that particular paragraph? Or remember we have these different 
+APIs that can go and get things for us.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 42.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. innerhtml, #2 (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image042.webp?raw=true"
+<img src="./images/image039.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="innerHTML, #2." />
 </p>
 
 In this case, I have element which is hopefully we\'ll find something
@@ -1158,24 +1129,22 @@ becomes second nature to you, all right?
 When I talk about this kind of generic element, I didn\'t make it a
 color that\'s something that you need to grab using the API. Let me give
 you an example of something we can do using innerHTML.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. codepen: h1 with id=test (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image043.webp?raw=true"
+<img src="./images/image040.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Codepen: h1 with id=test." />
 </p>
 
 Let\'s look at this, what I\'ve done is I made an **h1** heading and
 I\'ve given it the **id** of test. I also have a paragraph element a
 little bit further down that just says, hey what happens if I\'d messed
 with this code?
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image044.webp?raw=true"
+<img src="./images/image041.webp?raw=true"
   style="width:45%;"
   alt="." />
 </p>
@@ -1188,11 +1157,10 @@ says ID equals test. There it is. All right, now I want to change
 whatever used to be in there and replace it with the words, Hello World.
 This is kind of what happens when this is a weird example, but all early
 examples are weird examples. Because you just want to get your feet wet.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 42.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image045.webp?raw=true"
+<img src="./images/image042.webp?raw=true"
   style="width:45%;"
   alt="." />
 </p>
@@ -1205,22 +1173,20 @@ says, you really should see each ID only once.
 JavaScript is expecting you to keep that rule. When you do something get
 element by ID, JavaScript thinks there\'s only one out there. I\'m going
 to stop as soon as I find that one.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image046.webp?raw=true"
+<img src="./images/image043.webp?raw=true"
   style="width:45%;"
   alt="." />
 </p>
 
 As you can see down here, it changed the first one it found. It didn\'t
 change the second one it found, okay? All right.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image047.webp?raw=true"
+<img src="./images/image044.webp?raw=true"
   style="width:45%;"
   alt="." />
 </p>
@@ -1238,22 +1204,20 @@ The console\'s a place to see what\'s going on in your program during
 execution. If you haven\'t used the console before, you might not
 realize that it\'s even there. But I\'m hoping you have when you were
 doing your CSS.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image048.webp?raw=true"
+<img src="./images/image045.webp?raw=true"
   style="width:45%;"
   alt="." />
 </p>
 
 Let\'s take a look at this example. In my HTML up here, you can see that
 I have **console.log** Hello World. Nothing too exciting going on here.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image049.webp?raw=true"
+<img src="./images/image046.webp?raw=true"
   style="width:45%;"
   alt="." />
 </p>
@@ -1263,11 +1227,10 @@ show up like it did with document.ray. Where did it go? Well, it\'s
 actually in the Console of your browser. I\'m going to go down here. I
 did inspect element, and I checked the Console. Oh, you can see Hello
 World showed up here.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image050.webp?raw=true"
+<img src="./images/image047.webp?raw=true"
   style="width:45%;"
   alt="." />
 </p>
@@ -1282,11 +1245,10 @@ if you want to do development but not let everyone see exactly what you
 are doing. We\'re going to come back to this example in just a second,
 but first I want to talk to you about why you should be utilizing the
 console by now, if you haven\'t.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image051.webp?raw=true"
+<img src="./images/image048.webp?raw=true"
   style="width:45%;"
   alt="." />
 </p>
@@ -1295,11 +1257,10 @@ The console does more than just take these print statements. It also
 provides debugging information for JavaScript, HTML, and CSS. By going
 in and looking at it, you\'re going to be able to help yourself become a
 much better programmer.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 52.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image052.webp?raw=true"
+<img src="./images/image049.webp?raw=true"
   style="width:45%;"
   alt="." />
 </p>
@@ -1308,11 +1269,10 @@ Let\'s take a look at just doing some debugging with the JavaScript.
 I\'m going to go in here and I\'m going to accidentally forget to put in
 my first quotes, all right. But if we didn\'t know that there\'s
 anything going on or that anything is supposed to show up.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 53.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image053.webp?raw=true"
+<img src="./images/image050.webp?raw=true"
   style="width:45%;"
   alt="." />
 </p>
@@ -1330,11 +1290,10 @@ pinpoint where exactly your code is going wrong. You might not know
 what\'s going wrong, but you're saying somewhere in this line of code
 I\'m getting an error. This kind of ability to help yourself debug is
 going to be critical to going on and advancing in this course.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image054.webp?raw=true"
+<img src="./images/image051.webp?raw=true"
   style="width:45%;"
   alt="." />
 </p>
@@ -1354,11 +1313,10 @@ doing debugging for JavaScript. If you\'re using Edge or Internet
 Explorer, typically hitting F12 will bring up the different JavaScript
 and development tools that you can use to improve your page. All right,
 so let\'s review.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 55.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 52.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image055.webp?raw=true"
+<img src="./images/image052.webp?raw=true"
   style="width:45%;"
   alt="." />
 </p>
@@ -1374,7 +1332,7 @@ the dom is really going to get quite impressive. But for now, just make
 the small mistakes, learn how to debug the small mistakes, and then that
 way you\'ll be able to build your confidence slowly. Good luck.
 
-## Trying to Create and Debug Your Own Output
+<h3>Trying to Create and Debug Your Own Output</h3>
 
 In the previous lecture I showed you how you can create output using
 JavaScript. My code examples are all on CodePen and I have included a
@@ -1400,9 +1358,9 @@ W3Schools has a page with debugging tips for JavaScript: [JavaScript
 Debugging](https://www.w3schools.com/js/js_debugging.asp).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 56.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 53.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image056.webp?raw=true"
+<img src="./images/image053.webp?raw=true"
   style="width:45%;"
   alt="Code, an empty browser, and an error message in the Chrome console." />
 </p>
@@ -1412,9 +1370,9 @@ Debugging](https://www.w3schools.com/js/js_debugging.asp).
 <https://codepen.io/ColleenEMc/pen/jbYEEW>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 57.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image057.webp?raw=true"
+<img src="./images/image054.webp?raw=true"
   style="width:45%;"
   alt="." />
 </p>
@@ -1423,11 +1381,10 @@ Hi, everybody. Today we\'re going to learn about JavaScript variables.
 An important part of programming is learning how you can save data.
 Because by saving data, you can reuse it and give you program that\'s
 impression that\'s kind of intelligent and knows the user very well.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 58.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 55.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image058.webp?raw=true"
+<img src="./images/image055.webp?raw=true"
   style="width:45%;"
   alt="." />
 </p>
@@ -1442,11 +1399,10 @@ word to the computer. Next, you need to give your variable a name. Now,
 I chose the name "name" here, but you can imagine it being age, first
 name, last name, dob for date of birth. The important thing is that it
 should be special to you, but not special to the computer.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 59.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 56.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image059.webp?raw=true"
+<img src="./images/image056.webp?raw=true"
   style="width:45%;"
   alt="." />
 </p>
@@ -1465,9 +1421,9 @@ The important thing to know is that computers aren\'t smart. Computers
 are just trying to give you a way to avoid remembering big long numbers
 and instead using English words.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 60.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 57.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image060.webp?raw=true"
+<img src="./images/image057.webp?raw=true"
   style="width:45%;"
   alt="." />
 </p>
@@ -1497,11 +1453,10 @@ someone\'s name, call it name. If it\'s storing age, call it age. You
 could get away with calling it \'yyy\' or \'bbb\', just don\'t do it.
 Okay? Taking a little bit of time to give meaningful names will save you
 a lot of heart ache later.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 61.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 58.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image061.webp?raw=true"
+<img src="./images/image058.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1517,9 +1472,9 @@ call it assignment, because what we\'re doing is we\'re not saying hey,
 are these two things the same, we\'re saying take the value and store it
 into the variable.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 62.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 59.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image062.webp?raw=true"
+<img src="./images/image059.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1537,11 +1492,10 @@ long and complex.
 Right here would be an example where I\'m just having, I declare my
 variable, and then later I want to update it. I say, name equals
 Colleen. This works really well.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 63.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 60.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image063.webp?raw=true"
+<img src="./images/image060.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1557,9 +1511,9 @@ a variable. If you remember when we talked about output, one way that we
 were able to produce output also was a way to generate input, and that
 was the prompt.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 64.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 61.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image064.webp?raw=true"
+<img src="./images/image061.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1575,20 +1529,19 @@ You can even use more from the API saying, you know what? I want to know
 where this window is. What\'s the location of this window? And you can
 write that out as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 65.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 62.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image065.webp?raw=true"
+<img src="./images/image062.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
 
 Let\'s look at a quick example of how we can use that. Let\'s start with
 the simple code we used before when we were learning about prompts.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 66.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 63.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image066.webp?raw=true"
+<img src="./images/image063.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1599,11 +1552,10 @@ I\'m doing that instead of name is because I really want to make people
 realize that the name you give your variable. Doesn\'t really matter, it
 can be anything you want. Just because I call it name, doesn\'t mean you
 have to.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 67.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 64.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image067.webp?raw=true"
+<img src="./images/image064.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1613,11 +1565,10 @@ Colleen. Great, it worked, but we didn\'t do anything with it. Let\'s
 add a bit more code. Now I am going to comment out this line. You can
 see why, because otherwise it\'ll keep asking us to prompt things.
 We\'ll comment that out when we\'re done. All right.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 68.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 65.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image068.webp?raw=true"
+<img src="./images/image065.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1626,11 +1577,10 @@ I have this variable called **name**, now I can do something like
 **document.write nm.** I can also do **Console.log(nm).** If you wanted
 to you could even put in **alert(nm)**. Let\'s put this back in. Might
 want to edit all my typing out. What is your name? Well, it is Colleen.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 69.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 66.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image069.webp?raw=true"
+<img src="./images/image066.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1639,9 +1589,9 @@ All right, so the alert popped up, but why didn\'t the
 **document.write** work? This is a good question, and this is actually
 an example where I can go in, that\'s what was going on.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 70.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 67.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image070.webp?raw=true"
+<img src="./images/image067.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1650,9 +1600,9 @@ It was actually waiting for me to hit okay. When it was all done, it
 went in and it printed out my name. This is a really simple, quick
 example.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 71.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 68.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image071.webp?raw=true"
+<img src="./images/image068.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1667,9 +1617,9 @@ heading. And then I just wanted to show you that you could also grab
 other information from the document, itself, such as the URL and the
 title.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 72.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 69.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image072.webp?raw=true"
+<img src="./images/image069.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1680,11 +1630,10 @@ first thing I wanted to print out was my name, but I didn\'t type
 anything in the prompt. When the JavaScript doesn\'t know what to do,
 when it doesn\'t know what value should have been in there, it\'s going
 to assign it a value of null.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 73.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 70.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image073.webp?raw=true"
+<img src="./images/image070.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1693,11 +1642,10 @@ Let\'s run this one more time. I\'m going to put in the name Christopher
 just in case someone else named Christopher is reading this and they can
 feel special. But now you can see it printed out Christopher, the URL,
 and the title of my page.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 74.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 71.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image074.webp?raw=true"
+<img src="./images/image071.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1714,9 +1662,9 @@ course. Good luck.
 
 <h2 id="ch1-05">Week 1-05. Data Types</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 75.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 72.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image075.webp?raw=true"
+<img src="./images/image072.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1725,9 +1673,9 @@ Once you realize that computers store all of the information using
 variables, the next step is to start to learn about the different data
 types used in the JavaScript programming language.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 76.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 73.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image076.webp?raw=true"
+<img src="./images/image073.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1746,9 +1694,9 @@ doing it. In each of these examples, name would have what we call a
 different type. Things that are stored in the computer are completely
 different.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 77.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 74.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image077.webp?raw=true"
+<img src="./images/image074.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1760,9 +1708,9 @@ to characters, back to a number to something else that\'s completely
 complex. Let\'s talk about what these types are in JavaScript and how we
 can represent them.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 78.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 75.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image078.webp?raw=true"
+<img src="./images/image075.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1784,9 +1732,9 @@ number, but in the different cases or one, it\'s going to be, normally
 would be an integer or a whole number, and the next time it has
 decimals.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 79.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 76.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image079.webp?raw=true"
+<img src="./images/image076.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1803,11 +1751,10 @@ directly from your keyboard because the slant does matter. In this case,
 I\'ve done var location = **window.location**. Because it happens to be
 that that attribute is a string or in my second example once again,
 I\'ve just hardcoded it to something you might expect.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 80.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 77.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image080.webp?raw=true"
+<img src="./images/image077.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1824,11 +1771,10 @@ false. Those are the only two options.
 Later, we\'re going to learn how to write our own boolean expressions to
 check to see if things are true or false. And that can add really a lot
 of power to your page.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 81.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 78.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image081.webp?raw=true"
+<img src="./images/image078.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1848,9 +1794,9 @@ something along the lines of write out **topic.style, topic.innerHTML.**
 Different things like that can show us really the attributes or the
 string\'s numbers that make up objects.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 82.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 79.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image082.webp?raw=true"
+<img src="./images/image079.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1867,11 +1813,10 @@ search the entire document, and find all the hyperlinks in the page.
 Well, that\'s certainly not going to return just a single number, or a
 bunch of strings, or even a single object. Instead, it needs to return a
 whole collection.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 83.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 80.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image083.webp?raw=true"
+<img src="./images/image080.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1888,11 +1833,10 @@ one because computers love to talk starting from zero and up. Now we\'re
 going to have an entire lecture or more on arrays later in this course.
 But for now, I just want you to realize that it\'s one of the data types
 that can be returned.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 84.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 81.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image084.webp?raw=true"
+<img src="./images/image081.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1914,9 +1858,9 @@ using an array, and I just want to show you this because there\'s a
 really good chance this message might pop up for you and I don\'t want
 you to get freaked out about it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 85.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 82.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image085.webp?raw=true"
+<img src="./images/image082.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1927,11 +1871,10 @@ prints out object **HTMLCollection 0.** It says, oh, you didn\'t
 actually have any paragraphs in this page. If I go back, and I add a
 few, they can even be empty. Gotta love when it keeps popping up on you.
 I don\'t know how many I added but we\'re going to do it.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 86.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 83/84.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image086.webp?raw=true"
+<img src="./images/image083.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1941,11 +1884,10 @@ height="1.9702449693788275in"}
 
 I can try running this again. And when I type in Colleen, you can see
 that now it knows that I have five paragraph elements in there.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 88.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 85.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image088.webp?raw=true"
+<img src="./images/image085.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1966,9 +1908,9 @@ So good luck.
 
 <h2 id="ch1-06">Week 1-06. Operators & Expressions (8:26)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 89.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 86.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image089.webp?raw=true"
+<img src="./images/image086.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1978,9 +1920,9 @@ the different ways that you can manipulate your code. We\'ve been using
 statements to execute our JavaScript code. Every time you saw a line
 that ended with a semicolon, we were writing a statement.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 90.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 87.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image090.webp?raw=true"
+<img src="./images/image087.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -1992,9 +1934,9 @@ to show you all the different types of operators that we can use in
 JavaScript to produce these types of expression values.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 91.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 88.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image091.webp?raw=true"
+<img src="./images/image088.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2008,9 +1950,9 @@ side? We\'ve seen direct assignments or calls to different functions but
 there\'s more to it that we can do than just that.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 92.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 89.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image092.webp?raw=true"
+<img src="./images/image089.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2021,9 +1963,9 @@ thing if two things are the same. In this expression I\'m saying, go
 find the value that is story in y. After I grab that, go and store it in
 x as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 93.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 90.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image093.webp?raw=true"
+<img src="./images/image090.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2045,11 +1987,10 @@ would give us something along of 2.blah, blah, blah. If I do 13%5, you
 figure out how many times does 5 go into 13? That\'s 2, and what\'s left
 over? 13%5 is going to be 3. Go ahead and play with that if you\'d like,
 and type a few numbers in and see what kind of response you get.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 94.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 91.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image094.webp?raw=true"
+<img src="./images/image091.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2063,11 +2004,10 @@ same thing as writing out long something along the lines of x = x + 2.
 It\'s the same thing as saying x + = 2. It\'s just short hand you don\'t
 need to use it. But I wanted to show you just in case you see it in
 somebody else's code.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 95.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 92.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image095.webp?raw=true"
+<img src="./images/image092.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2085,9 +2025,9 @@ that your output is what you\'re expecting. The plus equals has the same
 effect as the plus equals from before. It just means take whatever I
 used to have and concatenate this new part on to it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 96.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 93.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image096.webp?raw=true"
+<img src="./images/image093.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2104,9 +2044,9 @@ return true. There\'s also another short hand, which is the exclamation
 point equals. This is a negation or the opposite, it says, hey, make
 sure the value stored in x doesn\'t equal 5.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 97.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 94.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image097.webp?raw=true"
+<img src="./images/image094.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2120,9 +2060,9 @@ JavaScript we don\'t really care about types too much. What happens if
 you want to see if a number is equal to something else, but you don\'t
 want it to say yes if it\'s a string?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 98.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 95.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image098.webp?raw=true"
+<img src="./images/image095.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2146,9 +2086,9 @@ unless you type in some examples, play with the numbers, and try to fool
 yourself and give yourself tricky situations. If you can do that, then
 you\'ll feel comfortable moving on with these operators.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 99.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 96.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image099.webp?raw=true"
+<img src="./images/image096.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2169,9 +2109,9 @@ use the example that in America, you can\'t get into certain movies
 unless you\'re 18 or you\'re with your parents. So that would be a case
 where you only need one thing to be true.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 100.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 97.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image100.webp?raw=true"
+<img src="./images/image097.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2189,11 +2129,11 @@ you go in and test them a lot, your code is going to be a lot cleaner
 and the whole experience will be one that you really enjoy much more. So
 good luck.
 
-## Share Your Tips
+<h3>Share Your Tips</h3>
 
 Is anyone using Replit?
 
-## The History of \"Debugging\"
+<h3>The History of \"Debugging\"</h3>
 
 If you want to learn more about the history of debugging, here is an
 article that talks about the fact that two different people are credited
@@ -2201,7 +2141,7 @@ with the term, Grace Hopper and Thomas Edison
 
 <http://theinstitute.ieee.org/tech-history/technology-history/did-you-know-edison-coined-the-term-bug>
 
-## Link to All of the Code for Week Two
+<h3>Link to All of the Code for Week Two</h3>
 
 The following is a link to all of the code for Week Two. The individual
 files are linked within the modules but the weekly collections may
@@ -2228,13 +2168,12 @@ One of the things I want you to watch for in this next module is the
 distinction between ***defining*** a function (writing the code) and
 ***calling*** a function (running the code at the precise time you want
 it to happen).
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-01">Week 2-01. Functions (7:18)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 101.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 98.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image101.webp?raw=true"
+<img src="./images/image098.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2242,11 +2181,10 @@ it to happen).
 Today we\'re going to talk about functions. Functions are these bits of
 code that you can reuse over and over again by just coding what we call
 the function name.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 102.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 99.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image102.webp?raw=true"
+<img src="./images/image099.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2276,9 +2214,9 @@ always write with your semicolons, your expression, your statements.
 It\'s just a really nice way to save it. You don\'t have to keep typing
 it over and over again.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 103.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 100.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image103.webp?raw=true"
+<img src="./images/image100.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2291,9 +2229,9 @@ And this will work numerous times. I don\'t have to keep writing things
 over and over again. It\'s a small function, but it\'s something that
 will work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 104.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 101.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image104.webp?raw=true"
+<img src="./images/image101.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2309,9 +2247,9 @@ where you use the keywords, the curly brackets, and the parenthesis.
 Declaring a function doesn\'t actually do anything for you though. You
 need to tell the computer when you want that function to run.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 105.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 102.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image105.webp?raw=true"
+<img src="./images/image102.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2323,11 +2261,10 @@ our programs start at the top and just work their way down line by line
 by line. Now with functions, the computer is actually jumping around in
 memory and executing different parts of code, not necessarily in the
 order that you write them.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 106.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 103.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image106.webp?raw=true"
+<img src="./images/image103.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2348,9 +2285,9 @@ code. Hopefully if you type this in and run it, you should get a hello
 and then a goodbye message. You could type putting in numbers or
 anything you\'d like instead if you prefer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 107.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 104.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image107.webp?raw=true"
+<img src="./images/image104.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2366,9 +2303,9 @@ thing to know is the names of the parameters for your functions,
 they\'re not important, they\'re like variable names. You can call them
 anything you want, as long as you\'re consistent.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 108.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 105.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image108.webp?raw=true"
+<img src="./images/image105.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2381,9 +2318,9 @@ functions that will say, hey, I need you to halt execution right now,
 because I don\'t want you to hit submit. I don\'t want you to be able to
 hit yes on that form.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 109.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 106.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image109.webp?raw=true"
+<img src="./images/image106.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2401,9 +2338,9 @@ in order to assign values to valuables or to check conditional
 statements, and we\'re going to be using these a lot. I just need you to
 be aware of the term.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 110.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 107.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image110.webp?raw=true"
+<img src="./images/image107.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2436,9 +2373,9 @@ understand some of the power of JavaScript. Good luck.
 
 <h2 id="ch2-02">Week 2-02. Code Placement (6:32)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 111.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 108.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image111.webp?raw=true"
+<img src="./images/image108.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2448,9 +2385,9 @@ our code in the best place to make it easier for you to follow what\'s
 going on.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 112.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 109.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image112.webp?raw=true"
+<img src="./images/image109.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2466,9 +2403,9 @@ body, as we\'ve been doing, you can put your functions into the head
 section of your HTML code, or you can use an external file.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 113.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 110.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image113.webp?raw=true"
+<img src="./images/image110.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2489,9 +2426,9 @@ worry, all of your function will still have access to all the document
 information, the ID\'s, the classes, etc.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 114.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 111.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image114.webp?raw=true"
+<img src="./images/image111.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2509,9 +2446,9 @@ can now call the function multiple times, but only write it once up
 here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 115.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 112.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image115.webp?raw=true"
+<img src="./images/image112.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2523,9 +2460,9 @@ when you\'re using external file, don\'t use the script tag. It\'s just
 the JavaScript, without any script tag.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 116.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 113.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image116.webp?raw=true"
+<img src="./images/image113.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2548,9 +2485,9 @@ wrong, because the colors aren\'t the way you wanted or your text just
 isn\'t there. But with JavaScript, sometimes the changes you're making
 are so slight, you don\'t even realize that you have a problem.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 117.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 114.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image117.webp?raw=true"
+<img src="./images/image114.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2561,9 +2498,9 @@ friend. I can\'t stress enough how much you always want to have it on
 while you\'re coding. Myself, sometimes I forget to turn it on and I\'m
 annoyed later, when I could have found my errors so much more easily.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 118.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 115.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image118.webp?raw=true"
+<img src="./images/image115.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2582,9 +2519,9 @@ If you\'re going to use CodePen, I always recommend that once you\'re
 done, take that code and put it into three separate files, so that
 you\'re sure you know how to link them together.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 119.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 116.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image119.webp?raw=true"
+<img src="./images/image116.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2595,9 +2532,9 @@ care of all the work of making sure that they\'re all together. If this
 is your first time ever using CodePen, I did want to point out, that
 there\'s this handy little function, that you can re-size the windows.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 120.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 117.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image120.webp?raw=true"
+<img src="./images/image117.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2606,9 +2543,9 @@ If you\'re not too concerned with your CSS right now, you can make that
 smaller. And really kind of focus, on what you\'re working on, in the
 HTML and the JS.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 121.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 118.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image121.webp?raw=true"
+<img src="./images/image118.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2645,9 +2582,9 @@ The most common organization is to have one main folder with your HTML
 files in it. There are also three subfolders (folders inside the main
 folder) for your CSS, image, and JavaScript files.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 122. folder with subfolders nested within (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 119. folder with subfolders nested within (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image122.webp?raw=true"
+<img src="./images/image119.webp?raw=true"
   style="width:40%;"
   alt="Folder with subfolders nested within." />
 </p>
@@ -2662,9 +2599,9 @@ JavaScript files.
 
 <h2 id="ch2-03">Week 2-03. Folder Structure / Organizing Your Code (5:33)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 123.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 120.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image123.webp?raw=true"
+<img src="./images/image120.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2677,9 +2614,9 @@ to recognize each other. Today, we\'re going to talk about how web
 designers tend to organize and separate their code into different parts.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 124.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 121.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image124.webp?raw=true"
+<img src="./images/image121.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2695,9 +2632,9 @@ conventions to their own. you want to get used to doing things the right
 way, right from the beginning.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 125.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 122.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image125.webp?raw=true"
+<img src="./images/image122.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2713,9 +2650,9 @@ convention here, and I\'m going to show you how to make sure they can
 link together in the right way.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 126.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 123.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image126.webp?raw=true"
+<img src="./images/image123.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2743,9 +2680,9 @@ you do a quick check. And make sure that your folder names CSS,
 JavaScript, and images match what other people are expecting.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 127.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 124.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image127.webp?raw=true"
+<img src="./images/image124.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2759,9 +2696,9 @@ folder is someplace different? In this example we go up 2 directories,
 find 'images' folder and pull from there. Done & done.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 128.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 125.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image128.webp?raw=true"
+<img src="./images/image125.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2784,9 +2721,9 @@ CSS, JavaScript, and images functions out there. Thanks.
 
 <h2 id="ch2-04">Week 2-04. Events (10:05)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 129.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 126.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image129.webp?raw=true"
+<img src="./images/image126.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2796,9 +2733,9 @@ we\'d teach you how to do interactivity with JavaScript. Well, we
 finally reached that point where we can start having some fun and
 reacting to events that happened to your web page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 130.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 127.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image130.webp?raw=true"
+<img src="./images/image127.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2812,9 +2749,9 @@ can start doing things based on clicking, mouse movement, all these
 different types of dynamic function calls. Let\'s take a look at how we
 can do this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 131.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 128.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image131.webp?raw=true"
+<img src="./images/image128.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2835,9 +2772,9 @@ to load that the JavaScript is done before the user can even see the
 page. This last one onload we are going to use quite a bit to make sure
 we are all seeing the exact same events.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 132.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 129.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image132.webp?raw=true"
+<img src="./images/image129.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2854,9 +2791,9 @@ on this then I am going to call the JavaScript function message. All
 right, this isn\'t going to happen just once, this is going to happen
 for the duration that this site is loaded onto the browser.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 133.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 130.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image133.webp?raw=true"
+<img src="./images/image130.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2887,9 +2824,9 @@ that same kind of slant that Word, PowerPoint, and other programs put
 into your quotes. Whenever you copy and paste, go back and make sure
 that they\'re matching up correctly.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 134.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 131.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image134.webp?raw=true"
+<img src="./images/image131.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2910,9 +2847,9 @@ one is **onclick**. All three of these events, **onload, onresize,
 onclick**, they\'re all going to call the message function, but they\'re
 going to call it with three different frame runners.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 135.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 132.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image135.webp?raw=true"
+<img src="./images/image132.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2920,9 +2857,9 @@ going to call it with three different frame runners.
 Let\'s take a look at what\'s going on. As you can see, when I loaded
 the page, it automatically had LOAD event show up.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 136.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 133.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image136.webp?raw=true"
+<img src="./images/image133.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2931,9 +2868,9 @@ What happens if I click on this paragraph right here? Oh, it changes to
 click event. It\'s actually happening over and over again; you just
 can\'t tell because it\'s so quick.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 137.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 134.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image137.webp?raw=true"
+<img src="./images/image134.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2943,9 +2880,9 @@ and you can see, that it recognizes that there is a resize event. So,
 it\'s pretty simple to go through, and I\'ll go back here, and had your
 HTML actually change based on the different events.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 138.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 135.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image138.webp?raw=true"
+<img src="./images/image135.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2958,9 +2895,9 @@ conveys this idea of click me and I\'m going to do something, and since
 we didn\'t have the power to do that yet, I really didn\'t want to use
 that element, but now we can.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 139.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 136.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image139.webp?raw=true"
+<img src="./images/image136.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2970,9 +2907,9 @@ you to call the JavaScript **date** function, this is something that I
 didn\'t write. You know that it was written by JavaScript partly because
 well, it\'s yellow.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 140.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 137.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image140.webp?raw=true"
+<img src="./images/image137.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2981,9 +2918,9 @@ All right, so I\'m going to use this function and connect it with the
 **button**. So, I have **button** type equals **button** and I have
 **onclick** equals **displayDate()**.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 141.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 138.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image141.webp?raw=true"
+<img src="./images/image138.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2999,9 +2936,9 @@ As we start adding JavaScript events and reacting to events to our code,
 I just want you to be aware of something that\'s going on, that\'s
 really quite complex.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 142.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 139.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image142.webp?raw=true"
+<img src="./images/image139.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3016,9 +2953,9 @@ right I need to wait on click, onclick, onclick. If you add too many
 events to your page, you could conceivably slow down the execution of
 your page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 143.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 140.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image143.webp?raw=true"
+<img src="./images/image140.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3045,9 +2982,9 @@ these events JavaScript can be limited in its ability to interact with
 the DOM. We didn\'t have onclick, onload and be really hard to actually
 work with our webpages.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 144.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 141.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image144.webp?raw=true"
+<img src="./images/image141.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3093,9 +3030,9 @@ outnumber the times that you are stuck.
 
 <h2 id="ch2-05">Week 2-05. Code With Me -- Events (7:46)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 145.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 142.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image145.webp?raw=true"
+<img src="./images/image142.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3113,9 +3050,9 @@ if you can break the code. Because it\'s always better to make your
 errors now. We have the whole community around you. You can ask
 questions.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 146.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 143.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image146.webp?raw=true"
+<img src="./images/image143.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3128,9 +3065,9 @@ different then we\'ve done before. When I first introduced the idea of
 events, I said that events are matched with functions. Well, you can
 also match events just with JavaScript code, not a function itself.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 147.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 144.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image147.webp?raw=true"
+<img src="./images/image144.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3142,9 +3079,9 @@ onClick, grab that element, change the innerHTML, and I want you to
 change it to Clicked First Button. The other one is very similar. The
 only difference is that I want to change the content of that paragraph.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 148.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 145.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image148.webp?raw=true"
+<img src="./images/image145.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3152,9 +3089,9 @@ only difference is that I want to change the content of that paragraph.
 When I click on these buttons this, right here, is the element I want
 you to look at.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 149.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 146.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image149.webp?raw=true"
+<img src="./images/image146.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3162,9 +3099,9 @@ you to look at.
 Let\'s click on the First button. You can see that I clicked, it said,
 hey I know that I just clicked the First button.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 150.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 147.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image150.webp?raw=true"
+<img src="./images/image147.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3174,9 +3111,9 @@ Second button. This seems like a really small program to write, but
 there\'s a lot going on in here, and a lot of places where people tend
 to make mistakes. Let\'s just look at them quickly.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 151.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 148.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image151.webp?raw=true"
+<img src="./images/image148.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3199,9 +3136,9 @@ to change. Is it the event that\'s going to change? Is it the button
 that\'s going to change? Is it the whole page? So luckily, with CodePin
 you\'ll be able to see it immediately. All right, wow, now I really.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 152.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 149.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image152.webp?raw=true"
+<img src="./images/image149.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3209,18 +3146,18 @@ you\'ll be able to see it immediately. All right, wow, now I really.
 That\'s how I can change the button itself. If I want to change what\'s
 going to happen, that where I put in here, Clicked Another Button.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 153.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 150.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image153.webp?raw=true"
+<img src="./images/image150.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
 
 Let\'s save. I\'m going to click on First, Second.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 154.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 151.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image154.webp?raw=true"
+<img src="./images/image151.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3229,9 +3166,9 @@ Play with this. Try putting it in yourself. And realize, again, that you
 can put your JavaScript anywhere you want, it doesn\'t always have to be
 in an external file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 155.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 152.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image155.webp?raw=true"
+<img src="./images/image152.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3240,9 +3177,9 @@ Let\'s look at the next example. Okay, get ready. This example is going
 to be a big one, because we do have a lot of things going on. We have
 our HTML. We have our CSS. And we have our JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 156.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 153.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image156.webp?raw=true"
+<img src="./images/image153.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3259,9 +3196,9 @@ now it\'s going to reappear again. That\'s all we really need to
 realize, is that .closed will make it go away, .open is going to make it
 come back.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 157.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 154.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image157.webp?raw=true"
+<img src="./images/image154.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3270,9 +3207,9 @@ Over here, in my HTML, I have a paragraph called demo. And that\'s right
 down here, it\'s all this entire thing we can see right here. This is
 the one we want to change in our code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 158.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 155.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image158.webp?raw=true"
+<img src="./images/image155.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3286,9 +3223,9 @@ simply need to grab the demo element by doing document.getElementById.
 But now instead of trying to change the inner HTML, I\'m going to change
 the style.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 159.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 156.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image159.webp?raw=true"
+<img src="./images/image156.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3297,8 +3234,13 @@ I go in and I say x, which is my element, **.style.display=\"none\".**
 I\'m not using my CSS, I\'m actually hardcoding it in here that I want
 it to go from none.
 
-![](./images/image160.webp){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 157.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image157.webp?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 And in open, similarly, it says, hey grab that element, and I want it to
 go from whatever it used to be, and now it should be block.
@@ -3331,9 +3273,13 @@ height="1.9837073490813648in"}
 
 So, I can talk a lot. But it\'s important that even I stop and check
 that code and make sure I didn\'t break it. Close, Open, Close, Open.
-
-![](./images/image167.webp){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 164.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image164.webp?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Now I don\'t really have time to do this right now, but I think what
 would be a great exercise for you, is to look at this code using
@@ -3350,9 +3296,13 @@ start coding. If you don\'t do it now, you might start falling behind as
 we get into these more complex ideas. So, good luck.
 
 <h2 id="ch2-06">Week 2-06. "this" (9:30)</h2>
-
-![](./images/image168.webp){width="4.0in"
-height="2.2670942694663165in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 165.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image165.webp?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Hi everybody, welcome to my personal least favorite lecture of all time.
 It\'s the lecture where I try to explain the word this, and how it\'s
@@ -3366,14 +3316,14 @@ smart programming is using different functions. You don\'t want to write
 your own code. You want to use somebody else\'s code. But a common road
 block, especially for new programmers, is trying to figure out.
 
-![](./images/image169.webp){width="4.0in" height="2.25in"}
+![](./images/image166.webp){width="4.0in" height="2.25in"}
 
 How can I write a function so that I can reuse it over and over again?
 How can I write this function so that different elements can use it? But
 the function knows basically, how do I know what information to use.
 That\'s where "this" keyword comes in.
 
-![](./images/image170.webp){width="4.0in" height="2.25in"}
+![](./images/image167.webp){width="4.0in" height="2.25in"}
 
 This allows an element to refer to itself. Every object in the DOM, has
 an automatically generated this. This "this" attribute allows you to
@@ -3392,7 +3342,7 @@ going to do is it\'s just going to backtrack and go back, back, back,
 back, back, back, back, back until it\'s, oops, here\'s an open tag.
 They must be referring to this DOM element right here.
 
-![](./images/image171.webp){width="4.0in" height="2.25in"}
+![](./images/image168.webp){width="4.0in" height="2.25in"}
 
 Let\'s look at what I hope are a few simple examples of using the word
 this. Right here I have four different elements on my page. I have two
@@ -3410,20 +3360,20 @@ up, until it gets to the image. And then we\'ll say. They want the alt
 text for this image. Let's see what happens when I actually click on
 this image.
 
-![](./images/image172.webp){width="4.0in" height="2.25in"}
+![](./images/image169.webp){width="4.0in" height="2.25in"}
 
 As you can see, as soon as I clicked on it. The message Awesome 80\'s
 haircut shows up, all right? If I were to click on this multiple times.
 It doesn\'t actually show up in the console multiple times.
 
-![](./images/image173.webp){width="4.0in" height="2.25in"}
+![](./images/image170.webp){width="4.0in" height="2.25in"}
 
 You can see that there\'s a little number over here that says. Oh, this
 has happened four times in a row. But the important thing is that, I
 click on an image and the event knew that this was the image I was
 clicking on.
 
-![](./images/image174.webp){width="4.0in" height="2.25in"}
+![](./images/image171.webp){width="4.0in" height="2.25in"}
 
 Let\'s look at the next example down here. I\'ve got my div that just
 says, hi there. Checking out a div. I\'m looking at the second example
@@ -3432,13 +3382,13 @@ don\'t have alt text. Instead, what I said to do is, log the inner html.
 When I click on this div, I\'m expecting to see, hi there, checking out
 the div to show up in the console.
 
-![](./images/image175.webp){width="4.0in" height="2.25in"}
+![](./images/image172.webp){width="4.0in" height="2.25in"}
 
 As you can see, it\'s working. These first two examples are very
 similar. And that all I\'m doing is basically kind of manipulating
 what\'s going on in the console.
 
-![](./images/image176.webp){width="4.0in" height="2.25in"}
+![](./images/image173.webp){width="4.0in" height="2.25in"}
 
 In these last two, I did something very similar. But instead of just
 using on-click do something. I\'m going to use this function on the
@@ -3451,7 +3401,7 @@ both use the same exact function called displayID. And even though
 they\'re using the same function, it\'s actually going to show different
 results.
 
-![](./images/image177.webp){width="4.0in" height="2.25in"}
+![](./images/image174.webp){width="4.0in" height="2.25in"}
 
 Let\'s see what happens when I start to click. ID-1, ID-1, ID-2, ID-2.
 Here\'s a simple example of us using onClick along with a function and
@@ -3459,7 +3409,7 @@ the keyword, this, to provide different data. I want to show you though,
 a slightly more colorful example. That I think also makes this point
 really well.
 
-![](./images/image178.webp){width="4.0in" height="2.25in"}
+![](./images/image175.webp){width="4.0in" height="2.25in"}
 
 In this example let\'s start right off with the JavaScript. I have a
 function called showProperties. And it is expecting to be sent some sort
@@ -3481,7 +3431,7 @@ going to show you the cool part of this. On each one of these elements,
 I have shown property and the keyword this which says send this image
 that I am hovering over with my mouse and call that property.
 
-![](./images/image179.webp){width="4.0in" height="2.25in"}
+![](./images/image176.webp){width="4.0in" height="2.25in"}
 
 Let\'s take a look and see how this works. I\'m going to hover over the
 first picture of my dog. And I am really hoping that the alt text
@@ -3501,7 +3451,7 @@ change the border? Different things like this that are, you all know how
 to do. But just because you know how to do it, doesn\'t mean you don\'t
 have to stop and think and really process it in your mind first.
 
-![](./images/image180.webp){width="4.0in" height="2.25in"}
+![](./images/image177.webp){width="4.0in" height="2.25in"}
 
 The key word this, the concept of the word this, can be really tricky to
 grasp. It took me quite a while myself. And I don\'t think I really
@@ -3532,13 +3482,13 @@ to get you started is here: <http://codepen.io/ColleenEMc/pen/wKYxZa>
 
 <h2 id="ch2-07">Week 2-07. Photo Gallery (5:53)</h2>
 
-![](./images/image181.webp){width="4.0in" height="2.25in"}
+![](./images/image178.webp){width="4.0in" height="2.25in"}
 
 In this module, I want to walk you through how we\'re going to be
 putting some of the things we\'ve learned into practice. And the main
 things I\'m looking for, from you, are your abilities to do two things.
 
-![](./images/image182.webp){width="4.0in" height="2.25in"}
+![](./images/image179.webp){width="4.0in" height="2.25in"}
 
 First is, if I give you some HTML code and some CSS code, can you change
 the background image of an element? The second thing I want you to try
@@ -3549,14 +3499,14 @@ specific planner to put into place.
 
 So, let\'s take a look at the gallery homework.
 
-![](./images/image183.webp){width="4.0in" height="2.25in"}
+![](./images/image180.webp){width="4.0in" height="2.25in"}
 
 In order to begin this assignment, I\'m going to give you the HTML code
 and the CSS code that will create this page here. I\'ve got one div and
 three images underneath it. Each one of those images has a link to this
 source file and it has alt text.
 
-![](./images/image184.webp){width="4.0in" height="2.25in"}
+![](./images/image181.webp){width="4.0in" height="2.25in"}
 
 So right here, its alt text is Styling with a Bandana. And did you
 notice that as soon as I put my mouse over this image, it changes the
@@ -3564,25 +3514,25 @@ source image and the text for the main div.
 
 We\'re creating a photo gallery here.
 
-![](./images/image185.webp){width="4.0in" height="2.25in"}
+![](./images/image182.webp){width="4.0in" height="2.25in"}
 
 As I leave the picture and I go off to this side, we go back to the
 original image in color.
 
-![](./images/image186.webp){width="4.0in" height="2.25in"}
+![](./images/image183.webp){width="4.0in" height="2.25in"}
 
 When I go over the next picture, you can see boom it went in and found
 out what the source file was for this image. It located the alt text and
 use both of those things to update that upper dish. Again, I\'m going to
 leave.
 
-![](./images/image187.webp){width="4.0in" height="2.25in"}
+![](./images/image184.webp){width="4.0in" height="2.25in"}
 
 And I\'m going to go over this last one. I\'ve actually put in the
 JavaScript function codes for you and the events. The one thing that I
 need you to do is write those functions.
 
-![](./images/image188.webp){width="4.0in" height="2.25in"}
+![](./images/image185.webp){width="4.0in" height="2.25in"}
 
 Let\'s look at the functions I want you to write. The first one is
 called, **upDate**, and we\'re going to send it to **previewPic**. And I
@@ -3592,13 +3542,13 @@ over, that **previewPic**. The next thing I want you to do is I change
 the text of the div so that\'s going to show the alt text of the preview
 image. This is what we call **upDate**.
 
-![](./images/image189.webp){width="4.0in" height="2.25in"}
+![](./images/image186.webp){width="4.0in" height="2.25in"}
 
 When we leave the picture, I want you to undo what we just did, I want
 you to go in and I want you to change the text and the background image
 again.
 
-![](./images/image190.webp){width="4.0in" height="2.25in"}
+![](./images/image187.webp){width="4.0in" height="2.25in"}
 
 Just as a little refresher in case you haven\'t used background images
 before, the background image is an option for including graphics without
@@ -3617,7 +3567,7 @@ Instead of giving a name, you are going to want to use some sort of
 variable. Okay? After you do that, you\'re going to want to hard code
 the background color because we\'re hoping it won\'t be there at all.
 
-![](./images/image191.webp){width="4.0in" height="2.25in"}
+![](./images/image188.webp){width="4.0in" height="2.25in"}
 
 For the element text, I\'m going to leave that a little bit more for you
 to figure out how you\'re going to do that. We\'ve discussed two
@@ -3635,7 +3585,7 @@ you should have something is going to equal some sort of element, all
 right? Avoid using quotes on the right-hand side for this assignment.
 Really try to use something that can change as the document changes.
 
-![](./images/image192.webp){width="4.0in" height="2.25in"}
+![](./images/image189.webp){width="4.0in" height="2.25in"}
 
 Okay, so a couple tips to get you started. The code you need to write
 should actually be really short. If you are writing more than five or
@@ -3839,7 +3789,7 @@ one thing at a time. This is where Arrays come in. Let\'s get started.
 
 <h2 id="ch3-01">Week 3-01. JavaScript Arrays (7:12)</h2>
 
-![](./images/image193.webp){width="4.0in" height="2.25in"}
+![](./images/image190.webp){width="4.0in" height="2.25in"}
 
 Today we\'re going to be starting something that\'s really quite
 different than what we\'ve been doing in the past. In the first few
@@ -3848,14 +3798,14 @@ talked about numbers, strings, true or false booleans, or objects. And
 while objects can be quite complex where you can have entire DOM
 elements, the fact is they were just dealing with one element at a time.
 
-![](./images/image194.webp){width="4.0in" height="2.25in"}
+![](./images/image191.webp){width="4.0in" height="2.25in"}
 
 But what do you do if you want to use multiple related pieces of
 information? That\'s where the idea of arrays comes in. Arrays give us a
 chance to declare multiple values that are all linked to a single
 variable.
 
-![](./images/image195.webp){width="4.0in" height="2.25in"}
+![](./images/image192.webp){width="4.0in" height="2.25in"}
 
 In this case I\'ve declared an array called grades, but instead of
 giving it one value, I\'ve given it ten. In this next example, I said I
@@ -3866,7 +3816,7 @@ APIs **getElementsByClassName**. In this case, I have no idea how many
 elements will be in this images array because I don\'t know how many
 images were in the document.
 
-![](./images/image196.webp){width="4.0in" height="2.25in"}
+![](./images/image193.webp){width="4.0in" height="2.25in"}
 
 And in the same way, I could declare array by saying, you know what, I
 want to make a variable, I\'m going to call it listItems. And how I\'m
@@ -3875,7 +3825,7 @@ going to assign it or declare and initialize it, is by doing
 it\'ll travel through the DOM and grab every element that has that li
 tag.
 
-![](./images/image197.webp){width="4.0in" height="2.25in"}
+![](./images/image194.webp){width="4.0in" height="2.25in"}
 
 Hopefully you\'ve seen this idea that an array is not a single value,
 but a collection of values. You start off by giving your array a name,
@@ -3888,7 +3838,7 @@ science ideas, we don\'t start at 1, we start at 0. If I have an array
 of 10 elements, The index goes from 0 to 9. If I have an array of 5
 elements, I know that it\'ll go from 0 to 4.
 
-![](./images/image198.webp){width="4.0in" height="2.25in"}
+![](./images/image195.webp){width="4.0in" height="2.25in"}
 
 Okay, so we have our array, and we know, in this case, that we have an
 array with 10 values in it. Each of those values is called an element.
@@ -3900,7 +3850,7 @@ each element is referenced by an index. If I were to say
 array up here. I need to go find the one that\'s in the 0 place, so
 **grades\[0\]** refers to 80.
 
-![](./images/image199.webp){width="4.0in" height="2.25in"}
+![](./images/image196.webp){width="4.0in" height="2.25in"}
 
 If I want to talk about **grades\[4\],** well this refers to value 62.
 **grades\[0\]** is the first value, **grades\[4\]** is actually the
@@ -3908,7 +3858,7 @@ fifth value. If this is the first time you\'ve really experienced
 starting your counting at 0, it can be a little bit confusing at first,
 but you\'ll get the hang of it in really no time.
 
-![](./images/image200.webp){width="4.0in" height="2.25in"}
+![](./images/image197.webp){width="4.0in" height="2.25in"}
 
 One thing I wanted to mention because it\'s different than in other
 program and languages, is that elements in array don\'t have to be all
@@ -3917,7 +3867,7 @@ a string and a number, and then a string and a number, and that works
 just fine. However, it\'s very uncommon and I wouldn\'t necessarily
 encourage you to do your arrays in this manner.
 
-![](./images/image201.webp){width="4.0in" height="2.25in"}
+![](./images/image198.webp){width="4.0in" height="2.25in"}
 
 Instead, we want to focus on this idea that arrays tend to have the same
 values in them and that they have attributes and methods. Because
@@ -3934,7 +3884,7 @@ how big that array was because we had initialized it. But sometimes you
 won\'t know how long the array is, especially if you used
 **getElementsByTagName** or something like that.
 
-![](./images/image202.webp){width="4.0in" height="2.25in"}
+![](./images/image199.webp){width="4.0in" height="2.25in"}
 
 It is possible to combine the idea of length and the idea of push to
 come up with our own way of adding things to our array. Grades, here\'s
@@ -3949,7 +3899,7 @@ same thing in different ways. It\'s a really great learning opportunity
 for you to try to figure out which things match as you go out and see
 new code.
 
-![](./images/image203.webp){width="4.0in" height="2.25in"}
+![](./images/image200.webp){width="4.0in" height="2.25in"}
 
 Let\'s review. As you learn to declare and manipulate arrays, your code
 is going to become much more powerful. You just need to take the time to
@@ -3968,14 +3918,14 @@ thanks.
 
 <h2 id="ch3-02">Week 3-02. Code With Me -- Arrays (5:18)</h2>
 
-![](./images/image204.webp){width="4.0in" height="2.25in"}
+![](./images/image201.webp){width="4.0in" height="2.25in"}
 
 Today, we\'re going to do what I call a Code with Me. Well, it\'s
 perfectly okay if you just sit here and read the modules. I really
 encourage people to take this as an opportunity to find out, can you do
 the things that you\'ve been reading about all along?
 
-![](./images/image205.webp){width="4.0in"
+![](./images/image202.webp){width="4.0in"
 height="2.2512817147856516in"}
 
 Specifically, I\'m wondering, can you declare an array? We\'ve been
@@ -3994,14 +3944,14 @@ for you. But I really encourage you to start from scratch and try coding
 on your own. And using my code as a reference just in case things go
 wrong.
 
-![](./images/image206.webp){width="5.0in" height="2.8125in"}
+![](./images/image203.webp){width="5.0in" height="2.8125in"}
 
 Let\'s take a look at this code. I really want you to understand each
 and every line. Sometimes I do things the long way, but that\'s okay.
 Because I really think it\'s a great learning experience for you to
 understand what\'s going on with JavaScript.
 
-![](./images/image207.webp){width="5.0in" height="2.8125in"}
+![](./images/image204.webp){width="5.0in" height="2.8125in"}
 
 Let\'s start off with the fact that I declared an array with four
 different elements in here. I have Banana, Orange, Apple and Mango, I\'m
@@ -4021,14 +3971,14 @@ want to add additional things to the end of our array. All right, let\'s
 get started. In this function, it\'s going to ask us what our favorite
 food is. Once they ask, we need to know where should we put it?
 
-![](./images/image208.webp){width="5.0in" height="2.8125in"}
+![](./images/image205.webp){width="5.0in" height="2.8125in"}
 
 Right now, I\'m going to draw up on the screen to get an idea of what
 the index of each one of these elements is. It starts at 0, 1, 2 and 3.
 So this means we want to put the next fruit in position 4.
 
-![](./images/image209.webp){width="3.5in"
-height="1.96875in"}![](./images/image210.webp){width="3.5in"
+![](./images/image206.webp){width="3.5in"
+height="1.96875in"}![](./images/image207.webp){width="3.5in"
 height="1.96875in"}
 
 Let\'s take a look. I click Add Your Favorite. I\'ll say Strawberry. And
@@ -4046,7 +3996,7 @@ variable here, instead of hard coding a number. My program will work no
 matter how many different elements I add. Length is the count of fruits
 in the array.
 
-![](./images/image211.webp){width="5.0in" height="2.8125in"}
+![](./images/image208.webp){width="5.0in" height="2.8125in"}
 
 Let\'s add two more. And I can add Peach. And I can add another one.
 I\'ll just add Banana again because I have no imagination this morning.
@@ -4162,7 +4112,7 @@ situations.
 
 <h2 id="ch4-01">Week 4-01. Code With Me: Randomizing Your Images Using Arrays (8:10)</h2>
 
-![](./images/image212.webp){width="4.0in"
+![](./images/image209.webp){width="4.0in"
 height="2.2948720472440947in"}
 
 Hi everyone, let\'s do a couple Code With Me's in a row just so you can
