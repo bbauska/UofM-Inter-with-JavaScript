@@ -1142,11 +1142,11 @@ I&apos;ve given it the **id** of test. I also have a paragraph element a
 little bit further down that just says, hey what happens if I&apos;d messed
 with this code?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 41. document.getelementbyid test (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image041.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Test document.getElementById.innerHTML." />
 </p>
 
 In my **h1** heading, I actually have the words tester, but if you look
@@ -1158,11 +1158,11 @@ whatever used to be in there and replace it with the words, Hello World.
 This is kind of what happens when this is a weird example, but all early
 examples are weird examples. Because you just want to get your feet wet.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 42.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 42. what two elements with id = test? (29) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image042.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="What happens if you have 2 elements with id=test?." />
 </p>
 
 But I did want you to look at what happens if I do this. Back from your
@@ -1174,21 +1174,21 @@ JavaScript is expecting you to keep that rule. When you do something get
 element by ID, JavaScript thinks there&apos;s only one out there. I&apos;m going
 to stop as soon as I find that one.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 43. second id = test is ignored (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image043.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="2nd id=test is ignored." />
 </p>
 
 As you can see down here, it changed the first one it found. It didn&apos;t
 change the second one it found, okay? All right.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44. console.log() (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image044.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="console.log() to write data to browser console." />
 </p>
 
 Let&apos;s go play with the last output method I have for you today.
@@ -1205,34 +1205,34 @@ execution. If you haven&apos;t used the console before, you might not
 realize that it&apos;s even there. But I&apos;m hoping you have when you were
 doing your CSS.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 45. example script: console.log (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image045.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Example script: console.log." />
 </p>
 
 Let&apos;s take a look at this example. In my HTML up here, you can see that
 I have **console.log** Hello World. Nothing too exciting going on here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. browser console (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image046.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Browser console example." />
 </p>
 
 But if you look at the actual browser, hm, it&apos;s not there. It doesn&apos;t
-show up like it did with document.ray. Where did it go? Well, it&apos;s
+show up like it did with document.write. Where did it go? Well, it&apos;s
 actually in the Console of your browser. I&apos;m going to go down here. I
 did inspect element, and I checked the Console. Oh, you can see Hello
 World showed up here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. more browser console (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image047.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="More browser console example." />
 </p>
 
 What happens if I change the code to Hello World Too?
@@ -1246,11 +1246,11 @@ are doing. We&apos;re going to come back to this example in just a second,
 but first I want to talk to you about why you should be utilizing the
 console by now, if you haven&apos;t.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. the console (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image048.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="The console." />
 </p>
 
 The console does more than just take these print statements. It also
@@ -1258,11 +1258,11 @@ provides debugging information for JavaScript, HTML, and CSS. By going
 in and looking at it, you&apos;re going to be able to help yourself become a
 much better programmer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. debug example: missing quote (33) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image049.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Debug example: Missing quote." />
 </p>
 
 Let&apos;s take a look at just doing some debugging with the JavaScript.
@@ -1270,11 +1270,11 @@ I&apos;m going to go in here and I&apos;m going to accidentally forget to put in
 my first quotes, all right. But if we didn&apos;t know that there&apos;s
 anything going on or that anything is supposed to show up.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. debug example: syntax error (33) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image050.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Debug example: SyntaxError: missing argument (quote)." />
 </p>
 
 You might not realize that there&apos;s a typo but inside the console,
@@ -1291,11 +1291,11 @@ what&apos;s going wrong, but you're saying somewhere in this line of code
 I&apos;m getting an error. This kind of ability to help yourself debug is
 going to be critical to going on and advancing in this course.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 51. access debugger in browsers (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image051.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="How to access the debugger in Safari, Chrome, Firefox and Edge." />
 </p>
 
 If I&apos;m going to ask you to debug, I should probably tell you how you
@@ -1314,11 +1314,11 @@ Explorer, typically hitting F12 will bring up the different JavaScript
 and development tools that you can use to improve your page. All right,
 so let&apos;s review.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 52.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. review: 1.03 output (35) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image052.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Review 1.03. Output." />
 </p>
 
 Right now, we&apos;re doing really simple things, and I understand that.
@@ -1358,23 +1358,23 @@ W3Schools has a page with debugging tips for JavaScript: [JavaScript
 Debugging](https://www.w3schools.com/js/js_debugging.asp).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 53.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 53. chrome error alert (36) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image053.webp?raw=true"
   style="width:45%;"
   alt="Code, an empty browser, and an error message in the Chrome console." />
 </p>
 
-<h2 id="ch1-04">Week 1-04. Variables</h2>
-
-<https://codepen.io/ColleenEMc/pen/jbYEEW>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-04">Week 1-04. Variables</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<https://codepen.io/ColleenEMc/pen/jbYEEW>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. 1.04. variables (36) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image054.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="1.04. Variables." />
 </p>
 
 Hi, everybody. Today we&apos;re going to learn about JavaScript variables.
@@ -1382,11 +1382,11 @@ An important part of programming is learning how you can save data.
 Because by saving data, you can reuse it and give you program that&apos;s
 impression that&apos;s kind of intelligent and knows the user very well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 55.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 55. storing data (37) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image055.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Storing data in variables." />
 </p>
 
 In JavaScript, data is stored in what we call variables, and it&apos;s very
@@ -1400,11 +1400,11 @@ I chose the name "name" here, but you can imagine it being age, first
 name, last name, dob for date of birth. The important thing is that it
 should be special to you, but not special to the computer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 56.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 56. example: storing data in variables (37) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image056.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Example: Storing Data in variables." />
 </p>
 
 How does this work? When you declare a variable, you&apos;re basically
@@ -1421,11 +1421,11 @@ The important thing to know is that computers aren&apos;t smart. Computers
 are just trying to give you a way to avoid remembering big long numbers
 and instead using English words.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 57.  (##) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 57. variable name rules (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image057.webp?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Variable name rules." />
 </p>
 
 When you come up with your variable name, there&apos;s a few rules that you
@@ -1454,11 +1454,11 @@ could get away with calling it &apos;yyy&apos; or &apos;bbb&apos;, just don&apos
 Okay? Taking a little bit of time to give meaningful names will save you
 a lot of heart ache later.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 58.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 58. variable assignments (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image058.webp?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="Variable assignments." />
 </p>
 
 If you&apos;re going to go to the trouble of declaring a variable and
@@ -1472,11 +1472,11 @@ call it assignment, because what we&apos;re doing is we&apos;re not saying hey,
 are these two things the same, we&apos;re saying take the value and store it
 into the variable.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 59.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 59. assignment statement; lhs and rhs (39) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image059.webp?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="Assignment statement LHS &amp; RHS." />
 </p>
 
 Here I have **var** name, and instead of just leaving it at that, I say,
@@ -1493,11 +1493,11 @@ Right here would be an example where I&apos;m just having, I declare my
 variable, and then later I want to update it. I say, name equals
 Colleen. This works really well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 60.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 60. example error: assignment statement (40) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image060.webp?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="Example Error: Assignment statement." />
 </p>
 
 What I need people to avoid is doing something along this line, where
@@ -1511,11 +1511,11 @@ a variable. If you remember when we talked about output, one way that we
 were able to produce output also was a way to generate input, and that
 was the prompt.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 61.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. using a variable (40) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image061.webp?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="Using a variable." />
 </p>
 
 When you use the prompt, it&apos;s waiting for you to type something in and
@@ -1529,21 +1529,21 @@ You can even use more from the API saying, you know what? I want to know
 where this window is. What&apos;s the location of this window? And you can
 write that out as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 62.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 62. example: prompt (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image062.webp?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="Example: prompt." />
 </p>
 
 Let&apos;s look at a quick example of how we can use that. Let&apos;s start with
 the simple code we used before when we were learning about prompts.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 63.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 63. example: set var to prompt (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image063.webp?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="Example: var nm = prompt." />
 </p>
 
 Only now, I want to combine it with a variable, so I am going to go in
@@ -1553,11 +1553,11 @@ realize that the name you give your variable. Doesn&apos;t really matter, it
 can be anything you want. Just because I call it name, doesn&apos;t mean you
 have to.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 64.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 64. example: set var prompt (42) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image064.webp?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="Example: var prompt." />
 </p>
 
 And as soon as I did this, the prompt statement showed up, and I put in
@@ -1566,11 +1566,11 @@ add a bit more code. Now I am going to comment out this line. You can
 see why, because otherwise it&apos;ll keep asking us to prompt things.
 We&apos;ll comment that out when we&apos;re done. All right.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 65.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65. example: document.write (42) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image065.webp?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="Example: document.write, console.log and alert." />
 </p>
 
 I have this variable called **name**, now I can do something like
@@ -1578,33 +1578,33 @@ I have this variable called **name**, now I can do something like
 to you could even put in **alert(nm)**. Let&apos;s put this back in. Might
 want to edit all my typing out. What is your name? Well, it is Colleen.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 66.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 66. example: alert popup (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image066.webp?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="Example: alert popup." />
 </p>
 
 All right, so the alert popped up, but why didn&apos;t the
 **document.write** work? This is a good question, and this is actually
 an example where I can go in, that&apos;s what was going on.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 67.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 67. example: alert, cont'd (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image067.webp?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="Example: alert, document.write, and console.log." />
 </p>
 
 It was actually waiting for me to hit okay. When it was all done, it
 went in and it printed out my name. This is a really simple, quick
 example.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 68.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 68. document.write (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image068.webp?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="document.write()." />
 </p>
 
 Let&apos;s do one that has a little bit more going on with it. All right, in
@@ -1617,11 +1617,11 @@ heading. And then I just wanted to show you that you could also grab
 other information from the document, itself, such as the URL and the
 title.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 69.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 69. document.write, cont'd (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image069.webp?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="document.write, cont'd." />
 </p>
 
 First thing I&apos;m going to show you is, it says null and null. And
@@ -4701,4 +4701,4 @@ in this course. And thank you to everyone who was on the message boards
 mentoring each other and encouraging each other. Good luck.
 
 ...the end
-<h7>Last Updated 1/8/24 11+am</h7>
+<h7>Last Updated 1/8/24 12+pm</h7>
