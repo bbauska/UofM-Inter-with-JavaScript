@@ -1,9 +1,9 @@
 /* styles.css in uofm-inter-with-javascript - inter-js.bauska.org */
 
 body {
-  background-color: #eee;  /* very light gray */
+  background-color: #eee;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;
-  font-size: 15px;  /* 1.2rem; */
+  font-size: 15px;
   text-align: left;
   margin: 15px;
 }
@@ -13,18 +13,18 @@ img.displayed {
   margin: 0 auto; 
 }
 .border {
-  border: 2px solid #778899;  /* dark grayish blue */
+  border: 2px solid #778899;
 }
 
 blockquote {
   margin: .5em 0 .5em .85em;
   padding-left: 1em;
-  border-left: 2px solid #e6e6e6;  /* very light gray */
-  color: #606060;  /* very dark gray */
+  border-left: 2px solid #e6e6e6;
+  color: #606060;
 }
 
 hr {
-  ground-color: #1a1a1a;  /* very dark gray (mostly black) */
+  ground-color: #1a1a1a;
   border: none;
   height: 1px;
   margin: 1em 0;
@@ -43,11 +43,11 @@ table caption {
 }
 tbody {
   margin-top: 0.5em;
-  border-top: 1px solid #1a1a1a;  /* very dark gray (mostly black) */
-  border-bottom: 1px solid #1a1a1a;  /* very dark gray (mostly black) */
+  border-top: 1px solid #1a1a1a;
+  border-bottom: 1px solid #1a1a1a;
 }
 th {
-  border-top: 1px solid #1a1a1a;  /* very dark gray (mostly black) */
+  border-top: 1px solid #1a1a1a;
   padding: 0.25em 0.5em 0.25em 0.5em;
 }
 td {
@@ -63,14 +63,14 @@ td {
   font-size: 11px;
   border: none;
   outline: none;
-  background-color: #8b0000;  /* dark red */
-  color: #fdfeff;  /* Very pale (mostly white) blue */
+  background-color: #8b0000;
+  color: #fdfeff;
   cursor: pointer;
   padding: 10px;
   border-radius: 1px;
 }
 #myBtn:hover {
-  background-color: #555555;  /* very dark gray */
+  background-color: #555555;
 }
 
 pre {
@@ -90,20 +90,20 @@ pre, code {
 pre:hover, pre:focus { width: min-content; }
 
 a.hover {
-  color: #000000;  /* white */
-  background-color: #ffff00  /* yellow */
+  color: #000000;
+  background-color: #ffff00;
   text-decoration: underline;
   }
 a.hover:hover {
-  background-color: #ffff00;  /* pure (or mostly pure) yellow */
+  background-color: #ffff00;
   text-decoration: underline;
 a:link {
-  color: #013220;  /* very dark green */
+  color: #013220;
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: #a5682a;  /* brown */
+  color: #a5682a;
   background-color: transparent;
   text-decoration: none;
 }
@@ -174,19 +174,19 @@ summary {
 }
 details > summary {
   padding: 2px 6px;
-  width: 15em;  /* 12em */
-  background-color: #eee;  /* very light gray */
+  width: 15em;
+  background-color: #eee;
   border: none;
-  box-shadow: 3px 3px 4px #00008b;  /* dark blue */
+  box-shadow: 3px 3px 4px #00008b;
   cursor: pointer;
   margin-left: 10px;
 }
 details > p {
   border-radius: 0 0 10px 10px;
-  background-color: #fff;  /* white */
+  background-color: #fff;
   padding: 2px 6px;
   margin: 0;
-  box-shadow: 3px 3px 4px #00008b;  /* dark blue*/
+  box-shadow: 3px 3px 4px #00008b;
 }
 details[open] > summary {
   background-color: yellow;
