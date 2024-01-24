@@ -5,7 +5,7 @@ body {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;
   font-size: 15px;
   text-align: left;
-  margin: 15px;
+  margin: 10px;
 }
 
 img.displayed {
@@ -114,27 +114,27 @@ div {
 
 h1 {
   font-size: 22px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 h2 { 
   font-size: 20px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 h3 { 
   font-size: 18px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 h4 { 
   font-size: 16px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 h5 { 
   font-size: 13px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 h6 { 
   font-size: 11px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)
@@ -143,7 +143,7 @@ p {
   font-size: 15px;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;
   text-align: left;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 ul li { 
