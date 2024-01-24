@@ -9,7 +9,7 @@ UofM-Inter-with-JS: University of Michigan - Interactivity with JavaScript
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. interactivity with js (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image001.jpg?raw=true"
+<img src="./images/image001.jpeg?raw=true"
   style="width:45%;"
   alt="Interactivity with JavaScript by Colleen van Lent, 
     Ph.D. (lecturer, school of information)." />
@@ -314,9 +314,9 @@ in the time we have. We will focus on the following:
 
 -   How to create and validate HTML forms.
 
-<h1 id="ch1"></h1>
+<h1 id="ch1">Week 1</h1>
 
-<h2 id="ch1-01">Week 1-01. Introduction to Interactivity with JS</h2>
+<h2 id="ch1-01">1-01. Introduction to Interactivity with JS</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. introduction (1-01.) (05) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -509,7 +509,7 @@ no code associated with this lecture, but if you check under the
 resources, I do include a link to site where you can find specifics on
 the DOM.
 
-<h2 id="ch1-02">Week 1-02. DOM Review with Object Oriented Programming</h2>
+<h2 id="ch1-02">1-02. DOM Review with Object Oriented Programming</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 13. dom review with object-oriented programming (11) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -787,9 +787,9 @@ getElementById](https://dev.to/eidorianavi/queryselector-vs-getelementbyid-gm1)
 
 <h2 id="new-dom">Newer DOM Methods (4:32)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22b. newer dom methods (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. newer dom methods (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image022b.png?raw=true"
+<img src="./images/image023.png?raw=true"
   style="width:45%;"
   alt="Newer DOM Methods." />
 </p>
@@ -800,11 +800,11 @@ things out there. This is just a quick video to throw out there some new
 methods that you might be seeing, or that you might want to use
 yourself.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 22c. selecting the first element (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. selecting the first element (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image022c.png?raw=true"
+<img src="./images/image024.png?raw=true"
   style="width:45%;"
-  alt="Selecting the First Element." />
+  alt="Selecting the First Element; querySelector()." />
 </p>
 
 We&apos;ve been using **getElementById()**. How it works is that it takes a
@@ -828,11 +828,11 @@ I wanted to mention it right off the bat. If you&apos;re looking to select a
 single element, you can continue to use **getElementById,** or you can
 start to play around and use **querySelector** as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 22d. selecting multiple elements (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. selecting multiple elements (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image022d.png?raw=true"
+<img src="./images/image025.png?raw=true"
   style="width:45%;"
-  alt="Selecting Multiple Elements." />
+  alt="Selecting Multiple Elements; querySelectorAll()." />
 </p>
 
 If you want to select multiple elements, well, there&apos;s something called
@@ -849,9 +849,9 @@ CSS. If you can write a selector to style something, then you can
 definitely write a selector for JavaScript to grab it to manipulate the
 DOM.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22e. deciding on a method (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. deciding on a method (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image022e.png?raw=true"
+<img src="./images/image026.png?raw=true"
   style="width:45%;"
   alt="Deciding on a Method." />
 </p>
@@ -888,11 +888,12 @@ habit of adding a semicolon to the end of every line. This is a habit I
 have because I write in a lot of different programming languages at the
 same time and the semicolon is required in some and not others.
 
-<h2 id="ch1-03">Week 1-03. Output (13:03)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. output (1.03) (20) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-03">1-03. Output (13:03)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. output (1.03) (20) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image023.png?raw=true"
+<img src="./images/image027.png?raw=true"
   style="width:45%;"
   alt="1.03. Output." />
 </p>
@@ -904,9 +905,9 @@ the details tag if you&apos;re using HTML. There&apos;s the hover property or
 pseudo class if you&apos;re using CSS 3 and you were able to make little
 things change in your page by reacting to what the user was doing.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. interactivity (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 28. interactivity (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image024.png?raw=true"
+<img src="./images/image028.png?raw=true"
   style="width:45%;"
   alt="Interactivity." />
 </p>
@@ -915,9 +916,9 @@ But typically, that&apos;s not really what we call interactivity when we&apos;re
 talking about true web design because these new elements and the pseudo
 classes can only go so far. They tend to be temporary changes.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. what can javascript do? (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 29. what can javascript do? (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image025.png?raw=true"
+<img src="./images/image029.png?raw=true"
   style="width:45%;"
   alt="What can JavaScript do?" />
 </p>
@@ -933,9 +934,9 @@ Whenever you learn a new programming language, one of the first things
 you want to do is find out how can I make things happen. How can I have
 things print out to the screen or generate some sort of output.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. javascript output (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 30. javascript output (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image026.png?raw=true"
+<img src="./images/image030.png?raw=true"
   style="width:45%;"
   alt="JavaScript Output." />
 </p>
@@ -946,11 +947,11 @@ things. Data is typically displayed via alerts, prompts**,
 document.write, innertHTML** or reading information directly to the
 console. Let&apos;s talk about each one of these.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. alert() (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. alert(), example (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image027.png?raw=true"
+<img src="./images/image031.png?raw=true"
   style="width:45%;"
-  alt="alert()." />
+  alt="alert('My Message Here')." />
 </p>
 
 You&apos;ve all seen alert JavaScript alert boxes. Because many times,
@@ -968,7 +969,7 @@ single quotes or double quotes. And then, the last thing is, to end in a
 semicolon. If you were to put this code right here inside your HTML, you
 can generate some output.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 28. codepen: sample alert() (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 32. codepen: sample alert() (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image028.png?raw=true"
   style="width:45%;"
@@ -982,9 +983,9 @@ tag tells the browser, oh wait, don&apos;t just print this out, I&apos;m
 actually going to give you some JavaScript that I want you to run. And
 in this case, I have my code **alert**(&quot;Hello World&quot;).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 29. sample alert popup (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 33. sample alert popup (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image029.png?raw=true"
+<img src="./images/image033.png?raw=true"
   style="width:45%;"
   alt="Sample alert() popup." />
 </p>
@@ -995,9 +996,9 @@ home, and you&apos;re not using Chrome, the box is going to look different.
 For some of you it&apos;s going to have the little Safari symbol, or the
 Edge, or Firefox.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 30. codepen: sample alert (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 34. codepen: sample alert (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image030.png?raw=true"
+<img src="./images/image034.png?raw=true"
   style="width:45%;"
   alt="Codepen: sample alert()." />
 </p>
@@ -1009,11 +1010,11 @@ class we&apos;re going to be playing with alert a lot because it&apos;s a nice
 way for you to know if your code&apos;s working or not. Again, this is just
 a quick and simple way for you to generate output using the alert.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. prompt() output (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 35. prompt() output (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image031.png?raw=true"
+<img src="./images/image035.png?raw=true"
   style="width:45%;"
-  alt="Codepen: prompt()." />
+  alt="Codepen, example; prompt('Enter your name:')." />
 </p>
 
 The next way we can generate output is using **prompt**. **Prompt** is
@@ -1024,11 +1025,11 @@ prompt look very similar. They&apos;ve both got the key word, the
 parentheses, the semicolon and the string, but the way they act is very
 different.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 32. codepen: with alert and prompt (25) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. codepen, example prompt (25) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image032.png?raw=true"
+<img src="./images/image036.png?raw=true"
   style="width:45%;"
-  alt="Codepen: with alert and prompt." />
+  alt="Codepen, example; prompt('What is your name? ')." />
 </p>
 
 In this case when you run it, it&apos;s actually waiting for you to type
@@ -1040,11 +1041,11 @@ box where you can display information, but nothing is actually showing
 up on the page. Let&apos;s switch to the general ways in which you can
 generate output to the screen.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 34. document.write (25) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 37. document.write, example (25) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image034.png?raw=true"
+<img src="./images/image037.png?raw=true"
   style="width:45%;"
-  alt="document.write." />
+  alt="Example, document.write('Time to learn JavaScript')." />
 </p>
 
 One way, if you want something to be what we call permanent, to not just
@@ -1059,20 +1060,20 @@ worked by itself, but here you need to have **document.write()**. Same
 thing, hopefully you&apos;re seeing the pattern. Let&apos;s see when we add
 this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 35. codepen: document.write (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 38. codepen: document.write (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image035.png?raw=true"
+<img src="./images/image038.png?raw=true"
   style="width:45%;"
-  alt="Codepen: document.write." />
+  alt="Codepen, example document.write with h1" />
 </p>
 
 Here you can see that inside the script tag, again, I have the
 **document.write()**. But instead of things popping up or asking us for
 input, it writes it directly into the screen.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. codepen: document.write, #2 (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. codepen: document.write, #2 (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image036.png?raw=true"
+<img src="./images/image039.png?raw=true"
   style="width:45%;"
   alt="Codepen: document.write, #2." />
 </p>
@@ -1083,9 +1084,9 @@ instead of being an h1 heading, it's just regular old text. So,
 **document.write** is a way for you to generate output. But we need to
 realize that it is probably not the best way to do it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 37. document.write (27) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. document.write (27) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image037.png?raw=true"
+<img src="./images/image040.png?raw=true"
   style="width:45%;"
   alt="document.write()." />
 </p>
@@ -1366,7 +1367,7 @@ Debugging](https://www.w3schools.com/js/js_debugging.asp).
 </p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-04">Week 1-04. Variables</h2>
+<h2 id="ch1-04">1-04. Variables</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <https://codepen.io/ColleenEMc/pen/jbYEEW>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1631,7 +1632,7 @@ anything in the prompt. When the JavaScript doesn&apos;t know what to do,
 when it doesn&apos;t know what value should have been in there, it&apos;s going
 to assign it a value of null.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 70.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 70. prompt/print name (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image070.png?raw=true"
   style="width:40%;"
@@ -1643,11 +1644,11 @@ just in case someone else named Christopher is reading this and they can
 feel special. But now you can see it printed out Christopher, the URL,
 and the title of my page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 71.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 71. 1.04 variables: review (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image071.png?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="1.04. Review." />
 </p>
 
 Variables are a key component of really doing any type of programming
@@ -1660,24 +1661,24 @@ consult that log. The most important thing is I want you to understand
 how variables work, so that you can use them throughout the rest of the
 course. Good luck.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-05">Week 1-05. Data Types</h2>
+<h2 id="ch1-05">1-05. Data Types</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 72.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 72. data types (1.05) (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image072.png?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="1.05. Data Types." />
 </p>
 
 Once you realize that computers store all of the information using
 variables, the next step is to start to learn about the different data
 types used in the JavaScript programming language.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 73.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 73. assignments (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image073.png?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="Assignments; prompt(), date() and window.location." />
 </p>
 
 If you look here in this example, you can see that I&apos;ve got variable
@@ -1694,11 +1695,11 @@ doing it. In each of these examples, name would have what we call a
 different type. Things that are stored in the computer are completely
 different.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 74.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 74. types of variables (47) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image074.png?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="Types of variables." />
 </p>
 
 In computer programming languages, computers tend to have a single type.
@@ -1708,11 +1709,11 @@ to characters, back to a number to something else that&apos;s completely
 complex. Let&apos;s talk about what these types are in JavaScript and how we
 can represent them.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 75.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 75. number, example (47) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image075.png?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="Number, window.innerWidth." />
 </p>
 
 The first type we&apos;re going to talk about is number, and it&apos;s pretty
@@ -1732,11 +1733,11 @@ number, but in the different cases or one, it&apos;s going to be, normally
 would be an integer or a whole number, and the next time it has
 decimals.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 76.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76. string, example (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image076.png?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="String, window.location." />
 </p>
 
 The next type is called String. String is simply a collection of
@@ -1752,11 +1753,11 @@ I&apos;ve done var location = **window.location**. Because it happens to be
 that that attribute is a string or in my second example once again,
 I&apos;ve just hardcoded it to something you might expect.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 77.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 77. boolean, example (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image077.png?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="Boolean, examples; false, window.closed." />
 </p>
 
 The third data type is Boolean. In programing, a boolean value is
@@ -1772,11 +1773,11 @@ Later, we&apos;re going to learn how to write our own boolean expressions to
 check to see if things are true or false. And that can add really a lot
 of power to your page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 78.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 78. object, example (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image078.png?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="Object, example; document.getElementById('myID')." />
 </p>
 
 The next data type is called object. Because sometimes the variables or
@@ -1794,11 +1795,11 @@ something along the lines of write out **topic.style, topic.innerHTML.**
 Different things like that can show us really the attributes or the
 string&apos;s numbers that make up objects.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 79.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. array, example (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image079.png?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="Array, example; document.getElementsByTagName('a')." />
 </p>
 
 Finally, the last type we&apos;re going to talk about is array, because in
@@ -1814,11 +1815,11 @@ Well, that&apos;s certainly not going to return just a single number, or a
 bunch of strings, or even a single object. Instead, it needs to return a
 whole collection.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 80.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 80. accessing array elements (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image080.png?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="Accessing Array Elements." />
 </p>
 
 Arrays store these multiple values using a variable name, just like the
@@ -1834,11 +1835,11 @@ going to have an entire lecture or more on arrays later in this course.
 But for now, I just want you to realize that it&apos;s one of the data types
 that can be returned.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 81.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 81. variables - play with types (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image081.png?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="Variables; Play with Types." />
 </p>
 
 Let&apos;s look at a quick example that uses some of the different types.
@@ -1858,11 +1859,11 @@ using an array, and I just want to show you this because there&apos;s a
 really good chance this message might pop up for you and I don&apos;t want
 you to get freaked out about it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 82.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 82. example, document.write (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image082.png?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="Example, document.write." />
 </p>
 <!-- {width="4.0in" height="2.251709317585302in"} -->
 
@@ -1872,7 +1873,7 @@ actually have any paragraphs in this page. If I go back, and I add a
 few, they can even be empty. Gotta love when it keeps popping up on you.
 I don&apos;t know how many I added but we&apos;re going to do it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 83/84.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 83/84. prompt/display variable (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image083.png?raw=true"
   style="width:40%;"
@@ -1906,7 +1907,7 @@ knowing what the types are, even if you don&apos;t know how they work,
 you&apos;re really going to be on your way to doing some cool programming.
 So good luck.
 
-<h2 id="ch1-06">Week 1-06. Operators & Expressions (8:26)</h2>
+<h2 id="ch1-06">1-06. Operators &amp; Expressions (8:26)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 86.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2169,7 +2170,7 @@ distinction between ***defining*** a function (writing the code) and
 ***calling*** a function (running the code at the precise time you want
 it to happen).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-01">Week 2-01. Functions (7:18)</h2>
+<h2 id="ch2-01">2-01. Functions (7:18)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 98.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2371,7 +2372,7 @@ be writing your own functions in the homework, and I&apos;m hoping that
 you&apos;ll be able to do this and feel like you&apos;re really starting to
 understand some of the power of JavaScript. Good luck.
 
-<h2 id="ch2-02">Week 2-02. Code Placement (6:32)</h2>
+<h2 id="ch2-02">2-02. Code Placement (6:32)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 108.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2568,9 +2569,9 @@ most important thing for you right now, is to develop the confidence
 that you can get your JavaScript working, in whatever way, it best suits
 you. Good luck.
 
-## Organizing Your Code
+<h3>Organizing Your Code</h3>
 
-## Code Placement
+<h3>Code Placement</h3>
 
 When you write code, it is important to get into the good habits of
 organizing your code. While there are no specific rules about how and
@@ -2597,7 +2598,7 @@ sure to test your code later using the proper folder/file structure. You
 will need to include links to the style sheets, images, and any external
 JavaScript files.
 
-<h2 id="ch2-03">Week 2-03. Folder Structure / Organizing Your Code (5:33)</h2>
+<h2 id="ch2-03">2-03. Folder Structure / Organizing Your Code (5:33)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 120.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2719,7 +2720,7 @@ I&apos;m hoping that this is going to help you understand a little bit more
 how you can organize your code to make the best use of the different
 CSS, JavaScript, and images functions out there. Thanks.
 
-<h2 id="ch2-04">Week 2-04. Events (10:05)</h2>
+<h2 id="ch2-04">2-04. Events (10:05)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 126.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3013,9 +3014,9 @@ current Date every time you open the page. Once you are done, compare
 your answer to an example I have here:
 <http://codepen.io/ColleenEMc/pen/vLEJjq>
 
-## Mastering Events and Functions
+<h3>Mastering Events and Functions</h3>
 
-## Events
+<h3>Events</h3>
 
 The rest of the material is more and more examples of using Events and
 functions in JavaScript. If you are a little worried that you don&apos;t
@@ -3028,7 +3029,7 @@ details. That happens a lot. Programming is something that comes with
 time and practice. And then suddenly the moments of &quot;Hooray&quot; start to
 outnumber the times that you are stuck.
 
-<h2 id="ch2-05">Week 2-05. Code With Me -- Events (7:46)</h2>
+<h2 id="ch2-05">2-05. Code With Me -- Events (7:46)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 142.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3294,8 +3295,8 @@ The most important thing for you to do right now, is stop reading this
 module and bring up some sort of editor code bin, and go in there and
 start coding. If you don&apos;t do it now, you might start falling behind as
 we get into these more complex ideas. So, good luck.
-
-<h2 id="ch2-06">Week 2-06. "this" (9:30)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-06">2-06. "this" (9:30)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 165.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3315,6 +3316,13 @@ Why do we even need to use special key words? Well, because a key to
 smart programming is using different functions. You don&apos;t want to write
 your own code. You want to use somebody else&apos;s code. But a common road
 block, especially for new programmers, is trying to figure out.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 166.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image166.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 ![](./images/image166.png){width="4.0in" height="2.25in"}
 
@@ -4110,8 +4118,7 @@ we provide here aren&apos;t enough, you will want to change your code to
 come up with new decisions and different criteria to test different
 situations.
 
-<h2 id="ch4-01">Week 4-01. Code With Me: Randomizing Your Images Using Arrays (8:10)</h2>
-# 4.01. Code With Me: Randomizing Your Images Using Arrays (8:10)
+<h2 id="ch4-01">4-01. Code With Me: Randomizing Your Images Using Arrays (8:10)</h2>
 
 ![](./images/image212.png){width="4.0in"
 height="2.2948720472440947in"}
@@ -4284,7 +4291,7 @@ to your page. And it only takes few lines of code to do something that
 will make your page a little bit more unique. So have some fun with this
 and get your hands dirty, use that **Inspect Element**, and good luck.
 
-# 4-02. Code With Me: Using LightBox (9:48)
+<h2 id="ch4-02">4-02. Code With Me: Using LightBox (9:48)</h2>
 
 ![](./images/image232.png){width="4.0in"
 height="2.2572648731408576in"}
@@ -4664,9 +4671,9 @@ your forms. The [Web Accessibility
 Initiative](https://www.w3.org/WAI/tutorials/forms/labels/) has some
 great resources for learning about this.
 
-# 4.03.Final Project Description
+<h2 id="ch4-03">4.03.Final Project Description</h2>
 
-## Overview
+<h3>Overview</h3>
 
 The goal of the final project is to create your own accessible,
 interactive photo gallery. Building on concepts you have been learning
@@ -4684,7 +4691,7 @@ Once you have completed your assignment you will complete peer reviews. 
 Because there are two or three challenging components to this
 assignment, I hope you will learn from seeing the different approaches.
 
-## Instructions
+<h3>Instructions</h3>
 
 1.  Use the code from the Interactive Photo Gallery as your starting
     point
@@ -4730,7 +4737,7 @@ assignment, I hope you will learn from seeing the different approaches.
 
 15. Complete your peer reviews.
 
-## Auditing
+<h3>Auditing</h3>
 
 Your project will be audited by the careful examination of your code by
 yourself as well as the  [The W3C Markup Validation Service
@@ -4853,11 +4860,11 @@ proud of and that you can share with others, and that you leave this
 feeling like you\'ve really accomplished something and you learned
 enough about JavaScript that you can go on with some confidence.
 
-# 4.04.Final Project: Submission Gallery
+<h2 id="ch4-04">4.04.Final Project: Submission Gallery</h2>
 
 # ![](./images/image274.png){width="4.0in" height="2.2683759842519686in"}
 
-## **Optional ungraded submission**
+<h3>Optional ungraded submission</h3>
 
 Use this Gallery space to share your final project with others in this
 course. This is not required, but will help others that take the course
@@ -4869,9 +4876,9 @@ graded submission.
 to set up your Gallery profile by providing some basic information and
 selecting your sharing settings.
 
-## **Submitting your file to the Gallery**
+<h3>Submitting your file to the Gallery</h3>
 
-On the left side of the screen, click "**Upload Submission**" and fill
+On the left side of the screen, click "<b>Upload Submission</b>" and fill
 out the required information:
 
 -   Title of your submission
@@ -4880,7 +4887,7 @@ out the required information:
 
 -   A link to your hosted project.
 
-## **4.04.Navigating the Gallery**
+<h2 id="ch4-04">4.04. Navigating the Gallery</h2>
 
 Scroll through the submissions to see the various examples that your
 peers have shared. You can also sort the examples by using the available
