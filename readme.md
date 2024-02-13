@@ -1,5 +1,5 @@
 ---
-UofM-Inter-with-JS: University of Michigan - Interactivity with JavaScript
+UofM-Inter-with-JS: 3. University of Michigan - Interactivity with JavaScript
 ---
 
 <h2 align="center">Interactivity with JavaScript</h2>
