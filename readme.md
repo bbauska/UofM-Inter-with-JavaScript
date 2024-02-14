@@ -316,13 +316,14 @@ in the time we have. We will focus on the following:
 
 <h1 id="ch1">Week 1</h1>
 
-<h2 id="ch1-01">1-01. Introduction to Interactivity with JS</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. introduction (1-01.) (05) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-01">1.01 Introduction to Interactivity with JS</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. introduction (1-01) (05) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image003.png?raw=true"
   style="width:45%;"
-  alt="1.01. Introduction: Interactivity with JavaScript." />
+  alt="1.01 Introduction to Interactivity with JavaScript." />
 </p>
 
 Hi everybody. Today I&apos;m going to introduce you to the JavaScript
@@ -489,7 +490,9 @@ your own. For now, I put complete examples in CodePen, but as time goes
 on, I will remove some of the commands to link the code together. You
 will need to work on that part on your own..
 
-<h2 id="ch-1b">The Document Object Model (DOM)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch-1b">1.02b The Document Object Model (DOM)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <h3>Examples:</h3>
 
@@ -508,14 +511,14 @@ review the DOM and talk about how it is related to JavaScript. There is
 no code associated with this lecture, but if you check under the
 resources, I do include a link to site where you can find specifics on
 the DOM.
-
-<h2 id="ch1-02">1-02. DOM Review with Object Oriented Programming</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-02">1.02 DOM Review with Object Oriented Programming</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 13. dom review with object-oriented programming (11) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image013.png?raw=true"
   style="width:45%;"
-  alt="1.02. DOM Review with Object-Oriented Programming." />
+  alt="1.02 DOM Review with Object-Oriented Programming." />
 </p>
 
 Today we&apos;re going to be talking about the DOM, or the document object model.
@@ -785,7 +788,8 @@ you would like to learn more about the differences between the two
 groups of methods: [querySelector vs
 getElementById](https://dev.to/eidorianavi/queryselector-vs-getelementbyid-gm1)
 
-<h2 id="new-dom">Newer DOM Methods (4:32)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="new-dom">1.02b. Newer DOM Methods (4:32)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. newer dom methods (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1367,15 +1371,15 @@ Debugging](https://www.w3schools.com/js/js_debugging.asp).
 </p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-04">1-04. Variables</h2>
+<h2 id="ch1-04">1.04 Variables</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <https://codepen.io/ColleenEMc/pen/jbYEEW>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. 1.04. variables (36) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. variables (1.04) (36) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image054.png?raw=true"
   style="width:45%;"
-  alt="1.04. Variables." />
+  alt="1.04 Variables." />
 </p>
 
 Hi, everybody. Today we&apos;re going to learn about JavaScript variables.
@@ -1661,13 +1665,14 @@ consult that log. The most important thing is I want you to understand
 how variables work, so that you can use them throughout the rest of the
 course. Good luck.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-05">1-05. Data Types</h2>
+<h2 id="ch1-05">1.05 Data Types</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 72. data types (1.05) (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image072.png?raw=true"
   style="width:40%;"
-  alt="1.05. Data Types." />
+  title="1.05 Data Types"
+  alt="1.05 Data Types." />
 </p>
 
 Once you realize that computers store all of the information using
@@ -1907,13 +1912,14 @@ knowing what the types are, even if you don&apos;t know how they work,
 you&apos;re really going to be on your way to doing some cool programming.
 So good luck.
 
-<h2 id="ch1-06">1-06. Operators &amp; Expressions (8:26)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 86.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-06">1.06 Operators &amp; Expressions (8:26)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 86. operators and Expressions (1.06) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image086.png?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="1.06 Operators & Expressions." />
 </p>
 
 Today we&apos;re going to be talking about expressions and mainly operators,
@@ -2170,13 +2176,14 @@ distinction between ***defining*** a function (writing the code) and
 ***calling*** a function (running the code at the precise time you want
 it to happen).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-01">2-01. Functions (7:18)</h2>
+<h2 id="ch2-01">2.01 Functions (7:18)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 98.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 98. functions (2.01) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image098.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="2.01 Functions"
+  alt="2.01 Functions." />
 </p>
 
 Today we&apos;re going to talk about functions. Functions are these bits of
@@ -2372,13 +2379,15 @@ be writing your own functions in the homework, and I&apos;m hoping that
 you&apos;ll be able to do this and feel like you&apos;re really starting to
 understand some of the power of JavaScript. Good luck.
 
-<h2 id="ch2-02">2-02. Code Placement (6:32)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 108.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-02">2.02 Code Placement (6:32)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. code placement (2.02) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image108.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="2.02 Code Placement"
+  alt="2.02 Code Placement." />
 </p>
 
 Today, we&apos;re going to talk not about new concepts, but really, putting
@@ -2598,13 +2607,15 @@ sure to test your code later using the proper folder/file structure. You
 will need to include links to the style sheets, images, and any external
 JavaScript files.
 
-<h2 id="ch2-03">2-03. Folder Structure / Organizing Your Code (5:33)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 120.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-03">2.03 Folder Structure / Organizing Your Code (5:33)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 120. folder structure / organizing your code (2.03) (xxx) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image120.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="2.03 Folder Structure / Organizing Your Code"
+  alt="2.03 Folder Structures / Organizing Your Code." />
 </p>
 
 I know that one of the most frustrating things that can happen when
@@ -2720,13 +2731,15 @@ I&apos;m hoping that this is going to help you understand a little bit more
 how you can organize your code to make the best use of the different
 CSS, JavaScript, and images functions out there. Thanks.
 
-<h2 id="ch2-04">2-04. Events (10:05)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 126.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-04">2.04 Events (10:05)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 126. events (2.04) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image126.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="2.04 Events"
+  alt="2.04 Events." />
 </p>
 
 Hi everybody. One of the things we promise you in this course was that
@@ -3029,13 +3042,14 @@ details. That happens a lot. Programming is something that comes with
 time and practice. And then suddenly the moments of &quot;Hooray&quot; start to
 outnumber the times that you are stuck.
 
-<h2 id="ch2-05">2-05. Code With Me -- Events (7:46)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 142.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch2-05">2.05 Code With Me -- Events (7:46)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 142. code with me -- events (2.05) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image142.png?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="2.05 Code With Me -- Events." />
 </p>
 
 Hi everybody, welcome back. It&apos;s time for us to take some of the things
@@ -3296,13 +3310,13 @@ module and bring up some sort of editor code bin, and go in there and
 start coding. If you don&apos;t do it now, you might start falling behind as
 we get into these more complex ideas. So, good luck.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-06">2-06. "this" (9:30)</h2>
+<h2 id="ch2-06">2.06 "this" (9:30)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 165.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 165. 'this' (2.06) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image165.png?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="2.06 'this'." />
 </p>
 
 Hi everybody, welcome to my personal least favorite lecture of all time.
