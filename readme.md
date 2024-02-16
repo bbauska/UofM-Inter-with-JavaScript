@@ -3280,10 +3280,13 @@ actually go in and we could say, you know what? For that element I want
 you to change the class name. I don&apos;t know what it used to be, but now
 I want it to be closed. And down here, I want it to be open.
 
-![](./images/image165.png){width="3.5in"
-height="1.9837073490813648in"}
-![](./images/image166.png){width="3.5in"
-height="1.9837073490813648in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 163. 'this' (2.06) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image163.png?raw=true"
+  style="width:40%;"
+  alt="2.06 'this'." />
+</p>
 
 So, I can talk a lot. But it&apos;s important that even I stop and check
 that code and make sure I didn&apos;t break it. Close, Open, Close, Open.
@@ -3337,14 +3340,18 @@ block, especially for new programmers, is trying to figure out.
   alt="." />
 </p>
 
-![](./images/image166.png){width="4.0in" height="2.25in"}
-
 How can I write a function so that I can reuse it over and over again?
 How can I write this function so that different elements can use it? But
 the function knows basically, how do I know what information to use.
 That&apos;s where "this" keyword comes in.
 
-![](./images/image167.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 167.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image167.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 This allows an element to refer to itself. Every object in the DOM, has
 an automatically generated this. This "this" attribute allows you to
@@ -3363,7 +3370,13 @@ going to do is it&apos;s just going to backtrack and go back, back, back,
 back, back, back, back, back until it&apos;s, oops, here&apos;s an open tag.
 They must be referring to this DOM element right here.
 
-![](./images/image168.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 168.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image168.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let&apos;s look at what I hope are a few simple examples of using the word
 this. Right here I have four different elements on my page. I have two
@@ -3380,21 +3393,38 @@ element. As soon as the computer sees the word this. It&apos;s going to back
 up, until it gets to the image. And then we&apos;ll say. They want the alt
 text for this image. Let's see what happens when I actually click on
 this image.
-
-![](./images/image169.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 169.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image169.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 As you can see, as soon as I clicked on it. The message Awesome 80&apos;s
 haircut shows up, all right? If I were to click on this multiple times.
 It doesn&apos;t actually show up in the console multiple times.
 
-![](./images/image170.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 170.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image170.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 You can see that there&apos;s a little number over here that says. Oh, this
 has happened four times in a row. But the important thing is that, I
 click on an image and the event knew that this was the image I was
 clicking on.
 
-![](./images/image171.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 171.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image171.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let&apos;s look at the next example down here. I&apos;ve got my div that just
 says, hi there. Checking out a div. I&apos;m looking at the second example
@@ -3403,13 +3433,25 @@ don&apos;t have alt text. Instead, what I said to do is, log the inner html.
 When I click on this div, I&apos;m expecting to see, hi there, checking out
 the div to show up in the console.
 
-![](./images/image172.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 172.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image172.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 As you can see, it&apos;s working. These first two examples are very
 similar. And that all I&apos;m doing is basically kind of manipulating
 what&apos;s going on in the console.
 
-![](./images/image173.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 173.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image173.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 In these last two, I did something very similar. But instead of just
 using on-click do something. I&apos;m going to use this function on the
@@ -3422,7 +3464,13 @@ both use the same exact function called displayID. And even though
 they&apos;re using the same function, it&apos;s actually going to show different
 results.
 
-![](./images/image174.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 174.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image174.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let&apos;s see what happens when I start to click. ID-1, ID-1, ID-2, ID-2.
 Here&apos;s a simple example of us using onClick along with a function and
@@ -3430,7 +3478,13 @@ the keyword, this, to provide different data. I want to show you though,
 a slightly more colorful example. That I think also makes this point
 really well.
 
-![](./images/image175.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 175.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image175.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 In this example let&apos;s start right off with the JavaScript. I have a
 function called showProperties. And it is expecting to be sent some sort
@@ -3452,7 +3506,13 @@ going to show you the cool part of this. On each one of these elements,
 I have shown property and the keyword this which says send this image
 that I am hovering over with my mouse and call that property.
 
-![](./images/image176.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 176.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image176.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let&apos;s take a look and see how this works. I&apos;m going to hover over the
 first picture of my dog. And I am really hoping that the alt text
@@ -3472,7 +3532,13 @@ change the border? Different things like this that are, you all know how
 to do. But just because you know how to do it, doesn&apos;t mean you don&apos;t
 have to stop and think and really process it in your mind first.
 
-![](./images/image177.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 177.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image177.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 The key word this, the concept of the word this, can be really tricky to
 grasp. It took me quite a while myself. And I don&apos;t think I really
@@ -3501,15 +3567,27 @@ makes more sense to you. While you are welcome to seek out help on the
 forums, please remember that you are not allowed to post code. The code
 to get you started is here: <http://codepen.io/ColleenEMc/pen/wKYxZa>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-07">Week 2-07. Photo Gallery (5:53)</h2>
-
-![](./images/image178.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 178.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image178.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 In this module, I want to walk you through how we&apos;re going to be
 putting some of the things we&apos;ve learned into practice. And the main
 things I&apos;m looking for, from you, are your abilities to do two things.
 
-![](./images/image179.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 179.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image179.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 First is, if I give you some HTML code and some CSS code, can you change
 the background image of an element? The second thing I want you to try
@@ -3519,41 +3597,72 @@ specific planner to put into place.
 <https://codepen.io/ColleenEMc/pen/wKYxZa>
 
 So, let&apos;s take a look at the gallery homework.
-
-![](./images/image180.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 180.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image180.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 In order to begin this assignment, I&apos;m going to give you the HTML code
 and the CSS code that will create this page here. I&apos;ve got one div and
 three images underneath it. Each one of those images has a link to this
 source file and it has alt text.
 
-![](./images/image181.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 181.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image181.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 So right here, its alt text is Styling with a Bandana. And did you
 notice that as soon as I put my mouse over this image, it changes the
 source image and the text for the main div.
 
 We&apos;re creating a photo gallery here.
-
-![](./images/image182.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 182.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image182.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 As I leave the picture and I go off to this side, we go back to the
 original image in color.
-
-![](./images/image183.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 183.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image183.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 When I go over the next picture, you can see boom it went in and found
 out what the source file was for this image. It located the alt text and
 use both of those things to update that upper dish. Again, I&apos;m going to
 leave.
-
-![](./images/image184.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 184.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image184.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 And I&apos;m going to go over this last one. I&apos;ve actually put in the
 JavaScript function codes for you and the events. The one thing that I
 need you to do is write those functions.
-
-![](./images/image185.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 185.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image185.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let&apos;s look at the functions I want you to write. The first one is
 called, **upDate**, and we&apos;re going to send it to **previewPic**. And I
@@ -3563,13 +3672,25 @@ over, that **previewPic**. The next thing I want you to do is I change
 the text of the div so that&apos;s going to show the alt text of the preview
 image. This is what we call **upDate**.
 
-![](./images/image186.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 186.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image186.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 When we leave the picture, I want you to undo what we just did, I want
 you to go in and I want you to change the text and the background image
 again.
 
-![](./images/image187.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 187.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image187.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Just as a little refresher in case you haven&apos;t used background images
 before, the background image is an option for including graphics without
@@ -3588,7 +3709,13 @@ Instead of giving a name, you are going to want to use some sort of
 variable. Okay? After you do that, you&apos;re going to want to hard code
 the background color because we&apos;re hoping it won&apos;t be there at all.
 
-![](./images/image188.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 188.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image188.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 For the element text, I&apos;m going to leave that a little bit more for you
 to figure out how you&apos;re going to do that. We&apos;ve discussed two
@@ -3606,7 +3733,13 @@ you should have something is going to equal some sort of element, all
 right? Avoid using quotes on the right-hand side for this assignment.
 Really try to use something that can change as the document changes.
 
-![](./images/image189.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 189.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image189.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Okay, so a couple tips to get you started. The code you need to write
 should actually be really short. If you are writing more than five or
@@ -3810,7 +3943,13 @@ one thing at a time. This is where Arrays come in. Let&apos;s get started.
 
 <h2 id="ch3-01">Week 3-01. JavaScript Arrays (7:12)</h2>
 
-![](./images/image190.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 190.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image190.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Today we&apos;re going to be starting something that&apos;s really quite
 different than what we&apos;ve been doing in the past. In the first few
@@ -3819,14 +3958,26 @@ talked about numbers, strings, true or false booleans, or objects. And
 while objects can be quite complex where you can have entire DOM
 elements, the fact is they were just dealing with one element at a time.
 
-![](./images/image191.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 191.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image191.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 But what do you do if you want to use multiple related pieces of
 information? That&apos;s where the idea of arrays comes in. Arrays give us a
 chance to declare multiple values that are all linked to a single
 variable.
 
-![](./images/image192.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 192.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image192.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 In this case I&apos;ve declared an array called grades, but instead of
 giving it one value, I&apos;ve given it ten. In this next example, I said I
@@ -3837,7 +3988,13 @@ APIs **getElementsByClassName**. In this case, I have no idea how many
 elements will be in this images array because I don&apos;t know how many
 images were in the document.
 
-![](./images/image193.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 193.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image193.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 And in the same way, I could declare array by saying, you know what, I
 want to make a variable, I&apos;m going to call it listItems. And how I&apos;m
@@ -3846,7 +4003,13 @@ going to assign it or declare and initialize it, is by doing
 it&apos;ll travel through the DOM and grab every element that has that li
 tag.
 
-![](./images/image194.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 194.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image194.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Hopefully you&apos;ve seen this idea that an array is not a single value,
 but a collection of values. You start off by giving your array a name,
@@ -3859,7 +4022,13 @@ science ideas, we don&apos;t start at 1, we start at 0. If I have an array
 of 10 elements, The index goes from 0 to 9. If I have an array of 5
 elements, I know that it&apos;ll go from 0 to 4.
 
-![](./images/image195.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 195.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image195.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Okay, so we have our array, and we know, in this case, that we have an
 array with 10 values in it. Each of those values is called an element.
@@ -3871,7 +4040,13 @@ each element is referenced by an index. If I were to say
 array up here. I need to go find the one that&apos;s in the 0 place, so
 **grades&lbrack;0&rbrack;** refers to 80.
 
-![](./images/image196.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 196.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image196.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 If I want to talk about **grades&lbrack;4&rbrack;,** well this refers to value 62.
 **grades&lbrack;0&rbrack;** is the first value, **grades&lbrack;4&rbrack;** is actually the
@@ -3879,7 +4054,13 @@ fifth value. If this is the first time you&apos;ve really experienced
 starting your counting at 0, it can be a little bit confusing at first,
 but you&apos;ll get the hang of it in really no time.
 
-![](./images/image197.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 197.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image197.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 One thing I wanted to mention because it&apos;s different than in other
 program and languages, is that elements in array don&apos;t have to be all
@@ -3888,7 +4069,13 @@ a string and a number, and then a string and a number, and that works
 just fine. However, it&apos;s very uncommon and I wouldn&apos;t necessarily
 encourage you to do your arrays in this manner.
 
-![](./images/image198.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 198.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image198.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Instead, we want to focus on this idea that arrays tend to have the same
 values in them and that they have attributes and methods. Because
@@ -3905,7 +4092,13 @@ how big that array was because we had initialized it. But sometimes you
 won&apos;t know how long the array is, especially if you used
 **getElementsByTagName** or something like that.
 
-![](./images/image199.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 199.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image199.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 It is possible to combine the idea of length and the idea of push to
 come up with our own way of adding things to our array. Grades, here&apos;s
