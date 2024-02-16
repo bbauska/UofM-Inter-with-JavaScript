@@ -1881,12 +1881,12 @@ I don&apos;t know how many I added but we&apos;re going to do it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 83/84. prompt/display variable (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image083.png?raw=true"
-  style="width:40%;"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image084.png?raw=true"
+  style="width:45%;"
   alt="." />
 </p>
-![](./images/image086.png){width="3.5in"
-height="1.970246062992126in"}![](./images/image087.png){width="3.5in"
-height="1.9702449693788275in"}
 
 I can try running this again. And when I type in Colleen, you can see
 that now it knows that I have five paragraph elements in there.
@@ -1911,7 +1911,6 @@ returning? If you can play with that and start to feel comfortable
 knowing what the types are, even if you don&apos;t know how they work,
 you&apos;re really going to be on your way to doing some cool programming.
 So good luck.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-06">1.06 Operators &amp; Expressions (8:26)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
