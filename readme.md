@@ -3259,19 +3259,32 @@ it to go from none.
 And in open, similarly, it says, hey grab that element, and I want it to
 go from whatever it used to be, and now it should be block.
 
-![](./images/image161.png){width="3.5in"
-height="1.9837073490813648in"}![](./images/image162.png){width="3.5in"
-height="1.9837073490813648in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 158/159.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image158.png?raw=true"
+  style="width:35%;"
+  alt="." />
+<img src="./images/image159.png?raw=true"
+  style="width:35%;"
+  alt="." />
+</p>
 
 Let&apos;s look and see if this works. Close, Open. Close, Open. Great, it
 works, but we&apos;ve hardcoded those elements in. We&apos;ve hardcoded block.
 What if we also wanted to change the color, or the width, or many other
 elements? This is where the idea of our classes can come in.
 
-![](./images/image163.png){width="3.5in"
-height="1.9837073490813648in"}
-![](./images/image164.png){width="3.5in"
-height="1.9837073490813648in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 160/161.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image160.png?raw=true"
+  style="width:35%;"
+  alt="." />
+<img src="./images/image161.png?raw=true"
+  style="width:35%;"
+  alt="." />
+</p>
 
 Let&apos;s change it over here really quickly. I&apos;m going to comment out
 this line of code. And same right here. All I&apos;ve done here, is we&apos;re
@@ -3281,9 +3294,9 @@ you to change the class name. I don&apos;t know what it used to be, but now
 I want it to be closed. And down here, I want it to be open.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 163. 'this' (2.06) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 162. 'this' (2.06) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image163.png?raw=true"
+<img src="./images/image162.png?raw=true"
   style="width:40%;"
   alt="2.06 'this'." />
 </p>
@@ -3291,9 +3304,9 @@ I want it to be closed. And down here, I want it to be open.
 So, I can talk a lot. But it&apos;s important that even I stop and check
 that code and make sure I didn&apos;t break it. Close, Open, Close, Open.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 164.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 163.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image164.png?raw=true"
+<img src="./images/image163.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
