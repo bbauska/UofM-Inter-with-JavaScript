@@ -4130,8 +4130,13 @@ started, it can sometimes be confusing when you see people doing the
 same thing in different ways. It&apos;s a really great learning opportunity
 for you to try to figure out which things match as you go out and see
 new code.
-
-![](./images/image200.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 200.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image200.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Let&apos;s review. As you learn to declare and manipulate arrays, your code
 is going to become much more powerful. You just need to take the time to
@@ -4148,17 +4153,28 @@ make sure things are going the way you want them to, and keep coming
 along with me as you learn new ways to use arrays to improve your page,
 thanks.
 
-<h2 id="ch3-02">Week 3.02 Code With Me -- Arrays (5:18)</h2>
-
-![](./images/image201.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-02">3.02 Code With Me -- Arrays (5:18)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 201. code with me -- arrays (3.02) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image201.png?raw=true"
+  style="width:40%;"
+  title="3.02 Code With Me -- Arrays"
+  alt="3.02 Code With Me -- Arrays." />
+</p>
 
 Today, we&apos;re going to do what I call a Code with Me. Well, it&apos;s
 perfectly okay if you just sit here and read the modules. I really
 encourage people to take this as an opportunity to find out, can you do
 the things that you&apos;ve been reading about all along?
-
-![](./images/image202.png){width="4.0in"
-height="2.2512817147856516in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 202.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image202.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Specifically, I&apos;m wondering, can you declare an array? We&apos;ve been
 talking about them, we&apos;ve been using them, but I&apos;ve been doing all the
@@ -4175,15 +4191,25 @@ your code work? Let&apos;s jump right in. As I said, I have this code online
 for you. But I really encourage you to start from scratch and try coding
 on your own. And using my code as a reference just in case things go
 wrong.
-
-![](./images/image203.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 203.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image203.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Let&apos;s take a look at this code. I really want you to understand each
 and every line. Sometimes I do things the long way, but that&apos;s okay.
 Because I really think it&apos;s a great learning experience for you to
 understand what&apos;s going on with JavaScript.
-
-![](./images/image204.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 204.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image204.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Let&apos;s start off with the fact that I declared an array with four
 different elements in here. I have Banana, Orange, Apple and Mango, I&apos;m
@@ -4202,8 +4228,13 @@ In order to add something, we basically don&apos;t want to add it here. We
 want to add additional things to the end of our array. All right, let&apos;s
 get started. In this function, it&apos;s going to ask us what our favorite
 food is. Once they ask, we need to know where should we put it?
-
-![](./images/image205.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 205.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image205.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Right now, I&apos;m going to draw up on the screen to get an idea of what
 the index of each one of these elements is. It starts at 0, 1, 2 and 3.
@@ -4233,8 +4264,13 @@ length of my array is one, two, three, four, five. Because I&apos;m using a
 variable here, instead of hard coding a number. My program will work no
 matter how many different elements I add. Length is the count of fruits
 in the array.
-
-![](./images/image208.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 208.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image208.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Let&apos;s add two more. And I can add Peach. And I can add another one.
 I&apos;ll just add Banana again because I have no imagination this morning.
@@ -4348,10 +4384,16 @@ we provide here aren&apos;t enough, you will want to change your code to
 come up with new decisions and different criteria to test different
 situations.
 
-<h2 id="ch4-01">4-01. Code With Me: Randomizing Your Images Using Arrays (8:10)</h2>
-
-![](./images/image212.png){width="4.0in"
-height="2.2948720472440947in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-01">4.01 Code With Me: Randomizing Your Images Using Arrays (8:10)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 212. code with me: randomizing your images using arrays (4.01) (xxx) ~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image212.png?raw=true"
+  style="width:40%;"
+  title="4.01 Code With Me: Randomizing Your Images Using Arrays"
+  alt="4.01 Code With Me: Randomizing Your Images Using Arrays." />
+</p>
 
 Hi everyone, let\'s do a couple Code With Me's in a row just so you can
 start using your JavaScript to do things that are a little bit more
@@ -4388,24 +4430,38 @@ time. And up, look at that, I didn\'t get any image at all. Do it one
 more time and I\'ve got that kind of pink tree again. What I\'ve done is
 I\'ve written code in JavaScript that will pick an image randomly from
 an array of image names.
-
-![](./images/image217.png){width="5.0in"
-height="2.6597222222222223in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 217.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image217.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Let\'s code this together. Let\'s start with the HTML code. Right here
 on line 11 I want you to notice that I\'ve put in an event and a
 function. And I\'ve said when the body of the page loads, I want you to
 run the function **pickImage(),** all right?
 
-![](./images/image218.png){width="5.0in"
-height="2.6597222222222223in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 218.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image218.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 And just to double check, I\'m going to scroll all the way to the bottom
 of the screen and you can see that I\'ve remembered to include a link to
 my JavaScript file that has that function.
 
-![](./images/image219.png){width="5.0in"
-height="2.6597222222222223in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 219.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image219.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Let\'s pop back up to the top. What is pickImage going to do? Well,
 pickImage, I\'m going to scroll just a little bit more here. PickImage
@@ -4413,8 +4469,13 @@ is going to go to this image element right here, the one with the id of
 **header_img** and it is going to update the source to a somewhat random
 image.
 
-![](./images/image220.png){width="5.0in"
-height="2.6597222222222223in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 220.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image220.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Let\'s see how we do this in the JavaScript file. The function
 **pickImage** starts off with an array that I have called **options**.
@@ -4425,14 +4486,24 @@ Oops, I\'ve got **bend_in_the_road** twice, think I actually in fact,
 we\'re going to get rid of a couple of these since I have extra, let\'s
 keep it nice and short and sweet.
 
-![](./images/image221.png){width="5.0in"
-height="2.6597222222222223in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 221.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image221.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 And I have 1, 2, 3, 4, 5 different images to choose from. Again, where
 did I get those images from?
 
-![](./images/image222.png){width="5.0in"
-height="2.6597222222222223in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 222.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image222.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Well, I just peeked over here in my Images folder and I picked some
 randomly. All right, so again, all I have here is an array of strings,
@@ -4442,8 +4513,13 @@ names, all right? Hang with me here, we\'re going to be doing some math,
 we\'re going to be doing some funky JavaScript, but there\'s just one
 line of code you need to understand, and it\'s right here.
 
-![](./images/image223.png){width="5.0in"
-height="2.6597222222222223in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 223.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image223.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 JavaScript has a random function right here called **Math.random**. And
 what it will do is it will return a number between 0 and 1, so 0.25,
@@ -4473,9 +4549,13 @@ accessibility wise, but it is really just a decorative image. And by
 including the alt attribute, I\'m still saying, \"hey, there\'s an image
 here, but it\'s not important, I\'m letting you know that it\'s really
 something you can skip over.\"
-
-![](./images/image224.png){width="5.0in"
-height="2.6597222222222223in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 224.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image224.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Let\'s take a look now at this working in process again. This time when
 we look at the page, I want to have **Inspect Element** open, so I\'m
@@ -4483,27 +4563,46 @@ going to do my **Inspect**. I\'m going to narrow in on this image and
 I\'m going to make it a little bit bigger, hopefully to make it a little
 easier for you to read.
 
-![](./images/image225.png){width="5.0in"
-height="2.6597222222222223in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 225.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image225.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 You can see, however, that currently the image is **bend_in_the_road**,
 let\'s refresh the page.
 
-![](./images/image226.png){width="5.0in"
-height="2.6597222222222223in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 226.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image226.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 This time that\'s changed into **hollow_tree.png** I\'m going to
 refresh.
 
-![](./images/image227.png){width="5.0in"
-height="2.6597222222222223in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 227.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image227.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Did you notice something, did you notice that the image is missing? This
 happened earlier too, when I was doing my demo, there\'s no picture
 there, so let\'s head over to the console.
-
-![](./images/image228.png){width="5.0in"
-height="2.6597222222222223in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 228.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image228.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 And in the console, you will see that I get the error that munising
 actually just isn\'t found. **images/munising** isn\'t found, it\'s a
@@ -4525,9 +4624,13 @@ code and we\'ll investigate the script, that JS file. Here we are in
 line 2, and we can see that I forgot to include the file extension, I
 don\'t remember what it is. It was .jpg, so I need to replace this with
 **munising.jpg**.
-
-![](./images/image231.png){width="5.0in"
-height="2.6597222222222223in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 231.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image231.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 All right, let\'s go back and try this one more time. All right, let\'s
 start refreshing again and see if we get that same error or if I\'m able
@@ -4539,10 +4642,16 @@ to your page. And it only takes few lines of code to do something that
 will make your page a little bit more unique. So have some fun with this
 and get your hands dirty, use that **Inspect Element**, and good luck.
 
-<h2 id="ch4-02">4-02. Code With Me: Using LightBox (9:48)</h2>
-
-![](./images/image232.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-02">4.02 Code With Me: Using LightBox (9:48)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 232. code with me: using lightbox (4.02) (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image232.png?raw=true"
+  style="width:40%;"
+  title="4.02 Code With Me: Using LightBox"
+  alt="4.02 Code With Me: Using LightBox." />
+</p>
 
 Something I say often about my Web Design for Everybody classes is that
 it\'s unlikely that you\'re going to go off and become a professional
@@ -4550,40 +4659,60 @@ web developer when you\'re done. Some of you may, that\'s great. But a
 lot of you are mostly just looking to become a little bit more
 knowledgeable about existing tech and that might include existing
 packages and tools out there that you can use.
-
-![](./images/image233.png){width="4.0in"
-height="2.250426509186352in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 233.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image233.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 It is true that it\'s way more common to use code from others than to
 write your own. And one of my absolute favorites is code for creating
 **lightboxes**.
-
-![](./images/image234.png){width="5.0in"
-height="2.813033683289589in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 234.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image234.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Today I\'m going to walk you through how you can implement a
 **lightbox** in your existing code using somebody else\'s JavaScript and
 CSS. Let\'s take a look at this **lightbox** project. For those of you
 who are not familiar with what a **lightbox** is, let me show you an
 example.
-
-![](./images/image235.png){width="5.0in"
-height="2.813034776902887in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 235.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image235.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 I\'m going to click on this picture right here and as you can see, as
 you click on the image, the image actually pops up into a much bigger
 form.
-
-![](./images/image236.png){width="5.0in"
-height="2.813034776902887in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 236.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image236.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 I\'m going to click out this X and I can click on this second image as
 well. If you notice, it\'s really small, but at the bottom they even
 include an optional caption. These are considered kind of individual
 images.
-
-![](./images/image237.png){width="5.0in"
-height="2.813034776902887in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 237.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image237.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 You can also put your images into a set like these four images here,
 where when I click on the first one, not only does it show the caption
@@ -4591,9 +4720,13 @@ at the bottom and the X to leave the image, there\'s also a small
 chevron or arrow to go to the next image or to go back to a previous
 image. What\'s great about this code is that all of the JavaScript and
 all of the CSS for the **lightbox** is already created for you.
-
-![](./images/image238.png){width="5.0in"
-height="2.813033683289589in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 238.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image238.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Let me show you how you can actually implement it in your code. I\'m
 going to start by scrolling down here a little bit and they mentioned
@@ -4614,9 +4747,13 @@ For most of you, I think the most common approach is going to be to
 click on the link to GitHub to get their code. In order to get the code,
 you would go to Code, Download ZIP. While that\'s happening, I want to
 talk to you about some of these files and folders.
-
-![](./images/image241.png){width="5.0in"
-height="2.813034776902887in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 241.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image241.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 The most important one that you will need is called the \"dist\" folder.
 Dist is a really common naming convention, it stands for distribution.
@@ -4625,9 +4762,13 @@ If you\'re using other people\'s code and you\'re a little overwhelmed
 by all the folders and files, this is usually the one folder you really
 need. Although, the examples folder is usually a little bit handy as
 well.
-
-![](./images/image242.png){width="5.0in"
-height="2.813033683289589in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 242.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image242.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 I\'m going to go back to the instructions, as we go through the rest of
 the steps, let me zoom in a little bit because the smallest typo can
@@ -4648,9 +4789,13 @@ jQuery, which means we need to make sure we use any of their code that
 says **lightbox** plus jQuery. Don\'t worry, I\'m going to show you all
 this. But I just want to point it out when you\'re going through the
 documentation, okay?
-
-![](./images/image243.png){width="5.0in"
-height="2.813033683289589in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 243.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image243.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Here is the format, what we are basically doing is turning every image
 on our page that we want to be part of the **lightbox** into a link,
@@ -4663,15 +4808,23 @@ called **data-lightbox** and the special attribute called
 **data-title**. The **data-lightbox** lets the browser know whether you
 want all of the images to be linked together or whether they should be
 separate.
-
-![](./images/image244.png){width="5.0in"
-height="2.813033683289589in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 244.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image244.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 If you notice in the image sets (at the bottom), they gave everything
 the same **data-lightbox.**
-
-![](./images/image245.png){width="5.0in"
-height="2.813033683289589in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 245.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image245.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 That\'s it, that\'s all the documentation we\'re going to go through.
 Let\'s go back to one of the pages we\'ve been using in this class
@@ -4680,9 +4833,13 @@ at my folder structure. I still have my css folder, my images folder, my
 js folder, but I\'ve added a new file called **lightbox.html**. It\'s
 just a kind of shortened version of the neighborhood.html, so we won\'t
 worry about it too much.
-
-![](./images/image246.png){width="5.0in"
-height="2.813034776902887in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 246.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image246.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 But now I also have the dist folder. I just copied and dragged to the
 whole thing. Inside the dist, they have their own css, their own images,
@@ -4721,7 +4878,6 @@ What we have here, as I mentioned, is just an abbreviated page where I
 only have four images. And right now, these images, I\'m clicking on
 them, don\'t do anything, all right? I\'ve connected to the CSS and
 I\'ve connected to the JavaScript.
-
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 250.  (xxx) ~~~~~~~~~~~~~~~~~~-->
