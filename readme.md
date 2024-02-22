@@ -1,16 +1,24 @@
 ---
-UofM-Inter-with-JS: 3. University of Michigan - Interactivity with JavaScript
+title: |
+  #3 University of Michigan Interactivity with JavaScript
+  by Colleen van Lent, Ph.D. (lecturer, school of information)
+author: "bbauska"
+date last editted: "2/21/2024 10+pm"
+output: 
+  markdown:
+    with some style
 ---
 
-<h2 align="center">Interactivity with JavaScript</h2>
-<br/>
+<h1 align="center">Interactivity with JavaScript</h2>
+
+<h6 align="center">(by Colleen van Lent - University of Michigan)</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of uofm-inter-with-js ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. interactivity with js (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image001.jpeg?raw=true"
-  style="width:45%;"
+  style="width:30%;"
   alt="Interactivity with JavaScript by Colleen van Lent, 
     Ph.D. (lecturer, school of information)." />
 </p>
@@ -24,10 +32,33 @@ UofM-Inter-with-JS: 3. University of Michigan - Interactivity with JavaScript
   alt="University of Michigan logo." />
 </p>
 
-<h2><a href="#table-of-contents">Table of Contents</a></h2>
+<h2 id="#about">About this Course:</h2>
 
-## [**About**](#cha)
->### - [**About**](#cha-1)
+If you want to take your website to the next level, the ability to
+incorporate interactivity is a must. But adding some of these types of
+capabilities requires a stronger programming language than HTML5 or
+CSS3, and JavaScript can provide just what you need.
+
+With just a basic understanding of the language, you can create a page
+that will react to common events such as page loads, mouse clicks &
+movements, and even keyboard input. This course will introduce you to
+the basics of the JavaScript language. We will cover concepts such as
+variables, looping, functions, and even a little bit about debugging
+tools.
+
+You will understand how the Document Object Model (DOM) is used by
+JavaScript to identify and modify specific parts of your page. After the
+course, learners will be able to react to DOM Events and dynamically
+alter the contents and style of their page. The class will culminate in
+a final project - the creation of an interactive HTML5 form that accepts
+and verifies input.
+
+This is the third course in the Web Design for Everybody specialization.
+A basic understanding of HTML and CSS is expected when you enroll in
+this class. Additional courses focus on enhancing the styling with
+responsive design and completing a capstone project.
+
+<h2><a href="#table-of-contents">Table of Contents</a></h2>
 
 ## [**Course Information**](#chb)
 >### * [**Syllabus**](#chb-1)
@@ -67,36 +98,9 @@ UofM-Inter-with-JS: 3. University of Michigan - Interactivity with JavaScript
 
 <a href="https://github.com/bbauska/UofM-Inter-with-JS.git" target="_blank">UofM - InterActivity with JS - git</a>
 
-<h2 id="cha"></h2>
-<h3 id="cha-1">About this Course:</h3>
+<h2><a href=#syllabus">Syllabus</a></h2>
 
-If you want to take your website to the next level, the ability to
-incorporate interactivity is a must. But adding some of these types of
-capabilities requires a stronger programming language than HTML5 or
-CSS3, and JavaScript can provide just what you need.
-
-With just a basic understanding of the language, you can create a page
-that will react to common events such as page loads, mouse clicks &
-movements, and even keyboard input. This course will introduce you to
-the basics of the JavaScript language. We will cover concepts such as
-variables, looping, functions, and even a little bit about debugging
-tools.
-
-You will understand how the Document Object Model (DOM) is used by
-JavaScript to identify and modify specific parts of your page. After the
-course, learners will be able to react to DOM Events and dynamically
-alter the contents and style of their page. The class will culminate in
-a final project - the creation of an interactive HTML5 form that accepts
-and verifies input.
-
-This is the third course in the Web Design for Everybody specialization.
-A basic understanding of HTML and CSS is expected when you enroll in
-this class. Additional courses focus on enhancing the styling with
-responsive design and completing a capstone project.
-
-<h2 id="chb-1">Syllabus:</h2>
-
-<h3 id="week-1">Week One: Data Types</h3>
+<h3>Week One: Data Types</h3>
 
 If you haven&apos;t used a traditional programming language before, this
 first week is key. Before we begin with the how, we will talk about the
@@ -4144,7 +4148,7 @@ make sure things are going the way you want them to, and keep coming
 along with me as you learn new ways to use arrays to improve your page,
 thanks.
 
-<h2 id="ch3-02">Week 3-02. Code With Me -- Arrays (5:18)</h2>
+<h2 id="ch3-02">Week 3.02 Code With Me -- Arrays (5:18)</h2>
 
 ![](./images/image201.png){width="4.0in" height="2.25in"}
 
@@ -4204,10 +4208,16 @@ food is. Once they ask, we need to know where should we put it?
 Right now, I&apos;m going to draw up on the screen to get an idea of what
 the index of each one of these elements is. It starts at 0, 1, 2 and 3.
 So this means we want to put the next fruit in position 4.
-
-![](./images/image206.png){width="3.5in"
-height="1.96875in"}![](./images/image207.png){width="3.5in"
-height="1.96875in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 206/207.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image206.png?raw=true"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image207.png?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Let&apos;s take a look. I click Add Your Favorite. I&apos;ll say Strawberry. And
 when I hit OK, right away the JavaScript has gone in and said, oh, I
@@ -4351,11 +4361,22 @@ but it wasn\'t really anything that had to do with web design so much.
 So, in this example, what I\'m going to show you how to do is how to
 randomize your pictures using JavaScript, so let\'s take a look.
 
-![](./images/image213.png){width="1.6354166666666667in"
-height="2.0833333333333335in"}![](./images/image214.png){width="1.6354166666666667in"
-height="2.0833333333333335in"}![](./images/image215.png){width="1.6354166666666667in"
-height="2.0833333333333335in"}![](./images/image216.png){width="1.6354166666666667in"
-height="2.0833333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 213-216.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image213.png?raw=true"
+  style="width:20%;"
+  alt="." />
+<img src="./images/image214.png?raw=true"
+  style="width:20%;"
+  alt="." />
+<img src="./images/image215.png?raw=true"
+  style="width:20%;"
+  alt="." />
+<img src="./images/image216.png?raw=true"
+  style="width:20%;"
+  alt="." />
+</p>
 
 I\'m going to refresh the page here to give you an idea of what I\'m
 talking about. And what I\'d like you to do is keep an eye on this one
@@ -4488,9 +4509,16 @@ And in the console, you will see that I get the error that munising
 actually just isn\'t found. **images/munising** isn\'t found, it\'s a
 404 error.
 
-![](./images/image229.png){width="3.5in"
-height="1.8618055555555555in"}![](./images/image230.png){width="3.5in"
-height="1.8618055555555555in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 229/230.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image229.png?raw=true"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image230.png?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Okay, well, I must have had a typo somewhere, so let\'s go back into my
 code and we\'ll investigate the script, that JS file. Here we are in
@@ -4571,10 +4599,16 @@ Let me show you how you can actually implement it in your code. I\'m
 going to start by scrolling down here a little bit and they mentioned
 that there\'s a number of ways to get started.
 
-![](./images/image239.png){width="3.5in"
-height="1.9691240157480314in"}
-![](./images/image240.png){width="3.5in"
-height="1.9691240157480314in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 239/240.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image239.png?raw=true"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image240.png?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 For most of you, I think the most common approach is going to be to
 click on the link to GitHub to get their code. In order to get the code,
@@ -4659,27 +4693,43 @@ JavaScript in your JavaScript folder?\" You can absolutely do that. But
 I like to keep it separate because I like to know if, when something\'s
 broken, if it was my code or their code. All I\'ve really done is add
 this dist folder right here, let\'s close up the folder.
-
-![](./images/image247.png){width="3.5in"
-height="1.9691240157480314in"}![](./images/image248.png){width="3.5in"
-height="1.9691240157480314in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 247/248.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image247.png?raw=true"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image248.png?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Now, as we go through, you can see instead of path/to the
 **lightbox.css**, I\'ve used **dist/css/lightbox**. I\'m going to scroll
 all the way to the bottom, and instead of having
 **path/to/js/lightbox**, I\'ve done the **dist/js/lightbox-plus-query**.
 I\'m going to save this for just a second, and I\'m going to open it up.
-
-![](./images/image249.png){width="5.0in"
-height="2.813033683289589in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 249.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image249.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 What we have here, as I mentioned, is just an abbreviated page where I
 only have four images. And right now, these images, I\'m clicking on
 them, don\'t do anything, all right? I\'ve connected to the CSS and
 I\'ve connected to the JavaScript.
 
-![](./images/image250.png){width="5.0in"
-height="2.813033683289589in"}
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 250.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image250.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 But now it\'s time for me to update my html. Let\'s take a look at that
 very first image. What I needed to do was I needed to add an \<a\> tag
@@ -4704,10 +4754,16 @@ least one of them once just to be sure that you don\'t have a typo,
 right? So normally I add it to the first one and then kind of copy and
 paste it for the other ones. I\'m going to save this and let\'s look at
 it again, all right?
-
-![](./images/image251.png){width="3.5in"
-height="1.9691240157480314in"}![](./images/image252.png){width="3.5in"
-height="1.9691240157480314in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 251/252.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image251.png?raw=true"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image252.png?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Let\'s try clicking on the first image. Not only does it pop up, but I
 now have the chevron to go to the next image, the next image, and the
@@ -4722,46 +4778,72 @@ I\'ve created and kind of bump it up a notch by using code that somebody
 else created. That\'s really what the web is about. All of us working
 together to create things that we can all enjoy.
 
-# 4-03. Code With Me: Looping Through Images (8:07)
-
-![](./images/image253.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-03">4.03 Code With Me: Looping Through Images (8:07)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 253. code with me: looping through images (4.03) (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image253.png?raw=true"
+  style="width:40%;"
+  title="4.03 Code With Me: Looping Through Images"
+  alt="4.03 Code With Me: Looping Through Images." />
+</p>
 
 Hi everyone. Earlier we did a Code With Me where we wanted to make one
 image, a random image. Now, let\'s talk about what we would do if we
 want to use JavaScript to update numerous images.
-
-![](./images/image254.png){width="5.0in"
-height="2.813033683289589in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 254.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image254.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 For instance, in this example, I have now changed the code so that I get
 three somewhat random images each time I load it. It\'s not super random
 because I didn\'t give it a lot of options, but you can see that it\'s
 three different pictures each time. Let\'s take a look at the code to
 see how we do this.
-
-![](./images/image255.png){width="5.0in"
-height="2.813033683289589in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 255.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image255.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Let\'s start off by looking at our body tag. Once again, I\'ve used the
 onload event, but this time I\'ve used a function called
 \"**setImages()**\".
-
-![](./images/image256.png){width="5.0in"
-height="2.813033683289589in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 256.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image256.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 If we scroll a little further, we can see from the structure of the page
 that the images I want to change are the images that are inside the flex
 class. Right now, I have 1, 2, 3 images in here.
-
-![](./images/image257.png){width="5.0in"
-height="2.813033683289589in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 257.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image257.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Then at the very bottom, I\'m using my script tag to link to my
 JavaScript folder.
-
-![](./images/image258.png){width="5.0in"
-height="2.813033683289589in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 258.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image258.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Let\'s check out the JavaScript code. Once again, I\'ve created a
 variable called options, and in that array, I have listed a number of
@@ -4793,9 +4875,13 @@ image and assign it to the variable random image. It\'s the same thing
 we did earlier. But now, instead of using something like
 **currentImage,** its currentImages\[i\], the first image, the second
 image, the third image.
-
-![](./images/image259.png){width="5.0in"
-height="2.813033683289589in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 259.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image259.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Let\'s take a look and I\'m going to go back to the website one more
 time. Once again, let\'s turn on **Inspect Element** to see what\'s
@@ -4821,16 +4907,24 @@ means when we add hover to our style sheet. That means people who are
 using a mouse can get that functionality, but people are using the
 keyboard cannot. Let\'s use looping to also add a bit more accessibility
 to our page.
-
-![](./images/image260.png){width="5.0in"
-height="2.813034776902887in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 260.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image260.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Back here in my HTML code, I can see that none of my images have an
 attribute called tab index. Tab index is what allows people to use the
 keyboard to access an element.
-
-![](./images/image261.png){width="5.0in"
-height="2.813033683289589in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 261.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image261.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 I could go in here and I could start adding tabindex=\"0\" to all of my
 images. In this case, I would only have to do it for three. But imagine
@@ -4841,26 +4935,38 @@ here. What I can do is I can say, **currentImages**. Instead of the
 source, I\'m going to use a new function called **setAttribute()**. I\'m
 going to say, let\'s set the \"tabindex\" equal to 0. I\'m going to save
 this.
-
-![](./images/image262.png){width="5.0in"
-height="2.813033683289589in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 262.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image262.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Let\'s go back to the website. I\'m going to refresh, and I\'m going to
 go in and I\'m going to check out these elements. Go right here,
 **Inspect**. We can now see that each one of these images has a
 tabindex=\"0\" in there.
-
-![](./images/image263.png){width="5.0in"
-height="2.813033683289589in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 263.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image266.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 My last step actually is to go back and update my style sheet as well.
 Here I am in my style sheet and I\'m going to say, \"anything I say
 people can do with hover let\'s also let them do it with focus.\" Back
 to our page. Now that I\'m here, I\'m going to begin to tab. It\'s going
 to go through my links.
-
-![](./images/image264.png){width="5.0in"
-height="2.813033683289589in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 264.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image264.png?raw=true"
+  style="width:50%;"
+  alt="." />
+</p>
 
 Now you can see it is also allowing me to tab to the images as well.
 Hopefully this is showing you that using looping is a faster way to
@@ -4876,7 +4982,7 @@ going in and you\'re practicing, you\'re trying this code. And if need
 be, look things up on your own. There\'s always references out there.
 Good luck.
 
-# 4.03.\"Cool Stuff\" - Friend or Foe?
+<h2 id="ch4-03">4.03 &quot;Cool Stuff&quot; - Friend or Foe?</h2>
 
 As you are able to add additional capabilities to your pages, make sure
 that you aren\'t doing it at a cost to accessibility or usability.
@@ -4891,7 +4997,7 @@ your forms. The [Web Accessibility
 Initiative](https://www.w3.org/WAI/tutorials/forms/labels/) has some
 great resources for learning about this.
 
-<h2 id="ch4-03">4.03.Final Project Description</h2>
+<h2 id="ch4-03a">4.03 Final Project Description</h2>
 
 <h3>Overview</h3>
 
@@ -5007,14 +5113,24 @@ and a keyboard.
 -   The site returns no errors from the [WAVE Web Accessibility
     Evaluation Tool](https://wave.webaim.org/)
 
-# 4-04. Final Project Description
-
-# ![](./images/image265.png){width="4.0in" height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch4-04z">4.04 Final Project Description</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 265.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image265.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Hi everyone. Let\'s talk about the final project.
-
-![](./images/image266.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 266.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image266.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 In an earlier assignment, you added the ability to hover over images and
 display their source and alt texts in a different div. In this
@@ -5027,10 +5143,16 @@ just as we wrote a 'Undo' for when we were on **mouseout** and we did
 like change when your **mouseover**. Now, you are going to use the focus
 and blur events so that keyboard users have the same capabilities as any
 mouse users.
-
-![](./images/image267.png){width="3.5in"
-height="1.9691240157480314in"}![](./images/image268.png){width="3.5in"
-height="1.9691240157480314in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 267/268.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image267.png?raw=true"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image268.png?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Let me show you an example. Again, in your earlier example, there were
 just three images, and I gave you those images.
@@ -5041,23 +5163,39 @@ over, out, over, out. In the new version, you will add at least three
 additional images of your own for total of six images, and we\'re going
 to use the Tab key to that people can use the same type of functionality
 as with the mouse.
-
-![](./images/image269.png){width="3.5in"
-height="1.9691240157480314in"}![](./images/image270.png){width="3.5in"
-height="1.9691240157480314in"}
-
-![](./images/image271.png){width="3.5in"
-height="1.9691240157480314in"}![](./images/image272.png){width="3.5in"
-height="1.9691240157480314in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 269/270.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image269.png?raw=true"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image270.png?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 271/272.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image271.png?raw=true"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image272.png?raw=true"
+  style="width:45%;"
+  alt="." />
+</p>
 
 Watch as I begin the tab, I\'m going to tab again. I\'m going to tab a
 third time, and now watch what happens when I tab this fourth time. It
 goes back to the original, a lot of students get into this trap where
 they only write an event for when it goes in focus. But the opposite of
 focus is something called blur, make sure that you code for both.
-
-![](./images/image273.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 273.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image273.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 As always, we\'re going to ask you to follow some general guidelines.
 One, make sure that you\'re using your own images, preferably something
@@ -5080,9 +5218,16 @@ proud of and that you can share with others, and that you leave this
 feeling like you\'ve really accomplished something and you learned
 enough about JavaScript that you can go on with some confidence.
 
-<h2 id="ch4-04">4.04.Final Project: Submission Gallery</h2>
-
-# ![](./images/image274.png){width="4.0in" height="2.2683759842519686in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-04">4.04 Final Project: Submission Gallery</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 274.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image274.png?raw=true"
+  style="width:40%;"
+  title="4.04 Final Project: Submission Gallery"
+  alt="4.04 Final Project: Submission Gallery." />
+</p>
 
 <h3>Optional ungraded submission</h3>
 
@@ -5107,8 +5252,9 @@ out the required information:
 
 -   A link to your hosted project.
 
-<h2 id="ch4-04">4.04. Navigating the Gallery</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-04a">4.04 Navigating the Gallery</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Scroll through the submissions to see the various examples that your
 peers have shared. You can also sort the examples by using the available
 filters near the top right-hand corner of the Gallery. As you explore
@@ -5121,17 +5267,27 @@ information like your name, email, and Coursera ID.
 
 <https://gallery-tool.ai.umich.edu/gallery/account/create/?next=/gallery/submissions/>
 
-# 4-05. Conclusion
-
-![](./images/image275.png){width="4.0in"
-height="2.2572648731408576in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch4-05">4.05 Conclusion</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 275. conclusion (4.05) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image275.png?raw=true"
+  style="width:40%;"
+  title="4.05 Conclusion"
+  alt="4.05 Conclusion." />
+</p>
 
 Hey everybody, congratulations on finishing the Interactivity with
 JavaScript course. I hope you\'re really proud of what you\'ve done so
 far, and excited to keep learning more.
-
-![](./images/image276.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 276.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image276.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 However, I do want to warn you right now that what we\'ve covered in
 this class, you\'re still considered what we call a noob or newbie. So,
@@ -5144,9 +5300,13 @@ different concepts of variables, arrays, functions, and looping, these
 are concepts that repeat everywhere else. So now that you\'ve just begun
 programming, you\'ll find that learning new languages is actually
 easier.
-
-![](./images/image277.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 277.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image277.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 Now, we\'ve done a lot of client-side processing. So, I just want to
 talk to you one more time about the idea that what we\'ve learned in
@@ -5158,9 +5318,13 @@ or back-end programming, they can help you with this, but it does
 require additional resources beyond what most people find on their
 laptop or phone.
 
-![](./images/image278.png){width="4.0in"
-height="2.25042760279965in"}
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 278.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image278.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 So, what should you do next then? Well, I hope you continue to practice
 your skills, because unlike HTML, and CSS, and some other components of
 web design, with JavaScript, if you don\'t use it, you\'re absolutely
@@ -5184,8 +5348,12 @@ and you want to do more, I can\'t say anything else but thank you for
 joining me in this course. And thank you to everyone who was on the
 message boards mentoring each other and encouraging each other. Good
 luck.
-
-![](./images/image279.png){width="4.0in"
-height="2.25042760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 279.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image279.png?raw=true"
+  style="width:40%;"
+  alt="." />
+</p>
 
 ...the end
