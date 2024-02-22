@@ -23,6 +23,7 @@ UofM-Inter-with-JS: 3. University of Michigan - Interactivity with JavaScript
   style="width:25%;"
   alt="University of Michigan logo." />
 </p>
+
 <h2><a href="#table-of-contents">Table of Contents</a></h2>
 
 ## [**About**](#cha)
