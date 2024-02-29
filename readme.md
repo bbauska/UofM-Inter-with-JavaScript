@@ -3,7 +3,7 @@ title: |
   #3 University of Michigan Interactivity with JavaScript
   by Colleen van Lent, Ph.D. (lecturer, school of information)
 author: "bbauska"
-date last editted: "2/21/2024 10+pm"
+date last editted: "2/29/2024 9+am"
 output: 
   markdown:
     with some style
@@ -5286,20 +5286,22 @@ and a keyboard.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-04z">4.04 Final Project Description</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 265.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 265. final project description (4.04) (158) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image265.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="4.04 Final Project Description"
+  alt="4.04 Final Project Description." />
 </p>
 
 Hi everyone. Let\'s talk about the final project.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 266.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 266. expanding the photo gallery (159) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image266.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Expanding the photo gallery with tabindex"
+  alt="Expanding the photo gallery with tabindex." />
 </p>
 
 In an earlier assignment, you added the ability to hover over images and
@@ -5314,14 +5316,14 @@ like change when your **mouseover**. Now, you are going to use the focus
 and blur events so that keyboard users have the same capabilities as any
 mouse users.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 267/268.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 267/268. on hover, expand image with alt text (159) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image267.png?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="On hover, expand image." />
 <img src="./images/image268.png?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="On hover, display alt text." />
 </p>
 
 Let me show you an example. Again, in your earlier example, there were
@@ -5334,7 +5336,7 @@ additional images of your own for total of six images, and we\'re going
 to use the Tab key to that people can use the same type of functionality
 as with the mouse.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 269/270.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 269/270.  (160) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image269.png?raw=true"
   style="width:45%;"
@@ -5344,7 +5346,7 @@ as with the mouse.
   alt="." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 271/272.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 271/272.  (160) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image271.png?raw=true"
   style="width:45%;"
