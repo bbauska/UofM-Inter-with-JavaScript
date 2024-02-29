@@ -794,13 +794,14 @@ groups of methods: [querySelector vs
 getElementById](https://dev.to/eidorianavi/queryselector-vs-getelementbyid-gm1)
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="new-dom">1.02b. Newer DOM Methods (4:32)</h2>
+<h2 id="new-dom">1.02b Newer DOM Methods (4:32)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. newer dom methods (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image023.png?raw=true"
   style="width:45%;"
-  alt="Newer DOM Methods." />
+  title="1.02b Newer DOM Methods." />
+  alt="1.02b Newer DOM Methods." />
 </p>
 
 Hi everyone. Part of being a coder is realizing that you&apos;ve been using
@@ -813,6 +814,7 @@ yourself.
 <p align="center" width="100%">
 <img src="./images/image024.png?raw=true"
   style="width:45%;"
+  title="Selecting the First Element; querySelector()"
   alt="Selecting the First Element; querySelector()." />
 </p>
 
@@ -841,6 +843,7 @@ start to play around and use **querySelector** as well.
 <p align="center" width="100%">
 <img src="./images/image025.png?raw=true"
   style="width:45%;"
+  title="Selecting Multiple Elements; querySelectorAll()"
   alt="Selecting Multiple Elements; querySelectorAll()." />
 </p>
 
@@ -862,6 +865,7 @@ DOM.
 <p align="center" width="100%">
 <img src="./images/image026.png?raw=true"
   style="width:45%;"
+  title="Deciding on a Method"
   alt="Deciding on a Method." />
 </p>
 
@@ -873,8 +877,9 @@ online and they debate as to one&apos;s faster than another, and to be
 honest, you could have done a lot more with that time in your life, than
 compare the two of them. Don&apos;t worry about that. **querySelector** is
 nice in that it does allow you to use any CSS selector that you&apos;d like.
-To be honest, I&apos;m less prone to typos when I use the method name. When
-I use **querySelector**, sometimes I forget to include that hashtag or
+To be honest, I&apos;m less prone to typos when I use the method name. 
+
+When I use **querySelector**, sometimes I forget to include that hashtag or
 the period. But to be honest, sometimes when I do **getElementById**, I
 love how it&apos;s mnemonic. I know exactly what I&apos;m looking for, but
 sometimes I accidentally capitalize the &quot;d&quot; in ById and then it
@@ -2913,9 +2918,9 @@ conveys this idea of click me and I&apos;m going to do something, and since
 we didn&apos;t have the power to do that yet, I really didn&apos;t want to use
 that element, but now we can.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 136.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 139.  (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image136.png?raw=true"
+<img src="./images/image139.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2925,9 +2930,9 @@ you to call the JavaScript **date** function, this is something that I
 didn&apos;t write. You know that it was written by JavaScript partly because
 well, it&apos;s yellow.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 137.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 140.  (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image137.png?raw=true"
+<img src="./images/image140.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2936,9 +2941,9 @@ All right, so I&apos;m going to use this function and connect it with the
 **button**. So, I have **button** type equals **button** and I have
 **onclick** equals **displayDate()**.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 138.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 141.  (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image138.png?raw=true"
+<img src="./images/image141.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2954,9 +2959,9 @@ As we start adding JavaScript events and reacting to events to our code,
 I just want you to be aware of something that&apos;s going on, that&apos;s
 really quite complex.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 139.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 142.  (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image139.png?raw=true"
+<img src="./images/image142.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2971,9 +2976,9 @@ right I need to wait on click, onclick, onclick. If you add too many
 events to your page, you could conceivably slow down the execution of
 your page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 140.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 143.  (86) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image140.png?raw=true"
+<img src="./images/image143.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3000,9 +3005,9 @@ these events JavaScript can be limited in its ability to interact with
 the DOM. We didn&apos;t have onclick, onload and be really hard to actually
 work with our webpages.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 141.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 144.  (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image141.png?raw=true"
+<img src="./images/image144.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3049,9 +3054,9 @@ outnumber the times that you are stuck.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-05">2.05 Code With Me -- Events (7:46)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 142. code with me -- events (2.05) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 145. code with me -- events (2.05) (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image142.png?raw=true"
+<img src="./images/image145.png?raw=true"
   style="width:40%;"
   alt="2.05 Code With Me -- Events." />
 </p>
@@ -3069,9 +3074,9 @@ if you can break the code. Because it&apos;s always better to make your
 errors now. We have the whole community around you. You can ask
 questions.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 143.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 146.  (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image143.png?raw=true"
+<img src="./images/image146.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3084,9 +3089,9 @@ different then we&apos;ve done before. When I first introduced the idea of
 events, I said that events are matched with functions. Well, you can
 also match events just with JavaScript code, not a function itself.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 144.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 147.  (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image144.png?raw=true"
+<img src="./images/image147.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3098,9 +3103,9 @@ onClick, grab that element, change the innerHTML, and I want you to
 change it to Clicked First Button. The other one is very similar. The
 only difference is that I want to change the content of that paragraph.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 145.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 148.  (90) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image145.png?raw=true"
+<img src="./images/image148.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3108,9 +3113,9 @@ only difference is that I want to change the content of that paragraph.
 When I click on these buttons this, right here, is the element I want
 you to look at.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 146.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 149.  (90) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image146.png?raw=true"
+<img src="./images/image149.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3118,9 +3123,9 @@ you to look at.
 Let&apos;s click on the First button. You can see that I clicked, it said,
 hey I know that I just clicked the First button.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 147.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 150.  (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image147.png?raw=true"
+<img src="./images/image150.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3130,9 +3135,9 @@ Second button. This seems like a really small program to write, but
 there&apos;s a lot going on in here, and a lot of places where people tend
 to make mistakes. Let&apos;s just look at them quickly.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 148.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 151.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image148.png?raw=true"
+<img src="./images/image151.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3155,9 +3160,9 @@ to change. Is it the event that&apos;s going to change? Is it the button
 that&apos;s going to change? Is it the whole page? So luckily, with CodePin
 you&apos;ll be able to see it immediately. All right, wow, now I really.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 149.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 152.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image149.png?raw=true"
+<img src="./images/image152.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3165,18 +3170,18 @@ you&apos;ll be able to see it immediately. All right, wow, now I really.
 That&apos;s how I can change the button itself. If I want to change what&apos;s
 going to happen, that where I put in here, Clicked Another Button.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 150.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 153.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image150.png?raw=true"
+<img src="./images/image153.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
 
 Let&apos;s save. I&apos;m going to click on First, Second.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 151.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 154.  (93) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image151.png?raw=true"
+<img src="./images/image154.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3185,9 +3190,9 @@ Play with this. Try putting it in yourself. And realize, again, that you
 can put your JavaScript anywhere you want, it doesn&apos;t always have to be
 in an external file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 152.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 155.  (93) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image152.png?raw=true"
+<img src="./images/image155.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3196,9 +3201,9 @@ Let&apos;s look at the next example. Okay, get ready. This example is going
 to be a big one, because we do have a lot of things going on. We have
 our HTML. We have our CSS. And we have our JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 153.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 156.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image153.png?raw=true"
+<img src="./images/image156.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3215,9 +3220,9 @@ now it&apos;s going to reappear again. That&apos;s all we really need to
 realize, is that .closed will make it go away, .open is going to make it
 come back.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 154.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 157.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image154.png?raw=true"
+<img src="./images/image157.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3226,9 +3231,9 @@ Over here, in my HTML, I have a paragraph called demo. And that&apos;s right
 down here, it&apos;s all this entire thing we can see right here. This is
 the one we want to change in our code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 155.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 158.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image155.png?raw=true"
+<img src="./images/image158.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3242,9 +3247,9 @@ simply need to grab the demo element by doing document.getElementById.
 But now instead of trying to change the inner HTML, I&apos;m going to change
 the style.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 156.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 159.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image156.png?raw=true"
+<img src="./images/image159.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3254,9 +3259,9 @@ I&apos;m not using my CSS, I&apos;m actually hardcoding it in here that I want
 it to go from none.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 157.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 160.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image157.png?raw=true"
+<img src="./images/image160.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3265,13 +3270,13 @@ And in open, similarly, it says, hey grab that element, and I want it to
 go from whatever it used to be, and now it should be block.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 158/159.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 161/162.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image158.png?raw=true"
-  style="width:35%;"
+<img src="./images/image161.png?raw=true"
+  style="width:45%;"
   alt="." />
-<img src="./images/image159.png?raw=true"
-  style="width:35%;"
+<img src="./images/image162.png?raw=true"
+  style="width:45%;"
   alt="." />
 </p>
 
@@ -3281,13 +3286,13 @@ What if we also wanted to change the color, or the width, or many other
 elements? This is where the idea of our classes can come in.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 160/161.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 163/164.  (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image160.png?raw=true"
-  style="width:35%;"
+<img src="./images/image163.png?raw=true"
+  style="width:45%;"
   alt="." />
-<img src="./images/image161.png?raw=true"
-  style="width:35%;"
+<img src="./images/image164.png?raw=true"
+  style="width:45%;"
   alt="." />
 </p>
 
@@ -3299,19 +3304,21 @@ you to change the class name. I don&apos;t know what it used to be, but now
 I want it to be closed. And down here, I want it to be open.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 162. 'this' (2.06) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 165/166.  (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image162.png?raw=true"
-  style="width:40%;"
-  alt="2.06 'this'." />
+<img src="./images/image165.png?raw=true"
+  style="width:45%;"
+  alt="." />
+<img src="./images/image166.png?raw=true"
+  style="width:45%;"
+  alt="." />
 </p>
-
 So, I can talk a lot. But it&apos;s important that even I stop and check
 that code and make sure I didn&apos;t break it. Close, Open, Close, Open.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 163.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 167.  (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image163.png?raw=true"
+<img src="./images/image167.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3332,9 +3339,9 @@ we get into these more complex ideas. So, good luck.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-06">2.06 "this" (9:30)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 165. 'this' (2.06) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 168. 'this' (2.06) (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image165.png?raw=true"
+<img src="./images/image168.png?raw=true"
   style="width:40%;"
   alt="2.06 'this'." />
 </p>
@@ -3351,9 +3358,9 @@ smart programming is using different functions. You don&apos;t want to write
 your own code. You want to use somebody else&apos;s code. But a common road
 block, especially for new programmers, is trying to figure out.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 166.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 169.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image166.png?raw=true"
+<img src="./images/image169.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3364,9 +3371,9 @@ the function knows basically, how do I know what information to use.
 That&apos;s where "this" keyword comes in.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 167.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 170.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image167.png?raw=true"
+<img src="./images/image170.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3389,10 +3396,10 @@ back, back, back, back, back until it&apos;s, oops, here&apos;s an open tag.
 They must be referring to this DOM element right here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 168.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 171.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image168.png?raw=true"
-  style="width:40%;"
+<img src="./images/image171.png?raw=true"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3412,10 +3419,10 @@ up, until it gets to the image. And then we&apos;ll say. They want the alt
 text for this image. Let's see what happens when I actually click on
 this image.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 169.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 172.  (101) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image169.png?raw=true"
-  style="width:40%;"
+<img src="./images/image172.png?raw=true"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3424,10 +3431,10 @@ haircut shows up, all right? If I were to click on this multiple times.
 It doesn&apos;t actually show up in the console multiple times.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 170.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 173.  (102) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image170.png?raw=true"
-  style="width:40%;"
+<img src="./images/image173.png?raw=true"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3437,10 +3444,10 @@ click on an image and the event knew that this was the image I was
 clicking on.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 171.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 174.  (102) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image171.png?raw=true"
-  style="width:40%;"
+<img src="./images/image174.png?raw=true"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3452,10 +3459,10 @@ When I click on this div, I&apos;m expecting to see, hi there, checking out
 the div to show up in the console.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 172.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 175.  (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image172.png?raw=true"
-  style="width:40%;"
+<img src="./images/image175.png?raw=true"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3464,10 +3471,10 @@ similar. And that all I&apos;m doing is basically kind of manipulating
 what&apos;s going on in the console.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 173.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 176.  (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image173.png?raw=true"
-  style="width:40%;"
+<img src="./images/image176.png?raw=true"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3483,10 +3490,10 @@ they&apos;re using the same function, it&apos;s actually going to show different
 results.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 174.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 177.  (104) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image174.png?raw=true"
-  style="width:40%;"
+<img src="./images/image177.png?raw=true"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3497,10 +3504,10 @@ a slightly more colorful example. That I think also makes this point
 really well.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 175.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 178.  (104) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image175.png?raw=true"
-  style="width:40%;"
+<img src="./images/image178.png?raw=true"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3525,10 +3532,10 @@ I have shown property and the keyword this which says send this image
 that I am hovering over with my mouse and call that property.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 176.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 179.  (105) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image176.png?raw=true"
-  style="width:40%;"
+<img src="./images/image179.png?raw=true"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3551,14 +3558,14 @@ to do. But just because you know how to do it, doesn&apos;t mean you don&apos;t
 have to stop and think and really process it in your mind first.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 177.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 180.  (106) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image177.png?raw=true"
+<img src="./images/image180.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
 
-The key word this, the concept of the word this, can be really tricky to
+The key word 'this', the concept of the word 'this', can be really tricky to
 grasp. It took me quite a while myself. And I don&apos;t think I really
 understood it until I started teaching it. The important thing to note
 is that repeated practice helps. You want to go in and you want to do as
@@ -3586,24 +3593,24 @@ forums, please remember that you are not allowed to post code. The code
 to get you started is here: <http://codepen.io/ColleenEMc/pen/wKYxZa>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2-07">Week 2-07. Photo Gallery (5:53)</h2>
+<h2 id="ch2-07">2.07 Photo Gallery (5:53)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 178.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 181. photo gallery (2.07) (108) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image178.png?raw=true"
+<img src="./images/image181.png?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="2.07 Photo Gallery." />
 </p>
 
-In this module, I want to walk you through how we&apos;re going to be
+In this lesson, I want to walk you through how we&apos;re going to be
 putting some of the things we&apos;ve learned into practice. And the main
 things I&apos;m looking for, from you, are your abilities to do two things.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 179.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 182.  (109) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image179.png?raw=true"
-  style="width:40%;"
+<img src="./images/image182.png?raw=true"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3616,10 +3623,10 @@ specific planner to put into place.
 
 So, let&apos;s take a look at the gallery homework.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 180.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 183.  (109) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image180.png?raw=true"
-  style="width:40%;"
+<img src="./images/image183.png?raw=true"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3629,10 +3636,10 @@ three images underneath it. Each one of those images has a link to this
 source file and it has alt text.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 181.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 184.  (110) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image181.png?raw=true"
-  style="width:40%;"
+<img src="./images/image184.png?raw=true"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3642,20 +3649,20 @@ source image and the text for the main div.
 
 We&apos;re creating a photo gallery here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 182.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 185.  (110) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image182.png?raw=true"
-  style="width:40%;"
+<img src="./images/image185.png?raw=true"
+  style="width:50%;"
   alt="." />
 </p>
 
 As I leave the picture and I go off to this side, we go back to the
 original image in color.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 183.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 186.  (111) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image183.png?raw=true"
-  style="width:40%;"
+<img src="./images/image186.png?raw=true"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3664,10 +3671,10 @@ out what the source file was for this image. It located the alt text and
 use both of those things to update that upper dish. Again, I&apos;m going to
 leave.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 184.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 187.  (111) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image184.png?raw=true"
-  style="width:40%;"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3675,10 +3682,10 @@ And I&apos;m going to go over this last one. I&apos;ve actually put in the
 JavaScript function codes for you and the events. The one thing that I
 need you to do is write those functions.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 185.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 188.  (112) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image185.png?raw=true"
-  style="width:40%;"
+<img src="./images/image188.png?raw=true"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3691,9 +3698,9 @@ the text of the div so that&apos;s going to show the alt text of the preview
 image. This is what we call **upDate**.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 186.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 189.  (112) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image186.png?raw=true"
+<img src="./images/image189.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3703,11 +3710,12 @@ you to go in and I want you to change the text and the background image
 again.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 187.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 190. example, background-image (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image187.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Example, background-image"
+  alt="Example, background-image." />
 </p>
 
 Just as a little refresher in case you haven&apos;t used background images
@@ -3728,11 +3736,12 @@ variable. Okay? After you do that, you&apos;re going to want to hard code
 the background color because we&apos;re hoping it won&apos;t be there at all.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 188.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 191. element text, 2 ways to change content (113) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image188.png?raw=true"
+<img src="./images/image191.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Element Text, 2 ways to change content"
+  alt="Element Text, 2 ways to change content." />
 </p>
 
 For the element text, I&apos;m going to leave that a little bit more for you
@@ -3752,9 +3761,9 @@ right? Avoid using quotes on the right-hand side for this assignment.
 Really try to use something that can change as the document changes.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 189.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 192. tips (114) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image189.png?raw=true"
+<img src="./images/image192.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -3959,14 +3968,15 @@ These commands may return zero, one or more Nodes. So now we need to
 find a way to handle dealing with collections of data, rather than just
 one thing at a time. This is where Arrays come in. Let&apos;s get started.
 
-<h2 id="ch3-01">Week 3-01. JavaScript Arrays (7:12)</h2>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 190.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-01">3.01 JavaScript Arrays (7:12)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 193. javascript arrays (3.01) (119) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image190.png?raw=true"
+<img src="./images/image193.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="3.01 JavaScript Arrays"
+  alt="3.01 JavaScript Arrays." />
 </p>
 
 Today we&apos;re going to be starting something that&apos;s really quite
@@ -3977,11 +3987,12 @@ while objects can be quite complex where you can have entire DOM
 elements, the fact is they were just dealing with one element at a time.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 191.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 194. storing lots of data at once (119) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image191.png?raw=true"
+<img src="./images/image194.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Arrays, storing lots of data at once"
+  alt="Arrays, storing lots of data at once." />
 </p>
 
 But what do you do if you want to use multiple related pieces of
@@ -3990,11 +4001,12 @@ chance to declare multiple values that are all linked to a single
 variable.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 192.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 195. examples, declaring an array (120) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image192.png?raw=true"
+<img src="./images/image195.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Examples, Declaring an Array"
+  alt="Examples, Declaring an Array." />
 </p>
 
 In this case I&apos;ve declared an array called grades, but instead of
@@ -4007,11 +4019,12 @@ elements will be in this images array because I don&apos;t know how many
 images were in the document.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 193.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 196. more examples, declaring an array (120) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image193.png?raw=true"
+<img src="./images/image196.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="More Examples, Declaring an Array"
+  alt="More Examples, Declaring an Array." />
 </p>
 
 And in the same way, I could declare array by saying, you know what, I
@@ -4022,11 +4035,12 @@ it&apos;ll travel through the DOM and grab every element that has that li
 tag.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 194.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 197. arrays - a collection of values (121) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image194.png?raw=true"
+<img src="./images/image197.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Arrays - A Collection of Values"
+  alt="Arrays - A Collection of Values." />
 </p>
 
 Hopefully you&apos;ve seen this idea that an array is not a single value,
@@ -4041,11 +4055,12 @@ of 10 elements, The index goes from 0 to 9. If I have an array of 5
 elements, I know that it&apos;ll go from 0 to 4.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 195.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 198. example, accessing an array by index (121) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image195.png?raw=true"
+<img src="./images/image198.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Accessing an Array by Index"
+  alt="Example, Accessing an Array by Index." />
 </p>
 
 Okay, so we have our array, and we know, in this case, that we have an
@@ -4059,11 +4074,12 @@ array up here. I need to go find the one that&apos;s in the 0 place, so
 **grades&lbrack;0&rbrack;** refers to 80.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 196.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 199. another example, accessing an array (122) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image196.png?raw=true"
+<img src="./images/image199.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Another example, Accessing an Array"
+  alt="Another example, Accessing an Array." />
 </p>
 
 If I want to talk about **grades&lbrack;4&rbrack;,** well this refers to value 62.
@@ -4073,11 +4089,12 @@ starting your counting at 0, it can be a little bit confusing at first,
 but you&apos;ll get the hang of it in really no time.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 197.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 200. example, arrays (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image197.png?raw=true"
+<img src="./images/image200.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Example, Arrays - don't all have to be the same type"
+  alt="Example, Arrays - don't all have to be the same type." />
 </p>
 
 One thing I wanted to mention because it&apos;s different than in other
@@ -4088,11 +4105,12 @@ just fine. However, it&apos;s very uncommon and I wouldn&apos;t necessarily
 encourage you to do your arrays in this manner.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 198.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 201. javascript arrays are objects (123) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image198.png?raw=true"
+<img src="./images/image201.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Examples, JavaScript Arrays are Objects"
+  alt="Examples, JavaScript Arrays are Objects." />
 </p>
 
 Instead, we want to focus on this idea that arrays tend to have the same
@@ -4111,11 +4129,12 @@ won&apos;t know how long the array is, especially if you used
 **getElementsByTagName** or something like that.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 199.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 202. example, js arrays are objects (123) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image199.png?raw=true"
+<img src="./images/image202.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="More Examples, JavaScript Arrays are Objects"
+  alt="More Examples, JavaScript Arrays are Objects." />
 </p>
 
 It is possible to combine the idea of length and the idea of push to
@@ -4131,9 +4150,9 @@ same thing in different ways. It&apos;s a really great learning opportunity
 for you to try to figure out which things match as you go out and see
 new code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 200.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 203. review javascript arrays (124) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image200.png?raw=true"
+<img src="./images/image203.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -4156,9 +4175,9 @@ thanks.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-02">3.02 Code With Me -- Arrays (5:18)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 201. code with me -- arrays (3.02) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 204. code with me -- arrays (3.02) (125) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image201.png?raw=true"
+<img src="./images/image204.png?raw=true"
   style="width:40%;"
   title="3.02 Code With Me -- Arrays"
   alt="3.02 Code With Me -- Arrays." />
@@ -4169,11 +4188,12 @@ perfectly okay if you just sit here and read the modules. I really
 encourage people to take this as an opportunity to find out, can you do
 the things that you&apos;ve been reading about all along?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 202.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 205. arrays (125) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image202.png?raw=true"
+<img src="./images/image205.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Arrays"
+  alt="Arrays." />
 </p>
 
 Specifically, I&apos;m wondering, can you declare an array? We&apos;ve been
@@ -4192,11 +4212,12 @@ for you. But I really encourage you to start from scratch and try coding
 on your own. And using my code as a reference just in case things go
 wrong.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 203.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 206. example, array and elements of array (126) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image203.png?raw=true"
+<img src="./images/image206.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Example, array and elements of array"
+  alt="Example, array and elements of array." />
 </p>
 
 Let&apos;s take a look at this code. I really want you to understand each
@@ -4204,11 +4225,12 @@ and every line. Sometimes I do things the long way, but that&apos;s okay.
 Because I really think it&apos;s a great learning experience for you to
 understand what&apos;s going on with JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 204.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 207. example, step by step arrays and elements (126) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image204.png?raw=true"
+<img src="./images/image207.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Example, step by step arrays and elements"
+  alt="Example, step by step arrays and elements." />
 </p>
 
 Let&apos;s start off with the fact that I declared an array with four
@@ -4229,9 +4251,9 @@ want to add additional things to the end of our array. All right, let&apos;s
 get started. In this function, it&apos;s going to ask us what our favorite
 food is. Once they ask, we need to know where should we put it?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 205.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 208.  (127) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image205.png?raw=true"
+<img src="./images/image208.png?raw=true"
   style="width:50%;"
   alt="." />
 </p>
@@ -4240,12 +4262,12 @@ Right now, I&apos;m going to draw up on the screen to get an idea of what
 the index of each one of these elements is. It starts at 0, 1, 2 and 3.
 So this means we want to put the next fruit in position 4.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 206/207.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 209/210.  (127) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image206.png?raw=true"
+<img src="./images/image209.png?raw=true"
   style="width:45%;"
   alt="." />
-<img src="./images/image207.png?raw=true"
+<img src="./images/image210.png?raw=true"
   style="width:45%;"
   alt="." />
 </p>
@@ -4265,9 +4287,9 @@ variable here, instead of hard coding a number. My program will work no
 matter how many different elements I add. Length is the count of fruits
 in the array.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 208.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 211.  (128) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image208.png?raw=true"
+<img src="./images/image211.png?raw=true"
   style="width:50%;"
   alt="." />
 </p>
@@ -4387,7 +4409,7 @@ situations.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-01">4.01 Code With Me: Randomizing Your Images Using Arrays (8:10)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~ 212. code with me: randomizing your images using arrays (4.01) (xxx) ~~~~~~~~~~~-->
+<!--~~~~~~~~~~~ 212. code with me: randomizing your images using arrays (4.01) (131) ~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image212.png?raw=true"
   style="width:40%;"
@@ -4404,20 +4426,24 @@ So, in this example, what I\'m going to show you how to do is how to
 randomize your pictures using JavaScript, so let\'s take a look.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 213-216.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 213-216. four images for array (131) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image213.png?raw=true"
   style="width:20%;"
-  alt="." />
+  title="Pink tree with curved path"
+  alt="Pink tree with curved path." />
 <img src="./images/image214.png?raw=true"
   style="width:20%;"
-  alt="." />
+  title="Tree in the woods"
+  alt="Tree in the woods." />
 <img src="./images/image215.png?raw=true"
   style="width:20%;"
-  alt="." />
+  title="Dog Bacon hanging in the woods"
+  alt="Dog Bacon hanging in the woods." />
 <img src="./images/image216.png?raw=true"
   style="width:20%;"
-  alt="." />
+  title="No image to display"
+  alt="No image to display." />
 </p>
 
 I\'m going to refresh the page here to give you an idea of what I\'m
@@ -4431,11 +4457,12 @@ more time and I\'ve got that kind of pink tree again. What I\'ve done is
 I\'ve written code in JavaScript that will pick an image randomly from
 an array of image names.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 217.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 217. body onload = pickimage() (132) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image217.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="body onload = 'pickImage()'"
+  alt="body onload = 'pickImage()'." />
 </p>
 
 Let\'s code this together. Let\'s start with the HTML code. Right here
@@ -4444,11 +4471,12 @@ function. And I\'ve said when the body of the page loads, I want you to
 run the function **pickImage(),** all right?
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 218.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 218. link to js scripts with function pickimage() (132) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image218.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="At bottom of html, link to script.js with function: pickImage()"
+  alt="At bottom of html, link to script.js with function: pickImage()." />
 </p>
 
 And just to double check, I\'m going to scroll all the way to the bottom
@@ -4456,7 +4484,7 @@ of the screen and you can see that I\'ve remembered to include a link to
 my JavaScript file that has that function.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 219.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 219. randomly load images (133) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image219.png?raw=true"
   style="width:50%;"
@@ -4470,7 +4498,7 @@ is going to go to this image element right here, the one with the id of
 image.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 220. create variable options array of images (133) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 220. create variable options array of images (133) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image220.png?raw=true"
   style="width:50%;"
