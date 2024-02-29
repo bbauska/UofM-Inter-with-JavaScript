@@ -4470,11 +4470,12 @@ is going to go to this image element right here, the one with the id of
 image.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 220.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 220. create variable options array of images (133) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image220.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Create variable options as an array of images"
+  alt="Create variable options as an array of images." />
 </p>
 
 Let\'s see how we do this in the JavaScript file. The function
@@ -4487,22 +4488,24 @@ we\'re going to get rid of a couple of these since I have extra, let\'s
 keep it nice and short and sweet.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 221.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 221. function pickimage to randomly select image (134) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image221.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="function pickImage to randomly select image from array"
+  alt="function pickImage to randomly select image from array." />
 </p>
 
 And I have 1, 2, 3, 4, 5 different images to choose from. Again, where
 did I get those images from?
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 222.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 222. randomly select image with math.random (134) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image222.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Randomly select image with Math.random command"
+  alt="Randomly select image with Math.random command." />
 </p>
 
 Well, I just peeked over here in my Images folder and I picked some
@@ -4514,11 +4517,12 @@ we\'re going to be doing some funky JavaScript, but there\'s just one
 line of code you need to understand, and it\'s right here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 223.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 223. math.random is 0-1, options.length is number of images (135) ~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image223.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Math.random between 0 and 1; options.length = number of options in array"
+  alt="Math.random between 0 and 1; options.length = number of options in array." />
 </p>
 
 JavaScript has a random function right here called **Math.random**. And
@@ -4550,11 +4554,12 @@ including the alt attribute, I\'m still saying, \"hey, there\'s an image
 here, but it\'s not important, I\'m letting you know that it\'s really
 something you can skip over.\"
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 224.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 224. test, inspect element image (136) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image224.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Test, inspect element image"
+  alt="Test, inspect element image." />
 </p>
 
 Let\'s take a look now at this working in process again. This time when
@@ -4564,44 +4569,47 @@ I\'m going to make it a little bit bigger, hopefully to make it a little
 easier for you to read.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 225.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 225. inspect image selected, 'bend_in_the_road' (136) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image225.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Test, inspect image selected is 'bend_in_the_road'"
+  alt="Test, inspect image selected is 'bend_in_the_road'." />
 </p>
 
 You can see, however, that currently the image is **bend_in_the_road**,
 let\'s refresh the page.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 226.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 226. test, display 'hollow_tree.png' (137) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image226.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Test, display 'hollow_tree.png'"
+  alt="Test, display 'hollow_tree.png'." />
 </p>
 
-This time that\'s changed into **hollow_tree.png** I\'m going to
-refresh.
+This time that\'s changed into **hollow_tree.png** I\'m going to refresh.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 227.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 227. test, blank image, no picture (137) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image227.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Test, no picture, blank image"
+  alt="Test, no picture, blank image." />
 </p>
 
 Did you notice something, did you notice that the image is missing? This
 happened earlier too, when I was doing my demo, there\'s no picture
 there, so let\'s head over to the console.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 228.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 228. test, 404 error 'images/munising' not found (138) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image228.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Test, 404 error 'images/munising' not found"
+  alt="Test, 404 error 'images/munising' not found." />
 </p>
 
 And in the console, you will see that I get the error that munising
@@ -4609,14 +4617,16 @@ actually just isn\'t found. **images/munising** isn\'t found, it\'s a
 404 error.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 229/230.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 229/230. test, identify and fix missing picture error (138) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image229.png?raw=true"
   style="width:45%;"
-  alt="." />
+  title="script.js - check 'options' for missing picture"
+  alt="script.js - check 'options' for missing picture." />
 <img src="./images/image230.png?raw=true"
   style="width:45%;"
-  alt="." />
+  title="script.js - add file extension to munising image in 'options' array"
+  alt="script.js - add file extension to munising image in 'options' array." />
 </p>
 
 Okay, well, I must have had a typo somewhere, so let\'s go back into my
@@ -4625,11 +4635,12 @@ line 2, and we can see that I forgot to include the file extension, I
 don\'t remember what it is. It was .jpg, so I need to replace this with
 **munising.jpg**.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 231.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 231. test options images with inspect element (139) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image231.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Test, options images with inspect element"
+  alt="Test, options images with inspect element." />
 </p>
 
 All right, let\'s go back and try this one more time. All right, let\'s
@@ -4645,7 +4656,7 @@ and get your hands dirty, use that **Inspect Element**, and good luck.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-02">4.02 Code With Me: Using LightBox (9:48)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 232. code with me: using lightbox (4.02) (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 232. code with me: using lightbox (4.02) (139) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image232.png?raw=true"
   style="width:40%;"
@@ -4660,22 +4671,24 @@ lot of you are mostly just looking to become a little bit more
 knowledgeable about existing tech and that might include existing
 packages and tools out there that you can use.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 233.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 233. code for creating lightboxes (140) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image233.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Use code for creating lightboxes"
+  alt="Use code for creating lightboxes." />
 </p>
 
 It is true that it\'s way more common to use code from others than to
 write your own. And one of my absolute favorites is code for creating
 **lightboxes**.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 234.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 234. lightbox project code; js and css (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image234.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Lightbox project code; javascript and css"
+  alt="Lightbox project code; javascript and css." />
 </p>
 
 Today I\'m going to walk you through how you can implement a
@@ -4684,11 +4697,12 @@ CSS. Let\'s take a look at this **lightbox** project. For those of you
 who are not familiar with what a **lightbox** is, let me show you an
 example.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 235.  (xxx) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 235. example, on click image pops up bigger (141) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image235.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Example, on click image pops up bigger"
+  alt="Example, on click image pops up bigger." />
 </p>
 
 I\'m going to click on this picture right here and as you can see, as
@@ -5457,16 +5471,17 @@ are concepts that repeat everywhere else. So now that you\'ve just begun
 programming, you\'ll find that learning new languages is actually
 easier.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 277.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 277. server-side processing (164) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image277.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Server-side processing"
+  alt="Server-side processing." />
 </p>
 
 Now, we\'ve done a lot of client-side processing. So, I just want to
 talk to you one more time about the idea that what we\'ve learned in
-this course is really only part of the picture. Learning about
+this course is only part of the picture. Learning about
 server-side code, or kind of hardcore programming, is something that
 you\'ll need to explore on your own in other courses if you decide that
 the coding part is what you really enjoy of web design. This full stack
@@ -5475,11 +5490,12 @@ require additional resources beyond what most people find on their
 laptop or phone.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 278.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 278. what next? (164) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image278.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="What next? Practice, practice, practice"
+  alt="What next? Practice, practice, practice." />
 </p>
 So, what should you do next then? Well, I hope you continue to practice
 your skills, because unlike HTML, and CSS, and some other components of
@@ -5505,11 +5521,12 @@ joining me in this course. And thank you to everyone who was on the
 message boards mentoring each other and encouraging each other. Good
 luck.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 279.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 279. thank you! (165) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image279.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Thank you!"
+  alt="Thank you!" />
 </p>
 
 ...the end
