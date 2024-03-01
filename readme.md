@@ -1810,10 +1810,11 @@ something along the lines of write out **topic.style, topic.innerHTML.**
 Different things like that can show us really the attributes or the
 string&apos;s numbers that make up objects.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. array, example (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 82. array, example (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image079.png?raw=true"
   style="width:40%;"
+  title="Array, example; document.getElementsByTagName('a')"
   alt="Array, example; document.getElementsByTagName('a')." />
 </p>
 
@@ -1830,10 +1831,11 @@ Well, that&apos;s certainly not going to return just a single number, or a
 bunch of strings, or even a single object. Instead, it needs to return a
 whole collection.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 80. accessing array elements (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 83. accessing array elements (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image080.png?raw=true"
+<img src="./images/image083.png?raw=true"
   style="width:40%;"
+  title="Accessing Array Elements"
   alt="Accessing Array Elements." />
 </p>
 
@@ -1850,10 +1852,11 @@ going to have an entire lecture or more on arrays later in this course.
 But for now, I just want you to realize that it&apos;s one of the data types
 that can be returned.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 81. variables - play with types (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 84. variables - play with types (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image081.png?raw=true"
+<img src="./images/image084.png?raw=true"
   style="width:40%;"
+  title="Variables; Play with Types"
   alt="Variables; Play with Types." />
 </p>
 
@@ -1874,13 +1877,13 @@ using an array, and I just want to show you this because there&apos;s a
 really good chance this message might pop up for you and I don&apos;t want
 you to get freaked out about it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 82. example, document.write (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 85. example, document.write (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image082.png?raw=true"
+<img src="./images/image085.png?raw=true"
   style="width:40%;"
+  title="Example, document.write"
   alt="Example, document.write." />
 </p>
-<!-- {width="4.0in" height="2.251709317585302in"} -->
 
 After I grab all the paragraph elements, if I try to print them out, it
 prints out object **HTMLCollection 0.** It says, oh, you didn&apos;t
@@ -1888,12 +1891,12 @@ actually have any paragraphs in this page. If I go back, and I add a
 few, they can even be empty. Gotta love when it keeps popping up on you.
 I don&apos;t know how many I added but we&apos;re going to do it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 83/84. prompt/display variable (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 86/87. prompt/display variable (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image083.png?raw=true"
+<img src="./images/image086.png?raw=true"
   style="width:45%;"
   alt="." />
-<img src="./images/image084.png?raw=true"
+<img src="./images/image087.png?raw=true"
   style="width:45%;"
   alt="." />
 </p>
@@ -1901,11 +1904,12 @@ I don&apos;t know how many I added but we&apos;re going to do it.
 I can try running this again. And when I type in Colleen, you can see
 that now it knows that I have five paragraph elements in there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 85.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 88. review, data types (53) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image085.png?raw=true"
+<img src="./images/image088.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Review, Data Types"
+  alt="Review, Data Types." />
 </p>
 
 Luckily in JavaScript, there&apos;s a ton of flexibility with the different
@@ -1924,11 +1928,12 @@ So good luck.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-06">1.06 Operators &amp; Expressions (8:26)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 86. operators and Expressions (1.06) (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 89. operators and expressions (1.06) (53) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image086.png?raw=true"
+<img src="./images/image089.png?raw=true"
   style="width:40%;"
-  alt="1.06 Operators & Expressions." />
+  title="1.06 Operators and Expressions"
+  alt="1.06 Operators and Expressions." />
 </p>
 
 Today we&apos;re going to be talking about expressions and mainly operators,
@@ -1936,11 +1941,12 @@ the different ways that you can manipulate your code. We&apos;ve been using
 statements to execute our JavaScript code. Every time you saw a line
 that ended with a semicolon, we were writing a statement.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 87.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 90. statements (54) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image087.png?raw=true"
+<img src="./images/image090.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Statements"
+  alt="Statements." />
 </p>
 
 Statements often have what we call expressions, or things that can be
@@ -1950,11 +1956,12 @@ to show you all the different types of operators that we can use in
 JavaScript to produce these types of expression values.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 88.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91. expression (54) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image088.png?raw=true"
+<img src="./images/image091.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Expression"
+  alt="Expression." />
 </p>
 
 If you think back, I tend to talked about that left hand side equals
@@ -1966,11 +1973,12 @@ side? We&apos;ve seen direct assignments or calls to different functions but
 there&apos;s more to it that we can do than just that.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 89.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 92. assignment operators (55) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image089.png?raw=true"
+<img src="./images/image092.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Assignment Operators"
+  alt="Assignment Operators." />
 </p>
 
 Here&apos;s a very simple assignment expression. I just had x=5 or in
@@ -1979,11 +1987,12 @@ thing if two things are the same. In this expression I&apos;m saying, go
 find the value that is story in y. After I grab that, go and store it in
 x as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 90.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. arithmetic operators (55) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image090.png?raw=true"
+<img src="./images/image093.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Arithmetic Operators"
+  alt="Arithmetic Operators." />
 </p>
 
 We also have arithmetic operators. Most of these are very straight
@@ -2004,11 +2013,12 @@ figure out how many times does 5 go into 13? That&apos;s 2, and what&apos;s left
 over? 13%5 is going to be 3. Go ahead and play with that if you&apos;d like,
 and type a few numbers in and see what kind of response you get.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 91.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 94. more operators (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image091.png?raw=true"
+<img src="./images/image094.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="More Operators"
+  alt="More Operators." />
 </p>
 
 Some additional operators we have are the **plus plus** and **minus
@@ -2021,11 +2031,12 @@ It&apos;s the same thing as saying x + = 2. It&apos;s just short hand you don&ap
 need to use it. But I wanted to show you just in case you see it in
 somebody else's code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 92.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 95. string operators (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image092.png?raw=true"
+<img src="./images/image095.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="String Operators"
+  alt="String Operators." />
 </p>
 
 We talked about how plus will add two numbers together. That&apos;s only
@@ -2041,11 +2052,12 @@ that your output is what you&apos;re expecting. The plus equals has the same
 effect as the plus equals from before. It just means take whatever I
 used to have and concatenate this new part on to it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 93.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 96. example, boolean operators (57) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image093.png?raw=true"
+<img src="./images/image096.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Example, Boolean Operators"
+  alt="Example, Boolean Operators." />
 </p>
 
 Those first few operators, we use usually to assign values to a
@@ -2060,11 +2072,12 @@ return true. There&apos;s also another short hand, which is the exclamation
 point equals. This is a negation or the opposite, it says, hey, make
 sure the value stored in x doesn&apos;t equal 5.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 94.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 97. another example, boolean operators (57) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image094.png?raw=true"
+<img src="./images/image097.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Another Example, Boolean Operators"
+  alt="Another Example, Boolean Operators." />
 </p>
 
 We also have more of the traditional greater than, greater than or equal
@@ -2076,11 +2089,12 @@ JavaScript we don&apos;t really care about types too much. What happens if
 you want to see if a number is equal to something else, but you don&apos;t
 want it to say yes if it&apos;s a string?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 95.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 98. boolean operators (58) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image095.png?raw=true"
+<img src="./images/image098.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Boolean Operators"
+  alt="Boolean Operators." />
 </p>
 
 Here I&apos;ve got the equality statement that we used before, which is
@@ -2102,11 +2116,12 @@ unless you type in some examples, play with the numbers, and try to fool
 yourself and give yourself tricky situations. If you can do that, then
 you&apos;ll feel comfortable moving on with these operators.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 96.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 99. logical operators (59) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image096.png?raw=true"
+<img src="./images/image099.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Logical Operators"
+  alt="Logical Operators." />
 </p>
 
 Let&apos;s do one last little group or two groups before we finish up. In
@@ -2125,11 +2140,12 @@ use the example that in America, you can&apos;t get into certain movies
 unless you&apos;re 18 or you&apos;re with your parents. So that would be a case
 where you only need one thing to be true.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 97.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 100. review, operations and expressions (59) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image097.png?raw=true"
+<img src="./images/image100.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Review, Operations and Expressions"
+  alt="Review, Operations and Expressions." />
 </p>
 
 When it comes to programming, it&apos;s not enough for you to just know the
@@ -2187,7 +2203,7 @@ it to happen).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-01">2.01 Functions (7:18)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 98. functions (2.01) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 101. functions (2.01) (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image098.png?raw=true"
   style="width:40%;"
@@ -2199,9 +2215,9 @@ Today we&apos;re going to talk about functions. Functions are these bits of
 code that you can reuse over and over again by just coding what we call
 the function name.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 99.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 102. example, functions (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image099.png?raw=true"
+<img src="./images/image102.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2231,11 +2247,12 @@ always write with your semicolons, your expression, your statements.
 It&apos;s just a really nice way to save it. You don&apos;t have to keep typing
 it over and over again.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 100.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 103. example, function declaration (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image100.png?raw=true"
+<img src="./images/image103.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Example, Function Declaration"
+  alt="Example, Function Declaration." />
 </p>
 
 Let me show you an example. In this case, I declared a function called
@@ -2246,11 +2263,12 @@ And this will work numerous times. I don&apos;t have to keep writing things
 over and over again. It&apos;s a small function, but it&apos;s something that
 will work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 101.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 104. more examples, function declaration (63) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image101.png?raw=true"
+<img src="./images/image104.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="More Examples, Function Declaration"
+  alt="More Examples, Function Declaration." />
 </p>
 
 Here&apos;s another very similar function. The only difference is that, this
@@ -2264,11 +2282,12 @@ where you use the keywords, the curly brackets, and the parenthesis.
 Declaring a function doesn&apos;t actually do anything for you though. You
 need to tell the computer when you want that function to run.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 102.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 105. function call (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image102.png?raw=true"
+<img src="./images/image105.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Function call"
+  alt="Function call." />
 </p>
 
 We do this by saying or we call the function. Every time you write the
@@ -2279,11 +2298,12 @@ by line. Now with functions, the computer is actually jumping around in
 memory and executing different parts of code, not necessarily in the
 order that you write them.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 103.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 106. example, function call (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image103.png?raw=true"
+<img src="./images/image106.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Example, function call"
+  alt="Example, function call." />
 </p>
 
 Here&apos;s an example. I have my **welcomeMsg** function, the one with the
@@ -2302,11 +2322,12 @@ code. Hopefully if you type this in and run it, you should get a hello
 and then a goodbye message. You could type putting in numbers or
 anything you&apos;d like instead if you prefer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 104.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 107. parameters (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image104.png?raw=true"
+<img src="./images/image107.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Parameters"
+  alt="Parameters." />
 </p>
 
 Let&apos;s talk a little bit more about those parameters that I talked
@@ -2320,11 +2341,12 @@ thing to know is the names of the parameters for your functions,
 they&apos;re not important, they&apos;re like variable names. You can call them
 anything you want, as long as you&apos;re consistent.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 105.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. return values (66) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image105.png?raw=true"
+<img src="./images/image108.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Return values"
+  alt="Return values." />
 </p>
 
 The next thing to talk about, when we talk about functions, are return
@@ -2335,11 +2357,12 @@ functions that will say, hey, I need you to halt execution right now,
 because I don&apos;t want you to hit submit. I don&apos;t want you to be able to
 hit yes on that form.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 106.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 109. example, return values (66) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image106.png?raw=true"
+<img src="./images/image109.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Example, Return values"
+  alt="Example, Return values." />
 </p>
 
 Let&apos;s look an example of a function that returns a value. In this case,
@@ -2355,11 +2378,12 @@ in order to assign values to valuables or to check conditional
 statements, and we&apos;re going to be using these a lot. I just need you to
 be aware of the term.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 107.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 110. review, functions (67) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image107.png?raw=true"
+<img src="./images/image110.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Review, Functions"
+  alt="Review, Functions." />
 </p>
 
 Let&apos;s review what we&apos;ve talked about with functions so far. Whenever
@@ -2391,9 +2415,9 @@ understand some of the power of JavaScript. Good luck.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-02">2.02 Code Placement (6:32)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. code placement (2.02) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 111. code placement (2.02) (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image108.png?raw=true"
+<img src="./images/image111.png?raw=true"
   style="width:40%;"
   title="2.02 Code Placement"
   alt="2.02 Code Placement." />
@@ -2404,11 +2428,11 @@ our code in the best place to make it easier for you to follow what&apos;s
 going on.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 109.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 112. where to place the code (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image109.png?raw=true"
+<img src="./images/image112.png?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="Where to Place the Code." />
 </p>
 
 Up to this point, we&apos;ve been putting our JavaScript into the HTML body
@@ -2422,11 +2446,12 @@ body, as we&apos;ve been doing, you can put your functions into the head
 section of your HTML code, or you can use an external file.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 110.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 113. in the head with script tag (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image110.png?raw=true"
+<img src="./images/image113.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="In the head with script tag"
+  alt="In the head with script tag." />
 </p>
 
 If you decide to put your JavaScript functions in the head section,
@@ -2445,11 +2470,12 @@ worry, all of your function will still have access to all the document
 information, the ID&apos;s, the classes, etc.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 111.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 114. code can be placed in the <head> (69) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image111.png?raw=true"
+<img src="./images/image114.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Code can be place in the head"
+  alt="Code can be place in the head." />
 </p>
 
 Let&apos;s take a quick look at an example. As you can see, I have my head
@@ -2465,11 +2491,12 @@ can now call the function multiple times, but only write it once up
 here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 112.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 115. javascript in an external file (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image112.png?raw=true"
+<img src="./images/image115.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="JavaScript in an External File"
+  alt="JavaScript in an External File." />
 </p>
 
 If instead, you decide to put your JavaScript functions in an external
@@ -2479,11 +2506,12 @@ when you&apos;re using external file, don&apos;t use the script tag. It&apos;s j
 the JavaScript, without any script tag.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 113.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 116. example, js in an external file (70) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image113.png?raw=true"
+<img src="./images/image116.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Example, JavaScript in an External File"
+  alt="Example, JavaScript in an External File." />
 </p>
 
 Let&apos;s look at an example here. Here you can see, that inside the head
@@ -2504,11 +2532,12 @@ wrong, because the colors aren&apos;t the way you wanted or your text just
 isn&apos;t there. But with JavaScript, sometimes the changes you're making
 are so slight, you don&apos;t even realize that you have a problem.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 114.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 117. debugging your code (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image114.png?raw=true"
+<img src="./images/image117.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Debugging Your Code"
+  alt="Debugging Your Code." />
 </p>
 
 It&apos;s very important, as your code becomes more and more complex, that
@@ -2517,11 +2546,12 @@ friend. I can&apos;t stress enough how much you always want to have it on
 while you&apos;re coding. Myself, sometimes I forget to turn it on and I&apos;m
 annoyed later, when I could have found my errors so much more easily.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 115.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 118. codepen (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image115.png?raw=true"
+<img src="./images/image118.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="CodePen"
+  alt="CodePen." />
 </p>
 
 Another way that we can talk about separating your code into this
@@ -2538,11 +2568,12 @@ If you&apos;re going to use CodePen, I always recommend that once you&apos;re
 done, take that code and put it into three separate files, so that
 you&apos;re sure you know how to link them together.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 116.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 119. split up code in codepen (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image116.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Split up code in CodePen"
+  alt="Split up code in CodePen." />
 </p>
 
 Let&apos;s take a look. As you can see here, I have one window for my HTML
@@ -2551,9 +2582,9 @@ care of all the work of making sure that they&apos;re all together. If this
 is your first time ever using CodePen, I did want to point out, that
 there&apos;s this handy little function, that you can re-size the windows.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 117.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 120. focus on html and css (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image117.png?raw=true"
+<img src="./images/image120.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2562,11 +2593,12 @@ If you&apos;re not too concerned with your CSS right now, you can make that
 smaller. And really kind of focus, on what you&apos;re working on, in the
 HTML and the JS.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 118.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 121. review, code placement (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image118.png?raw=true"
+<img src="./images/image121.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Review, Code Placement"
+  alt="Review, Code Placement." />
 </p>
 
 All right, let&apos;s review what we talked about today. The first thing, is
@@ -2601,10 +2633,11 @@ The most common organization is to have one main folder with your HTML
 files in it. There are also three subfolders (folders inside the main
 folder) for your CSS, image, and JavaScript files.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ 119. folder with subfolders nested within (xxx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 122. folder with subfolders nested within (74) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image119.png?raw=true"
+<img src="./images/image122.png?raw=true"
   style="width:40%;"
+  title="Folder with subfolders nested within"
   alt="Folder with subfolders nested within." />
 </p>
 
@@ -2619,9 +2652,9 @@ JavaScript files.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-03">2.03 Folder Structure / Organizing Your Code (5:33)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 120. folder structure / organizing your code (2.03) (xxx) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 123. folder structure / organizing your code (2.03) (75) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image120.png?raw=true"
+<img src="./images/image123.png?raw=true"
   style="width:40%;"
   title="2.03 Folder Structure / Organizing Your Code"
   alt="2.03 Folder Structures / Organizing Your Code." />
@@ -2635,7 +2668,7 @@ to recognize each other. Today, we&apos;re going to talk about how web
 designers tend to organize and separate their code into different parts.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 121.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 124. folder structure (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image121.png?raw=true"
   style="width:40%;"
@@ -2653,9 +2686,9 @@ conventions to their own. you want to get used to doing things the right
 way, right from the beginning.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 122.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 125. conventions in organizing code (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image122.png?raw=true"
+<img src="./images/image125.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2671,9 +2704,9 @@ convention here, and I&apos;m going to show you how to make sure they can
 link together in the right way.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 123.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 126. linking from an html file (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image123.png?raw=true"
+<img src="./images/image126.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2701,9 +2734,9 @@ you do a quick check. And make sure that your folder names CSS,
 JavaScript, and images match what other people are expecting.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 124.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 127. linking from a css file (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image124.png?raw=true"
+<img src="./images/image127.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2717,9 +2750,9 @@ folder is someplace different? In this example we go up 2 directories,
 find 'images' folder and pull from there. Done & done.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 125.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 128. debugging (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image125.png?raw=true"
+<img src="./images/image128.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2743,9 +2776,9 @@ CSS, JavaScript, and images functions out there. Thanks.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-04">2.04 Events (10:05)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 126. events (2.04) (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 129. events (2.04) (78) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image126.png?raw=true"
+<img src="./images/image129.png?raw=true"
   style="width:40%;"
   title="2.04 Events"
   alt="2.04 Events." />
@@ -2756,7 +2789,7 @@ we&apos;d teach you how to do interactivity with JavaScript. Well, we
 finally reached that point where we can start having some fun and
 reacting to events that happened to your web page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 127.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 130. adding the interactivity! (79) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image127.png?raw=true"
   style="width:40%;"
@@ -2772,9 +2805,9 @@ can start doing things based on clicking, mouse movement, all these
 different types of dynamic function calls. Let&apos;s take a look at how we
 can do this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 128.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 131. events (79) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image128.png?raw=true"
+<img src="./images/image131.png?raw=true"
   style="width:40%;"
   alt="." />
 </p>
