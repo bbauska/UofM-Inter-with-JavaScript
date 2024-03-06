@@ -19,6 +19,8 @@ output:
 <p align="center" width="100%">
 <img src="./images/image001.jpeg?raw=true"
   style="width:30%;"
+  title="Interactivity with JavaScript by Colleen van Lent, 
+    Ph.D. (lecturer, school of information)"
   alt="Interactivity with JavaScript by Colleen van Lent, 
     Ph.D. (lecturer, school of information)." />
 </p>
@@ -29,6 +31,7 @@ output:
 <p align="center" width="100%">
 <img src="./images/image002.png?raw=true"
   style="width:25%;"
+  title="University of Michigan logo"
   alt="University of Michigan logo." />
 </p>
 
@@ -328,6 +331,7 @@ in the time we have. We will focus on the following:
 <p align="center" width="100%">
 <img src="./images/image003.png?raw=true"
   style="width:45%;"
+  title="1.01 Introduction to Interactivity with JavaScript"
   alt="1.01 Introduction to Interactivity with JavaScript." />
 </p>
 
@@ -344,6 +348,7 @@ everything we with JavaScript in this class is based on web programming.
 <p align="center" width="100%">
 <img src="./images/image004.png?raw=true"
   style="width:40%;"
+  title="What you can do with JavaScript, #1"
   alt="What you can do with JavaScript, #1." />
 </p>
 
@@ -365,6 +370,7 @@ glance?
 <p align="center" width="100%">
 <img src="./images/image005.png?raw=true"
   style="width:40%;"
+  title="What you can do with JavaScript, #2"
   alt="What you can do with JavaScript, #2." />
 </p>
 
@@ -378,6 +384,7 @@ while, don&apos;t worry. We&apos;re going to review the DOM in a future lecture.
 <p align="center" width="100%">
 <img src="./images/image006.png?raw=true"
   style="width:45%;"
+  title="Variables: Store data and refer back to it later"
   alt="Variables: Store data and refer back to it later." />
 </p>
 
@@ -391,6 +398,8 @@ from the user, and then store it so you can use it later.
 <p align="center" width="100%">
 <img src="./images/image007.png?raw=true"
   style="width:45%;"
+  title="Decision Points: Use control statements to decide which code to run 
+    under different circumstances"
   alt="Decision Points: Use control statements to decide which code to run 
     under different circumstances." />
 </p>
@@ -405,6 +414,7 @@ call this decision points.
 <p align="center" width="100%">
 <img src="./images/image008.png?raw=true"
   style="width:45%;"
+  title="Looping: Avoid writing the same (or similar) code over and over again"
   alt="Looping: Avoid writing the same (or similar) code over and over again." />
 </p>
 
@@ -420,6 +430,7 @@ human does what we want them to do.
 <p align="center" width="100%">
 <img src="./images/image009.png?raw=true"
   style="width:45%;"
+  title="Looping: Determine at runtime how many times you want to run some code"
   alt="Looping: Determine at runtime how many times you want to run some code." />
 </p>
 
@@ -432,6 +443,7 @@ much flexibility in how you want your code to run.
 <p align="center" width="100%">
 <img src="./images/image010.png?raw=true"
   style="width:45%;"
+  title="Functions: Reuse code multiple times, but only write once.  Use code from others"
   alt="Functions: Reuse code multiple times, but only write once.  Use code from others." />
 </p>
 
@@ -446,6 +458,7 @@ function? Great. I want to use that.
 <p align="center" width="100%">
 <img src="./images/image011.png?raw=true"
   style="width:45%;"
+  title="Manipulating the DOM"
   alt="Manipulating the DOM." />
 </p>
 
@@ -466,6 +479,7 @@ going to have fun manipulating the DOM.
 <p align="center" width="100%">
 <img src="./images/image012.png?raw=true"
   style="width:45%;"
+  title="Review: Week 1-01. Introduction to Interactive JavaScript"
   alt="Review: Week 1-01. Introduction to Interactive JavaScript." />
 </p>
 
@@ -523,6 +537,7 @@ the DOM.
 <p align="center" width="100%">
 <img src="./images/image013.png?raw=true"
   style="width:45%;"
+  title="1.02 DOM Review with Object-Oriented Programming"
   alt="1.02 DOM Review with Object-Oriented Programming." />
 </p>
 
@@ -532,6 +547,7 @@ Today we&apos;re going to be talking about the DOM, or the document object model
 <p align="center" width="100%">
 <img src="./images/image014.png?raw=true"
   style="width:45%;"
+  title="Web pages are built upon the DOM"
   alt="Web pages are built upon the DOM." />
 </p>
 
@@ -545,6 +561,7 @@ properties, methods, and events.
 <p align="center" width="100%">
 <img src="./images/image015.png?raw=true"
   style="width:45%;"
+  title="Sample Document"
   alt="Sample Document." />
 </p>
 
@@ -564,6 +581,7 @@ the pages built like a tree?
 <p align="center" width="100%">
 <img src="./images/image016.png?raw=true"
   style="width:45%;"
+  title="Sample Document, #2"
   alt="Sample Document, #2." />
 </p>
 
@@ -583,6 +601,7 @@ JavaScript to do in this course.
 <p align="center" width="100%">
 <img src="./images/image017.png?raw=true"
   style="width:45%;"
+  title="The DOM and JavaScript"
   alt="The DOM and JavaScript." />
 </p>
 
@@ -594,6 +613,7 @@ document. How does it do that, though? How does it know how to interact?
 <p align="center" width="100%">
 <img src="./images/image018.png?raw=true"
   style="width:45%;"
+  title="How does it work?"
   alt="How does it work?" />
 </p>
 
@@ -609,6 +629,7 @@ their programs.
 <p align="center" width="100%">
 <img src="./images/image019.png?raw=true"
   style="width:45%;"
+  title="How does it work, #2?"
   alt="How does it work, #2?" />
 </p>
 
@@ -623,6 +644,7 @@ have to learn something different later on.
 <p align="center" width="100%">
 <img src="./images/image020.png?raw=true"
   style="width:45%;"
+  title="The DOM objects/elements"
   alt="The DOM objects/elements." />
 </p>
 
@@ -665,6 +687,7 @@ change to make your page look different.
 <p align="center" width="100%">
 <img src="./images/image021.png?raw=true"
   style="width:45%;"
+  title="Specific APIs"
   alt="Specific APIs." />
 </p>
 
@@ -691,7 +714,8 @@ that if you want.
 <p align="center" width="100%">
 <img src="./images/image022.png?raw=true"
   style="width:45%;"
-  alt="1.02. Review: DOM with Object-Oriented Programming." />
+  title="1.02 Review: DOM with Object-Oriented Programming"
+  alt="1.02 Review: DOM with Object-Oriented Programming." />
 </p>
 
 I know that there was a lot I went over in this slide that maybe didn&apos;t
@@ -909,6 +933,7 @@ same time and the semicolon is required in some and not others.
 <p align="center" width="100%">
 <img src="./images/image027.png?raw=true"
   style="width:45%;"
+  title="1.03 Output"
   alt="1.03 Output." />
 </p>
 
@@ -923,6 +948,7 @@ things change in your page by reacting to what the user was doing.
 <p align="center" width="100%">
 <img src="./images/image028.png?raw=true"
   style="width:45%;"
+  title="Interactivity"
   alt="Interactivity." />
 </p>
 
@@ -934,6 +960,7 @@ classes can only go so far. They tend to be temporary changes.
 <p align="center" width="100%">
 <img src="./images/image029.png?raw=true"
   style="width:45%;"
+  title="What can JavaScript do?"
   alt="What can JavaScript do?" />
 </p>
 
@@ -952,6 +979,7 @@ things print out to the screen or generate some sort of output.
 <p align="center" width="100%">
 <img src="./images/image030.png?raw=true"
   style="width:45%;"
+  title="JavaScript Output"
   alt="JavaScript Output." />
 </p>
 
@@ -965,6 +993,7 @@ console. Let&apos;s talk about each one of these.
 <p align="center" width="100%">
 <img src="./images/image031.png?raw=true"
   style="width:45%;"
+  title="alert('My Message Here')"
   alt="alert('My Message Here')." />
 </p>
 
@@ -987,6 +1016,7 @@ can generate some output.
 <p align="center" width="100%">
 <img src="./images/image028.png?raw=true"
   style="width:45%;"
+  title="Codepen: Sample alert()"
   alt="Codepen: Sample alert()." />
 </p>
 
@@ -1001,6 +1031,7 @@ in this case, I have my code **alert**(&quot;Hello World&quot;).
 <p align="center" width="100%">
 <img src="./images/image033.png?raw=true"
   style="width:45%;"
+  title="Sample alert() popup"
   alt="Sample alert() popup." />
 </p>
 
@@ -1014,6 +1045,7 @@ Edge, or Firefox.
 <p align="center" width="100%">
 <img src="./images/image034.png?raw=true"
   style="width:45%;"
+  title="Codepen: sample alert()"
   alt="Codepen: sample alert()." />
 </p>
 
@@ -1028,6 +1060,7 @@ a quick and simple way for you to generate output using the alert.
 <p align="center" width="100%">
 <img src="./images/image035.png?raw=true"
   style="width:45%;"
+  title="Codepen, example; prompt('Enter your name:')"
   alt="Codepen, example; prompt('Enter your name:')." />
 </p>
 
@@ -1043,6 +1076,7 @@ different.
 <p align="center" width="100%">
 <img src="./images/image036.png?raw=true"
   style="width:45%;"
+  title="Codepen, example; prompt('What is your name? ')"
   alt="Codepen, example; prompt('What is your name? ')." />
 </p>
 
@@ -1059,6 +1093,7 @@ generate output to the screen.
 <p align="center" width="100%">
 <img src="./images/image037.png?raw=true"
   style="width:45%;"
+  title="Example, document.write('Time to learn JavaScript')"
   alt="Example, document.write('Time to learn JavaScript')." />
 </p>
 
@@ -1078,7 +1113,8 @@ this.
 <p align="center" width="100%">
 <img src="./images/image038.png?raw=true"
   style="width:45%;"
-  alt="Codepen, example document.write with h1" />
+  title="Codepen, example document.write with h1"
+  alt="Codepen, example document.write with h1." />
 </p>
 
 Here you can see that inside the script tag, again, I have the
@@ -1089,6 +1125,7 @@ input, it writes it directly into the screen.
 <p align="center" width="100%">
 <img src="./images/image039.png?raw=true"
   style="width:45%;"
+  title="Codepen: document.write, #2"
   alt="Codepen: document.write, #2." />
 </p>
 
@@ -1102,6 +1139,7 @@ realize that it is probably not the best way to do it.
 <p align="center" width="100%">
 <img src="./images/image040.png?raw=true"
   style="width:45%;"
+  title="document.write()"
   alt="document.write()." />
 </p>
 
@@ -1114,6 +1152,7 @@ methods.
 <p align="center" width="100%">
 <img src="./images/image041.png?raw=true"
   style="width:45%;"
+  title="innerHTML"
   alt="innerHTML." />
 </p>
 
@@ -1128,6 +1167,7 @@ APIs that can go and get things for us.
 <p align="center" width="100%">
 <img src="./images/image042.png?raw=true"
   style="width:45%;"
+  title="innerHTML, #2"
   alt="innerHTML, #2." />
 </p>
 
@@ -1149,6 +1189,7 @@ you an example of something we can do using innerHTML.
 <p align="center" width="100%">
 <img src="./images/image043.png?raw=true"
   style="width:45%;"
+  title="Codepen: h1 with id=test"
   alt="Codepen: h1 with id=test." />
 </p>
 
@@ -1161,6 +1202,7 @@ with this code?
 <p align="center" width="100%">
 <img src="./images/image044.png?raw=true"
   style="width:45%;"
+  title="Test document.getElementById.innerHTML"
   alt="Test document.getElementById.innerHTML." />
 </p>
 
@@ -1177,7 +1219,8 @@ examples are weird examples. Because you just want to get your feet wet.
 <p align="center" width="100%">
 <img src="./images/image045.png?raw=true"
   style="width:45%;"
-  alt="What happens if you have 2 elements with id=test?." />
+  title="What happens if you have 2 elements with id=test?"
+  alt="What happens if you have 2 elements with id=test?" />
 </p>
 
 But I did want you to look at what happens if I do this. Back from your
@@ -1193,6 +1236,7 @@ to stop as soon as I find that one.
 <p align="center" width="100%">
 <img src="./images/image046.png?raw=true"
   style="width:45%;"
+  title="2nd id=test is ignored"
   alt="2nd id=test is ignored." />
 </p>
 
@@ -1203,6 +1247,7 @@ change the second one it found, okay? All right.
 <p align="center" width="100%">
 <img src="./images/image047.png?raw=true"
   style="width:45%;"
+  title="console.log() to write data to browser console"
   alt="console.log() to write data to browser console." />
 </p>
 
@@ -1224,6 +1269,7 @@ doing your CSS.
 <p align="center" width="100%">
 <img src="./images/image048.png?raw=true"
   style="width:45%;"
+  title="Example script: console.log"
   alt="Example script: console.log." />
 </p>
 
@@ -1234,6 +1280,7 @@ I have **console.log** Hello World. Nothing too exciting going on here.
 <p align="center" width="100%">
 <img src="./images/image049.png?raw=true"
   style="width:45%;"
+  title="Browser console example"
   alt="Browser console example." />
 </p>
 
@@ -1247,6 +1294,7 @@ World showed up here.
 <p align="center" width="100%">
 <img src="./images/image050.png?raw=true"
   style="width:45%;"
+  title="More browser console example"
   alt="More browser console example." />
 </p>
 
@@ -1265,6 +1313,7 @@ console by now, if you haven&apos;t.
 <p align="center" width="100%">
 <img src="./images/image051.png?raw=true"
   style="width:45%;"
+  title="The console"
   alt="The console." />
 </p>
 
@@ -1277,6 +1326,7 @@ much better programmer.
 <p align="center" width="100%">
 <img src="./images/image052.png?raw=true"
   style="width:45%;"
+  title="Debug example: Missing quote"
   alt="Debug example: Missing quote." />
 </p>
 
@@ -1289,6 +1339,7 @@ anything going on or that anything is supposed to show up.
 <p align="center" width="100%">
 <img src="./images/image053.png?raw=true"
   style="width:45%;"
+  title="Debug example: SyntaxError: missing argument (quote)"
   alt="Debug example: SyntaxError: missing argument (quote)." />
 </p>
 
@@ -1310,6 +1361,7 @@ going to be critical to going on and advancing in this course.
 <p align="center" width="100%">
 <img src="./images/image054.png?raw=true"
   style="width:45%;"
+  title="How to access the debugger in Safari, Chrome, Firefox and Edge"
   alt="How to access the debugger in Safari, Chrome, Firefox and Edge." />
 </p>
 
@@ -1333,6 +1385,7 @@ so let&apos;s review.
 <p align="center" width="100%">
 <img src="./images/image055.png?raw=true"
   style="width:45%;"
+  title="Review 1.03 Output"
   alt="Review 1.03 Output." />
 </p>
 
@@ -1377,6 +1430,7 @@ Debugging](https://www.w3schools.com/js/js_debugging.asp).
 <p align="center" width="100%">
 <img src="./images/image056.png?raw=true"
   style="width:45%;"
+  title="Code, an empty browser, and an error message in the Chrome console"
   alt="Code, an empty browser, and an error message in the Chrome console." />
 </p>
 
@@ -1389,6 +1443,7 @@ Debugging](https://www.w3schools.com/js/js_debugging.asp).
 <p align="center" width="100%">
 <img src="./images/image057.png?raw=true"
   style="width:45%;"
+  title="1.04 Variables"
   alt="1.04 Variables." />
 </p>
 
@@ -1401,6 +1456,7 @@ impression that&apos;s kind of intelligent and knows the user very well.
 <p align="center" width="100%">
 <img src="./images/image058.png?raw=true"
   style="width:45%;"
+  title="Storing data in variables"
   alt="Storing data in variables." />
 </p>
 
@@ -1419,6 +1475,7 @@ should be special to you, but not special to the computer.
 <p align="center" width="100%">
 <img src="./images/image059.png?raw=true"
   style="width:45%;"
+  title="Example: Storing Data in variables"
   alt="Example: Storing Data in variables." />
 </p>
 
@@ -1440,6 +1497,7 @@ and instead using English words.
 <p align="center" width="100%">
 <img src="./images/image060.png?raw=true"
   style="width:45%;"
+  title="Variable name rules"
   alt="Variable name rules." />
 </p>
 
@@ -1473,6 +1531,7 @@ a lot of heart ache later.
 <p align="center" width="100%">
 <img src="./images/image061.png?raw=true"
   style="width:40%;"
+  title="Variable assignments"
   alt="Variable assignments." />
 </p>
 
@@ -1491,6 +1550,7 @@ into the variable.
 <p align="center" width="100%">
 <img src="./images/image062.png?raw=true"
   style="width:40%;"
+  title="Assignment statement LHS &amp; RHS"
   alt="Assignment statement LHS &amp; RHS." />
 </p>
 
@@ -1512,6 +1572,7 @@ Colleen. This works really well.
 <p align="center" width="100%">
 <img src="./images/image063.png?raw=true"
   style="width:40%;"
+  title="Example Error: Assignment statement"
   alt="Example Error: Assignment statement." />
 </p>
 
@@ -1530,6 +1591,7 @@ was the prompt.
 <p align="center" width="100%">
 <img src="./images/image064.png?raw=true"
   style="width:40%;"
+  title="Using a variable"
   alt="Using a variable." />
 </p>
 
@@ -1548,6 +1610,7 @@ write that out as well.
 <p align="center" width="100%">
 <img src="./images/image065.png?raw=true"
   style="width:40%;"
+  title="Example, prompt"
   alt="Example, prompt." />
 </p>
 
@@ -1558,6 +1621,7 @@ the simple code we used before when we were learning about prompts.
 <p align="center" width="100%">
 <img src="./images/image066.png?raw=true"
   style="width:40%;"
+  title="Example: var nm = prompt"
   alt="Example: var nm = prompt." />
 </p>
 
@@ -1572,6 +1636,7 @@ have to.
 <p align="center" width="100%">
 <img src="./images/image067.png?raw=true"
   style="width:40%;"
+  title="Example: var prompt"
   alt="Example: var prompt." />
 </p>
 
@@ -1585,6 +1650,7 @@ We&apos;ll comment that out when we&apos;re done. All right.
 <p align="center" width="100%">
 <img src="./images/image068.png?raw=true"
   style="width:40%;"
+  title="Example: document.write, console.log and alert"
   alt="Example: document.write, console.log and alert." />
 </p>
 
@@ -1597,6 +1663,7 @@ want to edit all my typing out. What is your name? Well, it is Colleen.
 <p align="center" width="100%">
 <img src="./images/image069.png?raw=true"
   style="width:40%;"
+  title="Example: alert popup"
   alt="Example: alert popup." />
 </p>
 
@@ -1608,6 +1675,7 @@ an example where I can go in, that&apos;s what was going on.
 <p align="center" width="100%">
 <img src="./images/image070.png?raw=true"
   style="width:40%;"
+  title="Example: alert, document.write, and console.log"
   alt="Example: alert, document.write, and console.log." />
 </p>
 
@@ -1619,6 +1687,7 @@ example.
 <p align="center" width="100%">
 <img src="./images/image071.png?raw=true"
   style="width:40%;"
+  title="document.write()"
   alt="document.write()." />
 </p>
 
@@ -1636,6 +1705,7 @@ title.
 <p align="center" width="100%">
 <img src="./images/image072.png?raw=true"
   style="width:40%;"
+  title="document.write, cont'd"
   alt="document.write, cont'd." />
 </p>
 
@@ -1650,7 +1720,8 @@ to assign it a value of null.
 <p align="center" width="100%">
 <img src="./images/image073.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Prompt/print name"
+  alt="Prompt/print name." />
 </p>
 
 Let&apos;s run this one more time. I&apos;m going to put in the name Christopher
@@ -1662,7 +1733,8 @@ and the title of my page.
 <p align="center" width="100%">
 <img src="./images/image074.png?raw=true"
   style="width:40%;"
-  alt="1.04. Review." />
+  title="1.04 Review"
+  alt="1.04 Review." />
 </p>
 
 Variables are a key component of really doing any type of programming
@@ -1693,6 +1765,7 @@ types used in the JavaScript programming language.
 <p align="center" width="100%">
 <img src="./images/image076.png?raw=true"
   style="width:40%;"
+  title="Assignments; prompt(), date() and window.location"
   alt="Assignments; prompt(), date() and window.location." />
 </p>
 
@@ -1714,6 +1787,7 @@ different.
 <p align="center" width="100%">
 <img src="./images/image077.png?raw=true"
   style="width:40%;"
+  title="Types of variables"
   alt="Types of variables." />
 </p>
 
@@ -1728,6 +1802,7 @@ can represent them.
 <p align="center" width="100%">
 <img src="./images/image078.png?raw=true"
   style="width:40%;"
+  title="Number, window.innerWidth"
   alt="Number, window.innerWidth." />
 </p>
 
@@ -1752,6 +1827,7 @@ decimals.
 <p align="center" width="100%">
 <img src="./images/image079.png?raw=true"
   style="width:40%;"
+  title="String, window.location"
   alt="String, window.location." />
 </p>
 
@@ -1772,6 +1848,7 @@ I&apos;ve just hardcoded it to something you might expect.
 <p align="center" width="100%">
 <img src="./images/image080.png?raw=true"
   style="width:40%;"
+  title="Boolean, examples; false, window.closed"
   alt="Boolean, examples; false, window.closed." />
 </p>
 
@@ -1792,6 +1869,7 @@ of power to your page.
 <p align="center" width="100%">
 <img src="./images/image081.png?raw=true"
   style="width:40%;"
+  title="Object, example; document.getElementById('myID')"
   alt="Object, example; document.getElementById('myID')." />
 </p>
 
@@ -2215,11 +2293,12 @@ Today we&apos;re going to talk about functions. Functions are these bits of
 code that you can reuse over and over again by just coding what we call
 the function name.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 102. example, functions (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 102. example, functions (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image102.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Example, functions"
+  alt="Example, functions." />
 </p>
 
 Functions of course, like everything else in programming, have special
@@ -2839,6 +2918,7 @@ we are all seeing the exact same events.
 <p align="center" width="100%">
 <img src="./images/image132.png?raw=true"
   style="width:40%;"
+  title="Events, How it Works"
   alt="Events, How it Works." />
 </p>
 
@@ -2858,6 +2938,7 @@ for the duration that this site is loaded onto the browser.
 <p align="center" width="100%">
 <img src="./images/image133.png?raw=true"
   style="width:40%;"
+  title="Example, Using Quotes"
   alt="Example, Using Quotes." />
 </p>
 
@@ -2887,11 +2968,12 @@ that same kind of slant that Word, PowerPoint, and other programs put
 into your quotes. Whenever you copy and paste, go back and make sure
 that they&apos;re matching up correctly.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 134.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 134. getelementbyid('output').innerhtml = msg + " event"; (81) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image134.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="document.getElementById('output').innerHTML = msg + ' event';"
+  alt="document.getElementById('output').innerHTML = msg + ' event';" />
 </p>
 
 Let&apos;s take a look at what I do with this code right here. I have my
@@ -2910,32 +2992,35 @@ one is **onclick**. All three of these events, **onload, onresize,
 onclick**, they&apos;re all going to call the message function, but they&apos;re
 going to call it with three different frame runners.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 135.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 135. when loaded, load event shows up (82) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image135.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="When loaded, load event shows up"
+  alt="When loaded, load event shows up." />
 </p>
 
 Let&apos;s take a look at what&apos;s going on. As you can see, when I loaded
 the page, it automatically had LOAD event show up.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 136.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 136. click paragraph, click event shows up (82) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image136.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="When click paragraph, click event shows up"
+  alt="When click paragraph, click event shows up." />
 </p>
 
 What happens if I click on this paragraph right here? Oh, it changes to
 click event. It&apos;s actually happening over and over again; you just
 can&apos;t tell because it&apos;s so quick.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 137.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 137. resize page, resize event occurs (83) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image137.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="When resize page, resize event occurs"
+  alt="When resize page, resize event occurs." />
 </p>
 
 Now, the last thing I&apos;m going to do is I&apos;m going to resize the page
@@ -2943,11 +3028,12 @@ and you can see, that it recognizes that there is a resize event. So,
 it&apos;s pretty simple to go through, and I&apos;ll go back here, and had your
 HTML actually change based on the different events.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 138.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 138. click button, button event occurs (83) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image138.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="When click button, button event occurs"
+  alt="When click button, button event occurs." />
 </p>
 
 The second example is, again, a very straightforward way of showing you
@@ -2958,11 +3044,12 @@ conveys this idea of click me and I&apos;m going to do something, and since
 we didn&apos;t have the power to do that yet, I really didn&apos;t want to use
 that element, but now we can.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 139.  (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 139. javascript date function (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image139.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="JavaScript date function"
+  alt="JavaScript date function." />
 </p>
 
 What I have here is a simple JavaScript function that says, hey I want
@@ -2970,22 +3057,24 @@ you to call the JavaScript **date** function, this is something that I
 didn&apos;t write. You know that it was written by JavaScript partly because
 well, it&apos;s yellow.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 140.  (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 140. onclick button, displaydate() (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image140.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="onclick button, displayDate()"
+  alt="onclick button, displayDate()." />
 </p>
 
 All right, so I&apos;m going to use this function and connect it with the
 **button**. So, I have **button** type equals **button** and I have
 **onclick** equals **displayDate()**.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 141.  (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 141. example, js date function, onclick (85) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image141.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Example, JS displayDate(), onclick"
+  alt="Example, JS displayDate(), onclick." />
 </p>
 
 As soon as I click on that, we want to keep our eye on where it says
@@ -2999,11 +3088,12 @@ As we start adding JavaScript events and reacting to events to our code,
 I just want you to be aware of something that&apos;s going on, that&apos;s
 really quite complex.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 142.  (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 142. events change the program flow (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image142.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Events Change the Program Flow"
+  alt="Events Change the Program Flow." />
 </p>
 
 Before JavaScript, for the most part, our programs ran in a linear
@@ -3016,11 +3106,12 @@ right I need to wait on click, onclick, onclick. If you add too many
 events to your page, you could conceivably slow down the execution of
 your page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 143.  (86) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 143. more events; mouse, keyboard, frame & more (86) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image143.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="More Events; Mouse, Keyboard, Frame and more"
+  alt="More Events; Mouse, Keyboard, Frame and more." />
 </p>
 
 Clearly there are a lot more events than just the four I told you about.
@@ -3045,11 +3136,12 @@ these events JavaScript can be limited in its ability to interact with
 the DOM. We didn&apos;t have onclick, onload and be really hard to actually
 work with our webpages.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 144.  (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 144. review; events (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image144.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Review; Events"
+  alt="Review; Events." />
 </p>
 
 Another thing I&apos;d like you to take away from this is while events are
@@ -3098,6 +3190,7 @@ outnumber the times that you are stuck.
 <p align="center" width="100%">
 <img src="./images/image145.png?raw=true"
   style="width:40%;"
+  title="2.05 Code With Me -- Events"
   alt="2.05 Code With Me -- Events." />
 </p>
 
@@ -3118,6 +3211,7 @@ questions.
 <p align="center" width="100%">
 <img src="./images/image146.png?raw=true"
   style="width:40%;"
+  title="Examples, events - modify DOM &amp; change style"
   alt="Examples, events - modify DOM &amp; change style." />
 </p>
 
@@ -3129,11 +3223,12 @@ different then we&apos;ve done before. When I first introduced the idea of
 events, I said that events are matched with functions. Well, you can
 also match events just with JavaScript code, not a function itself.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 147. modifying the dom (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 147. modifying the dom (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image147.png?raw=true"
-  style="width:40%;"
-  alt="." />
+  style="width:50%;"
+  title="Modifying the DOM"
+  alt="Modifying the DOM." />
 </p>
 
 Here I&apos;ve created two buttons, and I named them First and Second. You
@@ -3143,31 +3238,34 @@ onClick, grab that element, change the innerHTML, and I want you to
 change it to Clicked First Button. The other one is very similar. The
 only difference is that I want to change the content of that paragraph.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 148.  (90) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 148. onclick, update second button's innerhtml (90) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image148.png?raw=true"
-  style="width:40%;"
-  alt="." />
+  style="width:50%;"
+  title="onclick, update second button's innerHTML"
+  alt="onclick, update second button's innerHTML." />
 </p>
 
-When I click on these buttons this, right here, is the element I want
-you to look at.
+When I click on these buttons this, right here, is the element I want you to 
+look at.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 149.  (90) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 149. onclick first button (90) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image149.png?raw=true"
-  style="width:40%;"
-  alt="." />
+  style="width:50%;"
+  title="onclick first button"
+  alt="onclick first button." />
 </p>
 
 Let&apos;s click on the First button. You can see that I clicked, it said,
 hey I know that I just clicked the First button.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 150.  (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 150. onclick second button (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image150.png?raw=true"
-  style="width:40%;"
-  alt="." />
+  style="width:50%;"
+  title="onclick second button"
+  alt="onclick second button." />
 </p>
 
 When I click on the second one, you know that I&apos;ve clicked on the
@@ -3178,7 +3276,7 @@ to make mistakes. Let&apos;s just look at them quickly.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 151.  (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image151.png?raw=true"
-  style="width:40%;"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3203,7 +3301,7 @@ you&apos;ll be able to see it immediately. All right, wow, now I really.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 152.  (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image152.png?raw=true"
-  style="width:40%;"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3213,7 +3311,7 @@ going to happen, that where I put in here, Clicked Another Button.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 153.  (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image153.png?raw=true"
-  style="width:40%;"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3222,7 +3320,7 @@ Let&apos;s save. I&apos;m going to click on First, Second.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 154.  (93) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image154.png?raw=true"
-  style="width:40%;"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3233,7 +3331,7 @@ in an external file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 155.  (93) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image155.png?raw=true"
-  style="width:40%;"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3244,7 +3342,7 @@ our HTML. We have our CSS. And we have our JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 156.  (94) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image156.png?raw=true"
-  style="width:40%;"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3263,7 +3361,7 @@ come back.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 157.  (94) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image157.png?raw=true"
-  style="width:40%;"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3274,7 +3372,7 @@ the one we want to change in our code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 158.  (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image158.png?raw=true"
-  style="width:40%;"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3290,7 +3388,7 @@ the style.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 159.  (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image159.png?raw=true"
-  style="width:40%;"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3302,7 +3400,7 @@ it to go from none.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 160.  (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image160.png?raw=true"
-  style="width:40%;"
+  style="width:50%;"
   alt="." />
 </p>
 
@@ -3356,11 +3454,12 @@ I want it to be closed. And down here, I want it to be open.
 So, I can talk a lot. But it&apos;s important that even I stop and check
 that code and make sure I didn&apos;t break it. Close, Open, Close, Open.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 167.  (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 167. review; code with me - events (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image167.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Review; Code With Me - Events"
+  alt="Review; Code With Me - Events." />
 </p>
 
 Now I don&apos;t really have time to do this right now, but I think what
@@ -3641,6 +3740,7 @@ to get you started is here: <http://codepen.io/ColleenEMc/pen/wKYxZa>
 <p align="center" width="100%">
 <img src="./images/image181.png?raw=true"
   style="width:40%;"
+  title="2.07 Photo Gallery"
   alt="2.07 Photo Gallery." />
 </p>
 
@@ -3653,6 +3753,7 @@ things I&apos;m looking for, from you, are your abilities to do two things.
 <p align="center" width="100%">
 <img src="./images/image182.png?raw=true"
   style="width:50%;"
+  title="Putting it into Practice"
   alt="Putting it into Practice." />
 </p>
 
@@ -4461,13 +4562,13 @@ situations.
   alt="4.01 Code With Me: Randomizing Your Images Using Arrays." />
 </p>
 
-Hi everyone, let\'s do a couple Code With Me's in a row just so you can
+Hi everyone, let&apos;s do a couple Code With Me's in a row just so you can
 start using your JavaScript to do things that are a little bit more
 practical. I know that earlier I did a demo with you where we used
 arrays and we kind of picked out one or two elements from the arrays,
-but it wasn\'t really anything that had to do with web design so much.
-So, in this example, what I\'m going to show you how to do is how to
-randomize your pictures using JavaScript, so let\'s take a look.
+but it wasn&apos;t really anything that had to do with web design so much.
+So, in this example, what I&apos;m going to show you how to do is how to
+randomize your pictures using JavaScript, so let&apos;s take a look.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 213-216. four images for array (131) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4490,15 +4591,15 @@ randomize your pictures using JavaScript, so let\'s take a look.
   alt="No image to display." />
 </p>
 
-I\'m going to refresh the page here to give you an idea of what I\'m
-talking about. And what I\'d like you to do is keep an eye on this one
-image up here in the corner each time I load the page. This time I\'ve
+I&apos;m going to refresh the page here to give you an idea of what I&apos;m
+talking about. And what I&apos;d like you to do is keep an eye on this one
+image up here in the corner each time I load the page. This time I&apos;ve
 got a picture with a tree, while before it was kind of that pink,
-beautiful picture. When I reload it again, up, I\'ve got a picture of my
-dog Bacon hanging out near the woods and I\'m going to do it one more
-time. And up, look at that, I didn\'t get any image at all. Do it one
-more time and I\'ve got that kind of pink tree again. What I\'ve done is
-I\'ve written code in JavaScript that will pick an image randomly from
+beautiful picture. When I reload it again, up, I&apos;ve got a picture of my
+dog Bacon hanging out near the woods and I&apos;m going to do it one more
+time. And up, look at that, I didn&apos;t get any image at all. Do it one
+more time and I&apos;ve got that kind of pink tree again. What I&apos;ve done is
+I&apos;ve written code in JavaScript that will pick an image randomly from
 an array of image names.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 217. body onload = pickimage() (132) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4509,9 +4610,9 @@ an array of image names.
   alt="body onload = 'pickImage()'." />
 </p>
 
-Let\'s code this together. Let\'s start with the HTML code. Right here
-on line 11 I want you to notice that I\'ve put in an event and a
-function. And I\'ve said when the body of the page loads, I want you to
+Let&apos;s code this together. Let&apos;s start with the HTML code. Right here
+on line 11 I want you to notice that I&apos;ve put in an event and a
+function. And I&apos;ve said when the body of the page loads, I want you to
 run the function **pickImage(),** all right?
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4523,8 +4624,8 @@ run the function **pickImage(),** all right?
   alt="At bottom of html, link to script.js with function: pickImage()." />
 </p>
 
-And just to double check, I\'m going to scroll all the way to the bottom
-of the screen and you can see that I\'ve remembered to include a link to
+And just to double check, I&apos;m going to scroll all the way to the bottom
+of the screen and you can see that I&apos;ve remembered to include a link to
 my JavaScript file that has that function.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4535,8 +4636,8 @@ my JavaScript file that has that function.
   alt="." />
 </p>
 
-Let\'s pop back up to the top. What is pickImage going to do? Well,
-pickImage, I\'m going to scroll just a little bit more here. PickImage
+Let&apos;s pop back up to the top. What is pickImage going to do? Well,
+pickImage, I&apos;m going to scroll just a little bit more here. PickImage
 is going to go to this image element right here, the one with the id of
 **header_img** and it is going to update the source to a somewhat random
 image.
@@ -4550,13 +4651,13 @@ image.
   alt="Create variable options as an array of images." />
 </p>
 
-Let\'s see how we do this in the JavaScript file. The function
+Let&apos;s see how we do this in the JavaScript file. The function
 **pickImage** starts off with an array that I have called **options**.
 And what I did is I went through many of the images in my folder, but
 not all of them and just put them in as strings, so I have
 **bacon_in_the_woods.png**, **munising**, **bend_in_the_road.png**.
-Oops, I\'ve got **bend_in_the_road** twice, think I actually in fact,
-we\'re going to get rid of a couple of these since I have extra, let\'s
+Oops, I&apos;ve got **bend_in_the_road** twice, think I actually in fact,
+we&apos;re going to get rid of a couple of these since I have extra, let&apos;s
 keep it nice and short and sweet.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4584,9 +4685,9 @@ Well, I just peeked over here in my Images folder and I picked some
 randomly. All right, so again, all I have here is an array of strings,
 and each string is the name of one of my pictures. All right, well, we
 know that we have all the names, how can we grab just one of those
-names, all right? Hang with me here, we\'re going to be doing some math,
-we\'re going to be doing some funky JavaScript, but there\'s just one
-line of code you need to understand, and it\'s right here.
+names, all right? Hang with me here, we&apos;re going to be doing some math,
+we&apos;re going to be doing some funky JavaScript, but there&apos;s just one
+line of code you need to understand, and it&apos;s right here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~ 223. math.random is 0-1, options.length is number of images (135) ~~~~~~~~~~~~~-->
@@ -4601,30 +4702,30 @@ JavaScript has a random function right here called **Math.random**. And
 what it will do is it will return a number between 0 and 1, so 0.25,
 0.5, 0.75, we want to take that number and we want to take the length of
 this array. If I have an array with five file names in it, I want to
-pick a number such as 0, 1, 2, 3 or 4. I don\'t want to go beyond 4
-because that\'s too big, all right? And I don\'t want to go less than 0
-because that\'s too small. So I find out how long the array is using
+pick a number such as 0, 1, 2, 3 or 4. I don&apos;t want to go beyond 4
+because that&apos;s too big, all right? And I don&apos;t want to go less than 0
+because that&apos;s too small. So I find out how long the array is using
 **options.length,** then I multiply that by a number between 0 and 1.
 And then the last little thing it does right here, this **Math.floor,**
-that\'s going to change it into the integer, all right? It\'s kind of
-funky, there\'s some math going on, trust me on this, all right?
+that&apos;s going to change it into the integer, all right? It&apos;s kind of
+funky, there&apos;s some math going on, trust me on this, all right?
 
 Now this part of the code picks either **bacon_in_the_woods** or
 **bend_in_the_road** or **lake_view**, perfect. But remember, in our
 code, in our HTML code, we need to have that folder name too, right? All
 of our images are in a folder called **images**, so we take images and
-we concatenate, that\'s the fancy word for squish together. We
-concatenate the word images/with one of these file names, now we\'re
-going to go in and I\'m using **document.querySelector** and I\'m using
-\"**header_image**\". Again, remember, if you use
-**document.getElementById**, you wouldn\'t need this hashtag, but I do.
-I\'ve grabbed that one little element in the **DOM** and then I set its
-source attribute to whatever my random image is. And for now, I\'m
-setting the alt attribute to blank. This isn\'t the best for
+we concatenate, that&apos;s the fancy word for squish together. We
+concatenate the word images/with one of these file names, now we&apos;re
+going to go in and I&apos;m using **document.querySelector** and I&apos;m using
+&quot;**header_image**&quot;. Again, remember, if you use
+**document.getElementById**, you wouldn&apos;t need this hashtag, but I do.
+I&apos;ve grabbed that one little element in the **DOM** and then I set its
+source attribute to whatever my random image is. And for now, I&apos;m
+setting the alt attribute to blank. This isn&apos;t the best for
 accessibility wise, but it is really just a decorative image. And by
-including the alt attribute, I\'m still saying, \"hey, there\'s an image
-here, but it\'s not important, I\'m letting you know that it\'s really
-something you can skip over.\"
+including the alt attribute, I&apos;m still saying, &quot;hey, there&apos;s an image
+here, but it&apos;s not important, I&apos;m letting you know that it&apos;s really
+something you can skip over.&quot;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 224. test, inspect element image (136) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4634,10 +4735,10 @@ something you can skip over.\"
   alt="Test, inspect element image." />
 </p>
 
-Let\'s take a look now at this working in process again. This time when
-we look at the page, I want to have **Inspect Element** open, so I\'m
-going to do my **Inspect**. I\'m going to narrow in on this image and
-I\'m going to make it a little bit bigger, hopefully to make it a little
+Let&apos;s take a look now at this working in process again. This time when
+we look at the page, I want to have **Inspect Element** open, so I&apos;m
+going to do my **Inspect**. I&apos;m going to narrow in on this image and
+I&apos;m going to make it a little bit bigger, hopefully to make it a little
 easier for you to read.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4650,7 +4751,7 @@ easier for you to read.
 </p>
 
 You can see, however, that currently the image is **bend_in_the_road**,
-let\'s refresh the page.
+let&apos;s refresh the page.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 226. test, display 'hollow_tree.png' (137) ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4661,7 +4762,7 @@ let\'s refresh the page.
   alt="Test, display 'hollow_tree.png'." />
 </p>
 
-This time that\'s changed into **hollow_tree.png** I\'m going to refresh.
+This time that&apos;s changed into **hollow_tree.png** I&apos;m going to refresh.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 227. test, blank image, no picture (137) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4673,8 +4774,8 @@ This time that\'s changed into **hollow_tree.png** I\'m going to refresh.
 </p>
 
 Did you notice something, did you notice that the image is missing? This
-happened earlier too, when I was doing my demo, there\'s no picture
-there, so let\'s head over to the console.
+happened earlier too, when I was doing my demo, there&apos;s no picture
+there, so let&apos;s head over to the console.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 228. test, 404 error 'images/munising' not found (138) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4685,7 +4786,7 @@ there, so let\'s head over to the console.
 </p>
 
 And in the console, you will see that I get the error that munising
-actually just isn\'t found. **images/munising** isn\'t found, it\'s a
+actually just isn&apos;t found. **images/munising** isn&apos;t found, it&apos;s a
 404 error.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4701,10 +4802,10 @@ actually just isn\'t found. **images/munising** isn\'t found, it\'s a
   alt="script.js - add file extension to munising image in 'options' array." />
 </p>
 
-Okay, well, I must have had a typo somewhere, so let\'s go back into my
-code and we\'ll investigate the script, that JS file. Here we are in
+Okay, well, I must have had a typo somewhere, so let&apos;s go back into my
+code and we&apos;ll investigate the script, that JS file. Here we are in
 line 2, and we can see that I forgot to include the file extension, I
-don\'t remember what it is. It was .jpg, so I need to replace this with
+don&apos;t remember what it is. It was .jpg, so I need to replace this with
 **munising.jpg**.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 231. test options images with inspect element (139) ~~~~~~~~~~~~~~~~~~~~-->
@@ -4715,10 +4816,10 @@ don\'t remember what it is. It was .jpg, so I need to replace this with
   alt="Test, options images with inspect element." />
 </p>
 
-All right, let\'s go back and try this one more time. All right, let\'s
-start refreshing again and see if we get that same error or if I\'m able
+All right, let&apos;s go back and try this one more time. All right, let&apos;s
+start refreshing again and see if we get that same error or if I&apos;m able
 to get a picture of **Munising** to show up, there it is right there. So
-just to double check, I\'m going to go in, and now I can see that the
+just to double check, I&apos;m going to go in, and now I can see that the
 **images/munising.jpg** is correct, okay? Hopefully this demo shows you
 that there are some real-world applications to you applying JavaScript
 to your page. And it only takes few lines of code to do something that
@@ -4737,8 +4838,8 @@ and get your hands dirty, use that **Inspect Element**, and good luck.
 </p>
 
 Something I say often about my Web Design for Everybody classes is that
-it\'s unlikely that you\'re going to go off and become a professional
-web developer when you\'re done. Some of you may, that\'s great. But a
+it&apos;s unlikely that you&apos;re going to go off and become a professional
+web developer when you&apos;re done. Some of you may, that&apos;s great. But a
 lot of you are mostly just looking to become a little bit more
 knowledgeable about existing tech and that might include existing
 packages and tools out there that you can use.
@@ -4751,7 +4852,7 @@ packages and tools out there that you can use.
   alt="Use code for creating lightboxes." />
 </p>
 
-It is true that it\'s way more common to use code from others than to
+It is true that it&apos;s way more common to use code from others than to
 write your own. And one of my absolute favorites is code for creating
 **lightboxes**.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4763,9 +4864,9 @@ write your own. And one of my absolute favorites is code for creating
   alt="Lightbox project code; javascript and css." />
 </p>
 
-Today I\'m going to walk you through how you can implement a
-**lightbox** in your existing code using somebody else\'s JavaScript and
-CSS. Let\'s take a look at this **lightbox** project. For those of you
+Today I&apos;m going to walk you through how you can implement a
+**lightbox** in your existing code using somebody else&apos;s JavaScript and
+CSS. Let&apos;s take a look at this **lightbox** project. For those of you
 who are not familiar with what a **lightbox** is, let me show you an
 example.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4777,7 +4878,7 @@ example.
   alt="Example, on click image pops up bigger." />
 </p>
 
-I\'m going to click on this picture right here and as you can see, as
+I&apos;m going to click on this picture right here and as you can see, as
 you click on the image, the image actually pops up into a much bigger
 form.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4788,8 +4889,8 @@ form.
   alt="." />
 </p>
 
-I\'m going to click out this X and I can click on this second image as
-well. If you notice, it\'s really small, but at the bottom they even
+I&apos;m going to click out this X and I can click on this second image as
+well. If you notice, it&apos;s really small, but at the bottom they even
 include an optional caption. These are considered kind of individual
 images.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4802,9 +4903,9 @@ images.
 
 You can also put your images into a set like these four images here,
 where when I click on the first one, not only does it show the caption
-at the bottom and the X to leave the image, there\'s also a small
+at the bottom and the X to leave the image, there&apos;s also a small
 chevron or arrow to go to the next image or to go back to a previous
-image. What\'s great about this code is that all of the JavaScript and
+image. What&apos;s great about this code is that all of the JavaScript and
 all of the CSS for the **lightbox** is already created for you.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 238.  (142) ~~~~~~~~~~~~~~~~~~-->
@@ -4814,9 +4915,9 @@ all of the CSS for the **lightbox** is already created for you.
   alt="." />
 </p>
 
-Let me show you how you can actually implement it in your code. I\'m
+Let me show you how you can actually implement it in your code. I&apos;m
 going to start by scrolling down here a little bit and they mentioned
-that there\'s a number of ways to get started.
+that there&apos;s a number of ways to get started.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 239/240.  (143) ~~~~~~~~~~~~~~~~~~-->
@@ -4831,7 +4932,7 @@ that there\'s a number of ways to get started.
 
 For most of you, I think the most common approach is going to be to
 click on the link to GitHub to get their code. In order to get the code,
-you would go to Code, Download ZIP. While that\'s happening, I want to
+you would go to Code, Download ZIP. While that&apos;s happening, I want to
 talk to you about some of these files and folders.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 241.  (143) ~~~~~~~~~~~~~~~~~~-->
@@ -4841,10 +4942,10 @@ talk to you about some of these files and folders.
   alt="." />
 </p>
 
-The most important one that you will need is called the \"dist\" folder.
+The most important one that you will need is called the &quot;dist&quot; folder.
 Dist is a really common naming convention, it stands for distribution.
 
-If you\'re using other people\'s code and you\'re a little overwhelmed
+If you&apos;re using other people&apos;s code and you&apos;re a little overwhelmed
 by all the folders and files, this is usually the one folder you really
 need. Although, the examples folder is usually a little bit handy as
 well.
@@ -4856,24 +4957,24 @@ well.
   alt="." />
 </p>
 
-I\'m going to go back to the instructions, as we go through the rest of
+I&apos;m going to go back to the instructions, as we go through the rest of
 the steps, let me zoom in a little bit because the smallest typo can
-kind of throw you off. Once you\'ve downloaded the code, and maybe
-you\'d want to look at the examples, but we\'ll skip it right now you
+kind of throw you off. Once you&apos;ve downloaded the code, and maybe
+you&apos;d want to look at the examples, but we&apos;ll skip it right now you
 will notice that they mentioned that inside the distribution folder,
-you\'re going to want to link to their CSS and their JavaScript. This is
+you&apos;re going to want to link to their CSS and their JavaScript. This is
 the tricky part. In the example, it says **path/to/lightbox.css**. They
-don\'t actually mean path-to, they mean whatever the name of the folder
+don&apos;t actually mean path-to, they mean whatever the name of the folder
 is.
 
-For us, it\'s going to be dist/css. Same here, when people talk about
-path/to, that\'s a shorthand, that\'s not actually the folder name,
-we\'re going to be using dist.javascript. The other thing that you might
+For us, it&apos;s going to be dist/css. Same here, when people talk about
+path/to, that&apos;s a shorthand, that&apos;s not actually the folder name,
+we&apos;re going to be using dist.javascript. The other thing that you might
 kind of read over quickly is we tend to be beginner coders here in our
-Web Development for Everybody. It\'s unlikely that you\'re already using
+Web Development for Everybody. It&apos;s unlikely that you&apos;re already using
 jQuery, which means we need to make sure we use any of their code that
-says **lightbox** plus jQuery. Don\'t worry, I\'m going to show you all
-this. But I just want to point it out when you\'re going through the
+says **lightbox** plus jQuery. Don&apos;t worry, I&apos;m going to show you all
+this. But I just want to point it out when you&apos;re going through the
 documentation, okay?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 243.  (145) ~~~~~~~~~~~~~~~~~~-->
@@ -4912,12 +5013,12 @@ the same **data-lightbox.**
   alt="." />
 </p>
 
-That\'s it, that\'s all the documentation we\'re going to go through.
-Let\'s go back to one of the pages we\'ve been using in this class
-earlier so you can see how I implemented it. Let\'s start off by looking
+That&apos;s it, that&apos;s all the documentation we&apos;re going to go through.
+Let&apos;s go back to one of the pages we&apos;ve been using in this class
+earlier so you can see how I implemented it. Let&apos;s start off by looking
 at my folder structure. I still have my css folder, my images folder, my
-js folder, but I\'ve added a new file called **lightbox.html**. It\'s
-just a kind of shortened version of the neighborhood.html, so we won\'t
+js folder, but I&apos;ve added a new file called **lightbox.html**. It&apos;s
+just a kind of shortened version of the neighborhood.html, so we won&apos;t
 worry about it too much.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 246.  (146) ~~~~~~~~~~~~~~~~~~-->
@@ -4930,12 +5031,12 @@ worry about it too much.
 But now I also have the dist folder. I just copied and dragged to the
 whole thing. Inside the dist, they have their own css, their own images,
 because remember, for those little like chevron arrows, and their own
-js. Sometimes my students will ask me, they\'ll say, \"well, why don\'t
-you just put other people\'s CSS in your CSS folder or other people\'s
-JavaScript in your JavaScript folder?\" You can absolutely do that. But
-I like to keep it separate because I like to know if, when something\'s
-broken, if it was my code or their code. All I\'ve really done is add
-this dist folder right here, let\'s close up the folder.
+js. Sometimes my students will ask me, they&apos;ll say, &quot;well, why don&apos;t
+you just put other people&apos;s CSS in your CSS folder or other people&apos;s
+JavaScript in your JavaScript folder?&quot; You can absolutely do that. But
+I like to keep it separate because I like to know if, when something&apos;s
+broken, if it was my code or their code. All I&apos;ve really done is add
+this dist folder right here, let&apos;s close up the folder.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 247/248.  (147) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4948,10 +5049,10 @@ this dist folder right here, let\'s close up the folder.
 </p>
 
 Now, as we go through, you can see instead of path/to the
-**lightbox.css**, I\'ve used **dist/css/lightbox**. I\'m going to scroll
+**lightbox.css**, I&apos;ve used **dist/css/lightbox**. I&apos;m going to scroll
 all the way to the bottom, and instead of having
-**path/to/js/lightbox**, I\'ve done the **dist/js/lightbox-plus-query**.
-I\'m going to save this for just a second, and I\'m going to open it up.
+**path/to/js/lightbox**, I&apos;ve done the **dist/js/lightbox-plus-query**.
+I&apos;m going to save this for just a second, and I&apos;m going to open it up.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 249.  (147) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4961,9 +5062,9 @@ I\'m going to save this for just a second, and I\'m going to open it up.
 </p>
 
 What we have here, as I mentioned, is just an abbreviated page where I
-only have four images. And right now, these images, I\'m clicking on
-them, don\'t do anything, all right? I\'ve connected to the CSS and
-I\'ve connected to the JavaScript.
+only have four images. And right now, these images, I&apos;m clicking on
+them, don&apos;t do anything, all right? I&apos;ve connected to the CSS and
+I&apos;ve connected to the JavaScript.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 250.  (148) ~~~~~~~~~~~~~~~~~~-->
@@ -4973,28 +5074,28 @@ I\'ve connected to the JavaScript.
   alt="." />
 </p>
 
-But now it\'s time for me to update my html. Let\'s take a look at that
-very first image. What I needed to do was I needed to add an \<a\> tag
+But now it&apos;s time for me to update my html. Let&apos;s take a look at that
+very first image. What I needed to do was I needed to add an &lt;a&gt; tag
 around it. And if you remember, the href for that tag should be the
 exact same thing as the image itself. We want to click on the image and
 then open up that image in its own window. I have my **data-lightbox**,
-I\'ve called it =images, and I\'ve added my data-title=\"Caption 1\",
-all right? Just so I don\'t have to scroll back and forth for you, I\'m
+I&apos;ve called it =images, and I&apos;ve added my data-title=&quot;Caption 1&quot;,
+all right? Just so I don&apos;t have to scroll back and forth for you, I&apos;m
 going to hit option Z for a second, so it wraps all my text, all right?
-I\'ve got my href, my **data-lightbox** images, and my data-title.
-Let\'s save it and let\'s take a look. All right, I\'ve refreshed my
-page and I\'m going to click on the first image. Notice, even if you can
+I&apos;ve got my href, my **data-lightbox** images, and my data-title.
+Let&apos;s save it and let&apos;s take a look. All right, I&apos;ve refreshed my
+page and I&apos;m going to click on the first image. Notice, even if you can
 see it, it might be a little hard. When I put my mouse over the cursor
-changes to show that this isn\'t just an image. It\'s an image that\'s a
-link that doesn\'t happen to the other ones.
+changes to show that this isn&apos;t just an image. It&apos;s an image that&apos;s a
+link that doesn&apos;t happen to the other ones.
 
-When I click on it, everything popped up and I got my Caption 1. Let\'s
+When I click on it, everything popped up and I got my Caption 1. Let&apos;s
 add this to the other images as well. It is super, super, super tempting
-when you\'re doing this to add this a link to all your images, right?
+when you&apos;re doing this to add this a link to all your images, right?
 Rather than just testing one at a time. But you always want to test at
-least one of them once just to be sure that you don\'t have a typo,
+least one of them once just to be sure that you don&apos;t have a typo,
 right? So normally I add it to the first one and then kind of copy and
-paste it for the other ones. I\'m going to save this and let\'s look at
+paste it for the other ones. I&apos;m going to save this and let&apos;s look at
 it again, all right?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 251/252.  (149) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5007,17 +5108,17 @@ it again, all right?
   alt="." />
 </p>
 
-Let\'s try clicking on the first image. Not only does it pop up, but I
+Let&apos;s try clicking on the first image. Not only does it pop up, but I
 now have the chevron to go to the next image, the next image, and the
-last one, and I could go back if I wanted to notice. If you\'re trying
-to do this along with me and the picture is popping up, if things don\'t
-look right, that probably means you didn\'t link to the CSS correctly.
-If things aren\'t functioning correctly, then that means you probably
-didn\'t link to the JavaScript in the right way. Use that **Inspect
+last one, and I could go back if I wanted to notice. If you&apos;re trying
+to do this along with me and the picture is popping up, if things don&apos;t
+look right, that probably means you didn&apos;t link to the CSS correctly.
+If things aren&apos;t functioning correctly, then that means you probably
+didn&apos;t link to the JavaScript in the right way. Use that **Inspect
 Element** so you can look in and make sure all your files are connected.
 But mostly realize how little code it took for me to take something that
-I\'ve created and kind of bump it up a notch by using code that somebody
-else created. That\'s really what the web is about. All of us working
+I&apos;ve created and kind of bump it up a notch by using code that somebody
+else created. That&apos;s really what the web is about. All of us working
 together to create things that we can all enjoy.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5032,7 +5133,7 @@ together to create things that we can all enjoy.
 </p>
 
 Hi everyone. Earlier we did a Code With Me where we wanted to make one
-image, a random image. Now, let\'s talk about what we would do if we
+image, a random image. Now, let&apos;s talk about what we would do if we
 want to use JavaScript to update numerous images.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 254.  (150) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5043,9 +5144,9 @@ want to use JavaScript to update numerous images.
 </p>
 
 For instance, in this example, I have now changed the code so that I get
-three somewhat random images each time I load it. It\'s not super random
-because I didn\'t give it a lot of options, but you can see that it\'s
-three different pictures each time. Let\'s take a look at the code to
+three somewhat random images each time I load it. It&apos;s not super random
+because I didn&apos;t give it a lot of options, but you can see that it&apos;s
+three different pictures each time. Let&apos;s take a look at the code to
 see how we do this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 255.  (150) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5055,9 +5156,9 @@ see how we do this.
   alt="." />
 </p>
 
-Let\'s start off by looking at our body tag. Once again, I\'ve used the
-onload event, but this time I\'ve used a function called
-\"**setImages()**\".
+Let&apos;s start off by looking at our body tag. Once again, I&apos;ve used the
+onload event, but this time I&apos;ve used a function called
+&quot;**setImages()**&quot;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 256.  (151) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5077,7 +5178,7 @@ class. Right now, I have 1, 2, 3 images in here.
   alt="." />
 </p>
 
-Then at the very bottom, I\'m using my script tag to link to my
+Then at the very bottom, I&apos;m using my script tag to link to my
 JavaScript folder.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 258.  (152) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5087,35 +5188,35 @@ JavaScript folder.
   alt="." />
 </p>
 
-Let\'s check out the JavaScript code. Once again, I\'ve created a
+Let&apos;s check out the JavaScript code. Once again, I&apos;ve created a
 variable called options, and in that array, I have listed a number of
-different images that are available to this file. Here\'s where things
-get a little bit different. On line 26, I\'ve made another new variable
+different images that are available to this file. Here&apos;s where things
+get a little bit different. On line 26, I&apos;ve made another new variable
 called currentImages. Again, you want to use good mnemonic names,
-meaning when I look at the variable name, I should know what I\'m trying
+meaning when I look at the variable name, I should know what I&apos;m trying
 to save here.
 
-What I\'m trying to save is all of the images that are currently in the
-flex class. I\'ve used **document.querySelectorAll(\".flex img\")**.
-This is going to return an array of images. We can\'t just start using
+What I&apos;m trying to save is all of the images that are currently in the
+flex class. I&apos;ve used **document.querySelectorAll(&quot;.flex img&quot;)**.
+This is going to return an array of images. We can&apos;t just start using
 current images and trying to get the source attribute or the alt
-attribute. It doesn\'t know how to do that. We need to access each image
+attribute. It doesn&apos;t know how to do that. We need to access each image
 individually, and this is where we will use looping. I start off with my
-'for loop'. You always want to use the keyword for. Then I\'m going to
-create a variable called i. It\'s something we do a lot. I\'m going to
+'for loop'. You always want to use the keyword for. Then I&apos;m going to
+create a variable called i. It&apos;s something we do a lot. I&apos;m going to
 loop through each image in current images, and each time i is going to
 go up by one. Current images, if you remember on our page, there were
 three images. So that means I will go from 0, 1, and 2. If I had 10
 images in that class, it would be 0, 1, 2, all the way up to nine.
 
 I like to add console.log messages. They make me feel better. They help
-me figure out, is my code running? Is my, oops, that shouldn\'t say
+me figure out, is my code running? Is my, oops, that shouldn&apos;t say
 **isSecure**. I really just want to say i. I want to print out that 0,
 1, 2, 3, etc, so I can make sure my loop is doing things as I expected.
-Now, the code should look pretty similar. I\'m going to grab a random
-image and assign it to the variable random image. It\'s the same thing
+Now, the code should look pretty similar. I&apos;m going to grab a random
+image and assign it to the variable random image. It&apos;s the same thing
 we did earlier. But now, instead of using something like
-**currentImage,** its currentImages\[i\], the first image, the second
+**currentImage,** its currentImages&lbrack;i&rbrack;, the first image, the second
 image, the third image.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 259.  (153) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5125,29 +5226,29 @@ image, the third image.
   alt="." />
 </p>
 
-Let\'s take a look and I\'m going to go back to the website one more
-time. Once again, let\'s turn on **Inspect Element** to see what\'s
+Let&apos;s take a look and I&apos;m going to go back to the website one more
+time. Once again, let&apos;s turn on **Inspect Element** to see what&apos;s
 going on. I go into my **Inspect** and I want to pick the console tab.
-Do you notice over here? It says Image 0, Image 1, Image 2. That\'s from
-that console.log message I was using. I\'m going to refresh again. And
+Do you notice over here? It says Image 0, Image 1, Image 2. That&apos;s from
+that console.log message I was using. I&apos;m going to refresh again. And
 as we go through, uh oh, if you notice.
 
 Oh, I thought I had mistaken there for a second. I thought it was saying
-it to the same image every time. So, I didn\'t write the greatest code,
+it to the same image every time. So, I didn&apos;t write the greatest code,
 right? I could have gone in and written my random codes that it
-generates a random image each time but I keep track of the ones I\'ve
+generates a random image each time but I keep track of the ones I&apos;ve
 seen before. Or I could have made sure that there were like 15 or 20
 images, so the chance of having a duplicate was less likely. But when
-I\'m writing code for all of you, I don\'t like it to be too big.
+I&apos;m writing code for all of you, I don&apos;t like it to be too big.
 
-I want to show you one more thing. What I\'ve done here is I\'ve changed
+I want to show you one more thing. What I&apos;ve done here is I&apos;ve changed
 my style, so all my images have an opacity of 0.75 unless I hover over
 it.
 
-Let\'s think about accessibility for a second, and think about what it
+Let&apos;s think about accessibility for a second, and think about what it
 means when we add hover to our style sheet. That means people who are
 using a mouse can get that functionality, but people are using the
-keyboard cannot. Let\'s use looping to also add a bit more accessibility
+keyboard cannot. Let&apos;s use looping to also add a bit more accessibility
 to our page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 260.  (154) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5168,14 +5269,14 @@ keyboard to access an element.
   alt="." />
 </p>
 
-I could go in here and I could start adding tabindex=\"0\" to all of my
+I could go in here and I could start adding tabindex=&quot;0&quot; to all of my
 images. In this case, I would only have to do it for three. But imagine
 instead that I had something like 20 images or 40 images, it would be a
-real pain to have to go in there and add that to each one. So, I\'m
-going to go back to my JavaScript. Let\'s add two more lines of code
+real pain to have to go in there and add that to each one. So, I&apos;m
+going to go back to my JavaScript. Let&apos;s add two more lines of code
 here. What I can do is I can say, **currentImages**. Instead of the
-source, I\'m going to use a new function called **setAttribute()**. I\'m
-going to say, let\'s set the \"tabindex\" equal to 0. I\'m going to save
+source, I&apos;m going to use a new function called **setAttribute()**. I&apos;m
+going to say, let&apos;s set the &quot;tabindex&quot; equal to 0. I&apos;m going to save
 this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 262.  (155) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5185,10 +5286,10 @@ this.
   alt="." />
 </p>
 
-Let\'s go back to the website. I\'m going to refresh, and I\'m going to
-go in and I\'m going to check out these elements. Go right here,
+Let&apos;s go back to the website. I&apos;m going to refresh, and I&apos;m going to
+go in and I&apos;m going to check out these elements. Go right here,
 **Inspect**. We can now see that each one of these images has a
-tabindex=\"0\" in there.
+tabindex=&quot;0&quot; in there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 263.  (155) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5198,9 +5299,9 @@ tabindex=\"0\" in there.
 </p>
 
 My last step actually is to go back and update my style sheet as well.
-Here I am in my style sheet and I\'m going to say, \"anything I say
-people can do with hover let\'s also let them do it with focus.\" Back
-to our page. Now that I\'m here, I\'m going to begin to tab. It\'s going
+Here I am in my style sheet and I&apos;m going to say, &quot;anything I say
+people can do with hover let&apos;s also let them do it with focus.&quot; Back
+to our page. Now that I&apos;m here, I&apos;m going to begin to tab. It&apos;s going
 to go through my links.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 264.  (156) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5213,21 +5314,21 @@ to go through my links.
 Now you can see it is also allowing me to tab to the images as well.
 Hopefully this is showing you that using looping is a faster way to
 update your code. Not just in this example where I had three pictures,
-but imagine if I\'d had 15, 20, or in the case of your future homework,
+but imagine if I&apos;d had 15, 20, or in the case of your future homework,
 when you have six or more images.
 
 Being able to loop and update the code allows you to do things more
 quickly and avoid a lot of those common typos that at least I happen to
-do all the time when I\'m updating my code. You\'re going to be using
-this concept in the next couple of weeks, so make sure that you\'re
-going in and you\'re practicing, you\'re trying this code. And if need
-be, look things up on your own. There\'s always references out there.
+do all the time when I&apos;m updating my code. You&apos;re going to be using
+this concept in the next couple of weeks, so make sure that you&apos;re
+going in and you&apos;re practicing, you&apos;re trying this code. And if need
+be, look things up on your own. There&apos;s always references out there.
 Good luck.
 
 <h2 id="ch4-03">4.03 &quot;Cool Stuff&quot; - Friend or Foe?</h2>
 
 As you are able to add additional capabilities to your pages, make sure
-that you aren\'t doing it at a cost to accessibility or usability.
+that you aren&apos;t doing it at a cost to accessibility or usability.
 Reacting to mouse events is a great example. There are a number of great
 looking sites out there that are inaccessible because content is hidden
 until an event is triggered. If you are going to add Interactivity, make
@@ -5284,9 +5385,9 @@ assignment, I hope you will learn from seeing the different approaches.
     Event](https://www.w3schools.com/jsref/event_onmouseover.asp) and
     [onmouseleave
     Event](https://www.w3schools.com/jsref/event_onmouseleave.asp)
-    (Don\'t delete those events though!).
+    (Don&apos;t delete those events though!).
 
-7.  Test your site\'s functionality for mouse movement.
+7.  Test your site&apos;s functionality for mouse movement.
 
 8.  Add the listener for onload -- deciding what you want to call the
     new function.
@@ -5299,7 +5400,7 @@ assignment, I hope you will learn from seeing the different approaches.
 
 12. Add the tabindex attributes.
 
-13. Test your site\'s functionality for keyboard access.
+13. Test your site&apos;s functionality for keyboard access.
 
 14. Host and share your site
 
@@ -5366,7 +5467,7 @@ and a keyboard.
   alt="4.04 Final Project Description." />
 </p>
 
-Hi everyone. Let\'s talk about the final project.
+Hi everyone. Let&apos;s talk about the final project.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 266. expanding the photo gallery (159) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5378,9 +5479,9 @@ Hi everyone. Let\'s talk about the final project.
 
 In an earlier assignment, you added the ability to hover over images and
 display their source and alt texts in a different div. In this
-assignment, you\'re going to expand upon that same project. But now you
-are going to use at least six of your own images, and we\'re going to
-make it an accessible site by incorporating tabindex as well. I\'m going
+assignment, you&apos;re going to expand upon that same project. But now you
+are going to use at least six of your own images, and we&apos;re going to
+make it an accessible site by incorporating tabindex as well. I&apos;m going
 to add some additional requirements that you cannot change the HTML to
 add tabindex, you must use JavaScript looping to add the attribute, and
 just as we wrote a 'Undo' for when we were on **mouseout** and we did
@@ -5404,7 +5505,7 @@ just three images, and I gave you those images.
 When I would put my mouse over, we would get the updated image and the
 alt text. When I took my mouse off, we would get back to the original,
 over, out, over, out. In the new version, you will add at least three
-additional images of your own for total of six images, and we\'re going
+additional images of your own for total of six images, and we&apos;re going
 to use the Tab key to that people can use the same type of functionality
 as with the mouse.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5428,7 +5529,7 @@ as with the mouse.
   alt="." />
 </p>
 
-Watch as I begin the tab, I\'m going to tab again. I\'m going to tab a
+Watch as I begin the tab, I&apos;m going to tab again. I&apos;m going to tab a
 third time, and now watch what happens when I tab this fourth time. It
 goes back to the original, a lot of students get into this trap where
 they only write an event for when it goes in focus. But the opposite of
@@ -5441,25 +5542,25 @@ focus is something called blur, make sure that you code for both.
   alt="." />
 </p>
 
-As always, we\'re going to ask you to follow some general guidelines.
-One, make sure that you\'re using your own images, preferably something
+As always, we&apos;re going to ask you to follow some general guidelines.
+One, make sure that you&apos;re using your own images, preferably something
 unique that your peers will enjoy grading. Validate everything, make
-sure you\'re using W3 to check your HTML syntax, make sure you\'re using
+sure you&apos;re using W3 to check your HTML syntax, make sure you&apos;re using
 Wave to make sure that you have alt text.
 
 Make sure you are using aXe just to check for anything else. If there
 are any aXe errors that I left in there, I would encourage you to go in
 and fix them up so that your code validates. Do your peer grading with
-compassion too. You\'re going to want to make sure that you\'re giving
+compassion too. You&apos;re going to want to make sure that you&apos;re giving
 really good feedback, if somebody does something incorrectly. You know
-what? Great feedback when people do things correctly, that\'s great as
+what? Great feedback when people do things correctly, that&apos;s great as
 well. Leave those helpful comments so that other people can learn from
 you, and you might be surprised by how much you learn from thinking
-deeply about what you\'re seeing in other people\'s sites.
+deeply about what you&apos;re seeing in other people&apos;s sites.
 
-I hope you have some fun with this. I hope it\'s something that you are
+I hope you have some fun with this. I hope it&apos;s something that you are
 proud of and that you can share with others, and that you leave this
-feeling like you\'ve really accomplished something and you learned
+feeling like you&apos;ve really accomplished something and you learned
 enough about JavaScript that you can go on with some confidence.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5523,7 +5624,7 @@ information like your name, email, and Coursera ID.
 </p>
 
 Hey everybody, congratulations on finishing the Interactivity with
-JavaScript course. I hope you\'re really proud of what you\'ve done so
+JavaScript course. I hope you&apos;re really proud of what you&apos;ve done so
 far, and excited to keep learning more.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 276. congratulations (163) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5534,16 +5635,16 @@ far, and excited to keep learning more.
   alt="Congratulations." />
 </p>
 
-However, I do want to warn you right now that what we\'ve covered in
-this class, you\'re still considered what we call a noob or newbie. So,
-in order to really advance your skills, you\'re going to need to keep
+However, I do want to warn you right now that what we&apos;ve covered in
+this class, you&apos;re still considered what we call a noob or newbie. So,
+in order to really advance your skills, you&apos;re going to need to keep
 working. But the good news is that learning the basics of any
-programming language, whether it\'s Python, JavaScript, some other type
-of scripting language. Is that it makes you feel like you\'ve really
-done something that can last a long time. And it\'s true because these
+programming language, whether it&apos;s Python, JavaScript, some other type
+of scripting language. Is that it makes you feel like you&apos;ve really
+done something that can last a long time. And it&apos;s true because these
 different concepts of variables, arrays, functions, and looping, these
-are concepts that repeat everywhere else. So now that you\'ve just begun
-programming, you\'ll find that learning new languages is actually
+are concepts that repeat everywhere else. So now that you&apos;ve just begun
+programming, you&apos;ll find that learning new languages is actually
 easier.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 277. server-side processing (164) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5554,11 +5655,11 @@ easier.
   alt="Server-side processing." />
 </p>
 
-Now, we\'ve done a lot of client-side processing. So, I just want to
-talk to you one more time about the idea that what we\'ve learned in
+Now, we&apos;ve done a lot of client-side processing. So, I just want to
+talk to you one more time about the idea that what we&apos;ve learned in
 this course is only part of the picture. Learning about
 server-side code, or kind of hardcore programming, is something that
-you\'ll need to explore on your own in other courses if you decide that
+you&apos;ll need to explore on your own in other courses if you decide that
 the coding part is what you really enjoy of web design. This full stack
 or back-end programming, they can help you with this, but it does
 require additional resources beyond what most people find on their
@@ -5574,24 +5675,24 @@ laptop or phone.
 </p>
 So, what should you do next then? Well, I hope you continue to practice
 your skills, because unlike HTML, and CSS, and some other components of
-web design, with JavaScript, if you don\'t use it, you\'re absolutely
+web design, with JavaScript, if you don&apos;t use it, you&apos;re absolutely
 going to lose it. You lose these ideas. You forget about checking the
 console. You forget about the logical errors you made earlier. What you
-can do now, if you want to make sure you\'re still keeping your skills
+can do now, if you want to make sure you&apos;re still keeping your skills
 sharp, is think about joining a meet up, or offering your skills as a TA
 at different workshops.
 
 You might also want to consider learning jQuery. jQuery is an extremely
-powerful and popular programming language that\'s built up from the
+powerful and popular programming language that&apos;s built up from the
 basics of JavaScript. However, I always encourage my students to
 understand just at least the nuances of JavaScript before you jump into
 jQuery because it can make your learning curve so much easier.
 
 Of course, the other thing I must mention is that if you want to do
-more, I hope you\'ll join us in our Responsive Design course that we\'re
+more, I hope you&apos;ll join us in our Responsive Design course that we&apos;re
 doing in this Web Development for Everybody specialization. So, whether
-you\'re done and you hope to never code again, or you\'re really excited
-and you want to do more, I can\'t say anything else but thank you for
+you&apos;re done and you hope to never code again, or you&apos;re really excited
+and you want to do more, I can&apos;t say anything else but thank you for
 joining me in this course. And thank you to everyone who was on the
 message boards mentoring each other and encouraging each other. Good
 luck.
