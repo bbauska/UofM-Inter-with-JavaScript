@@ -3273,11 +3273,12 @@ Second button. This seems like a really small program to write, but
 there&apos;s a lot going on in here, and a lot of places where people tend
 to make mistakes. Let&apos;s just look at them quickly.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 151.  (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 151. modify the dom w/getelementbyid (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image151.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Modify the DOM onclick with getElementById('stuff').innerHTML"
+  alt="Modify the DOM onclick with getElementById('stuff').innerHTML." />
 </p>
 
 The first thing I want you to look at is this idea of using
@@ -3298,52 +3299,57 @@ to change. Is it the event that&apos;s going to change? Is it the button
 that&apos;s going to change? Is it the whole page? So luckily, with CodePin
 you&apos;ll be able to see it immediately. All right, wow, now I really.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 152.  (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 152. modify the dom using getlementbyid (92) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image152.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Modify the DOM using getElementById"
+  alt="Modify the DOM using getElementById." />
 </p>
 
 That&apos;s how I can change the button itself. If I want to change what&apos;s
 going to happen, that where I put in here, Clicked Another Button.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 153.  (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 153. buttons first and third (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image153.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Buttons first and third"
+  alt="Buttons first and third." />
 </p>
 
 Let&apos;s save. I&apos;m going to click on First, Second.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 154.  (93) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 154. buttons first and third, on-click (93) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image154.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Buttons first and third, on-click"
+  alt="Buttons first and third, on-click." />
 </p>
 
 Play with this. Try putting it in yourself. And realize, again, that you
 can put your JavaScript anywhere you want, it doesn&apos;t always have to be
 in an external file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 155.  (93) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 155. open and close paragraphs using buttons (93) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image155.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Open and Close paragraphs using Buttons"
+  alt="Open and Close paragraphs using Buttons." />
 </p>
 
 Let&apos;s look at the next example. Okay, get ready. This example is going
 to be a big one, because we do have a lot of things going on. We have
 our HTML. We have our CSS. And we have our JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 156.  (94) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 156. css class closed, open (94) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image156.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="CSS class closed, open"
+  alt="CSS class closed, open." />
 </p>
 
 Let&apos;s start with the CSS, because it&apos;s the simplest and it&apos;s not
@@ -3358,22 +3364,24 @@ now it&apos;s going to reappear again. That&apos;s all we really need to
 realize, is that .closed will make it go away, .open is going to make it
 come back.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 157.  (94) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 157. html, p id='demo', open & close (94) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image157.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="HTML, p id='demo', open &amp; close"
+  alt="HTML, p id='demo', open &amp; close." />
 </p>
 
 Over here, in my HTML, I have a paragraph called demo. And that&apos;s right
 down here, it&apos;s all this entire thing we can see right here. This is
 the one we want to change in our code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 158.  (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 158. html, onclick openme, or onclick closeme (95) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image158.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="In HTML, buttons onclick, openMe() or closeMe()"
+  alt="In HTML, buttons onclick, openMe() or closeMe()." />
 </p>
 
 And finally in the HTML, we have two events. We have **onClick,
@@ -3385,11 +3393,12 @@ simply need to grab the demo element by doing document.getElementById.
 But now instead of trying to change the inner HTML, I&apos;m going to change
 the style.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 159.  (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 159. js function, closeme (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image159.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="In JS, function closeMe()"
+  alt="In JS, function closeMe()." />
 </p>
 
 I go in and I say x, which is my element, **.style.display=&quot;none&quot;.**
@@ -3397,25 +3406,28 @@ I&apos;m not using my CSS, I&apos;m actually hardcoding it in here that I want
 it to go from none.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 160.  (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160. js function, openme (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image160.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="In JS, function openMe()"
+  alt="In JS, function openMe()." />
 </p>
 
 And in open, similarly, it says, hey grab that element, and I want it to
 go from whatever it used to be, and now it should be block.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 161/162.  (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 161/162. test, buttons close & open (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image161.png?raw=true"
   style="width:45%;"
-  alt="." />
+  title="Test, buttons close & open paragraph"
+  alt="Test, buttons close & open paragraph." />
 <img src="./images/image162.png?raw=true"
   style="width:45%;"
-  alt="." />
+  title="Test, open & close paragraph using buttons"
+  alt="Test, open & close paragraph using buttons." />
 </p>
 
 Let&apos;s look and see if this works. Close, Open. Close, Open. Great, it
@@ -3424,14 +3436,16 @@ What if we also wanted to change the color, or the width, or many other
 elements? This is where the idea of our classes can come in.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 163/164.  (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 163/164. get element & change class (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image163.png?raw=true"
   style="width:45%;"
-  alt="." />
+  title="x=document.getElementById('demo'); then x.className='closed';"
+  alt="x=document.getElementById('demo'); then x.className='closed';" />
 <img src="./images/image164.png?raw=true"
   style="width:45%;"
-  alt="." />
+  title="x=document.getElementById('demo'); then x.className='open';"
+  alt="x=document.getElementById('demo'); then x.className='open';" />
 </p>
 
 Let&apos;s change it over here really quickly. I&apos;m going to comment out
@@ -3442,14 +3456,15 @@ you to change the class name. I don&apos;t know what it used to be, but now
 I want it to be closed. And down here, I want it to be open.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 165/166.  (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 165/166. test, change style of html (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image165.png?raw=true"
   style="width:45%;"
-  alt="." />
+  alt="Test, change style of HTML element." />
 <img src="./images/image166.png?raw=true"
   style="width:45%;"
-  alt="." />
+  title="Test, open/close paragraph using buttons"
+  alt="Test, open/close paragraph using buttons." />
 </p>
 So, I can talk a lot. But it&apos;s important that even I stop and check
 that code and make sure I didn&apos;t break it. Close, Open, Close, Open.
@@ -3512,11 +3527,11 @@ the function knows basically, how do I know what information to use.
 That&apos;s where "this" keyword comes in.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 170.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 170. example, 'this' (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image170.png?raw=true"
   style="width:40%;"
-  alt="." />
+  alt="Example, 'this'." />
 </p>
 
 This allows an element to refer to itself. Every object in the DOM, has
@@ -3537,11 +3552,12 @@ back, back, back, back, back until it&apos;s, oops, here&apos;s an open tag.
 They must be referring to this DOM element right here.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 171.  (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 171. sample html, js with 'this' (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image171.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Sample code HTML, JS with 'this'"
+  alt="Sample code HTML, JS with 'this'." />
 </p>
 
 Let&apos;s look at what I hope are a few simple examples of using the word
@@ -3560,11 +3576,11 @@ up, until it gets to the image. And then we&apos;ll say. They want the alt
 text for this image. Let's see what happens when I actually click on
 this image.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 172.  (101) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 172. test console, awesome 80's haircut (101) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image172.png?raw=true"
   style="width:50%;"
-  alt="." />
+  alt="Test console, awesome 80's haircut." />
 </p>
 
 As you can see, as soon as I clicked on it. The message Awesome 80&apos;s
@@ -3572,11 +3588,12 @@ haircut shows up, all right? If I were to click on this multiple times.
 It doesn&apos;t actually show up in the console multiple times.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 173.  (102) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 173. div onclick = 'console.log(this.innerhtml)' (102) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image173.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="div onclick='console.log(this.innerHTML)'"
+  alt="div onclick='console.log(this.innerHTML)'." />
 </p>
 
 You can see that there&apos;s a little number over here that says. Oh, this
@@ -3585,11 +3602,12 @@ click on an image and the event knew that this was the image I was
 clicking on.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 174.  (102) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 174. onclick, this, innerhtml, div (102) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image174.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="div onclick='console.log(this.innerHTML)'"
+  alt="div onclick='console.log(this.innerHTML)'." />
 </p>
 
 Let&apos;s look at the next example down here. I&apos;ve got my div that just
@@ -3600,11 +3618,12 @@ When I click on this div, I&apos;m expecting to see, hi there, checking out
 the div to show up in the console.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 175.  (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 175. test, console.log 'this' (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image175.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Test, console.log 'this'"
+  alt="Test, console.log 'this'." />
 </p>
 
 As you can see, it&apos;s working. These first two examples are very
@@ -3612,11 +3631,12 @@ similar. And that all I&apos;m doing is basically kind of manipulating
 what&apos;s going on in the console.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 176.  (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 176. function displayid(element) log id (103) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image176.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="function displayId(element){ console.log(element.id);}"
+  alt="function displayId(element){ console.log(element.id);}." />
 </p>
 
 In these last two, I did something very similar. But instead of just
