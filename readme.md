@@ -824,7 +824,7 @@ getElementById](https://dev.to/eidorianavi/queryselector-vs-getelementbyid-gm1)
 <p align="center" width="100%">
 <img src="./images/image023.png?raw=true"
   style="width:45%;"
-  title="1.02b Newer DOM Methods." />
+  title="1.02b Newer DOM Methods"
   alt="1.02b Newer DOM Methods." />
 </p>
 
@@ -4902,11 +4902,12 @@ I&apos;m going to click on this picture right here and as you can see, as
 you click on the image, the image actually pops up into a much bigger
 form.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 236.  (141) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 236. image with optional caption on bottom left (141) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image236.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Image with optional caption on bottom left"
+  alt="Image with optional caption on bottom left." />
 </p>
 
 I&apos;m going to click out this X and I can click on this second image as
@@ -4914,11 +4915,12 @@ well. If you notice, it&apos;s really small, but at the bottom they even
 include an optional caption. These are considered kind of individual
 images.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 237.  (142) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 237. lightbox example, image with 'x' and caption (142) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image237.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Lightbox Example, image with 'X' and Caption"
+  alt="Lightbox Example, image with 'X' and Caption." />
 </p>
 
 You can also put your images into a set like these four images here,
@@ -4928,11 +4930,12 @@ chevron or arrow to go to the next image or to go back to a previous
 image. What&apos;s great about this code is that all of the JavaScript and
 all of the CSS for the **lightbox** is already created for you.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 238.  (142) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 238. lightbox, getting started (142) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image238.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Lightbox, Getting Started"
+  alt="Lightbox, Getting Started." />
 </p>
 
 Let me show you how you can actually implement it in your code. I&apos;m
@@ -4940,14 +4943,16 @@ going to start by scrolling down here a little bit and they mentioned
 that there&apos;s a number of ways to get started.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 239/240.  (143) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 239/240. lightbox 2, github (143) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image239.png?raw=true"
   style="width:45%;"
-  alt="." />
+  title="Lightbox 2, in github"
+  alt="Lightbox 2, in github." />
 <img src="./images/image240.png?raw=true"
   style="width:45%;"
-  alt="." />
+  title"Lightbox 2, Download ZIP"
+  alt="Lightbox 2, Download ZIP." />
 </p>
 
 For most of you, I think the most common approach is going to be to
@@ -4955,11 +4960,12 @@ click on the link to GitHub to get their code. In order to get the code,
 you would go to Code, Download ZIP. While that&apos;s happening, I want to
 talk to you about some of these files and folders.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 241.  (143) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 241. lightbox 2, dist (distribution) folder (143) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image241.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Lightbox 2, distribution folder"
+  alt="Lightbox 2, distribution folder." />
 </p>
 
 The most important one that you will need is called the &quot;dist&quot; folder.
@@ -4978,14 +4984,13 @@ well.
 </p>
 
 I&apos;m going to go back to the instructions, as we go through the rest of
-the steps, let me zoom in a little bit because the smallest typo can
-kind of throw you off. Once you&apos;ve downloaded the code, and maybe
-you&apos;d want to look at the examples, but we&apos;ll skip it right now you
-will notice that they mentioned that inside the distribution folder,
-you&apos;re going to want to link to their CSS and their JavaScript. This is
-the tricky part. In the example, it says **path/to/lightbox.css**. They
-don&apos;t actually mean path-to, they mean whatever the name of the folder
-is.
+the steps, let me zoom in a little bit because the smallest typo can throw 
+you off. Once you&apos;ve downloaded the code, and maybe you&apos;d want to 
+look at the examples, but we&apos;ll skip it right now you will notice that 
+they mentioned that inside the distribution folder, you&apos;re going to want 
+to link to their CSS and their JavaScript. This is the tricky part. In the 
+example, it says **path/to/lightbox.css**. They don&apos;t actually mean path-to, 
+they mean whatever the name of the folder is.
 
 For us, it&apos;s going to be dist/css. Same here, when people talk about
 path/to, that&apos;s a shorthand, that&apos;s not actually the folder name,
