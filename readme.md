@@ -1774,7 +1774,7 @@ name equals prompt, what is your name. It&apos;s expecting me to type in
 probably something like Colleen or Chris or Becca, something along that
 line.
 
-In the next example, we have variable name equals Date. This is not a
+In the next example, we have variable name equals <b>Date</b>. This is not a
 string. This is something that actually can be quite a bit longer and is
 very complex. You might also have variable name equals
 **window.location**. If I wanted to in JavaScript, I could even say name
@@ -1806,7 +1806,7 @@ can represent them.
   alt="Number, window.innerWidth." />
 </p>
 
-The first type we&apos;re going to talk about is number, and it&apos;s pretty
+The first type we&apos;re going to talk about is <b>number</b>, and it&apos;s pretty
 straightforward, it&apos;s simply any type of numerical value that you want
 to store. This can be with or without decimals. JavaScript doesn&apos;t care
 if it&apos;s 2 or 2.0 or 2.6785, it&apos;s all the same.
@@ -1831,7 +1831,7 @@ decimals.
   alt="String, window.location." />
 </p>
 
-The next type is called String. String is simply a collection of
+The next type is called <b>String</b>. String is simply a collection of
 characters such as letters, numbers, punctuation, spaces, basically
 anything you can type into the keyboard.
 
@@ -1852,7 +1852,7 @@ I&apos;ve just hardcoded it to something you might expect.
   alt="Boolean, examples; false, window.closed." />
 </p>
 
-The third data type is Boolean. In programing, a boolean value is
+The third data type is <b>Boolean</b>. In programing, a boolean value is
 something that is either true or false. It doesn&apos;t have numbers to it
 or strings, it&apos;s very straightforward. In this case, I might have my
 variable status equals false, this is again called hard coding it, or in
@@ -1873,7 +1873,7 @@ of power to your page.
   alt="Object, example; document.getElementById('myID')." />
 </p>
 
-The next data type is called object. Because sometimes the variables or
+The next data type is called <b>object</b>. Because sometimes the variables or
 the nodes are more complex than just a number or couple characters. A
 node in the DOM would be a really good example. If you think about a
 paragraph element to it, paragraphs are not just a number or a string,
@@ -1896,7 +1896,7 @@ string&apos;s numbers that make up objects.
   alt="Array, example; document.getElementsByTagName('a')." />
 </p>
 
-Finally, the last type we&apos;re going to talk about is array, because in
+Finally, the last type we&apos;re going to talk about is <b>array</b>, because in
 some cases a function might want to return more than one value. We&apos;ve
 seen how the API can return something complex, like an object that could
 be a paragraph, or a div, something along that line. What if it needs to
