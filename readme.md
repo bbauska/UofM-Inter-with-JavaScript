@@ -3531,6 +3531,7 @@ That&apos;s where "this" keyword comes in.
 <p align="center" width="100%">
 <img src="./images/image170.png?raw=true"
   style="width:40%;"
+  title="Example, 'this'"
   alt="Example, 'this'." />
 </p>
 
@@ -3580,6 +3581,7 @@ this image.
 <p align="center" width="100%">
 <img src="./images/image172.png?raw=true"
   style="width:50%;"
+  title="Test console, awesome 80's haircut"
   alt="Test console, awesome 80's haircut." />
 </p>
 
