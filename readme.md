@@ -3753,7 +3753,7 @@ in these modules, it is your job to put them together. Please note, the
 answer can be as little as 4 or 5 lines of code, or much more if that
 makes more sense to you. While you are welcome to seek out help on the
 forums, please remember that you are not allowed to post code. The code
-to get you started is here: <http://codepen.io/ColleenEMc/pen/wKYxZa>
+to get you started is here: <http://codepen.io/ColleenEMc/pen/wKYxZa>.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-07">2.07 Photo Gallery (5:53)</h2>
