@@ -3836,22 +3836,24 @@ out what the source file was for this image. It located the alt text and
 use both of those things to update that upper dish. Again, I&apos;m going to
 leave.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 187.  (111) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 187. javascript function codes (111) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image184.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="JavaScript function codes"
+  alt="JavaScript function codes." />
 </p>
 
 And I&apos;m going to go over this last one. I&apos;ve actually put in the
 JavaScript function codes for you and the events. The one thing that I
 need you to do is write those functions.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 188.  (112) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 188. function update(previewpic) (112) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image188.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="function update(previewPic)"
+  alt="function update(previewPic)." />
 </p>
 
 Let&apos;s look at the functions I want you to write. The first one is
@@ -3863,11 +3865,12 @@ the text of the div so that&apos;s going to show the alt text of the preview
 image. This is what we call **upDate**.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 189.  (112) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 189. function undo() (112) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image189.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="New function undo()"
+  alt="New function undo()." />
 </p>
 
 When we leave the picture, I want you to undo what we just did, I want
@@ -4978,11 +4981,12 @@ by all the folders and files, this is usually the one folder you really
 need. Although, the examples folder is usually a little bit handy as
 well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 242.  (144) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 242. add code along with path/to/lightbox.css (144) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image242.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Add code along with path/to/lightbox.css"
+  alt="Add code along with path/to/lightbox.css." />
 </p>
 
 I&apos;m going to go back to the instructions, as we go through the rest of
@@ -5004,11 +5008,12 @@ says **lightbox** plus jQuery. Don&apos;t worry, I&apos;m going to show you all
 this. But I just want to point it out when you&apos;re going through the
 documentation, okay?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 243.  (145) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 243. add data-lightbox, for lightbox2.html (145) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image243.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Add data-lightbox, for lightbox2.html"
+  alt="Add data-lightbox, for lightbox2.html." />
 </p>
 
 Here is the format, what we are basically doing is turning every image
@@ -5023,21 +5028,23 @@ called **data-lightbox** and the special attribute called
 want all of the images to be linked together or whether they should be
 separate.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 244.  (145) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 244. lightbox2 website, image sets, data-lightbox (145) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image244.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="lightbox2 website, image sets, data-lightbox"
+  alt="lightbox2 website, image sets, data-lightbox." />
 </p>
 
 If you notice in the image sets (at the bottom), they gave everything
 the same **data-lightbox.**
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 245.  (146) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 245. folder structure, lightbox.html (146) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image245.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Folder structure for lightbox.html"
+  alt="Folder structure for lightbox.html." />
 </p>
 
 That&apos;s it, that&apos;s all the documentation we&apos;re going to go through.
@@ -5048,11 +5055,12 @@ js folder, but I&apos;ve added a new file called **lightbox.html**. It&apos;s
 just a kind of shortened version of the neighborhood.html, so we won&apos;t
 worry about it too much.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 246.  (146) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 246. dist/css/lightbox.css (146) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image246.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Add dist/css/lightbox.css"
+  alt="Add dist/css/lightbox.css." />
 </p>
 
 But now I also have the dist folder. I just copied and dragged to the
@@ -5065,14 +5073,16 @@ I like to keep it separate because I like to know if, when something&apos;s
 broken, if it was my code or their code. All I&apos;ve really done is add
 this dist folder right here, let&apos;s close up the folder.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 247/248.  (147) ~~~~~~~~~~~~~~~~~~-->
+<!--~ 247/248. link stylesheet, dist/css/lightbox.css & dist/js/lightbox-plus-jquery.js (147) ~~-->
 <p align="center" width="100%">
 <img src="./images/image247.png?raw=true"
   style="width:45%;"
-  alt="." />
+  title="Link stylesheet, dist/css/lightbox.css"
+  alt="Link stylesheet, dist/css/lightbox.css." />
 <img src="./images/image248.png?raw=true"
   style="width:45%;"
-  alt="." />
+  title="Link JavaScript, dist/js/lightbox-plus-jquery.js"
+  alt="Link JavaScript, dist/js/lightbox-plus-jquery.js." />
 </p>
 
 Now, as we go through, you can see instead of path/to the
@@ -5081,11 +5091,12 @@ all the way to the bottom, and instead of having
 **path/to/js/lightbox**, I&apos;ve done the **dist/js/lightbox-plus-query**.
 I&apos;m going to save this for just a second, and I&apos;m going to open it up.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 249.  (147) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 249. abbreviated page with four images (147) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image249.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Abbreviated page with four images"
+  alt="Abbreviated page with four images." />
 </p>
 
 What we have here, as I mentioned, is just an abbreviated page where I
@@ -5094,15 +5105,16 @@ them, don&apos;t do anything, all right? I&apos;ve connected to the CSS and
 I&apos;ve connected to the JavaScript.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 250.  (148) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 250. a href, data-lightbox = 'images' (148) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image250.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Update a href, adding data-lightbox='images'"
+  alt="Update a href, adding data-lightbox='images'." />
 </p>
 
-But now it&apos;s time for me to update my html. Let&apos;s take a look at that
-very first image. What I needed to do was I needed to add an &lt;a&gt; tag
+But now it&apos;s time for me to update my HTML. Let&apos;s take a look at that
+very first image. What I needed to do was add an &lt;a&gt; tag
 around it. And if you remember, the href for that tag should be the
 exact same thing as the image itself. We want to click on the image and
 then open up that image in its own window. I have my **data-lightbox**,
@@ -5125,14 +5137,16 @@ right? So normally I add it to the first one and then kind of copy and
 paste it for the other ones. I&apos;m going to save this and let&apos;s look at
 it again, all right?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 251/252.  (149) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 251/252. test two images in lightbox.html (149) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image251.png?raw=true"
   style="width:45%;"
-  alt="." />
+  title="First test, images in lightbox.html"
+  alt="First test, images in lightbox.html." />
 <img src="./images/image252.png?raw=true"
   style="width:45%;"
-  alt="." />
+  title="2nd test, images in lightbox.html"
+  alt="2nd test, images in lightbox.html." />
 </p>
 
 Let&apos;s try clicking on the first image. Not only does it pop up, but I
@@ -5163,11 +5177,12 @@ Hi everyone. Earlier we did a Code With Me where we wanted to make one
 image, a random image. Now, let&apos;s talk about what we would do if we
 want to use JavaScript to update numerous images.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 254.  (150) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 254. test, random images (150) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image254.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Test parks.html, random images"
+  alt="Test parks.html, random images." />
 </p>
 
 For instance, in this example, I have now changed the code so that I get
@@ -5176,43 +5191,47 @@ because I didn&apos;t give it a lot of options, but you can see that it&apos;s
 three different pictures each time. Let&apos;s take a look at the code to
 see how we do this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 255.  (150) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 255. onload setimages (150) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image255.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="body onload, setImages()"
+  alt="body onload, setImages()." />
 </p>
 
 Let&apos;s start off by looking at our body tag. Once again, I&apos;ve used the
 onload event, but this time I&apos;ve used a function called
 &quot;**setImages()**&quot;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 256.  (151) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 256. images inside flex class (151) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image256.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Images inside flex class"
+  alt="Images inside flex class." />
 </p>
 
 If we scroll a little further, we can see from the structure of the page
 that the images I want to change are the images that are inside the flex
 class. Right now, I have 1, 2, 3 images in here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 257.  (151) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 257. script tag link to javascript folder (151) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image257.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Script tab link to JavaScript folder"
+  alt="Script tab link to JavaScript folder." />
 </p>
 
 Then at the very bottom, I&apos;m using my script tag to link to my
 JavaScript folder.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 258.  (152) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 258. function setimages (152) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image258.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="function setImages();"
+  alt="function setImages();" />
 </p>
 
 Let&apos;s check out the JavaScript code. Once again, I&apos;ve created a
@@ -5246,11 +5265,12 @@ we did earlier. But now, instead of using something like
 **currentImage,** its currentImages&lbrack;i&rbrack;, the first image, the second
 image, the third image.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 259.  (153) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 259. test inspect console, parks.html (153) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image259.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Test Inspect Console, parks.html, images 0, 1 and 2"
+  alt="Test Inspect Console, parks.html, images 0, 1 and 2." />
 </p>
 
 Let&apos;s take a look and I&apos;m going to go back to the website one more
@@ -5278,22 +5298,24 @@ using a mouse can get that functionality, but people are using the
 keyboard cannot. Let&apos;s use looping to also add a bit more accessibility
 to our page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 260.  (154) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 260. html, no tabindex on images (154) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image260.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="HTML, No tab index on any images"
+  alt="HTML, No tab index on any images." />
 </p>
 
 Back here in my HTML code, I can see that none of my images have an
 attribute called tab index. Tab index is what allows people to use the
 keyboard to access an element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 261.  (154) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 261. current image, set attribute tabindex 0 (154) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image261.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="In JS, currentImages, set attribute tabindex to 0"
+  alt="In JS, currentImages, set attribute tabindex to 0." />
 </p>
 
 I could go in here and I could start adding tabindex=&quot;0&quot; to all of my
@@ -5306,11 +5328,12 @@ source, I&apos;m going to use a new function called **setAttribute()**. I&apos;m
 going to say, let&apos;s set the &quot;tabindex&quot; equal to 0. I&apos;m going to save
 this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 262.  (155) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 262. inspect console, tabindex (155) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image262.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Inspect console, check tabindex"
+  alt="Inspect console, check tabindex." />
 </p>
 
 Let&apos;s go back to the website. I&apos;m going to refresh, and I&apos;m going to
@@ -5318,24 +5341,26 @@ go in and I&apos;m going to check out these elements. Go right here,
 **Inspect**. We can now see that each one of these images has a
 tabindex=&quot;0&quot; in there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 263.  (155) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 263. style, img hover, focus, opacity 1 (155) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image266.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Style, img hover, focus, opacity 1"
+  alt="Style, img hover, focus, opacity 1." />
 </p>
 
-My last step actually is to go back and update my style sheet as well.
+My last step is to go back and update my style sheet as well.
 Here I am in my style sheet and I&apos;m going to say, &quot;anything I say
-people can do with hover let&apos;s also let them do it with focus.&quot; Back
+people can do with hover let&apos;s also do it with focus.&quot; Back
 to our page. Now that I&apos;m here, I&apos;m going to begin to tab. It&apos;s going
 to go through my links.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 264.  (156) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 264. inspect console, loop through images (156) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image264.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Inspect console, loop through images, update code"
+  alt="Inspect console, loop through images, update code." />
 </p>
 
 Now you can see it is also allowing me to tab to the images as well.
@@ -5536,24 +5561,28 @@ additional images of your own for total of six images, and we&apos;re going
 to use the Tab key to that people can use the same type of functionality
 as with the mouse.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 269/270.  (160) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 269/270. example, images to tab through with events (160) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image269.png?raw=true"
   style="width:45%;"
-  alt="." />
+  title="Example, images to tab through with events, Styling with a Bandana."
+  alt="Example, images to tab through with events, Styling with a Bandana." />
 <img src="./images/image270.png?raw=true"
   style="width:45%;"
-  alt="." />
+  title="More images to tab through with events, With My Boy."
+  alt="More images to tab through with events, With My Boy." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 271/272.  (160) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 271/272. example, tab through and watch events (160) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image271.png?raw=true"
   style="width:45%;"
-  alt="." />
+  title="Example, tab through images and watch events"
+  alt="Example, tab through images and watch events." />
 <img src="./images/image272.png?raw=true"
   style="width:45%;"
-  alt="." />
+  title="Again, tab through and watch events"
+  alt="Again, tab through and watch events." />
 </p>
 
 Watch as I begin the tab, I&apos;m going to tab again. I&apos;m going to tab a
@@ -5562,11 +5591,14 @@ goes back to the original, a lot of students get into this trap where
 they only write an event for when it goes in focus. But the opposite of
 focus is something called blur, make sure that you code for both.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 273.  (161) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 273. general guidelines (161) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image273.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="General Guidelines; Use your own images, validate using W3, Wave, or aXe and 
+    be compassionate"
+  alt="General Guidelines; Use your own images, validate using W3, Wave, or aXe and 
+    be compassionate." />
 </p>
 
 As always, we&apos;re going to ask you to follow some general guidelines.
