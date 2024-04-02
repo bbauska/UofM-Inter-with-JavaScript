@@ -1153,7 +1153,7 @@ methods.
 <img src="./images/image041.png?raw=true"
   style="width:45%;"
   title="innerHTML"
-  alt="innerHTML." />
+  alt="innerHTML" />
 </p>
 
 One of the more complex methods you can use is called **innerHTML**. And with **innerHTML**, 
@@ -1973,10 +1973,12 @@ I don&apos;t know how many I added but we&apos;re going to do it.
 <p align="center" width="100%">
 <img src="./images/image086.png?raw=true"
   style="width:45%;"
-  alt="." />
+  title="Prompt for name as variable"
+  alt="Prompt for name as variable." />
 <img src="./images/image087.png?raw=true"
   style="width:45%;"
-  alt="." />
+  title="Display name as variable"
+  alt="Display name as variable." />
 </p>
 
 I can try running this again. And when I type in Colleen, you can see
@@ -3460,6 +3462,7 @@ I want it to be closed. And down here, I want it to be open.
 <p align="center" width="100%">
 <img src="./images/image165.png?raw=true"
   style="width:45%;"
+  title="Test, change style of HTML element"
   alt="Test, change style of HTML element." />
 <img src="./images/image166.png?raw=true"
   style="width:45%;"
@@ -3604,7 +3607,7 @@ click on an image and the event knew that this was the image I was
 clicking on.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 174. onclick, this, innerhtml, div (102) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 174. div onclick, this, innerhtml (102) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image174.png?raw=true"
   style="width:50%;"
@@ -3653,11 +3656,12 @@ they&apos;re using the same function, it&apos;s actually going to show different
 results.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 177.  (104) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 177. inspect log console, onclick display id (104) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image177.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Inspect log console, onClick displayId of 'this'"
+  alt="Inspect log console, onClick displayId of 'this'." />
 </p>
 
 Let&apos;s see what happens when I start to click. ID-1, ID-1, ID-2, ID-2.
@@ -3667,14 +3671,15 @@ a slightly more colorful example. That I think also makes this point
 really well.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 178.  (104) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 178. function showproperties (104) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image178.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="function showProperties of element, display alt text of images"
+  alt="function showProperties of element, display alt text of images." />
 </p>
 
-In this example let&apos;s start right off with the JavaScript. I have a
+In this example let&apos;s start off with the JavaScript. I have a
 function called showProperties. And it is expecting to be sent some sort
 of element. Remember, I can call this parameter anything I want. I can
 call it element, I can call it e, I can call it elem. It doesn&apos;t matter
@@ -3695,11 +3700,12 @@ I have shown property and the keyword this which says send this image
 that I am hovering over with my mouse and call that property.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 179.  (105) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 179. test, hover showproperties, alt text (105) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image179.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Test, hover showProperties, alt text"
+  alt="Test, hover showProperties, alt text." />
 </p>
 
 Let&apos;s take a look and see how this works. I&apos;m going to hover over the
@@ -3721,11 +3727,12 @@ to do. But just because you know how to do it, doesn&apos;t mean you don&apos;t
 have to stop and think and really process it in your mind first.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 180.  (106) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 180. review, 'this' (106) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image180.png?raw=true"
   style="width:40%;"
-  alt="." />
+  title="Review, 'this'"
+  alt="Review, 'this'." />
 </p>
 
 The key word 'this', the concept of the word 'this', can be really tricky to
@@ -3788,11 +3795,12 @@ specific planner to put into place.
 
 So, let&apos;s take a look at the gallery homework.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 183.  (109) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 183. example, codepen photo gallery homework (109) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image183.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Example, CodePen photo gallery homework"
+  alt="Example, CodePen photo gallery homework." />
 </p>
 
 In order to begin this assignment, I&apos;m going to give you the HTML code
@@ -3801,11 +3809,12 @@ three images underneath it. Each one of those images has a link to this
 source file and it has alt text.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 184.  (110) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 184. example 2, codepen photo gallery homework (110) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image184.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Example #2, CodePen photo gallery homework"
+  alt="Example #2, CodePen photo gallery homework." />
 </p>
 
 So right here, its alt text is Styling with a Bandana. And did you
@@ -3814,21 +3823,23 @@ source image and the text for the main div.
 
 We&apos;re creating a photo gallery here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 185.  (110) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 185. example 3, codepen photo gallery homework (110) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image185.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Example #3, CodePen photo gallery homework"
+  alt="Example #3, CodePen photo gallery homework." />
 </p>
 
 As I leave the picture and I go off to this side, we go back to the
 original image in color.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 186.  (111) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 186. example 4, codepen photo gallery homework (111) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image186.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Example #4, CodePen photo gallery homework"
+  alt="Example #4, CodePen photo gallery homework." />
 </p>
 
 When I go over the next picture, you can see boom it went in and found
@@ -3934,7 +3945,7 @@ Really try to use something that can change as the document changes.
 <img src="./images/image192.png?raw=true"
   style="width:40%;"
   title="Tips"
-  alt="Tips." />
+  alt="Tips" />
 </p>
 
 Okay, so a couple tips to get you started. The code you need to write
@@ -4421,25 +4432,28 @@ want to add additional things to the end of our array. All right, let&apos;s
 get started. In this function, it&apos;s going to ask us what our favorite
 food is. Once they ask, we need to know where should we put it?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 208.  (127) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 208. index starts at 0 (zero) (127) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image208.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Index starts at 0 (zero)"
+  alt="Index starts at 0 (zero)." />
 </p>
 
 Right now, I&apos;m going to draw up on the screen to get an idea of what
 the index of each one of these elements is. It starts at 0, 1, 2 and 3.
 So this means we want to put the next fruit in position 4.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 209/210.  (127) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 209/210. test button, onclick add to array (127) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image209.png?raw=true"
   style="width:45%;"
-  alt="." />
+  title="Test button, onClick add to array"
+  alt="Test button, onClick add to array." />
 <img src="./images/image210.png?raw=true"
   style="width:45%;"
-  alt="." />
+  title="Test, adding to an array"
+  alt="Test, adding to an array." />
 </p>
 
 Let&apos;s take a look. I click Add Your Favorite. I&apos;ll say Strawberry. And
@@ -4457,11 +4471,12 @@ variable here, instead of hard coding a number. My program will work no
 matter how many different elements I add. Length is the count of fruits
 in the array.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 211.  (128) ~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 211. test, using arrays (128) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image211.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Test, using arrays"
+  alt="Test, using arrays." />
 </p>
 
 Let&apos;s add two more. And I can add Peach. And I can add another one.
@@ -4658,7 +4673,8 @@ my JavaScript file that has that function.
 <p align="center" width="100%">
 <img src="./images/image219.png?raw=true"
   style="width:50%;"
-  alt="." />
+  title="Randomly load images"
+  alt="Randomly load images." />
 </p>
 
 Let&apos;s pop back up to the top. What is pickImage going to do? Well,
@@ -4956,7 +4972,7 @@ that there&apos;s a number of ways to get started.
   alt="Lightbox 2, in github." />
 <img src="./images/image240.png?raw=true"
   style="width:45%;"
-  title"Lightbox 2, Download ZIP"
+  title="Lightbox 2, Download ZIP"
   alt="Lightbox 2, Download ZIP." />
 </p>
 
@@ -5545,9 +5561,11 @@ mouse users.
 <p align="center" width="100%">
 <img src="./images/image267.png?raw=true"
   style="width:45%;"
+  title="On hover, expand image"
   alt="On hover, expand image." />
 <img src="./images/image268.png?raw=true"
   style="width:45%;"
+  title="On hover, display alt text"
   alt="On hover, display alt text." />
 </p>
 
@@ -5691,7 +5709,7 @@ far, and excited to keep learning more.
 <img src="./images/image276.png?raw=true"
   style="width:40%;"
   title="Congratulations"
-  alt="Congratulations." />
+  alt="Congratulations" />
 </p>
 
 However, I do want to warn you right now that what we&apos;ve covered in
