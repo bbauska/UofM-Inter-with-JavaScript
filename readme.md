@@ -64,7 +64,7 @@ responsive design and completing a capstone project.
 <h2><a href="#table-of-contents">Table of Contents</a></h2>
 
 ### [**Course Information**](#chb)
->#### * [**Syllabus**](#chb-1)
+>#### * [**Syllabus**](#syllabus)
 >#### * [**Resources**](#chb-2)
 >#### * [**Source Code for Each Week**](#chb-3)
 >#### * [**Course Slides**](#chb-4)
@@ -3985,7 +3985,7 @@ These commands may return zero, one or more Nodes. So now we need to
 find a way to handle dealing with collections of data, rather than just
 one thing at a time. This is where Arrays come in. Let&apos;s get started.
 
-<h3>Resources</h3>
+<h3 id="chb-2">Resources</h3>
 
 <h3>Readings</h3>
 
@@ -4509,7 +4509,7 @@ Code](https://intro-webdesign.com/v3/javascript.html#code)
 It is organized by week, so you can check to see if any code is provided
 for this week&apos;s lessons.
 
-<h3>Lecture Slides</h3>
+<h3 id="chb-4">Lecture Slides</h3>
 
 To support learners, accessible lecture slides are provided as
 downloadable PDF files below, and individually within each lecture
