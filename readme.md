@@ -3,7 +3,7 @@ title: |
   #3 University of Michigan Interactivity with JavaScript
   by Colleen van Lent, Ph.D. (lecturer, school of information)
 author: "bbauska"
-date last editted: "2/29/2024 9+am"
+date last editted: "4/1/2024 9+pm"
 output: 
   markdown:
     with some style
@@ -61,7 +61,7 @@ A basic understanding of HTML and CSS is expected when you enroll in
 this class. Additional courses focus on enhancing the styling with
 responsive design and completing a capstone project.
 
-<h2><a href="#table-of-contents">Table of Contents</a></h2>
+<h2 id="chb"><a href="#table-of-contents">Table of Contents</a></h2>
 
 ### [**Course Information**](#chb)
 >#### * [**Syllabus**](#syllabus)
