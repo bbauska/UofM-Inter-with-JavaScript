@@ -116,38 +116,38 @@ yet, but it will be a great way to get your feet wet with traditional
 programming. After that we go back to the basics of how a computer uses
 data. We begin with variables, expressions, and operators.
 
-1.  **[Introduction](https://www.coursera.org/lecture/javascript/introduction-EYX66)&ast;
-    (4:28) (1)**
+1.  <b>[Introduction](https://www.coursera.org/lecture/javascript/introduction-EYX66)&ast;
+    (4:28) (1)</b>
 
-> **Link to All of the Code for Week One**
+> <b>Link to All of the Code for Week One</b>
 >
-> **The Document Object Model (DOM)**
+> <b>The Document Object Model (DOM)</b>
 
-2.  **DOM Review with Object Oriented Programming&ast; (6:32) (2)**
+2.  <b>DOM Review with Object Oriented Programming&ast; (6:32) (2)</b>
 
-> **Accessing the DOM Methods**
+> <b>Accessing the DOM Methods</b>
 >
-> **Newer DOM Methods**
+> <b>Newer DOM Methods</b>
 
-> **Semicolons**
+> <b>Semicolons</b>
 
-3.  **Output&ast; (3)**
+3.  <b>Output&ast; (3)</b>
 
-> **Trying to Create and Debug Your Own Output**
+> <b>Trying to Create and Debug Your Own Output</b>
 
-4.  **Variables&ast; (4)**
+4.  <b>Variables&ast; (4)</b>
 
-5.  **Data Types&ast; (5)**
+5.  <b>Data Types&ast; (5)</b>
 
-6.  **Operators and Expressions&ast; (6)**
+6.  <b>Operators and Expressions&ast; (6)</b>
 
-> **Discussion - CodePen**
+> <b>Discussion - CodePen</b>
 >
-> **Materials**
+> <b>Materials</b>
 >
-> **The History of &quot;Debugging&quot;**
+> <b>The History of &quot;Debugging&quot;</b>
 
-**Summary:** Data Types
+<b>Summary:</b> Data Types
 
 <h3 id="week-2">Week Two: JavaScript Interactive Photo Gallery</h3>
 
@@ -163,34 +163,34 @@ particular you will learn about the JavaScript Mouse Events and Touch
 Events. This week&apos;s materials will end with a photo gallery example
 that you can create along with me.
 
-> **Reading: Link to All of the Code for Week Two**
+> <b>Reading: Link to All of the Code for Week Two</b>
 >
-> **Reading: Functions**
+> <b>Reading: Functions</b>
 
-1.  **[Functions](https://www.coursera.org/lecture/javascript/functions-Ltkbl)&ast;
-    (1)**
+1.  <b>[Functions](https://www.coursera.org/lecture/javascript/functions-Ltkbl)&ast;
+    (1)</b>
 
-2.  **Code Placement&ast; (2)**
+2.  <b>Code Placement&ast; (2)</b>
 
-> **Organizing Your Code**
+> <b>Organizing Your Code</b>
 
-3.  **Folder Structure / Organizing Your Code&ast; (3)**
+3.  <b>Folder Structure / Organizing Your Code&ast; (3)</b>
 
-4.  **Events&ast; (4)**
+4.  <b>Events&ast; (4)</b>
 
-> **Mastering Events and Functions**
+> <b>Mastering Events and Functions</b>
 
-5.  **Code With Me -- Events&ast; (5)**
+5.  <b>Code With Me -- Events&ast; (5)</b>
 
-> **Just a little note before the next lesson**
+> <b>Just a little note before the next lesson</b>
 
-6.  **&quot;this&quot;&ast; (6)**
+6.  <b>&quot;this&quot;&ast; (6)</b>
 
-> **Homework Time!!**
+> <b>Homework Time!!</b>
 
-7.  **Photo Gallery&ast; (7)**
+7.  <b>Photo Gallery&ast; (7)</b>
 
-**Summary:** JavaScript Interactive Photo Gallery
+<b>Summary:</b> JavaScript Interactive Photo Gallery
 
 <h3 id="week-3">Week Three: Arrays and Looping</h3>
 
@@ -199,40 +199,40 @@ and looping. Arrays allow you to represent groups of related
 information. Looping provides efficiency and flexibility to your
 programs. Using both we will expand upon the photo gallery example.
 
-> **Reading: Link to All of the Code for Week Three**
+> <b>Reading: Link to All of the Code for Week Three</b>
 >
-> **Reading: A JavaScript Cheat Sheet**
+> <b>Reading: A JavaScript Cheat Sheet</b>
 >
-> **Reading: Arrays (Tabindex and Accessibility)**
+> <b>Reading: Arrays (Tabindex and Accessibility)</b>
 >
-> **Reading: Using JavaScript with Attributes**
+> <b>Reading: Using JavaScript with Attributes</b>
 >
-> **Reading: Arrays**
+> <b>Reading: Arrays</b>
 
-1.  **[JavaScript Arrays](https://www.coursera.org/lecture/javascript/javascript-arrays-g8N8v)&ast;
-    (1)**
+1.  <b>[JavaScript Arrays](https://www.coursera.org/lecture/javascript/javascript-arrays-g8N8v)&ast;
+    (1)</b>
 
-2.  **Code With Me -- Arrays&ast; (2)**
+2.  <b>Code With Me -- Arrays&ast; (2)</b>
 
-> **Resources**
+> <b>Resources</b>
 >
-> **Writing Loops in JavaScript**
+> <b>Writing Loops in JavaScript</b>
 >
-> **Reading: Advanced Coding Techniques**
+> <b>Reading: Advanced Coding Techniques</b>
 >
-> **End of week 3...**
+> <b>End of week 3...</b>
 
-3.  **JavaScript Iteration&ast; (3)**
+3.  <b>JavaScript Iteration&ast; (3)</b>
 
-4.  **Flow Of Control&ast; (4)**
+4.  <b>Flow Of Control&ast; (4)</b>
 
-5.  **Code With Me - Combining Loops and Conditionals&ast; (5)**
+5.  <b>Code With Me - Combining Loops and Conditionals&ast; (5)</b>
 
-6.  **Advanced Conditionals&ast; (6)**
+6.  <b>Advanced Conditionals&ast; (6)</b>
 
-7.  **Common Errors&ast; (7)**
+7.  <b>Common Errors&ast; (7)</b>
 
-**Summary:** Arrays and Looping
+<b>Summary:</b> Arrays and Looping
 
 <h3 id="week-4">Week Four: Using JS for Interactive Images</h3>
 
@@ -250,39 +250,39 @@ input and send data to via a webpage. We will look at how you can use
 JavaScript to add options to your forms, to pre-fill data based on
 previous input, and even to check that passwords match.
 
-> **Reading:** Link to All of the Code for Week Four
+> <b>Reading:</b> Link to All of the Code for Week Four
 >
-> **Reading:** Introduction to Forms
+> <b>Reading:</b> Introduction to Forms
 
-1.  **Code With Me:** Randomizing Your Images Using Arrays (1)
+1.  <b>Code With Me:</b> Randomizing Your Images Using Arrays (1)
 
-2.  **Code With Me:** Using Lightbox (2)
+2.  <b>Code With Me:</b> Using Lightbox (2)
 
-3.  **Code With Me:** Looping through Images (3)
+3.  <b>Code With Me:</b> Looping through Images (3)
 
 4.  Final Project Description (4)
 
-> **Reading:** &quot;Cool Stuff&quot; - Friend or Foe? (old but still valid?)
+> <b>Reading:</b> &quot;Cool Stuff&quot; - Friend or Foe? (old but still valid?)
 
-5.  **Conclusion&ast; (5)**
+5.  <b>Conclusion&ast; (5)</b>
 
-> **Reading:** Intro to JQuery
+> <b>Reading:</b> Intro to JQuery
 >
-> **Reading:** Post-course Survey
+> <b>Reading:</b> Post-course Survey
 >
-> **Reading:** Keep Learning with Michigan Online
+> <b>Reading:</b> Keep Learning with Michigan Online
 >
-> **New Reading:** Resources
+> <b>New Reading:</b> Resources
 >
-> **Reading:** Advanced Coding Techniques
+> <b>Reading:</b> Advanced Coding Techniques
 >
-> **Reading:** "Cool Stuff"
+> <b>Reading:</b> "Cool Stuff"
 >
-> **Final Project Description**
+> <b>Final Project Description</b>
 
-**Summary:** Using JavaScript for Interactive Images
+<b>Summary:</b> Using JavaScript for Interactive Images
 
-**Welcome to Introduction to JavaScript**, taught by Colleen van Lent!
+<b>Welcome to Introduction to JavaScript</b>, taught by Colleen van Lent!
 
 This course is an introduction to the use of the JavaScript programming
 language to add some interactivity to your website. This course is meant
@@ -525,7 +525,7 @@ these nodes have all types of different attributes, such as text,
 background color, width, etc.
 
 With JavaScript it is easy to write code that basically says &quot;I want to
-grab **that** part of the webpage and change it.&quot; In this lecture I
+grab <b>that</b> part of the webpage and change it.&quot; In this lecture I
 review the DOM and talk about how it is related to JavaScript. There is
 no code associated with this lecture, but if you check under the
 resources, I do include a link to site where you can find specifics on
@@ -696,7 +696,7 @@ elements, and attributes, I&apos;m hoping this side will make a little bit
 more sense. For a view of a document, you can say you know that I want
 to get a certain element using the id. You can also say oh I&apos;ve got
 this document grab all the elements that happen to be a paragraph or a
-link. Now this one&apos;s new, this idea of **element.inner.HTML**.
+link. Now this one&apos;s new, this idea of <b>element.inner.HTML</b>.
 
 A paragraph is an element and you assume there is some sort of text
 inside that paragraph. Well, if you&apos;ve been coding HTML or CSS, you
@@ -759,7 +759,7 @@ document.querySelectorAll().
     you can also return a single element if you use querySelector. The
     [querySelector()](https://www.w3schools.com/jsref/met_document_queryselector.asp)
      method returns the first child element that matches a specified
-    **CSS selector(s)** of an element. You can use it to return the
+    <b>CSS selector(s)</b> of an element. You can use it to return the
     first h1 element (h1), the first paragraph (p), the first link (a).
     If you want to search for an id, you must include the hashtag (#) in
     the selector. If you want to search for a class you must include a
@@ -769,7 +769,7 @@ document.querySelectorAll().
 <h4>Methods that return a collection of elements</h4>
 
 It is possible to return a collection of elements rather than just one,
-for instance if you want to return ***all*** of the paragraph elements
+for instance if you want to return <b><i>all</i></b> of the paragraph elements
 and not just the first one. Or all of the elements that share the same
 class. In that case you will want to use getElements (notice the s at
 the end) or querySelectorAll.
@@ -797,22 +797,22 @@ the end) or querySelectorAll.
     selector is a class. [Sample Code for
     querySelectorAll](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_document_queryselectorall_class)
 
-Important!  Even if there is just ***one*** element that matches the
+Important!  Even if there is just <b><i>one</i></b> element that matches the
 selector, that element is returned as part of an array so you will need
 to use an index to access it.
 
 <h4>Using getElement vs querySelector</h4>
 
 There are a few technical differences between your options. The
-**getElement** and **getElements** methods if the specific value
-doesn&apos;t exist, the method will return null. Both **querySelector()**
-and **querySelectorAll()** throw a **SYNTAX_ERR** exception if the
+<b>getElement</b> and <b>getElements</b> methods if the specific value
+doesn&apos;t exist, the method will return null. Both <b>querySelector()</b>
+and <b>querySelectorAll()</b> throw a <b>SYNTAX_ERR</b> exception if the
 selector(s) is invalid. The querySelector options are also faster. But
 there are less technical differences too. Do you often forget to use Id
 instead of ID? Then maybe you will prefer querySelector. If you are
 prone to forgetting the pound '#' or the period '.' in your selectors
 then maybe you would prefer the methods that describe the selectors, e.g
-**getElementsByClassName**. Here is an additional (optional) reading if
+<b>getElementsByClassName</b>. Here is an additional (optional) reading if
 you would like to learn more about the differences between the two
 groups of methods: [querySelector vs
 getElementById](https://dev.to/eidorianavi/queryselector-vs-getelementbyid-gm1)
@@ -842,26 +842,26 @@ yourself.
   alt="Selecting the First Element; querySelector()." />
 </p>
 
-We&apos;ve been using **getElementById()**. How it works is that it takes a
+We&apos;ve been using <b>getElementById()</b>. How it works is that it takes a
 single parameter, and that parameter must be an Id selector. If you say
-**getElementById(h1)**, it won&apos;t know that you&apos;re actually looking for
+<b>getElementById(h1)</b>, it won&apos;t know that you&apos;re actually looking for
 an h1 tag, is looking for something with the ID=h1.
 
 If you&apos;re interested in selecting the first element of a certain type,
-another option for you is the **querySelector()** method. Similar to
-**getElementById**, it&apos;s going to return the first result. But that
+another option for you is the <b>querySelector()</b> method. Similar to
+<b>getElementById</b>, it&apos;s going to return the first result. But that
 selector can be anything. Well, anything except for pseudo-elements. The
 selector can be a tag name. It can be an ID. It can be a class. It can
 be a very complicated selector with tags, classes, and IDs all put
 together.
 
-The thing to remember though, is if you decide to use **querySelector**,
+The thing to remember though, is if you decide to use <b>querySelector</b>,
 and you are looking for an ID or a class, you have to remember to
 include that hashtag &num; or the period. We&apos;ll do some examples later in
 the course to show you, but it&apos;s something that students often forget.
 I wanted to mention it right off the bat. If you&apos;re looking to select a
-single element, you can continue to use **getElementById,** or you can
-start to play around and use **querySelector** as well.
+single element, you can continue to use <b>getElementById,</b> or you can
+start to play around and use <b>querySelector</b> as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. selecting multiple elements (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -872,13 +872,13 @@ start to play around and use **querySelector** as well.
 </p>
 
 If you want to select multiple elements, well, there&apos;s something called
-**querySelectorAll()**. It&apos;s pretty much identical to
-**querySelector**, but instead of returning a single element, it will
+<b>querySelectorAll()</b>. It&apos;s pretty much identical to
+<b>querySelector</b>, but instead of returning a single element, it will
 return all the found values. The technical term for it is it&apos;ll return
 a node list, but let&apos;s just consider it an array because that&apos;s what
-we call it in this class. Again, while **getElementsByClassName**
+we call it in this class. Again, while <b>getElementsByClassName</b>
 doesn&apos;t need to include that dot period in your selector,
-**querySelectorAll** does. You need to be very specific about exactly
+<b>querySelectorAll</b> does. You need to be very specific about exactly
 what selector you&apos;re looking for. But it&apos;s not really that
 complicated. Think back to all the code you&apos;ve been writing in your
 CSS. If you can write a selector to style something, then you can
@@ -893,23 +893,23 @@ DOM.
   alt="Deciding on a Method." />
 </p>
 
-Which one should you use? Should you be using **querySelector** and
-**querySelectorAll**? Should you be using **getElementById** or
-**getElementsByClassName**? Well, the important thing is for you and the
+Which one should you use? Should you be using <b>querySelector</b> and
+<b>querySelectorAll</b>? Should you be using <b>getElementById</b> or
+<b>getElementsByClassName</b>? Well, the important thing is for you and the
 type of codding that you&apos;re doing, speed won&apos;t be an issue. People get
 online and they debate as to one&apos;s faster than another, and to be
 honest, you could have done a lot more with that time in your life, than
-compare the two of them. Don&apos;t worry about that. **querySelector** is
+compare the two of them. Don&apos;t worry about that. <b>querySelector</b> is
 nice in that it does allow you to use any CSS selector that you&apos;d like.
 To be honest, I&apos;m less prone to typos when I use the method name. 
 
-When I use **querySelector**, sometimes I forget to include that hashtag or
-the period. But to be honest, sometimes when I do **getElementById**, I
+When I use <b>querySelector</b>, sometimes I forget to include that hashtag or
+the period. But to be honest, sometimes when I do <b>getElementById</b>, I
 love how it&apos;s mnemonic. I know exactly what I&apos;m looking for, but
 sometimes I accidentally capitalize the &quot;d&quot; in ById and then it
-doesn&apos;t work. Or if I&apos;m using **getElementsByClassName**, you&apos;ll even
+doesn&apos;t work. Or if I&apos;m using <b>getElementsByClassName</b>, you&apos;ll even
 notice sometimes when I&apos;m doing demos in this class, I forget the s. I
-write **&quot;getElementByClassName&quot;**. I liked that some of them have more
+write <b>&quot;getElementByClassName&quot;</b>. I liked that some of them have more
 descriptive names. I like how others are a little less prone to typos.
 My suggestion is you do you, you do it whichever way you prefer. But
 don&apos;t be scared off if you see code online that uses the other
@@ -921,7 +921,7 @@ Adding a semicolon () (;) indicates that you have completed a statement.
 However, unless you are writing multiple statements on the same line,
 you don&apos;t need to add a semicolon.
 
-During this course you will ***definitely*** notice that I am in the
+During this course you will <b><i>definitely</i></b> notice that I am in the
 habit of adding a semicolon to the end of every line. This is a habit I
 have because I write in a lot of different programming languages at the
 same time and the semicolon is required in some and not others.
@@ -985,8 +985,8 @@ things print out to the screen or generate some sort of output.
 
 Well, JavaScript doesn&apos;t have a built-in print function. Instead, you
 have four or five different ways where you can generate different
-things. Data is typically displayed via alerts, prompts**,
-document.write, innertHTML** or reading information directly to the
+things. Data is typically displayed via alerts, prompts<b>,
+document.write, innertHTML</b> or reading information directly to the
 console. Let&apos;s talk about each one of these.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. alert(), example (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1022,10 +1022,10 @@ can generate some output.
 
 Let me show you an example. What I&apos;ve done over here is I&apos;ve created
 the HTML that I would need to generate an alert box. I&apos;ve got my body
-tag, now this is new I have what we call is a **script** tag. The script
+tag, now this is new I have what we call is a <b>script</b> tag. The script
 tag tells the browser, oh wait, don&apos;t just print this out, I&apos;m
 actually going to give you some JavaScript that I want you to run. And
-in this case, I have my code **alert**(&quot;Hello World&quot;).
+in this case, I have my code <b>alert</b>(&quot;Hello World&quot;).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 33. sample alert popup (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1064,8 +1064,8 @@ a quick and simple way for you to generate output using the alert.
   alt="Codepen, example; prompt('Enter your name:')." />
 </p>
 
-The next way we can generate output is using **prompt**. **Prompt** is
-very similar to **alert**, but it&apos;s slightly different in that it wants
+The next way we can generate output is using <b>prompt</b>. <b>Prompt</b> is
+very similar to <b>alert</b>, but it&apos;s slightly different in that it wants
 you to do more than just click OK or Cancel. It wants you to generate
 some sort of input to put in there. As you can see, the alert and the
 prompt look very similar. They&apos;ve both got the key word, the
@@ -1084,7 +1084,7 @@ In this case when you run it, it&apos;s actually waiting for you to type
 something in. I can put in Colleen van Lent and hit OK. Now, don&apos;t get
 too excited. We didn&apos;t do anything with the stuff I put in. But, again,
 I&apos;m just giving you some of the different options. So, you have
-**alert** and you have **prompt** and both of them generate some sort of
+<b>alert</b> and you have <b>prompt</b> and both of them generate some sort of
 box where you can display information, but nothing is actually showing
 up on the page. Let&apos;s switch to the general ways in which you can
 generate output to the screen.
@@ -1098,14 +1098,14 @@ generate output to the screen.
 </p>
 
 One way, if you want something to be what we call permanent, to not just
-disappear once you hit okay, is to use what we call **document.write**.
+disappear once you hit okay, is to use what we call <b>document.write</b>.
 I&apos;m hoping that you&apos;re picking up on these ideas that we&apos;re using
 terms like document, and element, and so forth. The way that
-**document.write** works is it goes through and it says, we want you to
+<b>document.write</b> works is it goes through and it says, we want you to
 write something directly to the page. We want it to become part of the
 dom, we want it to become part of the page permanently. In this case I
 can&apos;t just use write. That won&apos;t work. Alert worked by itself, prompt
-worked by itself, but here you need to have **document.write()**. Same
+worked by itself, but here you need to have <b>document.write()</b>. Same
 thing, hopefully you&apos;re seeing the pattern. Let&apos;s see when we add
 this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1118,7 +1118,7 @@ this.
 </p>
 
 Here you can see that inside the script tag, again, I have the
-**document.write()**. But instead of things popping up or asking us for
+<b>document.write()</b>. But instead of things popping up or asking us for
 input, it writes it directly into the screen.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. codepen: document.write, #2 (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1132,7 +1132,7 @@ input, it writes it directly into the screen.
 Now I&apos;m going to change something right here. Because I put h1 inside
 the quotes. If I get rid of that you can see this still works, but
 instead of being an h1 heading, it's just regular old text. So,
-**document.write** is a way for you to generate output. But we need to
+<b>document.write</b> is a way for you to generate output. But we need to
 realize that it is probably not the best way to do it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. document.write (27) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1144,7 +1144,7 @@ realize that it is probably not the best way to do it.
 </p>
 
 Because sometimes if you&apos;re misusing it, you can overwrite other things
-that exist. So, **document.write** is something you just want to use
+that exist. So, <b>document.write</b> is something you just want to use
 when you&apos;re beginning and you don&apos;t know some of the more complex
 methods.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1156,9 +1156,9 @@ methods.
   alt="innerHTML" />
 </p>
 
-One of the more complex methods you can use is called **innerHTML**. And with **innerHTML**, 
+One of the more complex methods you can use is called <b>innerHTML</b>. And with <b>innerHTML</b>, 
 you combine this with other functions that return elements. So, you can&apos;t just say 
-**innerHTML** or **element.innerHTML**. You have to say, all right, what part of the 
+<b>innerHTML</b> or <b>element.innerHTML</b>. You have to say, all right, what part of the 
 page do I want to change? Oh, I want to change that particular paragraph, all right. 
 But how do I grab that particular paragraph? Or remember we have these different 
 APIs that can go and get things for us.
@@ -1177,7 +1177,7 @@ wanted you to recognize something right away. When we use document dot
 write alert and prompt we had parenthesis around the side, here. We
 don&apos;t have that anymore. Instead, we use an equal and we just have it
 ending with a semicolon. No parenthesis when you&apos;re using
-**inner.HTML**. How do you figure that out when you&apos;re coding? You
+<b>inner.HTML</b>. How do you figure that out when you&apos;re coding? You
 don&apos;t. You just keep coding and practicing and after a while, it
 becomes second nature to you, all right?
 
@@ -1193,8 +1193,8 @@ you an example of something we can do using innerHTML.
   alt="Codepen: h1 with id=test." />
 </p>
 
-Let&apos;s look at this, what I&apos;ve done is I made an **h1** heading and
-I&apos;ve given it the **id** of test. I also have a paragraph element a
+Let&apos;s look at this, what I&apos;ve done is I made an <b>h1</b> heading and
+I&apos;ve given it the <b>id</b> of test. I also have a paragraph element a
 little bit further down that just says, hey what happens if I&apos;d messed
 with this code?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1206,9 +1206,9 @@ with this code?
   alt="Test document.getElementById.innerHTML." />
 </p>
 
-In my **h1** heading, I actually have the words tester, but if you look
+In my <b>h1</b> heading, I actually have the words tester, but if you look
 at the web page, it says Hello World. Well, how did I do that? Because
-you can go in, and I can say **document.getElementById**. Test. It&apos;s
+you can go in, and I can say <b>document.getElementById</b>. Test. It&apos;s
 going to look through the page and go where can I find something that
 says ID equals test. There it is. All right, now I want to change
 whatever used to be in there and replace it with the words, Hello World.
@@ -1252,7 +1252,7 @@ change the second one it found, okay? All right.
 </p>
 
 Let&apos;s go play with the last output method I have for you today.
-**document.write** and enter HTML. Write directly into the browser
+<b>document.write</b> and enter HTML. Write directly into the browser
 screen. What we have in this last option is something that doesn&apos;t
 write to the browser screen, but it does write to the browser console.
 
@@ -1274,7 +1274,7 @@ doing your CSS.
 </p>
 
 Let&apos;s take a look at this example. In my HTML up here, you can see that
-I have **console.log** Hello World. Nothing too exciting going on here.
+I have <b>console.log</b> Hello World. Nothing too exciting going on here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. browser console (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1554,7 +1554,7 @@ into the variable.
   alt="Assignment statement LHS &amp; RHS." />
 </p>
 
-Here I have **var** name, and instead of just leaving it at that, I say,
+Here I have <b>var</b> name, and instead of just leaving it at that, I say,
 hey, I want you to store the name Colleen in there, all right. This is
 where when we start talking about assignment statements, I refer to LHS
 and RHS. I mean left-hand side and right-hand side of statements. The
@@ -1654,9 +1654,9 @@ We&apos;ll comment that out when we&apos;re done. All right.
   alt="Example: document.write, console.log and alert." />
 </p>
 
-I have this variable called **name**, now I can do something like
-**document.write nm.** I can also do **Console.log(nm).** If you wanted
-to you could even put in **alert(nm)**. Let&apos;s put this back in. Might
+I have this variable called <b>name</b>, now I can do something like
+<b>document.write nm.</b> I can also do <b>Console.log(nm).</b> If you wanted
+to you could even put in <b>alert(nm)</b>. Let&apos;s put this back in. Might
 want to edit all my typing out. What is your name? Well, it is Colleen.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 69. example: alert popup (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1668,7 +1668,7 @@ want to edit all my typing out. What is your name? Well, it is Colleen.
 </p>
 
 All right, so the alert popped up, but why didn&apos;t the
-**document.write** work? This is a good question, and this is actually
+<b>document.write</b> work? This is a good question, and this is actually
 an example where I can go in, that&apos;s what was going on.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 70. example: alert, cont'd (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1777,7 +1777,7 @@ line.
 In the next example, we have variable name equals <b>Date</b>. This is not a
 string. This is something that actually can be quite a bit longer and is
 very complex. You might also have variable name equals
-**window.location**. If I wanted to in JavaScript, I could even say name
+<b>window.location</b>. If I wanted to in JavaScript, I could even say name
 equals 12. Doesn&apos;t make any sense but there&apos;s nothing stopping me from
 doing it. In each of these examples, name would have what we call a
 different type. Things that are stored in the computer are completely
@@ -1813,11 +1813,11 @@ if it&apos;s 2 or 2.0 or 2.6785, it&apos;s all the same.
 
 In this example, I went in and I said you know what, I have this
 variable called width and I&apos;m going to set it using
-**window.innerWidth**. This is pretty cool actually if you&apos;re trying to
+<b>window.innerWidth</b>. This is pretty cool actually if you&apos;re trying to
 do something interesting in CSS because you can find out how wide the
 window is and then use that information to update other things.
 
-My next example is I have **var** pi, which is equal to 3.14. In this
+My next example is I have <b>var</b> pi, which is equal to 3.14. In this
 case, I hard coded it to something. In both cases, it&apos;s storing a
 number, but in the different cases or one, it&apos;s going to be, normally
 would be an integer or a whole number, and the next time it has
@@ -1840,7 +1840,7 @@ be single quotes or double quotes. And I want to be very clear here that
 in PowerPoint it&apos;s drawn the quotes as kind of forward and forward.
 Make sure you don&apos;t copy and paste and instead you do the quotes
 directly from your keyboard because the slant does matter. In this case,
-I&apos;ve done var location = **window.location**. Because it happens to be
+I&apos;ve done var location = <b>window.location</b>. Because it happens to be
 that that attribute is a string or in my second example once again,
 I&apos;ve just hardcoded it to something you might expect.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1878,13 +1878,13 @@ the nodes are more complex than just a number or couple characters. A
 node in the DOM would be a really good example. If you think about a
 paragraph element to it, paragraphs are not just a number or a string,
 there are a lot of different things that go into it. Here I might have
-var topic = **document.getElementById(&apos;myId&apos;)**. If I wanted to print
-out what topic is now, something like **document.RightTopic**. I would
+var topic = <b>document.getElementById(&apos;myId&apos;)</b>. If I wanted to print
+out what topic is now, something like <b>document.RightTopic</b>. I would
 get something that pretty much looks like junk because it&apos;s an object,
 and objects can only read illegibly using things like attributes.
 
 Using those attributes, we can go in and we might be able to say
-something along the lines of write out **topic.style, topic.innerHTML.**
+something along the lines of write out <b>topic.style, topic.innerHTML.</b>
 Different things like that can show us really the attributes or the
 string&apos;s numbers that make up objects.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1902,8 +1902,8 @@ seen how the API can return something complex, like an object that could
 be a paragraph, or a div, something along that line. What if it needs to
 return multiple things?
 
-Here I have var links **= document.getElements**. Not element, but
-elements, **ByTagName(&apos;a&apos;)**. We&apos;re going to go in, it&apos;s going to
+Here I have var links <b>= document.getElements</b>. Not element, but
+elements, <b>ByTagName(&apos;a&apos;)</b>. We&apos;re going to go in, it&apos;s going to
 search the entire document, and find all the hyperlinks in the page.
 Well, that&apos;s certainly not going to return just a single number, or a
 bunch of strings, or even a single object. Instead, it needs to return a
@@ -1923,7 +1923,7 @@ element in the array.
 
 This is the same example where I say hey, go out and grab all the links.
 Now if I wanted to write some sort of element out, I could say
-**document.write(links&lbrack;0&rbrack;)**, and it would say return the very first
+<b>document.write(links&lbrack;0&rbrack;)</b>, and it would say return the very first
 link I saw. If I had links three, it would actually return the fourth
 one because computers love to talk starting from zero and up. Now we&apos;re
 going to have an entire lecture or more on arrays later in this course.
@@ -1944,13 +1944,13 @@ I&apos;m going to put in for what is your name, I&apos;ll put in Coleen.
 
 If we look at the code, what I was doing here is I was just prompting
 for the name and then I want to write out the name. Boom, there&apos;s
-Colleen. And then I want to say, hey, what happens if I add **H1**
+Colleen. And then I want to say, hey, what happens if I add <b>H1</b>
 elements on each side. You haven&apos;t seen this plus before, and we&apos;re
 going to be talking about it soon, but what we&apos;re doing right now is
 we&apos;re doing what&apos;s called concatenating. We&apos;re saying take the name
 and add H1 on either side. So, boom, I get it bigger now. I also want to
 print out the title. That&apos;s a string. I also want to print out right
-here **document.getElementsByTagName(&apos;p&apos;)**. This is where we&apos;re
+here <b>document.getElementsByTagName(&apos;p&apos;)</b>. This is where we&apos;re
 using an array, and I just want to show you this because there&apos;s a
 really good chance this message might pop up for you and I don&apos;t want
 you to get freaked out about it.
@@ -1964,7 +1964,7 @@ you to get freaked out about it.
 </p>
 
 After I grab all the paragraph elements, if I try to print them out, it
-prints out object **HTMLCollection 0.** It says, oh, you didn&apos;t
+prints out object <b>HTMLCollection 0.</b> It says, oh, you didn&apos;t
 actually have any paragraphs in this page. If I go back, and I add a
 few, they can even be empty. Gotta love when it keeps popping up on you.
 I don&apos;t know how many I added but we&apos;re going to do it.
@@ -1998,9 +1998,9 @@ strict, but here with JavaScript they want you to have the power to try
 different things.
 
 For now, I want you to focus on learning what types of data are returned
-from those common APIs. If you do **getElementByID,** does that return a
+from those common APIs. If you do <b>getElementByID,</b> does that return a
 number, a string, an object, or an array? If you do something along the
-lines of **getTitle** or **getLinks**, what types of things are those
+lines of <b>getTitle</b> or <b>getLinks</b>, what types of things are those
 returning? If you can play with that and start to feel comfortable
 knowing what the types are, even if you don&apos;t know how they work,
 you&apos;re really going to be on your way to doing some cool programming.
@@ -2101,8 +2101,8 @@ and type a few numbers in and see what kind of response you get.
   alt="More Operators." />
 </p>
 
-Some additional operators we have are the **plus plus** and **minus
-minus**. This is the increment and the decrement. It&apos;s the same thing
+Some additional operators we have are the <b>plus plus</b> and <b>minus
+minus</b>. This is the increment and the decrement. It&apos;s the same thing
 as saying, take whatever I had before and add 1 to it. Or take whatever
 I had before and subtract 1 from it. A third operator that&apos;s very
 similar is the plus equals. You can also have minus equals. It&apos;s the
@@ -2143,8 +2143,8 @@ used to have and concatenate this new part on to it.
 Those first few operators, we use usually to assign values to a
 variable. Sometimes we use what we call Boolean operators to compare
 values instead. In this case, let&apos;s assume that I&apos;m assigned x = 12.
-Well, some of the different Boolean operators I can use are **equal
-equal**, which means don&apos;t set x equal to 5, instead, I want you to
+Well, some of the different Boolean operators I can use are <b>equal
+equal</b>, which means don&apos;t set x equal to 5, instead, I want you to
 check, is the value stored in x equal to 5? This is kind of a test case.
 Well, in this case, no, it doesn&apos;t, so it returns false. But if I have
 x==12, oh okay, yep, those two things are equivalent, so I&apos;m going to
@@ -2178,11 +2178,11 @@ want it to say yes if it&apos;s a string?
 </p>
 
 Here I&apos;ve got the equality statement that we used before, which is
-**equal equal**. If I were to say x == &quot;12&quot; the string, JavaScript
+<b>equal equal</b>. If I were to say x == &quot;12&quot; the string, JavaScript
 would say yep, yep they&apos;re the same. Even though to us it&apos;s probably
 not the case that 12 the number and 12 the string are the same thing. If
 you&apos;re looking for what we call equality with type you would use the
-**equal equal equal**, the triple equal operator. And that checks and
+<b>equal equal equal</b>, the triple equal operator. And that checks and
 says, hey are these two values the same? And are they the same type?
 This is just one more thing to put in your arsenal as you start
 programming.
@@ -2205,7 +2205,7 @@ you&apos;ll feel comfortable moving on with these operators.
 </p>
 
 Let&apos;s do one last little group or two groups before we finish up. In
-this case, I have what we call the **and and (&&).** This stands for
+this case, I have what we call the <b>and and (&&).</b> This stands for
 "and". It means, hey are the things on the left-hand side, and the
 right-hand side, are they both true? The pipes, the straight up and down
 the lines, this is what we call "or". In this case, you might want to
@@ -2277,8 +2277,8 @@ function then you can use it without really knowing the details of how
 it works. (And yes, there is a function for that.)
 
 One of the things I want you to watch for in this next module is the
-distinction between ***defining*** a function (writing the code) and
-***calling*** a function (running the code at the precise time you want
+distinction between <b><i>defining</i></b> a function (writing the code) and
+<b><i>calling</i></b> a function (running the code at the precise time you want
 it to happen).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-01">2.01 Functions (7:18)</h2>
@@ -2337,7 +2337,7 @@ it over and over again.
 </p>
 
 Let me show you an example. In this case, I declared a function called
-**welcomeMsg**. And I didn&apos;t put anything inside the parenthesis.
+<b>welcomeMsg</b>. And I didn&apos;t put anything inside the parenthesis.
 Because I said, it doesn&apos;t matter. Every time I run this function, all
 I want to happen is to have an alert that says, Welcome to JavaScript.
 And this will work numerous times. I don&apos;t have to keep writing things
@@ -2387,7 +2387,7 @@ order that you write them.
   alt="Example, function call." />
 </p>
 
-Here&apos;s an example. I have my **welcomeMsg** function, the one with the
+Here&apos;s an example. I have my <b>welcomeMsg</b> function, the one with the
 parameters. Over here, in my HTML file, or JavaScript file, the file
 I&apos;m running, is the computer gets down here, it says, oh, I know how to
 do that, check. Then it gets to our function call, where it says oh,
@@ -2415,7 +2415,7 @@ Let&apos;s talk a little bit more about those parameters that I talked
 about. Because sometimes some functions need a little bit of extra
 information in order to perform its task.
 
-Let&apos;s think about **getElementById**. That&apos;s not really going to work
+Let&apos;s think about <b>getElementById</b>. That&apos;s not really going to work
 unless you tell it which ID you&apos;re looking for. That&apos;s an extra piece
 of information or a parameter that you need to provide. The important
 thing to know is the names of the parameters for your functions,
@@ -2795,8 +2795,8 @@ link together in the right way.
   alt="Linking from an HTML file." />
 </p>
 
-2^nd^ line should be: **&lt;script
-src="js/javaFunctions.js"&gt;&lt;/script&gt;**
+2^nd^ line should be: <b>&lt;script
+src="js/javaFunctions.js"&gt;&lt;/script&gt;</b>
 
 Let&apos;s say that inside your HTML file, you want to link to your style
 sheet, your Java functions, and perhaps a picture. Well, this is the way
@@ -2901,10 +2901,10 @@ can do this.
 </p>
 
 First, let&apos;s talk about just some of the events that we normally react
-to on a web page. The first one is **onclick**, it's very
+to on a web page. The first one is <b>onclick</b>, it's very
 straightforward, if the user clicks on an HTML element, we want
 something JavaScript function to execute. We can also have
-**onmouseover, onresize**, and a very common one is **onload**.
+<b>onmouseover, onresize</b>, and a very common one is <b>onload</b>.
 
 This last one says whenever the page is loaded, I want to call some
 JavaScript functions or run some sort of JavaScript code, but please
@@ -2945,15 +2945,15 @@ for the duration that this site is loaded onto the browser.
 </p>
 
 One of the things that we need to talk about is the use of quotes. When
-we have our event such as **onclick** equals message function or
-**onclick** equals add function, anything like that we need to put the
+we have our event such as <b>onclick</b> equals message function or
+<b>onclick</b> equals add function, anything like that we need to put the
 function inside quotes. And you can use single quotes or double quotes
 in order to do this. However, I always use double quotes because it
 makes it much easier if I want to pass string arguments to the function.
 If you take a look down here, you can see I want to call the function
 called message and I need to send it this Hi message.
 
-Well, if I&apos;d done it this way **(&lt;div onclick='message('Hi')'&gt;**)
+Well, if I&apos;d done it this way <b>(&lt;div onclick='message('Hi')'&gt;</b>)
 equals message with a single quote. And then, what&apos;s going to happen
 when I try to send my screen? As soon as I add another single quote the
 browser goes, that&apos;s the end, it matches there&apos;s your whole string.
@@ -2986,12 +2986,12 @@ along with the word event.
 
 Over here in the HTML is where it&apos;s going to get a little bit more
 interesting and it&apos;s going to be the first time we&apos;re using events, I
-have three. I have **onload**, which means hey whenever I load this
+have three. I have <b>onload</b>, which means hey whenever I load this
 page, I want you to call the message function and send it the message
-load. I have **onresize** which means if I change the size of the
+load. I have <b>onresize</b> which means if I change the size of the
 browser, I want to send a different message and then finally the last
-one is **onclick**. All three of these events, **onload, onresize,
-onclick**, they&apos;re all going to call the message function, but they&apos;re
+one is <b>onclick</b>. All three of these events, <b>onload, onresize,
+onclick</b>, they&apos;re all going to call the message function, but they&apos;re
 going to call it with three different frame runners.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 135. when loaded, load event shows up (82) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3040,8 +3040,8 @@ HTML actually change based on the different events.
 
 The second example is, again, a very straightforward way of showing you
 how the events can be linked to different element types. One HTML
-element we haven&apos;t used a lot in my courses is **button**. I avoid
-using it because I think that the semantics of a **button** tag really
+element we haven&apos;t used a lot in my courses is <b>button</b>. I avoid
+using it because I think that the semantics of a <b>button</b> tag really
 conveys this idea of click me and I&apos;m going to do something, and since
 we didn&apos;t have the power to do that yet, I really didn&apos;t want to use
 that element, but now we can.
@@ -3055,7 +3055,7 @@ that element, but now we can.
 </p>
 
 What I have here is a simple JavaScript function that says, hey I want
-you to call the JavaScript **date** function, this is something that I
+you to call the JavaScript <b>date</b> function, this is something that I
 didn&apos;t write. You know that it was written by JavaScript partly because
 well, it&apos;s yellow.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3068,8 +3068,8 @@ well, it&apos;s yellow.
 </p>
 
 All right, so I&apos;m going to use this function and connect it with the
-**button**. So, I have **button** type equals **button** and I have
-**onclick** equals **displayDate()**.
+<b>button</b>. So, I have <b>button</b> type equals <b>button</b> and I have
+<b>onclick</b> equals <b>displayDate()</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 141. example, js date function, onclick (85) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3357,11 +3357,11 @@ our HTML. We have our CSS. And we have our JavaScript.
 Let&apos;s start with the CSS, because it&apos;s the simplest and it&apos;s not
 going to change as this program runs.
 
-I&apos;ve declared two classes. One called **.closed**, and one called
-**.open**, and what they do is, well, it&apos;s pretty straightforward. The
-**.closed** one says, I want to change the display to none. What&apos;s
+I&apos;ve declared two classes. One called <b>.closed</b>, and one called
+<b>.open</b>, and what they do is, well, it&apos;s pretty straightforward. The
+<b>.closed</b> one says, I want to change the display to none. What&apos;s
 going to happen is, right down here, this one right here, it&apos;s going to
-disappear. However, if I were to set the class to **.open**, well, then
+disappear. However, if I were to set the class to <b>.open</b>, well, then
 now it&apos;s going to reappear again. That&apos;s all we really need to
 realize, is that .closed will make it go away, .open is going to make it
 come back.
@@ -3386,8 +3386,8 @@ the one we want to change in our code.
   alt="In HTML, buttons onclick, openMe() or closeMe()." />
 </p>
 
-And finally in the HTML, we have two events. We have **onClick,
-openMe**, and **onClick**, **closeMe**. Let&apos;s see how we can write the
+And finally in the HTML, we have two events. We have <b>onClick,
+openMe</b>, and <b>onClick</b>, <b>closeMe</b>. Let&apos;s see how we can write the
 JavaScript that will make that div appear and disappear. Let&apos;s start
 with closeMe. I&apos;ve actually put two different options here. The code
 looks a little bit longer than you might expect. What I need to do, is I
@@ -3403,7 +3403,7 @@ the style.
   alt="In JS, function closeMe()." />
 </p>
 
-I go in and I say x, which is my element, **.style.display=&quot;none&quot;.**
+I go in and I say x, which is my element, <b>.style.display=&quot;none&quot;.</b>
 I&apos;m not using my CSS, I&apos;m actually hardcoding it in here that I want
 it to go from none.
 
@@ -3482,7 +3482,7 @@ that code and make sure I didn&apos;t break it. Close, Open, Close, Open.
 
 Now I don&apos;t really have time to do this right now, but I think what
 would be a great exercise for you, is to look at this code using
-**Inspect Element**. When you do that, and you click on those Open and
+<b>Inspect Element</b>. When you do that, and you click on those Open and
 Close buttons, you can really see that we&apos;re going in there and we&apos;re
 changing the DOM. All those things, all those different styles, you can
 see them in effect. Make sure you&apos;re playing with this as you&apos;re
@@ -3648,7 +3648,7 @@ In these last two, I did something very similar. But instead of just
 using on-click do something. I&apos;m going to use this function on the
 right. Here&apos;s a great example of code reuse. The first few examples,
 concept only. This one I want to show you how I can use this same
-function called **displayID** on different elements. On my family
+function called <b>displayID</b> on different elements. On my family
 Christmas photo down here, you can see that I have an id of ID-1. On
 this picture over here, I have an id of ID-2. My hope is that they can
 both use the same exact function called displayID. And even though
@@ -3686,7 +3686,7 @@ call it element, I can call it e, I can call it elem. It doesn&apos;t matter
 to the computer. As long as it makes sense to you, the general idea
 that. Oh, I think I&apos;m going to be passed a DOM element here.
 
-Once you get inside the function you can do **document.getelementbyid**.
+Once you get inside the function you can do <b>document.getelementbyid</b>.
 Basically, what it&apos;s doing is it&apos;s grabbing this section of my html.
 Stating I want to change what&apos;s showing up inside that little box. What
 do I want to change it to? I want to change it to the alt text of
@@ -3868,12 +3868,12 @@ need you to do is write those functions.
 </p>
 
 Let&apos;s look at the functions I want you to write. The first one is
-called, **upDate**, and we&apos;re going to send it to **previewPic**. And I
+called, <b>upDate</b>, and we&apos;re going to send it to <b>previewPic</b>. And I
 put in here, one of the things I want you to do is change the URL for
 the background image to be the source file of the image we were going
-over, that **previewPic**. The next thing I want you to do is I change
+over, that <b>previewPic</b>. The next thing I want you to do is I change
 the text of the div so that&apos;s going to show the alt text of the preview
-image. This is what we call **upDate**.
+image. This is what we call <b>upDate</b>.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 189. function undo() (112) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3926,7 +3926,7 @@ the background color because we&apos;re hoping it won&apos;t be there at all.
 For the element text, I&apos;m going to leave that a little bit more for you
 to figure out how you&apos;re going to do that. We&apos;ve discussed two
 different ways to change the content of the document. One is to use
-**document.write()**. The other one we&apos;ve used quite a bit is
+<b>document.write()</b>. The other one we&apos;ve used quite a bit is
 innerHTML. You need to think about what&apos;s the best way to update the
 content that&apos;s inside that div to have it display the message you want.
 
@@ -3985,15 +3985,15 @@ will need to work and learn that part on your own..
 Finally!! Now is when I start to explain some of the concepts I said you
 had to wait for. Hopefully by now you are comfortable with the code
 
-> **document.getElementById(&apos;idName&apos;);**
+> <b>document.getElementById(&apos;idName&apos;);</b>
 
 This code will cause the API to search the DOM until it finds a node
 with the id of &apos;idName&apos;). The key is that it is returning a single
 Node. But what about these other functions?
 
-> **document.getElementsByTagName(&apos;p&apos;);**
+> <b>document.getElementsByTagName(&apos;p&apos;);</b>
 >
-> **document.getElementsByClassName(&apos;thumbnail&apos;);**
+> <b>document.getElementsByClassName(&apos;thumbnail&apos;);</b>
 
 These commands may return zero, one or more Nodes. So now we need to
 find a way to handle dealing with collections of data, rather than just
@@ -4039,20 +4039,20 @@ before they can tackle the larger concepts.
 
 <h3>Tabindex and Accessibility</h3>
 
-Some elements on a page can take on the **focus** state by default. 
+Some elements on a page can take on the <b>focus</b> state by default. 
 When you go to a page and use the tab key you can navigate from link to
 link and through forms -- all without having to touch your mouse.
 
 It is possible to add the focus state to other elements too by adding
 the tabindex attribute to a tag.  While (below)
 
-> **&lt;div&gt; My first div.&lt;/div&gt;**
+> <b>&lt;div&gt; My first div.&lt;/div&gt;</b>
 
-** is** **not** accessible from the keyboard, this (below)
+<b> is</b> <b>not</b> accessible from the keyboard, this (below)
 
-> **&lt;div tabindex=&quot;0&quot;&gt;  My second div.&lt;/div&gt;**
+> <b>&lt;div tabindex=&quot;0&quot;&gt;  My second div.&lt;/div&gt;</b>
 
-**is** accessible from the keyboard.
+<b>is</b> accessible from the keyboard.
 
 The number associated with the tabindex attribute is the tab order.  By
 default, everything has an order of 0 which means that they will be
@@ -4081,51 +4081,50 @@ on two different methods I use.
 <h3 id="getatt">getAttribute</h3>
 
 If you want to access a part of the DOM you can often access it
-directly.  For instance, if you used **document.querySelector()** to
+directly.  For instance, if you used <b>document.querySelector()</b> to
 access an image element, you can then access its src, alt text, etc.
 
-> **my_img = document.querySelector(&quot;img&quot;)**
+> <b>my_img = document.querySelector(&quot;img&quot;)</b>
 >
-> **console.log(my_img.src)**
+> <b>console.log(my_img.src)</b>
 >
-> **console.log(my_img.alt)**
+> <b>console.log(my_img.alt)</b>
 
 Sometimes though you can&apos;t access the data directly and that is when
-you will want to use the [HTML DOM Element
-**getAttribute()**](https://www.w3schools.com/jsref/met_element_getattribute.asp)
-method.
+you will want to use the <a href="https://www.w3schools.com/jsref/met_element_getattribute.asp">
+  HTML DOM Element <b>getAttribute()</b></a> method.
 
-> **my_img = document.querySelector(&quot;img&quot;)**
+> <b>my_img = document.querySelector(&quot;img&quot;)</b>
 >
-> **console.log(my_img.getAttribute(&quot;src&quot;))**
+> <b>console.log(my_img.getAttribute(&quot;src&quot;))</b>
 >
-> **console.log(my_img.getAttribute(&quot;alt&quot;))**
+> <b>console.log(my_img.getAttribute(&quot;alt&quot;))</b>
 
 <h3 id="setatt">setAttribute</h3>
 
 Similarly, you can often change the value of a DOM element by accessing
 the attribute directly:
 
-> **my_img = document.querySelector(&quot;img&quot;)**
+> <b>my_img = document.querySelector(&quot;img&quot;)</b>
 >
-> **my_img.src = &quot;mydog.jpg&quot;**
+> <b>my_img.src = &quot;mydog.jpg&quot;</b>
 >
-> **my_img.alt = &quot;Brown labradoodle&quot;**
+> <b>my_img.alt = &quot;Brown labradoodle&quot;</b>
 
 Sometimes though you can&apos;t change the data directly and that is when
 you will want to use the [HTML DOM Element
-**setAttribute()**](https://www.w3schools.com/jsref/met_element_setattribute.asp)
+<b>setAttribute()</b>](https://www.w3schools.com/jsref/met_element_setattribute.asp)
 method.
 
-> **my_img = document.querySelector(&quot;img&quot;)**
+> <b>my_img = document.querySelector(&quot;img&quot;)</b>
 >
-> **my_img.setAttribute(&quot;src&quot;,&quot;mydog.jpg&quot;)**
+> <b>my_img.setAttribute(&quot;src&quot;,&quot;mydog.jpg&quot;)</b>
 >
-> **my_img.setAttribute(&quot;alt&quot;,&quot;Brown labradoodle&quot;)**
+> <b>my_img.setAttribute(&quot;alt&quot;,&quot;Brown labradoodle&quot;)</b>
 
 It is nice to know how to change things with JavaScript because it will
 allow you to leave the HTML alone, but still add attributes such as
-**my_img.setAttribute(&quot;tabindex&quot;,&quot;0&quot;)**
+<b>my_img.setAttribute(&quot;tabindex&quot;,&quot;0&quot;)</b>
 
 &ast;&ast;This is a big hint for the future homework&ast;&ast;
 
@@ -4134,19 +4133,19 @@ allow you to leave the HTML alone, but still add attributes such as
 Finally!! Now is when I start to explain some of the concepts I said you
 had to wait for. Hopefully by now you are comfortable with the code
 
-> **document.getElementById(&apos;idName&apos;);**
+> <b>document.getElementById(&apos;idName&apos;);</b>
 
 This code will cause the API to search the DOM until it finds a node
-with the id of &apos;idName&apos;). The key is that it is returning a single
+with the id of &apos;idName&apos;. The key is that it is returning a single
 Node. But what about these other functions?
 
-> **document.getElementsByTagName(&apos;p&apos;);**
+> <b>document.getElementsByTagName(&apos;p&apos;);</b>
 >
-> **document.getElementsByClassName(&apos;thumbnail&apos;);**
+> <b>document.getElementsByClassName(&apos;thumbnail&apos;);</b>
 
-These commands may return zero, one or more Nodes. So now we need to
+These commands may return zero, one or more nodes. So now we need to
 find a way to handle dealing with collections of data, rather than just
-one thing at a time. This is where Arrays come in. Let&apos;s get started.
+one thing at a time. This is where arrays come in.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-01">3.01 JavaScript Arrays (7:12)</h2>
@@ -4159,7 +4158,7 @@ one thing at a time. This is where Arrays come in. Let&apos;s get started.
   alt="3.01 JavaScript Arrays." />
 </p>
 
-Today we&apos;re going to be starting something that&apos;s really quite
+Today we&apos;re going to be starting something that&apos;s  quite
 different than what we&apos;ve been doing in the past. In the first few
 weeks, I used variables that stored a single piece of information. We
 talked about numbers, strings, true or false booleans, or objects. And
@@ -4189,12 +4188,12 @@ variable.
   alt="Examples, Declaring an Array." />
 </p>
 
-In this case I&apos;ve declared an array called grades, but instead of
+In this case I&apos;ve declared an array called <b>grades</b>, but instead of
 giving it one value, I&apos;ve given it ten. In this next example, I said I
-wanted an array called foods, and I gave it three values. In the first
+wanted an array called <b>foods</b>, and I gave it three values. In the first
 one they were numbers, in the second one they&apos;re strings. My third
 example, I&apos;m finally going to get to where we can start using those
-APIs **getElementsByClassName**. In this case, I have no idea how many
+APIs <b>getElementsByClassName</b>. In this case, I have no idea how many
 elements will be in this images array because I don&apos;t know how many
 images were in the document.
 
@@ -4208,9 +4207,9 @@ images were in the document.
 </p>
 
 And in the same way, I could declare array by saying, you know what, I
-want to make a variable, I&apos;m going to call it listItems. And how I&apos;m
+want to make a variable, I&apos;m going to call it <b>listItems</b>. And how I&apos;m
 going to assign it or declare and initialize it, is by doing
-**document.getElementsByTagName** and giving it **&lbrack;&apos;li&apos;&rbrack;.** Now
+<b>document.getElementsByTagName</b> and giving it <b>&lbrack;&apos;li&apos;&rbrack;.</b> Now
 it&apos;ll travel through the DOM and grab every element that has that li
 tag.
 
@@ -4249,9 +4248,9 @@ In computer science, when you&apos;re talking to other people, this is a
 term that you want to use, because then you&apos;ll really be conveying that
 you&apos;re using an array. How do we get to those elements, though? Well,
 each element is referenced by an index. If I were to say
-**grades&lbrack;0&rbrack;,** right here, well, the computer knows, oh, I have this
+<b>grades&lbrack;0&rbrack;,</b> right here, well, the computer knows, oh, I have this
 array up here. I need to go find the one that&apos;s in the 0 place, so
-**grades&lbrack;0&rbrack;** refers to 80.
+<b>grades&lbrack;0&rbrack;</b> refers to 80.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 199. another example, accessing an array (122) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4262,8 +4261,8 @@ array up here. I need to go find the one that&apos;s in the 0 place, so
   alt="Another example, Accessing an Array." />
 </p>
 
-If I want to talk about **grades&lbrack;4&rbrack;,** well this refers to value 62.
-**grades&lbrack;0&rbrack;** is the first value, **grades&lbrack;4&rbrack;** is actually the
+If I want to talk about <b>grades&lbrack;4&rbrack;,</b> well this refers to value 62.
+<b>grades&lbrack;0&rbrack;</b> is the first value, <b>grades&lbrack;4&rbrack;</b> is actually the
 fifth value. If this is the first time you&apos;ve really experienced
 starting your counting at 0, it can be a little bit confusing at first,
 but you&apos;ll get the hang of it in really no time.
@@ -4296,17 +4295,17 @@ encourage you to do your arrays in this manner.
 Instead, we want to focus on this idea that arrays tend to have the same
 values in them and that they have attributes and methods. Because
 JavaScript arrays are objects and that gives them some special power.
-For instance, we can refer to **grades.length**. We can call the method
-**grades.sort(),** or we could even add additional elements to our array
-using the method called **push,** where we would add another element to
+For instance, we can refer to <b>grades.length</b>. We can call the method
+<b>grades.sort(),</b> or we could even add additional elements to our array
+using the method called <b>push,</b> where we would add another element to
 it.
 
 Now, if you start thinking about some of the different ways we can use
 arrays, you can start to put things together. For instance, when I
-talked earlier about **grades&lbrack;9&rbrack;** or **grades&lbrack;8&rbrack;**, we knew exactly
+talked earlier about <b>grades&lbrack;9&rbrack;</b> or <b>grades&lbrack;8&rbrack;</b>, we knew exactly
 how big that array was because we had initialized it. But sometimes you
 won&apos;t know how long the array is, especially if you used
-**getElementsByTagName** or something like that.
+<b>getElementsByTagName</b> or something like that.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 202. example, js arrays are objects (123) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4319,10 +4318,10 @@ won&apos;t know how long the array is, especially if you used
 
 It is possible to combine the idea of length and the idea of push to
 come up with our own way of adding things to our array. Grades, here&apos;s
-the element I need. I need **&lbrack;grades.length&rbrack;**, because I know that&apos;s
+the element I need. I need <b>&lbrack;grades.length&rbrack;</b>, because I know that&apos;s
 the last place where we don&apos;t have anything, and set it = element here.
-These two things right here, **grades.push(element)** and
-**grades&lbrack;grades.length&rbrack; = element**, they&apos;re the same thing, it&apos;s
+These two things right here, <b>grades.push(element)</b> and
+<b>grades&lbrack;grades.length&rbrack; = element</b>, they&apos;re the same thing, it&apos;s
 just a different way to program. This kind of flexibility can be really
 great once you get the hang of JavaScript. But when you first get
 started, it can sometimes be confusing when you see people doing the
@@ -4342,12 +4341,12 @@ Let&apos;s review. As you learn to declare and manipulate arrays, your code
 is going to become much more powerful. You just need to take the time to
 switch your mindset from single values to collections of values. And
 once you do that, we can start playing with these new API methods that
-we haven&apos;t used before. The **getElementsByTagName** and
-**getElementsByClassName**.
+we haven&apos;t used before. The <b>getElementsByTagName</b> and
+<b>getElementsByClassName</b>.
 
 Quick note because I know this is a typo of a lot us make, is that
 you&apos;re writing this the correct way. We&apos;ve been using
-**getElementById**, make sure you&apos;re typing this else you might run
+<b>getElementById</b>, make sure you&apos;re typing this else you might run
 into problems. Go ahead, start typing in some code, use the console to
 make sure things are going the way you want them to, and keep coming
 along with me as you learn new ways to use arrays to improve your page,
@@ -4538,10 +4537,10 @@ from the videos since I like to update the slides when things change.
 
 Once again, the lectures ahead will contain content that is easy to
 read, but can be a little tricker to do on your own.  So, let&apos;s talk
-about the relationship between **document.querySelectorAll()** and
+about the relationship between <b>document.querySelectorAll()</b> and
 looping.
 
-The beauty of **document.querySelectorAll()** is that it will return an
+The beauty of <b>document.querySelectorAll()</b> is that it will return an
 array of elements.  If you have twelve links on your page, it can get
 them all.  Same with fifty images, seven paragraphs, or the one figure. 
 But when you have a lot of elements, you don&apos;t want to write a lot of
@@ -4653,7 +4652,7 @@ an array of image names.
 Let&apos;s code this together. Let&apos;s start with the HTML code. Right here
 on line 11 I want you to notice that I&apos;ve put in an event and a
 function. And I&apos;ve said when the body of the page loads, I want you to
-run the function **pickImage(),** all right?
+run the function <b>pickImage(),</b> all right?
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 218. link to js scripts with function pickimage() (132) ~~~~~~~~~~~~~~~~~~-->
@@ -4680,7 +4679,7 @@ my JavaScript file that has that function.
 Let&apos;s pop back up to the top. What is pickImage going to do? Well,
 pickImage, I&apos;m going to scroll just a little bit more here. PickImage
 is going to go to this image element right here, the one with the id of
-**header_img** and it is going to update the source to a somewhat random
+<b>header_img</b> and it is going to update the source to a somewhat random
 image.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4693,11 +4692,11 @@ image.
 </p>
 
 Let&apos;s see how we do this in the JavaScript file. The function
-**pickImage** starts off with an array that I have called **options**.
+<b>pickImage</b> starts off with an array that I have called <b>options</b>.
 And what I did is I went through many of the images in my folder, but
 not all of them and just put them in as strings, so I have
-**bacon_in_the_woods.png**, **munising**, **bend_in_the_road.png**.
-Oops, I&apos;ve got **bend_in_the_road** twice, think I actually in fact,
+<b>bacon_in_the_woods.png</b>, <b>munising</b>, <b>bend_in_the_road.png</b>.
+Oops, I&apos;ve got <b>bend_in_the_road</b> twice, think I actually in fact,
 we&apos;re going to get rid of a couple of these since I have extra, let&apos;s
 keep it nice and short and sweet.
 
@@ -4739,28 +4738,28 @@ line of code you need to understand, and it&apos;s right here.
   alt="Math.random between 0 and 1; options.length = number of options in array." />
 </p>
 
-JavaScript has a random function right here called **Math.random**. And
+JavaScript has a random function right here called <b>Math.random</b>. And
 what it will do is it will return a number between 0 and 1, so 0.25,
 0.5, 0.75, we want to take that number and we want to take the length of
 this array. If I have an array with five file names in it, I want to
 pick a number such as 0, 1, 2, 3 or 4. I don&apos;t want to go beyond 4
 because that&apos;s too big, all right? And I don&apos;t want to go less than 0
 because that&apos;s too small. So I find out how long the array is using
-**options.length,** then I multiply that by a number between 0 and 1.
-And then the last little thing it does right here, this **Math.floor,**
+<b>options.length,</b> then I multiply that by a number between 0 and 1.
+And then the last little thing it does right here, this <b>Math.floor,</b>
 that&apos;s going to change it into the integer, all right? It&apos;s kind of
 funky, there&apos;s some math going on, trust me on this, all right?
 
-Now this part of the code picks either **bacon_in_the_woods** or
-**bend_in_the_road** or **lake_view**, perfect. But remember, in our
+Now this part of the code picks either <b>bacon_in_the_woods</b> or
+<b>bend_in_the_road</b> or <b>lake_view</b>, perfect. But remember, in our
 code, in our HTML code, we need to have that folder name too, right? All
-of our images are in a folder called **images**, so we take images and
+of our images are in a folder called <b>images</b>, so we take images and
 we concatenate, that&apos;s the fancy word for squish together. We
 concatenate the word images/with one of these file names, now we&apos;re
-going to go in and I&apos;m using **document.querySelector** and I&apos;m using
-&quot;**header_image**&quot;. Again, remember, if you use
-**document.getElementById**, you wouldn&apos;t need this hashtag, but I do.
-I&apos;ve grabbed that one little element in the **DOM** and then I set its
+going to go in and I&apos;m using <b>document.querySelector</b> and I&apos;m using
+&quot;<b>header_image</b>&quot;. Again, remember, if you use
+<b>document.getElementById</b>, you wouldn&apos;t need this hashtag, but I do.
+I&apos;ve grabbed that one little element in the <b>DOM</b> and then I set its
 source attribute to whatever my random image is. And for now, I&apos;m
 setting the alt attribute to blank. This isn&apos;t the best for
 accessibility wise, but it is really just a decorative image. And by
@@ -4777,8 +4776,8 @@ something you can skip over.&quot;
 </p>
 
 Let&apos;s take a look now at this working in process again. This time when
-we look at the page, I want to have **Inspect Element** open, so I&apos;m
-going to do my **Inspect**. I&apos;m going to narrow in on this image and
+we look at the page, I want to have <b>Inspect Element</b> open, so I&apos;m
+going to do my <b>Inspect</b>. I&apos;m going to narrow in on this image and
 I&apos;m going to make it a little bit bigger, hopefully to make it a little
 easier for you to read.
 
@@ -4791,7 +4790,7 @@ easier for you to read.
   alt="Test, inspect image selected is 'bend_in_the_road'." />
 </p>
 
-You can see, however, that currently the image is **bend_in_the_road**,
+You can see, however, that currently the image is <b>bend_in_the_road</b>,
 let&apos;s refresh the page.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4803,7 +4802,7 @@ let&apos;s refresh the page.
   alt="Test, display 'hollow_tree.png'." />
 </p>
 
-This time that&apos;s changed into **hollow_tree.png** I&apos;m going to refresh.
+This time that&apos;s changed into <b>hollow_tree.png</b> I&apos;m going to refresh.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 227. test, blank image, no picture (137) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4827,7 +4826,7 @@ there, so let&apos;s head over to the console.
 </p>
 
 And in the console, you will see that I get the error that munising
-actually just isn&apos;t found. **images/munising** isn&apos;t found, it&apos;s a
+actually just isn&apos;t found. <b>images/munising</b> isn&apos;t found, it&apos;s a
 404 error.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4847,7 +4846,7 @@ Okay, well, I must have had a typo somewhere, so let&apos;s go back into my
 code and we&apos;ll investigate the script, that JS file. Here we are in
 line 2, and we can see that I forgot to include the file extension, I
 don&apos;t remember what it is. It was .jpg, so I need to replace this with
-**munising.jpg**.
+<b>munising.jpg</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 231. test options images with inspect element (139) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4859,13 +4858,13 @@ don&apos;t remember what it is. It was .jpg, so I need to replace this with
 
 All right, let&apos;s go back and try this one more time. All right, let&apos;s
 start refreshing again and see if we get that same error or if I&apos;m able
-to get a picture of **Munising** to show up, there it is right there. So
+to get a picture of <b>Munising</b> to show up, there it is right there. So
 just to double check, I&apos;m going to go in, and now I can see that the
-**images/munising.jpg** is correct, okay? Hopefully this demo shows you
+<b>images/munising.jpg</b> is correct, okay? Hopefully this demo shows you
 that there are some real-world applications to you applying JavaScript
 to your page. And it only takes few lines of code to do something that
 will make your page a little bit more unique. So have some fun with this
-and get your hands dirty, use that **Inspect Element**, and good luck.
+and get your hands dirty, use that <b>Inspect Element</b>, and good luck.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-02">4.02 Code With Me: Using LightBox (9:48)</h2>
@@ -4895,7 +4894,7 @@ packages and tools out there that you can use.
 
 It is true that it&apos;s way more common to use code from others than to
 write your own. And one of my absolute favorites is code for creating
-**lightboxes**.
+<b>lightboxes</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 234. lightbox project code; js and css (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4906,9 +4905,9 @@ write your own. And one of my absolute favorites is code for creating
 </p>
 
 Today I&apos;m going to walk you through how you can implement a
-**lightbox** in your existing code using somebody else&apos;s JavaScript and
-CSS. Let&apos;s take a look at this **lightbox** project. For those of you
-who are not familiar with what a **lightbox** is, let me show you an
+<b>lightbox</b> in your existing code using somebody else&apos;s JavaScript and
+CSS. Let&apos;s take a look at this <b>lightbox</b> project. For those of you
+who are not familiar with what a <b>lightbox</b> is, let me show you an
 example.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 235. example, on click image pops up bigger (141) ~~~~~~~~~~~~~~~~~~~~~-->
@@ -4949,7 +4948,7 @@ where when I click on the first one, not only does it show the caption
 at the bottom and the X to leave the image, there&apos;s also a small
 chevron or arrow to go to the next image or to go back to a previous
 image. What&apos;s great about this code is that all of the JavaScript and
-all of the CSS for the **lightbox** is already created for you.
+all of the CSS for the <b>lightbox</b> is already created for you.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 238. lightbox, getting started (142) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5011,7 +5010,7 @@ you off. Once you&apos;ve downloaded the code, and maybe you&apos;d want to
 look at the examples, but we&apos;ll skip it right now you will notice that 
 they mentioned that inside the distribution folder, you&apos;re going to want 
 to link to their CSS and their JavaScript. This is the tricky part. In the 
-example, it says **path/to/lightbox.css**. They don&apos;t actually mean path-to, 
+example, it says <b>path/to/lightbox.css</b>. They don&apos;t actually mean path-to, 
 they mean whatever the name of the folder is.
 
 For us, it&apos;s going to be dist/css. Same here, when people talk about
@@ -5020,7 +5019,7 @@ we&apos;re going to be using dist.javascript. The other thing that you might
 kind of read over quickly is we tend to be beginner coders here in our
 Web Development for Everybody. It&apos;s unlikely that you&apos;re already using
 jQuery, which means we need to make sure we use any of their code that
-says **lightbox** plus jQuery. Don&apos;t worry, I&apos;m going to show you all
+says <b>lightbox</b> plus jQuery. Don&apos;t worry, I&apos;m going to show you all
 this. But I just want to point it out when you&apos;re going through the
 documentation, okay?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5033,14 +5032,14 @@ documentation, okay?
 </p>
 
 Here is the format, what we are basically doing is turning every image
-on our page that we want to be part of the **lightbox** into a link,
+on our page that we want to be part of the <b>lightbox</b> into a link,
 right? Instead of just being a regular old image, we want to be able to
 click on that image and then open up the image in a way bigger fashion,
 all right? Our new structure is going to be every place we used to have
-an image, we are going to put an **&lt;a&gt;** tag around it and that
-**&lt;a&gt;** tag should go to the image. Include this special attribute
-called **data-lightbox** and the special attribute called
-**data-title**. The **data-lightbox** lets the browser know whether you
+an image, we are going to put an <b>&lt;a&gt;</b> tag around it and that
+<b>&lt;a&gt;</b> tag should go to the image. Include this special attribute
+called <b>data-lightbox</b> and the special attribute called
+<b>data-title</b>. The <b>data-lightbox</b> lets the browser know whether you
 want all of the images to be linked together or whether they should be
 separate.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5053,7 +5052,7 @@ separate.
 </p>
 
 If you notice in the image sets (at the bottom), they gave everything
-the same **data-lightbox.**
+the same <b>data-lightbox.</b>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 245. folder structure, lightbox.html (146) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5067,7 +5066,7 @@ That&apos;s it, that&apos;s all the documentation we&apos;re going to go through
 Let&apos;s go back to one of the pages we&apos;ve been using in this class
 earlier so you can see how I implemented it. Let&apos;s start off by looking
 at my folder structure. I still have my css folder, my images folder, my
-js folder, but I&apos;ve added a new file called **lightbox.html**. It&apos;s
+js folder, but I&apos;ve added a new file called <b>lightbox.html</b>. It&apos;s
 just a kind of shortened version of the neighborhood.html, so we won&apos;t
 worry about it too much.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5102,9 +5101,9 @@ this dist folder right here, let&apos;s close up the folder.
 </p>
 
 Now, as we go through, you can see instead of path/to the
-**lightbox.css**, I&apos;ve used **dist/css/lightbox**. I&apos;m going to scroll
+<b>lightbox.css</b>, I&apos;ve used <b>dist/css/lightbox</b>. I&apos;m going to scroll
 all the way to the bottom, and instead of having
-**path/to/js/lightbox**, I&apos;ve done the **dist/js/lightbox-plus-query**.
+<b>path/to/js/lightbox</b>, I&apos;ve done the <b>dist/js/lightbox-plus-query</b>.
 I&apos;m going to save this for just a second, and I&apos;m going to open it up.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 249. abbreviated page with four images (147) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5133,11 +5132,11 @@ But now it&apos;s time for me to update my HTML. Let&apos;s take a look at that
 very first image. What I needed to do was add an &lt;a&gt; tag
 around it. And if you remember, the href for that tag should be the
 exact same thing as the image itself. We want to click on the image and
-then open up that image in its own window. I have my **data-lightbox**,
+then open up that image in its own window. I have my <b>data-lightbox</b>,
 I&apos;ve called it =images, and I&apos;ve added my data-title=&quot;Caption 1&quot;,
 all right? Just so I don&apos;t have to scroll back and forth for you, I&apos;m
 going to hit option Z for a second, so it wraps all my text, all right?
-I&apos;ve got my href, my **data-lightbox** images, and my data-title.
+I&apos;ve got my href, my <b>data-lightbox</b> images, and my data-title.
 Let&apos;s save it and let&apos;s take a look. All right, I&apos;ve refreshed my
 page and I&apos;m going to click on the first image. Notice, even if you can
 see it, it might be a little hard. When I put my mouse over the cursor
@@ -5171,8 +5170,8 @@ last one, and I could go back if I wanted to notice. If you&apos;re trying
 to do this along with me and the picture is popping up, if things don&apos;t
 look right, that probably means you didn&apos;t link to the CSS correctly.
 If things aren&apos;t functioning correctly, then that means you probably
-didn&apos;t link to the JavaScript in the right way. Use that **Inspect
-Element** so you can look in and make sure all your files are connected.
+didn&apos;t link to the JavaScript in the right way. Use that <b>Inspect
+Element</b> so you can look in and make sure all your files are connected.
 But mostly realize how little code it took for me to take something that
 I&apos;ve created and kind of bump it up a notch by using code that somebody
 else created. That&apos;s really what the web is about. All of us working
@@ -5217,7 +5216,7 @@ see how we do this.
 
 Let&apos;s start off by looking at our body tag. Once again, I&apos;ve used the
 onload event, but this time I&apos;ve used a function called
-&quot;**setImages()**&quot;.
+&quot;<b>setImages()</b>&quot;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 256. images inside flex class (151) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5259,7 +5258,7 @@ meaning when I look at the variable name, I should know what I&apos;m trying
 to save here.
 
 What I&apos;m trying to save is all of the images that are currently in the
-flex class. I&apos;ve used **document.querySelectorAll(&quot;.flex img&quot;)**.
+flex class. I&apos;ve used <b>document.querySelectorAll(&quot;.flex img&quot;)</b>.
 This is going to return an array of images. We can&apos;t just start using
 current images and trying to get the source attribute or the alt
 attribute. It doesn&apos;t know how to do that. We need to access each image
@@ -5273,12 +5272,12 @@ images in that class, it would be 0, 1, 2, all the way up to nine.
 
 I like to add console.log messages. They make me feel better. They help
 me figure out, is my code running? Is my, oops, that shouldn&apos;t say
-**isSecure**. I really just want to say i. I want to print out that 0,
+<b>isSecure</b>. I really just want to say i. I want to print out that 0,
 1, 2, 3, etc, so I can make sure my loop is doing things as I expected.
 Now, the code should look pretty similar. I&apos;m going to grab a random
 image and assign it to the variable random image. It&apos;s the same thing
 we did earlier. But now, instead of using something like
-**currentImage,** its currentImages&lbrack;i&rbrack;, the first image, the second
+<b>currentImage,</b> its currentImages&lbrack;i&rbrack;, the first image, the second
 image, the third image.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 259. test inspect console, parks.html (153) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5290,8 +5289,8 @@ image, the third image.
 </p>
 
 Let&apos;s take a look and I&apos;m going to go back to the website one more
-time. Once again, let&apos;s turn on **Inspect Element** to see what&apos;s
-going on. I go into my **Inspect** and I want to pick the console tab.
+time. Once again, let&apos;s turn on <b>Inspect Element</b> to see what&apos;s
+going on. I go into my <b>Inspect</b> and I want to pick the console tab.
 Do you notice over here? It says Image 0, Image 1, Image 2. That&apos;s from
 that console.log message I was using. I&apos;m going to refresh again. And
 as we go through, uh oh, if you notice.
@@ -5339,8 +5338,8 @@ images. In this case, I would only have to do it for three. But imagine
 instead that I had something like 20 images or 40 images, it would be a
 real pain to have to go in there and add that to each one. So, I&apos;m
 going to go back to my JavaScript. Let&apos;s add two more lines of code
-here. What I can do is I can say, **currentImages**. Instead of the
-source, I&apos;m going to use a new function called **setAttribute()**. I&apos;m
+here. What I can do is I can say, <b>currentImages</b>. Instead of the
+source, I&apos;m going to use a new function called <b>setAttribute()</b>. I&apos;m
 going to say, let&apos;s set the &quot;tabindex&quot; equal to 0. I&apos;m going to save
 this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5354,7 +5353,7 @@ this.
 
 Let&apos;s go back to the website. I&apos;m going to refresh, and I&apos;m going to
 go in and I&apos;m going to check out these elements. Go right here,
-**Inspect**. We can now see that each one of these images has a
+<b>Inspect</b>. We can now see that each one of these images has a
 tabindex=&quot;0&quot; in there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 263. style, img hover, focus, opacity 1 (155) ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5436,8 +5435,8 @@ assignment, I hope you will learn from seeing the different approaches.
 2.  Update the code to use six images of your choice, making sure to
     include alternative text for each.
 
-3.  Validate your site on [The W3C Markup Validation
-    Service](https://validator.w3.org/).
+3.  Validate your site on <a href="https://validator.w3.org/">
+      The W3C Markup Validation Service</a>.
 
 4.  Validate your site using the [Wave](https://wave.webaim.org/)
     validator site or browser extension.
@@ -5552,8 +5551,8 @@ are going to use at least six of your own images, and we&apos;re going to
 make it an accessible site by incorporating tabindex as well. I&apos;m going
 to add some additional requirements that you cannot change the HTML to
 add tabindex, you must use JavaScript looping to add the attribute, and
-just as we wrote a 'Undo' for when we were on **mouseout** and we did
-like change when your **mouseover**. Now, you are going to use the focus
+just as we wrote a 'Undo' for when we were on <b>mouseout</b> and we did
+like change when your <b>mouseover</b>. Now, you are going to use the focus
 and blur events so that keyboard users have the same capabilities as any
 mouse users.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5659,7 +5658,7 @@ and create a sense of community. Also, please take some time to review
 the work of your peers and offer thoughtful comments. This is not a
 graded submission.
 
-**Note:** The first time you launch the Gallery Tool, you will be asked
+<b>Note:</b> The first time you launch the Gallery Tool, you will be asked
 to set up your Gallery profile by providing some basic information and
 selecting your sharing settings.
 
