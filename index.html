@@ -511,7 +511,7 @@ we have. We will focus on the following:</p>
   <li><p>How to create and validate HTML forms.</p></li>
 </ul>
 
-<h1 id="section-1"></h1>
+<!-- <h1 id="section-1"></h1> -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-01">1.01 Introduction</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4445,7 +4445,7 @@ little trickier to do on your own. So, let's talk about the relationship between
 
 <p>The beauty of document.querySelectorAll() is that it will return an array of elements. 
 If you have twelve links on your page, it can get them all.  Same with fifty images, seven 
-paragraphs, or the one figure.  But when you have a lot of elements, you don't want to 
+paragraphs, or the one figure. But when you have a lot of elements, you don't want to 
 write a lot of code to update them and that is where looping (also called iteration) comes 
 in. There are a number of ways to loop but the one I will use is a JavaScript for Loop.</p>
 
@@ -4453,15 +4453,15 @@ in. There are a number of ways to loop but the one I will use is a JavaScript fo
 want to continue to loop, and how you want to update the value.  In the code below the 
 numbers 0..4 would be displayed on the console.</p>
 
-<pre><code>for (let i = 0; i < 5; i++) {
+<pre><code>for (let i = 0; i &lt; 5; i++) {
   console.log(i) 
 }</code></pre>
 
 This is a very basic loop and doesn't do anything that exciting.  But think about how we can combine it to use the knowledge we have learned about the DOM.  Suppose that someone on your team has styled a new class called thumbnail and you want to use it.   In the code below you can see how quick and easy it would be to add this new class to every image.
 
 <pre><code>my_images = document.querySelectorAll("img")
-for (let i = 0; i < my_images.length; i++) {
-    my_images[i].setAttribute("class","thumbnail")
+for (let i = 0; i &lt; my_images.length; i++) {
+    my_images&lbrack;i&rbrack;.setAttribute("class","thumbnail")
 }</code></pre>
   
 <h3 id="ch4.00-add">Advanced Coding Techniques</h3>
@@ -4943,7 +4943,7 @@ all right? I've connected to the CSS and I've connected to the JavaScript.</p>
   style="width:50%" >
 
 <p>But now it's time for me to update my html. Let's take a look at that very first 
-image. What I needed to do was I needed to add an <a> tag around it. And if you remember, 
+image. What I needed to do was I needed to add an 'a' tag around it. And if you remember, 
 the href for that tag should be the exact same thing as the image itself. We want to 
 click on the image and then open up that image in its own window. I have my data-lightbox, 
 I've called it =images, and I've added my data-title="Caption 1", all right?</p>
@@ -5345,6 +5345,7 @@ does something incorrectly. You know what? Great feedback when people do things
 correctly, that's great as well. Leave those helpful comments so that other people 
 can learn from you, and you might be surprised by how much you learn from thinking 
 deeply about what you're seeing in other people's sites.</p>
+
 <p>I hope you have some fun with this. I hope it's something that you are proud of 
 and that you can share with others, and that you leave this feeling like you've 
 really accomplished something and you learned enough about JavaScript that you can 
@@ -5360,10 +5361,12 @@ go on with some confidence.</p>
   style="width:40%" >
 
 <h3>Optional ungraded submission</h3>
+
 <p>Use this Gallery space to share your final project with others in this course. 
 This is not required, but will help others that take the course and create a sense 
 of community. Also, please take some time to review the work of your peers and 
 offer thoughtful comments. This is not a graded submission.</p>
+
 <p><b>Note:</b> The first time you launch the Gallery Tool, you will be asked to set up your Gallery profile by providing some basic information and selecting your sharing settings.</p>
 
 <h3>Submitting your file to the Gallery</h3>
@@ -5470,6 +5473,8 @@ boards mentoring each other and encouraging each other. Good luck.</p>
   alt="Thank you!"
   style="width:40%" >
 
-<h6></h6>…the end</h6>
+<h6>…the end</h6>
+
 </body>
+
 </html>
