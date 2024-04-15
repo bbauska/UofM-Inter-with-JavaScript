@@ -17,7 +17,7 @@ output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. interactivity with js (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image001.jpeg?raw=true"
+<img src="./images/image001.webp?raw=true"
   style="width:30%;"
   title="Interactivity with JavaScript by Colleen van Lent, 
     Ph.D. (lecturer, school of information)"
@@ -29,7 +29,7 @@ output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. university of michigan logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image002.png?raw=true"
+<img src="./images/image002.webp?raw=true"
   style="width:25%;"
   title="University of Michigan logo"
   alt="University of Michigan logo." />
@@ -329,7 +329,7 @@ in the time we have. We will focus on the following:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. introduction (1-01) (05) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image003.png?raw=true"
+<img src="./images/image003.webp?raw=true"
   style="width:45%;"
   title="1.01 Introduction to Interactivity with JavaScript"
   alt="1.01 Introduction to Interactivity with JavaScript." />
@@ -346,7 +346,7 @@ everything we with JavaScript in this class is based on web programming.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. what you can do with js (05) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image004.png?raw=true"
+<img src="./images/image004.webp?raw=true"
   style="width:40%;"
   title="What you can do with JavaScript, #1"
   alt="What you can do with JavaScript, #1." />
@@ -368,7 +368,7 @@ glance?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. what you can do with js, #2 (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image005.png?raw=true"
+<img src="./images/image005.webp?raw=true"
   style="width:40%;"
   title="What you can do with JavaScript, #2"
   alt="What you can do with JavaScript, #2." />
@@ -382,7 +382,7 @@ while, don&apos;t worry. We&apos;re going to review the DOM in a future lecture.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 06. variables to store data and refer back to it later (06) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image006.png?raw=true"
+<img src="./images/image006.webp?raw=true"
   style="width:45%;"
   title="Variables: Store data and refer back to it later"
   alt="Variables: Store data and refer back to it later." />
@@ -396,7 +396,7 @@ from the user, and then store it so you can use it later.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. decision points (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image007.png?raw=true"
+<img src="./images/image007.webp?raw=true"
   style="width:45%;"
   title="Decision Points: Use control statements to decide which code to run 
     under different circumstances"
@@ -412,7 +412,7 @@ call this decision points.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. looping (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image008.png?raw=true"
+<img src="./images/image008.webp?raw=true"
   style="width:45%;"
   title="Looping: Avoid writing the same (or similar) code over and over again"
   alt="Looping: Avoid writing the same (or similar) code over and over again." />
@@ -428,7 +428,7 @@ human does what we want them to do.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. looping, #2 (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image009.png?raw=true"
+<img src="./images/image009.webp?raw=true"
   style="width:45%;"
   title="Looping: Determine at runtime how many times you want to run some code"
   alt="Looping: Determine at runtime how many times you want to run some code." />
@@ -441,7 +441,7 @@ much flexibility in how you want your code to run.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. functions (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image010.png?raw=true"
+<img src="./images/image010.webp?raw=true"
   style="width:45%;"
   title="Functions: Reuse code multiple times, but only write once.  Use code from others"
   alt="Functions: Reuse code multiple times, but only write once.  Use code from others." />
@@ -456,7 +456,7 @@ function? Great. I want to use that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. manipulating the dom (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image011.png?raw=true"
+<img src="./images/image011.webp?raw=true"
   style="width:45%;"
   title="Manipulating the DOM"
   alt="Manipulating the DOM." />
@@ -477,7 +477,7 @@ going to have fun manipulating the DOM.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. review (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image012.png?raw=true"
+<img src="./images/image012.webp?raw=true"
   style="width:45%;"
   title="Review: Week 1-01. Introduction to Interactive JavaScript"
   alt="Review: Week 1-01. Introduction to Interactive JavaScript." />
@@ -535,7 +535,7 @@ the DOM.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 13. dom review with object-oriented programming (11) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image013.png?raw=true"
+<img src="./images/image013.webp?raw=true"
   style="width:45%;"
   title="1.02 DOM Review with Object-Oriented Programming"
   alt="1.02 DOM Review with Object-Oriented Programming." />
@@ -545,7 +545,7 @@ Today we&apos;re going to be talking about the DOM, or the document object model
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 14. web pages are built upon the dom (11) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image014.png?raw=true"
+<img src="./images/image014.webp?raw=true"
   style="width:45%;"
   title="Web pages are built upon the DOM"
   alt="Web pages are built upon the DOM." />
@@ -559,7 +559,7 @@ properties, methods, and events.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. sample document (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image015.png?raw=true"
+<img src="./images/image015.webp?raw=true"
   style="width:45%;"
   title="Sample Document"
   alt="Sample Document." />
@@ -579,7 +579,7 @@ the pages built like a tree?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. sample document, #2 (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image016.png?raw=true"
+<img src="./images/image016.webp?raw=true"
   style="width:45%;"
   title="Sample Document, #2"
   alt="Sample Document, #2." />
@@ -599,7 +599,7 @@ JavaScript to do in this course.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. the dom and javascript (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image017.png?raw=true"
+<img src="./images/image017.webp?raw=true"
   style="width:45%;"
   title="The DOM and JavaScript"
   alt="The DOM and JavaScript." />
@@ -611,7 +611,7 @@ document. How does it do that, though? How does it know how to interact?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. how does it work? (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image018.png?raw=true"
+<img src="./images/image018.webp?raw=true"
   style="width:45%;"
   title="How does it work?"
   alt="How does it work?" />
@@ -627,7 +627,7 @@ their programs.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19. how does it work, #2? (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image019.png?raw=true"
+<img src="./images/image019.webp?raw=true"
   style="width:45%;"
   title="How does it work, #2?"
   alt="How does it work, #2?" />
@@ -642,7 +642,7 @@ have to learn something different later on.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 20. the dom objects/elements (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image020.png?raw=true"
+<img src="./images/image020.webp?raw=true"
   style="width:45%;"
   title="The DOM objects/elements"
   alt="The DOM objects/elements." />
@@ -685,7 +685,7 @@ change to make your page look different.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. specific apis (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image021.png?raw=true"
+<img src="./images/image021.webp?raw=true"
   style="width:45%;"
   title="Specific APIs"
   alt="Specific APIs." />
@@ -712,7 +712,7 @@ that if you want.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. review (1.02) (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image022.png?raw=true"
+<img src="./images/image022.webp?raw=true"
   style="width:45%;"
   title="1.02 Review: DOM with Object-Oriented Programming"
   alt="1.02 Review: DOM with Object-Oriented Programming." />
@@ -822,7 +822,7 @@ getElementById](https://dev.to/eidorianavi/queryselector-vs-getelementbyid-gm1)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. newer dom methods (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image023.png?raw=true"
+<img src="./images/image023.webp?raw=true"
   style="width:45%;"
   title="1.02b Newer DOM Methods"
   alt="1.02b Newer DOM Methods." />
@@ -836,7 +836,7 @@ yourself.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. selecting the first element (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image024.png?raw=true"
+<img src="./images/image024.webp?raw=true"
   style="width:45%;"
   title="Selecting the First Element; querySelector()"
   alt="Selecting the First Element; querySelector()." />
@@ -865,7 +865,7 @@ start to play around and use <b>querySelector</b> as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. selecting multiple elements (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image025.png?raw=true"
+<img src="./images/image025.webp?raw=true"
   style="width:45%;"
   title="Selecting Multiple Elements; querySelectorAll()"
   alt="Selecting Multiple Elements; querySelectorAll()." />
@@ -887,7 +887,7 @@ DOM.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. deciding on a method (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image026.png?raw=true"
+<img src="./images/image026.webp?raw=true"
   style="width:45%;"
   title="Deciding on a Method"
   alt="Deciding on a Method." />
@@ -931,7 +931,7 @@ same time and the semicolon is required in some and not others.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. output (1.03) (20) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image027.png?raw=true"
+<img src="./images/image027.webp?raw=true"
   style="width:45%;"
   title="1.03 Output"
   alt="1.03 Output." />
@@ -946,7 +946,7 @@ things change in your page by reacting to what the user was doing.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 28. interactivity (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image028.png?raw=true"
+<img src="./images/image028.webp?raw=true"
   style="width:45%;"
   title="Interactivity"
   alt="Interactivity." />
@@ -958,7 +958,7 @@ classes can only go so far. They tend to be temporary changes.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 29. what can javascript do? (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image029.png?raw=true"
+<img src="./images/image029.webp?raw=true"
   style="width:45%;"
   title="What can JavaScript do?"
   alt="What can JavaScript do?" />
@@ -977,7 +977,7 @@ things print out to the screen or generate some sort of output.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 30. javascript output (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image030.png?raw=true"
+<img src="./images/image030.webp?raw=true"
   style="width:45%;"
   title="JavaScript Output"
   alt="JavaScript Output." />
@@ -991,7 +991,7 @@ console. Let&apos;s talk about each one of these.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. alert(), example (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image031.png?raw=true"
+<img src="./images/image031.webp?raw=true"
   style="width:45%;"
   title="alert('My Message Here')"
   alt="alert('My Message Here')." />
@@ -1014,7 +1014,7 @@ can generate some output.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 32. codepen: sample alert() (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image028.png?raw=true"
+<img src="./images/image028.webp?raw=true"
   style="width:45%;"
   title="Codepen: Sample alert()"
   alt="Codepen: Sample alert()." />
@@ -1029,7 +1029,7 @@ in this case, I have my code <b>alert</b>(&quot;Hello World&quot;).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 33. sample alert popup (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image033.png?raw=true"
+<img src="./images/image033.webp?raw=true"
   style="width:45%;"
   title="Sample alert() popup"
   alt="Sample alert() popup." />
@@ -1043,7 +1043,7 @@ Edge, or Firefox.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 34. codepen: sample alert (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image034.png?raw=true"
+<img src="./images/image034.webp?raw=true"
   style="width:45%;"
   title="Codepen: sample alert()"
   alt="Codepen: sample alert()." />
@@ -1058,7 +1058,7 @@ a quick and simple way for you to generate output using the alert.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 35. prompt() output (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image035.png?raw=true"
+<img src="./images/image035.webp?raw=true"
   style="width:45%;"
   title="Codepen, example; prompt('Enter your name:')"
   alt="Codepen, example; prompt('Enter your name:')." />
@@ -1074,7 +1074,7 @@ different.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. codepen, example prompt (25) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image036.png?raw=true"
+<img src="./images/image036.webp?raw=true"
   style="width:45%;"
   title="Codepen, example; prompt('What is your name? ')"
   alt="Codepen, example; prompt('What is your name? ')." />
@@ -1091,7 +1091,7 @@ generate output to the screen.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 37. document.write, example (25) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image037.png?raw=true"
+<img src="./images/image037.webp?raw=true"
   style="width:45%;"
   title="Example, document.write('Time to learn JavaScript')"
   alt="Example, document.write('Time to learn JavaScript')." />
@@ -1111,7 +1111,7 @@ this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 38. codepen: document.write (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image038.png?raw=true"
+<img src="./images/image038.webp?raw=true"
   style="width:45%;"
   title="Codepen, example document.write with h1"
   alt="Codepen, example document.write with h1." />
@@ -1123,7 +1123,7 @@ input, it writes it directly into the screen.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. codepen: document.write, #2 (26) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image039.png?raw=true"
+<img src="./images/image039.webp?raw=true"
   style="width:45%;"
   title="Codepen: document.write, #2"
   alt="Codepen: document.write, #2." />
@@ -1137,7 +1137,7 @@ realize that it is probably not the best way to do it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. document.write (27) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image040.png?raw=true"
+<img src="./images/image040.webp?raw=true"
   style="width:45%;"
   title="document.write()"
   alt="document.write()." />
@@ -1150,7 +1150,7 @@ methods.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41. innerhtml() (27) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image041.png?raw=true"
+<img src="./images/image041.webp?raw=true"
   style="width:45%;"
   title="innerHTML"
   alt="innerHTML" />
@@ -1165,7 +1165,7 @@ APIs that can go and get things for us.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 42. innerhtml, #2 (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image042.png?raw=true"
+<img src="./images/image042.webp?raw=true"
   style="width:45%;"
   title="innerHTML, #2"
   alt="innerHTML, #2." />
@@ -1187,7 +1187,7 @@ you an example of something we can do using innerHTML.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43. codepen: h1 with id=test (28) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image043.png?raw=true"
+<img src="./images/image043.webp?raw=true"
   style="width:45%;"
   title="Codepen: h1 with id=test"
   alt="Codepen: h1 with id=test." />
@@ -1200,7 +1200,7 @@ with this code?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 44. document.getelementbyid test (29) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image044.png?raw=true"
+<img src="./images/image044.webp?raw=true"
   style="width:45%;"
   title="Test document.getElementById.innerHTML"
   alt="Test document.getElementById.innerHTML." />
@@ -1217,7 +1217,7 @@ examples are weird examples. Because you just want to get your feet wet.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 45. what two elements with id = test? (29) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image045.png?raw=true"
+<img src="./images/image045.webp?raw=true"
   style="width:45%;"
   title="What happens if you have 2 elements with id=test?"
   alt="What happens if you have 2 elements with id=test?" />
@@ -1234,7 +1234,7 @@ to stop as soon as I find that one.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. second id = test is ignored (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image046.png?raw=true"
+<img src="./images/image046.webp?raw=true"
   style="width:45%;"
   title="2nd id=test is ignored"
   alt="2nd id=test is ignored." />
@@ -1245,7 +1245,7 @@ change the second one it found, okay? All right.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. console.log() (30) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image047.png?raw=true"
+<img src="./images/image047.webp?raw=true"
   style="width:45%;"
   title="console.log() to write data to browser console"
   alt="console.log() to write data to browser console." />
@@ -1267,7 +1267,7 @@ doing your CSS.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. example script: console.log (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image048.png?raw=true"
+<img src="./images/image048.webp?raw=true"
   style="width:45%;"
   title="Example script: console.log"
   alt="Example script: console.log." />
@@ -1278,7 +1278,7 @@ I have <b>console.log</b> Hello World. Nothing too exciting going on here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. browser console (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image049.png?raw=true"
+<img src="./images/image049.webp?raw=true"
   style="width:45%;"
   title="Browser console example"
   alt="Browser console example." />
@@ -1292,7 +1292,7 @@ World showed up here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. more browser console (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image050.png?raw=true"
+<img src="./images/image050.webp?raw=true"
   style="width:45%;"
   title="More browser console example"
   alt="More browser console example." />
@@ -1311,7 +1311,7 @@ console by now, if you haven&apos;t.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51. the console (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image051.png?raw=true"
+<img src="./images/image051.webp?raw=true"
   style="width:45%;"
   title="The console"
   alt="The console." />
@@ -1324,7 +1324,7 @@ much better programmer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. debug example: missing quote (33) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image052.png?raw=true"
+<img src="./images/image052.webp?raw=true"
   style="width:45%;"
   title="Debug example: Missing quote"
   alt="Debug example: Missing quote." />
@@ -1337,7 +1337,7 @@ anything going on or that anything is supposed to show up.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 53. debug example: syntax error (33) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image053.png?raw=true"
+<img src="./images/image053.webp?raw=true"
   style="width:45%;"
   title="Debug example: SyntaxError: missing argument (quote)"
   alt="Debug example: SyntaxError: missing argument (quote)." />
@@ -1359,7 +1359,7 @@ going to be critical to going on and advancing in this course.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. access debugger in browsers (34) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image054.png?raw=true"
+<img src="./images/image054.webp?raw=true"
   style="width:45%;"
   title="How to access the debugger in Safari, Chrome, Firefox and Edge"
   alt="How to access the debugger in Safari, Chrome, Firefox and Edge." />
@@ -1383,7 +1383,7 @@ so let&apos;s review.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 55. review: 1.03 output (35) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image055.png?raw=true"
+<img src="./images/image055.webp?raw=true"
   style="width:45%;"
   title="Review 1.03 Output"
   alt="Review 1.03 Output." />
@@ -1428,7 +1428,7 @@ Debugging](https://www.w3schools.com/js/js_debugging.asp).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 56. chrome error alert (36) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image056.png?raw=true"
+<img src="./images/image056.webp?raw=true"
   style="width:45%;"
   title="Code, an empty browser, and an error message in the Chrome console"
   alt="Code, an empty browser, and an error message in the Chrome console." />
@@ -1441,7 +1441,7 @@ Debugging](https://www.w3schools.com/js/js_debugging.asp).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 57. variables (1.04) (36) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image057.png?raw=true"
+<img src="./images/image057.webp?raw=true"
   style="width:45%;"
   title="1.04 Variables"
   alt="1.04 Variables." />
@@ -1454,7 +1454,7 @@ impression that&apos;s kind of intelligent and knows the user very well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 58. storing data (37) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image058.png?raw=true"
+<img src="./images/image058.webp?raw=true"
   style="width:45%;"
   title="Storing data in variables"
   alt="Storing data in variables." />
@@ -1473,7 +1473,7 @@ should be special to you, but not special to the computer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 59. example: storing data in variables (37) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image059.png?raw=true"
+<img src="./images/image059.webp?raw=true"
   style="width:45%;"
   title="Example: Storing Data in variables"
   alt="Example: Storing Data in variables." />
@@ -1495,7 +1495,7 @@ and instead using English words.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 60. variable name rules (38) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image060.png?raw=true"
+<img src="./images/image060.webp?raw=true"
   style="width:45%;"
   title="Variable name rules"
   alt="Variable name rules." />
@@ -1529,7 +1529,7 @@ a lot of heart ache later.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. variable assignments (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image061.png?raw=true"
+<img src="./images/image061.webp?raw=true"
   style="width:40%;"
   title="Variable assignments"
   alt="Variable assignments." />
@@ -1548,7 +1548,7 @@ into the variable.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 62. assignment statement; lhs and rhs (39) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image062.png?raw=true"
+<img src="./images/image062.webp?raw=true"
   style="width:40%;"
   title="Assignment statement LHS &amp; RHS"
   alt="Assignment statement LHS &amp; RHS." />
@@ -1570,7 +1570,7 @@ Colleen. This works really well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 63. example error: assignment statement (40) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image063.png?raw=true"
+<img src="./images/image063.webp?raw=true"
   style="width:40%;"
   title="Example Error: Assignment statement"
   alt="Example Error: Assignment statement." />
@@ -1589,7 +1589,7 @@ was the prompt.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 64. example, using a variable (40) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image064.png?raw=true"
+<img src="./images/image064.webp?raw=true"
   style="width:40%;"
   title="Using a variable"
   alt="Using a variable." />
@@ -1608,7 +1608,7 @@ write that out as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65. example, prompt (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image065.png?raw=true"
+<img src="./images/image065.webp?raw=true"
   style="width:40%;"
   title="Example, prompt"
   alt="Example, prompt." />
@@ -1619,7 +1619,7 @@ the simple code we used before when we were learning about prompts.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 66. example: set var to prompt (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image066.png?raw=true"
+<img src="./images/image066.webp?raw=true"
   style="width:40%;"
   title="Example: var nm = prompt"
   alt="Example: var nm = prompt." />
@@ -1634,7 +1634,7 @@ have to.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 67. example: set var prompt (42) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image067.png?raw=true"
+<img src="./images/image067.webp?raw=true"
   style="width:40%;"
   title="Example: var prompt"
   alt="Example: var prompt." />
@@ -1648,7 +1648,7 @@ We&apos;ll comment that out when we&apos;re done. All right.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 68. example: document.write (42) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image068.png?raw=true"
+<img src="./images/image068.webp?raw=true"
   style="width:40%;"
   title="Example: document.write, console.log and alert"
   alt="Example: document.write, console.log and alert." />
@@ -1661,7 +1661,7 @@ want to edit all my typing out. What is your name? Well, it is Colleen.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 69. example: alert popup (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image069.png?raw=true"
+<img src="./images/image069.webp?raw=true"
   style="width:40%;"
   title="Example: alert popup"
   alt="Example: alert popup." />
@@ -1673,7 +1673,7 @@ an example where I can go in, that&apos;s what was going on.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 70. example: alert, cont'd (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image070.png?raw=true"
+<img src="./images/image070.webp?raw=true"
   style="width:40%;"
   title="Example: alert, document.write, and console.log"
   alt="Example: alert, document.write, and console.log." />
@@ -1685,7 +1685,7 @@ example.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 71. document.write (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image071.png?raw=true"
+<img src="./images/image071.webp?raw=true"
   style="width:40%;"
   title="document.write()"
   alt="document.write()." />
@@ -1703,7 +1703,7 @@ title.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 72. document.write, cont'd (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image072.png?raw=true"
+<img src="./images/image072.webp?raw=true"
   style="width:40%;"
   title="document.write, cont'd"
   alt="document.write, cont'd." />
@@ -1718,7 +1718,7 @@ to assign it a value of null.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 73. prompt/print name (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image073.png?raw=true"
+<img src="./images/image073.webp?raw=true"
   style="width:40%;"
   title="Prompt/print name"
   alt="Prompt/print name." />
@@ -1731,7 +1731,7 @@ and the title of my page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 74. 1.04 variables: review (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image074.png?raw=true"
+<img src="./images/image074.webp?raw=true"
   style="width:40%;"
   title="1.04 Review"
   alt="1.04 Review." />
@@ -1751,7 +1751,7 @@ course. Good luck.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 75. data types (1.05) (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image075.webp?raw=true"
   style="width:40%;"
   title="1.05 Data Types"
   alt="1.05 Data Types." />
@@ -1763,7 +1763,7 @@ types used in the JavaScript programming language.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76. assignments (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image076.png?raw=true"
+<img src="./images/image076.webp?raw=true"
   style="width:40%;"
   title="Assignments; prompt(), date() and window.location"
   alt="Assignments; prompt(), date() and window.location." />
@@ -1785,7 +1785,7 @@ different.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 77. types of variables (47) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image077.png?raw=true"
+<img src="./images/image077.webp?raw=true"
   style="width:40%;"
   title="Types of variables"
   alt="Types of variables." />
@@ -1800,7 +1800,7 @@ can represent them.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 78. number, example (47) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image078.png?raw=true"
+<img src="./images/image078.webp?raw=true"
   style="width:40%;"
   title="Number, window.innerWidth"
   alt="Number, window.innerWidth." />
@@ -1825,7 +1825,7 @@ decimals.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. string, example (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image079.png?raw=true"
+<img src="./images/image079.webp?raw=true"
   style="width:40%;"
   title="String, window.location"
   alt="String, window.location." />
@@ -1846,7 +1846,7 @@ I&apos;ve just hardcoded it to something you might expect.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 80. boolean, example (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image080.png?raw=true"
+<img src="./images/image080.webp?raw=true"
   style="width:40%;"
   title="Boolean, examples; false, window.closed"
   alt="Boolean, examples; false, window.closed." />
@@ -1867,7 +1867,7 @@ of power to your page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 81. object, example (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image081.png?raw=true"
+<img src="./images/image081.webp?raw=true"
   style="width:40%;"
   title="Object, example; document.getElementById('myID')"
   alt="Object, example; document.getElementById('myID')." />
@@ -1890,7 +1890,7 @@ string&apos;s numbers that make up objects.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 82. array, example (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image079.png?raw=true"
+<img src="./images/image079.webp?raw=true"
   style="width:40%;"
   title="Array, example; document.getElementsByTagName('a')"
   alt="Array, example; document.getElementsByTagName('a')." />
@@ -1911,7 +1911,7 @@ whole collection.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 83. accessing array elements (50) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image083.png?raw=true"
+<img src="./images/image083.webp?raw=true"
   style="width:40%;"
   title="Accessing Array Elements"
   alt="Accessing Array Elements." />
@@ -1932,7 +1932,7 @@ that can be returned.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 84. variables - play with types (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image084.png?raw=true"
+<img src="./images/image084.webp?raw=true"
   style="width:40%;"
   title="Variables; Play with Types"
   alt="Variables; Play with Types." />
@@ -1957,7 +1957,7 @@ you to get freaked out about it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 85. example, document.write (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image085.png?raw=true"
+<img src="./images/image085.webp?raw=true"
   style="width:40%;"
   title="Example, document.write"
   alt="Example, document.write." />
@@ -1971,11 +1971,11 @@ I don&apos;t know how many I added but we&apos;re going to do it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 86/87. prompt/display variable (52) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image086.png?raw=true"
+<img src="./images/image086.webp?raw=true"
   style="width:45%;"
   title="Prompt for name as variable"
   alt="Prompt for name as variable." />
-<img src="./images/image087.png?raw=true"
+<img src="./images/image087.webp?raw=true"
   style="width:45%;"
   title="Display name as variable"
   alt="Display name as variable." />
@@ -1986,7 +1986,7 @@ that now it knows that I have five paragraph elements in there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 88. review, data types (53) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image088.png?raw=true"
+<img src="./images/image088.webp?raw=true"
   style="width:40%;"
   title="Review, Data Types"
   alt="Review, Data Types." />
@@ -2010,7 +2010,7 @@ So good luck.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 89. operators and expressions (1.06) (53) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image089.png?raw=true"
+<img src="./images/image089.webp?raw=true"
   style="width:40%;"
   title="1.06 Operators and Expressions"
   alt="1.06 Operators and Expressions." />
@@ -2023,7 +2023,7 @@ that ended with a semicolon, we were writing a statement.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 90. statements (54) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image090.png?raw=true"
+<img src="./images/image090.webp?raw=true"
   style="width:40%;"
   title="Statements"
   alt="Statements." />
@@ -2038,7 +2038,7 @@ JavaScript to produce these types of expression values.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91. expression (54) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image091.png?raw=true"
+<img src="./images/image091.webp?raw=true"
   style="width:40%;"
   title="Expression"
   alt="Expression." />
@@ -2055,7 +2055,7 @@ there&apos;s more to it that we can do than just that.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 92. assignment operators (55) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image092.png?raw=true"
+<img src="./images/image092.webp?raw=true"
   style="width:40%;"
   title="Assignment Operators"
   alt="Assignment Operators." />
@@ -2069,7 +2069,7 @@ x as well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. arithmetic operators (55) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image093.png?raw=true"
+<img src="./images/image093.webp?raw=true"
   style="width:40%;"
   title="Arithmetic Operators"
   alt="Arithmetic Operators." />
@@ -2095,7 +2095,7 @@ and type a few numbers in and see what kind of response you get.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 94. more operators (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image094.png?raw=true"
+<img src="./images/image094.webp?raw=true"
   style="width:40%;"
   title="More Operators"
   alt="More Operators." />
@@ -2113,7 +2113,7 @@ somebody else's code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 95. string operators (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image095.png?raw=true"
+<img src="./images/image095.webp?raw=true"
   style="width:40%;"
   title="String Operators"
   alt="String Operators." />
@@ -2134,7 +2134,7 @@ used to have and concatenate this new part on to it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 96. example, boolean operators (57) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image096.png?raw=true"
+<img src="./images/image096.webp?raw=true"
   style="width:40%;"
   title="Example, Boolean Operators"
   alt="Example, Boolean Operators." />
@@ -2154,7 +2154,7 @@ sure the value stored in x doesn&apos;t equal 5.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 97. another example, boolean operators (57) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image097.png?raw=true"
+<img src="./images/image097.webp?raw=true"
   style="width:40%;"
   title="Another Example, Boolean Operators"
   alt="Another Example, Boolean Operators." />
@@ -2171,7 +2171,7 @@ want it to say yes if it&apos;s a string?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 98. boolean operators (58) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image098.png?raw=true"
+<img src="./images/image098.webp?raw=true"
   style="width:40%;"
   title="Boolean Operators"
   alt="Boolean Operators." />
@@ -2198,7 +2198,7 @@ you&apos;ll feel comfortable moving on with these operators.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 99. logical operators (59) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image099.png?raw=true"
+<img src="./images/image099.webp?raw=true"
   style="width:40%;"
   title="Logical Operators"
   alt="Logical Operators." />
@@ -2222,7 +2222,7 @@ where you only need one thing to be true.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 100. review, operations and expressions (59) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image100.png?raw=true"
+<img src="./images/image100.webp?raw=true"
   style="width:40%;"
   title="Review, Operations and Expressions"
   alt="Review, Operations and Expressions." />
@@ -2285,7 +2285,7 @@ it to happen).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 101. functions (2.01) (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image098.png?raw=true"
+<img src="./images/image098.webp?raw=true"
   style="width:40%;"
   title="2.01 Functions"
   alt="2.01 Functions." />
@@ -2297,7 +2297,7 @@ the function name.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 102. example, functions (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image102.png?raw=true"
+<img src="./images/image102.webp?raw=true"
   style="width:40%;"
   title="Example, functions"
   alt="Example, functions." />
@@ -2330,7 +2330,7 @@ it over and over again.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 103. example, function declaration (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image103.png?raw=true"
+<img src="./images/image103.webp?raw=true"
   style="width:40%;"
   title="Example, Function Declaration"
   alt="Example, Function Declaration." />
@@ -2346,7 +2346,7 @@ will work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 104. more examples, function declaration (63) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image104.png?raw=true"
+<img src="./images/image104.webp?raw=true"
   style="width:40%;"
   title="More Examples, Function Declaration"
   alt="More Examples, Function Declaration." />
@@ -2365,7 +2365,7 @@ need to tell the computer when you want that function to run.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 105. function call (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image105.png?raw=true"
+<img src="./images/image105.webp?raw=true"
   style="width:40%;"
   title="Function call"
   alt="Function call." />
@@ -2381,7 +2381,7 @@ order that you write them.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 106. example, function call (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image106.png?raw=true"
+<img src="./images/image106.webp?raw=true"
   style="width:40%;"
   title="Example, function call"
   alt="Example, function call." />
@@ -2405,7 +2405,7 @@ anything you&apos;d like instead if you prefer.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 107. parameters (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image107.png?raw=true"
+<img src="./images/image107.webp?raw=true"
   style="width:40%;"
   title="Parameters"
   alt="Parameters." />
@@ -2424,7 +2424,7 @@ anything you want, as long as you&apos;re consistent.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 108. return values (66) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image108.png?raw=true"
+<img src="./images/image108.webp?raw=true"
   style="width:40%;"
   title="Return values"
   alt="Return values." />
@@ -2440,7 +2440,7 @@ hit yes on that form.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 109. example, return values (66) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image109.png?raw=true"
+<img src="./images/image109.webp?raw=true"
   style="width:40%;"
   title="Example, Return values"
   alt="Example, Return values." />
@@ -2461,7 +2461,7 @@ be aware of the term.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 110. review, functions (67) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image110.png?raw=true"
+<img src="./images/image110.webp?raw=true"
   style="width:40%;"
   title="Review, Functions"
   alt="Review, Functions." />
@@ -2498,7 +2498,7 @@ understand some of the power of JavaScript. Good luck.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 111. code placement (2.02) (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image111.png?raw=true"
+<img src="./images/image111.webp?raw=true"
   style="width:40%;"
   title="2.02 Code Placement"
   alt="2.02 Code Placement." />
@@ -2511,7 +2511,7 @@ going on.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 112. where to place the code (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image112.png?raw=true"
+<img src="./images/image112.webp?raw=true"
   style="width:40%;"
   alt="Where to Place the Code." />
 </p>
@@ -2529,7 +2529,7 @@ section of your HTML code, or you can use an external file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 113. in the head with script tag (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image113.png?raw=true"
+<img src="./images/image113.webp?raw=true"
   style="width:40%;"
   title="In the head with script tag"
   alt="In the head with script tag." />
@@ -2553,7 +2553,7 @@ information, the ID&apos;s, the classes, etc.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 114. code can be placed in the <head> (69) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image114.png?raw=true"
+<img src="./images/image114.webp?raw=true"
   style="width:40%;"
   title="Code can be place in the head"
   alt="Code can be place in the head." />
@@ -2574,7 +2574,7 @@ here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 115. javascript in an external file (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image115.png?raw=true"
+<img src="./images/image115.webp?raw=true"
   style="width:40%;"
   title="JavaScript in an External File"
   alt="JavaScript in an External File." />
@@ -2589,7 +2589,7 @@ the JavaScript, without any script tag.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 116. example, js in an external file (70) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image116.png?raw=true"
+<img src="./images/image116.webp?raw=true"
   style="width:40%;"
   title="Example, JavaScript in an External File"
   alt="Example, JavaScript in an External File." />
@@ -2615,7 +2615,7 @@ are so slight, you don&apos;t even realize that you have a problem.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 117. debugging your code (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image117.png?raw=true"
+<img src="./images/image117.webp?raw=true"
   style="width:40%;"
   title="Debugging Your Code"
   alt="Debugging Your Code." />
@@ -2629,7 +2629,7 @@ annoyed later, when I could have found my errors so much more easily.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 118. codepen (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image118.png?raw=true"
+<img src="./images/image118.webp?raw=true"
   style="width:40%;"
   title="CodePen"
   alt="CodePen." />
@@ -2651,7 +2651,7 @@ you&apos;re sure you know how to link them together.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 119. split up code in codepen (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image116.png?raw=true"
+<img src="./images/image116.webp?raw=true"
   style="width:40%;"
   title="Split up code in CodePen"
   alt="Split up code in CodePen." />
@@ -2665,7 +2665,7 @@ there&apos;s this handy little function, that you can re-size the windows.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 120. focus on html and css (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image120.png?raw=true"
+<img src="./images/image120.webp?raw=true"
   style="width:40%;"
   alt="." />
 </p>
@@ -2676,7 +2676,7 @@ HTML and the JS.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 121. review, code placement (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image121.png?raw=true"
+<img src="./images/image121.webp?raw=true"
   style="width:40%;"
   title="Review, Code Placement"
   alt="Review, Code Placement." />
@@ -2716,7 +2716,7 @@ folder) for your CSS, image, and JavaScript files.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 122. folder with subfolders nested within (74) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image122.png?raw=true"
+<img src="./images/image122.webp?raw=true"
   style="width:40%;"
   title="Folder with subfolders nested within"
   alt="Folder with subfolders nested within." />
@@ -2735,7 +2735,7 @@ JavaScript files.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 123. folder structure / organizing your code (2.03) (75) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image123.png?raw=true"
+<img src="./images/image123.webp?raw=true"
   style="width:40%;"
   title="2.03 Folder Structure / Organizing Your Code"
   alt="2.03 Folder Structures / Organizing Your Code." />
@@ -2751,7 +2751,7 @@ designers tend to organize and separate their code into different parts.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 124. folder structure (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image121.png?raw=true"
+<img src="./images/image121.webp?raw=true"
   style="width:40%;"
   title="Folder Structure"
   alt="Folder Structure." />
@@ -2770,7 +2770,7 @@ way, right from the beginning.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 125. conventions in organizing code (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image125.png?raw=true"
+<img src="./images/image125.webp?raw=true"
   style="width:40%;"
   title="Conventions in organizing code"
   alt="Conventions in organizing code." />
@@ -2789,7 +2789,7 @@ link together in the right way.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 126. linking from an html file (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image126.png?raw=true"
+<img src="./images/image126.webp?raw=true"
   style="width:40%;"
   title="Linking from an HTML file"
   alt="Linking from an HTML file." />
@@ -2820,7 +2820,7 @@ JavaScript, and images match what other people are expecting.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 127. linking from a css file (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image127.png?raw=true"
+<img src="./images/image127.webp?raw=true"
   style="width:40%;"
   title="Linking from a CSS file"
   alt="Linking from a CSS file." />
@@ -2837,7 +2837,7 @@ find 'images' folder and pull from there. Done & done.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 128. debugging (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image128.png?raw=true"
+<img src="./images/image128.webp?raw=true"
   style="width:40%;"
   title="Debugging"
   alt="Debugging." />
@@ -2864,7 +2864,7 @@ CSS, JavaScript, and images functions out there. Thanks.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 129. events (2.04) (78) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image129.png?raw=true"
+<img src="./images/image129.webp?raw=true"
   style="width:40%;"
   title="2.04 Events"
   alt="2.04 Events." />
@@ -2877,7 +2877,7 @@ reacting to events that happened to your web page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 130. adding the interactivity! (79) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image127.png?raw=true"
+<img src="./images/image127.webp?raw=true"
   style="width:40%;"
   title="Adding the interactivity!"
   alt="Adding the interactivity!" />
@@ -2894,7 +2894,7 @@ can do this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 131. events (79) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image131.png?raw=true"
+<img src="./images/image131.webp?raw=true"
   style="width:40%;"
   title="Events"
   alt="Events." />
@@ -2918,7 +2918,7 @@ we are all seeing the exact same events.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 132. events, how it works (80) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image132.png?raw=true"
+<img src="./images/image132.webp?raw=true"
   style="width:40%;"
   title="Events, How it Works"
   alt="Events, How it Works." />
@@ -2938,7 +2938,7 @@ for the duration that this site is loaded onto the browser.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 133. example, using quotes (80) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image133.png?raw=true"
+<img src="./images/image133.webp?raw=true"
   style="width:40%;"
   title="Example, Using Quotes"
   alt="Example, Using Quotes." />
@@ -2972,7 +2972,7 @@ that they&apos;re matching up correctly.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 134. getelementbyid('output').innerhtml = msg + " event"; (81) ~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image134.png?raw=true"
+<img src="./images/image134.webp?raw=true"
   style="width:40%;"
   title="document.getElementById('output').innerHTML = msg + ' event';"
   alt="document.getElementById('output').innerHTML = msg + ' event';" />
@@ -2996,7 +2996,7 @@ going to call it with three different frame runners.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 135. when loaded, load event shows up (82) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image135.png?raw=true"
+<img src="./images/image135.webp?raw=true"
   style="width:40%;"
   title="When loaded, load event shows up"
   alt="When loaded, load event shows up." />
@@ -3007,7 +3007,7 @@ the page, it automatically had LOAD event show up.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 136. click paragraph, click event shows up (82) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image136.png?raw=true"
+<img src="./images/image136.webp?raw=true"
   style="width:40%;"
   title="When click paragraph, click event shows up"
   alt="When click paragraph, click event shows up." />
@@ -3019,7 +3019,7 @@ can&apos;t tell because it&apos;s so quick.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 137. resize page, resize event occurs (83) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image137.png?raw=true"
+<img src="./images/image137.webp?raw=true"
   style="width:40%;"
   title="When resize page, resize event occurs"
   alt="When resize page, resize event occurs." />
@@ -3032,7 +3032,7 @@ HTML actually change based on the different events.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 138. click button, button event occurs (83) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image138.png?raw=true"
+<img src="./images/image138.webp?raw=true"
   style="width:40%;"
   title="When click button, button event occurs"
   alt="When click button, button event occurs." />
@@ -3048,7 +3048,7 @@ that element, but now we can.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 139. javascript date function (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image139.png?raw=true"
+<img src="./images/image139.webp?raw=true"
   style="width:40%;"
   title="JavaScript date function"
   alt="JavaScript date function." />
@@ -3061,7 +3061,7 @@ well, it&apos;s yellow.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 140. onclick button, displaydate() (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image140.png?raw=true"
+<img src="./images/image140.webp?raw=true"
   style="width:40%;"
   title="onclick button, displayDate()"
   alt="onclick button, displayDate()." />
@@ -3073,7 +3073,7 @@ All right, so I&apos;m going to use this function and connect it with the
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 141. example, js date function, onclick (85) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image141.png?raw=true"
+<img src="./images/image141.webp?raw=true"
   style="width:40%;"
   title="Example, JS displayDate(), onclick"
   alt="Example, JS displayDate(), onclick." />
@@ -3092,7 +3092,7 @@ really quite complex.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 142. events change the program flow (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image142.png?raw=true"
+<img src="./images/image142.webp?raw=true"
   style="width:40%;"
   title="Events Change the Program Flow"
   alt="Events Change the Program Flow." />
@@ -3110,7 +3110,7 @@ your page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 143. more events; mouse, keyboard, frame & more (86) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image143.png?raw=true"
+<img src="./images/image143.webp?raw=true"
   style="width:40%;"
   title="More Events; Mouse, Keyboard, Frame and more"
   alt="More Events; Mouse, Keyboard, Frame and more." />
@@ -3140,7 +3140,7 @@ work with our webpages.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 144. review; events (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image144.png?raw=true"
+<img src="./images/image144.webp?raw=true"
   style="width:40%;"
   title="Review; Events"
   alt="Review; Events." />
@@ -3190,7 +3190,7 @@ outnumber the times that you are stuck.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 145. code with me -- events (2.05) (88) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image145.png?raw=true"
+<img src="./images/image145.webp?raw=true"
   style="width:40%;"
   title="2.05 Code With Me -- Events"
   alt="2.05 Code With Me -- Events." />
@@ -3211,7 +3211,7 @@ questions.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 146. examples, events - modify dom & change style (89) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image146.png?raw=true"
+<img src="./images/image146.webp?raw=true"
   style="width:40%;"
   title="Examples, events - modify DOM &amp; change style"
   alt="Examples, events - modify DOM &amp; change style." />
@@ -3227,7 +3227,7 @@ also match events just with JavaScript code, not a function itself.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 147. modifying the dom (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image147.png?raw=true"
+<img src="./images/image147.webp?raw=true"
   style="width:50%;"
   title="Modifying the DOM"
   alt="Modifying the DOM." />
@@ -3242,7 +3242,7 @@ only difference is that I want to change the content of that paragraph.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 148. onclick, update second button's innerhtml (90) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image148.png?raw=true"
+<img src="./images/image148.webp?raw=true"
   style="width:50%;"
   title="onclick, update second button's innerHTML"
   alt="onclick, update second button's innerHTML." />
@@ -3253,7 +3253,7 @@ look at.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 149. onclick first button (90) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image149.png?raw=true"
+<img src="./images/image149.webp?raw=true"
   style="width:50%;"
   title="onclick first button"
   alt="onclick first button." />
@@ -3264,7 +3264,7 @@ hey I know that I just clicked the First button.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 150. onclick second button (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image150.png?raw=true"
+<img src="./images/image150.webp?raw=true"
   style="width:50%;"
   title="onclick second button"
   alt="onclick second button." />
@@ -3277,7 +3277,7 @@ to make mistakes. Let&apos;s just look at them quickly.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 151. modify the dom w/getelementbyid (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image151.png?raw=true"
+<img src="./images/image151.webp?raw=true"
   style="width:50%;"
   title="Modify the DOM onclick with getElementById('stuff').innerHTML"
   alt="Modify the DOM onclick with getElementById('stuff').innerHTML." />
@@ -3303,7 +3303,7 @@ you&apos;ll be able to see it immediately. All right, wow, now I really.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 152. modify the dom using getlementbyid (92) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image152.png?raw=true"
+<img src="./images/image152.webp?raw=true"
   style="width:50%;"
   title="Modify the DOM using getElementById"
   alt="Modify the DOM using getElementById." />
@@ -3314,7 +3314,7 @@ going to happen, that where I put in here, Clicked Another Button.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 153. buttons first and third (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image153.png?raw=true"
+<img src="./images/image153.webp?raw=true"
   style="width:50%;"
   title="Buttons first and third"
   alt="Buttons first and third." />
@@ -3324,7 +3324,7 @@ Let&apos;s save. I&apos;m going to click on First, Second.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 154. buttons first and third, on-click (93) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image154.png?raw=true"
+<img src="./images/image154.webp?raw=true"
   style="width:50%;"
   title="Buttons first and third, on-click"
   alt="Buttons first and third, on-click." />
@@ -3336,7 +3336,7 @@ in an external file.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 155. open and close paragraphs using buttons (93) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image155.png?raw=true"
+<img src="./images/image155.webp?raw=true"
   style="width:50%;"
   title="Open and Close paragraphs using Buttons"
   alt="Open and Close paragraphs using Buttons." />
@@ -3348,7 +3348,7 @@ our HTML. We have our CSS. And we have our JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 156. css class closed, open (94) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image156.png?raw=true"
+<img src="./images/image156.webp?raw=true"
   style="width:50%;"
   title="CSS class closed, open"
   alt="CSS class closed, open." />
@@ -3368,7 +3368,7 @@ come back.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 157. html, p id='demo', open & close (94) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image157.png?raw=true"
+<img src="./images/image157.webp?raw=true"
   style="width:50%;"
   title="HTML, p id='demo', open &amp; close"
   alt="HTML, p id='demo', open &amp; close." />
@@ -3380,7 +3380,7 @@ the one we want to change in our code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 158. html, onclick openme, or onclick closeme (95) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image158.png?raw=true"
+<img src="./images/image158.webp?raw=true"
   style="width:50%;"
   title="In HTML, buttons onclick, openMe() or closeMe()"
   alt="In HTML, buttons onclick, openMe() or closeMe()." />
@@ -3397,7 +3397,7 @@ the style.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 159. js function, closeme (95) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image159.png?raw=true"
+<img src="./images/image159.webp?raw=true"
   style="width:50%;"
   title="In JS, function closeMe()"
   alt="In JS, function closeMe()." />
@@ -3410,7 +3410,7 @@ it to go from none.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 160. js function, openme (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image160.png?raw=true"
+<img src="./images/image160.webp?raw=true"
   style="width:50%;"
   title="In JS, function openMe()"
   alt="In JS, function openMe()." />
@@ -3422,11 +3422,11 @@ go from whatever it used to be, and now it should be block.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 161/162. test, buttons close & open (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image161.png?raw=true"
+<img src="./images/image161.webp?raw=true"
   style="width:45%;"
   title="Test, buttons close & open paragraph"
   alt="Test, buttons close & open paragraph." />
-<img src="./images/image162.png?raw=true"
+<img src="./images/image162.webp?raw=true"
   style="width:45%;"
   title="Test, open & close paragraph using buttons"
   alt="Test, open & close paragraph using buttons." />
@@ -3440,11 +3440,11 @@ elements? This is where the idea of our classes can come in.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 163/164. get element & change class (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image163.png?raw=true"
+<img src="./images/image163.webp?raw=true"
   style="width:45%;"
   title="x=document.getElementById('demo'); then x.className='closed';"
   alt="x=document.getElementById('demo'); then x.className='closed';" />
-<img src="./images/image164.png?raw=true"
+<img src="./images/image164.webp?raw=true"
   style="width:45%;"
   title="x=document.getElementById('demo'); then x.className='open';"
   alt="x=document.getElementById('demo'); then x.className='open';" />
@@ -3460,11 +3460,11 @@ I want it to be closed. And down here, I want it to be open.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 165/166. test, change style of html (97) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image165.png?raw=true"
+<img src="./images/image165.webp?raw=true"
   style="width:45%;"
   title="Test, change style of HTML element"
   alt="Test, change style of HTML element." />
-<img src="./images/image166.png?raw=true"
+<img src="./images/image166.webp?raw=true"
   style="width:45%;"
   title="Test, open/close paragraph using buttons"
   alt="Test, open/close paragraph using buttons." />
@@ -3474,7 +3474,7 @@ that code and make sure I didn&apos;t break it. Close, Open, Close, Open.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 167. review; code with me - events (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image167.png?raw=true"
+<img src="./images/image167.webp?raw=true"
   style="width:40%;"
   title="Review; Code With Me - Events"
   alt="Review; Code With Me - Events." />
@@ -3498,7 +3498,7 @@ we get into these more complex ideas. So, good luck.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 168. 'this' (2.06) (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image168.png?raw=true"
+<img src="./images/image168.webp?raw=true"
   style="width:40%;"
   title="2.06 'this'"
   alt="2.06 'this'." />
@@ -3518,7 +3518,7 @@ block, especially for new programmers, is trying to figure out.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 169. referring to elements (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image169.png?raw=true"
+<img src="./images/image169.webp?raw=true"
   style="width:40%;"
   title="Referring to Elements"
   alt="Referring to Elements." />
@@ -3532,7 +3532,7 @@ That&apos;s where "this" keyword comes in.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 170. example, 'this' (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image170.png?raw=true"
+<img src="./images/image170.webp?raw=true"
   style="width:40%;"
   title="Example, 'this'"
   alt="Example, 'this'." />
@@ -3558,7 +3558,7 @@ They must be referring to this DOM element right here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 171. sample html, js with 'this' (100) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image171.png?raw=true"
+<img src="./images/image171.webp?raw=true"
   style="width:50%;"
   title="Sample code HTML, JS with 'this'"
   alt="Sample code HTML, JS with 'this'." />
@@ -3582,7 +3582,7 @@ this image.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 172. test console, awesome 80's haircut (101) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image172.png?raw=true"
+<img src="./images/image172.webp?raw=true"
   style="width:50%;"
   title="Test console, awesome 80's haircut"
   alt="Test console, awesome 80's haircut." />
@@ -3595,7 +3595,7 @@ It doesn&apos;t actually show up in the console multiple times.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 173. div onclick = 'console.log(this.innerhtml)' (102) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image173.png?raw=true"
+<img src="./images/image173.webp?raw=true"
   style="width:50%;"
   title="div onclick='console.log(this.innerHTML)'"
   alt="div onclick='console.log(this.innerHTML)'." />
@@ -3609,7 +3609,7 @@ clicking on.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 174. div onclick, this, innerhtml (102) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image174.png?raw=true"
+<img src="./images/image174.webp?raw=true"
   style="width:50%;"
   title="div onclick='console.log(this.innerHTML)'"
   alt="div onclick='console.log(this.innerHTML)'." />
@@ -3625,7 +3625,7 @@ the div to show up in the console.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 175. test, console.log 'this' (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image175.png?raw=true"
+<img src="./images/image175.webp?raw=true"
   style="width:50%;"
   title="Test, console.log 'this'"
   alt="Test, console.log 'this'." />
@@ -3638,7 +3638,7 @@ what&apos;s going on in the console.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 176. function displayid(element) log id (103) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image176.png?raw=true"
+<img src="./images/image176.webp?raw=true"
   style="width:50%;"
   title="function displayId(element){ console.log(element.id);}"
   alt="function displayId(element){ console.log(element.id);}." />
@@ -3658,7 +3658,7 @@ results.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 177. inspect log console, onclick display id (104) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image177.png?raw=true"
+<img src="./images/image177.webp?raw=true"
   style="width:50%;"
   title="Inspect log console, onClick displayId of 'this'"
   alt="Inspect log console, onClick displayId of 'this'." />
@@ -3673,7 +3673,7 @@ really well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 178. function showproperties (104) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image178.png?raw=true"
+<img src="./images/image178.webp?raw=true"
   style="width:50%;"
   title="function showProperties of element, display alt text of images"
   alt="function showProperties of element, display alt text of images." />
@@ -3702,7 +3702,7 @@ that I am hovering over with my mouse and call that property.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 179. test, hover showproperties, alt text (105) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image179.png?raw=true"
+<img src="./images/image179.webp?raw=true"
   style="width:50%;"
   title="Test, hover showProperties, alt text"
   alt="Test, hover showProperties, alt text." />
@@ -3729,7 +3729,7 @@ have to stop and think and really process it in your mind first.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 180. review, 'this' (106) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image180.png?raw=true"
+<img src="./images/image180.webp?raw=true"
   style="width:40%;"
   title="Review, 'this'"
   alt="Review, 'this'." />
@@ -3767,7 +3767,7 @@ to get you started is here: <http://codepen.io/ColleenEMc/pen/wKYxZa>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 181. photo gallery (2.07) (108) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image181.png?raw=true"
+<img src="./images/image181.webp?raw=true"
   style="width:40%;"
   title="2.07 Photo Gallery"
   alt="2.07 Photo Gallery." />
@@ -3780,7 +3780,7 @@ things I&apos;m looking for, from you, are your abilities to do two things.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 182. putting it into practice (109) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image182.png?raw=true"
+<img src="./images/image182.webp?raw=true"
   style="width:50%;"
   title="Putting it into Practice"
   alt="Putting it into Practice." />
@@ -3797,7 +3797,7 @@ So, let&apos;s take a look at the gallery homework.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 183. example, codepen photo gallery homework (109) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image183.png?raw=true"
+<img src="./images/image183.webp?raw=true"
   style="width:50%;"
   title="Example, CodePen photo gallery homework"
   alt="Example, CodePen photo gallery homework." />
@@ -3811,7 +3811,7 @@ source file and it has alt text.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 184. example 2, codepen photo gallery homework (110) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image184.png?raw=true"
+<img src="./images/image184.webp?raw=true"
   style="width:50%;"
   title="Example #2, CodePen photo gallery homework"
   alt="Example #2, CodePen photo gallery homework." />
@@ -3825,7 +3825,7 @@ We&apos;re creating a photo gallery here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 185. example 3, codepen photo gallery homework (110) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image185.png?raw=true"
+<img src="./images/image185.webp?raw=true"
   style="width:50%;"
   title="Example #3, CodePen photo gallery homework"
   alt="Example #3, CodePen photo gallery homework." />
@@ -3836,7 +3836,7 @@ original image in color.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 186. example 4, codepen photo gallery homework (111) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image186.png?raw=true"
+<img src="./images/image186.webp?raw=true"
   style="width:50%;"
   title="Example #4, CodePen photo gallery homework"
   alt="Example #4, CodePen photo gallery homework." />
@@ -3849,7 +3849,7 @@ leave.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 187. javascript function codes (111) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image184.png?raw=true"
+<img src="./images/image184.webp?raw=true"
   style="width:50%;"
   title="JavaScript function codes"
   alt="JavaScript function codes." />
@@ -3861,7 +3861,7 @@ need you to do is write those functions.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 188. function update(previewpic) (112) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image188.png?raw=true"
+<img src="./images/image188.webp?raw=true"
   style="width:50%;"
   title="function update(previewPic)"
   alt="function update(previewPic)." />
@@ -3878,7 +3878,7 @@ image. This is what we call <b>upDate</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 189. function undo() (112) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image189.png?raw=true"
+<img src="./images/image189.webp?raw=true"
   style="width:40%;"
   title="New function undo()"
   alt="New function undo()." />
@@ -3891,7 +3891,7 @@ again.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 190. example, background-image (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image187.png?raw=true"
+<img src="./images/image187.webp?raw=true"
   style="width:40%;"
   title="Example, background-image"
   alt="Example, background-image." />
@@ -3917,7 +3917,7 @@ the background color because we&apos;re hoping it won&apos;t be there at all.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 191. element text, 2 ways to change content (113) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image191.png?raw=true"
+<img src="./images/image191.webp?raw=true"
   style="width:40%;"
   title="Element Text, 2 ways to change content"
   alt="Element Text, 2 ways to change content." />
@@ -3942,7 +3942,7 @@ Really try to use something that can change as the document changes.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 192. tips (114) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image192.png?raw=true"
+<img src="./images/image192.webp?raw=true"
   style="width:40%;"
   title="Tips"
   alt="Tips" />
@@ -4152,7 +4152,7 @@ one thing at a time. This is where arrays come in.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 193. javascript arrays (3.01) (119) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image193.png?raw=true"
+<img src="./images/image193.webp?raw=true"
   style="width:40%;"
   title="3.01 JavaScript Arrays"
   alt="3.01 JavaScript Arrays." />
@@ -4168,7 +4168,7 @@ elements, the fact is they were just dealing with one element at a time.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 194. storing lots of data at once (119) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image194.png?raw=true"
+<img src="./images/image194.webp?raw=true"
   style="width:40%;"
   title="Arrays, storing lots of data at once"
   alt="Arrays, storing lots of data at once." />
@@ -4182,7 +4182,7 @@ variable.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 195. examples, declaring an array (120) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image195.png?raw=true"
+<img src="./images/image195.webp?raw=true"
   style="width:40%;"
   title="Examples, Declaring an Array"
   alt="Examples, Declaring an Array." />
@@ -4200,7 +4200,7 @@ images were in the document.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 196. more examples, declaring an array (120) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image196.png?raw=true"
+<img src="./images/image196.webp?raw=true"
   style="width:40%;"
   title="More Examples, Declaring an Array"
   alt="More Examples, Declaring an Array." />
@@ -4216,7 +4216,7 @@ tag.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 197. arrays - a collection of values (121) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image197.png?raw=true"
+<img src="./images/image197.webp?raw=true"
   style="width:40%;"
   title="Arrays - A Collection of Values"
   alt="Arrays - A Collection of Values." />
@@ -4236,7 +4236,7 @@ elements, I know that it&apos;ll go from 0 to 4.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 198. example, accessing an array by index (121) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image198.png?raw=true"
+<img src="./images/image198.webp?raw=true"
   style="width:40%;"
   title="Accessing an Array by Index"
   alt="Example, Accessing an Array by Index." />
@@ -4255,7 +4255,7 @@ array up here. I need to go find the one that&apos;s in the 0 place, so
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 199. another example, accessing an array (122) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image199.png?raw=true"
+<img src="./images/image199.webp?raw=true"
   style="width:40%;"
   title="Another example, Accessing an Array"
   alt="Another example, Accessing an Array." />
@@ -4270,7 +4270,7 @@ but you&apos;ll get the hang of it in really no time.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 200. example, arrays (122) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image200.png?raw=true"
+<img src="./images/image200.webp?raw=true"
   style="width:40%;"
   title="Example, Arrays - don't all have to be the same type"
   alt="Example, Arrays - don't all have to be the same type." />
@@ -4286,7 +4286,7 @@ encourage you to do your arrays in this manner.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 201. javascript arrays are objects (123) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image201.png?raw=true"
+<img src="./images/image201.webp?raw=true"
   style="width:40%;"
   title="Examples, JavaScript Arrays are Objects"
   alt="Examples, JavaScript Arrays are Objects." />
@@ -4310,7 +4310,7 @@ won&apos;t know how long the array is, especially if you used
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 202. example, js arrays are objects (123) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image202.png?raw=true"
+<img src="./images/image202.webp?raw=true"
   style="width:40%;"
   title="More Examples, JavaScript Arrays are Objects"
   alt="More Examples, JavaScript Arrays are Objects." />
@@ -4331,7 +4331,7 @@ new code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 203. review javascript arrays (124) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image203.png?raw=true"
+<img src="./images/image203.webp?raw=true"
   style="width:40%;"
   title="Review JavaScript Arrays"
   alt="Review JavaScript Arrays." />
@@ -4357,7 +4357,7 @@ thanks.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 204. code with me -- arrays (3.02) (125) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image204.png?raw=true"
+<img src="./images/image204.webp?raw=true"
   style="width:40%;"
   title="3.02 Code With Me -- Arrays"
   alt="3.02 Code With Me -- Arrays." />
@@ -4370,7 +4370,7 @@ the things that you&apos;ve been reading about all along?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 205. arrays (125) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image205.png?raw=true"
+<img src="./images/image205.webp?raw=true"
   style="width:40%;"
   title="Arrays"
   alt="Arrays." />
@@ -4394,7 +4394,7 @@ wrong.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 206. example, array and elements of array (126) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image206.png?raw=true"
+<img src="./images/image206.webp?raw=true"
   style="width:50%;"
   title="Example, array and elements of array"
   alt="Example, array and elements of array." />
@@ -4407,7 +4407,7 @@ understand what&apos;s going on with JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 207. example, step by step arrays and elements (126) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image207.png?raw=true"
+<img src="./images/image207.webp?raw=true"
   style="width:50%;"
   title="Example, step by step arrays and elements"
   alt="Example, step by step arrays and elements." />
@@ -4433,7 +4433,7 @@ food is. Once they ask, we need to know where should we put it?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 208. index starts at 0 (zero) (127) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image208.png?raw=true"
+<img src="./images/image208.webp?raw=true"
   style="width:50%;"
   title="Index starts at 0 (zero)"
   alt="Index starts at 0 (zero)." />
@@ -4445,11 +4445,11 @@ So this means we want to put the next fruit in position 4.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 209/210. test button, onclick add to array (127) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image209.png?raw=true"
+<img src="./images/image209.webp?raw=true"
   style="width:45%;"
   title="Test button, onClick add to array"
   alt="Test button, onClick add to array." />
-<img src="./images/image210.png?raw=true"
+<img src="./images/image210.webp?raw=true"
   style="width:45%;"
   title="Test, adding to an array"
   alt="Test, adding to an array." />
@@ -4472,7 +4472,7 @@ in the array.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 211. test, using arrays (128) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image211.png?raw=true"
+<img src="./images/image211.webp?raw=true"
   style="width:50%;"
   title="Test, using arrays"
   alt="Test, using arrays." />
@@ -4595,7 +4595,7 @@ situations.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 212. code with me: randomizing your images using arrays (4.01) (131) ~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image212.png?raw=true"
+<img src="./images/image212.webp?raw=true"
   style="width:40%;"
   title="4.01 Code With Me: Randomizing Your Images Using Arrays"
   alt="4.01 Code With Me: Randomizing Your Images Using Arrays." />
@@ -4612,19 +4612,19 @@ randomize your pictures using JavaScript, so let&apos;s take a look.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 213-216. four images for array (131) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image213.png?raw=true"
+<img src="./images/image213.webp?raw=true"
   style="width:20%;"
   title="Pink tree with curved path"
   alt="Pink tree with curved path." />
-<img src="./images/image214.png?raw=true"
+<img src="./images/image214.webp?raw=true"
   style="width:20%;"
   title="Tree in the woods"
   alt="Tree in the woods." />
-<img src="./images/image215.png?raw=true"
+<img src="./images/image215.webp?raw=true"
   style="width:20%;"
   title="Dog Bacon hanging in the woods"
   alt="Dog Bacon hanging in the woods." />
-<img src="./images/image216.png?raw=true"
+<img src="./images/image216.webp?raw=true"
   style="width:20%;"
   title="No image to display"
   alt="No image to display." />
@@ -4643,7 +4643,7 @@ an array of image names.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 217. body onload = pickimage() (132) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image217.png?raw=true"
+<img src="./images/image217.webp?raw=true"
   style="width:50%;"
   title="body onload = 'pickImage()'"
   alt="body onload = 'pickImage()'." />
@@ -4657,7 +4657,7 @@ run the function <b>pickImage(),</b> all right?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 218. link to js scripts with function pickimage() (132) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image218.png?raw=true"
+<img src="./images/image218.webp?raw=true"
   style="width:50%;"
   title="At bottom of html, link to script.js with function: pickImage()"
   alt="At bottom of html, link to script.js with function: pickImage()." />
@@ -4670,7 +4670,7 @@ my JavaScript file that has that function.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 219. randomly load images (133) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image219.png?raw=true"
+<img src="./images/image219.webp?raw=true"
   style="width:50%;"
   title="Randomly load images"
   alt="Randomly load images." />
@@ -4685,7 +4685,7 @@ image.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 220. create variable options array of images (133) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image220.png?raw=true"
+<img src="./images/image220.webp?raw=true"
   style="width:50%;"
   title="Create variable options as an array of images"
   alt="Create variable options as an array of images." />
@@ -4695,7 +4695,7 @@ Let&apos;s see how we do this in the JavaScript file. The function
 <b>pickImage</b> starts off with an array that I have called <b>options</b>.
 And what I did is I went through many of the images in my folder, but
 not all of them and just put them in as strings, so I have
-<b>bacon_in_the_woods.png</b>, <b>munising</b>, <b>bend_in_the_road.png</b>.
+<b>bacon_in_the_woods.webp</b>, <b>munising</b>, <b>bend_in_the_road.webp</b>.
 Oops, I&apos;ve got <b>bend_in_the_road</b> twice, think I actually in fact,
 we&apos;re going to get rid of a couple of these since I have extra, let&apos;s
 keep it nice and short and sweet.
@@ -4703,7 +4703,7 @@ keep it nice and short and sweet.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 221. function pickimage to randomly select image (134) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image221.png?raw=true"
+<img src="./images/image221.webp?raw=true"
   style="width:50%;"
   title="function pickImage to randomly select image from array"
   alt="function pickImage to randomly select image from array." />
@@ -4715,7 +4715,7 @@ did I get those images from?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 222. randomly select image with math.random (134) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image222.png?raw=true"
+<img src="./images/image222.webp?raw=true"
   style="width:50%;"
   title="Randomly select image with Math.random command"
   alt="Randomly select image with Math.random command." />
@@ -4732,7 +4732,7 @@ line of code you need to understand, and it&apos;s right here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~ 223. math.random is 0-1, options.length is number of images (135) ~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image223.png?raw=true"
+<img src="./images/image223.webp?raw=true"
   style="width:50%;"
   title="Math.random between 0 and 1; options.length = number of options in array"
   alt="Math.random between 0 and 1; options.length = number of options in array." />
@@ -4769,7 +4769,7 @@ something you can skip over.&quot;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 224. test, inspect element image (136) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image224.png?raw=true"
+<img src="./images/image224.webp?raw=true"
   style="width:50%;"
   title="Test, inspect element image"
   alt="Test, inspect element image." />
@@ -4784,7 +4784,7 @@ easier for you to read.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 225. inspect image selected, 'bend_in_the_road' (136) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image225.png?raw=true"
+<img src="./images/image225.webp?raw=true"
   style="width:50%;"
   title="Test, inspect image selected is 'bend_in_the_road'"
   alt="Test, inspect image selected is 'bend_in_the_road'." />
@@ -4794,20 +4794,20 @@ You can see, however, that currently the image is <b>bend_in_the_road</b>,
 let&apos;s refresh the page.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~ 226. test, display 'hollow_tree.png' (137) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 226. test, display 'hollow_tree.webp' (137) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image226.png?raw=true"
+<img src="./images/image226.webp?raw=true"
   style="width:50%;"
-  title="Test, display 'hollow_tree.png'"
-  alt="Test, display 'hollow_tree.png'." />
+  title="Test, display 'hollow_tree.webp'"
+  alt="Test, display 'hollow_tree.webp'." />
 </p>
 
-This time that&apos;s changed into <b>hollow_tree.png</b> I&apos;m going to refresh.
+This time that&apos;s changed into <b>hollow_tree.webp</b> I&apos;m going to refresh.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 227. test, blank image, no picture (137) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image227.png?raw=true"
+<img src="./images/image227.webp?raw=true"
   style="width:50%;"
   title="Test, no picture, blank image"
   alt="Test, no picture, blank image." />
@@ -4819,7 +4819,7 @@ there, so let&apos;s head over to the console.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 228. test, 404 error 'images/munising' not found (138) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image228.png?raw=true"
+<img src="./images/image228.webp?raw=true"
   style="width:50%;"
   title="Test, 404 error 'images/munising' not found"
   alt="Test, 404 error 'images/munising' not found." />
@@ -4832,11 +4832,11 @@ actually just isn&apos;t found. <b>images/munising</b> isn&apos;t found, it&apos
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 229/230. test, identify and fix missing picture error (138) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image229.png?raw=true"
+<img src="./images/image229.webp?raw=true"
   style="width:45%;"
   title="script.js - check 'options' for missing picture"
   alt="script.js - check 'options' for missing picture." />
-<img src="./images/image230.png?raw=true"
+<img src="./images/image230.webp?raw=true"
   style="width:45%;"
   title="script.js - add file extension to munising image in 'options' array"
   alt="script.js - add file extension to munising image in 'options' array." />
@@ -4850,7 +4850,7 @@ don&apos;t remember what it is. It was .jpg, so I need to replace this with
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 231. test options images with inspect element (139) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image231.png?raw=true"
+<img src="./images/image231.webp?raw=true"
   style="width:50%;"
   title="Test, options images with inspect element"
   alt="Test, options images with inspect element." />
@@ -4871,7 +4871,7 @@ and get your hands dirty, use that <b>Inspect Element</b>, and good luck.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 232. code with me: using lightbox (4.02) (139) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image232.png?raw=true"
+<img src="./images/image232.webp?raw=true"
   style="width:40%;"
   title="4.02 Code With Me: Using LightBox"
   alt="4.02 Code With Me: Using LightBox." />
@@ -4886,7 +4886,7 @@ packages and tools out there that you can use.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 233. code for creating lightboxes (140) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image233.png?raw=true"
+<img src="./images/image233.webp?raw=true"
   style="width:40%;"
   title="Use code for creating lightboxes"
   alt="Use code for creating lightboxes." />
@@ -4898,7 +4898,7 @@ write your own. And one of my absolute favorites is code for creating
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 234. lightbox project code; js and css (140) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image234.png?raw=true"
+<img src="./images/image234.webp?raw=true"
   style="width:50%;"
   title="Lightbox project code; javascript and css"
   alt="Lightbox project code; javascript and css." />
@@ -4912,7 +4912,7 @@ example.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 235. example, on click image pops up bigger (141) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image235.png?raw=true"
+<img src="./images/image235.webp?raw=true"
   style="width:50%;"
   title="Example, on click image pops up bigger"
   alt="Example, on click image pops up bigger." />
@@ -4924,7 +4924,7 @@ form.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 236. image with optional caption on bottom left (141) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image236.png?raw=true"
+<img src="./images/image236.webp?raw=true"
   style="width:50%;"
   title="Image with optional caption on bottom left"
   alt="Image with optional caption on bottom left." />
@@ -4937,7 +4937,7 @@ images.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 237. lightbox example, image with 'x' and caption (142) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image237.png?raw=true"
+<img src="./images/image237.webp?raw=true"
   style="width:50%;"
   title="Lightbox Example, image with 'X' and Caption"
   alt="Lightbox Example, image with 'X' and Caption." />
@@ -4952,7 +4952,7 @@ all of the CSS for the <b>lightbox</b> is already created for you.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 238. lightbox, getting started (142) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image238.png?raw=true"
+<img src="./images/image238.webp?raw=true"
   style="width:50%;"
   title="Lightbox, Getting Started"
   alt="Lightbox, Getting Started." />
@@ -4965,11 +4965,11 @@ that there&apos;s a number of ways to get started.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 239/240. lightbox 2, github (143) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image239.png?raw=true"
+<img src="./images/image239.webp?raw=true"
   style="width:45%;"
   title="Lightbox 2, in github"
   alt="Lightbox 2, in github." />
-<img src="./images/image240.png?raw=true"
+<img src="./images/image240.webp?raw=true"
   style="width:45%;"
   title="Lightbox 2, Download ZIP"
   alt="Lightbox 2, Download ZIP." />
@@ -4982,7 +4982,7 @@ talk to you about some of these files and folders.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 241. lightbox 2, dist (distribution) folder (143) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image241.png?raw=true"
+<img src="./images/image241.webp?raw=true"
   style="width:50%;"
   title="Lightbox 2, distribution folder"
   alt="Lightbox 2, distribution folder." />
@@ -4998,7 +4998,7 @@ well.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 242. add code along with path/to/lightbox.css (144) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image242.png?raw=true"
+<img src="./images/image242.webp?raw=true"
   style="width:50%;"
   title="Add code along with path/to/lightbox.css"
   alt="Add code along with path/to/lightbox.css." />
@@ -5025,7 +5025,7 @@ documentation, okay?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 243. add data-lightbox, for lightbox2.html (145) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image243.png?raw=true"
+<img src="./images/image243.webp?raw=true"
   style="width:50%;"
   title="Add data-lightbox, for lightbox2.html"
   alt="Add data-lightbox, for lightbox2.html." />
@@ -5045,7 +5045,7 @@ separate.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 244. lightbox2 website, image sets, data-lightbox (145) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image244.png?raw=true"
+<img src="./images/image244.webp?raw=true"
   style="width:50%;"
   title="lightbox2 website, image sets, data-lightbox"
   alt="lightbox2 website, image sets, data-lightbox." />
@@ -5056,7 +5056,7 @@ the same <b>data-lightbox.</b>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 245. folder structure, lightbox.html (146) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image245.png?raw=true"
+<img src="./images/image245.webp?raw=true"
   style="width:50%;"
   title="Folder structure for lightbox.html"
   alt="Folder structure for lightbox.html." />
@@ -5072,7 +5072,7 @@ worry about it too much.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 246. dist/css/lightbox.css (146) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image246.png?raw=true"
+<img src="./images/image246.webp?raw=true"
   style="width:50%;"
   title="Add dist/css/lightbox.css"
   alt="Add dist/css/lightbox.css." />
@@ -5090,11 +5090,11 @@ this dist folder right here, let&apos;s close up the folder.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~ 247/248. link stylesheet, dist/css/lightbox.css & dist/js/lightbox-plus-jquery.js (147) ~~-->
 <p align="center" width="100%">
-<img src="./images/image247.png?raw=true"
+<img src="./images/image247.webp?raw=true"
   style="width:45%;"
   title="Link stylesheet, dist/css/lightbox.css"
   alt="Link stylesheet, dist/css/lightbox.css." />
-<img src="./images/image248.png?raw=true"
+<img src="./images/image248.webp?raw=true"
   style="width:45%;"
   title="Link JavaScript, dist/js/lightbox-plus-jquery.js"
   alt="Link JavaScript, dist/js/lightbox-plus-jquery.js." />
@@ -5108,7 +5108,7 @@ I&apos;m going to save this for just a second, and I&apos;m going to open it up.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 249. abbreviated page with four images (147) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image249.png?raw=true"
+<img src="./images/image249.webp?raw=true"
   style="width:50%;"
   title="Abbreviated page with four images"
   alt="Abbreviated page with four images." />
@@ -5122,7 +5122,7 @@ I&apos;ve connected to the JavaScript.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 250. a href, data-lightbox = 'images' (148) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image250.png?raw=true"
+<img src="./images/image250.webp?raw=true"
   style="width:50%;"
   title="Update a href, adding data-lightbox='images'"
   alt="Update a href, adding data-lightbox='images'." />
@@ -5154,11 +5154,11 @@ it again, all right?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 251/252. test two images in lightbox.html (149) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image251.png?raw=true"
+<img src="./images/image251.webp?raw=true"
   style="width:45%;"
   title="First test, images in lightbox.html"
   alt="First test, images in lightbox.html." />
-<img src="./images/image252.png?raw=true"
+<img src="./images/image252.webp?raw=true"
   style="width:45%;"
   title="2nd test, images in lightbox.html"
   alt="2nd test, images in lightbox.html." />
@@ -5182,7 +5182,7 @@ together to create things that we can all enjoy.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 253. code with me: looping through images (4.03) (149) ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image253.png?raw=true"
+<img src="./images/image253.webp?raw=true"
   style="width:40%;"
   title="4.03 Code With Me: Looping Through Images"
   alt="4.03 Code With Me: Looping Through Images." />
@@ -5194,7 +5194,7 @@ want to use JavaScript to update numerous images.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 254. test, random images (150) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image254.png?raw=true"
+<img src="./images/image254.webp?raw=true"
   style="width:40%;"
   title="Test parks.html, random images"
   alt="Test parks.html, random images." />
@@ -5208,7 +5208,7 @@ see how we do this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 255. onload setimages (150) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image255.png?raw=true"
+<img src="./images/image255.webp?raw=true"
   style="width:50%;"
   title="body onload, setImages()"
   alt="body onload, setImages()." />
@@ -5220,7 +5220,7 @@ onload event, but this time I&apos;ve used a function called
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 256. images inside flex class (151) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image256.png?raw=true"
+<img src="./images/image256.webp?raw=true"
   style="width:50%;"
   title="Images inside flex class"
   alt="Images inside flex class." />
@@ -5232,7 +5232,7 @@ class. Right now, I have 1, 2, 3 images in here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 257. script tag link to javascript folder (151) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image257.png?raw=true"
+<img src="./images/image257.webp?raw=true"
   style="width:50%;"
   title="Script tab link to JavaScript folder"
   alt="Script tab link to JavaScript folder." />
@@ -5243,7 +5243,7 @@ JavaScript folder.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 258. function setimages (152) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image258.png?raw=true"
+<img src="./images/image258.webp?raw=true"
   style="width:50%;"
   title="function setImages();"
   alt="function setImages();" />
@@ -5282,7 +5282,7 @@ image, the third image.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 259. test inspect console, parks.html (153) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image259.png?raw=true"
+<img src="./images/image259.webp?raw=true"
   style="width:50%;"
   title="Test Inspect Console, parks.html, images 0, 1 and 2"
   alt="Test Inspect Console, parks.html, images 0, 1 and 2." />
@@ -5315,7 +5315,7 @@ to our page.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 260. html, no tabindex on images (154) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image260.png?raw=true"
+<img src="./images/image260.webp?raw=true"
   style="width:50%;"
   title="HTML, No tab index on any images"
   alt="HTML, No tab index on any images." />
@@ -5327,7 +5327,7 @@ keyboard to access an element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 261. current image, set attribute tabindex 0 (154) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image261.png?raw=true"
+<img src="./images/image261.webp?raw=true"
   style="width:50%;"
   title="In JS, currentImages, set attribute tabindex to 0"
   alt="In JS, currentImages, set attribute tabindex to 0." />
@@ -5345,7 +5345,7 @@ this.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 262. inspect console, tabindex (155) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image262.png?raw=true"
+<img src="./images/image262.webp?raw=true"
   style="width:50%;"
   title="Inspect console, check tabindex"
   alt="Inspect console, check tabindex." />
@@ -5358,7 +5358,7 @@ tabindex=&quot;0&quot; in there.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 263. style, img hover, focus, opacity 1 (155) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image266.png?raw=true"
+<img src="./images/image266.webp?raw=true"
   style="width:50%;"
   title="Style, img hover, focus, opacity 1"
   alt="Style, img hover, focus, opacity 1." />
@@ -5372,7 +5372,7 @@ to go through my links.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 264. inspect console, loop through images (156) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image264.png?raw=true"
+<img src="./images/image264.webp?raw=true"
   style="width:50%;"
   title="Inspect console, loop through images, update code"
   alt="Inspect console, loop through images, update code." />
@@ -5528,7 +5528,7 @@ and a keyboard.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 265. final project description (4.04) (158) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image265.png?raw=true"
+<img src="./images/image265.webp?raw=true"
   style="width:40%;"
   title="4.04 Final Project Description"
   alt="4.04 Final Project Description." />
@@ -5538,7 +5538,7 @@ Hi everyone. Let&apos;s talk about the final project.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 266. expanding the photo gallery (159) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image266.png?raw=true"
+<img src="./images/image266.webp?raw=true"
   style="width:40%;"
   title="Expanding the photo gallery with tabindex"
   alt="Expanding the photo gallery with tabindex." />
@@ -5558,11 +5558,11 @@ mouse users.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 267/268. on hover, expand image with alt text (159) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image267.png?raw=true"
+<img src="./images/image267.webp?raw=true"
   style="width:45%;"
   title="On hover, expand image"
   alt="On hover, expand image." />
-<img src="./images/image268.png?raw=true"
+<img src="./images/image268.webp?raw=true"
   style="width:45%;"
   title="On hover, display alt text"
   alt="On hover, display alt text." />
@@ -5580,11 +5580,11 @@ as with the mouse.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 269/270. example, images to tab through with events (160) ~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image269.png?raw=true"
+<img src="./images/image269.webp?raw=true"
   style="width:45%;"
   title="Example, images to tab through with events, Styling with a Bandana."
   alt="Example, images to tab through with events, Styling with a Bandana." />
-<img src="./images/image270.png?raw=true"
+<img src="./images/image270.webp?raw=true"
   style="width:45%;"
   title="More images to tab through with events, With My Boy."
   alt="More images to tab through with events, With My Boy." />
@@ -5592,11 +5592,11 @@ as with the mouse.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 271/272. example, tab through and watch events (160) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image271.png?raw=true"
+<img src="./images/image271.webp?raw=true"
   style="width:45%;"
   title="Example, tab through images and watch events"
   alt="Example, tab through images and watch events." />
-<img src="./images/image272.png?raw=true"
+<img src="./images/image272.webp?raw=true"
   style="width:45%;"
   title="Again, tab through and watch events"
   alt="Again, tab through and watch events." />
@@ -5610,7 +5610,7 @@ focus is something called blur, make sure that you code for both.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 273. general guidelines (161) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image273.png?raw=true"
+<img src="./images/image273.webp?raw=true"
   style="width:40%;"
   title="General Guidelines; Use your own images, validate using W3, Wave, or aXe and 
     be compassionate"
@@ -5644,7 +5644,7 @@ enough about JavaScript that you can go on with some confidence.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 274. final project: submission gallery (4.04) (162) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image274.png?raw=true"
+<img src="./images/image274.webp?raw=true"
   style="width:40%;"
   title="4.04 Final Project: Submission Gallery"
   alt="4.04 Final Project: Submission Gallery." />
@@ -5693,7 +5693,7 @@ information like your name, email, and Coursera ID.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 275. conclusion (4.05) (163) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image275.png?raw=true"
+<img src="./images/image275.webp?raw=true"
   style="width:40%;"
   title="4.05 Conclusion"
   alt="4.05 Conclusion." />
@@ -5705,7 +5705,7 @@ far, and excited to keep learning more.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 276. congratulations (163) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image276.png?raw=true"
+<img src="./images/image276.webp?raw=true"
   style="width:40%;"
   title="Congratulations"
   alt="Congratulations" />
@@ -5725,7 +5725,7 @@ easier.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 277. server-side processing (164) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image277.png?raw=true"
+<img src="./images/image277.webp?raw=true"
   style="width:40%;"
   title="Server-side processing"
   alt="Server-side processing." />
@@ -5744,7 +5744,7 @@ laptop or phone.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 278. what next? (164) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image278.png?raw=true"
+<img src="./images/image278.webp?raw=true"
   style="width:40%;"
   title="What next? Practice, practice, practice"
   alt="What next? Practice, practice, practice." />
@@ -5775,7 +5775,7 @@ luck.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 279. thank you! (165) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image279.png?raw=true"
+<img src="./images/image279.webp?raw=true"
   style="width:40%;"
   title="Thank you!"
   alt="Thank you!" />
