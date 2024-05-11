@@ -113,7 +113,7 @@ data. We begin with variables, expressions, and operators.
 1.  <b>[Introduction](https://www.coursera.org/lecture/javascript/introduction-EYX66)&ast;
     (4:28) (1)</b>
 
-> <b>Link to All of the Code for Week One</b>
+> <b><a href="https://codepen.io/collection/nLPkgP/">Link to All of the Code for Week One</a></b>
 >
 > <b>The Document Object Model (DOM)</b>
 
