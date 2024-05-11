@@ -3,7 +3,7 @@ title: |
   #3 University of Michigan Interactivity with JavaScript
   by Colleen van Lent, Ph.D. (lecturer, school of information)
 author: "bbauska"
-date last editted: "4/1/2024 9+pm"
+date last editted: "5/11/2024 12+pm"
 output: 
   markdown:
     with some style
