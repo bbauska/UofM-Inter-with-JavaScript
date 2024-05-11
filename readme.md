@@ -18,7 +18,7 @@ output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. interactivity with js (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image001.webp?raw=true"
-  style="width:30%;"
+  style="width:15%;"
   title="Interactivity with JavaScript by Colleen van Lent, 
     Ph.D. (lecturer, school of information)"
   alt="Interactivity with JavaScript by Colleen van Lent, 
