@@ -23,6 +23,10 @@ output:
     Ph.D. (lecturer, school of information)"
   alt="Interactivity with JavaScript by Colleen van Lent, 
     Ph.D. (lecturer, school of information)." />
+<img src="./images/image002.webp?raw=true"
+  style="width:25%;"
+  title="University of Michigan logo"
+  alt="University of Michigan logo." />
 </p>
 
 <h3 align="center"> </h3>
