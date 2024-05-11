@@ -3942,37 +3942,35 @@ Really try to use something that can change as the document changes.
   alt="Tips" />
 </p>
 
-Okay, so a couple tips to get you started. The code you need to write
-should actually be really short. If you are writing more than five or
-six lines of code, you probably want to stop and rethink the logic
-behind what you&apos;re working on. I wrote it in two lines of code and that
-was each function in about two lines of code but I can see you putting
-it more in to five or six to break it down in to small pieces. You will
-need to think about how you&apos;re going to incorporate the quotes. Because
-don&apos;t forget, when you mix double quotes with single quotes, things can
-kind of get mixed up. You should also remember that if you want to put
-two Strings together, you need to use that plus operator in order to
-concatenate the Strings.
+Okay, so a couple tips to get you started. The code you need to write should 
+actually be really short. If you are writing more than five or six lines of 
+code, you probably want to stop and rethink the logic behind what you&apos;re 
+working on. I wrote it in two lines of code and that was each function in about 
+two lines of code but I can see you putting it more in to five or six to break 
+it down in to small pieces. You will need to think about how you&apos;re going 
+to incorporate the quotes. Because don&apos;t forget, when you mix double quotes 
+with single quotes, things can kind of get mixed up. You should also remember 
+that if you want to put two Strings together, you need to use that plus operator 
+in order to concatenate the Strings.
 
-This homework assignment is meant to give you an opportunity to do
-something that you&apos;re proud of. If you find yourself getting frustrated
-or lost, you should stop and ask for some help on the discussion board
-to make sure you&apos;re on the right track. But really, I&apos;m hoping that
-this something that you can do, that you can later use if you want to
-incorporate it into your own portfolio. So good luck.
+This homework assignment is meant to give you an opportunity to do something 
+that you&apos;re proud of. If you find yourself getting frustrated or lost, you 
+should stop and ask for some help on the discussion board to make sure you&apos;re 
+on the right track. But really, I&apos;m hoping that this something that you can 
+do, that you can later use if you want to incorporate it into your own portfolio. 
 
 <h3 id="code-wk3">Link to All of the Code for Week Three</h3>
 
-The following is a link to all of the code for Week Three. The
-individual files are linked within the modules but the weekly
-collections may include additional code that you are free to use.
+The following is a link to all of the code for Week Three. The individual files 
+are linked within the modules but the weekly collections may include additional 
+code that you are free to use.
 
 <http://codepen.io/collection/noEJaj/>
 
-Even if you use CodePen, I encourage you to practice writing the code on
-your own. For now, I put complete examples in CodePen, but as time goes
-on, I will remove some of the commands to link the code together. You
-will need to work and learn that part on your own..
+Even if you use CodePen, I encourage you to practice writing the code on your own. 
+For now, I put complete examples in CodePen, but as time goes on, I will remove 
+some of the commands to link the code together. You will need to work and learn 
+that part on your own.
 
 <h3>Arrays</h3>
 
@@ -3981,27 +3979,27 @@ had to wait for. Hopefully by now you are comfortable with the code
 
 > <b>document.getElementById(&apos;idName&apos;);</b>
 
-This code will cause the API to search the DOM until it finds a node
-with the id of &apos;idName&apos;). The key is that it is returning a single
-Node. But what about these other functions?
+This code will cause the API to search the DOM until it finds a node with the 
+id of &apos;idName&apos;). The key is that it is returning a single Node. But 
+what about these other functions?
 
 > <b>document.getElementsByTagName(&apos;p&apos;);</b>
 >
 > <b>document.getElementsByClassName(&apos;thumbnail&apos;);</b>
 
-These commands may return zero, one or more Nodes. So now we need to
-find a way to handle dealing with collections of data, rather than just
-one thing at a time. This is where Arrays come in. Let&apos;s get started.
+These commands may return zero, one or more Nodes. So now we need to find a way 
+to handle dealing with collections of data, rather than just one thing at a time. 
+This is where Arrays come in. Let&apos;s get started.
 
 <h3 id="chb-2">Resources</h3>
 
 <h3>Readings</h3>
 
-Here are some resources for you to explore if you are interested in
-learning more about the topics from this week. The first reading is from
-W3Schools and covers the basics. The second reference is from the
-Mozilla Developer documentation and goes into more depth than I would
-expect you to have from this course. It is optional.
+Here are some resources for you to explore if you are interested in learning 
+more about the topics from this week. The first reading is from W3Schools and 
+covers the basics. The second reference is from the Mozilla Developer documentation 
+and goes into more depth than I would expect you to have from this course. It 
+is optional.
 
 -   [JavaScript Arrays](https://www.w3schools.com/js/js_arrays.asp)
 
@@ -4010,26 +4008,24 @@ expect you to have from this course. It is optional.
 
 <h3>Code</h3>
 
-You can find the code at [JavaScript Course
-Code](https://intro-webdesign.com/v3/javascript.html#code). It is
-organized by week, so you can check to see if any code is provided for
-this week&apos;s lessons.
+You can find the code at [JavaScript Course Code]
+(https://intro-webdesign.com/v3/javascript.html#code). It is organized by week, 
+so you can check to see if any code is provided for this week&apos;s lessons.
 
 <h3>A JavaScript Cheat Sheet</h3>
 
-I thought about putting this next link in the optional resources
-section, but it is something I really want people to know about. This
-&quot;Cheat Sheet&quot; covers the major essentials of the JavaScript language.
-Some of it we have covered, and some we will cover in the next two
-weeks. And then there is a chunk we will never get to.
+I thought about putting this next link in the optional resources section, but it 
+is something I really want people to know about. This &quot;Cheat Sheet&quot; 
+covers the major essentials of the JavaScript language. Some of it we have covered, 
+and some we will cover in the next two weeks. And then there is a chunk we will 
+never get to.
 
 <http://www.cheat-sheets.org/saved-copy/jsquick.pdf>
 
-So why do I want to share this with you? As you learn to program it is
-important to step back every once and awhile and review what you have
-learned AND what you still have left to learn. It helps a lot of people
-to look ahead and start to see that they need to master the small stuff
-before they can tackle the larger concepts.
+So why do I want to share this with you? As you learn to program it is important 
+to step back every once and awhile and review what you have learned AND what you 
+still have left to learn. It helps a lot of people to look ahead and start to see 
+that they need to master the small stuff before they can tackle the larger concepts.
 
 <h3>Tabindex and Accessibility</h3>
 
@@ -4055,7 +4051,7 @@ attribute a higher number, but this can be confusing if it forces the
 site visitor to jump randomly around the page.
 
 You can see an example of tabindex in use at [HTML tabindex
-Attribute](https://www.w3schools.com/tags/att_tabindex.asp)[.]{.underline}
+Attribute](https://www.w3schools.com/tags/att_tabindex.asp)[.]
 
 To an eager coder this may sound great -- &quot;Let&apos;s add focus to
 everything!&quot;  But this would slow down a person&apos;s ability to navigate
