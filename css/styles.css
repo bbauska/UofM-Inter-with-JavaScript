@@ -97,6 +97,7 @@ a.hover {
 a.hover:hover {
   background-color: #ffff00;
   text-decoration: underline;
+}
 a:link {
   color: #013220;
   background-color: transparent;
