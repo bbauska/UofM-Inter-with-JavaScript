@@ -89,6 +89,9 @@ pre, code {
 }
 pre:hover, pre:focus { width: min-content; }
 
+a {
+  text-decoration: none; 
+}
 a.hover {
   color: #000000;
   background-color: #ffff00;
@@ -97,6 +100,11 @@ a.hover {
 a.hover:hover {
   background-color: #ffff00;
   text-decoration: underline;
+}
+a[href]:hover {
+  color: #00000;
+  background-color: #ffff00;  /* yellow */
+  text-decoration: underline; 
 }
 a:link {
   color: #013220;
@@ -108,7 +116,7 @@ a:visited {
   background-color: transparent;
   text-decoration: none;
 }
-  
+
 div {
   float: left; 
 }
