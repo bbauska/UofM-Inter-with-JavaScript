@@ -91,30 +91,31 @@ pre, code {
 pre:hover, pre:focus { width: min-content; }
 
 a {
+  background-color: #013220;  /* dark green */
   text-decoration: none; 
 }
 a.hover {
-  color: #000000;
-  background-color: #ffff00;
+  color: #000000;  /* black */
+  background-color: #ffff00;  /* yellow */
   text-decoration: underline;
   }
 a.hover:hover {
-  background-color: #ffff00;
+  background-color: #ffff00;  /* yellow */
   text-decoration: underline;
 }
 a[href]:hover {
-  color: #00000;
+  color: #00000;  /* black */
   background-color: #ffff00;  /* yellow */
   text-decoration: underline; 
 }
 a:link {
-  color: #013220;
-  background-color: transparent;
+  color: #90ee90;  /* very soft lime green */
+  background-color: #013220;  /* dark green - transparent */
   text-decoration: none;
 }
 a:visited {
-  color: #a5682a;
-  background-color: transparent;
+  color: #a5682a;  /* dark orange */
+  background-color: #800080;  /* very light purple - transparent */
   text-decoration: none;
 }
 
