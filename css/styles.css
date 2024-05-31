@@ -109,12 +109,12 @@ a[href]:hover {
   text-decoration: underline; 
 }
 a:link {
-  color: #90ee90;  /* very soft lime green */
+  color: #a5682a;  /* dark orange, 90ee90 = very soft lime green */
   background-color: transparent;  /* dark green - transparent */
   text-decoration: none;
 }
 a:visited {
-  color: #a5682a;  /* dark orange */
+  color: #90ee90;  /* very soft lime green, a5682a = dark orange */
   background-color: transparent;  /* very light purple - transparent */
   text-decoration: none;
 }
