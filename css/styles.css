@@ -91,7 +91,7 @@ pre, code {
 pre:hover, pre:focus { width: min-content; }
 
 a {
-  background-color: #013220;  /* dark green */
+  background-color: #90ee90;  /* 90ee90 = very soft lime green, 013220 = dark green */
   text-decoration: none; 
 }
 a.hover {
@@ -110,12 +110,12 @@ a[href]:hover {
 }
 a:link {
   color: #90ee90;  /* very soft lime green */
-  background-color: #013220;  /* dark green - transparent */
+  background-color: transparent;  /* dark green - transparent */
   text-decoration: none;
 }
 a:visited {
   color: #a5682a;  /* dark orange */
-  background-color: #800080;  /* very light purple - transparent */
+  background-color: transparent;  /* very light purple - transparent */
   text-decoration: none;
 }
 
