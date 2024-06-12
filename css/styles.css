@@ -1,14 +1,18 @@
-/* styles.css in uofm-inter-with-javascript - inter-js.bauska.org */
-
+/* styles.css in uofm-inter-with-jt = inter-js.bauska.org */
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- background -->
+background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- body -->
 body {
   font-size: 1.2rem;
   background-color: #eeeeee;  /* very light gray */
   color: #000000;  /* black */
-  text-align: left;
-  padding: 10px;
+  margin-left: 10px;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;
 }
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- images -->
 img.displayed {
   display: block;
   margin: 0 auto; 
@@ -16,21 +20,24 @@ img.displayed {
 .border {
   border: 2px solid #778899;
 }
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- blockquote -->
 blockquote {
   margin: .5em 0 .5em .85em;
   padding-left: 1em;
   border-left: 2px solid #e6e6e6;
   color: #606060;
 }
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- horizontal line -->
 hr {
   ground-color: #1a1a1a;
   border: none;
   height: 1px;
   margin: 1em 0;
 }
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- table -->
 table {
   margin: 1em 0;
   border-collapse: collapse;
@@ -54,7 +61,8 @@ th {
 td {
   padding: 0.125em 0.5em 0.25em 0.5em;
 }
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- button -->
 #myBtn {
   display: none;
   position: fixed;
@@ -64,16 +72,17 @@ td {
   font-size: 11px;
   border: none;
   outline: none;
-  background-color: #8b0000;
-  color: #fdfeff;
+  background-color: #940000;  /* dark red */
+  color: #fdfeff;  /* light grayish cyan */
   cursor: pointer;
   padding: 10px;
   border-radius: 1px;
 }
 #myBtn:hover {
-  background-color: #555555;
+  background-color: #ff4d4d;  /* light red */
 }
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- pre, code -->
 pre {
   overflow: auto;
   }
@@ -89,7 +98,8 @@ pre, code {
   margin-left: 15px;
 }
 pre:hover, pre:focus { width: min-content; }
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- a link -->
 a {
   background-color: #90ee90;  /* 90ee90 = very soft lime green, 013220 = dark green */
   text-decoration: none; 
@@ -118,11 +128,13 @@ a:visited {
   background-color: #ffffff;
   text-decoration: none;
 }
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- div -->
 div {
   float: left; 
 }
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- headings -->
 h1 {
   font-size: 22px;
   margin-left: 10px;
@@ -147,16 +159,16 @@ h6 {
   font-size: 11px;
   margin-left: 10px;
 }
-
-background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- paragraph -->
 p {
   font-size: 15px;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;
   text-align: left;
   margin-left: 10px;
 }
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- line items -->
 ul li { 
   padding: 10px;
   line-height: 130%;
@@ -167,14 +179,16 @@ ol li {
   line-height 130%;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVue Sans Mono";
 }
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- image figure -->
 figure {
   margin-top: 0;
 }
 figcaption {
   text-align: center;
 }
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!-- details/summary -->
 details {
   font: 13px Inter, sans-serif, Bahnschrift, Calibri;
   width: 65%;
