@@ -40,7 +40,6 @@
 </head>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <body>
-<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script> -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -686,11 +685,13 @@ API.</p>
 the tree. If you remember, I drew that you can have the body, and inside
 the body you could have divs, paragraphs, links, list items. Each one of
 those is a node in the tree. And you can find it using the API.</p>
+
 <p>Sometimes, though, it can be a little bit more complicated than just
 returning a single element. What if you wanted to find all of the
 children of one particular ordered list, or un-ordered list? Well, in
 that case, instead of returning a single element, sometimes it's
 returned a node list, or an array of elements.</p>
+
 <p>For instance, there's this one API that we can use, called document
 that get element by tag name, and you can give it any element you want.
 So, p, or a list item. Well, there's a really good chance that there's
@@ -698,11 +699,13 @@ more than one paragraph in your page. You return all of them together.
 This is how we're going to be using arrays later in the course, probably
 around week three, to help you understand how to deal with an overload
 of information.</p>
+
 <p>Finally, the important thing I need you to remember is that in the
 Dom there are attributes. You have your elements and every element
 probably has one or more attributes that go with it. So, an image for
 image element, it would have a source, it would have alt text, it would
 have width, and a style, different things like that.</p>
+
 <p>Attributes are the kind of cool things that we want you to be able to
 change to make your page look different.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -720,6 +723,7 @@ more sense. For a view of a document, you can say you know that I want
 to get a certain element using the id. You can also say oh I've got this
 document grab all the elements that happen to be a paragraph or a link.
 Now this one's new, this idea of element.inner.HTML.</p>
+
 <p>A paragraph is an element and you assume there is some sort of text
 inside that paragraph. Well, if you've been coding HTML or CSS, you
 probably might be thinking, when I use the paragraph tag, I never saw an
@@ -727,6 +731,7 @@ inner HTML attribute. You wouldn't have. This is part of the API, but
 you can use this to change the content of any element. You can also
 change the element style, and you can even add additional attributes to
 any element that the DOM can grab.</p>
+
 <p>Finally, an interesting one that you may or may not use, is you can
 even remove attributes. If something has a certain color, you can get
 rid of that if you want.</p>
@@ -747,6 +752,7 @@ understand that learning JavaScript doesn't mean that I know how to code
 everything by hand, it means that I know that there's something called
 an API and I know how I can use it to make my page a little bit
 better.</p>
+
 <p>We're going to start slow, and the most important part to me is for
 you to feel comfortable searching for information on the web. I'll be
 able to teach you a little bit, I can show you some of the main methods
@@ -755,6 +761,7 @@ and then make sure you go off and you try to change things just a little
 bit until your confidence is really up there. Good luck.</p>
 
 <h3>Accessing the DOM Methods</h3>
+
 <p>In the earlier video I showed some ways to access the DOM. Here is a review of those 
 methods, along with some additional information about the use of the newer methods 
 document.querySelector() and document.querySelectorAll().</p>
@@ -840,11 +847,13 @@ throw out there some new methods that you might be seeing, or that you might wan
 <p>We've been using getElementById(). How it works is that it takes a single parameter, and 
 that parameter must be an Id selector. If you say getElementById(h1), it won't know that 
 you're actually looking for an h1 tag, is looking for something with the ID=h1.</p>
+
 <p>If you're interested in selecting the first element of a certain type, another option 
 for you is the querySelector() method. Similar to getElementById, it's going to return 
 the first result. But that selector can be anything. Well, anything except for pseudo-
 elements. The selector can be a tag name. It can be an ID. It can be a class. It can 
 be a very complicated selector with tags, classes, and IDs all put together.</p>
+
 <p>The thing to remember though, is if you decide to use querySelector, and you are 
 looking for an ID or a class, you have to remember to include that hashtag # or the 
 period. We'll do some examples later in the course to show you, but it's something 
@@ -900,6 +909,7 @@ online that uses the other approach. Good luck.</p>
 <p>Adding a semicolon (;) indicates that you have completed a statement. However, 
 unless you are writing multiple statements on the same line, you don't need to add 
 a semicolon.</p>
+
 <p>During this course you will definitely notice that I am in the habit of adding a 
 semicolon to the end of every line. This is a habit I have because I write in a lot 
 of different programming languages at the same time and the semicolon is required 
@@ -949,6 +959,7 @@ elements. Now that's not the only thing they can do. We're going to be
 talking about different things like reacting to events and validating
 data and different things like that. But today, we're really going to
 focus on output.</p>
+
 <p>Whenever you learn a new programming language, one of the first
 things you want to do is find out how can I make things happen. How can
 I have things print out to the screen or generate some sort of
@@ -982,6 +993,7 @@ loved to have these little boxes pop up and say hey, welcome. Doing
 things like that. In JavaScript it's pretty easy. You can just use alert
 and then inside you put my message here. A few things just to point out
 right from the beginning.</p>
+
 <p>Alert is a keyword. In your editor it should change some sort of
 special color. Inside the parentheses, and you need the parentheses,
 both beginning parentheses and end parentheses, is that you're going to
@@ -1159,6 +1171,7 @@ ending with a semicolon. No parenthesis when you're using
 <strong>inner.HTML</strong>. How do you figure that out when you're
 coding? You don't. You just keep coding and practicing and after a
 while, it becomes second nature to you, all right?</p>
+
 <p>When I talk about this kind of generic element, I didn't make it a
 color that's something that you need to grab using the API. Let me give
 you an example of something we can do using innerHTML.</p>
@@ -1209,6 +1222,7 @@ wet.</p>
 your days of learning CSS, you might remember that in general, you can
 expect to see multiple classes. But you're making this contract or rule
 that says, you really should see each ID only once.</p>
+
 <p>JavaScript is expecting you to keep that rule. When you do something
 get element by ID, JavaScript thinks there's only one out there. I'm
 going to stop as soon as I find that one.</p>
@@ -1239,6 +1253,7 @@ doesn't write to the browser screen, but it does write to the browser
 console. Console dot log takes a message and says you know what, I want
 to store this information some place. But I want it to be something that
 not necessarily pops up and everyone can see.</p>
+
 <p>The console's a place to see what's going on in your program during
 execution. If you haven't used the console before, you might not realize
 that it's even there. But I'm hoping you have when you were doing your
@@ -1328,6 +1343,7 @@ it'll show you pretty much along the way add, hey, anything in red means
 we found an error. So red lines usually means either you have a
 JavaScript error or you linked to a file that didn't exist. When I put
 it back in, no more red syntax error.</p>
+
 <p>I really want to stress this to you right now. I need you to stop and
 make sure that you know how to access the console on your machine. One
 of the things that really helps other people help you is when you can
@@ -1371,6 +1387,7 @@ It's not that exciting to just print things out to the screen or have
 little pop-up boxes coming up. But we need to do these small steps to
 help you gain the confidence to go on and write more complex bits of
 code.</p>
+
 <p>As you learn more, the power that you're going to have to manipulate
 the dom is really going to get quite impressive. But for now, just make
 the small mistakes, learn how to debug the small mistakes, and then that
@@ -1385,6 +1402,7 @@ With CodePen you get your own copy of my code that you can change. I
 encourage you to experiment with that code, or even better try
 recreating it yourself using an editor such as TextEdit, Sublime, or
 Notepad++.</p>
+
 <p>If you are using a laptop or desktop to do your coding, make sure to
 use the console window of your browser to look for errors in your code.
 In programming, looking for and correcting errors is called "debugging."
@@ -1460,6 +1478,7 @@ those numbers, she wants to use the actual variable name. So, whenever
 she talks about name, I know she actually wants me to use the value,
 Christopher. There might be some variables that you've declared, such as
 age, that you haven't put anything in there yet.</p>
+
 <p>The important thing to know is that computers aren't smart. Computers
 are just trying to give you a way to avoid remembering big long numbers
 and instead using English words.</p>
@@ -1479,14 +1498,17 @@ dollar signs in my JavaScript variable names because it can be very
 confusing, particular for those people who know multiple programming
 language. I tend to stick to letters, and sometimes digits and
 underscores.</p>
+
 <p>When you do come up with a variable name, even though numbers are
 allowed, your variable can't start with a number. That number has to be
 somewhere else in the middle or the end.</p>
+
 <p>Also, variables are case-sensitive. What that means is that lower
 case name is not the same thing as name with a capital N or name with a
 capital M or name on all capitals. To the computer these are all
 different variables. So, just be careful when you're programming and be
 consistent.</p>
+
 <p>Also, this last one isn't a rule so much as a suggestion that I want
 to convey to you. Make your variable names meaningful or mnemonic as the
 computer science term we use. That means, if the variable is storing
@@ -1507,11 +1529,13 @@ of heart ache later.</p>
 telling the computer to save a spot in memory for it, it's pretty silly
 if you don't then use your variable. And what I mean by use it, is you
 should assign some sort of value to it.</p>
+
 <p>When we assign things in computer science, we use what we call the
 equal, or assignment operator. So, it looks like an equal sign, but we
 call it assignment, because what we're doing is we're not saying hey,
 are these two things the same, we're saying take the value and store it
 into the variable.</p>
+
 <p>So here I have <strong>var</strong> name, and instead of just leaving
 it at that, I say, hey, I want you to store the name Colleen in there,
 all right.</p>
@@ -1531,6 +1555,7 @@ this is going to be in our case name or some sort of element, something
 that we want to change. The right-hand side is going to be that new
 value that will be stored in the variable. Sometimes, the right-hand
 side can be pretty long and complex.</p>
+
 <p>Right here would be an example where I'm just having, I declare my
 variable, and then later I want to update it. I say, name equals
 Colleen. This works really well.</p>
@@ -1548,6 +1573,7 @@ they switch the left-hand side and the right-hand side. Mathematically,
 if you're a math major, this makes perfect sense and it's the same
 thing, but it's not okay in programming. Always put the variable on the
 left-hand side.</p>
+
 <p>All right, so I'm going to show you a few examples of how you might
 use a variable. If you remember when we talked about output, one way
 that we were able to produce output also was a way to generate input,
@@ -1741,6 +1767,7 @@ types used in the JavaScript programming language.</p>
 name equals prompt, what is your name. So, it's expecting me to type in
 probably something like Colleen or Chris or Becca, something along that
 line.</p>
+
 <p>In the next example, we have variable name equals Date. This is not a
 string. This is something that actually can be quite a bit longer and is
 very complex. You might also have variable name equals
@@ -1777,12 +1804,14 @@ can represent them.</p>
 straightforward, it's simply any type of numerical value that you want
 to store. This can be with or without decimals. JavaScript doesn't care
 if it's 2 or 2.0 or 2.6785, it's all the same.</p>
+
 <p>In this example, I went in and I said you know what, I have this
 variable called width and I'm going to set it using
 <strong>window.innerWidth</strong>. This is pretty cool actually if
 you're trying to do something interesting in CSS because you can find
 out how wide the window is and then use that information to update other
 things.</p>
+
 <p>My next example is I have <strong>var</strong> pi, which is equal to
 3.14. In this case, I hard coded it to something. In both cases, it's
 storing a number, but in the different cases or one, it's going to be,
@@ -1800,6 +1829,7 @@ decimals.</p>
 <p>The next type is called String. String is simply a collection of
 characters such as letters, numbers, punctuation, spaces, basically
 anything you can type into the keyboard.</p>
+
 <p>To create a string, you have to put the value in quotes. Now, these
 can be single quotes or double quotes. And I want to be very clear here
 that in PowerPoint it's drawn the quotes as kind of forward and forward.
@@ -1825,6 +1855,7 @@ my program if I want to do something based on whether or not the window
 is open or closed. I can set it dynamically right here. The important
 thing to know is that status and window status can only be true or
 false. Those are the only two options.</p>
+
 <p>Later, we're going to learn how to write our own boolean expressions
 to check to see if things are true or false. And that can add really a
 lot of power to your page.</p>
@@ -1847,6 +1878,7 @@ wanted to print out what topic is now, something like
 <strong>document.RightTopic</strong>. I would get something that pretty
 much looks like junk because it's an object, and objects can only read
 illegibly using things like attributes.</p>
+
 <p>Using those attributes, we can go in and we might be able to say
 something along the lines of write out <strong>topic.style,
 topic.innerHTML.</strong> Different things like that can show us really
@@ -1865,6 +1897,7 @@ some cases a function might want to return more than one value. We've
 seen how the API can return something complex, like an object that could
 be a paragraph, or a div, something along that line. What if it needs to
 return multiple things?</p>
+
 <p>Here I have var links = <strong>document.getElements</strong>. Not
 element, but elements, <strong>ByTagName('a')</strong>. We're going to
 go in, it's going to search the entire document, and find all the
@@ -1883,6 +1916,7 @@ Instead, it needs to return a whole collection.</p>
 <p>Arrays store these multiple values using a variable name, just like
 the ones we've done, but it also includes what we call an index for each
 element in the array.</p>
+
 <p>This is the same example where I say hey, go out and grab all the
 links. Now if I wanted to write some sort of element out, I could say
 <strong>document.write(links[0])</strong>, and it would say return the
@@ -1903,6 +1937,7 @@ the data types that can be returned.</p>
 <p>Let's look at a quick example that uses some of the different types.
 Let's see what happens when I type in a string to this sample code. I'm
 going to put in for what is your name, I'll put in Coleen.</p>
+
 <p>If we look at the code, what I was doing here is I was just prompting
 for the name and then I want to write out the name. Boom, there's
 Colleen. And then I want to say, hey, what happens if I add H1 elements
@@ -1960,6 +1995,7 @@ that now it knows that I have five paragraph elements in there.</p>
 different types of data you can use. In other programming languages
 they're very strict, but here with JavaScript they want you to have the
 power to try different things.</p>
+
 <p>For now, I want you to focus on learning what types of data are
 returned from those common APIs. If you do
 <strong>getElementByID</strong>, does that return a number, a string, an
@@ -2010,6 +2046,7 @@ JavaScript to produce these types of expression values.</p>
 <p>If you think back, I tend to talked about that left hand side equals
 right hand side. With the left-hand side is a variable and the
 right-hand side is that new value we want to be stored.</p>
+
 <p>What are our tools for generating different values on that right hand
 side? We've seen direct assignments or calls to different functions but
 there's more to it that we can do than just that.</p>
@@ -2041,11 +2078,13 @@ forward. You've probably seen plus, minus, this is multiplied, and then
 we also have divide. And these are the straightforward math that you
 learned, hopefully in somewhere around third or fourth grade at the
 latest. 2 + 5 is 7. 5- 2 is 3. 2 * 5 is 10. 5/2 is 2.5.</p>
+
 <p>But this last one, the modulus operator is something you may not have
 seen before. It goes back to the idea of old long division. If you do
 5/2 and you're looking only at the whole numbers, you have 2. What's
 that leftover number that's kind of left over at the end. 5%2 is 1. See
 if I can do another one here.</p>
+
 <p>What would happen if I did something along the lines of 13/5? Well,
 13/5 would give us something along of 2.blah, blah, blah. If I do 13%5,
 you figure out how many times does 5 go into 13? That's 2, and what's
@@ -2124,6 +2163,7 @@ stored in x doesn't equal 5.</p>
 equal to, less than, or less than or equal to, where they just compare
 the left-hand side and the right-hand side and they return true or
 false.</p>
+
 <p>With JavaScript we have a special case, though. And that's because in
 JavaScript we don't really care about types too much. What happens if
 you want to see if a number is equal to something else, but you don't
@@ -2168,6 +2208,7 @@ this case, I have what we call the and and (&amp;&amp;). This stands for
 right-hand side, are they both true? The pipes, the straight up and down
 the lines, this is what we call “or”. In this case, you might want to
 say at least one side must be true in order for me to say true.</p>
+
 <p>And then we have the exclamation part “not”, just kind of like this
 negation. If I had to come up with an example for using and and or, one
 might be that in order to enroll in courses at University of Michigan
@@ -2188,7 +2229,8 @@ where you only need one thing to be true.</p>
 <p>When it comes to programming, it's not enough for you to just know
 the syntax of the language or the different rules, or even for you to
 listen to me and kind of nod along. It's really key that you practice
-these different things. ‘</p>
+these different things.</p>
+
 <p>And before you start programming yourself, make sure you think about
 the logic you want to go into your program. Do you want to use greater
 than or greater than or equal? Do you want to use the and or do you want
@@ -2210,6 +2252,7 @@ rel="noopener noreferrer" target="_blank">History of Debugging</a>.</p>
 <p>The following is a link to all of the code for Week Two. The
 individual files are linked within the modules but the weekly
 collections may include additional code that you are free to use.</p>
+
 <p><a
 href="http://codepen.io/collection/Adbwgo/" 
 rel="noopener noreferrer" target="_blank">Week Two Code (CodePen)</a>.</p>
@@ -2217,7 +2260,9 @@ rel="noopener noreferrer" target="_blank">Week Two Code (CodePen)</a>.</p>
 on your own. For now, I put complete examples in CodePen, but as time
 goes on, I will remove some of the commands to link the code together.
 You will need to work on that part on your own..</p>
+
 <h2 id="functions">Functions</h2>
+
 <p>The next module on functions is crucial to any type of programming
 that you may do in the future. The reason that programming languages
 work so well is that they allow people to reuse work that other people
@@ -2225,6 +2270,7 @@ have done. Someone else writes the complex code that can determine what
 time it is in any given country? Excellent. If they put that code in a
 function then you can use it without really knowing the details of how
 it works. (And yes, there is a function for that.)</p>
+
 <p>One of the things I want you to watch for in this next module is the
 distinction between <em><strong>defining</strong></em> a function
 (writing the code) and <em><strong>calling</strong></em> a function
@@ -2264,16 +2310,16 @@ parameters. Sometimes there'll be things in here, sometimes there won't.
 Once you have what we call the function header, where you have function,
 the name, the parentheses and any type of information in here. We're
 going use curly brackets to begin and end our function.</p>
+
 <p>It's really important right here that you realize that you do not put
 a semi-colon right here at the end. In all of our other JavaScript
 expressions and statements, we ended them with a semicolon. If you do
 that here, you're going to mess up your code. All those statements go
-inside here. And how it works is that later,</p>
-<p>then when people run your function, it'll execute all the code that's
-in {code you want to run}. And this code is just general code you would
-always write with your semicolons, your expression, your statements.
-It's just a really nice way to save it. You don't have to keep typing it
-over and over again.</p>
+inside here. And how it works is that later, then when people run your 
+function, it'll execute all the code that's in {code you want to run}. 
+And this code is just general code you would always write with your 
+semicolons, your expression, your statements. It's just a really nice 
+way to save it. You don't have to keep typing it over and over again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 103. function declaration, #1 (63) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2304,6 +2350,7 @@ this time, I went ahead and I included a parameter list, which says,
 hey, now instead of saying Welcome to JavaScript every time we run this
 function. It's actually going to give an alert of whatever message you
 tell it to do in what we call it real time.</p>
+
 <p>The first step in using functions is to do this function declaration,
 where you use the keywords, the curly brackets, and the parenthesis.
 Declaring a function doesn't actually do anything for you though. You
@@ -2360,6 +2407,7 @@ anything you'd like instead if you prefer.</p>
 <p>Let's talk a little bit more about those parameters that I talked
 about. Because sometimes some functions need a little bit of extra
 information in order to perform its task.</p>
+
 <p>Let's think about <strong>getElementById</strong>. That's not really
 going to work unless you tell it which ID you're looking for. That's an
 extra piece of information or a parameter that you need to provide. The
@@ -2419,17 +2467,20 @@ scratch to show that they really understand. There's really no point in
 doing that at the beginning. If someone else has written a really good
 function use it. You can practice your own skills by augmenting it or
 adding little things.</p>
+
 <p>When you do write your own function, try not to be too specific. And
 what I mean by that is, don't write a function that you're not going to
 be able to reuse multiple times in a lot of different scenarios. Don't
 hard-code too many values so that it's so specific that it only works
 for one person.</p>
+
 <p>Finally, I just want to remind you, that function parameters can have
 any name you want them to have. A lot of times people get caught up in
 my examples, and think that's the only way to go. It's not the case.
 Don't do everything exactly the way you see it online, or in my
 examples. It gives you a lot more power if you change those parameter
 names, to see how the inner workings are going.</p>
+
 <p>We're going to be using functions a lot in this class. You're going
 to be writing your own functions in the homework, and I'm hoping that
 you'll be able to do this and feel like you're really starting to
@@ -2461,6 +2512,7 @@ what's going on.</p>
 body tag. Now, it's fine to start off that way, but as we get more and
 more complex, it's going to make your life easier if we separate our
 content from our other style in JavaScript functions.</p>
+
 <p>In order to do that, we need to think about where we can put our
 JavaScript code. And where you can put it, is you can leave it in the
 body, as we've been doing, you can put your functions into the head
@@ -2479,10 +2531,12 @@ that's a really great idea, because they're separated from the content
 and it makes it a little bit easier for you to follow the code that
 you're writing. It doesn't make any difference to the actual execution,
 but it just might make the debugging easier.</p>
+
 <p>If you're going to use this method, you need to remember that you
 have to use a script tag. Just as a style tag, tells the browser that
 your about to add some style to your page. The script tag says. Wait,
 this isn't content, this is going to be some JavaScript code.</p>
+
 <p>If you do this. If you put your code into the head section, don't
 worry, all of your function will still have access to all the document
 information, the ID's, the classes, etc.</p>
@@ -2535,6 +2589,7 @@ section, I've gone in and I'm done with my script. But instead of
 writing the actual function, I've gone ahead and give it a source saying
 up, all my JavaScript is inside my JS folder, and here's the name of the
 file that I want to use.</p>
+
 <p>If for some reason this doesn't work, you want to make sure that
 you're very careful about what you put right in here, you want to make
 sure that this is exactly correct, because if the browser can't find the
@@ -2579,6 +2634,7 @@ at once and see in real time what's happening as you change that code.
 The downfall of this, for when you're first getting started, is that, I
 find that sometimes people don't realize that they don't understand how
 to link their code, out there in the real world.</p>
+
 <p>If you're going to use CodePen, I recommend that once you're
 done, take that code and put it into three separate files, so that
 you're sure you know how to link them together.</p>
@@ -2626,6 +2682,7 @@ this, just make sure that you've linked the files correctly together,
 otherwise you might have some issues trying to figure out why your code
 isn't working. Luckily, the console can tell you, if it can't find that
 file and it leads you down the right path to fixing your code.</p>
+
 <p>Personally, I always develop in the same file. I tend to have my HTML
 and my JS in the same file, while I'm doing my testing. Once I'm done, I
 move it out into an external style sheet. It's really up to you to
@@ -2644,6 +2701,7 @@ organizing your code. While there are no specific rules about how and
 where to place your code, there are definitely conventions. (Conventions
 are suggestions that most programmers follow. This way other programmers
 can quickly and easily understand their code.)</p>
+
 <p>The most common organization is to have one main folder with your
 HTML files in it. There are also three subfolders (folders inside the
 main folder) for your CSS, image, and JavaScript files.</p>
@@ -2717,7 +2775,6 @@ images, and any JavaScript. We want to make sure that all these
 different files can talk to one another. And so, we're going to use the
 convention here, and I'm going to show you how to make sure they can
 link together in the right way.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 126. linking from an html file (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2729,6 +2786,7 @@ link together in the right way.</p>
 
 <p>2<sup>nd</sup> line should be: <strong>&lt;script
 src=”js/javaFunctions.js”&gt;&lt;/script&gt;</strong></p>
+
 <p>Let's say that inside your HTML file, you want to link to your style
 sheet, your Java functions, and perhaps a picture. Well, this is the way
 you're going to do it. When you link to your style sheet, you want to
@@ -2739,6 +2797,7 @@ link to your java files, you do the same thing. Make sure you start the
 link with that js. What this does is it tells the browser, hey, I need
 this file right here, but in order to find it, go into the JavaScript
 folder first, right?</p>
+
 <p>Finally, the same thing, when it's time to link to an image, make
 sure you link to your image folder first. Now the images folder is the
 one that tends to have the most variance in the name. Some people call
@@ -2778,6 +2837,7 @@ First, if the link isn't working for you, check to make sure that you
 spelled the file name correctly. Case matters, upper case, lower case,
 it can make a big difference. You also want to make sure that the files
 are in those correct CSS, JS, or images (img) folders.</p>
+
 <p>Finally, and this is a big one. As people tend to mess up on their
 code, they open up new versions of the files. It never ever ceases to
 amaze me how many times that I've done this myself, where I'm working on
@@ -2833,6 +2893,7 @@ very straightforward, if the user clicks on an HTML element, we want
 something JavaScript function to execute. We can also have
 <strong>onmouseover, onresize</strong>, and a very common one is
 <strong>onload</strong>.</p>
+
 <p>This last one says whenever the page is loaded, I want to call some
 JavaScript functions or run some sort of JavaScript code, but please
 don't do it until the page is completely done. The reason that this one
@@ -2856,6 +2917,7 @@ to an event. Well, we need to add code to our HTML that links the events
 and the tags together. Here's an example for you. Here, I have my tag
 div, simple HTML five tag but I've added this event right here that says
 on click.</p>
+
 <p>Now the browser's changed, the browser is what I say listening. It's
 listening, listening to this one div and saying okay, if anybody clicks
 on this then I am going to call the JavaScript function message. All
@@ -2879,6 +2941,7 @@ double quotes because it makes it much easier if I want to pass string
 arguments to the function. If you take a look down here, you can see I
 want to call the function called message and I need to send it this Hi
 message.</p>
+
 <p>Well, if I'd done it this way <strong>(&lt;div
 onclick=’message(‘Hi’)’&gt;</strong>) equals message with a single
 quote. And then, what's going to happen when I try to send my screen? As
@@ -2888,6 +2951,7 @@ matches there's your whole string.</p>
 outer one in double quotes and he inner one in single quotes and it's
 going to make it much easier for your browser to understand what's going
 on.</p>
+
 <p>Be careful copying and pasting quotes when you're coding. It's a very
 common thing to do but it's important to remember that a lot of times
 your editor gets mixed up. Because when you're coding, you don't have
@@ -2908,6 +2972,7 @@ HTML on one side and my JavaScript function on the other. The JavaScript
 function's pretty simple, all is it going to do is take a string, and
 it's going to update the output element to show whatever that string is
 along with the word event.</p>
+
 <p>Over here in the HTML is where it's going to get a little bit more
 interesting and it's going to be the first time we're using events, I
 have three. I have <strong>onload</strong>, which means hey whenever I
@@ -3012,6 +3077,7 @@ right. Now, there's a good chance that this date doesn't look exactly
 the way you expect it. Don't forget, computers are very specific, and
 they're going to give much longer answers than we're usually used
 to.</p>
+
 <p>As we start adding JavaScript events and reacting to events to our
 code, I just want you to be aware of something that's going on, that's
 really quite complex.</p>
@@ -3050,11 +3116,13 @@ actually listen for certain keys to be pressed down or the least.
 There's also what we call frame events, and we've looked at two of those
 already. You can do onload, onresize, you can react to scrolling on your
 page or even if there's an error.</p>
+
 <p>If you want a more comprehensive list of events, you can really go
 anywhere online, but I went ahead and I'll link one for you in the
 course page, that goes directly through Mozilla. It is <a
 href="https://developer.mozilla.org/en-US/docs/Web/Events" 
 rel="noopener noreferrer" target="_blank">Mozilla Web Events</a>.</p>
+
 <p>The important thing to know is that you're not expected to know all
 of the events, it's something we're going to learn over time. Hopefully,
 you've got this little idea of what events do and how you can start
@@ -3076,6 +3144,7 @@ really cool, they are also very annoying. It's possible to put a
 listener on every paragraph of your page or every dip and have cool
 things happening all the time. But after a while, the usability of your
 page is really going to take a hit.</p>
+
 <p>I know I've said it before, but don't worry about memorizing all the
 different events. As you code, certain needs will arise and you'll say,
 I wonder if there's an event for that, I'm going to go look it up. What
@@ -3086,6 +3155,7 @@ kind of fight my way through and make it work, just don't forget. We're
 there on the message boards. We're happy to all work as a team to make
 sure that your page is doing the types of cool things that you want it
 to do. Good luck.</p>
+
 <p>This is a great time for you to write some code!!! Open your editor
 (or CodePen) and write a small program that pops up an alert message
 when you load the page. Or better yet, change the content of your page
@@ -3211,6 +3281,7 @@ document.getElementById. Whether or not you have these as upper- or
 lower-case letters, makes a big difference. If you accidentally change
 it from ById to ID as uppercase, this is going to cause problems in your
 code.</p>
+
 <p>The other thing I see a lot of people do, is they think that
 innerHTML is a method, just like all the other ones are. It's not. When
 you're using innerHTML, you need to make sure you use those equal, that
@@ -3278,6 +3349,7 @@ have our HTML. We have our CSS. And we have our JavaScript.</p>
 
 <p>Let's start with the CSS, because it's the simplest and it's not
 going to change as this program runs.</p>
+
 <p>I've declared two classes. One called <strong>.closed</strong>, and
 one called <strong>.open</strong>, and what they do is, well, it's
 pretty straightforward. The <strong>.closed</strong> one says, I want to
@@ -3483,6 +3555,7 @@ has an automatically generated this. This “this” attribute allows you to
 access an element's info. Without “this”, it would be very difficult for
 functions to know what data to use. This is also used in outside
 functions.</p>
+
 <p>Let me draw up something really quickly, before we get to more
 explicit examples. When you're writing code, if you were to say have an
 A tag. And somewhere along the lines you say onclick. And you want to
@@ -3506,6 +3579,7 @@ be referring to this DOM element right here.</p>
 this. Right here I have four different elements on my page. I have two
 awesome pictures from the 80s and the 70s. And then, I also have a few
 divs with some text within it, right here.</p>
+
 <p>Each one of these elements has been associated with an event. And I
 want to show you how I can use the word 'this'. So that the events can be
 very specific to the element I'm click on. Let's start by looking at
@@ -3648,6 +3722,7 @@ simple here. And what you're going to do in one of the homework is
 expand on this idea and say. Not only do I want to change whatever text
 is showing up in here. I actually want to change this whole picture. So
 go back.</p>
+
 <p>Follow this more complex example of using the keyword this that you
 can figure out how to change more than just one thing. How can we change
 different things? How can we change the background color? Could you
@@ -3679,6 +3754,7 @@ you can use to really master this. Good luck.</p>
 <h2 id="ch2-06-homework">2.06 Homework Time!!</h2>
 
 <h3>Overview</h3>
+
 <p>It is time to work on the Photo Gallery assignment. All of the components you need to 
 complete this program are in the lessons, it is your job to put them together. Please note, 
 the answer can be as little as 4 or 5 lines of code, or much more if that makes more sense 
@@ -3691,13 +3767,16 @@ forgotten about you. Next week we will use JavaScript to add tabfocus to the
 images to make the site more accessible.</p>
 
 <h3>Instructions</h3>
+
 <p>In this assignment you will use the code that I provide in order to create an 
 interactive photo gallery.  The goal is to gain practice with writing JavaScript 
 code to update elements of the DOM. You will fill in the code for two functions 
 – one to respond to when a mouse is over an image, and the other to respond to 
 when the mouse leaves an image.</p>
 
-<p>Your peer review is a learning experience as well since it will allow you to see how your peer's code may differ from yours, while still achieving the same objectives.</p>
+<p>Your peer review is a learning experience as well since it will allow you to 
+see how your peer's code may differ from yours, while still achieving the same 
+objectives.</p>
 
 <ol type="1">
   <li>Start by getting your own version of the code.  You can either download the file and save it as a JavaScript file or use the CodePen example as a start for your own.</li>
@@ -3806,7 +3885,6 @@ div. We're creating a photo gallery here.</p>
 
 <p>As I leave the picture and I go off to this side, we go back to the
 original image in color.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 186. 'with my boy' over image (111) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -3876,6 +3954,7 @@ style without affecting the content. When you set background images it's
 always a good idea to also set a background color. Because sometimes,
 the URL might not be valid or the browser might not be able to download
 it.</p>
+
 <p>Here's an example of me setting the background image and the
 background color. In order to this we want to say the URL use this
 keyword URL. And then inside the parentheses you need to put the name of
@@ -3901,6 +3980,7 @@ different ways to change the content of the document. One is to use
 is innerHTML. You need to think about what's the best way to update the
 content that's inside that div to have it display the message you
 want.</p>
+
 <p>Again, I really want you avoid doing anything where you are using the
 actual alt tag. I don't want you saying, oh, look this picture happens
 to say the alt text is happy. And you going in and hard coding something
@@ -3929,6 +4009,7 @@ don't forget, when you mix double quotes with single quotes, things can
 kind of get mixed up. You should also remember that if you want to put
 two Strings together, you need to use that plus operator in order to
 concatenate the Strings.</p>
+
 <p>This homework assignment is meant to give you an opportunity to do
 something that you're proud of. If you find yourself getting frustrated
 or lost, you should stop and ask for some help on the discussion board
@@ -3941,6 +4022,7 @@ incorporate it into your own portfolio. So good luck.</p>
 <p>The following is a link to all of the code for Week Three. The
 individual files are linked within the modules but the weekly
 collections may include additional code that you are free to use.</p>
+
 <p><a
 href="http://codepen.io/collection/noEJaj/" 
 rel="noopener noreferrer" target="_blank">Week 3 CodePen Code</a></p>
@@ -3963,10 +4045,12 @@ code</p>
 <p>This code will cause the API to search the DOM until it finds a node
 with the id of 'idName'). The key is that it is returning a single Node.
 But what about these other functions?</p>
+
 <blockquote>
-<p><strong>document.getElementsByTagName('p');</strong></p>
-<p><strong>document.getElementsByClassName('thumbnail');</strong></p>
+  <p><strong>document.getElementsByTagName('p');</strong></p>
+  <p><strong>document.getElementsByClassName('thumbnail');</strong></p>
 </blockquote>
+
 <p>These commands may return zero, one or more Nodes. So now we need to
 find a way to handle dealing with collections of data, rather than just
 one thing at a time. This is where Arrays come in. Let's get
@@ -4005,10 +4089,12 @@ section, but it is something I really want people to know about. This
 "Cheat Sheet" covers the major essentials of the JavaScript language.
 Some of it we have covered, and some we will cover in the next two
 weeks. And then there is a chunk we will never get to.</p>
+
 <p><a
 href="http://www.cheat-sheets.org/saved-copy/jsquick.pdf" 
 rel="noopener noreferrer" target="_blank">
 JavaScript Cheat Sheet</a></p>
+
 <p>So why do I want to share this with you? As you learn to program it
 is important to step back every once and awhile and review what you have
 learned AND what you still have left to learn. It helps a lot of people
@@ -4021,30 +4107,34 @@ before they can tackle the larger concepts.</p>
 by default.  When you go to a page and use the tab key you can navigate
 from link to link and through forms – all without having to touch your
 mouse.</p>
+
 <p>It is possible to add the focus state to other elements too by adding
 the tabindex attribute to a tag.  While (below)</p>
 
 <blockquote>
-<p><strong>&lt;div&gt; My first div.&lt;/div&gt;</strong></p>
+  <p><strong>&lt;div&gt; My first div.&lt;/div&gt;</strong></p>
 </blockquote>
 
 <p><strong> is</strong> <strong>not</strong> accessible from the
 keyboard, this (below)</p>
 
 <blockquote>
-<p><strong>&lt;div tabindex="0"&gt;  My second div.&lt;/div&gt;</strong></p>
+  <p><strong>&lt;div tabindex="0"&gt;  My second div.&lt;/div&gt;</strong></p>
 </blockquote>
 
 <p><strong>is</strong> accessible from the keyboard.</p>
+
 <p>The number associated with the tabindex attribute is the tab order. 
 By default, everything has an order of 0 which means that they will be
 visited in the order of the HTML code.  It is possible to give the
 attribute a higher number, but this can be confusing if it forces the
 site visitor to jump randomly around the page.</p>
+
 <p>You can see an example of tabindex in use at <a
 href="https://www.w3schools.com/tags/att_tabindex.asp" 
 rel="noopener noreferrer" target="_blank">HTML tabindex
-Attribute</a><u>.</u></p>
+Attribute</a>.</p>
+
 <p>To an eager coder this may sound great – "Let's add focus to
 everything!"  But this would slow down a person's ability to navigate
 quickly through your page.    Instead, use it only in places where
@@ -4068,9 +4158,9 @@ directly.  For instance, if you used
 you can then access its src, alt text, etc.</p>
 
 <blockquote>
-<p><strong>my_img = document.querySelector("img")</strong></p>
-<p><strong>console.log(my_img.src)</strong></p>
-<p><strong>console.log(my_img.alt)</strong></p>
+  <p><strong>my_img = document.querySelector("img")</strong></p>
+  <p><strong>console.log(my_img.src)</strong></p>
+  <p><strong>console.log(my_img.alt)</strong></p>
 </blockquote>
 
 <p>Sometimes though you can't access the data directly and that is when
@@ -4078,13 +4168,15 @@ you will want to use the <a
 href="https://www.w3schools.com/jsref/met_element_getattribute.asp" 
 rel="noopener noreferrer" target="_blank">HTML
 DOM Element <strong>getAttribute()</strong></a> method.</p>
+
 <blockquote>
-<p><strong>my_img = document.querySelector("img")</strong></p>
-<p><strong>console.log(my_img.getAttribute("src"))</strong></p>
-<p><strong>console.log(my_img.getAttribute("alt"))</strong></p>
+  <p><strong>my_img = document.querySelector("img")</strong></p>
+  <p><strong>console.log(my_img.getAttribute("src"))</strong></p>
+  <p><strong>console.log(my_img.getAttribute("alt"))</strong></p>
 </blockquote>
 
 <h3 id="setattribute">setAttribute</h3>
+
 <p>Similarly, you can often change the value of a DOM element by
 accessing the attribute directly:</p>
 
@@ -4109,8 +4201,11 @@ rel="noopener noreferrer" target="_blank">HTML DOM Element
 <p>It is nice to know how to change things with JavaScript because it
 will allow you to leave the HTML alone, but still add attributes such as
 my_img.setAttribute("tabindex","0")</p>
+
 <p><b>This is a big hint for the future homework</b></p>
+
 <h2 id="arrays-1">Arrays</h2>
+
 <p>Finally!! Now is when I start to explain some of the concepts I said
 you had to wait for. Hopefully by now you are comfortable with the
 code</p>
@@ -4278,6 +4373,7 @@ For instance, we can refer to <strong>grades.length</strong>. We can
 call the method <strong>grades.sort()</strong>, or we could even add
 additional elements to our array using the method called
 <strong>push,</strong> where we would add another element to it.</p>
+
 <p>Now, if you start thinking about some of the different ways we can
 use arrays, you can start to put things together. For instance, when I
 talked earlier about <strong>grades[9]</strong> or
@@ -4321,6 +4417,7 @@ time to switch your mindset from single values to collections of values.
 And once you do that, we can start playing with these new API methods
 that we haven't used before. The <strong>getElementsByTagName</strong>
 and <strong>getElementsByClassName</strong>.</p>
+
 <p>Quick note because I know this is a typo of a lot us make, is that
 you're writing this the correct way. We've been using
 <strong>getElementById</strong>, make sure you're typing this else you
@@ -4390,6 +4487,7 @@ understand what's going on with JavaScript.</p>
 different elements in here. I have Banana, Orange, Apple and Mango, I'm
 going to use those inside my HTML code. In fact, where I use them, is I
 use it in the very first function called loadFruits.</p>
+
 <p>When my page starts up, it's going to call that function and right
 away it says, you know what? I want you to grab everything that's in
 this array, all of it, and dump it right into this paragraph right here.
@@ -4397,6 +4495,7 @@ This is why, again, if you look carefully at the HTML file, there's no
 fruits there. It's all being added by the JavaScript. Once you've got
 that kind of initial setup for your page, this is where we want to add
 elements to our array.</p>
+
 <p>In order to add something, we basically don't want to add it here. We
 want to add additional things to the end of our array. All right, let's
 get started. In this function, it's going to ask us what our favorite
@@ -4513,7 +4612,7 @@ different from the videos since I like to update the slides when things change.<
 
 <p>Once again, the lectures ahead will contain content that is easy to read, but can be a 
 little trickier to do on your own. So, let's talk about the relationship between 
-<b>document.querySelectorAll()</b> and looping.
+<b>document.querySelectorAll()</b> and looping.</p>
 
 <p>The beauty of document.querySelectorAll() is that it will return an array of elements. 
 If you have twelve links on your page, it can get them all.  Same with fifty images, seven 
@@ -4569,7 +4668,6 @@ So, in this example, what I'm going to show you how to do is how to randomize yo
 pictures using JavaScript, so let's take a look.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 213-216. randomizing images (131) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>
 <img class="border"
   src="./images/image213.webp"
   loading="lazy"
@@ -4943,6 +5041,7 @@ we'll skip it right now you will notice that they mentioned that inside the dist
 folder, you're going to want to link to their CSS and their JavaScript. This is the 
 tricky part. In the example, it says path/to/lightbox.css. They don't actually mean 
 path-to, they mean whatever the name of the folder is.</p>
+
 <p>For us, it's going to be dist/css. Same here, when people talk about path/to, that's 
 a shorthand, that's not actually the folder name, we're going to be using dist.javascript. 
 The other thing that you might kind of read over quickly is we tend to be beginner coders 
@@ -5057,6 +5156,7 @@ image. What I needed to do was I needed to add an 'a' tag around it. And if you 
 the href for that tag should be the exact same thing as the image itself. We want to 
 click on the image and then open up that image in its own window. I have my data-lightbox, 
 I've called it =images, and I've added my data-title="Caption 1", all right?</p>
+
 <p>Just so I don't have to scroll back and forth for you, I'm going to hit option Z 
 for a second, so it wraps all my text, all right? I've got my href, my data-lightbox 
 images, and my data-title. Let's save it and let's take a look. All right, I've 
@@ -5172,6 +5272,7 @@ available to this file. Here's where things get a little bit different. On line 
 I've made another new variable called currentImages. Again, you want to use good 
 mnemonic names, meaning when I look at the variable name, I should know what I'm 
 trying to save here.</p>
+
 <p>What I'm trying to save is all of the images that are currently in the flex 
 class. I've used document.querySelectorAll(".flex img"). This is going to return 
 an array of images. We can't just start using current images and trying to get 
@@ -5183,6 +5284,7 @@ loop through each image in current images, and each time i is going to go up by
 one. Current images, if you remember on our page, there were three images. So 
 that means I will go from 0, 1, and 2. If I had 10 images in that class, it 
 would be 0, 1, 2, all the way up to nine.</p>
+
 <p>I like to add console.log messages. They make me feel better. They help me 
 figure out, is my code running? Is my, oops, that shouldn't say isSecure. I really 
 just want to say i. I want to print out that 0, 1, 2, 3, etc, so I can make sure 
@@ -5205,14 +5307,17 @@ let's turn on Inspect Element to see what's going on. I go into my Inspect and I
 to pick the console tab. Do you notice over here? It says Image 0, Image 1, Image 2. 
 That's from that console.log message I was using. I'm going to refresh again. And as 
 we go through, uh oh, if you notice.</p>
+
 <p>Oh, I thought I had mistaken there for a second. I thought it was saying it to the 
 same image every time. So, I didn't write the greatest code, right? I could have gone 
 in and written my random codes that it generates a random image each time but I keep 
 track of the ones I've seen before. Or I could have made sure that there were like 
 15 or 20 images, so the chance of having a duplicate was less likely. But when I'm 
 writing code for all of you, I don't like it to be too big.</p>
+
 <p>I want to show you one more thing. What I've done here is I've changed my style, 
 so all my images have an opacity of 0.75 unless I hover over it.</p>
+
 <p>Let's think about accessibility for a second, and think about what it means when 
 we add hover to our style sheet. That means people who are using a mouse can get that 
 functionality, but people are using the keyboard cannot. Let's use looping to also 
@@ -5282,6 +5387,7 @@ tab. It's going to go through my links.</p>
 this is showing you that using looping is a faster way to update your code. Not just 
 in this example where I had three pictures, but imagine if I'd had 15, 20, or in the 
 case of your future homework, when you have six or more images.</p>
+
 <p>Being able to loop and update the code allows you to do things more quickly and 
 avoid a lot of those common typos that at least I happen to do all the time when 
 I'm updating my code. You're going to be using this concept in the next couple of 
@@ -5296,6 +5402,7 @@ aren't doing it at a cost to accessibility or usability. Reacting to mouse event
 a great example. There are a number of great looking sites out there that are 
 inaccessible because content is hidden until an event is triggered. If you are 
 going to add Interactivity, make sure it is accessible to keyboard users as well.</p>
+
 <p>If you plan on adding HTML forms to any future sites, I also highly suggest that 
 you make sure that you are using labels and placeholders on your forms. The Web 
 Accessibility Initiative has some great resources for learning about this.</p>
@@ -5343,6 +5450,7 @@ seeing the different approaches.</p>
 <p>Your project will be audited by the careful examination of your code by yourself as 
 well as the  The W3C Markup Validation Service Tool and the WAVE Web Accessibility 
 Evaluation Tool.</p>
+
 <p>Yourself will look for the required functionality using both the mouse and a keyboard.</p>
 
 <ul>
@@ -5395,6 +5503,7 @@ going to make it an accessible site by incorporating tabindex as well. I'm going
 some additional requirements that you cannot change the HTML to add tabindex, you must 
 use JavaScript looping to add the attribute, and just as we wrote a ‘Undo’ for when we 
 were on mouseout and we did like change when your mouseover.</p>
+
 <p>Now, you are going to use the focus and blur events so that keyboard users have the 
 same capabilities as any mouse users.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5415,6 +5524,7 @@ same capabilities as any mouse users.</p>
  
 <p>Let me show you an example. Again, in your earlier example, there were just three images, 
 and I gave you those images.</p>
+
 <p>When I would put my mouse over, we would get the updated image and the alt text. When 
 I took my mouse off, we would get back to the original, over, out, over, out. In the new 
 version, you will add at least three additional images of your own for total of six images, 
@@ -5501,7 +5611,9 @@ This is not required, but will help others that take the course and create a sen
 of community. Also, please take some time to review the work of your peers and 
 offer thoughtful comments. This is not a graded submission.</p>
 
-<p><b>Note:</b> The first time you launch the Gallery Tool, you will be asked to set up your Gallery profile by providing some basic information and selecting your sharing settings.</p>
+<p><b>Note:</b> The first time you launch the Gallery Tool, you will be asked to 
+set up your Gallery profile by providing some basic information and selecting your 
+sharing settings.</p>
 
 <h3>Submitting your file to the Gallery</h3>
 
