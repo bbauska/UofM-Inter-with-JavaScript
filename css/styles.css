@@ -2,7 +2,7 @@
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* body */
 body {
-  font-size: 1.2rem;
+  font-size: 15px;  /* 1.2rem */
   background-color: #eeeeee;  /* very light gray */
   color: #000000;  /* black */
   margin: 15px;
@@ -150,11 +150,11 @@ h4 {
   margin-left: 15px;
 }
 h5 { 
-  font-size: 13px;
+  font-size: 14px;
   margin-left: 15px;
 }
 h6 { 
-  font-size: 11px;
+  font-size: 12px;
   margin-left: 15px;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
