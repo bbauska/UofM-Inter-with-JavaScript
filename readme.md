@@ -3,7 +3,7 @@ title: |
   #3 University of Michigan Interactivity with JavaScript
   by Colleen van Lent, Ph.D. (lecturer, school of information)
 author: "bbauska"
-date last editted: "5/11/2024 12+pm"
+date first editted: "5/11/2024 12+pm"
 date late editted: "7/10/2024 11+am"
 output: 
   markdown:
@@ -238,7 +238,7 @@ version of your coding project in Week 2. You will make an interactive
 photo gallery from your own images and will add the functionality of
 keyboard accessibility to it.
 
-Prior project's week we will put a number of the concepts from this
+Prior project&apos;s week we will put a number of the concepts from this
 course together to tackle a new project - creating and validating input
 entered into an HTML5 form. Forms are extremely common elements used to
 input and send data to via a webpage. We will look at how you can use
@@ -1126,7 +1126,7 @@ input, it writes it directly into the screen.
 
 Now I&apos;m going to change something right here. Because I put h1 inside
 the quotes. If I get rid of that you can see this still works, but
-instead of being an h1 heading, it's just regular old text. So,
+instead of being an h1 heading, it&apos;s just regular old text. So,
 <b>document.write</b> is a way for you to generate output. But we need to
 realize that it is probably not the best way to do it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1298,7 +1298,7 @@ World showed up here.
 
 What happens if I change the code to Hello World Too?
 
-You're sending yourself these little secret messages that can help you
+You&apos;re sending yourself these little secret messages that can help you
 debug your code. You can log things, you can leave little notes for
 yourself, you can do debugging tests. You can even log the things that
 other people have been writing in. And so, this is a really handy tool
@@ -1351,7 +1351,7 @@ I really want to stress this to you right now. I need you to stop and
 make sure that you know how to access the console on your machine. One
 of the things that really helps other people help you is when you can
 pinpoint where exactly your code is going wrong. You might not know
-what&apos;s going wrong, but you're saying somewhere in this line of code
+what&apos;s going wrong, but you&apos;re saying somewhere in this line of code
 I&apos;m getting an error. This kind of ability to help yourself debug is
 going to be critical to going on and advancing in this course.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2107,7 +2107,7 @@ similar is the plus equals. You can also have minus equals. It&apos;s the
 same thing as writing out long something along the lines of x = x + 2.
 It&apos;s the same thing as saying x + = 2. It&apos;s just short hand you don&apos;t
 need to use it. But I wanted to show you just in case you see it in
-somebody else's code.
+somebody else&apos;s code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 95. string operators (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2120,9 +2120,9 @@ somebody else's code.
 We talked about how plus will add two numbers together. That&apos;s only
 true if the operators on both sides are numbers. In some cases, we have
 the string operators, and in that case, the plus is actually a
-concatenation. It&apos;ll take the 'Hi' and the 'There' and put it together
-into one variable. If you want to put those spaces in, you have to
-remember to actually add them. In the same case, if I have a string and
+concatenation. It&apos;ll take the &apos;Hi&apos; and the &apos;There&apos; 
+and put it together into one variable. If you want to put those spaces in, you 
+have to remember to actually add them. In the same case, if I have a string and
 a number, and I use the plus, it&apos;s going to be concatenation. You want
 to be careful when you&apos;re playing with this, because anything that&apos;s
 read in from a prompt is a string. You&apos;re going to need to make sure
@@ -2229,7 +2229,7 @@ where you only need one thing to be true.
 When it comes to programming, it&apos;s not enough for you to just know the
 syntax of the language or the different rules, or even for you to listen
 to me and kind of nod along. It&apos;s really key that you practice these
-different things. '
+different things.
 
 And before you start programming yourself, make sure you think about the
 logic you want to go into your program. Do you want to use greater than
@@ -2608,7 +2608,7 @@ file. Well, the problem with this, is that, it&apos;s actually harder to
 realize what&apos;s going on. If you mess up in your HTML code or your CSS
 code, it&apos;s usually pretty easy to figure out that you did something
 wrong, because the colors aren&apos;t the way you wanted or your text just
-isn&apos;t there. But with JavaScript, sometimes the changes you're making
+isn&apos;t there. But with JavaScript, sometimes the changes you&apos;re making
 are so slight, you don&apos;t even realize that you have a problem.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 117. debugging your code (71) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2830,7 +2830,7 @@ picture right here, all right? Now we know that the file isn&apos;t in the
 CSS folder. It doesn&apos;t belong there. Pictures should be in the images
 folder. But the problem is, how do you tell the browser that the images
 folder is someplace different? In this example we go up 2 directories,
-find 'images' folder and pull from there. Done & done.
+find &apos;images&apos; folder and pull from there. Done & done.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 128. debugging (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2899,7 +2899,7 @@ can do this.
 </p>
 
 First, let&apos;s talk about just some of the events that we normally react
-to on a web page. The first one is <b>onclick</b>, it's very
+to on a web page. The first one is <b>onclick</b>, it&apos;s very
 straightforward, if the user clicks on an HTML element, we want
 something JavaScript function to execute. We can also have
 <b>onmouseover, onresize</b>, and a very common one is <b>onload</b>.
@@ -3575,7 +3575,7 @@ check. I have alt text check, and I also have an event that says on
 click. I want you to log to the console the alt text of this particular
 element. As soon as the computer sees the word this. It&apos;s going to back
 up, until it gets to the image. And then we&apos;ll say. They want the alt
-text for this image. Let's see what happens when I actually click on
+text for this image. Let&apos;s see what happens when I actually click on
 this image.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 172. test console, awesome 80's haircut (101) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4595,7 +4595,7 @@ situations.
   alt="4.01 Code With Me: Randomizing Your Images Using Arrays." />
 </p>
 
-Hi everyone, let&apos;s do a couple Code With Me's in a row just so you can
+Hi everyone, let&apos;s do a couple Code With Me&apos;s in a row just so you can
 start using your JavaScript to do things that are a little bit more
 practical. I know that earlier I did a demo with you where we used
 arrays and we kind of picked out one or two elements from the arrays,
