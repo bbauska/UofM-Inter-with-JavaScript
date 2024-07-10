@@ -4,7 +4,7 @@ title: |
   by Colleen van Lent, Ph.D. (lecturer, school of information)
 author: "bbauska"
 date last editted: "5/11/2024 12+pm"
-date last editted: "7/10/2024 11+am"
+date late editted: "7/10/2024 11+am"
 output: 
   markdown:
     with some style
@@ -1247,11 +1247,13 @@ change the second one it found, okay? All right.
 </p>
 
 Let&apos;s go play with the last output method I have for you today.
-<b>document.write</b> and enter HTML. Write directly into the browser
+<span style="font-family: Consolas, Inter, Helvetic, Bahnschrift, sans-serif;">
+document.write</span> and enter HTML. Write directly into the browser
 screen. What we have in this last option is something that doesn&apos;t
 write to the browser screen, but it does write to the browser console.
 
-Console dot log takes a message and says you know what, I want to store
+<span style="font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;">
+console.log</span> takes a message and says you know what, I want to store
 this information some place? But I want it to be something that not
 necessarily pops up and everyone can see.
 
@@ -1269,7 +1271,8 @@ doing your CSS.
 </p>
 
 Let&apos;s take a look at this example. In my HTML up here, you can see that
-I have <b>console.log</b> Hello World. Nothing too exciting going on here.
+I have <span style="font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;">
+console.log</span> Hello World. Nothing too exciting going on here.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. browser console (31) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5773,3 +5776,5 @@ luck.
 </p>
 
 ...the end
+<!-- Changes made 7-10-2024 11:07am -->
+
