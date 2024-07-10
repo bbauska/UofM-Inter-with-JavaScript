@@ -4,6 +4,7 @@ title: |
   by Colleen van Lent, Ph.D. (lecturer, school of information)
 author: "bbauska"
 date last editted: "5/11/2024 12+pm"
+date last editted: "7/10/2024 11+am"
 output: 
   markdown:
     with some style
