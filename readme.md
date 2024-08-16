@@ -23,7 +23,8 @@ output:
   title="Interactivity with JavaScript by Colleen van Lent, 
     Ph.D. (lecturer, school of information)"
   alt="Interactivity with JavaScript by Colleen van Lent, 
-    Ph.D. (lecturer, school of information)." />
+    Ph.D. (lecturer, school of information)."
+nbsp;nbsp;nbsp;nbsp;nbsp;
 <img src="./images/image002.webp?raw=true"
   style="width:25%;"
   title="University of Michigan logo"
@@ -5556,6 +5557,7 @@ mouse users.
   style="width:45%;"
   title="On hover, expand image"
   alt="On hover, expand image." />
+nbsp;nbsp;nbsp;nbsp;nbsp;
 <img src="./images/image268.webp?raw=true"
   style="width:45%;"
   title="On hover, display alt text"
@@ -5578,6 +5580,7 @@ as with the mouse.
   style="width:45%;"
   title="Example, images to tab through with events, Styling with a Bandana."
   alt="Example, images to tab through with events, Styling with a Bandana." />
+nbsp;nbsp;nbsp;nbsp;nbsp;
 <img src="./images/image270.webp?raw=true"
   style="width:45%;"
   title="More images to tab through with events, With My Boy."
@@ -5590,6 +5593,7 @@ as with the mouse.
   style="width:45%;"
   title="Example, tab through images and watch events"
   alt="Example, tab through images and watch events." />
+nbsp;nbsp;nbsp;nbsp;nbsp;
 <img src="./images/image272.webp?raw=true"
   style="width:45%;"
   title="Again, tab through and watch events"
