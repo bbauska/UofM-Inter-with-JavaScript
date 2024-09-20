@@ -2512,6 +2512,7 @@ going on.
 <p align="center" width="100%">
 <img src="./images/image112.webp?raw=true"
   style="width:40%;"
+  title="Where to Place the Code"
   alt="Where to Place the Code." />
 </p>
 
