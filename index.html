@@ -57,12 +57,9 @@
       mybutton.style.display = "none";
     }
   }
-
-  <!-- when the user clicks on the button, scroll to the top of the document. 0,0 or -->
-  <!-- to table of contents (approx ###), if applicable was; 315 -->
+// when the user clicks on the button, scroll to the table of contents near top of document.
   function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+    document.getElementById('table-of-contents').scrollIntoView();
   }
 </script>
 <header id="title-block-header">
@@ -82,6 +79,7 @@
   alt="U of Michigan logo."
   style="width:20%; float: left; margin-left: 10%; margin-bottom: 1em;" />
 <p style="clear: both;"></p>
+
 
 <h2 id="about">About this Course</h2>
 
@@ -107,7 +105,9 @@ understanding of HTML and CSS is expected when you enroll in this class. Additio
 courses focus on enhancing the styling with responsive design and completing a capstone 
 project.</p>
 
-<h2 id="toc"><a href="#toc">Table of Contents</a></h2>
+<h2 id="table-of-contents"><a href="#table-of-contents">Table of Contents</a></h2>
+
+<h2><strong>Course Information</strong></h2>
 
 <h2><a href="#ch1"><strong>Week 1: Data Types</strong></a></h2>
 
