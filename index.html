@@ -110,21 +110,20 @@ project.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="table-of-contents"><a href="#table-of-contents">Table of Contents</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><strong>Course Information</strong></h2>
-
-<h2><a href="#ch1"><strong>Week 1: Data Types</strong></a></h2>
+<h2><a href="#ch1"><strong>Week 1: Data Types (The Basics - HTML structure, JS syntax, and creating output)</strong></a></h2>
 
 <blockquote>
   <h3><a href="#about">About this Course</a></h3>
   <h3>1.01 <a href="#ch1-01"><strong>Introduction</strong></a></h3>
-  <h3>1.02 <a href="#ch1-02"><strong>DOM Review with Object Oriented Programming</strong></a></h3>
+  <h3>1.02a <a href="#ch1-02a"><strong>DOM Review with Object Oriented Programming</strong></a></h3>
+  <h3>1.02b <a href="#ch1-02b"><strong>Newer DOM Methods</strong></a></h3>
   <h3>1.03 <a href="#ch1-03"><strong>Output</strong></a></h3>
   <h3>1.04 <a href="#ch1-04"><strong>Variables</strong></a></h3>
   <h3>1.05 <a href="#ch1-05"><strong>Data Types</strong></a></h3>
   <h3>1.06 <a href="#ch1-06"><strong>Operators and Expressions</strong></a></h3>
 </blockquote>
 
-<h2><a href="#ch2"><strong>Week 2: Functions &amp; Events</strong></a></h2>
+<h2><a href="#ch2"><strong>Week 2: Reacting to Your Audience (Functions &amp; Events)</strong></a></h2>
 
 <blockquote>
   <h3>2.01 <a href="#ch2-01"><strong>Functions</strong></a></h3>
@@ -154,8 +153,10 @@ project.</p>
   <h3>4.06 <a href="#ch4-06"><strong>Conclusion</strong></a></h3>
 </blockquote>
 
-<h3 id="ch1"><strong>Welcome to Introduction to JavaScript</strong>, taught by Colleen van Lent, PhD!</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1">Week 1: Data Types - Welcome to Introduction to JavaScript</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>This course is an introduction to the use of the JavaScript programming language to add 
 some interactivity to your website. This course is meant for people who are comfortable 
 using HTML and CSS, but are new to programming.</p>
@@ -185,7 +186,17 @@ we have. We will focus on the following:</p>
     store multiple pieces of information in one variable.</li>
   <li>How to create and validate HTML forms.</li>
 </ul>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch1-obj">1.00 Learning Objectives</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<ul>
+  <li>Learn about existing resources that use JavaScript to make your page interactive.</li>
+  <li>Write your own JavaScript code to let a person interact with your page.</li>
+  <li>Use existing JavaScript code to improve your page.</li>
+  <li>Define the basic concepts of a scripted programming language such as variables, 
+    functions, and blocks of code.</li>
+  <li>Understand how JavaScript is used to change text and images, and media.</li>
+</ul>
 <!-- <h1 id="section-1"></h1> -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-01">1.01 Introduction</h2>
@@ -342,7 +353,7 @@ we're going to do a lot of fun stuff. But I promise, I'm going to go slow, expla
 what I'm doing step by step, so that you can come along with me and start adding some
 interactivity to your pages with JavaScript.</p>
 
-<h2 id="ch1-code">Link to All of the Code for Week One</h2>
+<h3 id="ch1-code">Link to All of the Code for Week One</h3>
 
 <p><a href="http://codepen.io/collection/nLPkgP/" 
 rel="noopener noreferrer" target="_blank">Week 1 Code in CodePen</a></p>
@@ -356,7 +367,7 @@ For now, I put complete examples in CodePen, but as time goes on, I will remove 
 of the commands to link the code together. You will need to work on that part on your 
 own...</p>
 
-<h2 id="ch1-dom">The Document Object Model (DOM)</h2>
+<h3 id="ch1-dom">The Document Object Model (DOM)</h3>
 
 <h3 id="examples">Examples:</h3>
 
@@ -376,14 +387,14 @@ and talk about how it is related to JavaScript. There is no code associated with
 this lecture, but if you check under the resources, I do include a link to site 
 where you can find specifics on the DOM.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-02">1.02 DOM Review with Object Oriented Programming</h2>
+<h2 id="ch1-02">1.02a DOM Review with Object Oriented Programming</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 13. dom review with object oriented programming (1.02) (11) ~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
   src="./images/image013.webp" 
   loading="lazy"
-  title="1.02 DOM Review with Object Oriented Programming"
-  alt="1.02 DOM Review with Object Oriented Programming."
+  title="1.02a DOM Review with Object Oriented Programming"
+  alt="1.02a DOM Review with Object Oriented Programming."
   style="width:40%" >
 
 <p>Today we're going to be talking about the DOM, or the document object model.</p>
@@ -1202,7 +1213,7 @@ the dom is really going to get quite impressive. But for now, just make
 the small mistakes, learn how to debug the small mistakes, and then that
 way you'll be able to build your confidence slowly. Good luck.</p>
 
-<h2>Trying to Create and Debug Your Own Output</h2>
+<h3>Trying to Create and Debug Your Own Output</h3>
 
 <p>In the previous lecture I showed you how you can create output using
 JavaScript. My code examples are all on CodePen and I have included a
@@ -2046,7 +2057,7 @@ then you go in and test them a lot, your code is going to be a lot
 cleaner and the whole experience will be one that you really enjoy much
 more. So good luck.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="the-history-of-debugging">The History of "Debugging"</h2>
+<h3 id="the-history-of-debugging">The History of "Debugging"</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>If you want to learn more about the history of debugging, here is an
 article that talks about the fact that two different people are credited
@@ -2054,7 +2065,7 @@ with the term, Grace Hopper and Thomas Edison, <a
 href="http://theinstitute.ieee.org/tech-history/technology-history/did-you-know-edison-coined-the-term-bug" 
 rel="noopener noreferrer" target="_blank">History of Debugging</a>.</p>
 
-<h2 id="ch2-code">Link to All of the Code for Week Two</h2>
+<h3 id="ch2-code">Link to All of the Code for Week Two</h3>
 
 <p>The following is a link to all of the code for Week Two. The
 individual files are linked within the modules but the weekly
@@ -2067,9 +2078,8 @@ rel="noopener noreferrer" target="_blank">Week Two Code (CodePen)</a>.</p>
 on your own. For now, I put complete examples in CodePen, but as time
 goes on, I will remove some of the commands to link the code together.
 You will need to work on that part on your own..</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2">Week 2: Functions</h2>
+<h2 id="ch2">Week 2: Reacting to Your Audience (Functions &amp; Events)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The next module on functions is crucial to any type of programming
 that you may do in the future. The reason that programming languages
@@ -2089,6 +2099,18 @@ Functions</a>.</p>
 distinction between <em><strong>defining</strong></em> a function
 (writing the code) and <em><strong>calling</strong></em> a function
 (running the code at the precise time you want it to happen).</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch2-obj">2.00 Learning Objectives</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<ul>
+  <li>Learn about existing resources that use JavaScript to make your page interactive.</li>
+  <li>Write your own JavaScript code to let a person interact with your page.</li>
+  <li>Understand how JavaScript is used to react to user events.</li>
+  <li>Use existing JavaScript code to improve your page.</li>
+  <li>Discuss how JavaScript can introduce accessibility issues.</li>
+  <li>Define the basic concepts of a scripted programming language such as variables, 
+    functions, and blocks of code.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-01">2.01 Functions</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2502,9 +2524,9 @@ most important thing for you right now, is to develop the confidence
 that you can get your JavaScript working, in whatever way, it best suits
 you. Good luck.</p>
 
-<h2>Organizing Your Code</h2>
+<h3>Organizing Your Code</h3>
 
-<h2>Code Placement</h2>
+<h3>Code Placement</h3>
 
 <p>When you write code, it is important to get into the good habits of
 organizing your code. While there are no specific rules about how and
@@ -2750,11 +2772,11 @@ arguments to the function. If you take a look down here, you can see I
 want to call the function called message and I need to send it this Hi
 message.</p>
 
-<p>Well, if I'd done it this way <strong>(&lt;div
-onclick=’message(‘Hi’)’&gt;</strong>) equals message with a single
-quote. And then, what's going to happen when I try to send my screen? As
-soon as I add another single quote the browser goes, that's the end, it
-matches there's your whole string.</p>
+<p>Well, if I'd done it this way <strong>(&lt;div onclick=’message(‘Hi’)’&gt;</strong>) 
+equals message with a single quote. And then, what's going to happen when I try to 
+send my screen? As soon as I add another single quote the browser goes, that's the 
+end, it matches there's your whole string.</p>
+
 <p>If you're going to be matching different strings together, put the
 outer one in double quotes and he inner one in single quotes and it's
 going to make it much easier for your browser to understand what's going
@@ -2775,22 +2797,19 @@ that they're matching up correctly.</p>
   alt="Functions respond to events triggered by onload, onclick, & onresize."
   style="width:50%" >
 
-<p>Let's take a look at what I do with this code right here. I have my
-HTML on one side and my JavaScript function on the other. The JavaScript
-function's pretty simple, all is it going to do is take a string, and
-it's going to update the output element to show whatever that string is
-along with the word event.</p>
+<p>Let's take a look at what I do with this code right here. I have my HTML on one 
+side and my JavaScript function on the other. The JavaScript function's pretty simple, 
+all is it going to do is take a string, and it's going to update the output element to 
+show whatever that string is along with the word event.</p>
 
-<p>Over here in the HTML is where it's going to get a little bit more
-interesting and it's going to be the first time we're using events, I
-have three. I have <strong>onload</strong>, which means hey whenever I
-load this page, I want you to call the message function and send it the
-message load. I have <strong>onresize</strong> which means if I change
-the size of the browser, I want to send a different message and then
-finally the last one is <strong>onclick</strong>. All three of these
-events, <strong>onload, onresize, onclick</strong>, they're all going to
-call the message function, but they're going to call it with three
-different frame runners.</p>
+<p>Over here in the HTML is where it's going to get a little bit more interesting and 
+it's going to be the first time we're using events, I have three. I have 
+<strong>onload</strong>, which means hey whenever I load this page, I want you to call 
+the message function and send it the message load. I have <strong>onresize</strong> 
+which means if I change the size of the browser, I want to send a different message 
+and then finally the last one is <strong>onclick</strong>. All three of these events, 
+<strong>onload, onresize, onclick</strong>, they're all going to call the message 
+function, but they're going to call it with three different frame runners.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 135. onclick triggering (82) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2800,8 +2819,8 @@ different frame runners.</p>
   alt="onclick event triggering."
   style="width:40%" >
 
-<p>Let's take a look at what's going on. As you can see, when I loaded
-the page, it automatically had LOAD event show up.</p>
+<p>Let's take a look at what's going on. As you can see, when I loaded the page, it 
+automatically had LOAD event show up.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 136. call function with onclick event (82) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2898,15 +2917,13 @@ really quite complex.</p>
   alt="Events change the program flow."
   style="width:40%" >
 
-<p>Before JavaScript, for the most part, our programs ran in a linear
-order, it would start at the top and execute each statement step by
-step, one by one and everything was really only executed once. But now
-that we have events, we're really causing the program to what I want to
-say, run continuously. Because soon as I add that event, the DOM is now
-always going to be listening for those events. The API is saying, all
-right I need to wait on click, onclick, onclick. If you add too many
-events to your page, you could conceivably slow down the execution of
-your page.</p>
+<p>Before JavaScript, for the most part, our programs ran in a linear order, it would 
+start at the top and execute each statement step by step, one by one and everything 
+was really only executed once. But now that we have events, we're really causing the 
+program to what I want to say, run continuously. Because as soon as I add that event, 
+the DOM is now always going to be listening for those events. The API is saying, all
+right I need to wait on click, onclick, onclick. If you add too many events to your 
+page, you could conceivably slow down the execution of your page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 143. mouse, keyboard, & frame event (86) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -2964,28 +2981,25 @@ there on the message boards. We're happy to all work as a team to make
 sure that your page is doing the types of cool things that you want it
 to do. Good luck.</p>
 
-<p>This is a great time for you to write some code!!! Open your editor
-(or CodePen) and write a small program that pops up an alert message
-when you load the page. Or better yet, change the content of your page
-to the current Date every time you open the page. Once you are done,
-compare your answer to an example I have here: 
-<a href="http://codepen.io/ColleenEMc/pen/vLEJjq" 
-rel="noopener noreferrer" target="_blank">Answers</a>.</p>
+<p>This is a great time for you to write some code!!! Open your editor (or CodePen) 
+and write a small program that pops up an alert message when you load the page. Or 
+better yet, change the content of your page to the current Date every time you open 
+the page. Once you are done, compare your answer to an example I have here: 
+<a href="http://codepen.io/ColleenEMc/pen/vLEJjq" rel="noopener noreferrer" 
+target="_blank">Answers</a>.</p>
 
-<h2 id="mastering-events-and-functions">Mastering Events and Functions</h2>
+<h3 id="mastering-events-and-functions">Mastering Events and Functions</h3>
 
-<h2 id="events">Events</h2>
+<h3 id="events">Events</h3>
 
-<p>The rest of the material is more and more examples of using Events
-and functions in JavaScript. If you are a little worried that you don't
-understand them after the first module, that is fine. Just read all the
-way through, try to play with some of the code, and then read them
-again. It isn't uncommon for it to take a few weeks to make sense. Since
-we only have four weeks in this course you may find that you are
-sometimes able to make the code work, without fully understanding the
-details. That happens a lot. Programming is something that comes with
-time and practice. And then suddenly the moments of "Hooray" start to
-outnumber the times that you are stuck.</p>
+<p>The rest of the material is more and more examples of using Events and functions in 
+JavaScript. If you are a little worried that you don't understand them after the first 
+module, that is fine. Just read all the way through, try to play with some of the code, 
+and then read them again. It isn't uncommon for it to take a few weeks to make sense. 
+Since we only have four weeks in this course you may find that you are sometimes able 
+to make the code work, without fully understanding the details. That happens a lot. 
+Programming is something that comes with time and practice. And then suddenly the 
+moments of "Hooray" start to outnumber the times that you are stuck.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-05">2.05 Code With Me – Events</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3558,7 +3572,7 @@ there. I hope this is something you're able to grasp much more quickly
 than I did. And I'm going to do my best to give you the examples that
 you can use to master this.</p>
 
-<h2 id="ch2-06-homework">2.06 Homework Time!!</h2>
+<h3 id="ch2-06-homework">2.06 Homework Time!!</h3>
 
 <h3>Overview</h3>
 
@@ -3822,11 +3836,9 @@ or lost, you should stop and ask for some help on the discussion board
 to make sure you're on the right track. But really, I'm hoping that this
 something that you can do, that you can later use if you want to
 incorporate it into your own portfolio. So good luck.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch3-code">Link to All of the Code for Week Three</h2>
+<h3 id="ch3-code">Link to All of the Code for Week Three</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <p>The following is a link to all of the code for Week Three. The
 individual files are linked within the modules but the weekly
 collections may include additional code that you are free to use.</p>
@@ -3841,7 +3853,7 @@ goes on, I will remove some of the commands to link the code together.
 You will need to work and learn that part on your own..</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="arrays">Arrays</h2>
+<h2 id="ch3">Week 3: Arrays and Looping</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Finally!! Now is when I start to explain some of the concepts I said you had 
 to wait for. Hopefully by now you are comfortable with the code.</p>
@@ -3862,7 +3874,6 @@ about these other functions?</p>
 <p>These commands may return zero, one or more Nodes. So now we need to find a 
 way to handle dealing with collections of data, rather than just one thing at a 
 time. This is where Arrays come in. Let's get started.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="resources">Resources</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3883,7 +3894,7 @@ expect you to have from this course. It is optional.</p>
     Array - JavaScript | MDN (shortcut URL)</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="code">Code</h3>
+<h3 id="code">JavaScript Course Code</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>You can find the code at <a
 href="https://intro-webdesign.com/v3/javascript.html#code" 
@@ -3893,7 +3904,6 @@ code is provided for this week's lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="a-javascript-cheat-sheet">A JavaScript Cheat Sheet</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <p>I thought about putting this next link in the optional resources
 section, but it is something I really want people to know about. This
 "Cheat Sheet" covers the major essentials of the JavaScript language.
@@ -4010,7 +4020,7 @@ my_img.setAttribute("tabindex","0")</p>
 <p><b>This is a big hint for the future homework</b></p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch3">Week 3: Arrays</h2>
+<h2 id="ch3">Week 3: Arrays and Looping</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Finally!! Now is when I start to explain some of the concepts I said
 you had to wait for. Hopefully by now you are comfortable with the code</p>
@@ -4031,6 +4041,17 @@ But what about these other functions?</p>
 <p>These commands may return zero, one or more Nodes. So now we need to find a 
 way to handle dealing with collections of data, rather than just one thing at a 
 time. This is where Arrays come in. Let's get started.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch3-obj">3.00 Learning Objectives</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<ul>
+  <li>Learn about existing resources that use JavaScript to make your page interactive.</li>
+  <li>Write your own javascript code to let a person interact with your page.</li>
+  <li>Understand how JavaScript is used to react to user events.</li>
+  <li>Use existing JavaScript code to improve your page.</li>
+  <li>Define the basic concepts of a scripted programming language such as variables, 
+    functions, and blocks of code.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-01">3.01 JavaScript Arrays</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5434,7 +5455,7 @@ sharing settings.</p>
   <li>A link to your hosted project.</li>
 </ul>
 
-<h3>4.05b Navigating the Gallery</h3>
+<h3 id="ch4-05b">4.05b Navigating the Gallery</h3>
 
 <p>Scroll through the submissions to see the various examples that your peers have 
 shared. You can also sort the examples by using the available filters near the top 
