@@ -8,8 +8,7 @@ html {
 body {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;
   background-color: #fdfdfd;  /* very light gray (mostly white) */
-  margin: 0 auto;
-  max-width: 100em;
+  max-width: 120em;  /* 100em */
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
