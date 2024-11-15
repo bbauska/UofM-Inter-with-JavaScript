@@ -25,6 +25,7 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href="https://inter-js.bauska.org/" />
 <!--~~~~~~~~~~~~~~~~~~~~~~ index.html of uofm-inter-with-javascript (01) ~~~~~~~~~~~~~~~~~~~~~~~-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" >
   <meta name="title" content="University of Michigan's Interactivity with JavaScript">
@@ -34,6 +35,9 @@
     you're new to programming, there is an expectation that you know HTML 5 and CSS. 
     If you don't, you're really going to want to go back and review those two areas
     because everything with JavaScript in this class is based on web programming." >
+  <meta name="keywords" content="University of Michigan's Interactivity with JavaScript, 
+    UofM's Interactivity, UofM, JavaScript, JS, Interactivity, Michigan, University, Web" />
+  <meta name="robot" content="index, follow">
   <title>UofM's Interactivity with JS</title>
   <link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
@@ -64,7 +68,7 @@
 </script>
 <header id="title-block-header">
   <h1 style="text-align:center;">U of Michigan's Interactivity with JavaScript</h1>
-  <h6 style="text-align:center;">taught by Colleen van Lent, PhD.</h6>
+  <div style="text-align:center;"><small>taught by Colleen van Lent, PhD.</small></div>
 </header>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~ 01/02. javascript at u of michigan logo, u of michigan logo (01) ~~~~~~~~~~~~~~-->
@@ -199,8 +203,8 @@ we have. We will focus on the following:</p>
 JavaScript has a lot of uses, but we're really going to focus on how we can use JavaScript 
 to add interactivity to your web design pages. While I'm assuming that you're new to 
 programming, there is an expectation that you know HTML 5 and CSS. If you don't, you're 
-really going to want to go back and review those two areas because everything we with 
-JavaScript in this class is based on web programming.</p>
+going to want to go back and review those two areas because everything with JavaScript is 
+based on web programming.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. what you can do with it (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -213,13 +217,14 @@ JavaScript in this class is based on web programming.</p>
 <p>If you've done HTML, if you've done CSS, you haven't necessarily done what we 
 call real programming, at least not what us computer scientists call real programming. 
 Instead, we're going to be talking in JavaScript about really definite data manipulation, 
-and in order to do that, there are a few things you need to learn how to do. The 
-first is, you want to learn how to store variables. You're going to want to learn 
-how to set decision points, you're going to be looping and writing functions, you're 
-also going to be really getting in-depth with how you can get data from the browser.</p>
-<p>Did you know that every time you load a web page, you can actually get back 
-the title of the page, the URL of your page, a lot of different information that 
-you know is there, but you can't always see at first glance?</p>
+and in order to do that, there are a few things you need to learn first. You want to 
+learn how to store variables. You're going to want to learn how to set decision points, 
+you're going to be looping and writing functions, you're also going to be getting 
+in-depth with how you can get data from the browser.</p>
+
+<p>Did you know that every time you load a web page, you can get back the title of the 
+page, the URL of your page, and a lot of different information that you know is there, 
+but you can't always see at first glance?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. what you can do with it, #2 (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -269,8 +274,8 @@ other cases, I want to do that. We call this decision points.</p>
   style="width:40%" >
 
 <p>We can also do looping. Looping is really powerful. As your programs get bigger, there's 
-certain things you'll want to do over and over again, but you really don't want to write 
-code over and over and over again. In computer science, we use something called looping to 
+certain things you'll want to do over and over again, but you don't want to write code 
+over and over and over again. In computer science, we use something called looping to 
 control the program and say, see that little bit of code over there? We want to do that 
 five times, or ten times, or we want to keep doing it until the human does what we want 
 them to do.</p>
@@ -352,7 +357,7 @@ For now, I put complete examples in CodePen, but as time goes on, I will remove 
 of the commands to link the code together. You will need to work on that part on your 
 own...</p>
 
-<h2>The Document Object Model (DOM)</h2>
+<h2 id="ch1-dom">The Document Object Model (DOM)</h2>
 
 <h3 id="examples">Examples:</h3>
 
@@ -1088,11 +1093,10 @@ console.log</span> Hello World. Nothing too exciting going on here.</p>
   alt="Debug, inspect and console."
   style="width:40%" >
 
-<p>But if you look at the actual browser, hm, it's not there. It doesn't
-show up like it did with document.ray. Where did it go? Well, it's
-actually in the Console of your browser. I'm going to go down here. I
-did inspect element, and I checked the Console. Oh, you can see Hello
-World showed up here.</p>
+<p>But if you look at the actual browser, hm, it's not there. It doesn't show up like 
+it did with document.ray. Where did it go? Well, it's actually in the Console of your 
+browser. I'm going to go down here. I did inspect element, and I checked the Console. 
+Oh, you can see Hello World showed up here.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. debug using inspect (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -1104,14 +1108,13 @@ World showed up here.</p>
 
 <h4>What happens if I change the code to Hello World Too.</h4>
 
-<p>You’re sending yourself these little secret messages that can help
-you debug your code. You can log things, you can leave little notes for
-yourself, you can do debugging tests. You can even log the things that
-other people have been writing in. And so, this is a really handy tool
-if you want to do development but not let everyone see exactly what you
-are doing. We're going to come back to this example in just a second,
-but first I want to talk to you about why you should be utilizing the
-console by now, if you haven't.</p>
+<p>You’re sending yourself these little secret messages that can help you debug your 
+code. You can log things, you can leave little notes for yourself, you can do debugging 
+tests. You can even log the things that other people have been writing in. And so, this 
+is a really handy tool if you want to do development but not let everyone see exactly 
+what you are doing. We're going to come back to this example in just a second, but first 
+I want to talk to you about why you should be utilizing the console by now, if you 
+haven't.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51. the console (32) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -1121,10 +1124,9 @@ console by now, if you haven't.</p>
   alt="The console."
   style="width:40%" >
 
-<p>The console does more than just take these print statements. It also
-provides debugging information for JavaScript, HTML, and CSS. By going
-in and looking at it, you're going to be able to help yourself become a
-much better programmer.</p>
+<p>The console does more than just take these print statements. It also provides 
+debugging information for JavaScript, HTML, and CSS. By going in and looking at it, 
+you're going to be able to help yourself become a much better programmer.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 52. console.log debugging (33) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -1134,10 +1136,9 @@ much better programmer.</p>
   alt="Debugging console.log."
   style="width:40%" >
 
-<p>Let's take a look at just doing some debugging with the JavaScript.
-I'm going to go in here and I'm going to accidentally forget to put in
-my first quotes, all right. But if we didn't know that there's anything
-going on or that anything is supposed to show up.</p>
+<p>Let's take a look at just doing some debugging with the JavaScript. I'm going to go 
+in here and I'm going to accidentally forget to put in my first quotes, all right. But 
+if we didn't know that there's anything going on or that anything is supposed to show up.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 53. console error in red (33) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -4382,7 +4383,7 @@ lessons.</p>
 
 <ul>
   <li><a href="https://validator.w3.org/" rel="noopener noreferrer" target="_blank">
-  The W3C Markup Validation Service Tool</a>.<br>
+  The W3C Markup Validation Service Tool</a><br>
   This validator checks the markup validity of web documents.</li>
   <li><a href="https://wave.webaim.org/" rel="noopener noreferrer" target="_blank">
   WAVE Web Accessibility Evalution Tool</a><br>
@@ -4423,7 +4424,11 @@ numbers 0..4 would be displayed on the console.</p>
   console.log(i) 
 }</code></pre>
 
-This is a very basic loop and doesn't do anything that exciting.  But think about how we can combine it to use the knowledge we have learned about the DOM.  Suppose that someone on your team has styled a new class called thumbnail and you want to use it.   In the code below you can see how quick and easy it would be to add this new class to every image.
+<p>This is a very basic loop and doesn't do anything that exciting.  But think about how 
+we can combine it to use the knowledge we have learned about the DOM.  Suppose that 
+someone on your team has styled a new class called thumbnail and you want to use it. 
+In the code below you can see how quick and easy it would be to add this new class to 
+every image.</p>
 
 <pre><code>my_images = document.querySelectorAll("img")
   for (let i = 0; i &lt; my_images.length; i++) {
@@ -4432,18 +4437,15 @@ This is a very basic loop and doesn't do anything that exciting.  But think abou
   
 <h3 id="ch4.00-add">Advanced Coding Techniques</h3>
 
-<p>In the next few lectures, we will talk about more advanced coding
-techniques. Any programming language has the general ability to loop
-(run the same code multiple times) and to make decisions during "run
-time." The important thing to know is that while the concepts are the
-same among programming languages, they all do it a little differently.
-Some use parentheses, some don't. Some rely on indentation, others
-don't.</p>
+<p>In the next few lectures, we will talk about more advanced coding techniques. Any 
+programming language has the general ability to loop (run the same code multiple times) 
+and to make decisions during "run time." The important thing to know is that while the 
+concepts are the same among programming languages, they all do it a little differently.
+Some use parentheses, some don't. Some rely on indentation, others don't.</p>
 
-<p>The important thing is to understand the LOGIC. Doing just the
-examples we provide here aren't enough, you will want to change your
-code to come up with new decisions and different criteria to test
-different situations.</p>
+<p>The important thing is to understand the LOGIC. The examples we provide here aren't 
+enough, you will want to change your code to come up with new decisions and different 
+criteria to test different situations.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-01">4.01 Code With Me: Randomizing Your Images Using Arrays (8:10)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5520,8 +5522,9 @@ boards mentoring each other and encouraging each other. Good luck.</p>
   alt="Thank you!"
   style="width:40%" >
 
-  <h6>…the end</h6>
-  <h6>Last updated 6/18/24 11+ pm</h6>
+  <small>…the end</small><br/>
+  <small>Last updated 6/18/24 11+ pm</small><br/>
+  <small>Last updated 11/14/24 6+ pm</small><br/>
 
   </body>
 
