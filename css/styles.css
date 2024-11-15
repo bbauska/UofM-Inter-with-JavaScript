@@ -170,6 +170,9 @@ p {
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* line items */
+ul, ol {
+  list-style-position:inside;
+}
 ul li { 
   padding: 10px;
   line-height: 130%;
@@ -221,33 +224,30 @@ details[open] > summary {
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* added 11/06/2023 */
 .box-wrap {
-    width: 100%;
-    height: auto;
-    margin: 20px 0 0 0;
-    -webkit-box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
-    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
-}
-ul, ol {
-    list-style-position:inside;
+  width: 100%;
+  height: auto;
+  margin: 20px 0 0 0;
+  -webkit-box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
 }
 
-    html {
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
-    body {
-      margin: 0 auto;
-      max-width: 100em;
-      padding-left: 15px;
-      padding-right: 15px;
-      padding-top: 15px;
-      padding-bottom: 15px;
-      hyphens: auto;
-      overflow-wrap: break-word;
-      text-rendering: optimizeLegibility;
-      font-kerning: normal;
-    }
+html {
+  color: #1a1a1a;
+  background-color: #fdfdfd;
+}
+body {
+  margin: 0 auto;
+  max-width: 100em;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+}
 
 @media print {
   html {
