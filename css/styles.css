@@ -1,13 +1,23 @@
 /* styles.css in uofm-inter-with-jt = inter-js.bauska.org */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* body */
+html {
+  color: #1a1a1a;  /* very dark gray (mostly black) */
+  background-color: #fdfdfd;  /* very light gray (mostly white) */
+}
 body {
-  font-size: 15px;  /* 1.2rem */
-  background-color: #eeeeee;  /* very light gray */
-  color: #000000;  /* black */
-  margin: 15px;
-  padding: 10px;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;
+  background-color: #fdfdfd;  /* very light gray (mostly white) */
+  margin: 0 auto;
+  max-width: 100em;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* images */
@@ -230,23 +240,6 @@ details[open] > summary {
   -webkit-box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
   box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
-}
-
-html {
-  color: #1a1a1a;
-  background-color: #fdfdfd;
-}
-body {
-  margin: 0 auto;
-  max-width: 100em;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  hyphens: auto;
-  overflow-wrap: break-word;
-  text-rendering: optimizeLegibility;
-  font-kerning: normal;
 }
 
 @media print {
