@@ -126,12 +126,12 @@ a[href]:hover {
   text-decoration: underline; 
 }
 a:link {
-  color: #093909;
+  color: #20BB20;  /* 093903 */
   background-color: transparent;
   text-decoration: underline;
 }
 a:visited {
-  color: #093909;
+  color: #20BB20;  /* 093909 */
   background-color: #ffffff;
   text-decoration: none;
 }
