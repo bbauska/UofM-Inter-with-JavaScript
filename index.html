@@ -154,7 +154,6 @@ project.</p>
 </blockquote>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1">Week 1: Data Types - Welcome to Introduction to JavaScript</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>This course is an introduction to the use of the JavaScript programming language to add 
@@ -503,30 +502,27 @@ the different links in the document, the document background color. If there's a
 attribute you've used to style your page, you can find it using JavaScript in the
 API.</p>
 
-<p>The next kind of concept we talk about is an element, or a node in
-the tree. If you remember, I drew that you can have the body, and inside
-the body you could have divs, paragraphs, links, list items. Each one of
-those is a node in the tree. And you can find it using the API.</p>
+<p>The next kind of concept we talk about is an element, or a node in the tree. If you 
+remember, I drew that you can have the body, and inside the body you could have divs, 
+paragraphs, links, list items. Each one of those is a node in the tree. And you can find 
+it using the API.</p>
 
-<p>Sometimes, though, it can be a little bit more complicated than just
-returning a single element. What if you wanted to find all of the
-children of one particular ordered list, or un-ordered list? Well, in
-that case, instead of returning a single element, sometimes it's
-returned a node list, or an array of elements.</p>
+<p>Sometimes, though, it can be a little bit more complicated than just returning a 
+single element. What if you wanted to find all of the children of one particular ordered 
+list, or un-ordered list? Well, in that case, instead of returning a single element, 
+sometimes it's returned a node list, or an array of elements.</p>
 
-<p>For instance, there's this one API that we can use, called document
-that get element by tag name, and you can give it any element you want.
-So, p, or a list item. Well, there's a really good chance that there's
-more than one paragraph in your page. You return all of them together.
-This is how we're going to be using arrays later in the course, probably
-around week three, to help you understand how to deal with an overload
+<p>For instance, there's this one API that we can use, called document that get element 
+by tag name, and you can give it any element you want. So, p, or a list item. Well, 
+there's a really good chance that there's more than one paragraph in your page. You 
+return all of them together. This is how we're going to be using arrays later in the 
+course, probably around week three, to help you understand how to deal with an overload
 of information.</p>
 
-<p>Finally, the important thing I need you to remember is that in the
-Dom there are attributes. You have your elements and every element
-probably has one or more attributes that go with it. So, an image for
-image element, it would have a source, it would have alt text, it would
-have width, and a style, different things like that.</p>
+<p>Finally, the important thing I need you to remember is that in the DOM there are 
+attributes. You have your elements and every element probably has one or more attributes 
+that go with it. So, an image for image element, it would have a source, it would have 
+alt text, it would have width, and a style, different things like that.</p>
 
 <p>Attributes are the kind of cool things that we want you to be able to
 change to make your page look different.</p>
@@ -539,24 +535,21 @@ change to make your page look different.</p>
   alt="Specific APIs."
   style="width:40%" >
 
-<p>Okay, so if you understand that the page is made up of documents, and
-elements, and attributes, I'm hoping this side will make a little bit
-more sense. For a view of a document, you can say you know that I want
-to get a certain element using the id. You can also say oh I've got this
-document grab all the elements that happen to be a paragraph or a link.
-Now this one's new, this idea of element.inner.HTML.</p>
+<p>Okay, so if you understand that the page is made up of documents, and elements, and 
+attributes, I'm hoping this side will make a little bit more sense. For a view of a 
+document, you can say you know that I want to get a certain element using the id. You 
+can also say oh I've got this document grab all the elements that happen to be a 
+paragraph or a link. Now this one's new, this idea of element.inner.HTML.</p>
 
-<p>A paragraph is an element and you assume there is some sort of text
-inside that paragraph. Well, if you've been coding HTML or CSS, you
-probably might be thinking, when I use the paragraph tag, I never saw an
-inner HTML attribute. You wouldn't have. This is part of the API, but
-you can use this to change the content of any element. You can also
-change the element style, and you can even add additional attributes to
-any element that the DOM can grab.</p>
+<p>A paragraph is an element and you assume there is some sort of text inside that 
+paragraph. Well, if you've been coding HTML or CSS, you probably might be thinking, 
+when I use the paragraph tag, I never saw an inner HTML attribute. You wouldn't have. 
+This is part of the API, but you can use this to change the content of any element. You 
+can also change the element style, and you can even add additional attributes to any 
+element that the DOM can grab.</p>
 
-<p>Finally, an interesting one that you may or may not use, is you can
-even remove attributes. If something has a certain color, you can get
-rid of that if you want.</p>
+<p>Finally, an interesting one that you may or may not use, is you can even remove 
+attributes. If something has a certain color, you can get rid of that if you want.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. review (1.02) (16) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="border displayed"
@@ -566,21 +559,18 @@ rid of that if you want.</p>
   alt="1.02 Review: DOM Review with Object Oriented Programming."
   style="width:40%" >
 
-<p>I know that there was a lot I went over in this slide that maybe
-didn't make a lot of sense to you yet. That's okay. That's the point of
-this class. It's so that the end of this course, you can go back to this
-slide, and you can say, oh great, I've mastered this. I'm beginning to
-understand that learning JavaScript doesn't mean that I know how to code
-everything by hand, it means that I know that there's something called
-an API and I know how I can use it to make my page a little bit
-better.</p>
+<p>I know that there was a lot I went over in this slide that maybe didn't make a lot of 
+sense to you yet. That's okay. That's the point of this class. It's so that the end of 
+this course, you can go back to this slide, and you can say, oh great, I've mastered 
+this. I'm beginning to understand that learning JavaScript doesn't mean that I know how 
+to code everything by hand, it means that I know that there's something called an API and 
+I know how I can use it to make my page a little bit better.</p>
 
-<p>We're going to start slow, and the most important part to me is for
-you to feel comfortable searching for information on the web. I'll be
-able to teach you a little bit, I can show you some of the main methods
-and API's and different things like that. But I want you to code with me
-and then make sure you go off and you try to change things just a little
-bit until your confidence is really up there. Good luck.</p>
+<p>We're going to start slow, and the most important part to me is for you to feel 
+comfortable searching for information on the web. I'll be able to teach you a little 
+bit, I can show you some of the main methods and API's and different things like that. 
+But I want you to code with me and then make sure you go off and you try to change things 
+just a little bit until your confidence is really up there. Good luck.</p>
 
 <h3>Accessing the DOM Methods</h3>
 
@@ -5554,10 +5544,10 @@ boards mentoring each other and encouraging each other. Good luck.</p>
   alt="Thank you!"
   style="width:40%" >
 
-  <small>…the end</small><br/>
+  <p><small>…the end</small><br/>
   <small>First created 9/15/23 10+ pm</small><br/>
   <small>Prior updated 6/18/24 11+ pm</small><br/>
-  <small>Last updated 11/14/24 6+ pm</small><br/>
+  <small>Last updated 11/14/24 6+ pm</small></p>
 
   </body>
 
