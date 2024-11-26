@@ -24,7 +24,7 @@ output:
     Ph.D. (lecturer, school of information)"
   alt="Interactivity with JavaScript by Colleen van Lent, 
     Ph.D. (lecturer, school of information)."
-nbsp;nbsp;nbsp;
+&nbsp;&nbsp;&nbsp;
 <img src="./images/image002.webp?raw=true"
   style="width:25%;"
   title="University of Michigan logo"
@@ -343,7 +343,7 @@ everything we with JavaScript in this class is based on web programming.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. what you can do with js (05) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image004.webp?raw=true"
-  style="width:40%;"
+  style="width:45%;"
   title="What you can do with JavaScript, #1"
   alt="What you can do with JavaScript, #1." />
 </p>
@@ -365,7 +365,7 @@ glance?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 05. what you can do with js, #2 (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image005.webp?raw=true"
-  style="width:40%;"
+  style="width:45%;"
   title="What you can do with JavaScript, #2"
   alt="What you can do with JavaScript, #2." />
 </p>
@@ -384,11 +384,10 @@ while, don&apos;t worry. We&apos;re going to review the DOM in a future lecture.
   alt="Variables: Store data and refer back to it later." />
 </p>
 
-Let&apos;s start with variables. In computer science, we use variables in
-order to store information. Your program isn&apos;t going to be very
-exciting if you ask somebody their name and then you can&apos;t actually use
-that name later on. You&apos;re going to find out how to get information
-from the user, and then store it so you can use it later.
+Let&apos;s start with variables. In computer science, we use variables in order to store 
+information. Your program isn&apos;t going to be very exciting if you ask somebody their 
+name and then you can&apos;t actually use that name later on. You&apos;re going to find 
+out how to get information from the user, and then store it so you can use it later.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. decision points (07) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -508,7 +507,6 @@ will need to work on that part on your own..
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch-1b">1.02b The Document Object Model (DOM)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <h3>Examples:</h3>
 
 <https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Examples>
