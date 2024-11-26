@@ -5471,53 +5471,43 @@ assignment, I hope you will learn from seeing the different approaches.
 
 <h3>Auditing</h3>
 
-Your project will be audited by the careful examination of your code by
-yourself as well as the  [The W3C Markup Validation Service
-Tool](https://validator.w3.org/) and the [WAVE Web Accessibility
-Evaluation Tool](https://wave.webaim.org/).
+Your project will be audited by the careful examination of your code by yourself as well 
+as the  [The W3C Markup Validation Service Tool](https://validator.w3.org/) and the 
+[WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/).
 
-Yourself will look for the required functionality using both the mouse
-and a keyboard.
+Yourself will look for the required functionality using both the mouse and a keyboard.
 
--   There are at least six images
+-   There are at least six images.
 
--   Each image has unique alternative text
+-   Each image has unique alternative text.
 
--   When the mouse is over a smaller image the large image is updated
-    with the alt text.
+-   When the mouse is over a smaller image the large image is updated with the alt text.
 
--   When the smaller image is in focus the large image is updated with
-    the alt text.
+-   When the smaller image is in focus the large image is updated with the alt text.
 
--   When the mouse is over a smaller image the large image is updated
-    with the proper background image.
+-   When the mouse is over a smaller image the large image is updated with the proper 
+    background image.
 
--   When the smaller image is in focus the large image is updated with
-    the proper background image.
+-   When the smaller image is in focus the large image is updated with the proper 
+    background image.
 
--   When the mouse is removed from a smaller image the large image is
-    updated with the original text.  (Hardcoding is expected here.)
+-   When the mouse is removed from a smaller image the large image is updated with the 
+    original text. (Hardcoding is expected here.)
 
--   When the focus is removed from the smaller image (when it is in the
-    blur state) the large image is updated with the original text. 
-    (Hardcoding is expected here.)
+-   When the focus is removed from the smaller image (when it is in the blur state) the 
+    large image is updated with the original text. (Hardcoding is expected here.)
 
--   When the mouse is removed from a smaller image the background for
-    the large image is updated to an empty URL.  (Hardcoding is expected
-    here.)
+-   When the mouse is removed from a smaller image the background for the large image is 
+    updated to an empty URL. (Hardcoding is expected here.)
 
--   When the focus is removed from the smaller image (when it is in the
-    blur state) the background for the large image is updated to an
-    empty URL.  (Hardcoding is expected here.)
+-   When the focus is removed from the smaller image (when it is in the blur state) the 
+    background for the large image is updated to an empty URL.  (Hardcoding is expected here.)
 
--   The tabindex property was added using JavaScript, not hardcoded into
-    the HTML.
+-   The tabindex property was added using JavaScript, not hardcoded into the HTML.
 
--   The site returns no errors from the [The W3C Markup Validation
-    Service Tool](https://validator.w3.org/)
+-   The site returns no errors from the [The W3C Markup Validation Service Tool](https://validator.w3.org/)
 
--   The site returns no errors from the [WAVE Web Accessibility
-    Evaluation Tool](https://wave.webaim.org/)
+-   The site returns no errors from the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-04z">4.04 Final Project Description</h3>
@@ -5540,48 +5530,43 @@ Hi everyone. Let&apos;s talk about the final project.
   alt="Expanding the photo gallery with tabindex." />
 </p>
 
-In an earlier assignment, you added the ability to hover over images and
-display their source and alt texts in a different div. In this
-assignment, you&apos;re going to expand upon that same project. But now you
-are going to use at least six of your own images, and we&apos;re going to
-make it an accessible site by incorporating tabindex as well. I&apos;m going
-to add some additional requirements that you cannot change the HTML to
-add tabindex, you must use JavaScript looping to add the attribute, and
-just as we wrote a 'Undo' for when we were on <b>mouseout</b> and we did
-like change when your <b>mouseover</b>. Now, you are going to use the focus
-and blur events so that keyboard users have the same capabilities as any
-mouse users.
+In an earlier assignment, you added the ability to hover over images and display their 
+source and alt texts in a different div. In this assignment, you&apos;re going to expand 
+upon that same project. But now you are going to use at least six of your own images, and 
+we&apos;re going to make it an accessible site by incorporating tabindex as well. I&apos;m 
+going to add some additional requirements that you cannot change the HTML to add tabindex, 
+you must use JavaScript looping to add the attribute, and just as we wrote a 'Undo' for 
+when we were on <b>mouseout</b> and we did like change when your <b>mouseover</b>. Now, 
+you are going to use the focus and blur events so that keyboard users have the same 
+capabilities as any mouse users.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 267/268. on hover, expand image with alt text (159) ~~~~~~~~~~~~~~~~~~~~-->
-<p align="center">
+<p align="center" width="100%">
 <img src="./images/image267.webp?raw=true"
   style="width:45%;"
   title="On hover, expand image"
   alt="On hover, expand image." />
-nbsp;nbsp;nbsp;
 <img src="./images/image268.webp?raw=true"
   style="width:45%;"
   title="On hover, display alt text"
   alt="On hover, display alt text." />
 </p>
 
-Let me show you an example. Again, in your earlier example, there were
-just three images, and I gave you those images.
+Let me show you an example. Again, in your earlier example, there were just three images, 
+and I gave you those images.
 
-When I would put my mouse over, we would get the updated image and the
-alt text. When I took my mouse off, we would get back to the original,
-over, out, over, out. In the new version, you will add at least three
-additional images of your own for total of six images, and we&apos;re going
-to use the Tab key to that people can use the same type of functionality
-as with the mouse.
+When I would put my mouse over, we would get the updated image and the alt text. When I 
+took my mouse off, we would get back to the original, over, out, over, out. In the new 
+version, you will add at least three additional images of your own for total of six 
+images, and we&apos;re going to use the Tab key to that people can use the same type of 
+functionality as with the mouse.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 269/270. example, images to tab through with events (160) ~~~~~~~~~~~~~~~~~-->
-<p align="center">
+<p align="center" width="100%">
 <img src="./images/image269.webp?raw=true"
   style="width:45%;"
   title="Example, images to tab through with events, Styling with a Bandana."
   alt="Example, images to tab through with events, Styling with a Bandana." />
-nbsp;nbsp;nbsp;
 <img src="./images/image270.webp?raw=true"
   style="width:45%;"
   title="More images to tab through with events, With My Boy."
@@ -5589,12 +5574,11 @@ nbsp;nbsp;nbsp;
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 271/272. example, tab through and watch events (160) ~~~~~~~~~~~~~~~~~~~-->
-<p align="center">
+<p align="center" width="100%">
 <img src="./images/image271.webp?raw=true"
   style="width:45%;"
   title="Example, tab through images and watch events"
   alt="Example, tab through images and watch events." />
-nbsp;nbsp;nbsp;
 <img src="./images/image272.webp?raw=true"
   style="width:45%;"
   title="Again, tab through and watch events"
