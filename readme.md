@@ -17,14 +17,14 @@ output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of uofm-inter-with-js ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 01/02. interactivity with js by university of michigan (01) ~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p align="center">
 <img src="./images/image001.webp?raw=true"
   style="width:15%;"
   title="Interactivity with JavaScript by Colleen van Lent, 
     Ph.D. (lecturer, school of information)"
   alt="Interactivity with JavaScript by Colleen van Lent, 
     Ph.D. (lecturer, school of information)."
-nbsp;nbsp;nbsp;nbsp;nbsp;
+nbsp;nbsp;nbsp;
 <img src="./images/image002.webp?raw=true"
   style="width:25%;"
   title="University of Michigan logo"
@@ -4960,7 +4960,7 @@ that there&apos;s a number of ways to get started.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 239/240. lightbox 2, github (143) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p align="center">
 <img src="./images/image239.webp?raw=true"
   style="width:45%;"
   title="Lightbox 2, in github"
@@ -5067,7 +5067,7 @@ just a kind of shortened version of the neighborhood.html, so we won&apos;t
 worry about it too much.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 246. dist/css/lightbox.css (146) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p align="center">
 <img src="./images/image246.webp?raw=true"
   style="width:50%;"
   title="Add dist/css/lightbox.css"
@@ -5085,7 +5085,7 @@ broken, if it was my code or their code. All I&apos;ve really done is add
 this dist folder right here, let&apos;s close up the folder.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~ 247/248. link stylesheet, dist/css/lightbox.css & dist/js/lightbox-plus-jquery.js (147) ~~-->
-<p align="center" width="100%">
+<p align="center">
 <img src="./images/image247.webp?raw=true"
   style="width:45%;"
   title="Link stylesheet, dist/css/lightbox.css"
@@ -5553,12 +5553,12 @@ and blur events so that keyboard users have the same capabilities as any
 mouse users.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 267/268. on hover, expand image with alt text (159) ~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p align="center">
 <img src="./images/image267.webp?raw=true"
   style="width:45%;"
   title="On hover, expand image"
   alt="On hover, expand image." />
-nbsp;nbsp;nbsp;nbsp;nbsp;
+nbsp;nbsp;nbsp;
 <img src="./images/image268.webp?raw=true"
   style="width:45%;"
   title="On hover, display alt text"
@@ -5576,12 +5576,12 @@ to use the Tab key to that people can use the same type of functionality
 as with the mouse.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 269/270. example, images to tab through with events (160) ~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p align="center">
 <img src="./images/image269.webp?raw=true"
   style="width:45%;"
   title="Example, images to tab through with events, Styling with a Bandana."
   alt="Example, images to tab through with events, Styling with a Bandana." />
-nbsp;nbsp;nbsp;nbsp;nbsp;
+nbsp;nbsp;nbsp;
 <img src="./images/image270.webp?raw=true"
   style="width:45%;"
   title="More images to tab through with events, With My Boy."
@@ -5589,12 +5589,12 @@ nbsp;nbsp;nbsp;nbsp;nbsp;
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 271/272. example, tab through and watch events (160) ~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p align="center">
 <img src="./images/image271.webp?raw=true"
   style="width:45%;"
   title="Example, tab through images and watch events"
   alt="Example, tab through images and watch events." />
-nbsp;nbsp;nbsp;nbsp;nbsp;
+nbsp;nbsp;nbsp;
 <img src="./images/image272.webp?raw=true"
   style="width:45%;"
   title="Again, tab through and watch events"
@@ -5748,6 +5748,7 @@ laptop or phone.
   title="What next? Practice, practice, practice"
   alt="What next? Practice, practice, practice." />
 </p>
+
 So, what should you do next then? Well, I hope you continue to practice
 your skills, because unlike HTML, and CSS, and some other components of
 web design, with JavaScript, if you don&apos;t use it, you&apos;re absolutely
